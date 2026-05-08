@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuppTime — Your Wellness, Timed to Perfection.</title>
+    <meta name="description"
+        content="The most intuitive way to track your vitamins and supplements across iPhone and Apple Watch." />
+    <link rel="icon" type="image/png" href="assets/watchos.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Pretendard:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="i18n.js"></script>
+</head>
+
+<body class="lang-en">
+    <div class="page">
+        <nav class="nav" id="nav">
+            <div class="nav-inner">
+                <a href="#top" class="brand">
+                    <span class="brand-mark" style="width: 32px; height: 32px;">
+                        <img src="assets/watchos.png" alt="SuppTime" />
+                    </span>
+                    <span class="brand-name">SuppTime</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#features" data-i18n="nav.features">Features</a>
+                    <a href="#watch" data-i18n="nav.watch">Apple Watch</a>
+                    <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
+                </div>
+                <div class="nav-tools">
+                    <div style="position: relative;" id="lang-switcher">
+                        <button class="lang-btn" id="lang-btn" aria-label="Language">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path
+                                    d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                            </svg>
+                            <span style="font-weight: 600" id="current-lang-code">EN</span>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="lang-menu lang-menu-tall" id="lang-menu" style="display: none;">
+                            <!-- populated by JS -->
+                        </div>
+                    </div>
+                    <a href="#download" class="btn btn-primary btn-sm">
+                        <span data-i18n="nav.download">Download</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14m-8-6 6 6-6 6" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Hero -->
+            <section class="hero" id="top">
+                <div class="hero-bg" aria-hidden="true">
+                    <div class="hero-blob hero-blob-1"></div>
+                    <div class="hero-blob hero-blob-2"></div>
+                    <div class="hero-grid"></div>
+                </div>
+                <div class="hero-inner">
+                    <div class="hero-copy">
+                        <div class="hero-ratings rise-2">
+                            <div class="stars">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            </div>
+                            <span data-i18n="hero.rating">5.0 Rating on App Store</span>
+                        </div>
+                        <h1 class="h1">
+                            <span class="h1-l1" data-i18n="hero.headline_1">Your wellness,</span>
+                            <span class="h1-l2" data-i18n="hero.headline_2">timed to perfection.</span>
+                        </h1>
+                        <p class="lede" data-i18n="hero.sub">You spend a fortune on supplements. Don't let them go to waste by mixing the wrong ones or forgetting a dose. Maximize your absorption with science-backed timing and smart interaction alerts.</p>
+                        <div class="hero-ctas">
+                            <a href="https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156" class="as-btn">
+                                <span class="as-btn-glyph">
+                                    <svg viewBox="0 0 384 512" style="width: 28px; height: 32px;" preserveAspectRatio="xMidYMid meet" fill="currentColor">
+                                        <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+                                    </svg>
+                                </span>
+                                <span class="as-btn-text">
+                                    <span class="as-btn-top" data-i18n="cta.appstore_top">Download on the</span>
+                                    <span class="as-btn-bottom" data-i18n="cta.appstore_bottom">App Store</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="hero-meta">
+                            <div class="meta-row">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ff9500"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" />
+                                </svg>
+                                <span data-i18n="hero.meta1">Science-based timing</span>
+                            </div>
+                            <span class="meta-sep"></span>
+                            <div class="meta-row">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#34c759"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Zm-3-10 2 2 4-4" />
+                                </svg>
+                                <span data-i18n="hero.meta2">On-device privacy</span>
+                            </div>
+                            <span class="meta-sep"></span>
+                            <div class="meta-row">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="#ff2d55" stroke="#ff2d55"
+                                    stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                                </svg>
+                                <span data-i18n="hero.meta3">Works with Apple Health</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-shot-wrap">
+                        <div class="hero-shot-glow"></div>
+                        <div class="float-chip float-chip-1">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" />
+                            </svg>
+                            <span data-i18n="hero.meta1">Science-based timing</span>
+                        </div>
+                        <div class="hero-shot-card">
+                            <img data-lang-img="1" src="screens/en/1.jpg" alt="SuppTime" class="hero-shot" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features -->
+            <section class="section" id="features">
+                <div class="section-head">
+                    <div class="eyebrow eyebrow-dark">
+                        <span class="eyebrow-dot"></span>
+                        <span data-i18n="features.eyebrow">Why SuppTime</span>
+                    </div>
+                    <h2 class="h2" data-i18n-html="features.title">Right pill.<br />Right time.</h2>
+                    <p class="section-sub" data-i18n="features.sub">Most supplements only work when you time them right.
+                        SuppTime tells you exactly when — and reminds you to follow through.</p>
+                </div>
+                <div class="features-grid" id="features-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Gallery -->
+            <section class="section section-gallery" id="screens">
+                <div class="section-head section-head-center">
+                    <div class="eyebrow eyebrow-dark">
+                        <span class="eyebrow-dot"></span>
+                        <span data-i18n="cta.appstore_bottom">App Store</span>
+                    </div>
+                    <h2 class="h2" data-i18n="screens.title">Built around the moment you take it.</h2>
+                    <p class="section-sub" data-i18n="screens.sub">Four screens. Four ways SuppTime keeps your stack
+                        working its hardest.</p>
+                </div>
+                <div class="gallery-row" id="gallery-row">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Watch -->
+            <section class="section section-watch" id="watch">
+                <div class="watch-grid">
+                    <div class="watch-copy">
+                        <div class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span><span
+                                data-i18n="watch.eyebrow">On your wrist</span></div>
+                        <h2 class="h2" data-i18n="watch.title">Always within reach.</h2>
+                        <p class="section-sub" data-i18n="watch.sub">A glance is all it takes. Confirm a dose, snooze
+                            it, or check what is next — without ever opening your phone.</p>
+                        <ul class="watch-list" id="watch-list">
+                            <!-- Populated by JS -->
+                        </ul>
+                    </div>
+                    <div class="watch-stage">
+                        <div class="watch-stage-glow"></div>
+                        <img data-lang-img="5" src="screens/en/5.jpg" alt="Apple Watch SuppTime"
+                            class="watch-static-img" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reviews -->
+            <section class="section section-reviews" id="reviews">
+                <div class="section-head section-head-center">
+                    <div class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span><span
+                            data-i18n="reviews.eyebrow">Loved worldwide</span></div>
+                    <h2 class="h2" data-i18n-html="reviews.title">Trusted by people<br />who actually take their
+                        vitamins.</h2>
+                    <p class="section-sub" data-i18n="reviews.sub">Real reviews from real users across 60+ countries.
+                    </p>
+                </div>
+                <div class="reviews-ticker-wrap">
+                    <div class="reviews-ticker-row" id="reviews-row-1"></div>
+                    <div class="reviews-ticker-row reviews-ticker-row-reverse" id="reviews-row-2"></div>
+                    <div class="reviews-ticker-row" id="reviews-row-3"></div>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section class="section" id="faq">
+                <div class="section-head section-head-center">
+                    <h2 class="h2" data-i18n="faq.title">Common Questions</h2>
+                </div>
+                <div class="faq-grid" id="faq-list">
+                    <!-- Dynamic -->
+                </div>
+            </section>
+
+            <!-- Download CTA -->
+            <section class="section section-download" id="download">
+                <div class="dl-card">
+                    <div class="dl-noise" aria-hidden="true"></div>
+                    <div class="dl-rings" aria-hidden="true"><span></span><span></span><span></span></div>
+                    <div class="dl-inner">
+                        <h2 class="h2 h2-light" data-i18n="download_cta.title">Subscribe safely with Apple.</h2>
+                        <p class="dl-sub" data-i18n="download_cta.sub">Full access to every feature. Secure payments via
+                            App Store.</p>
+                        <div class="dl-bullets" id="dl-bullets">
+                            <!-- Populated by JS -->
+                        </div>
+                        <div class="dl-ctas">
+                            <a href="https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156" class="as-btn">
+                                <span class="as-btn-glyph">
+                                    <svg viewBox="0 0 384 512" style="width: 28px; height: 32px;" preserveAspectRatio="xMidYMid meet" fill="currentColor">
+                                        <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+                                    </svg>
+                                </span>
+                                <span class="as-btn-text">
+                                    <span class="as-btn-top" data-i18n="cta.appstore_top">Download on the</span>
+                                    <span class="as-btn-bottom" data-i18n="cta.appstore_bottom">App Store</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="dl-meta">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M5.6 18.4l2.8-2.8M15.6 8.4l2.8-2.8" />
+                            </svg>
+                            <span data-i18n="download_cta.requires">Requires iOS 17 · watchOS 10 · iPhone 12 or
+                                later</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="foot">
+            <div class="foot-inner">
+                <div class="foot-brand">
+                    <span class="brand-mark" style="width: 32px; height: 32px;">
+                        <img src="assets/watchos.png" alt="SuppTime" />
+                    </span>
+                    <div>
+                        <div class="brand-name" style="font-size: 15px">SuppTime</div>
+                        <div class="foot-tag" data-i18n="footer.tag">Your wellness, timed to perfection.</div>
+                    </div>
+                </div>
+                <div class="foot-links" id="foot-links">
+                    <!-- Populated by JS -->
+                </div>
+                <div class="foot-copy">© 2026 SuppTime, Inc.</div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

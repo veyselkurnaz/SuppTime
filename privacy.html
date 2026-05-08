@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuppTime — Privacy Policy & Terms of Service</title>
+    <link rel="icon" type="image/png" href="assets/watchos.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        /* Legal Specific Styles */
+        .legal-container {
+            max-width: 800px;
+            margin: 120px auto 60px;
+            padding: 40px;
+            border-radius: 24px;
+        }
+
+        .legal-nav {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 20px;
+        }
+
+        .legal-tab {
+            padding: 12px 24px;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--ink-soft);
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: all 0.2s;
+        }
+
+        .legal-tab.is-active {
+            color: var(--emerald-deep);
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .legal-tab:hover:not(.is-active) {
+            background: var(--surface);
+            color: var(--ink);
+        }
+
+        .legal-page {
+            display: none;
+        }
+
+        .legal-page.is-active {
+            display: block;
+            animation: fade 0.3s ease;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .legal-page h2 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+
+        .legal-page .effective {
+            font-family: var(--mono);
+            font-size: 13px;
+            color: var(--ink-muted);
+            margin-bottom: 40px;
+        }
+
+        .legal-page h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 40px 0 16px;
+            color: var(--ink);
+        }
+
+        .legal-page p,
+        .legal-page li {
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--ink-soft);
+            margin-bottom: 16px;
+        }
+
+        .legal-page ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        .legal-page li {
+            margin-bottom: 8px;
+        }
+
+        .legal-page strong {
+            color: var(--ink);
+            font-weight: 600;
+        }
+
+        .legal-page code {
+            font-family: var(--mono);
+            font-size: 13px;
+            background: var(--surface);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .legal-page a {
+            color: var(--emerald-deep);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .legal-page a:hover {
+            text-decoration: underline;
+        }
+
+        .disclaimer-box {
+            margin-top: 48px;
+            padding: 24px;
+            border-radius: 16px;
+            background: rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(245, 158, 11, 0.2);
+        }
+
+        .disclaimer-box strong {
+            display: block;
+            color: #b45309;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 12px;
+        }
+
+        .disclaimer-box p {
+            color: #92400e;
+            margin: 0;
+            font-size: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .legal-container {
+                padding: 24px;
+                margin-top: 100px;
+            }
+
+            .legal-nav {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body class="lang-en">
+    <div class="page">
+        <nav class="nav is-scrolled" id="nav">
+            <div class="nav-inner">
+                <a href="SuppTime Landing.html" class="brand">
+                    <span class="brand-mark" style="width: 32px; height: 32px;">
+                        <img src="assets/watchos.png" alt="SuppTime" />
+                    </span>
+                    <span class="brand-name">SuppTime</span>
+                </a>
+                <div class="nav-links">
+                    <a href="SuppTime Landing.html">Back to Home</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="legal-container glass">
+                <div class="legal-nav">
+                    <button class="legal-tab is-active" onclick="switchTab('privacy', this)">Privacy Policy</button>
+                    <button class="legal-tab" onclick="switchTab('terms', this)">Terms of Service</button>
+                </div>
+
+                <!-- ══════════════════════════════════════════════
+       PRIVACY POLICY
+  ══════════════════════════════════════════════ -->
+                <div class="legal-page is-active" id="privacy">
+                    <h2>Privacy Policy</h2>
+                    <p class="effective">Effective Date: April 14, 2026</p>
+
+                    <p>SuppTime ("we", "our", "app") is a supplement routine planner for iOS. This Privacy Policy
+                        explains what
+                        data is collected, where it is stored, and how it is used. We believe in radical simplicity:
+                        <strong>we
+                            do not operate any servers, we do not collect your data, and we have no user
+                            accounts.</strong></p>
+
+                    <h3>1. Data You Enter</h3>
+                    <p>SuppTime stores the following data <strong>exclusively on your device</strong> and, optionally,
+                        in your
+                        private iCloud account:</p>
+                    <ul>
+                        <li>Supplements and medications you add to your stack (names, dosages, timing)</li>
+                        <li>Daily intake logs (which supplements you marked as taken and when)</li>
+                        <li>App preferences (notification times, selected goals, onboarding status)</li>
+                    </ul>
+                    <p>All of this data is stored using Apple's SwiftData framework (on-device SQLite) and synced — if
+                        iCloud is
+                        enabled — to your <strong>private iCloud Drive container</strong>
+                        (<code>iCloud.com.veyselkurnaz.SuppTime</code>). Only you can access this container. We cannot
+                        read it.
+                    </p>
+
+                    <h3>2. iCloud Sync</h3>
+                    <p>If you are signed into iCloud on your device, supplement and log data may sync across your
+                        iPhone, iPad,
+                        and other Apple devices via Apple's CloudKit private database. App settings (notification times,
+                        goals)
+                        sync via iCloud Key-Value Storage. This sync is entirely between your devices and Apple's
+                        infrastructure. We have no access to this data at any time.</p>
+
+                    <h3>3. Notifications</h3>
+                    <p>SuppTime can send local push notifications to remind you to take supplements at configured times.
+                        These
+                        notifications are scheduled entirely on your device using Apple's UserNotifications framework.
+                        No
+                        notification data is sent to any server.</p>
+
+                    <h3>4. Home Screen Widget</h3>
+                    <p>The SuppTime widget reads supplement progress data from a shared App Group container
+                        (<code>group.com.veyselkurnaz.SuppTime</code>) stored locally on your device. This data never
+                        leaves
+                        your device.</p>
+
+                    <h3>5. Apple Watch App</h3>
+                    <p>If you use the SuppTime Watch app, supplement data is transferred between your iPhone and Apple
+                        Watch
+                        using Apple's WatchConnectivity framework. This transfer is peer-to-peer between your devices.
+                        We have
+                        no access to this data.</p>
+
+                    <h3>6. Purchases &amp; Subscriptions</h3>
+                    <p>In-app purchases and subscription management are handled entirely by Apple's StoreKit framework.
+                        SuppTime
+                        does not collect, store, or transmit any payment information. We receive only a verified receipt
+                        from
+                        Apple indicating whether an entitlement is active. Your subscription status is stored locally on
+                        your
+                        device and re-validated on each app launch via StoreKit.</p>
+
+                    <h3>7. Analytics &amp; Crash Reporting</h3>
+                    <p>SuppTime does not integrate any third-party analytics, crash reporting, or advertising SDKs. We
+                        do not
+                        track your usage, location, or behaviour.</p>
+
+                    <h3>8. Children's Privacy</h3>
+                    <p>SuppTime is not directed at children under 13 years of age. We do not knowingly collect personal
+                        information from children.</p>
+
+                    <h3>9. Data Deletion</h3>
+                    <p>To delete all your data, simply delete the SuppTime app from your device. To also remove synced
+                        iCloud
+                        data, go to <strong>Settings &rarr; [Your Name] &rarr; iCloud &rarr; Manage Account Storage
+                            &rarr;
+                            SuppTime</strong> and delete the associated data. Because we operate no servers, there is no
+                        additional step required on our end.</p>
+
+                    <h3>10. Changes to This Policy</h3>
+                    <p>We may update this Privacy Policy from time to time. The effective date at the top of this page
+                        will
+                        always reflect the most recent version. Continued use of SuppTime after a change constitutes
+                        acceptance
+                        of the updated policy.</p>
+
+                    <h3>11. Contact</h3>
+                    <p>If you have any questions about this Privacy Policy, please contact us at: <a
+                            href="mailto:veyselkurnaz@icloud.com">veyselkurnaz@icloud.com</a></p>
+
+                    <div class="disclaimer-box">
+                        <strong>Medical Disclaimer</strong>
+                        <p>SuppTime is designed for informational and organizational purposes only. It is not a medical
+                            device
+                            and is not intended to diagnose, treat, cure, or prevent any disease or health condition.
+                            The
+                            supplement information provided in the app is for general reference and does not constitute
+                            professional medical advice. Always consult a qualified healthcare provider before starting,
+                            changing, or stopping any supplement or medication regimen. The interaction and synergy
+                            information
+                            displayed in the app is educational in nature and is not a substitute for professional
+                            pharmacological or medical guidance.</p>
+                    </div>
+                </div>
+
+                <!-- ══════════════════════════════════════════════
+       TERMS OF SERVICE
+  ══════════════════════════════════════════════ -->
+                <div class="legal-page" id="terms">
+                    <h2>Terms of Service</h2>
+                    <p class="effective">Effective Date: April 14, 2026</p>
+
+                    <p>These Terms of Service ("Terms") govern your use of the SuppTime iOS application ("App")
+                        developed by
+                        Veysel Kurnaz ("Developer", "we", "us"). By downloading or using SuppTime, you agree to these
+                        Terms.</p>
+
+                    <h3>1. License</h3>
+                    <p>We grant you a personal, non-exclusive, non-transferable, revocable license to use SuppTime on
+                        Apple
+                        devices you own or control, subject to these Terms and the Apple App Store Terms of Service.</p>
+
+                    <h3>2. Acceptable Use</h3>
+                    <p>You agree not to:</p>
+                    <ul>
+                        <li>Reverse-engineer, decompile, or disassemble the App</li>
+                        <li>Use the App for any unlawful purpose</li>
+                        <li>Attempt to circumvent any free-tier limitations, subscription checks, or in-app purchase
+                            verification mechanisms</li>
+                        <li>Use the App in any way that could damage, disable, or impair its functionality</li>
+                    </ul>
+
+                    <h3>3. Free Tier &amp; Premium Subscription</h3>
+                    <p>SuppTime offers a free tier that allows up to <strong>3 active supplements</strong>. Additional
+                        features,
+                        including unlimited supplements, preset expert stacks, home screen widgets, and Apple Watch
+                        support, are
+                        available via a SuppTime Premium subscription or a one-time lifetime purchase.</p>
+                    <p>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the
+                        current
+                        billing period. You can manage or cancel your subscription at any time via your Apple ID
+                        settings. No
+                        refunds are provided for partial billing periods, except as required by applicable law.</p>
+                    <p>Prices may vary by region and are displayed in your local currency at the time of purchase. We
+                        commit to
+                        not raising prices for at least one year from the effective date of these Terms.</p>
+
+                    <h3>4. Medical Disclaimer</h3>
+                    <p>SuppTime is an <strong>organizational and informational tool only</strong>. It is not a medical
+                        device,
+                        does not provide medical advice, and is not a substitute for consultation with a licensed
+                        healthcare
+                        professional. Supplement interaction warnings, synergy highlights, and timing recommendations in
+                        the app
+                        are for general educational reference only.</p>
+                    <p><strong>Never disregard professional medical advice or delay seeking it because of information
+                            displayed
+                            in SuppTime.</strong> If you are pregnant, nursing, have a medical condition, or are taking
+                        prescription medications, consult your physician before using any supplement.</p>
+
+                    <h3>5. Accuracy of Information</h3>
+                    <p>The supplement database included in SuppTime is compiled from publicly available research and is
+                        updated
+                        periodically. We make no warranty that the information is complete, accurate, current, or
+                        suitable for
+                        your individual circumstances. Supplement science evolves rapidly; always verify information
+                        with
+                        authoritative sources or a qualified professional.</p>
+
+                    <h3>6. Data &amp; Availability</h3>
+                    <p>Your supplement and log data is stored on your device and optionally synced via your private
+                        iCloud
+                        account. We do not back up your data on our own servers. You are solely responsible for
+                        maintaining
+                        backups. We are not liable for any data loss resulting from device failure, iCloud account
+                        issues, or
+                        app deletion.</p>
+                    <p>We do not guarantee uninterrupted availability of the App. We may update, modify, or discontinue
+                        the App
+                        or any of its features at any time without notice.</p>
+
+                    <h3>7. Intellectual Property</h3>
+                    <p>All content, design, code, and branding within SuppTime are the exclusive property of Veysel
+                        Kurnaz and
+                        are protected by applicable intellectual property laws. You may not reproduce, distribute, or
+                        create
+                        derivative works from any part of the App without our prior written consent.</p>
+
+                    <h3>8. Limitation of Liability</h3>
+                    <p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any
+                        indirect,
+                        incidental, special, consequential, or punitive damages — including but not limited to damages
+                        for
+                        personal injury, loss of data, loss of profits, or health-related outcomes — arising from your
+                        use of or
+                        inability to use SuppTime, even if advised of the possibility of such damages.</p>
+                    <p>SuppTime is provided "as is" and "as available" without warranties of any kind, express or
+                        implied,
+                        including but not limited to implied warranties of merchantability, fitness for a particular
+                        purpose,
+                        and non-infringement.</p>
+
+                    <h3>9. Governing Law</h3>
+                    <p>These Terms are governed by the laws of the Republic of Turkey, without regard to conflict-of-law
+                        principles. Any disputes arising under these Terms shall be resolved in the competent courts of
+                        Istanbul, Turkey.</p>
+
+                    <h3>10. Changes to These Terms</h3>
+                    <p>We reserve the right to modify these Terms at any time. Changes will be posted with an updated
+                        effective
+                        date. Your continued use of SuppTime after any modification constitutes your acceptance of the
+                        revised
+                        Terms.</p>
+
+                    <h3>11. Contact</h3>
+                    <p>If you have any questions about these Terms, please contact us at: <a
+                            href="mailto:veyselkurnaz@icloud.com">veyselkurnaz@icloud.com</a></p>
+
+                    <div class="disclaimer-box">
+                        <strong>Health &amp; Safety Notice</strong>
+                        <p>Supplements are not regulated as strictly as prescription drugs. Potency, purity, and safety
+                            can vary
+                            between products and brands. The information in SuppTime does not account for your personal
+                            medical
+                            history, allergies, genetics, or current medications. Always read product labels, follow
+                            recommended
+                            dosages, and seek professional guidance before combining supplements or medications.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="foot">
+            <div class="foot-inner">
+                <div class="foot-brand">
+                    <span class="brand-mark" style="width: 32px; height: 32px;">
+                        <img src="assets/watchos.png" alt="SuppTime" />
+                    </span>
+                    <div>
+                        <div class="brand-name" style="font-size: 15px">SuppTime</div>
+                    </div>
+                </div>
+                <div class="foot-copy">© 2026 SuppTime, Inc.</div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function switchTab(id, btn) {
+            document.querySelectorAll('.legal-page').forEach(el => el.classList.remove('is-active'));
+            document.querySelectorAll('.legal-tab').forEach(el => el.classList.remove('is-active'));
+            document.getElementById(id).classList.add('is-active');
+            btn.classList.add('is-active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>
