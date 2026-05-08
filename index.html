@@ -26,6 +26,21 @@
 
         gtag('config', 'AW-967371332');
     </script>
+    <!-- Event snippet for SuppTime_AppStore_Yonlendirme conversion page -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-967371332/KBlVCK2j9qkcEMTUo80D',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
 </head>
 
 <body class="lang-en">
@@ -117,7 +132,7 @@
                             science-backed timing and smart interaction alerts.</p>
                         <div class="hero-ctas">
                             <a href="https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156"
-                                class="as-btn">
+                                class="as-btn" onclick="return gtag_report_conversion('https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156');">
                                 <span class="as-btn-glyph">
                                     <svg viewBox="0 0 384 512" style="width: 28px; height: 32px;"
                                         preserveAspectRatio="xMidYMid meet" fill="currentColor">
@@ -268,7 +283,7 @@
                         </div>
                         <div class="dl-ctas">
                             <a href="https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156"
-                                class="as-btn">
+                                class="as-btn" onclick="return gtag_report_conversion('https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156');">
                                 <span class="as-btn-glyph">
                                     <svg viewBox="0 0 384 512" style="width: 28px; height: 32px;"
                                         preserveAspectRatio="xMidYMid meet" fill="currentColor">
