@@ -29,15 +29,27 @@
     <!-- Event snippet for SuppTime_AppStore_Yonlendirme conversion page -->
     <script>
         function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof (url) != 'undefined') {
+            if (typeof gtag === 'undefined') {
+                window.location = url;
+                return false;
+            }
+
+            var redirected = false;
+            var redirectFn = function () {
+                if (!redirected) {
+                    redirected = true;
                     window.location = url;
                 }
             };
+
+            // Safari ITP ve AdBlocker takılmalarını önlemek için agresif süre (200ms)
+            setTimeout(redirectFn, 200);
+
             gtag('event', 'conversion', {
                 'send_to': 'AW-967371332/KBlVCK2j9qkcEMTUo80D',
-                'event_callback': callback
+                'event_callback': redirectFn
             });
+
             return false;
         }
     </script>
