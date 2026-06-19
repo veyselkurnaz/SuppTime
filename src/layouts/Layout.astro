@@ -10,10 +10,11 @@ export interface Props {
   ogType?: string;
 }
 
-const { title, description, lang, dir, image = '/assets/watchos.png', ogType = 'website' } = Astro.props;
+const { title, description, lang, dir, image = '/assets/supptime_og_banner.png', ogType = 'website' } = Astro.props;
 
 // Compute hreflang tags for SEO
 const locales = Object.keys(I18N);
+const t = I18N[lang] || I18N['en'];
 ---
 
 <!DOCTYPE html>
@@ -23,6 +24,11 @@ const locales = Object.keys(I18N);
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    
+    <!-- SEO: Canonical Tag -->
+    <link rel="canonical" href={new URL(Astro.url.pathname, 'https://supptime.app').href} />
+    
+    <meta name="apple-itunes-app" content="app-id=6762088156" />
     
     <!-- OpenGraph / Social Media Meta Tags -->
     <meta property="og:title" content={title} />
@@ -55,12 +61,122 @@ const locales = Object.keys(I18N);
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+
+      // GDPR Default: Denied
+      let consentGranted = false;
+      try {
+        if (localStorage.getItem('cookie_consent') === 'granted') {
+          consentGranted = true;
+        }
+      } catch(e) {}
+
+      gtag('consent', 'default', {
+        'analytics_storage': consentGranted ? 'granted' : 'denied'
+      });
       
-      // Google Analytics 4 (GA4)
       gtag('config', 'G-0GC3N2F5V1');
     </script>
 </head>
 <body class={`lang-${lang}`}>
     <slot />
+
+    <div id="cookie-banner" class="cookie-banner" style="display: none;" dir={dir}>
+      <div class="cookie-content">
+        <p>{t.cookie_banner?.text}</p>
+        <div class="cookie-buttons">
+          <button id="btn-accept" class="btn btn-primary btn-sm">{t.cookie_banner?.accept}</button>
+          <button id="btn-decline" class="btn btn-outline btn-sm">{t.cookie_banner?.decline}</button>
+        </div>
+      </div>
+    </div>
+    
+    <script is:inline>
+      try {
+        if (!localStorage.getItem('cookie_consent')) {
+          document.getElementById('cookie-banner').style.display = 'flex';
+        }
+
+        document.getElementById('btn-accept')?.addEventListener('click', () => {
+          localStorage.setItem('cookie_consent', 'granted');
+          document.getElementById('cookie-banner').style.display = 'none';
+          if (typeof gtag === 'function') {
+            gtag('consent', 'update', {
+              'analytics_storage': 'granted'
+            });
+          }
+        });
+
+        document.getElementById('btn-decline')?.addEventListener('click', () => {
+          localStorage.setItem('cookie_consent', 'denied');
+          document.getElementById('cookie-banner').style.display = 'none';
+        });
+      } catch(e) {}
+    </script>
+
+    <style is:global>
+      .cookie-banner {
+        position: fixed;
+        bottom: 24px;
+        left: 24px;
+        max-width: 360px;
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+        border-radius: 20px;
+        padding: 20px;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        font-family: var(--sans);
+      }
+      .cookie-banner[dir="rtl"] {
+        left: auto;
+        right: 24px;
+      }
+      .cookie-banner p {
+        margin: 0;
+        font-size: 13px;
+        line-height: 1.5;
+        color: #111;
+        font-weight: 500;
+      }
+      .cookie-buttons {
+        display: flex;
+        gap: 8px;
+      }
+      .cookie-buttons button {
+        flex: 1;
+        cursor: pointer;
+        font-size: 13px;
+        padding: 8px 12px;
+        border-radius: 99px;
+        font-weight: 600;
+      }
+      .cookie-buttons .btn-primary {
+        background: #000;
+        color: #fff;
+        border: none;
+      }
+      .cookie-buttons .btn-outline {
+        background: transparent;
+        border: 1px solid #ddd;
+        color: #333;
+      }
+      .cookie-buttons .btn-outline:hover {
+        background: #f5f5f5;
+      }
+      
+      @media (max-width: 768px) {
+        .cookie-banner {
+          left: 16px;
+          right: 16px;
+          bottom: 16px;
+          max-width: 100%;
+        }
+      }
+    </style>
 </body>
 </html>

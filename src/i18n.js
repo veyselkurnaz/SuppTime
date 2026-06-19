@@ -4,6 +4,8 @@ export const I18N = {
     "langName": "English",
     "dir": "ltr",
     "nav": {
+      "home": "Home",
+      "blog": "Blog",
       "features": "Features",
       "watch": "Apple Watch",
       "reviews": "Reviews",
@@ -35,7 +37,7 @@ export const I18N = {
         },
         {
           "title": "Expert Stacks & Timing",
-          "desc": "Explore 40+ supplements with expert timing recommendations. Use preset stacks for immunity, focus, or sleep—designed for maximum bio-availability."
+          "desc": "Explore 80+ supplements with expert timing recommendations. Use preset stacks for immunity, focus, or sleep—designed for maximum bio-availability."
         },
         {
           "title": "Medication & Rx Support",
@@ -92,7 +94,7 @@ export const I18N = {
         },
         {
           "q": "How does the interaction engine work?",
-          "a": "It uses a database of 40+ common supplements. If you try to log two that shouldn't be taken together (like Iron and Calcium), the app warns you instantly to protect your absorption."
+          "a": "It uses a database of 80+ common supplements. If you try to log two that shouldn't be taken together (like Iron and Calcium), the app warns you instantly to protect your absorption."
         },
         {
           "q": "Do I need an internet connection?",
@@ -112,12 +114,21 @@ export const I18N = {
         "Support",
         "Press"
       ]
+    },
+    "blog_disclaimer": "Disclaimer: The content on this blog is for informational and educational purposes only and does not constitute medical advice. Always consult with a qualified healthcare professional before starting any new supplement regimen or making changes to your health routine.",
+    "cookie_banner": {
+      "text": "We use cookies to analyze traffic and improve your experience.",
+      "accept": "Accept",
+      "decline": "Decline",
+      "privacy": "Privacy Policy"
     }
   },
   "tr": {
     "langName": "Türkçe",
     "dir": "ltr",
     "nav": {
+      "home": "Ana Sayfa",
+      "blog": "Blog",
       "features": "Özellikler",
       "watch": "Apple Watch",
       "reviews": "Yorumlar",
@@ -149,7 +160,7 @@ export const I18N = {
         },
         {
           "title": "Bilimsel Zamanlama ve Kürler",
-          "desc": "40'tan fazla takviye için uzman zamanlama önerileri. Bağışıklık, odaklanma veya uyku için maksimum emilim sağlayacak hazır kürleri kullanın."
+          "desc": "80'den fazla takviye için uzman zamanlama önerileri. Bağışıklık, odaklanma veya uyku için maksimum emilim sağlayacak hazır kürleri kullanın."
         },
         {
           "title": "İlaç Desteği",
@@ -206,7 +217,7 @@ export const I18N = {
         },
         {
           "q": "Çakışma motoru nasıl çalışıyor?",
-          "a": "40'tan fazla yaygın takviyeden oluşan bir veritabanı kullanır. Birlikte alınmaması gereken iki takviyeyi (Demir ve Kalsiyum gibi) kaydetmeye çalışırsanız, sizi anında uyarır."
+          "a": "80'den fazla yaygın takviyeden oluşan bir veritabanı kullanır. Birlikte alınmaması gereken iki takviyeyi (Demir ve Kalsiyum gibi) kaydetmeye çalışırsanız, sizi anında uyarır."
         },
         {
           "q": "İnternet bağlantısına ihtiyacım var mı?",
@@ -226,12 +237,21 @@ export const I18N = {
         "Destek",
         "Basın"
       ]
+    },
+    "blog_disclaimer": "Yasal Uyarı: Bu blogdaki içerik yalnızca bilgilendirme ve eğitim amaçlıdır ve tıbbi tavsiye niteliği taşımaz. Yeni bir takviye rejimine başlamadan veya sağlık rutininizde değişiklik yapmadan önce daima uzman bir sağlık profesyoneline danışın.",
+    "cookie_banner": {
+      "text": "Trafiği analiz etmek ve deneyiminizi geliştirmek için çerezleri (cookies) kullanıyoruz.",
+      "accept": "Kabul Et",
+      "decline": "Reddet",
+      "privacy": "Gizlilik Politikası"
     }
   },
   "ko": {
     "langName": "한국어",
     "dir": "ltr",
     "nav": {
+      "home": "홈",
+      "blog": "블로그",
       "features": "기능",
       "watch": "Apple Watch",
       "reviews": "후기",
@@ -263,7 +283,7 @@ export const I18N = {
         },
         {
           "title": "전문가 추천 타이밍",
-          "desc": "40가지 이상의 영양제에 대한 전문가의 타이밍 권장 사항. 면역, 집중력, 수면을 위한 맞춤형 루틴을 사용해 보세요."
+          "desc": "80가지 이상의 영양제에 대한 전문가의 타이밍 권장 사항. 면역, 집중력, 수면을 위한 맞춤형 루틴을 사용해 보세요."
         },
         {
           "title": "처방약(Rx) 지원",
@@ -320,7 +340,7 @@ export const I18N = {
         },
         {
           "q": "상호작용 엔진은 어떻게 작동하나요?",
-          "a": "40가지 이상의 영양제 데이터베이스를 사용합니다. 철분과 칼슘처럼 같이 먹으면 안 되는 영양제를 기록하려 하면 즉시 경고해 줍니다."
+          "a": "80가지 이상의 영양제 데이터베이스를 사용합니다. 철분과 칼슘처럼 같이 먹으면 안 되는 영양제를 기록하려 하면 즉시 경고해 줍니다."
         },
         {
           "q": "인터넷 연결이 필요한가요?",
@@ -340,12 +360,21 @@ export const I18N = {
         "지원",
         "프레스"
       ]
+    },
+    "blog_disclaimer": "면책 조항: 이 블로그의 콘텐츠는 정보 제공 및 교육 목적으로만 제공되며 의학적 조언을 구성하지 않습니다. 새로운 영양제 요법을 시작하기 전에 항상 자격을 갖춘 의료 전문가와 상담하세요.",
+    "cookie_banner": {
+      "text": "우리는 트래픽을 분석하고 경험을 개선하기 위해 쿠키를 사용합니다.",
+      "accept": "수락",
+      "decline": "거절",
+      "privacy": "개인정보 처리방침"
     }
   },
   "ja": {
     "langName": "日本語",
     "dir": "ltr",
     "nav": {
+      "home": "ホーム",
+      "blog": "ブログ",
       "features": "機能",
       "watch": "Apple Watch",
       "reviews": "レビュー",
@@ -377,7 +406,7 @@ export const I18N = {
         },
         {
           "title": "科学的なタイミング",
-          "desc": "40種類以上のサプリメントに対する専門家のタイミング推奨。免疫力、集中力、睡眠のための最適なルーティンを活用しましょう。"
+          "desc": "80種類以上のサプリメントに対する専門家のタイミング推奨。免疫力、集中力、睡眠のための最適なルーティンを活用しましょう。"
         },
         {
           "title": "処方薬（Rx）サポート",
@@ -434,7 +463,7 @@ export const I18N = {
         },
         {
           "q": "相互作用エンジンはどのように機能しますか？",
-          "a": "40種類以上のサプリメントデータベースを使用しています。鉄とカルシウムのように一緒に摂るべきでないものを記録しようとすると、すぐに警告が表示されます。"
+          "a": "80種類以上のサプリメントデータベースを使用しています。鉄とカルシウムのように一緒に摂るべきでないものを記録しようとすると、すぐに警告が表示されます。"
         },
         {
           "q": "インターネット接続は必要ですか？",
@@ -454,12 +483,21 @@ export const I18N = {
         "サポート",
         "プレス"
       ]
+    },
+    "blog_disclaimer": "免責事項：このブログのコンテンツは情報提供および教育目的のみであり、医学的アドバイスを構成するものではありません。新しいサプリメント療法を開始する前に、必ず資格のある医療専門家にご相談ください。",
+    "cookie_banner": {
+      "text": "トラフィックを分析し、エクスペリエンスを向上させるためにCookieを使用しています。",
+      "accept": "同意する",
+      "decline": "拒否する",
+      "privacy": "プライバシーポリシー"
     }
   },
   "zh-cn": {
     "langName": "简体中文",
     "dir": "ltr",
     "nav": {
+      "home": "首页",
+      "blog": "博客",
       "features": "功能",
       "watch": "Apple Watch",
       "reviews": "评价",
@@ -491,7 +529,7 @@ export const I18N = {
         },
         {
           "title": "专家推荐时间",
-          "desc": "探索 40 多种补剂的专家时间建议。使用针对免疫、专注或睡眠的预设组合，实现最大吸收。"
+          "desc": "探索 80 多种补剂的专家时间建议。使用针对免疫、专注或睡眠的预设组合，实现最大吸收。"
         },
         {
           "title": "处方药 (Rx) 支持",
@@ -542,10 +580,22 @@ export const I18N = {
     "faq": {
       "title": "常见问题",
       "items": [
-        { "q": "我的健康数据真的私密吗？", "a": "是的。SuppTime 没有服务器。您的数据仅存储在 iPhone 上，并通过您的个人 iCloud 同步。我们无法查看。" },
-        { "q": "相互作用引擎是如何工作的？", "a": "它使用 40 多种常见补充剂的数据库。如果您尝试记录不应同时服用的两种（如铁和钙），应用会立即提醒您。" },
-        { "q": "我需要互联网连接吗？", "a": "不需要。SuppTime 100% 离线工作。即使在飞行模式下，您也可以记录剂量并检查相互作用。" },
-        { "q": "我可以随时取消试用吗？", "a": "当然可以。订阅由 Apple 直接管理。您可以随时在 iPhone 设置中一键取消。" }
+        {
+          "q": "我的健康数据真的私密吗？",
+          "a": "是的。SuppTime 没有服务器。您的数据仅存储在 iPhone 上，并通过您的个人 iCloud 同步。我们无法查看。"
+        },
+        {
+          "q": "相互作用引擎是如何工作的？",
+          "a": "它使用 80 多种常见补充剂的数据库。如果您尝试记录不应同时服用的两种（如铁和钙），应用会立即提醒您。"
+        },
+        {
+          "q": "我需要互联网连接吗？",
+          "a": "不需要。SuppTime 100% 离线工作。即使在飞行模式下，您也可以记录剂量并检查相互作用。"
+        },
+        {
+          "q": "我可以随时取消试用吗？",
+          "a": "当然可以。订阅由 Apple 直接管理。您可以随时在 iPhone 设置中一键取消。"
+        }
       ]
     },
     "footer": {
@@ -556,12 +606,21 @@ export const I18N = {
         "支持",
         "媒体"
       ]
+    },
+    "blog_disclaimer": "免责声明：本博客上的内容仅供参考和教育目的，不构成医疗建议。在开始任何新的补充剂养生法之前，请务必咨询合格的医疗保健专业人员。",
+    "cookie_banner": {
+      "text": "我们使用 cookie 来分析流量并改善您的体验。",
+      "accept": "接受",
+      "decline": "拒绝",
+      "privacy": "隐私政策"
     }
   },
   "zh-tw": {
     "langName": "繁體中文",
     "dir": "ltr",
     "nav": {
+      "home": "首頁",
+      "blog": "部落格",
       "features": "功能",
       "watch": "Apple Watch",
       "reviews": "評價",
@@ -593,7 +652,7 @@ export const I18N = {
         },
         {
           "title": "專家推薦時間",
-          "desc": "探索 40 多種補劑的專家時間建議。使用針對免疫、專注或睡眠的預設組合，實現最大吸收。"
+          "desc": "探索 80 多種補劑的專家時間建議。使用針對免疫、專注或睡眠的預設組合，實現最大吸收。"
         },
         {
           "title": "處方藥 (Rx) 支援",
@@ -644,10 +703,22 @@ export const I18N = {
     "faq": {
       "title": "常見問題",
       "items": [
-        { "q": "我的健康數據真的私密嗎？", "a": "是的。SuppTime 沒有伺服器。您的數據僅存儲在 iPhone 上，並通過您的個人 iCloud 同步。我們無法查看。" },
-        { "q": "相互作用引擎是如何工作的？", "a": "它使用 40 多種常見補充劑的數據庫。如果您嘗試記錄不應同時服用的兩種（如鐵和鈣），應用會立即提醒您。" },
-        { "q": "我需要網際網路連接嗎？", "a": "不需要。SuppTime 100% 離線工作。即使在飛行模式下，您 cũng có thể ghi lại劑量並檢查相互作用。" },
-        { "q": "我可以隨時取消試用嗎？", "a": "當然可以。訂閱由 Apple 直接管理。您可以隨時在 iPhone 設置中一鍵取消。" }
+        {
+          "q": "我的健康數據真的私密嗎？",
+          "a": "是的。SuppTime 沒有伺服器。您的數據僅存儲在 iPhone 上，並通過您的個人 iCloud 同步。我們無法查看。"
+        },
+        {
+          "q": "相互作用引擎是如何工作的？",
+          "a": "它使用 80 多種常見補充劑的數據庫。如果您嘗試記錄不應同時服用的兩種（如鐵和鈣），應用會立即提醒您。"
+        },
+        {
+          "q": "我需要網際網路連接嗎？",
+          "a": "不需要。SuppTime 100% 離線工作。即使在飛行模式下，您 cũng có thể ghi lại劑量並檢查相互作用。"
+        },
+        {
+          "q": "我可以隨時取消試用嗎？",
+          "a": "當然可以。訂閱由 Apple 直接管理。您可以隨時在 iPhone 設置中一鍵取消。"
+        }
       ]
     },
     "footer": {
@@ -658,12 +729,21 @@ export const I18N = {
         "支持",
         "媒體"
       ]
+    },
+    "blog_disclaimer": "免責聲明：本博客上的內容僅供參考和教育目的，不構成醫療建議。在開始任何新的補充劑養生法之前，請務必諮詢合格的醫療保健專業人員。",
+    "cookie_banner": {
+      "text": "我們使用 cookie 來分析流量並改善您的體驗。",
+      "accept": "接受",
+      "decline": "拒絕",
+      "privacy": "隱私政策"
     }
   },
   "de": {
     "langName": "Deutsch",
     "dir": "ltr",
     "nav": {
+      "home": "Startseite",
+      "blog": "Blog",
       "features": "Features",
       "watch": "Apple Watch",
       "reviews": "Bewertungen",
@@ -695,7 +775,7 @@ export const I18N = {
         },
         {
           "title": "Wissenschaftliches Timing",
-          "desc": "Expertenempfehlungen für 40+ Präparate. Nutze vorgefertigte Routinen für Immunität, Fokus oder Schlaf."
+          "desc": "Expertenempfehlungen für 80+ Präparate. Nutze vorgefertigte Routinen für Immunität, Fokus oder Schlaf."
         },
         {
           "title": "Medikamente & Rx Support",
@@ -752,7 +832,7 @@ export const I18N = {
         },
         {
           "q": "Wie funktioniert die Interaktions-Prüfung?",
-          "a": "Sie nutzt eine Datenbank mit über 40 gängigen Supplements. Wenn Sie zwei loggen, die nicht kombiniert werden sollten (z. B. Eisen und Kalzium), warnt die App Sie sofort."
+          "a": "Sie nutzt eine Datenbank mit über 80 gängigen Supplements. Wenn Sie zwei loggen, die nicht kombiniert werden sollten (z. B. Eisen und Kalzium), warnt die App Sie sofort."
         },
         {
           "q": "Benötige ich eine Internetverbindung?",
@@ -772,12 +852,21 @@ export const I18N = {
         "Support",
         "Presse"
       ]
+    },
+    "blog_disclaimer": "Haftungsausschluss: Die Inhalte auf diesem Blog dienen nur zu Informations- und Bildungszwecken und stellen keine medizinische Beratung dar. Konsultieren Sie immer einen qualifizierten Arzt, bevor Sie eine neue Nahrungsergänzungskur beginnen.",
+    "cookie_banner": {
+      "text": "Wir verwenden Cookies, um den Datenverkehr zu analysieren und Ihr Erlebnis zu verbessern.",
+      "accept": "Akzeptieren",
+      "decline": "Ablehnen",
+      "privacy": "Datenschutzerklärung"
     }
   },
   "es": {
     "langName": "Español",
     "dir": "ltr",
     "nav": {
+      "home": "Inicio",
+      "blog": "Blog",
       "features": "Funciones",
       "watch": "Apple Watch",
       "reviews": "Reseñas",
@@ -809,7 +898,7 @@ export const I18N = {
         },
         {
           "title": "Horarios Científicos",
-          "desc": "Recomendaciones de expertos para más de 40 suplementos. Usa rutinas preestablecidas para una máxima absorción."
+          "desc": "Recomendaciones de expertos para más de 80 suplementos. Usa rutinas preestablecidas para una máxima absorción."
         },
         {
           "title": "Soporte de Medicamentos (Rx)",
@@ -866,7 +955,7 @@ export const I18N = {
         },
         {
           "q": "¿Cómo funciona el motor de interacciones?",
-          "a": "Utiliza una base de datos de más de 40 suplementos. Si intentas registrar dos que no deben mezclarse (como Hierro y Calcio), la app te avisa al instante."
+          "a": "Utiliza una base de datos de más de 80 suplementos. Si intentas registrar dos que no deben mezclarse (como Hierro y Calcio), la app te avisa al instante."
         },
         {
           "q": "¿Necesito conexión a internet?",
@@ -886,12 +975,21 @@ export const I18N = {
         "Soporte",
         "Prensa"
       ]
+    },
+    "blog_disclaimer": "Descargo de responsabilidad: El contenido de este blog es solo para fines informativos y educativos y no constituye asesoramiento médico. Siempre consulte a un profesional de la salud calificado antes de comenzar cualquier nuevo régimen de suplementos.",
+    "cookie_banner": {
+      "text": "Usamos cookies para analizar el tráfico y mejorar su experiencia.",
+      "accept": "Aceptar",
+      "decline": "Rechazar",
+      "privacy": "Política de Privacidad"
     }
   },
   "pt-br": {
     "langName": "Português",
     "dir": "ltr",
     "nav": {
+      "home": "Início",
+      "blog": "Blog",
       "features": "Recursos",
       "watch": "Apple Watch",
       "reviews": "Avaliações",
@@ -923,7 +1021,7 @@ export const I18N = {
         },
         {
           "title": "Horários Científicos",
-          "desc": "Recomendações de especialistas para mais de 40 suplementos. Use rotinas predefinidas visando máxima absorção."
+          "desc": "Recomendações de especialistas para mais de 80 suplementos. Use rotinas predefinidas visando máxima absorção."
         },
         {
           "title": "Suporte a Medicamentos (Rx)",
@@ -980,7 +1078,7 @@ export const I18N = {
         },
         {
           "q": "Como funciona o motor de interações?",
-          "a": "Ele usa um banco de dados de mais de 40 suplementos. Se você tentar registrar dois que não devem ser misturados (como Ferro e Cálcio), o app avisa na hora."
+          "a": "Ele usa um banco de dados de mais de 80 suplementos. Se você tentar registrar dois que não devem ser misturados (como Ferro e Cálcio), o app avisa na hora."
         },
         {
           "q": "Preciso de conexão com a internet?",
@@ -1000,12 +1098,21 @@ export const I18N = {
         "Suporte",
         "Imprensa"
       ]
+    },
+    "blog_disclaimer": "Isenção de responsabilidade: O conteúdo deste blog é apenas para fins informativos e educacionais e não constitui aconselhamento médico. Consulte sempre um profissional de saúde qualificado antes de iniciar um novo regime de suplementos.",
+    "cookie_banner": {
+      "text": "Usamos cookies para analisar o tráfego e melhorar sua experiência.",
+      "accept": "Aceitar",
+      "decline": "Recusar",
+      "privacy": "Política de Privacidade"
     }
   },
   "it": {
     "langName": "Italiano",
     "dir": "ltr",
     "nav": {
+      "home": "Home",
+      "blog": "Blog",
       "features": "Funzioni",
       "watch": "Apple Watch",
       "reviews": "Recensioni",
@@ -1037,7 +1144,7 @@ export const I18N = {
         },
         {
           "title": "Tempistiche Scientifiche",
-          "desc": "Raccomandazioni degli esperti per oltre 40 integratori. Usa routine preimpostate per il massimo assorbimento."
+          "desc": "Raccomandazioni degli esperti per oltre 80 integratori. Usa routine preimpostate per il massimo assorbimento."
         },
         {
           "title": "Supporto Farmaci (Rx)",
@@ -1088,10 +1195,22 @@ export const I18N = {
     "faq": {
       "title": "Domande frequenti",
       "items": [
-        { "q": "I miei dati sanitari sono davvero privati?", "a": "Sì. SuppTime non ha server. I tuoi dati sono memorizzati solo sul tuo iPhone e sincronizzati tramite il tuo iCloud personale. Non possiamo vederli." },
-        { "q": "Come funziona il motore delle interazioni?", "a": "Utilizza un database di oltre 40 integratori comuni. Se provi a registrarne due che non dovrebbero essere presi insieme (come Ferro e Calcio), l'app ti avvisa istantaneamente." },
-        { "q": "Ho bisogno di una connessione internet?", "a": "No. SuppTime funziona al 100% offline. Puoi registrare le dosi anche in modalità aereo." },
-        { "q": "Posso cancellare la prova in qualsiasi momento?", "a": "Assolutamente. Gli abbonamenti sono gestiti direttamente da Apple. Puoi cancellare con un tocco nelle impostazioni del tuo iPhone." }
+        {
+          "q": "I miei dati sanitari sono davvero privati?",
+          "a": "Sì. SuppTime non ha server. I tuoi dati sono memorizzati solo sul tuo iPhone e sincronizzati tramite il tuo iCloud personale. Non possiamo vederli."
+        },
+        {
+          "q": "Come funziona il motore delle interazioni?",
+          "a": "Utilizza un database di oltre 80 integratori comuni. Se provi a registrarne due che non dovrebbero essere presi insieme (come Ferro e Calcio), l'app ti avvisa istantaneamente."
+        },
+        {
+          "q": "Ho bisogno di una connessione internet?",
+          "a": "No. SuppTime funziona al 100% offline. Puoi registrare le dosi anche in modalità aereo."
+        },
+        {
+          "q": "Posso cancellare la prova in qualsiasi momento?",
+          "a": "Assolutamente. Gli abbonamenti sono gestiti direttamente da Apple. Puoi cancellare con un tocco nelle impostazioni del tuo iPhone."
+        }
       ]
     },
     "footer": {
@@ -1102,12 +1221,21 @@ export const I18N = {
         "Supporto",
         "Stampa"
       ]
+    },
+    "blog_disclaimer": "Dichiarazione di non responsabilità: Il contenuto di questo blog è solo a scopo informativo ed educativo e non costituisce consulenza medica. Consultare sempre un professionista della salute qualificato prima di iniziare qualsiasi nuovo regime di integratori.",
+    "cookie_banner": {
+      "text": "Utilizziamo i cookie per analizzare il traffico e migliorare la tua esperienza.",
+      "accept": "Accetta",
+      "decline": "Rifiuta",
+      "privacy": "Informativa sulla Privacy"
     }
   },
   "nl": {
     "langName": "Nederlands",
     "dir": "ltr",
     "nav": {
+      "home": "Home",
+      "blog": "Blog",
       "features": "Functies",
       "watch": "Apple Watch",
       "reviews": "Reviews",
@@ -1139,7 +1267,7 @@ export const I18N = {
         },
         {
           "title": "Wetenschappelijke Timing",
-          "desc": "Expert aanbevelingen voor 40+ supplementen. Gebruik kant-en-klare routines voor maximale opname."
+          "desc": "Expert aanbevelingen voor 80+ supplementen. Gebruik kant-en-klare routines voor maximale opname."
         },
         {
           "title": "Medicatie & Rx Support",
@@ -1190,10 +1318,22 @@ export const I18N = {
     "faq": {
       "title": "Veelgestelde vragen",
       "items": [
-        { "q": "Zijn mijn gezondheidsgegevens echt privé?", "a": "Ja. SuppTime heeft geen servers. Je gegevens worden alleen op je iPhone opgeslagen en gesynchroniseerd via je persoonlijke iCloud. We kunnen ze niet inzien." },
-        { "q": "Hoe werkt de interactie-engine?", "a": "Het maakt gebruik van een database met meer dan 40 supplementen. Als je er twee probeert te loggen die niet samen gaan (zoals ijzer en calcium), waarschuwt de app je direct." },
-        { "q": "Heb ik een internetverbinding nodig?", "a": "Nee. SuppTime werkt 100% offline. Je kunt doses loggen, zelfs in de vliegtuigmodus." },
-        { "q": "Kan ik mijn proefperiode op elk moment opzeggen?", "a": "Absoluut. Abonnementen worden rechtstreeks door Apple beheerd. Je kunt op elk moment opzeggen via je iPhone-instellingen." }
+        {
+          "q": "Zijn mijn gezondheidsgegevens echt privé?",
+          "a": "Ja. SuppTime heeft geen servers. Je gegevens worden alleen op je iPhone opgeslagen en gesynchroniseerd via je persoonlijke iCloud. We kunnen ze niet inzien."
+        },
+        {
+          "q": "Hoe werkt de interactie-engine?",
+          "a": "Het maakt gebruik van een database met meer dan 80 supplementen. Als je er twee probeert te loggen die niet samen gaan (zoals ijzer en calcium), waarschuwt de app je direct."
+        },
+        {
+          "q": "Heb ik een internetverbinding nodig?",
+          "a": "Nee. SuppTime werkt 100% offline. Je kunt doses loggen, zelfs in de vliegtuigmodus."
+        },
+        {
+          "q": "Kan ik mijn proefperiode op elk moment opzeggen?",
+          "a": "Absoluut. Abonnementen worden rechtstreeks door Apple beheerd. Je kunt op elk moment opzeggen via je iPhone-instellingen."
+        }
       ]
     },
     "footer": {
@@ -1204,12 +1344,21 @@ export const I18N = {
         "Support",
         "Pers"
       ]
+    },
+    "blog_disclaimer": "Disclaimer: De inhoud op deze blog is uitsluitend voor informatieve en educatieve doeleinden en vormt geen medisch advies. Raadpleeg altijd een gekwalificeerde zorgprofessional voordat u met een nieuw supplementenregime begint.",
+    "cookie_banner": {
+      "text": "We gebruiken cookies om verkeer te analyseren en uw ervaring te verbeteren.",
+      "accept": "Accepteren",
+      "decline": "Weigeren",
+      "privacy": "Privacybeleid"
     }
   },
   "pl": {
     "langName": "Polski",
     "dir": "ltr",
     "nav": {
+      "home": "Strona główna",
+      "blog": "Blog",
       "features": "Funkcje",
       "watch": "Apple Watch",
       "reviews": "Opinie",
@@ -1241,7 +1390,7 @@ export const I18N = {
         },
         {
           "title": "Naukowe Dawkowanie",
-          "desc": "Zalecenia ekspertów dla 40+ suplementów. Używaj gotowych planów dla maksymalnego wchłaniania."
+          "desc": "Zalecenia ekspertów dla 80+ suplementów. Używaj gotowych planów dla maksymalnego wchłaniania."
         },
         {
           "title": "Wsparcie Leków na Receptę (Rx)",
@@ -1292,10 +1441,22 @@ export const I18N = {
     "faq": {
       "title": "Często zadawane pytania",
       "items": [
-        { "q": "Czy moje dane zdrowotne są naprawdę prywatne?", "a": "Tak. SuppTime nie ma serwerów. Twoje dane są przechowywane tylko na iPhone i synchronizowane przez Twoje osobiste iCloud. Nie mamy do nich dostępu." },
-        { "q": "Jak działa silnik interakcji?", "a": "Korzysta z bazy ponad 40 suplementów. Jeśli spróbujesz zapisać dwa, których nie należy łączyć (np. żelazo i wapń), aplikacja natychmiast Cię ostrzeże." },
-        { "q": "Czy potrzebuję połączenia z internetem?", "a": "Nie. SuppTime działa w 100% offline. Możesz zapisywać dawki nawet w trybie samolotowym." },
-        { "q": "Czy mogę zrezygnować z okresu próbnego w dowolnym momencie?", "a": "Oczywiście. Subskrypcje są zarządzane bezpośredzi przez Apple. Możesz zrezygnować jednym dotknięciem w ustawieniach iPhone." }
+        {
+          "q": "Czy moje dane zdrowotne są naprawdę prywatne?",
+          "a": "Tak. SuppTime nie ma serwerów. Twoje dane są przechowywane tylko na iPhone i synchronizowane przez Twoje osobiste iCloud. Nie mamy do nich dostępu."
+        },
+        {
+          "q": "Jak działa silnik interakcji?",
+          "a": "Korzysta z bazy ponad 80 suplementów. Jeśli spróbujesz zapisać dwa, których nie należy łączyć (np. żelazo i wapń), aplikacja natychmiast Cię ostrzeże."
+        },
+        {
+          "q": "Czy potrzebuję połączenia z internetem?",
+          "a": "Nie. SuppTime działa w 100% offline. Możesz zapisywać dawki nawet w trybie samolotowym."
+        },
+        {
+          "q": "Czy mogę zrezygnować z okresu próbnego w dowolnym momencie?",
+          "a": "Oczywiście. Subskrypcje są zarządzane bezpośredzi przez Apple. Możesz zrezygnować jednym dotknięciem w ustawieniach iPhone."
+        }
       ]
     },
     "footer": {
@@ -1306,12 +1467,21 @@ export const I18N = {
         "Pomoc",
         "Prasa"
       ]
+    },
+    "blog_disclaimer": "Zastrzeżenie: Treści na tym blogu służą wyłącznie celom informacyjnym i edukacyjnym i nie stanowią porady medycznej. Zawsze skonsultuj się z wykwalifikowanym pracownikiem służby zdrowia przed rozpoczęciem jakiegokolwiek nowego schematu suplementacji.",
+    "cookie_banner": {
+      "text": "Używamy plików cookie, aby analizować ruch i poprawiać Twoje wrażenia.",
+      "accept": "Akceptuj",
+      "decline": "Odrzuć",
+      "privacy": "Polityka Prywatności"
     }
   },
   "ru": {
     "langName": "Русский",
     "dir": "ltr",
     "nav": {
+      "home": "Главная",
+      "blog": "Блог",
       "features": "Функции",
       "watch": "Apple Watch",
       "reviews": "Отзывы",
@@ -1343,7 +1513,7 @@ export const I18N = {
         },
         {
           "title": "Научное Расписание",
-          "desc": "Рекомендации экспертов для 40+ добавок. Используйте готовые схемы для максимального усвоения."
+          "desc": "Рекомендации экспертов для 80+ добавок. Используйте готовые схемы для максимального усвоения."
         },
         {
           "title": "Поддержка Лекарств (Rx)",
@@ -1394,10 +1564,22 @@ export const I18N = {
     "faq": {
       "title": "Часто задаваемые вопросы",
       "items": [
-        { "q": "Мои данные о здоровье действительно конфиденциальны?", "a": "Да. У SuppTime нет серверов. Ваши данные хранятся только на вашем iPhone и синхронизируются через личный iCloud. Мы их не видим." },
-        { "q": "Как работает механизм взаимодействия?", "a": "Он использует базу данных из более чем 40 добавок. Если вы попытаетесь записать две, которые не следует принимать вместе (например, железо и кальций), приложение мгновенно предупредит вас." },
-        { "q": "Нужно ли мне подключение к интернету?", "a": "Нет. SuppTime работает на 100% офлайн. Вы можете записывать дозы даже в режиме полета." },
-        { "q": "Могу ли я отменить пробную версию в любое время?", "a": "Безусловно. Подписки управляются напрямую Apple. Вы можете отменить их одним нажатием в настройках вашего iPhone." }
+        {
+          "q": "Мои данные о здоровье действительно конфиденциальны?",
+          "a": "Да. У SuppTime нет серверов. Ваши данные хранятся только на вашем iPhone и синхронизируются через личный iCloud. Мы их не видим."
+        },
+        {
+          "q": "Как работает механизм взаимодействия?",
+          "a": "Он использует базу данных из более чем 80 добавок. Если вы попытаетесь записать две, которые не следует принимать вместе (например, железо и кальций), приложение мгновенно предупредит вас."
+        },
+        {
+          "q": "Нужно ли мне подключение к интернету?",
+          "a": "Нет. SuppTime работает на 100% офлайн. Вы можете записывать дозы даже в режиме полета."
+        },
+        {
+          "q": "Могу ли я отменить пробную версию в любое время?",
+          "a": "Безусловно. Подписки управляются напрямую Apple. Вы можете отменить их одним нажатием в настройках вашего iPhone."
+        }
       ]
     },
     "footer": {
@@ -1408,12 +1590,21 @@ export const I18N = {
         "Поддержка",
         "Пресса"
       ]
+    },
+    "blog_disclaimer": "Отказ от ответственности: Содержание этого блога предназначено только для информационных и образовательных целей и не является медицинской консультацией. Всегда консультируйтесь с врачом перед началом приема любых новых добавок.",
+    "cookie_banner": {
+      "text": "Мы используем файлы cookie для анализа трафика и улучшения вашего опыта.",
+      "accept": "Принять",
+      "decline": "Отклонить",
+      "privacy": "Политика конфиденциальности"
     }
   },
   "id": {
     "langName": "Bahasa Indonesia",
     "dir": "ltr",
     "nav": {
+      "home": "Beranda",
+      "blog": "Blog",
       "features": "Fitur",
       "watch": "Apple Watch",
       "reviews": "Ulasan",
@@ -1445,7 +1636,7 @@ export const I18N = {
         },
         {
           "title": "Jadwal Ilmiah",
-          "desc": "Rekomendasi ahli untuk 40+ suplemen. Gunakan rutinitas prasetel agar penyerapan maksimal."
+          "desc": "Rekomendasi ahli untuk 80+ suplemen. Gunakan rutinitas prasetel agar penyerapan maksimal."
         },
         {
           "title": "Dukungan Obat (Rx)",
@@ -1496,10 +1687,22 @@ export const I18N = {
     "faq": {
       "title": "Pertanyaan Umum",
       "items": [
-        { "q": "Apakah data kesehatan saya benar-benar pribadi?", "a": "Ya. SuppTime tidak memiliki server. Data Anda hanya disimpan di iPhone Anda dan disinkronkan melalui iCloud pribadi Anda. Kami tidak dapat melihatnya." },
-        { "q": "Bagaimana cara kerja mesin interaksi?", "a": "Ini menggunakan database 40+ suplemen umum. Jika Anda mencoba mencatat dua yang tidak boleh diminum bersamaan (seperti Zat Besi dan Kalsium), aplikasi akan segera memperingatkan Anda." },
-        { "q": "Apakah saya memerlukan koneksi internet?", "a": "Tidak. SuppTime bekerja 100% offline. Anda dapat mencatat dosis bahkan dalam mode pesawat." },
-        { "q": "Bisakah saya membatalkan uji coba kapan saja?", "a": "Tentu saja. Langganan dikelola langsung oleh Apple. Anda dapat membatalkannya dengan satu ketukan di pengaturan iPhone Anda." }
+        {
+          "q": "Apakah data kesehatan saya benar-benar pribadi?",
+          "a": "Ya. SuppTime tidak memiliki server. Data Anda hanya disimpan di iPhone Anda dan disinkronkan melalui iCloud pribadi Anda. Kami tidak dapat melihatnya."
+        },
+        {
+          "q": "Bagaimana cara kerja mesin interaksi?",
+          "a": "Ini menggunakan database 80+ suplemen umum. Jika Anda mencoba mencatat dua yang tidak boleh diminum bersamaan (seperti Zat Besi dan Kalsium), aplikasi akan segera memperingatkan Anda."
+        },
+        {
+          "q": "Apakah saya memerlukan koneksi internet?",
+          "a": "Tidak. SuppTime bekerja 100% offline. Anda dapat mencatat dosis bahkan dalam mode pesawat."
+        },
+        {
+          "q": "Bisakah saya membatalkan uji coba kapan saja?",
+          "a": "Tentu saja. Langganan dikelola langsung oleh Apple. Anda dapat membatalkannya dengan satu ketukan di pengaturan iPhone Anda."
+        }
       ]
     },
     "footer": {
@@ -1510,12 +1713,21 @@ export const I18N = {
         "Dukungan",
         "Pers"
       ]
+    },
+    "blog_disclaimer": "Penyangkalan: Konten di blog ini hanya untuk tujuan informasi dan pendidikan dan bukan merupakan saran medis. Selalu konsultasikan dengan profesional kesehatan yang berkualifikasi sebelum memulai rejimen suplemen baru.",
+    "cookie_banner": {
+      "text": "Kami menggunakan cookie untuk menganalisis lalu lintas dan meningkatkan pengalaman Anda.",
+      "accept": "Terima",
+      "decline": "Tolak",
+      "privacy": "Kebijakan Privasi"
     }
   },
   "vi": {
     "langName": "Tiếng Việt",
     "dir": "ltr",
     "nav": {
+      "home": "Trang chủ",
+      "blog": "Blog",
       "features": "Tính năng",
       "watch": "Apple Watch",
       "reviews": "Đánh giá",
@@ -1547,7 +1759,7 @@ export const I18N = {
         },
         {
           "title": "Lịch trình Khoa học",
-          "desc": "Khuyến nghị của chuyên gia cho hơn 40 loại thực phẩm bổ sung. Sử dụng các thói quen có sẵn."
+          "desc": "Khuyến nghị của chuyên gia cho hơn 80 loại thực phẩm bổ sung. Sử dụng các thói quen có sẵn."
         },
         {
           "title": "Hỗ trợ Thuốc theo Toa (Rx)",
@@ -1598,10 +1810,22 @@ export const I18N = {
     "faq": {
       "title": "Câu hỏi thường gặp",
       "items": [
-        { "q": "Dữ liệu sức khỏe của tôi có thực sự riêng tư không?", "a": "Có. SuppTime không có máy chủ. Dữ liệu của bạn chỉ được lưu trên iPhone và đồng bộ qua iCloud cá nhân. Chúng tôi không thể xem dữ liệu đó." },
-        { "q": "Công cụ tương tác hoạt động như thế nào?", "a": "Nó sử dụng cơ sở dữ liệu của hơn 40 loại thực phẩm chức năng. Nếu bạn ghi lại hai loại không nên uống cùng nhau (như Sắt và Canxi), ứng dụng sẽ cảnh báo ngay lập tức." },
-        { "q": "Tôi có cần kết nối internet không?", "a": "Không. SuppTime hoạt động 100% ngoại tuyến. Bạn có thể ghi lại liều lượng ngay cả ở chế độ máy bay." },
-        { "q": "Tôi có thể hủy dùng thử bất cứ lúc nào không?", "a": "Chắc chắn rồi. Đăng ký được quản lý trực tiếp bởi Apple. Bạn có thể hủy bằng một lần chạm trong cài đặt iPhone." }
+        {
+          "q": "Dữ liệu sức khỏe của tôi có thực sự riêng tư không?",
+          "a": "Có. SuppTime không có máy chủ. Dữ liệu của bạn chỉ được lưu trên iPhone và đồng bộ qua iCloud cá nhân. Chúng tôi không thể xem dữ liệu đó."
+        },
+        {
+          "q": "Công cụ tương tác hoạt động như thế nào?",
+          "a": "Nó sử dụng cơ sở dữ liệu của hơn 80 loại thực phẩm chức năng. Nếu bạn ghi lại hai loại không nên uống cùng nhau (như Sắt và Canxi), ứng dụng sẽ cảnh báo ngay lập tức."
+        },
+        {
+          "q": "Tôi có cần kết nối internet không?",
+          "a": "Không. SuppTime hoạt động 100% ngoại tuyến. Bạn có thể ghi lại liều lượng ngay cả ở chế độ máy bay."
+        },
+        {
+          "q": "Tôi có thể hủy dùng thử bất cứ lúc nào không?",
+          "a": "Chắc chắn rồi. Đăng ký được quản lý trực tiếp bởi Apple. Bạn có thể hủy bằng một lần chạm trong cài đặt iPhone."
+        }
       ]
     },
     "footer": {
@@ -1612,12 +1836,21 @@ export const I18N = {
         "Hỗ trợ",
         "Báo chí"
       ]
+    },
+    "blog_disclaimer": "Tuyên bố miễn trừ trách nhiệm: Nội dung trên blog này chỉ dành cho mục đích thông tin và giáo dục, không cấu thành lời khuyên y tế. Luôn tham khảo ý kiến chuyên gia chăm sóc sức khỏe có chuyên môn trước khi bắt đầu bất kỳ chế độ bổ sung mới nào.",
+    "cookie_banner": {
+      "text": "Chúng tôi sử dụng cookie để phân tích lưu lượng truy cập và cải thiện trải nghiệm của bạn.",
+      "accept": "Chấp nhận",
+      "decline": "Từ chối",
+      "privacy": "Chính sách Bảo mật"
     }
   },
   "th": {
     "langName": "ไทย",
     "dir": "ltr",
     "nav": {
+      "home": "หน้าแรก",
+      "blog": "บล็อก",
       "features": "ฟีเจอร์",
       "watch": "Apple Watch",
       "reviews": "รีวิว",
@@ -1649,7 +1882,7 @@ export const I18N = {
         },
         {
           "title": "ตารางเวลาทางวิทยาศาสตร์",
-          "desc": "คำแนะนำจากผู้เชี่ยวชาญสำหรับอาหารเสริมกว่า 40 ชนิด ใช้สูตรสำเร็จเพื่อการดูดซึมสูงสุด"
+          "desc": "คำแนะนำจากผู้เชี่ยวชาญสำหรับอาหารเสริมกว่า 80 ชนิด ใช้สูตรสำเร็จเพื่อการดูดซึมสูงสุด"
         },
         {
           "title": "การจัดการยาตามใบสั่ง (Rx)",
@@ -1700,10 +1933,22 @@ export const I18N = {
     "faq": {
       "title": "คำถามที่พบบ่อย",
       "items": [
-        { "q": "ข้อมูลสุขภาพของฉันเป็นส่วนตัวจริงหรือไม่?", "a": "ใช่ SuppTime ไม่มีเซิร์ฟเวอร์ ข้อมูลของคุณจะถูกเก็บไว้ใน iPhone เท่านั้นและซิงค์ผ่าน iCloud ส่วนตัวของคุณ เราไม่สามารถเข้าดูได้" },
-        { "q": "ระบบตรวจสอบปฏิกิริยาระหว่างยาทำงานอย่างไร?", "a": "ระบบใช้ฐานข้อมูลของอาหารเสริมทั่วไปกว่า 40 ชนิด หากคุณพยายามบันทึกสองชนิดที่ไม่ควรทานร่วมกัน (เช่น เหล็กและแคลเซียม) แอปจะเตือนคุณทันที" },
-        { "q": "ฉันจำเป็นต้องเชื่อมต่ออินเทอร์เน็ตหรือไม่?", "a": "ไม่ SuppTime ทำงานแบบออฟไลน์ 100% คุณสามารถบันทึกโดสได้แม้ในโหมดเครื่องบิน" },
-        { "q": "ฉันสามารถยกเลิกการทดลองใช้ได้ตลอดเวลาหรือไม่?", "a": "แน่นอน การสมัครสมาชิกจะถูกจัดการโดย Apple โดยตรง คุณสามารถยกเลิกได้ด้วยการแตะเพียงครั้งเดียวในการตั้งค่า iPhone" }
+        {
+          "q": "ข้อมูลสุขภาพของฉันเป็นส่วนตัวจริงหรือไม่?",
+          "a": "ใช่ SuppTime ไม่มีเซิร์ฟเวอร์ ข้อมูลของคุณจะถูกเก็บไว้ใน iPhone เท่านั้นและซิงค์ผ่าน iCloud ส่วนตัวของคุณ เราไม่สามารถเข้าดูได้"
+        },
+        {
+          "q": "ระบบตรวจสอบปฏิกิริยาระหว่างยาทำงานอย่างไร?",
+          "a": "ระบบใช้ฐานข้อมูลของอาหารเสริมทั่วไปกว่า 80 ชนิด หากคุณพยายามบันทึกสองชนิดที่ไม่ควรทานร่วมกัน (เช่น เหล็กและแคลเซียม) แอปจะเตือนคุณทันที"
+        },
+        {
+          "q": "ฉันจำเป็นต้องเชื่อมต่ออินเทอร์เน็ตหรือไม่?",
+          "a": "ไม่ SuppTime ทำงานแบบออฟไลน์ 100% คุณสามารถบันทึกโดสได้แม้ในโหมดเครื่องบิน"
+        },
+        {
+          "q": "ฉันสามารถยกเลิกการทดลองใช้ได้ตลอดเวลาหรือไม่?",
+          "a": "แน่นอน การสมัครสมาชิกจะถูกจัดการโดย Apple โดยตรง คุณสามารถยกเลิกได้ด้วยการแตะเพียงครั้งเดียวในการตั้งค่า iPhone"
+        }
       ]
     },
     "footer": {
@@ -1714,12 +1959,21 @@ export const I18N = {
         "ช่วยเหลือ",
         "ข่าว"
       ]
+    },
+    "blog_disclaimer": "ข้อจำกัดความรับผิดชอบ: เนื้อหาในบล็อกนี้มีวัตถุประสงค์เพื่อให้ข้อมูลและการศึกษาเท่านั้น และไม่ถือเป็นคำแนะนำทางการแพทย์ ปรึกษาผู้เชี่ยวชาญด้านสุขภาพที่มีคุณสมบัติเหมาะสมเสมอก่อนเริ่มอาหารเสริมใหม่ๆ",
+    "cookie_banner": {
+      "text": "เราใช้คุกกี้เพื่อวิเคราะห์ปริมาณการใช้งานและปรับปรุงประสบการณ์ของคุณ",
+      "accept": "ยอมรับ",
+      "decline": "ปฏิเสธ",
+      "privacy": "นโยบายความเป็นส่วนตัว"
     }
   },
   "ar": {
     "langName": "العربية",
     "dir": "rtl",
     "nav": {
+      "home": "الرئيسية",
+      "blog": "مدونة",
       "features": "الميزات",
       "watch": "Apple Watch",
       "reviews": "التقييمات",
@@ -1751,7 +2005,7 @@ export const I18N = {
         },
         {
           "title": "جداول مبنية على أسس علمية",
-          "desc": "توصيات الخبراء لأكثر من 40 مكمل. استخدم جداول جاهزة لتحقيق أقصى درجات الامتصاص."
+          "desc": "توصيات الخبراء لأكثر من 80 مكمل. استخدم جداول جاهزة لتحقيق أقصى درجات الامتصاص."
         },
         {
           "title": "دعم الأدوية الوصفية (Rx)",
@@ -1802,10 +2056,22 @@ export const I18N = {
     "faq": {
       "title": "الأسئلة الشائعة",
       "items": [
-        { "q": "هل بياناتي الصحية خاصة حقًا؟", "a": "نعم. ليس لدى SuppTime خوادم. يتم تخزين بياناتك فقط على جهاز iPhone الخاص بك وتتم مزامنتها عبر حساب iCloud الشخصي الخاص بك. لا يمكننا رؤيتها." },
-        { "q": "كيف يعمل محرك التفاعلات؟", "a": "يستخدم قاعدة بيانات لأكثر من 40 مكملاً شائعًا. إذا حاولت تسجيل اثنين لا ينبغي تناولهما معًا (مثل الحديد والكالسيوم)، فسيقوم التطبيق بتنبيهك على الفور." },
-        { "q": "هل أحتاج إلى اتصال بالإنترنت؟", "a": "لا. يعمل SuppTime بنسبة 100% بدون اتصال بالإنترنت. يمكنك تسجيل الجرعات حتى في وضع الطيران." },
-        { "q": "هل يمكنني إلغاء التجربة في أي وقت؟", "a": "بالتأكيد. تتم إدارة الاشتراكات مباشرة بواسطة Apple. يمكنك الإلغاء بلمسة واحدة في إعدادات iPhone الخاصة بك." }
+        {
+          "q": "هل بياناتي الصحية خاصة حقًا؟",
+          "a": "نعم. ليس لدى SuppTime خوادم. يتم تخزين بياناتك فقط على جهاز iPhone الخاص بك وتتم مزامنتها عبر حساب iCloud الشخصي الخاص بك. لا يمكننا رؤيتها."
+        },
+        {
+          "q": "كيف يعمل محرك التفاعلات؟",
+          "a": "يستخدم قاعدة بيانات لأكثر من 80 مكملاً شائعًا. إذا حاولت تسجيل اثنين لا ينبغي تناولهما معًا (مثل الحديد والكالسيوم)، فسيقوم التطبيق بتنبيهك على الفور."
+        },
+        {
+          "q": "هل أحتاج إلى اتصال بالإنترنت؟",
+          "a": "لا. يعمل SuppTime بنسبة 100% بدون اتصال بالإنترنت. يمكنك تسجيل الجرعات حتى في وضع الطيران."
+        },
+        {
+          "q": "هل يمكنني إلغاء التجربة في أي وقت؟",
+          "a": "بالتأكيد. تتم إدارة الاشتراكات مباشرة بواسطة Apple. يمكنك الإلغاء بلمسة واحدة في إعدادات iPhone الخاصة بك."
+        }
       ]
     },
     "footer": {
@@ -1816,6 +2082,13 @@ export const I18N = {
         "الدعم",
         "الصحافة"
       ]
+    },
+    "blog_disclaimer": "إخلاء المسؤولية: المحتوى الموجود في هذه المدونة مخصص للأغراض الإعلامية والتعليمية فقط ولا يشكل نصيحة طبية. استشر دائمًا أخصائي رعاية صحية مؤهل قبل البدء في أي نظام مكملات جديد.",
+    "cookie_banner": {
+      "text": "نحن نستخدم ملفات تعريف الارتباط لتحليل حركة المرور وتحسين تجربتك.",
+      "accept": "قبول",
+      "decline": "رفض",
+      "privacy": "سياسة الخصوصية"
     }
   }
 };

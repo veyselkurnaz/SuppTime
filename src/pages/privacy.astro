@@ -1,0 +1,75 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Privacy Policy - SuppTime" description="Privacy Policy for SuppTime App" lang="en" dir="ltr">
+  <main style="padding-top: 120px; padding-bottom: 80px; min-height: 100vh; background: #fafafa;">
+    <article class="prose" style="max-width: 800px; margin: 0 auto; padding: 48px; background: white; border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+      <h1 style="font-size: 36px; font-weight: 700; margin-bottom: 8px;">Privacy Policy</h1>
+      <p style="font-family: var(--mono); font-size: 13px; color: #666; margin-bottom: 40px;">Effective Date: April 14, 2026</p>
+
+      <p>SuppTime ("we", "our", "app") is a supplement routine planner for iOS. This Privacy Policy explains what data is collected, where it is stored, and how it is used. We believe in radical simplicity: <strong>we do not operate any servers, we do not collect your data, and we have no user accounts.</strong></p>
+
+      <h3>1. Data You Enter</h3>
+      <p>SuppTime stores the following data <strong>exclusively on your device</strong> and, optionally, in your private iCloud account:</p>
+      <ul>
+          <li>Supplements and medications you add to your stack (names, dosages, timing)</li>
+          <li>Daily intake logs (which supplements you marked as taken and when)</li>
+          <li>App preferences (notification times, selected goals, onboarding status)</li>
+      </ul>
+      <p>All of this data is stored using Apple's SwiftData framework (on-device SQLite) and synced — if iCloud is enabled — to your <strong>private iCloud Drive container</strong> (<code>iCloud.com.veyselkurnaz.SuppTime</code>). Only you can access this container. We cannot read it.</p>
+
+      <h3>2. iCloud Sync</h3>
+      <p>If you are signed into iCloud on your device, supplement and log data may sync across your iPhone, iPad, and other Apple devices via Apple's CloudKit private database. App settings (notification times, goals) sync via iCloud Key-Value Storage. This sync is entirely between your devices and Apple's infrastructure. We have no access to this data at any time.</p>
+
+      <h3>3. Notifications</h3>
+      <p>SuppTime can send local push notifications to remind you to take supplements at configured times. These notifications are scheduled entirely on your device using Apple's UserNotifications framework. No notification data is sent to any server.</p>
+
+      <h3>4. Home Screen Widget</h3>
+      <p>The SuppTime widget reads supplement progress data from a shared App Group container (<code>group.com.veyselkurnaz.SuppTime</code>) stored locally on your device. This data never leaves your device.</p>
+
+      <h3>5. Apple Watch App</h3>
+      <p>If you use the SuppTime Watch app, supplement data is transferred between your iPhone and Apple Watch using Apple's WatchConnectivity framework. This transfer is peer-to-peer between your devices. We have no access to this data.</p>
+
+      <h3>6. Purchases & Subscriptions</h3>
+      <p>In-app purchases and subscription management are handled entirely by Apple's StoreKit framework. SuppTime does not collect, store, or transmit any payment information. We receive only a verified receipt from Apple indicating whether an entitlement is active. Your subscription status is stored locally on your device and re-validated on each app launch via StoreKit.</p>
+
+      <h3>7. Analytics & Crash Reporting</h3>
+      <p>SuppTime does not integrate any third-party analytics, crash reporting, or advertising SDKs. We do not track your usage, location, or behaviour.</p>
+
+      <h3>8. Children's Privacy</h3>
+      <p>SuppTime is not directed at children under 13 years of age. We do not knowingly collect personal information from children.</p>
+
+      <h3>9. Data Deletion</h3>
+      <p>To delete all your data, simply delete the SuppTime app from your device. To also remove synced iCloud data, go to <strong>Settings &rarr; [Your Name] &rarr; iCloud &rarr; Manage Account Storage &rarr; SuppTime</strong> and delete the associated data. Because we operate no servers, there is no additional step required on our end.</p>
+
+      <h3>10. Changes to This Policy</h3>
+      <p>We may update this Privacy Policy from time to time. The effective date at the top of this page will always reflect the most recent version. Continued use of SuppTime after a change constitutes acceptance of the updated policy.</p>
+
+      <h3>11. Contact</h3>
+      <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:veyselkurnaz@icloud.com">veyselkurnaz@icloud.com</a></p>
+
+      <div class="disclaimer-box">
+          <strong>Medical Disclaimer</strong>
+          <p>SuppTime is designed for informational and organizational purposes only. It is not a medical device and is not intended to diagnose, treat, cure, or prevent any disease or health condition. The supplement information provided in the app is for general reference and does not constitute professional medical advice. Always consult a qualified healthcare provider before starting, changing, or stopping any supplement or medication regimen. The interaction and synergy information displayed in the app is educational in nature and is not a substitute for professional pharmacological or medical guidance.</p>
+      </div>
+
+      <div style="margin-top: 40px; text-align: center;">
+        <a href="/" style="display: inline-block; padding: 12px 24px; background: #eee; color: #333; text-decoration: none; border-radius: 99px; font-weight: 500;">&larr; Back to Home</a>
+      </div>
+    </article>
+  </main>
+</Layout>
+<style is:global>
+  .prose h3 { font-size: 18px; font-weight: 600; margin: 40px 0 16px; color: #111; }
+  .prose p, .prose li { font-size: 16px; line-height: 1.6; color: #444; margin-bottom: 16px; }
+  .prose ul { padding-left: 24px; margin-bottom: 16px; }
+  .prose a { color: #10b981; text-decoration: none; font-weight: 500; }
+  .prose a:hover { text-decoration: underline; }
+  .disclaimer-box { margin-top: 48px; padding: 24px; border-radius: 16px; background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.2); }
+  .disclaimer-box strong { display: block; color: #b45309; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px; }
+  .disclaimer-box p { color: #92400e; margin: 0; font-size: 15px; }
+  
+  @media (max-width: 600px) {
+    .prose { padding: 24px !important; margin: 0 16px; }
+  }
+</style>

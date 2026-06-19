@@ -65,7 +65,7 @@ const schema = [
       "price": "0",
       "priceCurrency": "USD"
     },
-    "url": "https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156"
+    "url": "https://apps.apple.com/app/supptime-vitamin-tracker/id6762088156"
   }
 ];
 
@@ -84,8 +84,8 @@ const schema = [
               <span class="brand-name">SuppTime</span>
           </a>
           <div class="nav-links">
-              <a href={`/${lang}/`}>Home</a>
-              <a href={`/${lang}/blog/`}>Blog</a>
+              <a href={`/${lang}/`}>{t.nav.home}</a>
+              <a href={`/${lang}/blog/`}>{t.nav.blog}</a>
           </div>
           <div class="nav-tools">
               <div style="position: relative;" id="lang-switcher">
@@ -130,10 +130,14 @@ const schema = [
       <div class="prose" style="font-size: 18px; line-height: 1.7; color: #333;">
         <Content />
       </div>
+
+      <div class="blog-disclaimer" style="margin-top: 48px; padding: 20px; background: #f4f6f8; border-radius: 12px; font-size: 13px; line-height: 1.6; color: #666; border: 1px solid #e2e8f0; font-family: var(--sans);">
+        {t.blog_disclaimer}
+      </div>
       
       <div style="margin-top: 48px; border-top: 1px solid #eee; padding-top: 48px; display: flex; justify-content: center;">
           <div class="dl-ctas">
-              <a href="https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156"
+              <a href="https://apps.apple.com/app/supptime-vitamin-tracker/id6762088156"
                   class="as-btn">
                   <span class="as-btn-glyph">
                       <svg viewBox="0 0 384 512" style="width: 28px; height: 32px;"
