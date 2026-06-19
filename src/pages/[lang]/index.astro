@@ -47,8 +47,23 @@ function getReviewLang(country) {
 }
 
 const formatHtml = (str) => str.replace(/\n/g, '<br/>');
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SuppTime",
+  "operatingSystem": "iOS",
+  "applicationCategory": "HealthAndFitnessApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "url": "https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156"
+};
 ---
 <Layout title="SuppTime — Your Wellness, Timed to Perfection." description={t.hero.sub} lang={lang} dir={t.dir || 'ltr'}>
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
 <div class="page">
   <nav class="nav" id="nav">
       <div class="nav-inner">

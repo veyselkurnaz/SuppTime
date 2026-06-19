@@ -1,4 +1,31 @@
----
-// Redirect root to English by default
-return Astro.redirect('/en/');
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SuppTime</title>
+  <script>
+    var supported = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
+    var userLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+    
+    var target = 'en';
+    if (supported.indexOf(userLang) !== -1) {
+      target = userLang;
+    } else {
+      var shortLang = userLang.split('-')[0];
+      if (supported.indexOf(shortLang) !== -1) {
+        target = shortLang;
+      } else if (userLang === 'zh-hk') {
+        target = 'zh-tw';
+      } else if (userLang.indexOf('zh') === 0) {
+        target = 'zh-cn';
+      } else if (userLang.indexOf('pt') === 0) {
+        target = 'pt-br';
+      }
+    }
+    window.location.replace('/' + target + '/');
+  </script>
+  <meta http-equiv="refresh" content="0; url=/en/">
+</head>
+<body>
+</body>
+</html>

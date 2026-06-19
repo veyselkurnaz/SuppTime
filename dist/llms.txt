@@ -1,0 +1,25 @@
+# SuppTime
+
+> Transform your health with SuppTime, the private, ad-free supplement tracker designed for optimal biohacking and routine management. Take the right nutrients at the perfect time, avoid harmful interactions, and visualize your progress—100% offline and secure.
+
+SuppTime is the ultimate vitamin tracker and supplement planner designed to optimize your health routine. Whether you're managing a basic vitamin D and omega-3 stack or a complex biohacking regimen, SuppTime keeps you organized with science-backed guidance.
+
+## Core Features
+- **Smart Stack Builder**: Explore a curated database of 80+ supplements with expert timing recommendations and interaction warnings. Use preset stacks for immunity, focus, sleep, and longevity—or build your custom routine from scratch.
+- **Daily Pill Tracker**: Check off your doses slot by slot: Early Morning, Breakfast, Lunch, Afternoon, Dinner, and Before Sleep.
+- **Interaction Alerts**: Maximize absorption and safety. SuppTime warns you if supplements compete (like iron and calcium) or interfere with effectiveness.
+- **Medication & RX Support**: Track prescription medications alongside your vitamins. A dedicated Rx badge ensures you never confuse your medical treatment with your nutrition stack.
+- **Apple Watch & Widgets**: Log your doses directly from your wrist or view your schedule on your Home Screen.
+- **Privacy First & Offline**: No accounts, no servers, no tracking. Your health data stays on your device and syncs privately via iCloud. SuppTime works 100% offline.
+
+## App Details
+- **Platform**: iOS (App Store)
+- **App Store URL**: https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156
+- **Website**: https://supptime.app
+- **Supported Languages**: English, Turkish, Korean, Japanese, Chinese, German, Spanish, Portuguese, Italian, Dutch, Polish, Russian, Indonesian, Vietnamese, Thai, Arabic.
+
+## Contact & Support
+For support or inquiries, users can reach out via the website (https://supptime.app).
+
+## Blog & Articles
+SuppTime publishes science-backed articles regarding supplement timing, which can be found at https://supptime.app/en/blog/ (and in 16 other languages).

@@ -25,6 +25,15 @@ allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const blogTitle = lang === 'tr' ? 'SuppTime Blog' : 'SuppTime Blog';
 const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hakkında en son yazılar.' : 'The latest articles on health, supplements, and scientific timing.';
 
+const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
+
+function shortCode(c) { 
+  if (c === 'pt-br') return 'PT';
+  if (c === 'zh-cn') return '简';
+  if (c === 'zh-tw') return '繁';
+  return c.toUpperCase(); 
+}
+
 ---
 
 <Layout title={`${blogTitle} - SuppTime`} description={blogDesc} lang={lang} dir={t.dir || 'ltr'}>
@@ -38,6 +47,34 @@ const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hak
           </a>
           <div class="nav-links">
               <a href={`/${lang}/`}>Home</a>
+          </div>
+          <div class="nav-tools">
+              <div style="position: relative;" id="lang-switcher">
+                  <button class="lang-btn" id="lang-btn" aria-label="Language">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="12" cy="12" r="10" />
+                          <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                      </svg>
+                      <span style="font-weight: 600" id="current-lang-code">{shortCode(lang)}</span>
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="m6 9 6 6 6-6" />
+                      </svg>
+                  </button>
+                  <div class="lang-menu lang-menu-tall" id="lang-menu" style="display: none;">
+                    {LANG_ORDER.map(code => {
+                      const opt = I18N[code];
+                      return (
+                        <a href={`/${code}/blog/`} class={`lang-opt ${code === lang ? 'is-active' : ''}`} style="text-decoration:none; color:inherit;">
+                          <span style="font-family: var(--mono); font-size: 11px; opacity: 0.5; width: 26px;">{shortCode(code)}</span>
+                          <span>{opt.langName}</span>
+                          {code === lang && (
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>
+                          )}
+                        </a>
+                      );
+                    })}
+                  </div>
+              </div>
           </div>
       </div>
   </nav>
@@ -66,4 +103,25 @@ const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hak
       </div>
     </div>
   </main>
+  
+  <script>
+    // Language Menu Toggling
+    const langBtn = document.getElementById('lang-btn');
+    const langMenu = document.getElementById('lang-menu');
+    let langMenuOpen = false;
+    
+    if (langBtn && langMenu) {
+      langBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        langMenuOpen = !langMenuOpen;
+        langMenu.style.display = langMenuOpen ? 'grid' : 'none';
+      });
+      document.addEventListener('mousedown', (e) => {
+        if (langMenuOpen && !langBtn.contains(e.target) && !langMenu.contains(e.target)) {
+          langMenuOpen = false;
+          langMenu.style.display = 'none';
+        }
+      });
+    }
+  </script>
 </Layout>

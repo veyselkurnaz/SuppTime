@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://supptime.com', // Assuming this is the custom domain, or it can be updated
+  site: 'https://supptime.app', // Assuming this is the custom domain, or it can be updated
   integrations: [sitemap()],
   i18n: {
     defaultLocale: 'en',

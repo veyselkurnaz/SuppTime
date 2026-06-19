@@ -29,9 +29,9 @@ const locales = Object.keys(I18N);
     <link rel="stylesheet" href="/styles.css" />
     
     <!-- SEO: Hreflang Tags -->
-    <link rel="alternate" href={`https://supptime.com/`} hreflang="x-default" />
+    <link rel="alternate" href={`https://supptime.app/`} hreflang="x-default" />
     {locales.map((l) => (
-      <link rel="alternate" href={`https://supptime.com/${l}/`} hreflang={l === 'pt-br' ? 'pt-BR' : (l === 'zh-cn' ? 'zh-CN' : (l === 'zh-tw' ? 'zh-TW' : l))} />
+      <link rel="alternate" href={`https://supptime.app/${l}/`} hreflang={l === 'pt-br' ? 'pt-BR' : (l === 'zh-cn' ? 'zh-CN' : (l === 'zh-tw' ? 'zh-TW' : l))} />
     ))}
 
     <!-- Google tag (gtag.js) -->
