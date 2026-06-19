@@ -71,7 +71,7 @@ const schema = [
 
 ---
 
-<Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'}>
+<Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'} image="/blog/vitamin_d_blog_cover.png" ogType="article">
   <!-- Inject JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   
@@ -134,7 +134,7 @@ const schema = [
       <div style="margin-top: 48px; border-top: 1px solid #eee; padding-top: 48px; display: flex; justify-content: center;">
           <div class="dl-ctas">
               <a href="https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156"
-                  class="as-btn" onclick="return gtag_report_conversion('https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156');">
+                  class="as-btn">
                   <span class="as-btn-glyph">
                       <svg viewBox="0 0 384 512" style="width: 28px; height: 32px;"
                           preserveAspectRatio="xMidYMid meet" fill="currentColor">

@@ -6,9 +6,11 @@ export interface Props {
   description: string;
   lang: string;
   dir: string;
+  image?: string;
+  ogType?: string;
 }
 
-const { title, description, lang, dir } = Astro.props;
+const { title, description, lang, dir, image = '/assets/watchos.png', ogType = 'website' } = Astro.props;
 
 // Compute hreflang tags for SEO
 const locales = Object.keys(I18N);
@@ -21,6 +23,19 @@ const locales = Object.keys(I18N);
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    
+    <!-- OpenGraph / Social Media Meta Tags -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:image" content={`https://supptime.app${image}`} />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`https://supptime.app${image}`} />
+
     <link rel="icon" type="image/png" href="/assets/watchos.png" />
     <link rel="apple-touch-icon" href="/assets/watchos.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,32 +50,14 @@ const locales = Object.keys(I18N);
     ))}
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18153774378"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0GC3N2F5V1"></script>
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'AW-18153774378');
-
-      function gtag_report_conversion(url) {
-        if (typeof gtag === 'undefined') {
-          window.location = url;
-          return false;
-        }
-        var redirected = false;
-        var redirectFn = function () {
-          if (!redirected) {
-            redirected = true;
-            window.location = url;
-          }
-        };
-        setTimeout(redirectFn, 200);
-        gtag('event', 'conversion', {
-          'send_to': 'AW-967371332/KBlVCK2j9qkcEMTUo80D',
-          'event_callback': redirectFn
-        });
-        return false;
-      }
+      
+      // Google Analytics 4 (GA4)
+      gtag('config', 'G-0GC3N2F5V1');
     </script>
 </head>
 <body class={`lang-${lang}`}>
