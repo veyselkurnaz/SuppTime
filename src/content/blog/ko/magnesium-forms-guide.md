@@ -2,7 +2,7 @@
 title: "마그네슘 완벽 가이드: 나에게 맞는 형태는 무엇일까?"
 description: "마그네슘 글리시네이트, 시트레이트, 트레오네이트, 말레이트의 결정적인 차이점을 알아보세요. 올바른 복용 시간과 흡수율을 높이는 방법을 알려드립니다."
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

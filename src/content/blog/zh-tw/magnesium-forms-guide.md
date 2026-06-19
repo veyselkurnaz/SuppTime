@@ -2,7 +2,7 @@
 title: "鎂的終極指南：哪種形態最適合您？"
 description: "了解甘氨酸鎂、檸檬酸鎂、L-蘇糖酸鎂和蘋果酸鎂之間的關鍵區別。學習何時服用它們以及如何優化吸收。"
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

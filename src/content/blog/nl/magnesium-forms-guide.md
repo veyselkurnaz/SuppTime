@@ -2,7 +2,7 @@
 title: "De Ultieme Gids voor Magnesium: Welke Vorm is Geschikt voor Jou?"
 description: "Ontdek de cruciale verschillen tussen Magnesiumglycinaat, Citraat, L-Threonaat en Malaat. Leer wanneer u ze moet innemen en hoe u de opname kunt optimaliseren."
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

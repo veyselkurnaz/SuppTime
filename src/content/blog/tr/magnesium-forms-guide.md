@@ -2,7 +2,7 @@
 title: "Magnezyum Formları Rehberi: Hangi Magnezyum Ne İşe Yarar?"
 description: "Magnezyum Glisinat, Sitrat, L-Treonat ve Malat arasındaki farkları keşfedin. Uyku, enerji ve beyin sağlığı için en doğru formu nasıl seçeceğinizi öğrenin."
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

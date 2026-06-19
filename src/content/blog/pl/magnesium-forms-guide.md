@@ -2,7 +2,7 @@
 title: "Kompletny Przewodnik po Magnezie: Która Forma Jest dla Ciebie Najlepsza?"
 description: "Poznaj kluczowe różnice między Glicynianem, Cytrynianem, Treonianem i Jabłczanem Magnezu. Dowiedz się, kiedy je przyjmować, aby zoptymalizować wchłanianie."
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

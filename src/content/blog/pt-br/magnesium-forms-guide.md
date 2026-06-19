@@ -2,7 +2,7 @@
 title: "O Guia Definitivo do Magnésio: Qual Forma é a Certa para Você?"
 description: "Descubra as diferenças entre o Glicinato de Magnésio, Citrato, Treonato e Malato. Aprenda quando tomá-los e como otimizar sua absorção."
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

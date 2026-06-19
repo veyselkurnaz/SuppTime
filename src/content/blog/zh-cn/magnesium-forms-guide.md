@@ -2,7 +2,7 @@
 title: "镁的终极指南：哪种形态最适合您？"
 description: "了解甘氨酸镁、柠檬酸镁、L-苏糖酸镁和苹果酸镁之间的关键区别。学习何时服用它们以及如何优化吸收。"
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

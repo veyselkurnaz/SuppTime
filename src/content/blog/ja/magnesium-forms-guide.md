@@ -2,7 +2,7 @@
 title: "マグネシウムの究極ガイド：あなたに最適な種類はどれ？"
 description: "グリシン酸マグネシウム、クエン酸、L-トレオン酸、リンゴ酸の決定的な違いを発見しましょう。いつ飲むべきか、そして吸収を最適化する方法を解説します。"
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

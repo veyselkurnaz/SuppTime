@@ -2,7 +2,7 @@
 title: "الدليل الشامل للمغنيسيوم: أي شكل هو الأنسب لك؟"
 description: "اكتشف الاختلافات الحاسمة بين جلايسينات المغنيسيوم، والسيترات، و L-Threonate، والمالات. تعلم متى يجب تناولها وكيفية تحسين امتصاصك لها."
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

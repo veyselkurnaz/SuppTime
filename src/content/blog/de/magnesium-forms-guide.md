@@ -2,7 +2,7 @@
 title: "Der ultimative Magnesium-Guide: Welche Form ist die richtige für Sie?"
 description: "Entdecken Sie die Unterschiede zwischen Magnesiumbisglycinat, Citrat, L-Threonat und Malat. Erfahren Sie, wann Sie sie einnehmen sollten und wie Sie die Aufnahme optimieren."
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

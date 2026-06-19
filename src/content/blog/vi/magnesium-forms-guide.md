@@ -2,7 +2,7 @@
 title: "Hướng Dẫn Toàn Diện Về Magie: Loại Nào Phù Hợp Với Bạn?"
 description: "Khám phá sự khác biệt cốt lõi giữa Magie Glycinate, Citrate, L-Threonate và Malate. Tìm hiểu khi nào nên uống và cách tối ưu hóa khả năng hấp thụ."
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

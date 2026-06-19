@@ -2,7 +2,7 @@
 title: "The Ultimate Guide to Magnesium: Which Form is Right for You?"
 description: "Discover the critical differences between Magnesium Glycinate, Citrate, L-Threonate, and Malate. Learn when to take them, what to avoid, and how to optimize your absorption."
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 

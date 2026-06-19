@@ -2,7 +2,7 @@
 title: "Panduan Lengkap Magnesium: Bentuk Mana yang Tepat untuk Anda?"
 description: "Temukan perbedaan penting antara Magnesium Glisinat, Sitrat, L-Treonat, dan Malat. Pelajari kapan harus meminumnya dan cara mengoptimalkan penyerapannya."
 pubDate: 2026-06-20
-author: "Veysel Kurnaz"
+author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 ---
 
