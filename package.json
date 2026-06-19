@@ -1,0 +1,31 @@
+{
+  "name": "supptime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "i18n.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veyselkurnaz/SuppTime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/veyselkurnaz/SuppTime/issues"
+  },
+  "homepage": "https://github.com/veyselkurnaz/SuppTime#readme",
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^6.4.8",
+    "typescript": "^6.0.3"
+  }
+}

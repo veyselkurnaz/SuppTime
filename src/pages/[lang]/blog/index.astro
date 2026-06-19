@@ -1,0 +1,69 @@
+---
+import { getCollection } from 'astro:content';
+import { I18N } from '../../../i18n.js';
+import Layout from '../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const locales = Object.keys(I18N);
+  return locales.map(lang => ({
+    params: { lang },
+  }));
+}
+
+const { lang } = Astro.params;
+const t = I18N[lang];
+
+// Fetch all posts for the current language
+const allPosts = await getCollection('blog', ({ id }) => {
+  return id.startsWith(`${lang}/`);
+});
+
+// Sort by date
+allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Get title based on lang
+const blogTitle = lang === 'tr' ? 'SuppTime Blog' : 'SuppTime Blog';
+const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hakkında en son yazılar.' : 'The latest articles on health, supplements, and scientific timing.';
+
+---
+
+<Layout title={`${blogTitle} - SuppTime`} description={blogDesc} lang={lang} dir={t.dir || 'ltr'}>
+  <nav class="nav" id="nav" style="background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0,0,0,0.05);">
+      <div class="nav-inner">
+          <a href={`/${lang}/`} class="brand">
+              <span class="brand-mark" style="width: 32px; height: 32px;">
+                  <img src="/assets/watchos.png" alt="SuppTime" />
+              </span>
+              <span class="brand-name">SuppTime</span>
+          </a>
+          <div class="nav-links">
+              <a href={`/${lang}/`}>Home</a>
+          </div>
+      </div>
+  </nav>
+
+  <main style="padding-top: 120px; min-height: 100vh; background: #fafafa;">
+    <div style="max-width: 800px; margin: 0 auto; padding: 0 24px;">
+      <h1 class="h2" style="margin-bottom: 16px;">{blogTitle}</h1>
+      <p style="color: #666; font-size: 18px; margin-bottom: 48px;">{blogDesc}</p>
+
+      <div style="display: flex; flex-direction: column; gap: 32px;">
+        {allPosts.map(post => (
+          <article style="background: white; padding: 24px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+            <a href={`/${lang}/blog/${post.id.split('/').pop().replace('.md', '')}`} style="text-decoration: none; color: inherit;">
+              <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">{post.data.title}</h2>
+              <p style="color: #666; line-height: 1.6; margin-bottom: 16px;">{post.data.description}</p>
+              <div style="font-size: 14px; color: #999;">
+                {post.data.pubDate.toLocaleDateString(lang)} • {post.data.author}
+              </div>
+            </a>
+          </article>
+        ))}
+        
+        {allPosts.length === 0 && (
+          <p style="color: #999; font-style: italic;">No posts found for this language yet.</p>
+        )}
+      </div>
+    </div>
+  </main>
+</Layout>

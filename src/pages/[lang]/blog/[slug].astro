@@ -1,0 +1,97 @@
+---
+import { getCollection, render } from 'astro:content';
+import { I18N } from '../../../i18n.js';
+import Layout from '../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  
+  return posts.map(post => {
+    // id is like "en/best-time-for-vitamin-d.md"
+    const [lang, ...slugParts] = post.id.split('/');
+    // slug is the filename without lang and without .md
+    const slug = slugParts.join('/').replace(/\.md$/, '');
+    
+    return {
+      params: { lang, slug },
+      props: { post, allPosts: posts },
+    };
+  });
+}
+
+const { lang } = Astro.params;
+const { post, allPosts } = Astro.props;
+const { Content } = await render(post);
+
+const t = I18N[lang];
+
+// SEO: Find translations of this post for hreflang
+const translations = allPosts.filter(p => p.data.translationKey === post.data.translationKey);
+
+// Generate JSON-LD Schema
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": post.data.title,
+  "description": post.data.description,
+  "author": {
+    "@type": "Organization",
+    "name": post.data.author
+  },
+  "datePublished": post.data.pubDate.toISOString(),
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `https://supptime.com/${lang}/blog/${Astro.params.slug}`
+  }
+};
+
+---
+
+<Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'}>
+  <!-- Inject JSON-LD -->
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  
+  <nav class="nav" id="nav" style="background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0,0,0,0.05);">
+      <div class="nav-inner">
+          <a href={`/${lang}/`} class="brand">
+              <span class="brand-mark" style="width: 32px; height: 32px;">
+                  <img src="/assets/watchos.png" alt="SuppTime" />
+              </span>
+              <span class="brand-name">SuppTime</span>
+          </a>
+          <div class="nav-links">
+              <a href={`/${lang}/`}>Home</a>
+              <a href={`/${lang}/blog/`}>Blog</a>
+          </div>
+      </div>
+  </nav>
+
+  <main style="padding-top: 120px; min-height: 100vh; background: #fafafa;">
+    <article style="max-width: 700px; margin: 0 auto; padding: 48px 24px; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+      <h1 style="font-size: 36px; font-weight: 700; margin-bottom: 16px; line-height: 1.2;">{post.data.title}</h1>
+      <div style="color: #666; margin-bottom: 48px; font-size: 15px; border-bottom: 1px solid #eee; padding-bottom: 24px;">
+        {post.data.pubDate.toLocaleDateString(lang)} • {post.data.author}
+      </div>
+      
+      <div class="prose" style="font-size: 18px; line-height: 1.7; color: #333;">
+        <Content />
+      </div>
+    </article>
+  </main>
+</Layout>
+
+<style is:global>
+  .prose h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  .prose p {
+    margin-bottom: 24px;
+  }
+  .prose strong {
+    font-weight: 600;
+    color: #111;
+  }
+</style>

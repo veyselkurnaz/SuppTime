@@ -1,0 +1,352 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { I18N, REVIEWS } from '../../i18n.js';
+
+export function getStaticPaths() {
+  const locales = Object.keys(I18N);
+  return locales.map(lang => ({
+    params: { lang },
+  }));
+}
+
+const { lang } = Astro.params;
+const t = I18N[lang];
+
+const ICONS = {
+  zap: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z"/></svg>',
+  watch: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="3"/><path d="M9 6l1-3h4l1 3M9 18l1 3h4l1-3"/></svg>',
+  bell: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 8 3 8H3s3-1 3-8M10.5 21a1.5 1.5 0 0 0 3 0"/></svg>',
+  shield: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Zm-3-10 2 2 4-4"/></svg>',
+  check: '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>',
+  check_dl: '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>',
+  star: '<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3 7 7 .8-5.3 4.7 1.6 7L12 17.8 5.7 21.5l1.6-7L2 9.8 9 9z"/></svg>'
+};
+const FEATURE_ICONS = ['zap', 'watch', 'bell', 'shield'];
+const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
+
+function shortCode(c) { 
+  if (c === 'pt-br') return 'PT';
+  if (c === 'zh-cn') return '简';
+  if (c === 'zh-tw') return '繁';
+  return c.toUpperCase(); 
+}
+
+const faqItems = (t.faq && t.faq.items) ? t.faq.items : I18N.en.faq.items;
+const faqTitle = (t.faq && t.faq.title) ? t.faq.title : I18N.en.faq.title;
+const ratingTitle = t.hero.rating || I18N.en.hero.rating;
+
+// Reviews
+const chunks = [
+  REVIEWS.slice(0, 10),
+  REVIEWS.slice(10, 20),
+  REVIEWS.slice(20, 30)
+];
+function getReviewLang(country) {
+  const map = {'Korea':'ko', 'Japan':'ja', 'Germany':'de', 'Brazil':'pt', 'Turkey':'tr', 'Indonesia':'id', 'Spain':'es', 'Thailand':'th', 'France':'fr', 'Italy':'it', 'Russia':'ru', 'Poland':'pl', 'Sweden':'sv', 'UAE':'ar', 'China':'zh-cn'};
+  return map[country] || 'en';
+}
+
+const formatHtml = (str) => str.replace(/\n/g, '<br/>');
+---
+<Layout title="SuppTime — Your Wellness, Timed to Perfection." description={t.hero.sub} lang={lang} dir={t.dir || 'ltr'}>
+<div class="page">
+  <nav class="nav" id="nav">
+      <div class="nav-inner">
+          <a href="#top" class="brand">
+              <span class="brand-mark" style="width: 32px; height: 32px;">
+                  <img src="/assets/watchos.png" alt="SuppTime" />
+              </span>
+              <span class="brand-name">SuppTime</span>
+          </a>
+          <div class="nav-links">
+              <a href="#features">{t.nav.features}</a>
+              <a href="#watch">{t.nav.watch}</a>
+              <a href="#reviews">{t.nav.reviews}</a>
+              <!-- Blog Link added for SEO and navigation -->
+              <a href={`/${lang}/blog/`}>Blog</a>
+          </div>
+          <div class="nav-tools">
+              <div style="position: relative;" id="lang-switcher">
+                  <button class="lang-btn" id="lang-btn" aria-label="Language">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="12" cy="12" r="10" />
+                          <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                      </svg>
+                      <span style="font-weight: 600" id="current-lang-code">{shortCode(lang)}</span>
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="m6 9 6 6 6-6" />
+                      </svg>
+                  </button>
+                  <div class="lang-menu lang-menu-tall" id="lang-menu" style="display: none;">
+                    {LANG_ORDER.map(code => {
+                      const opt = I18N[code];
+                      return (
+                        <a href={`/${code}/`} class={`lang-opt ${code === lang ? 'is-active' : ''}`} style="text-decoration:none; color:inherit;">
+                          <span style="font-family: var(--mono); font-size: 11px; opacity: 0.5; width: 26px;">{shortCode(code)}</span>
+                          <span>{opt.langName}</span>
+                          {code === lang && (
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>
+                          )}
+                        </a>
+                      );
+                    })}
+                  </div>
+              </div>
+              <a href="#download" class="btn btn-primary btn-sm">
+                  <span>{t.nav.download}</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14m-8-6 6 6-6 6" />
+                  </svg>
+              </a>
+          </div>
+      </div>
+  </nav>
+
+  <main>
+      <section class="hero" id="top">
+          <div class="hero-bg" aria-hidden="true">
+              <div class="hero-blob hero-blob-1"></div>
+              <div class="hero-blob hero-blob-2"></div>
+              <div class="hero-grid"></div>
+          </div>
+          <div class="hero-inner">
+              <div class="hero-copy">
+                  <div class="hero-ratings rise-2">
+                      <div class="stars" set:html={ICONS.star.repeat(5)}></div>
+                      <span>{ratingTitle}</span>
+                  </div>
+                  <h1 class="h1">
+                      <span class="h1-l1">{t.hero.headline_1}</span>
+                      <span class="h1-l2">{t.hero.headline_2}</span>
+                  </h1>
+                  <p class="lede">{t.hero.sub}</p>
+                  <div class="hero-ctas">
+                      <a href="https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156" class="as-btn" onclick="return gtag_report_conversion('https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156');">
+                          <span class="as-btn-glyph">
+                              <svg viewBox="0 0 384 512" style="width: 28px; height: 32px;" preserveAspectRatio="xMidYMid meet" fill="currentColor">
+                                  <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+                              </svg>
+                          </span>
+                          <span class="as-btn-text">
+                              <span class="as-btn-top">{t.cta.appstore_top}</span>
+                              <span class="as-btn-bottom">{t.cta.appstore_bottom}</span>
+                          </span>
+                      </a>
+                  </div>
+                  <div class="hero-meta">
+                      <div class="meta-row">
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ff9500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" /></svg>
+                          <span>{t.hero.meta1}</span>
+                      </div>
+                      <span class="meta-sep"></span>
+                      <div class="meta-row">
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#34c759" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Zm-3-10 2 2 4-4" /></svg>
+                          <span>{t.hero.meta2}</span>
+                      </div>
+                      <span class="meta-sep"></span>
+                      <div class="meta-row">
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#ff2d55" stroke="#ff2d55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" /></svg>
+                          <span>{t.hero.meta3}</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="hero-shot-wrap">
+                  <div class="hero-shot-glow"></div>
+                  <div class="float-chip float-chip-1">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" /></svg>
+                      <span>{t.hero.meta1}</span>
+                  </div>
+                  <div class="hero-shot-card">
+                      <!-- Fallback handling in SSR isn't identical to client side onerror, so we output straight path -->
+                      <img src={`/screens/${lang}/1.jpg`} onerror={`this.src='/screens/en/1.jpg'`} alt="SuppTime" class="hero-shot" />
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="section" id="features">
+          <div class="section-head">
+              <div class="eyebrow eyebrow-dark">
+                  <span class="eyebrow-dot"></span>
+                  <span>{t.features.eyebrow}</span>
+              </div>
+              <h2 class="h2" set:html={formatHtml(t.features.title)}></h2>
+              <p class="section-sub">{t.features.sub}</p>
+          </div>
+          <div class="features-grid">
+            {t.features.list.map((f, i) => (
+              <article class={`feature glass feature-${i}`}>
+                <div class="feature-icon" set:html={ICONS[FEATURE_ICONS[i]]}></div>
+                <div class="feature-body">
+                  <h3 class="feature-title">{f.title}</h3>
+                  <p class="feature-desc">{f.desc}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+      </section>
+
+      <section class="section section-gallery" id="screens">
+          <div class="section-head section-head-center">
+              <div class="eyebrow eyebrow-dark">
+                  <span class="eyebrow-dot"></span>
+                  <span>{t.cta.appstore_bottom}</span>
+              </div>
+              <h2 class="h2">{t.screens.title}</h2>
+              <p class="section-sub">{t.screens.sub}</p>
+          </div>
+          <div class="gallery-row">
+            {[1, 2, 3, 4].map((n, i) => (
+              <figure class="gallery-card" style={`--i: ${i}`}>
+                <img src={`/screens/${lang}/${n}.jpg`} onerror={`this.src='/screens/en/${n}.jpg'`} class="gallery-img" loading={n > 1 ? 'lazy' : 'eager'} />
+              </figure>
+            ))}
+          </div>
+      </section>
+
+      <section class="section section-watch" id="watch">
+          <div class="watch-grid">
+              <div class="watch-copy">
+                  <div class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span><span>{t.watch.eyebrow}</span></div>
+                  <h2 class="h2">{t.watch.title}</h2>
+                  <p class="section-sub">{t.watch.sub}</p>
+                  <ul class="watch-list">
+                    {t.watch.bullets.map(b => (
+                      <li><span class="watch-check" set:html={ICONS.check}></span><span>{b}</span></li>
+                    ))}
+                  </ul>
+              </div>
+              <div class="watch-stage">
+                  <div class="watch-stage-glow"></div>
+                  <img src={`/screens/${lang}/5.jpg`} onerror={`this.src='/screens/en/5.jpg'`} alt="Apple Watch SuppTime" class="watch-static-img" />
+              </div>
+          </div>
+      </section>
+
+      <section class="section section-reviews" id="reviews">
+          <div class="section-head section-head-center">
+              <div class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span><span>{t.reviews.eyebrow}</span></div>
+              <h2 class="h2" set:html={formatHtml(t.reviews.title)}></h2>
+              <p class="section-sub">{t.reviews.sub}</p>
+          </div>
+          <div class="reviews-ticker-wrap">
+            {chunks.map((chunk, idx) => (
+              <div class={`reviews-ticker-row ${idx === 1 ? 'reviews-ticker-row-reverse' : ''}`}>
+                {[...chunk, ...chunk].map(r => (
+                  <article class="review glass">
+                    <div class="review-head">
+                      <span class="review-flag" aria-hidden="true">{r.flag}</span>
+                      <div class="review-meta">
+                        <div class="review-name">{r.name}</div>
+                        <div class="review-role">{r.role}</div>
+                      </div>
+                      <span class="review-stars" set:html={ICONS.star.repeat(5)}></span>
+                    </div>
+                    <p class="review-quote" lang={getReviewLang(r.country)}>{r.quote}</p>
+                    <div class="review-foot">
+                      <span class="review-country">{r.country.toUpperCase()}</span>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            ))}
+          </div>
+      </section>
+
+      <section class="section" id="faq">
+          <div class="section-head section-head-center">
+              <h2 class="h2">{faqTitle}</h2>
+          </div>
+          <div class="faq-grid">
+            {faqItems.map(item => (
+              <div class="faq-item">
+                <h3 class="faq-q">{item.q}</h3>
+                <p class="faq-a">{item.a}</p>
+              </div>
+            ))}
+          </div>
+      </section>
+
+      <section class="section section-download" id="download">
+          <div class="dl-card">
+              <div class="dl-noise" aria-hidden="true"></div>
+              <div class="dl-rings" aria-hidden="true"><span></span><span></span><span></span></div>
+              <div class="dl-inner">
+                  <h2 class="h2 h2-light">{t.download_cta.title}</h2>
+                  <p class="dl-sub">{t.download_cta.sub}</p>
+                  <div class="dl-bullets">
+                    {t.download_cta.bullets.map(b => (
+                      <div class="dl-bullet"><span class="dl-bullet-check" set:html={ICONS.check_dl}></span><span>{b}</span></div>
+                    ))}
+                  </div>
+                  <div class="dl-ctas">
+                      <a href="https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156" class="as-btn" onclick="return gtag_report_conversion('https://apps.apple.com/us/app/supptime-vitamin-tracker/id6762088156');">
+                          <span class="as-btn-glyph">
+                              <svg viewBox="0 0 384 512" style="width: 28px; height: 32px;" preserveAspectRatio="xMidYMid meet" fill="currentColor">
+                                  <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+                              </svg>
+                          </span>
+                          <span class="as-btn-text">
+                              <span class="as-btn-top">{t.cta.appstore_top}</span>
+                              <span class="as-btn-bottom">{t.cta.appstore_bottom}</span>
+                          </span>
+                      </a>
+                  </div>
+                  <div class="dl-meta">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M5.6 18.4l2.8-2.8M15.6 8.4l2.8-2.8" /></svg>
+                      <span>{t.download_cta.requires}</span>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+  </main>
+  <footer class="foot">
+      <div class="foot-inner">
+          <div class="foot-brand">
+              <span class="brand-mark" style="width: 32px; height: 32px;">
+                  <img src="/assets/watchos.png" alt="SuppTime" />
+              </span>
+              <div>
+                  <div class="brand-name" style="font-size: 15px">SuppTime</div>
+                  <div class="foot-tag">{t.footer.tag}</div>
+              </div>
+          </div>
+          <div class="foot-links">
+            {t.footer.links.map((l, i) => (
+              <a href={i === 0 ? '/privacy.html' : (i === 2 ? 'mailto:veyselkurnaz@icloud.com' : '#')}>{l}</a>
+            ))}
+          </div>
+          <div class="foot-copy">© 2026 SuppTime, Inc.</div>
+      </div>
+  </footer>
+</div>
+
+<script>
+  // Nav Scroll state
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 8) nav?.classList.add('is-scrolled');
+    else nav?.classList.remove('is-scrolled');
+  }, { passive: true });
+
+  // Language Menu Toggling
+  const langBtn = document.getElementById('lang-btn');
+  const langMenu = document.getElementById('lang-menu');
+  let langMenuOpen = false;
+  
+  if (langBtn && langMenu) {
+    langBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      langMenuOpen = !langMenuOpen;
+      langMenu.style.display = langMenuOpen ? 'grid' : 'none';
+    });
+    document.addEventListener('mousedown', (e) => {
+      if (langMenuOpen && !langBtn.contains(e.target as Node) && !langMenu.contains(e.target as Node)) {
+        langMenuOpen = false;
+        langMenu.style.display = 'none';
+      }
+    });
+  }
+</script>
+</Layout>

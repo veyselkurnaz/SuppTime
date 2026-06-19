@@ -1,5 +1,5 @@
 /* SuppTime — i18n (17 languages) + Reviews */
-window.I18N = {
+export const I18N = {
   "en": {
     "langName": "English",
     "dir": "ltr",
@@ -1820,7 +1820,7 @@ window.I18N = {
   }
 };
 
-window.REVIEWS = [
+export const REVIEWS = [
   {
     "id": 1,
     "name": "김지윤",
