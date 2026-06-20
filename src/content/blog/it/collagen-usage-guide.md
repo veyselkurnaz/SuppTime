@@ -15,15 +15,15 @@ Il collagene è la proteina strutturale più abbondante nel corpo umano, costitu
 Questi tipi di collagene mostrano un'eterogeneità molecolare distinta in termini di composizione delle catene alfa, distribuzione tissutale e funzioni meccaniche.
 
 ### Collagene Tipo I
-Il Tipo I è un eterotrimero composto da due catene $\alpha_1(\text{I})$ e una catena $\alpha_2(\text{I})$. Costituendo l'80% del tessuto dermico giovane, questo tipo diminuisce naturalmente di circa l'1,5% ogni anno con l'avanzare dell'età. Al microscopio elettronico, cinque molecole di collagene di Tipo I si raggruppano in fibrille attorcigliate verso destra mostrando un caratteristico "D-banding" (un periodo D di ~67 nm), misurando fino a 500 micrometri di lunghezza.
+Il Tipo I è un eterotrimero composto da due catene α1(I) e una catena α2(I). Costituendo l'80% del tessuto dermico giovane, questo tipo diminuisce naturalmente di circa l'1,5% ogni anno con l'avanzare dell'età. Al microscopio elettronico, cinque molecole di collagene di Tipo I si raggruppano in fibrille attorcigliate verso destra mostrando un caratteristico "D-banding" (un periodo D di ~67 nm), misurando fino a 500 micrometri di lunghezza.
 **Funzione Principale:** Fornisce un'elevata resistenza alla trazione nella matrice minerale ossea (oltre il 90%), tendini (60-80% del peso secco), denti, legamenti e capsule protettive degli organi. Nel tessuto osseo, i cristalli inorganici di idrossiapatite sono ancorati direttamente su questa impalcatura di collagene Tipo I.
 
 ### Collagene Tipo II
-Il Tipo II è un omotrimero composto da tre catene identiche $\alpha_1(\text{II})$ e rappresenta il 90-95% della matrice extracellulare nella cartilagine articolare e ialina.
+Il Tipo II è un omotrimero composto da tre catene identiche α1(II) e rappresenta il 90-95% della matrice extracellulare nella cartilagine articolare e ialina.
 **Funzione Principale:** Questa rete di fibrille intrappola i proteoglicani, garantendo alle articolazioni una notevole resistenza alla compressione e proprietà di assorbimento degli urti. La sua carenza o degradazione è direttamente correlata a osteoartrosi (OA), artrite reumatoide (AR) e displasie scheletriche. Collageni minori come i Tipi IX e XI svolgono ruoli complementari nella stabilizzazione della rete di fibrille Tipo II.
 
 ### Collagene Tipo III
-Anch'esso un omotrimero composto da tre catene $\alpha_1(\text{III})$, il Tipo III domina la struttura dei vasi sanguigni, muscoli lisci, tratto gastrointestinale e organi interni che richiedono un'elevata distensibilità.
+Anch'esso un omotrimero composto da tre catene α1(III), il Tipo III domina la struttura dei vasi sanguigni, muscoli lisci, tratto gastrointestinale e organi interni che richiedono un'elevata distensibilità.
 **Funzione Principale:** Co-localizzato con il Tipo I nello strato dermico in un rapporto dell'8-11%, svolge un ruolo critico nella guarigione precoce delle ferite e nella conservazione dell'elasticità vascolare. I difetti nella sintesi del collagene Tipo III sono direttamente associati a patologie come la Sindrome di Ehlers-Danlos (SED) e aneurismi arteriosi.
 
 ### Barriera Intestinale ed Effetti Prebiotici
@@ -43,7 +43,7 @@ Il collagene nativo (~300 kDa) e la gelatina (~100 kDa) hanno una scarsa biodisp
 
 Nell'epitelio intestinale, l'assorbimento avviene non solo come aminoacidi liberi ma anche attraverso il trasporto attivo di di- e tri-peptidi intatti. I dipeptidi unici del collagene, come **Pro-Hyp (Prolina-Idrossiprolina)** e **Hyp-Gly**, resistono alla degradazione da parte degli enzimi digestivi grazie alle loro rigide strutture cicliche. Questi peptidi vengono trasportati attivamente attraverso la membrana dell'orletto a spazzola dal trasportatore di oligopeptidi accoppiato a protoni **PepT1 (SLC15A1)**.
 
-Una volta nella circolazione sistemica, questi peptidi bioattivi agiscono come ligandi di segnalazione su fibroblasti, condrociti e tenociti. Ad esempio, il dipeptide Pro-Hyp si lega ai recettori dell'integrina $\alpha_5\beta_1$, attivando i percorsi MAPK e stimolando le cellule a produrre il proprio collagene (*de novo*).
+Una volta nella circolazione sistemica, questi peptidi bioattivi agiscono come ligandi di segnalazione su fibroblasti, condrociti e tenociti. Ad esempio, il dipeptide Pro-Hyp si lega ai recettori dell'integrina α5β1, attivando i percorsi MAPK e stimolando le cellule a produrre il proprio collagene (*de novo*).
 
 ## 4. Tempistiche Ottimali, Dinamica Gastrointestinale e Crononutrizione
 

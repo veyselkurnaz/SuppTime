@@ -15,15 +15,15 @@ Collagen is the most abundant structural protein in the human body, accounting f
 These collagen types exhibit distinct molecular heterogeneity in terms of their alpha-chain compositions, tissue distribution, and mechanical functions.
 
 ### Type I Collagen
-Type I is a heterotrimer composed of two $\alpha_1(\text{I})$ chains and one $\alpha_2(\text{I})$ chain. Comprising 80% of young dermal tissue, this type naturally declines by approximately 1.5% every year with age. Under an electron microscope, five Type I collagen molecules pack together into right-handed twisted fibrils exhibiting a characteristic "D-banding" pattern (a D-period of ~67 nm), measuring up to 500 micrometers in length.
+Type I is a heterotrimer composed of two α1(I) chains and one α2(I) chain. Comprising 80% of young dermal tissue, this type naturally declines by approximately 1.5% every year with age. Under an electron microscope, five Type I collagen molecules pack together into right-handed twisted fibrils exhibiting a characteristic "D-banding" pattern (a D-period of ~67 nm), measuring up to 500 micrometers in length.
 **Primary Function:** It provides high tensile strength in the bone mineral matrix (over 90%), tendons (60-80% of dry weight), teeth, ligaments, and protective organ capsules. In bone tissue, inorganic hydroxyapatite crystals are anchored directly onto this Type I collagen scaffold.
 
 ### Type II Collagen
-Type II is a homotrimer consisting of three identical $\alpha_1(\text{II})$ chains and represents 90-95% of the extracellular matrix in articular and hyaline cartilage.
+Type II is a homotrimer consisting of three identical α1(II) chains and represents 90-95% of the extracellular matrix in articular and hyaline cartilage.
 **Primary Function:** This fibril network traps proteoglycans, granting joints remarkable compressive resistance and shock-absorbing properties. Its deficiency or degradation is directly linked to osteoarthritis (OA), rheumatoid arthritis (RA), and skeletal dysplasias. Minor collagens like Types IX and XI play complementary roles in stabilizing the Type II fibril network.
 
 ### Type III Collagen
-Also a homotrimer consisting of three $\alpha_1(\text{III})$ chains, Type III dominates the structure of blood vessels, smooth muscles, the gastrointestinal tract, and internal organs that require high distensibility.
+Also a homotrimer consisting of three α1(III) chains, Type III dominates the structure of blood vessels, smooth muscles, the gastrointestinal tract, and internal organs that require high distensibility.
 **Primary Function:** Co-localized with Type I in the dermal layer at a ratio of 8-11%, it plays a critical role in early wound healing and the preservation of vascular elasticity. Defects in Type III collagen synthesis are directly associated with pathologies such as Ehlers-Danlos Syndrome (EDS) and arterial aneurysms.
 
 ### Gut Barrier and Prebiotic Effects
@@ -43,7 +43,7 @@ Native collagen (~300 kDa) and gelatin (~100 kDa) have poor bioavailability due 
 
 In the intestinal epithelium, absorption occurs not only as free amino acids but also via the active transport of intact di- and tri-peptides. Di-peptides unique to collagen, such as **Pro-Hyp (Proline-Hydroxyproline)** and **Hyp-Gly**, resist degradation by digestive enzymes thanks to their rigid cyclic structures. These peptides are actively transported across the brush border membrane by the proton-coupled oligopeptide transporter **PepT1 (SLC15A1)**.
 
-Once in systemic circulation, these bioactive peptides act as signaling ligands on fibroblasts, chondrocytes, and tenocytes. For instance, the Pro-Hyp di-peptide binds to $\alpha_5\beta_1$ integrin receptors, activating MAPK pathways and stimulating cells to produce their own (*de novo*) collagen.
+Once in systemic circulation, these bioactive peptides act as signaling ligands on fibroblasts, chondrocytes, and tenocytes. For instance, the Pro-Hyp di-peptide binds to α5β1 integrin receptors, activating MAPK pathways and stimulating cells to produce their own (*de novo*) collagen.
 
 ## 4. Optimal Timing, Gastrointestinal Dynamics, and Chrononutrition
 

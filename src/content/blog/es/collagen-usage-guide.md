@@ -15,15 +15,15 @@ El colágeno es la proteína estructural más abundante en el cuerpo humano, rep
 Estos tipos de colágeno exhiben una clara heterogeneidad molecular en términos de la composición de sus cadenas alfa, distribución tisular y funciones mecánicas.
 
 ### Colágeno Tipo I
-El Tipo I es un heterotrímero compuesto por dos cadenas $\alpha_1(\text{I})$ y una cadena $\alpha_2(\text{I})$. Constituyendo el 80% del tejido dérmico joven, este tipo disminuye naturalmente en aproximadamente un 1,5% cada año con la edad. Bajo un microscopio electrónico, cinco moléculas de colágeno Tipo I se agrupan en fibrillas torcidas hacia la derecha exhibiendo un patrón característico de "bandas D" (un período D de ~67 nm), que miden hasta 500 micrómetros de longitud.
+El Tipo I es un heterotrímero compuesto por dos cadenas α1(I) y una cadena α2(I). Constituyendo el 80% del tejido dérmico joven, este tipo disminuye naturalmente en aproximadamente un 1,5% cada año con la edad. Bajo un microscopio electrónico, cinco moléculas de colágeno Tipo I se agrupan en fibrillas torcidas hacia la derecha exhibiendo un patrón característico de "bandas D" (un período D de ~67 nm), que miden hasta 500 micrómetros de longitud.
 **Función Principal:** Proporciona alta resistencia a la tracción en la matriz mineral ósea (más del 90%), tendones (60-80% del peso seco), dientes, ligamentos y cápsulas protectoras de órganos. En el tejido óseo, los cristales inorgánicos de hidroxiapatita están anclados directamente sobre este andamio de colágeno Tipo I.
 
 ### Colágeno Tipo II
-El Tipo II es un homotrímero que consta de tres cadenas idénticas $\alpha_1(\text{II})$ y representa el 90-95% de la matriz extracelular en el cartílago articular e hialino.
+El Tipo II es un homotrímero que consta de tres cadenas idénticas α1(II) y representa el 90-95% de la matriz extracelular en el cartílago articular e hialino.
 **Función Principal:** Esta red de fibrillas atrapa proteoglicanos, otorgando a las articulaciones una notable resistencia a la compresión y propiedades de absorción de impactos. Su deficiencia o degradación está directamente relacionada con la osteoartritis (OA), artritis reumatoide (AR) y displasias esqueléticas. Colágenos menores como los Tipos IX y XI juegan roles complementarios en la estabilización de la red de fibrillas Tipo II.
 
 ### Colágeno Tipo III
-También un homotrímero compuesto por tres cadenas $\alpha_1(\text{III})$, el Tipo III domina la estructura de los vasos sanguíneos, los músculos lisos, el tracto gastrointestinal y los órganos internos que requieren alta distensibilidad.
+También un homotrímero compuesto por tres cadenas α1(III), el Tipo III domina la estructura de los vasos sanguíneos, los músculos lisos, el tracto gastrointestinal y los órganos internos que requieren alta distensibilidad.
 **Función Principal:** Colocalizado con el Tipo I en la capa dérmica en una proporción del 8-11%, desempeña un papel crítico en la curación temprana de heridas y la preservación de la elasticidad vascular. Los defectos en la síntesis de colágeno Tipo III están directamente asociados con patologías como el Síndrome de Ehlers-Danlos (SED) y aneurismas arteriales.
 
 ### Barrera Intestinal y Efectos Prebióticos
@@ -43,7 +43,7 @@ El colágeno nativo (~300 kDa) y la gelatina (~100 kDa) tienen una biodisponibil
 
 En el epitelio intestinal, la absorción ocurre no solo como aminoácidos libres sino también a través del transporte activo de dipéptidos y tripéptidos intactos. Los dipéptidos exclusivos del colágeno, como **Pro-Hyp (Prolina-Hidroxiprolina)** y **Hyp-Gly**, resisten la degradación por las enzimas digestivas gracias a sus rígidas estructuras cíclicas. Estos péptidos son transportados activamente a través de la membrana del borde en cepillo por el transportador de oligopéptidos acoplado a protones **PepT1 (SLC15A1)**.
 
-Una vez en la circulación sistémica, estos péptidos bioactivos actúan como ligandos de señalización sobre fibroblastos, condrocitos y tenocitos. Por ejemplo, el dipéptido Pro-Hyp se une a los receptores de integrina $\alpha_5\beta_1$, activando las vías MAPK y estimulando a las células para producir su propio colágeno (*de novo*).
+Una vez en la circulación sistémica, estos péptidos bioactivos actúan como ligandos de señalización sobre fibroblastos, condrocitos y tenocitos. Por ejemplo, el dipéptido Pro-Hyp se une a los receptores de integrina α5β1, activando las vías MAPK y estimulando a las células para producir su propio colágeno (*de novo*).
 
 ## 4. Momento Óptimo, Dinámica Gastrointestinal y Crononutrición
 

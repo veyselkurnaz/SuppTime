@@ -15,15 +15,15 @@ Collagen là loại protein cấu trúc dồi dào nhất trong cơ thể con ng
 Những loại collagen này thể hiện sự không đồng nhất về phân tử rõ rệt về thành phần chuỗi alpha, phân bố mô và chức năng cơ học.
 
 ### Collagen Loại I
-Loại I là một dị tam phân (heterotrimer) bao gồm hai chuỗi $\alpha_1(\text{I})$ và một chuỗi $\alpha_2(\text{I})$. Chiếm 80% mô hạ bì ở người trẻ, loại này suy giảm tự nhiên khoảng 1.5% mỗi năm theo tuổi tác. Dưới kính hiển vi điện tử, năm phân tử collagen Loại I bó lại với nhau thành các sợi xoắn vòng theo chiều kim đồng hồ, thể hiện mô hình "dải D" (D-banding) đặc trưng (chu kỳ D ~67 nm), có độ dài lên đến 500 micromet.
+Loại I là một dị tam phân (heterotrimer) bao gồm hai chuỗi α1(I) và một chuỗi α2(I). Chiếm 80% mô hạ bì ở người trẻ, loại này suy giảm tự nhiên khoảng 1.5% mỗi năm theo tuổi tác. Dưới kính hiển vi điện tử, năm phân tử collagen Loại I bó lại với nhau thành các sợi xoắn vòng theo chiều kim đồng hồ, thể hiện mô hình "dải D" (D-banding) đặc trưng (chu kỳ D ~67 nm), có độ dài lên đến 500 micromet.
 **Chức Năng Chính:** Cung cấp độ bền kéo cao trong ma trận khoáng xương (hơn 90%), gân (60-80% trọng lượng khô), răng, dây chằng và vỏ bảo vệ cơ quan. Trong mô xương, các tinh thể hydroxyapatite vô cơ được neo trực tiếp trên giàn giáo collagen Loại I này.
 
 ### Collagen Loại II
-Loại II là một đồng tam phân (homotrimer) bao gồm ba chuỗi $\alpha_1(\text{II})$ giống hệt nhau và đại diện cho 90-95% ma trận ngoại bào ở sụn khớp và sụn hyalin.
+Loại II là một đồng tam phân (homotrimer) bao gồm ba chuỗi α1(II) giống hệt nhau và đại diện cho 90-95% ma trận ngoại bào ở sụn khớp và sụn hyalin.
 **Chức Năng Chính:** Mạng lưới sợi này giữ lại các proteoglycan, mang lại cho khớp khả năng chống nén và đặc tính hấp thụ sốc vượt trội. Sự thiếu hụt hoặc suy thoái của nó liên quan trực tiếp đến viêm xương khớp (OA), viêm khớp dạng thấp (RA) và loạn sản xương. Các loại collagen phụ như Loại IX và XI đóng vai trò bổ sung trong việc ổn định mạng lưới sợi Loại II.
 
 ### Collagen Loại III
-Cũng là một đồng tam phân bao gồm ba chuỗi $\alpha_1(\text{III})$, Loại III chiếm ưu thế trong cấu trúc của mạch máu, cơ trơn, đường tiêu hóa và các cơ quan nội tạng đòi hỏi độ giãn nở cao.
+Cũng là một đồng tam phân bao gồm ba chuỗi α1(III), Loại III chiếm ưu thế trong cấu trúc của mạch máu, cơ trơn, đường tiêu hóa và các cơ quan nội tạng đòi hỏi độ giãn nở cao.
 **Chức Năng Chính:** Cùng khu trú với Loại I trong lớp hạ bì ở tỷ lệ 8-11%, nó đóng một vai trò quan trọng trong việc chữa lành vết thương sớm và duy trì độ đàn hồi của mạch máu. Sự khiếm khuyết trong tổng hợp collagen Loại III liên quan trực tiếp đến các bệnh lý như Hội chứng Ehlers-Danlos (EDS) và phình động mạch.
 
 ### Hàng Rào Ruột Và Hiệu Ứng Prebiotic
@@ -43,7 +43,7 @@ Collagen nguyên bản (~300 kDa) và gelatin (~100 kDa) có sinh khả dụng k
 
 Trong biểu mô ruột, sự hấp thụ không chỉ xảy ra dưới dạng các axit amin tự do mà còn thông qua sự vận chuyển tích cực của các di- và tri-peptide nguyên vẹn. Các di-peptide đặc biệt của collagen, chẳng hạn như **Pro-Hyp (Proline-Hydroxyproline)** và **Hyp-Gly**, chống lại sự suy thoái bởi các enzym tiêu hóa nhờ cấu trúc tuần hoàn cứng nhắc của chúng. Những peptide này được vận chuyển tích cực qua màng vi nhung mao bởi chất vận chuyển oligopeptide kết hợp proton **PepT1 (SLC15A1)**.
 
-Khi đã vào hệ tuần hoàn, các peptide có hoạt tính sinh học này hoạt động như các phối tử tín hiệu trên nguyên bào sợi, tế bào sụn và tế bào gân. Ví dụ, di-peptide Pro-Hyp liên kết với các thụ thể integrin $\alpha_5\beta_1$, kích hoạt các con đường MAPK và kích thích các tế bào sản xuất collagen của chính chúng (*de novo*).
+Khi đã vào hệ tuần hoàn, các peptide có hoạt tính sinh học này hoạt động như các phối tử tín hiệu trên nguyên bào sợi, tế bào sụn và tế bào gân. Ví dụ, di-peptide Pro-Hyp liên kết với các thụ thể integrin α5β1, kích hoạt các con đường MAPK và kích thích các tế bào sản xuất collagen của chính chúng (*de novo*).
 
 ## 4. Thời Điểm Tối Ưu, Động Lực Học Dạ Dày - Ruột Và Dinh Dưỡng Theo Nhịp Sinh Học (Chrononutrition)
 

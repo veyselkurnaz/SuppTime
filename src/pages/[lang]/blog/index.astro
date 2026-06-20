@@ -31,7 +31,7 @@ const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hak
 <Layout title={`${blogTitle} - SuppTime`} description={blogDesc} lang={lang} dir={t.dir || 'ltr'}>
   <Navbar lang={lang} isBlog={true} />
 
-  <main style="padding-top: 120px; min-height: 100vh; background: #fafafa;">
+  <main style="padding-top: 120px; padding-bottom: 120px; min-height: 100vh; background: #fafafa;">
     <div style="max-width: 800px; margin: 0 auto; padding: 0 24px;">
       <h1 class="h2" style="margin-bottom: 16px;">{blogTitle}</h1>
       <p style="color: #666; font-size: 18px; margin-bottom: 48px;">{blogDesc}</p>
@@ -43,6 +43,10 @@ const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hak
               {post.data.image && (
                 <div style="width: 100%; height: 220px; overflow: hidden; background: #f4f6f8; position: relative;">
                   <img src={post.data.image} alt={post.data.title} style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;" class="blog-card-img" />
+                  <div style="position: absolute; bottom: 12px; right: 12px; display: flex; align-items: center; gap: 6px; background: rgba(255, 255, 255, 0.9); padding: 4px 10px; border-radius: 99px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); backdrop-filter: blur(8px); z-index: 2;">
+                    <img src="/assets/watchos.png" alt="SuppTime Logo" style="width: 14px; height: 14px; border-radius: 3px;" />
+                    <span style="font-weight: 700; font-size: 11px; color: #111; letter-spacing: -0.01em;">SuppTime</span>
+                  </div>
                 </div>
               )}
               <div style="padding: 28px; display: flex; flex-direction: column; flex-grow: 1;">

@@ -15,15 +15,15 @@ Kolajen, insan vücudundaki toplam protein içeriğinin yaklaşık %30'unu oluş
 Bu kolajen tipleri, alfa-zincir bileşimleri, doku dağılımları ve mekanik işlevleri açısından belirgin moleküler heterojenlik gösterirler.
 
 ### Tip I Kolajen
-İki adet $\alpha_1(\text{I})$ ve bir adet $\alpha_2(\text{I})$ zincirinden meydana gelen bir heterotrimerdir. Genç cilt dermisinin %80'ini oluşturan bu tip, yaşla birlikte her yıl yaklaşık %1,5 oranında azalır. Beş adet Tip I kolajen molekülü, elektron mikroskobunda "D-bantlaşması" olarak gözlenen ve yaklaşık 67 nm'lik bir D-periyoduna sahip olan, 500 mikrometre uzunluğunda ve 500 nanometre çapında sağ yönlü bükülmüş fibriller halinde paketlenir.
+İki adet α1(I) ve bir adet α2(I) zincirinden meydana gelen bir heterotrimerdir. Genç cilt dermisinin %80'ini oluşturan bu tip, yaşla birlikte her yıl yaklaşık %1,5 oranında azalır. Beş adet Tip I kolajen molekülü, elektron mikroskobunda "D-bantlaşması" olarak gözlenen ve yaklaşık 67 nm'lik bir D-periyoduna sahip olan, 500 mikrometre uzunluğunda ve 500 nanometre çapında sağ yönlü bükülmüş fibriller halinde paketlenir.
 **Temel İşlevi:** Kemik mineral matrisinde (%90'dan fazlası), tendonlarda (kuru ağırlığın %60-80'i), dişlerde, ligamentlerde ve organların koruyucu kapsüllerinde yüksek gerilme direnci sağlar. Kemik dokusundaki inorganik hidroksiapatit kristalleri de bu Tip I kolajen çatısı üzerine demirlenmiştir.
 
 ### Tip II Kolajen
-Üç adet özdeş $\alpha_1(\text{II})$ zincirinden oluşan bir homotrimerdir ve artiküler ile hiyalin kıkırdağın hücre dışı matrisinin %90-95'ini temsil eder.
+Üç adet özdeş α1(II) zincirinden oluşan bir homotrimerdir ve artiküler ile hiyalin kıkırdağın hücre dışı matrisinin %90-95'ini temsil eder.
 **Temel İşlevi:** Bu ağ yapısı, proteoglikanları hapsederek eklemlere kompresyon direnci ve şok emici özellikler kazandırır. Eksikliği veya hasarı osteoartrit (OA), romatoid artrit (RA) ve iskelet displazileri ile doğrudan ilişkilidir. Minör düzeyde bulunan Tip I, IV, V, VI, IX ve XI kolajenler, Tip II fibril ağının stabilizasyonunda tamamlayıcı roller üstlenirler.
 
 ### Tip III Kolajen
-Üç adet $\alpha_1(\text{III})$ zincirinden oluşan bir homotrimer olup, kan damarları, düz kaslar, gastrointestinal sistem ve esneyebilirlik gerektiren iç organların yapısında baskındır.
+Üç adet α1(III) zincirinden oluşan bir homotrimer olup, kan damarları, düz kaslar, gastrointestinal sistem ve esneyebilirlik gerektiren iç organların yapısında baskındır.
 **Temel İşlevi:** Cilt dermisinde de Tip I ile ko-lokalize olarak %8-11 oranında bulunur ve erken yara iyileşmesi ile vasküler esnekliğin korunmasında kritik roller üstlenir. Tip III kolajen sentezindeki defektler, Ehlers-Danlos Sendromu (EDS) ve arteriyel anevrizmalar gibi patolojilerle doğrudan ilişkilidir.
 
 ### Bağırsak Bariyeri ve Prebiyotik Etkiler
@@ -43,7 +43,7 @@ Doğal kolajen (~300 kDa) ve jelatin (~100 kDa) yüksek moleküler ağırlıklar
 
 Bağırsak epitelinde emilim, tekil amino asitlerin yanı sıra sağlam di- ve tri-peptitlerin aktif olarak taşınmasıyla gerçekleşir. Kolajene özgü olan ve prolin ile hidroksiprolin halkalarının rijit yapısı sayesinde sindirim enzimlerine direnen **Pro-Hyp** ve **Hyp-Gly** gibi di-peptitler, ince bağırsak fırçamsı kenar membranında yer alan protona bağımlı oligopeptit taşıyıcısı **PepT1 (SLC15A1)** aracılığıyla aktif olarak emilir. 
 
-Sistemik dolaşıma geçen bu biyoaktif peptitler, hedef dokulardaki fibroblastlar, kondrositler ve tenositler üzerinde sinyal ligandları olarak işlev görür. Örneğin Pro-Hyp di-peptiti, $\alpha_5\beta_1$ integrin reseptörlerine bağlanarak MAPK yolaklarını aktive eder ve hücrelerin kendi kolajenini (*de novo*) sentezlemesini uyarır.
+Sistemik dolaşıma geçen bu biyoaktif peptitler, hedef dokulardaki fibroblastlar, kondrositler ve tenositler üzerinde sinyal ligandları olarak işlev görür. Örneğin Pro-Hyp di-peptiti, α5β1 integrin reseptörlerine bağlanarak MAPK yolaklarını aktive eder ve hücrelerin kendi kolajenini (*de novo*) sentezlemesini uyarır.
 
 ## 4. Optimal Zamanlama, Gastrointestinal Dinamikler ve Krononütrisyon
 

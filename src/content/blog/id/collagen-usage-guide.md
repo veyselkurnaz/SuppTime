@@ -15,15 +15,15 @@ Kolagen adalah protein struktural paling melimpah dalam tubuh manusia, menyumban
 Tipe-tipe kolagen ini menunjukkan heterogenitas molekuler yang berbeda dalam hal komposisi rantai alfa, distribusi jaringan, dan fungsi mekanis.
 
 ### Kolagen Tipe I
-Tipe I adalah heterotrimer yang tersusun dari dua rantai $\alpha_1(\text{I})$ dan satu rantai $\alpha_2(\text{I})$. Mencakup 80% jaringan dermal muda, tipe ini secara alami menurun sekitar 1,5% setiap tahun seiring bertambahnya usia. Di bawah mikroskop elektron, lima molekul kolagen Tipe I berkumpul menjadi fibril memutar ke kanan yang menunjukkan pola "D-banding" khas (periode D ~67 nm), dengan panjang mencapai 500 mikrometer.
+Tipe I adalah heterotrimer yang tersusun dari dua rantai α1(I) dan satu rantai α2(I). Mencakup 80% jaringan dermal muda, tipe ini secara alami menurun sekitar 1,5% setiap tahun seiring bertambahnya usia. Di bawah mikroskop elektron, lima molekul kolagen Tipe I berkumpul menjadi fibril memutar ke kanan yang menunjukkan pola "D-banding" khas (periode D ~67 nm), dengan panjang mencapai 500 mikrometer.
 **Fungsi Utama:** Memberikan kekuatan tarik tinggi pada matriks mineral tulang (lebih dari 90%), tendon (60-80% dari berat kering), gigi, ligamen, dan kapsul pelindung organ. Pada jaringan tulang, kristal hidroksiapatit anorganik berlabuh langsung di atas perancah kolagen Tipe I ini.
 
 ### Kolagen Tipe II
-Tipe II adalah homotrimer yang terdiri dari tiga rantai $\alpha_1(\text{II})$ identik dan mewakili 90-95% matriks ekstraseluler pada tulang rawan artikular dan hialin.
+Tipe II adalah homotrimer yang terdiri dari tiga rantai α1(II) identik dan mewakili 90-95% matriks ekstraseluler pada tulang rawan artikular dan hialin.
 **Fungsi Utama:** Jaringan fibril ini menjebak proteoglikan, memberikan ketahanan kompresi dan sifat peredam kejut yang luar biasa pada sendi. Kekurangan atau degradasinya terkait langsung dengan osteoartritis (OA), artritis reumatoid (RA), dan displasia tulang. Kolagen minor seperti Tipe IX dan XI memainkan peran pelengkap dalam menstabilkan jaringan fibril Tipe II.
 
 ### Kolagen Tipe III
-Juga homotrimer yang tersusun dari tiga rantai $\alpha_1(\text{III})$, Tipe III mendominasi struktur pembuluh darah, otot polos, saluran pencernaan, dan organ dalam yang membutuhkan distensibilitas tinggi.
+Juga homotrimer yang tersusun dari tiga rantai α1(III), Tipe III mendominasi struktur pembuluh darah, otot polos, saluran pencernaan, dan organ dalam yang membutuhkan distensibilitas tinggi.
 **Fungsi Utama:** Terletak berdampingan dengan Tipe I pada lapisan dermal dalam rasio 8-11%, ia memainkan peran penting dalam penyembuhan luka awal dan pelestarian elastisitas pembuluh darah. Cacat pada sintesis kolagen Tipe III secara langsung terkait dengan patologi seperti Sindrom Ehlers-Danlos (EDS) dan aneurisma arteri.
 
 ### Penghalang Usus dan Efek Prebiotik
@@ -43,7 +43,7 @@ Kolagen asli (~300 kDa) dan gelatin (~100 kDa) memiliki bioavailabilitas yang bu
 
 Di epitel usus, absorpsi tidak hanya terjadi sebagai asam amino bebas tetapi juga melalui transpor aktif di- dan tri-peptida utuh. Di-peptida unik untuk kolagen, seperti **Pro-Hyp (Prolin-Hidroksiprolin)** dan **Hyp-Gly**, menolak degradasi oleh enzim pencernaan berkat struktur sikliknya yang kaku. Peptida ini diangkut secara aktif melintasi membran brush border oleh transporter oligopeptida yang digabungkan dengan proton **PepT1 (SLC15A1)**.
 
-Begitu berada dalam sirkulasi sistemik, peptida bioaktif ini bertindak sebagai ligan sinyal pada fibroblas, kondrosit, dan tenosit. Misalnya, di-peptida Pro-Hyp berikatan dengan reseptor integrin $\alpha_5\beta_1$, mengaktifkan jalur MAPK dan merangsang sel untuk memproduksi kolagennya sendiri (*de novo*).
+Begitu berada dalam sirkulasi sistemik, peptida bioaktif ini bertindak sebagai ligan sinyal pada fibroblas, kondrosit, dan tenosit. Misalnya, di-peptida Pro-Hyp berikatan dengan reseptor integrin α5β1, mengaktifkan jalur MAPK dan merangsang sel untuk memproduksi kolagennya sendiri (*de novo*).
 
 ## 4. Waktu Optimal, Dinamika Gastrointestinal, dan Krononutrisi
 

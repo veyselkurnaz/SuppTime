@@ -4,7 +4,7 @@ description: "Discover the critical differences between Magnesium Glycinate, Cit
 pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
-image: \"/blog/magnesium_blog_cover.png\"
+image: "/blog/magnesium_blog_cover.png"
 ---
 
 Often described as a primary engine of cellular physiology, magnesium is an indispensable macromineral that governs the metabolic rhythms of the human body. It acts as a necessary cofactor in over 600 enzymatic reactions, regulating processes that range from cellular energy production to neurotransmission and muscular contraction. 

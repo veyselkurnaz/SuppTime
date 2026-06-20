@@ -15,15 +15,15 @@ Collageen is het meest voorkomende structurele eiwit in het menselijk lichaam, d
 Deze collageentypen vertonen duidelijke moleculaire heterogeniteit wat betreft hun alfa-ketensamenstelling, weefselverdeling en mechanische functies.
 
 ### Type I Collageen
-Type I is een heterotrimeer samengesteld uit twee $\alpha_1(\text{I})$-ketens en één $\alpha_2(\text{I})$-keten. Het omvat 80% van het jonge dermale weefsel en neemt met de leeftijd van nature met ongeveer 1,5% per jaar af. Onder een elektronenmicroscoop clusteren vijf Type I collageenmoleculen samen tot rechtsgewonden fibrillen met een kenmerkend "D-banding"-patroon (een D-periode van ~67 nm), die tot 500 micrometer lang kunnen worden.
+Type I is een heterotrimeer samengesteld uit twee α1(I)-ketens en één α2(I)-keten. Het omvat 80% van het jonge dermale weefsel en neemt met de leeftijd van nature met ongeveer 1,5% per jaar af. Onder een elektronenmicroscoop clusteren vijf Type I collageenmoleculen samen tot rechtsgewonden fibrillen met een kenmerkend "D-banding"-patroon (een D-periode van ~67 nm), die tot 500 micrometer lang kunnen worden.
 **Primaire Functie:** Biedt hoge treksterkte in de botmineraalmatrix (meer dan 90%), pezen (60-80% van het drooggewicht), tanden, ligamenten en beschermende orgaankapsels. In botweefsel zijn anorganische hydroxyapatietkristallen rechtstreeks aan deze Type I collageensteiger verankerd.
 
 ### Type II Collageen
-Type II is een homotrimeer bestaande uit drie identieke $\alpha_1(\text{II})$-ketens en vertegenwoordigt 90-95% van de extracellulaire matrix in gewrichts- en hyalien kraakbeen.
+Type II is een homotrimeer bestaande uit drie identieke α1(II)-ketens en vertegenwoordigt 90-95% van de extracellulaire matrix in gewrichts- en hyalien kraakbeen.
 **Primaire Functie:** Dit fibrillennetwerk vangt proteoglycanen op, wat gewrichten opmerkelijke compressieweerstand en schokabsorberende eigenschappen verleent. Een tekort of afbraak hiervan is direct gekoppeld aan artrose (OA), reumatoïde artritis (RA) en skeletdysplasieën. Kleine collagenen zoals Type IX en XI spelen een aanvullende rol bij het stabiliseren van het Type II fibrillennetwerk.
 
 ### Type III Collageen
-Type III is eveneens een homotrimeer samengesteld uit drie $\alpha_1(\text{III})$-ketens en domineert in de structuur van bloedvaten, gladde spieren, het maagdarmkanaal en inwendige organen die hoge rekbaarheid vereisen.
+Type III is eveneens een homotrimeer samengesteld uit drie α1(III)-ketens en domineert in de structuur van bloedvaten, gladde spieren, het maagdarmkanaal en inwendige organen die hoge rekbaarheid vereisen.
 **Primaire Functie:** Co-gelokaliseerd met Type I in de dermale huidlaag in een verhouding van 8-11%, speelt het een cruciale rol bij vroege wondgenezing en het behoud van vasculaire elasticiteit. Defecten in de collageensynthese van Type III zijn direct geassocieerd met aandoeningen zoals het Ehlers-Danlos Syndroom (EDS) en arteriële aneurysma's.
 
 ### Darmbarrière en Prebiotische Effecten
@@ -43,7 +43,7 @@ Inheems collageen (~300 kDa) en gelatine (~100 kDa) hebben een slechte biologisc
 
 In het darmslijmvlies vindt absorptie niet alleen plaats als vrije aminozuren, maar ook via het actieve transport van intacte di- en tri-peptiden. Dipeptiden die uniek zijn voor collageen, zoals **Pro-Hyp (Proline-Hydroxyproline)** en **Hyp-Gly**, weerstaan ​​degradatie door spijsverteringsenzymen dankzij hun stijve cyclische structuren. Deze peptiden worden actief over het borstelzoommembraan getransporteerd door de proton-gekoppelde oligopeptidetransporter **PepT1 (SLC15A1)**.
 
-Zodra ze in de systemische bloedsomloop zijn, fungeren deze bioactieve peptiden als signaalliganden op fibroblasten, chondrocyten en tenocyten. Bijvoorbeeld, het Pro-Hyp di-peptide bindt zich aan $\alpha_5\beta_1$ integrinereceptoren, wat MAPK-routes activeert en cellen stimuleert om hun eigen (*de novo*) collageen te produceren.
+Zodra ze in de systemische bloedsomloop zijn, fungeren deze bioactieve peptiden als signaalliganden op fibroblasten, chondrocyten en tenocyten. Bijvoorbeeld, het Pro-Hyp di-peptide bindt zich aan α5β1 integrinereceptoren, wat MAPK-routes activeert en cellen stimuleert om hun eigen (*de novo*) collageen te produceren.
 
 ## 4. Optimale Timing, Gastro-intestinale Dynamiek en Chronovoeding
 

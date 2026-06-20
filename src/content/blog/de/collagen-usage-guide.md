@@ -15,15 +15,15 @@ Kollagen ist das am häufigsten vorkommende Strukturprotein im menschlichen Kör
 Diese Kollagentypen weisen eine ausgeprägte molekulare Heterogenität hinsichtlich ihrer Alpha-Ketten-Zusammensetzung, Gewebeverteilung und mechanischen Funktionen auf.
 
 ### Typ I Kollagen
-Typ I ist ein Heterotrimer, das aus zwei $\alpha_1(\text{I})$-Ketten und einer $\alpha_2(\text{I})$-Kette besteht. Dieser Typ macht 80 % des jungen dermalen Gewebes aus und nimmt natürlicherweise mit zunehmendem Alter um etwa 1,5 % pro Jahr ab. Unter dem Elektronenmikroskop packen sich fünf Typ I-Kollagenmoleküle zu rechtsgewundenen Fibrillen mit einem charakteristischen "D-Banding"-Muster (eine D-Periode von ~67 nm), die bis zu 500 Mikrometer lang werden können.
+Typ I ist ein Heterotrimer, das aus zwei α1(I)-Ketten und einer α2(I)-Kette besteht. Dieser Typ macht 80 % des jungen dermalen Gewebes aus und nimmt natürlicherweise mit zunehmendem Alter um etwa 1,5 % pro Jahr ab. Unter dem Elektronenmikroskop packen sich fünf Typ I-Kollagenmoleküle zu rechtsgewundenen Fibrillen mit einem charakteristischen "D-Banding"-Muster (eine D-Periode von ~67 nm), die bis zu 500 Mikrometer lang werden können.
 **Hauptfunktion:** Es bietet eine hohe Zugfestigkeit in der Knochenmineralmatrix (über 90 %), in Sehnen (60-80 % des Trockengewichts), Zähnen, Bändern und schützenden Organkapseln. Im Knochengewebe sind anorganische Hydroxylapatit-Kristalle direkt auf diesem Typ-I-Kollagengerüst verankert.
 
 ### Typ II Kollagen
-Typ II ist ein Homotrimer, das aus drei identischen $\alpha_1(\text{II})$-Ketten besteht und 90-95 % der extrazellulären Matrix in Gelenk- und hyalinem Knorpel ausmacht.
+Typ II ist ein Homotrimer, das aus drei identischen α1(II)-Ketten besteht und 90-95 % der extrazellulären Matrix in Gelenk- und hyalinem Knorpel ausmacht.
 **Hauptfunktion:** Dieses Fibrillennetzwerk fängt Proteoglykane ein und verleiht den Gelenken eine bemerkenswerte Druckfestigkeit und stoßdämpfende Eigenschaften. Ein Mangel oder Abbau ist direkt mit Arthrose (OA), rheumatoider Arthritis (RA) und Skelettdysplasien verbunden. Kleinere Kollagene wie die Typen IX und XI spielen ergänzende Rollen bei der Stabilisierung des Typ-II-Fibrillennetzwerks.
 
 ### Typ III Kollagen
-Ebenfalls ein Homotrimer bestehend aus drei $\alpha_1(\text{III})$-Ketten, dominiert Typ III die Struktur von Blutgefäßen, glatten Muskeln, dem Magen-Darm-Trakt und inneren Organen, die eine hohe Dehnbarkeit erfordern.
+Ebenfalls ein Homotrimer bestehend aus drei α1(III)-Ketten, dominiert Typ III die Struktur von Blutgefäßen, glatten Muskeln, dem Magen-Darm-Trakt und inneren Organen, die eine hohe Dehnbarkeit erfordern.
 **Hauptfunktion:** Kolokalisiert mit Typ I in der dermalen Schicht (Verhältnis von 8-11 %), spielt es eine entscheidende Rolle bei der frühen Wundheilung und dem Erhalt der vaskulären Elastizität. Defekte bei der Synthese von Typ III-Kollagen sind direkt mit Pathologien wie dem Ehlers-Danlos-Syndrom (EDS) und arteriellen Aneurysmen verbunden.
 
 ### Darmbarriere und präbiotische Effekte
@@ -43,7 +43,7 @@ Natives Kollagen (~300 kDa) und Gelatine (~100 kDa) weisen aufgrund ihrer hohen 
 
 Im Darmepithel erfolgt die Absorption nicht nur als freie Aminosäuren, sondern auch durch den aktiven Transport intakter Di- und Tripeptide. Für Kollagen einzigartige Dipeptide, wie **Pro-Hyp (Prolin-Hydroxyprolin)** und **Hyp-Gly**, widerstehen aufgrund ihrer starren zyklischen Strukturen dem Abbau durch Verdauungsenzyme. Diese Peptide werden durch den protonengekoppelten Oligopeptidtransporter **PepT1 (SLC15A1)** aktiv über die Bürstensaummembran transportiert.
 
-Sobald sie im systemischen Kreislauf sind, wirken diese bioaktiven Peptide als Signalliganden auf Fibroblasten, Chondrozyten und Tenozyten. Beispielsweise bindet das Pro-Hyp-Dipeptid an $\alpha_5\beta_1$-Integrinrezeptoren, aktiviert MAPK-Wege und stimuliert Zellen, ihr eigenes (*de novo*) Kollagen zu produzieren.
+Sobald sie im systemischen Kreislauf sind, wirken diese bioaktiven Peptide als Signalliganden auf Fibroblasten, Chondrozyten und Tenozyten. Beispielsweise bindet das Pro-Hyp-Dipeptid an α5β1-Integrinrezeptoren, aktiviert MAPK-Wege und stimuliert Zellen, ihr eigenes (*de novo*) Kollagen zu produzieren.
 
 ## 4. Optimales Timing, gastrointestinale Dynamik und Chrono-Ernährung
 

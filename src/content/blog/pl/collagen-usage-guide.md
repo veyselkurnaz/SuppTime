@@ -15,15 +15,15 @@ Kolagen to najobficiej występujące białko strukturalne w ludzkim ciele, stano
 Te typy kolagenu wykazują wyraźną heterogenność molekularną pod względem kompozycji łańcuchów alfa, rozmieszczenia w tkankach oraz funkcji mechanicznych.
 
 ### Kolagen Typu I
-Typ I to heterotrimer złożony z dwóch łańcuchów $\alpha_1(\text{I})$ i jednego łańcucha $\alpha_2(\text{I})$. Stanowiący 80% młodej tkanki skóry właściwej, typ ten naturalnie spada o około 1,5% rocznie wraz z wiekiem. Pod mikroskopem elektronowym, pięć cząsteczek kolagenu Typu I grupuje się w prawoskrętnie skręcone włókienka, wykazując charakterystyczny wzór "prążkowania D" (okres D ~67 nm) i mierząc do 500 mikrometrów długości.
+Typ I to heterotrimer złożony z dwóch łańcuchów α1(I) i jednego łańcucha α2(I). Stanowiący 80% młodej tkanki skóry właściwej, typ ten naturalnie spada o około 1,5% rocznie wraz z wiekiem. Pod mikroskopem elektronowym, pięć cząsteczek kolagenu Typu I grupuje się w prawoskrętnie skręcone włókienka, wykazując charakterystyczny wzór "prążkowania D" (okres D ~67 nm) i mierząc do 500 mikrometrów długości.
 **Główna Funkcja:** Zapewnia wysoką wytrzymałość na rozciąganie w mineralnej macierzy kostnej (ponad 90%), ścięgnach (60-80% suchej masy), zębach, więzadłach oraz torebkach ochronnych narządów. W tkance kostnej nieorganiczne kryształy hydroksyapatytu są zakotwiczone bezpośrednio na tym rusztowaniu z kolagenu Typu I.
 
 ### Kolagen Typu II
-Typ II to homotrimer składający się z trzech identycznych łańcuchów $\alpha_1(\text{II})$ i reprezentuje 90-95% macierzy zewnątrzkomórkowej w chrząstce szklistej i stawowej.
+Typ II to homotrimer składający się z trzech identycznych łańcuchów α1(II) i reprezentuje 90-95% macierzy zewnątrzkomórkowej w chrząstce szklistej i stawowej.
 **Główna Funkcja:** Ta sieć włókienek wychwytuje proteoglikany, zapewniając stawom niezwykłą odporność na kompresję i właściwości amortyzujące. Jego niedobór lub degradacja są bezpośrednio powiązane z chorobą zwyrodnieniową stawów (OA), reumatoidalnym zapaleniem stawów (RZS) i dysplazjami szkieletowymi. Mniejsze kolageny, takie jak Typ IX i XI, odgrywają uzupełniającą rolę w stabilizacji sieci włókienek Typu II.
 
 ### Kolagen Typu III
-Również homotrimer złożony z trzech łańcuchów $\alpha_1(\text{III})$, Typ III dominuje w strukturze naczyń krwionośnych, mięśni gładkich, przewodu pokarmowego i narządów wewnętrznych wymagających dużej rozciągliwości.
+Również homotrimer złożony z trzech łańcuchów α1(III), Typ III dominuje w strukturze naczyń krwionośnych, mięśni gładkich, przewodu pokarmowego i narządów wewnętrznych wymagających dużej rozciągliwości.
 **Główna Funkcja:** Zlokalizowany wspólnie z Typem I w warstwie skóry właściwej w stosunku 8-11%, odgrywa kluczową rolę we wczesnym gojeniu ran i zachowaniu elastyczności naczyń. Wady w syntezie kolagenu Typu III są bezpośrednio związane z patologiami takimi jak Zespół Ehlersa-Danlosa (EDS) i tętniaki tętnicze.
 
 ### Bariera Jelitowa i Efekty Prebiotyczne
@@ -43,7 +43,7 @@ Natywny kolagen (~300 kDa) i żelatyna (~100 kDa) mają słabą biodostępność
 
 W nabłonku jelitowym absorpcja zachodzi nie tylko jako wolne aminokwasy, ale także poprzez aktywny transport nienaruszonych di- i tripeptydów. Dipeptydy unikalne dla kolagenu, takie jak **Pro-Hyp (Prolina-Hydroksyprolina)** i **Hyp-Gly**, są odporne na degradację przez enzymy trawienne dzięki ich sztywnym strukturom cyklicznym. Peptydy te są aktywnie transportowane przez błonę rąbka szczoteczkowego przez zależny od protonów transporter oligopeptydów **PepT1 (SLC15A1)**.
 
-Po znalezieniu się w krążeniu ogólnoustrojowym, te bioaktywne peptydy działają jako ligandy sygnałowe dla fibroblastów, chondrocytów i tenocytów. Na przykład dipeptyd Pro-Hyp wiąże się z receptorami integryny $\alpha_5\beta_1$, aktywując ścieżki MAPK i stymulując komórki do produkcji własnego (*de novo*) kolagenu.
+Po znalezieniu się w krążeniu ogólnoustrojowym, te bioaktywne peptydy działają jako ligandy sygnałowe dla fibroblastów, chondrocytów i tenocytów. Na przykład dipeptyd Pro-Hyp wiąże się z receptorami integryny α5β1, aktywując ścieżki MAPK i stymulując komórki do produkcji własnego (*de novo*) kolagenu.
 
 ## 4. Optymalny Czas, Dynamika Przewodu Pokarmowego i Chrono-żywienie
 

@@ -4,7 +4,7 @@ description: "Magnezyum Glisinat, Sitrat, L-Treonat ve Malat arasındaki farklar
 pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
-image: \"/blog/magnesium_blog_cover.png\"
+image: "/blog/magnesium_blog_cover.png"
 ---
 
 Hücresel fizyolojimizin ana motoru olarak tanımlanan magnezyum, insan vücudunun metabolik ritmini yöneten vazgeçilmez bir makro mineraldir. Enerji üretiminden sinir iletimine ve kas kasılmasına kadar 600'den fazla enzimatik reaksiyonda gerekli bir kofaktör olarak görev yapar.
