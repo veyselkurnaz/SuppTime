@@ -921,8 +921,10 @@ button { font-family: inherit; cursor: pointer; }
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-.float-chip-1 { top: 15%; right: -20px; }
-.float-chip-2 { bottom: 25%; left: -30px; }
+.float-chip-1 { top: 12%; right: -20px; animation-delay: 0s; }
+.float-chip-2 { top: 28%; left: -30px; animation-delay: 1.2s; }
+.float-chip-3 { bottom: 25%; right: -30px; animation-delay: 2.4s; }
+.float-chip-4 { bottom: 15%; left: -20px; animation-delay: 3.6s; }
 
 /* Gallery */
 .gallery-row {
