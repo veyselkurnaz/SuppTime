@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
 import { I18N, REVIEWS } from '../../i18n.js';
 
 export function getStaticPaths() {
@@ -65,57 +66,7 @@ const schema = {
 <Layout title={`SuppTime — ${t.footer.tag}`} description={t.hero.sub} lang={lang} dir={t.dir || 'ltr'}>
 <script type="application/ld+json" set:html={JSON.stringify(schema)} />
 <div class="page">
-  <nav class="nav" id="nav">
-      <div class="nav-inner">
-          <a href="#top" class="brand">
-              <span class="brand-mark" style="width: 32px; height: 32px;">
-                  <img src="/assets/watchos.png" alt="SuppTime" />
-              </span>
-              <span class="brand-name">SuppTime</span>
-          </a>
-          <div class="nav-links">
-              <a href="#features">{t.nav.features}</a>
-              <a href="#watch">{t.nav.watch}</a>
-              <a href="#reviews">{t.nav.reviews}</a>
-              <!-- Blog Link added for SEO and navigation -->
-              <a href={`/${lang}/blog/`}>{t.nav.blog}</a>
-          </div>
-          <div class="nav-tools">
-              <div style="position: relative;" id="lang-switcher">
-                  <button class="lang-btn" id="lang-btn" aria-label="Language">
-                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                          <circle cx="12" cy="12" r="10" />
-                          <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                      </svg>
-                      <span style="font-weight: 600" id="current-lang-code">{shortCode(lang)}</span>
-                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="m6 9 6 6 6-6" />
-                      </svg>
-                  </button>
-                  <div class="lang-menu lang-menu-tall" id="lang-menu" style="display: none;">
-                    {LANG_ORDER.map(code => {
-                      const opt = I18N[code];
-                      return (
-                        <a href={`/${code}/`} class={`lang-opt ${code === lang ? 'is-active' : ''}`} style="text-decoration:none; color:inherit;">
-                          <span style="font-family: var(--mono); font-size: 11px; opacity: 0.5; width: 26px;">{shortCode(code)}</span>
-                          <span>{opt.langName}</span>
-                          {code === lang && (
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>
-                          )}
-                        </a>
-                      );
-                    })}
-                  </div>
-              </div>
-              <a href="#download" class="btn btn-primary btn-sm">
-                  <span>{t.nav.download}</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M5 12h14m-8-6 6 6-6 6" />
-                  </svg>
-              </a>
-          </div>
-      </div>
-  </nav>
+  <Navbar lang={lang} />
 
   <main>
       <section class="hero" id="top">

@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import { I18N } from '../../../i18n.js';
 import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -69,56 +70,18 @@ const schema = [
   }
 ];
 
+const slugLinks: Record<string, string> = {};
+LANG_ORDER.forEach(code => {
+  const translation = translations.find(p => p.id.startsWith(`${code}/`));
+  slugLinks[code] = translation ? `/${code}/blog/${translation.id.split('/').pop().replace('.md', '')}` : `/${code}/blog/`;
+});
 ---
 
 <Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'} image="/blog/vitamin_d_blog_cover.png" ogType="article">
   <!-- Inject JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   
-  <nav class="nav" id="nav" style="background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0,0,0,0.05);">
-      <div class="nav-inner">
-          <a href={`/${lang}/`} class="brand">
-              <span class="brand-mark" style="width: 32px; height: 32px;">
-                  <img src="/assets/watchos.png" alt="SuppTime" />
-              </span>
-              <span class="brand-name">SuppTime</span>
-          </a>
-          <div class="nav-links">
-              <a href={`/${lang}/`}>{t.nav.home}</a>
-              <a href={`/${lang}/blog/`}>{t.nav.blog}</a>
-          </div>
-          <div class="nav-tools">
-              <div style="position: relative;" id="lang-switcher">
-                  <button class="lang-btn" id="lang-btn" aria-label="Language">
-                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                          <circle cx="12" cy="12" r="10" />
-                          <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                      </svg>
-                      <span style="font-weight: 600" id="current-lang-code">{shortCode(lang)}</span>
-                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="m6 9 6 6 6-6" />
-                      </svg>
-                  </button>
-                  <div class="lang-menu lang-menu-tall" id="lang-menu" style="display: none;">
-                    {LANG_ORDER.map(code => {
-                      const opt = I18N[code];
-                      const translation = translations.find(p => p.id.startsWith(`${code}/`));
-                      const link = translation ? `/${code}/blog/${translation.id.split('/').pop().replace('.md', '')}` : `/${code}/blog/`;
-                      return (
-                        <a href={link} class={`lang-opt ${code === lang ? 'is-active' : ''}`} style="text-decoration:none; color:inherit;">
-                          <span style="font-family: var(--mono); font-size: 11px; opacity: 0.5; width: 26px;">{shortCode(code)}</span>
-                          <span>{opt.langName}</span>
-                          {code === lang && (
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>
-                          )}
-                        </a>
-                      );
-                    })}
-                  </div>
-              </div>
-          </div>
-      </div>
-  </nav>
+  <Navbar lang={lang} isBlog={true} slugLinks={slugLinks} />
 
   <main style="padding-top: 120px; min-height: 100vh; background: #fafafa;">
     <article style="max-width: 700px; margin: 0 auto; padding: 48px 24px; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
