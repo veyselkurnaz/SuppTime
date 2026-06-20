@@ -1,8 +1,12 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
+import cloudflare from '@astrojs/cloudflare';
+
 export default defineConfig({
-  site: 'https://supptime.app', // Assuming this is the custom domain, or it can be updated
+  // Assuming this is the custom domain, or it can be updated
+  site: 'https://supptime.app',
+
   integrations: [sitemap({
     serialize(item) {
       // Root or Language Homepages (e.g., https://supptime.app/, https://supptime.app/tr/)
@@ -30,7 +34,9 @@ export default defineConfig({
       return item;
     }
   })],
+
   prefetch: true,
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'],
@@ -38,5 +44,7 @@ export default defineConfig({
       prefixDefaultLocale: true,
       strategy: 'pathname'
     }
-  }
+  },
+
+  adapter: cloudflare()
 });
