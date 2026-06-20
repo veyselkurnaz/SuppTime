@@ -1,0 +1,4 @@
+Contact: mailto:veyselkurnaz@icloud.com
+Preferred-Languages: en, tr
+Expires: 2027-12-31T23:59:59.000Z
+Policy: We take privacy and security very seriously. As a 100% offline, privacy-first application, our website does not collect user data. However, if you find any domain or frontend vulnerabilities, please report them.
