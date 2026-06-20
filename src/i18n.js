@@ -2,6 +2,8 @@
 export const I18N = {
   "en": {
     "langName": "English",
+    "medical_disclaimer": "This information is not intended as medical advice. Always consult with a qualified healthcare professional before starting any supplement regimen.",
+    "reviewed_by": "Reviewed by a Medical Expert",
     "dir": "ltr",
     "nav": {
       "home": "Home",
@@ -128,6 +130,8 @@ export const I18N = {
   },
   "tr": {
     "langName": "Türkçe",
+    "medical_disclaimer": "Bu bilgiler tıbbi tavsiye niteliği taşımaz. Herhangi bir takviye rutinine başlamadan önce mutlaka uzman bir sağlık profesyoneline danışın.",
+    "reviewed_by": "Tıbbi olarak incelenmiştir",
     "dir": "ltr",
     "nav": {
       "home": "Ana Sayfa",
@@ -254,6 +258,8 @@ export const I18N = {
   },
   "ko": {
     "langName": "한국어",
+    "medical_disclaimer": "이 정보는 의학적 조언이 아닙니다. 새로운 영양제 복용을 시작하기 전에 반드시 자격을 갖춘 의료 전문가와 상담하세요.",
+    "reviewed_by": "의료 전문가 검토 완료",
     "dir": "ltr",
     "nav": {
       "home": "홈",
@@ -380,6 +386,8 @@ export const I18N = {
   },
   "ja": {
     "langName": "日本語",
+    "medical_disclaimer": "この情報は医学的アドバイスを意図したものではありません。サプリメントの使用を開始する前に、必ず資格を持つ医療専門家にご相談ください。",
+    "reviewed_by": "医療専門家による監修",
     "dir": "ltr",
     "nav": {
       "home": "ホーム",
@@ -506,6 +514,8 @@ export const I18N = {
   },
   "zh-cn": {
     "langName": "简体中文",
+    "medical_disclaimer": "此信息不作为医疗建议。在开始任何补充剂方案之前，请务必咨询合格的医疗保健专业人员。",
+    "reviewed_by": "由医疗专家审核",
     "dir": "ltr",
     "nav": {
       "home": "首页",
@@ -632,6 +642,8 @@ export const I18N = {
   },
   "zh-tw": {
     "langName": "繁體中文",
+    "medical_disclaimer": "此資訊不作為醫療建議。在開始任何補充劑方案之前，請務必諮詢合格的醫療保健專業人員。",
+    "reviewed_by": "由醫療專家審核",
     "dir": "ltr",
     "nav": {
       "home": "首頁",
@@ -758,6 +770,8 @@ export const I18N = {
   },
   "de": {
     "langName": "Deutsch",
+    "medical_disclaimer": "Diese Informationen sind nicht als medizinischer Rat gedacht. Konsultieren Sie immer einen qualifizierten Arzt, bevor Sie mit einer Nahrungsergänzung beginnen.",
+    "reviewed_by": "Von einem medizinischen Experten geprüft",
     "dir": "ltr",
     "nav": {
       "home": "Startseite",
@@ -884,6 +898,8 @@ export const I18N = {
   },
   "es": {
     "langName": "Español",
+    "medical_disclaimer": "Esta información no pretende ser un consejo médico. Consulte siempre a un profesional de la salud calificado antes de comenzar cualquier régimen de suplementos.",
+    "reviewed_by": "Revisado por un experto médico",
     "dir": "ltr",
     "nav": {
       "home": "Inicio",
@@ -1010,6 +1026,8 @@ export const I18N = {
   },
   "pt-br": {
     "langName": "Português",
+    "medical_disclaimer": "Estas informações não pretendem ser aconselhamento médico. Sempre consulte um profissional de saúde qualificado antes de iniciar qualquer regime de suplementos.",
+    "reviewed_by": "Revisado por um especialista médico",
     "dir": "ltr",
     "nav": {
       "home": "Início",
@@ -1136,6 +1154,8 @@ export const I18N = {
   },
   "it": {
     "langName": "Italiano",
+    "medical_disclaimer": "Queste informazioni non sono da intendersi come consiglio medico. Consultare sempre un operatore sanitario qualificato prima di iniziare qualsiasi regime di integratori.",
+    "reviewed_by": "Revisionato da un esperto medico",
     "dir": "ltr",
     "nav": {
       "home": "Home",
@@ -1262,6 +1282,8 @@ export const I18N = {
   },
   "nl": {
     "langName": "Nederlands",
+    "medical_disclaimer": "Deze informatie is niet bedoeld als medisch advies. Raadpleeg altijd een gekwalificeerde zorgprofessional voordat u met een supplementenregime begint.",
+    "reviewed_by": "Beoordeeld door een medisch expert",
     "dir": "ltr",
     "nav": {
       "home": "Home",
@@ -1388,6 +1410,8 @@ export const I18N = {
   },
   "pl": {
     "langName": "Polski",
+    "medical_disclaimer": "Te informacje nie stanowią porady medycznej. Zawsze skonsultuj się z wykwalifikowanym pracownikiem ochrony zdrowia przed rozpoczęciem jakiegokolwiek planu suplementacji.",
+    "reviewed_by": "Zweryfikowane przez eksperta medycznego",
     "dir": "ltr",
     "nav": {
       "home": "Strona główna",
@@ -1514,6 +1538,8 @@ export const I18N = {
   },
   "ru": {
     "langName": "Русский",
+    "medical_disclaimer": "Эта информация не является медицинской консультацией. Всегда консультируйтесь с квалифицированным медицинским специалистом перед началом приема любых добавок.",
+    "reviewed_by": "Проверено медицинским экспертом",
     "dir": "ltr",
     "nav": {
       "home": "Главная",
@@ -1640,6 +1666,8 @@ export const I18N = {
   },
   "id": {
     "langName": "Bahasa Indonesia",
+    "medical_disclaimer": "Informasi ini bukan merupakan saran medis. Selalu konsultasikan dengan profesional kesehatan yang berkualifikasi sebelum memulai rutinitas suplemen apa pun.",
+    "reviewed_by": "Ditinjau oleh Pakar Medis",
     "dir": "ltr",
     "nav": {
       "home": "Beranda",
@@ -1766,6 +1794,8 @@ export const I18N = {
   },
   "vi": {
     "langName": "Tiếng Việt",
+    "medical_disclaimer": "Thông tin này không nhằm mục đích tư vấn y tế. Luôn tham khảo ý kiến chuyên gia chăm sóc sức khỏe có chuyên môn trước khi bắt đầu bất kỳ chế độ bổ sung nào.",
+    "reviewed_by": "Được xem xét bởi Chuyên gia Y tế",
     "dir": "ltr",
     "nav": {
       "home": "Trang chủ",
@@ -1892,6 +1922,8 @@ export const I18N = {
   },
   "th": {
     "langName": "ไทย",
+    "medical_disclaimer": "ข้อมูลนี้ไม่ได้มีไว้เพื่อเป็นคำแนะนำทางการแพทย์ โปรดปรึกษาผู้เชี่ยวชาญด้านสุขภาพที่มีคุณสมบัติเหมาะสมก่อนเริ่มใช้ผลิตภัณฑ์เสริมอาหารใดๆ",
+    "reviewed_by": "ตรวจสอบโดยผู้เชี่ยวชาญทางการแพทย์",
     "dir": "ltr",
     "nav": {
       "home": "หน้าแรก",
@@ -2018,6 +2050,8 @@ export const I18N = {
   },
   "ar": {
     "langName": "العربية",
+    "medical_disclaimer": "هذه المعلومات ليست مخصصة كنصيحة طبية. استشر دائمًا أخصائي رعاية صحية مؤهل قبل البدء في أي نظام مكملات.",
+    "reviewed_by": "تمت المراجعة من قبل خبير طبي",
     "dir": "rtl",
     "nav": {
       "home": "الرئيسية",

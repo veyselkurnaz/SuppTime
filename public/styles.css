@@ -1243,6 +1243,7 @@ button { font-family: inherit; cursor: pointer; }
   justify-content: center;
   padding: 14px 20px;
   border-radius: 16px;
+  color: #fff !important;
 }
 
 body.menu-open {

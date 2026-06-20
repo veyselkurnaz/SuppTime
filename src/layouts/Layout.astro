@@ -119,7 +119,12 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
                 <a href={i === 0 ? `/${lang}/privacy` : (i === 1 ? `/${lang}/terms` : (i === 2 ? 'mailto:veyselkurnaz@icloud.com' : '#'))}>{l}</a>
               ))}
             </div>
-            <div class="foot-copy">© 2026 SuppTime, Inc.</div>
+            {t.medical_disclaimer && (
+              <div style="font-size: 11px; color: #888; max-width: 800px; line-height: 1.5; text-align: left; margin-bottom: 12px;">
+                {t.medical_disclaimer}
+              </div>
+            )}
+            <div class="foot-copy" style="margin-top: 0;">© 2026 SuppTime, Inc.</div>
         </div>
     </footer>
 
