@@ -36,6 +36,25 @@ const translations = allPosts.filter((p: CollectionEntry<'blog'>) => p.data.tran
 
 const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
 
+const wordCount = post.body ? post.body.split(/\s+/).length : 0;
+
+// Grab related posts
+const otherPostsInLang = allPosts.filter((p: CollectionEntry<'blog'>) => p.id.startsWith(`${lang}/`) && p.id !== post.id);
+const relatedPosts = otherPostsInLang.sort(() => 0.5 - Math.random()).slice(0, 3).map(rp => ({
+  ...rp,
+  rpSlug: rp.id.split('/').pop()?.replace('.md', '')
+}));
+const relatedTitle = {
+  'tr': 'İlgili Makaleler',
+  'de': 'Ähnliche Artikel',
+  'es': 'Artículos Relacionados',
+  'pt-br': 'Artigos Relacionados',
+  'ru': 'Похожие статьи',
+  'zh-cn': '相关文章',
+  'ko': '관련 기사',
+  'ja': '関連記事'
+}[lang] || 'Related Articles';
+
 // Generate JSON-LD Schema
 const schema = [
   {
@@ -44,10 +63,13 @@ const schema = [
     "headline": post.data.title,
     "description": post.data.description,
     "author": {
-      "@type": "Organization",
-      "name": post.data.author
+      "@type": "Person",
+      "name": post.data.author || "SuppTime Editorial",
+      "url": "https://supptime.app/"
     },
     "datePublished": post.data.pubDate.toISOString(),
+    "dateModified": post.data.pubDate.toISOString(),
+    "wordCount": wordCount,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://supptime.app/${lang}/blog/${slug}`
@@ -69,13 +91,47 @@ const schema = [
 ];
 
 const slugLinks: Record<string, string> = {};
+const alternateUrls: Record<string, string> = {};
+
 LANG_ORDER.forEach(code => {
   const translation = translations.find((p: CollectionEntry<'blog'>) => p.id.startsWith(`${code}/`));
-  slugLinks[code] = translation ? `/${code}/blog/${translation.id.split('/').pop()?.replace('.md', '')}` : `/${code}/blog/`;
+  if (translation) {
+    const translatedPath = `/${code}/blog/${translation.id.split('/').pop()?.replace('.md', '')}/`;
+    slugLinks[code] = translatedPath;
+    alternateUrls[code] = translatedPath;
+  } else {
+    slugLinks[code] = `/${code}/blog/`;
+  }
 });
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "SuppTime",
+      "item": "https://supptime.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": `https://supptime.app/${lang}/blog/`
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": post.data.title,
+      "item": `https://supptime.app/${lang}/blog/${slug}/`
+    }
+  ]
+};
+schema.push(breadcrumbSchema as any);
 ---
 
-<Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'} image="/blog/vitamin_d_blog_cover.png" ogType="article">
+<Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'} image={post.data.image} ogType="article" alternateUrls={alternateUrls} pubDate={post.data.pubDate} author={post.data.author}>
   <!-- Inject JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(schema)} is:inline />
   
@@ -100,7 +156,7 @@ LANG_ORDER.forEach(code => {
       )}
       <h1 style="font-size: 38px; font-weight: 700; margin-bottom: 20px; line-height: 1.25; letter-spacing: -0.02em;">{post.data.title}</h1>
       <div style="color: #666; margin-bottom: 48px; font-size: 15px; border-bottom: 1px solid #eee; padding-bottom: 24px; font-weight: 500;">
-        {post.data.pubDate.toLocaleDateString(lang)} • {post.data.author || 'SuppTime Team'}
+        <time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString(lang)}</time> • {post.data.author || 'SuppTime Team'}
       </div>
       
       <div class="prose" style="font-size: 18px; line-height: 1.7; color: #333;">
@@ -129,6 +185,28 @@ LANG_ORDER.forEach(code => {
               </a>
           </div>
       </div>
+      
+      {relatedPosts.length > 0 && (
+        <div style="margin-top: 64px; border-top: 1px solid #eee; padding-top: 48px;">
+          <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 24px; letter-spacing: -0.01em;">{relatedTitle}</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
+            {relatedPosts.map((rp: any) => (
+              <a href={`/${lang}/blog/${rp.rpSlug}`} class="related-card" style="text-decoration: none; color: inherit; display: block; border-radius: 16px; overflow: hidden; background: #fafafa; border: 1px solid #eee; transition: transform 0.2s, box-shadow 0.2s;">
+                {rp.data.image && <img src={rp.data.image} alt={rp.data.title} style="width: 100%; height: 140px; object-fit: cover; display: block;" />}
+                <div style="padding: 16px;">
+                  <h4 style="font-size: 16px; font-weight: 600; margin: 0; line-height: 1.4; color: #111;">{rp.data.title}</h4>
+                </div>
+              </a>
+            ))}
+          </div>
+          <style>
+            .related-card:hover {
+              transform: translateY(-4px);
+              box-shadow: 0 12px 24px rgba(0,0,0,0.06);
+            }
+          </style>
+        </div>
+      )}
     </article>
   </main>
   

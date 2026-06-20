@@ -21,3 +21,4 @@ User-agent: Google-Extended
 Allow: /
 
 Sitemap: https://supptime.app/sitemap-index.xml
+Allow: /llms-full.txt

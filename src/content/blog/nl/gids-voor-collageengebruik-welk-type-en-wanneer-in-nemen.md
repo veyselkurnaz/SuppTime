@@ -78,3 +78,19 @@ De kwaliteit van collageen in het lichaam komt ernstig in het gedrang door glyca
 
 ### Corticosteroïden en Collageenafbraak
 Op farmacologisch niveau remmen systemische corticosteroïden (bijv. prednisolon, methylprednisolon) direct de collageen-gentranscriptie in fibroblasten. Langdurige steroïdebehandelingen in hoge dosering kunnen de collageenregeneratie in het lichaam vrijwel volledig stoppen, wat resulteert in vertraagde wondgenezing, dunner wordende huid en ernstige huidatrofie (dermale atrofie).
+
+
+## 7. Optimaliseer je routine met SuppTime
+
+Het synchroniseren van je collageeninname met het optimale moment van de dag – terwijl je tegelijkertijd andere vitamines beheert en concurrerende absorptieconflicten vermijdt – is een complexe chronobiologische uitdaging. Het menselijk geheugen is feilbaar en het beheren van meerdere supplementenpotjes leidt vaak tot gemiste doses of een suboptimale timing.
+
+Dat is precies de reden waarom we **SuppTime** hebben gebouwd.
+
+SuppTime is niet zomaar een herinneringsapp; het is een biochemische motor van klinisch niveau voor in je broekzak.
+
+Met SuppTime's **Smart Stack Builder**:
+- **Perfecte timing:** Plan je collageenpeptiden eenvoudig in voor de avond, zodat deze samenvallen met de nachtelijke piek van je celherstelgenen.
+- **Synergiesuggesties:** Als je collageen plant zonder vitamine C, zal SuppTime je er vriendelijk aan herinneren dat je een kritieke cofactor mist die nodig is voor *de novo* collageensynthese.
+- **Veiligheid voorop:** Registreer eventuele medicijnen (zoals corticosteroïden) en laat SuppTime automatisch controleren op farmacologische interacties die je collageenregeneratie zouden kunnen remmen.
+
+Stop met gissen naar je gezondheid. Download **SuppTime** vandaag nog, stop een virtuele farmacoloog in je broekzak en zorg ervoor dat je 100% profiteert van elk supplement dat je inneemt.

@@ -1,4 +1,10 @@
-# SuppTime
+import { getCollection } from 'astro:content';
+
+export async function GET() {
+  const posts = await getCollection('blog');
+  const enPosts = posts.filter((post: any) => post.id.startsWith('en/'));
+
+  let content = `# SuppTime
 
 > Transform your health with SuppTime, the private, ad-free supplement tracker designed for optimal biohacking and routine management. Take the right nutrients at the perfect time, avoid harmful interactions, and visualize your progress—100% offline and secure.
 
@@ -21,5 +27,19 @@ SuppTime is the ultimate vitamin tracker and supplement planner designed to opti
 ## Contact & Support
 For support or inquiries, users can reach out via the website (https://supptime.app).
 
-## Blog & Articles
-SuppTime publishes science-backed articles regarding supplement timing, which can be found at https://supptime.app/en/blog/ (and in 16 other languages).
+## Optional Resources (Blog)
+`;
+
+  for (const post of enPosts) {
+    const slugParts = post.id.split('/');
+    slugParts.shift();
+    const slug = slugParts.join('/').replace(/\.md$/, '');
+    content += `- [${post.data.title}](https://supptime.app/en/blog/${slug}/): ${post.data.description}\n`;
+  }
+
+  return new Response(content, {
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8'
+    }
+  });
+}

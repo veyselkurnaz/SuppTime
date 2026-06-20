@@ -27,5 +27,8 @@
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^6.4.8",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.18"
   }
 }

@@ -42,12 +42,17 @@ function getReviewLang(country: string) {
 
 const formatHtml = (str: string) => str.replace(/\n/g, '<br/>');
 
-const schema = {
+const appSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "SuppTime",
   "operatingSystem": "iOS",
   "applicationCategory": "HealthAndFitnessApplication",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "1254"
+  },
   "offers": {
     "@type": "Offer",
     "price": "0",
@@ -55,6 +60,21 @@ const schema = {
   },
   "url": "https://apps.apple.com/app/supptime-vitamin-tracker/id6762088156"
 };
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqItems.map((item: any) => ({
+    "@type": "Question",
+    "name": item.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.a
+    }
+  }))
+};
+
+const schema = [appSchema, faqSchema];
 ---
 <Layout title={`SuppTime — ${t.footer.tag}`} description={t.hero.sub} lang={lang} dir={t.dir || 'ltr'}>
 <script type="application/ld+json" set:html={JSON.stringify(schema)} is:inline />

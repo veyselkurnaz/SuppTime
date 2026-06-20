@@ -8,9 +8,12 @@ export interface Props {
   dir: string;
   image?: string;
   ogType?: string;
+  alternateUrls?: Record<string, string>;
+  pubDate?: Date;
+  author?: string;
 }
 
-const { title, description, lang, dir, image = '/assets/supptime_og_banner.png', ogType = 'website' } = Astro.props;
+const { title, description, lang, dir, image = '/assets/supptime_og_banner.png', ogType = 'website', alternateUrls, pubDate, author } = Astro.props;
 
 // Compute hreflang tags for SEO
 const locales = Object.keys(I18N);
@@ -45,6 +48,12 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={`https://supptime.app${image}`} />
 
+    <!-- Advanced SEO & Mobile UX -->
+    {ogType === 'article' && pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
+    {ogType === 'article' && author && <meta property="article:author" content={author} />}
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+
     <link rel="icon" type="image/png" href="/assets/watchos.png" />
     <link rel="apple-touch-icon" href="/assets/watchos.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,10 +62,21 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
     <link rel="stylesheet" href="/styles.css" />
     
     <!-- SEO: Hreflang Tags -->
-    <link rel="alternate" href={`https://supptime.app/`} hreflang="x-default" />
-    {locales.map((l) => (
-      <link rel="alternate" href={`https://supptime.app/${l}/`} hreflang={l === 'pt-br' ? 'pt-BR' : (l === 'zh-cn' ? 'zh-CN' : (l === 'zh-tw' ? 'zh-TW' : l))} />
-    ))}
+    {alternateUrls ? (
+      <>
+        <link rel="alternate" href={`https://supptime.app${alternateUrls['en'] || ''}`} hreflang="x-default" />
+        {Object.entries(alternateUrls).map(([loc, path]) => (
+          <link rel="alternate" href={`https://supptime.app${path}`} hreflang={loc === 'pt-br' ? 'pt-BR' : (loc === 'zh-cn' ? 'zh-CN' : (loc === 'zh-tw' ? 'zh-TW' : loc))} />
+        ))}
+      </>
+    ) : (
+      <>
+        <link rel="alternate" href="https://supptime.app/" hreflang="x-default" />
+        {locales.map((l) => (
+          <link rel="alternate" href={`https://supptime.app/${l}/`} hreflang={l === 'pt-br' ? 'pt-BR' : (l === 'zh-cn' ? 'zh-CN' : (l === 'zh-tw' ? 'zh-TW' : l))} />
+        ))}
+      </>
+    )}
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0GC3N2F5V1"></script>
