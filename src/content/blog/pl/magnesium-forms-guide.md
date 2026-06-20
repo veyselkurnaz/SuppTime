@@ -4,9 +4,8 @@ description: "Poznaj kluczowe różnice między Glicynianem, Cytrynianem, Treoni
 pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
+image: \"/blog/magnesium_blog_cover.png\"
 ---
-
-<img src="/blog/magnesium_blog_cover.png" alt="Formy Magnezu" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Magnez jest niezastąpionym makroelementem zarządzającym rytmem metabolicznym ludzkiego organizmu. Działa jako kofaktor w ponad 600 reakcjach enzymatycznych, od produkcji energii komórkowej po kurczenie się mięśni.
 

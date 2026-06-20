@@ -3,9 +3,8 @@ title: "Interazioni tra Integratori: Cosa Non Mescolare e Cosa Combinare"
 description: "Scopri quali vitamine e minerali non dovresti mai prendere insieme (come Ferro e Calcio) e quali funzionano molto meglio se abbinati."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
+image: "/blog/supplement_interactions_cover.png"
 ---
-
-<img src="/blog/supplement_interactions_cover.png" alt="Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Assumere integratori è un ottimo modo per ottimizzare la salute, ma prenderli tutti in una volta sola può fare più male che bene. I nutrienti spesso interagiscono tra loro: alcuni annullano gli effetti dell'altro, mentre altri lavorano in perfetta sinergia per aumentare l'assorbimento.
 

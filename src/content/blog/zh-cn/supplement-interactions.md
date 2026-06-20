@@ -3,9 +3,8 @@ title: "补充剂相互作用：不能混合吃什么和完美组合"
 description: "探索哪些维生素和矿物质绝对不能一起服用（如铁和钙），以及哪些结合使用吸收率会大幅提高。"
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
+image: "/blog/supplement_interactions_cover.png"
 ---
-
-<img src="/blog/supplement_interactions_cover.png" alt="Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 服用补充剂是优化健康的绝佳方式，但一次性全部吞下可能会弊大于利。营养素之间经常发生相互作用——有些会抵消彼此的作用，而另一些则完美协同以促进吸收。
 

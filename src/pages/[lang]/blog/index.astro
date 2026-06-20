@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { type CollectionEntry, getCollection } from 'astro:content';
 import { I18N } from '../../../i18n.js';
 import Layout from '../../../layouts/Layout.astro';
 import Navbar from '../../../components/Navbar.astro';
@@ -11,29 +11,20 @@ export async function getStaticPaths() {
   }));
 }
 
-const { lang } = Astro.params;
-const t = I18N[lang];
+const { lang } = Astro.params as { lang: string };
+const t = I18N[lang as keyof typeof I18N] || I18N['en'];
 
 // Fetch all posts for the current language
-const allPosts = await getCollection('blog', ({ id }) => {
+const allPosts = await getCollection('blog', ({ id }: { id: string }) => {
   return id.startsWith(`${lang}/`);
 });
 
 // Sort by date
-allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+allPosts.sort((a: CollectionEntry<'blog'>, b: CollectionEntry<'blog'>) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 // Get title based on lang
 const blogTitle = lang === 'tr' ? 'SuppTime Blog' : 'SuppTime Blog';
 const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hakkında en son yazılar.' : 'The latest articles on health, supplements, and scientific timing.';
-
-const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
-
-function shortCode(c) { 
-  if (c === 'pt-br') return 'PT';
-  if (c === 'zh-cn') return '简';
-  if (c === 'zh-tw') return '繁';
-  return c.toUpperCase(); 
-}
 
 ---
 
@@ -46,7 +37,7 @@ function shortCode(c) {
       <p style="color: #666; font-size: 18px; margin-bottom: 48px;">{blogDesc}</p>
 
       <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 32px;">
-        {allPosts.map(post => (
+        {allPosts.map((post: CollectionEntry<'blog'>) => (
           <article class="blog-card" style="background: white; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease; display: flex; flex-direction: column;">
             <a href={`/${lang}/blog/${post.id.split('/').pop().replace('.md', '')}`} style="text-decoration: none; color: inherit; display: flex; flex-direction: column; flex-grow: 1;">
               {post.data.image && (
@@ -85,7 +76,7 @@ function shortCode(c) {
         langMenu.style.display = langMenuOpen ? 'grid' : 'none';
       });
       document.addEventListener('mousedown', (e) => {
-        if (langMenuOpen && !langBtn.contains(e.target) && !langMenu.contains(e.target)) {
+        if (langMenuOpen && e.target instanceof Node && !langBtn.contains(e.target) && !langMenu.contains(e.target)) {
           langMenuOpen = false;
           langMenu.style.display = 'none';
         }

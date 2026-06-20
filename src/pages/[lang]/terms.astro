@@ -9,9 +9,9 @@ export function getStaticPaths() {
   }));
 }
 
-const { lang } = Astro.params;
-const dir = I18N[lang]?.dir || 'ltr';
-const t = legalData[lang]?.terms || legalData['en'].terms;
+const { lang } = Astro.params as { lang: string };
+const t = (legalData[lang as keyof typeof legalData]?.terms || legalData['en'].terms) as any;
+const dir = I18N[lang as keyof typeof I18N]?.dir || 'ltr';
 ---
 <Layout title={`${t.title} - SuppTime`} description={t.title} lang={lang} dir={dir}>
   <main style="padding-top: 120px; padding-bottom: 80px; min-height: 100vh; background: #fafafa;">
@@ -21,7 +21,7 @@ const t = legalData[lang]?.terms || legalData['en'].terms;
 
       <p>{t.intro}</p>
 
-      {t.sections.map((sec) => (
+      {t.sections.map((sec: any) => (
         <>
           <h3>{sec.t}</h3>
           <p>{sec.p}</p>

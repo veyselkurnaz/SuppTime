@@ -3,9 +3,8 @@ title: "補充維生素D的最佳時間：科學指南"
 description: "了解有科學依據的服用維生素D補充劑的最佳時間，以實現最大吸收。"
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 維生素D對骨骼健康、免疫功能和情緒調節至關重要。儘管它很重要，但全球多達50%的人口維生素D水平不足。
 

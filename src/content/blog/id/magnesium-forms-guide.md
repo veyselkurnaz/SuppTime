@@ -4,9 +4,8 @@ description: "Temukan perbedaan penting antara Magnesium Glisinat, Sitrat, L-Tre
 pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
+image: \"/blog/magnesium_blog_cover.png\"
 ---
-
-<img src="/blog/magnesium_blog_cover.png" alt="Bentuk Magnesium" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Sering digambarkan sebagai mesin utama fisiologi seluler, magnesium adalah makromineral yang sangat diperlukan yang mengatur ritme metabolisme tubuh manusia. Mineral ini bertindak sebagai kofaktor yang diperlukan di lebih dari 600 reaksi enzimatik, mengatur proses yang berkisar dari produksi energi seluler hingga transmisi saraf dan kontraksi otot.
 

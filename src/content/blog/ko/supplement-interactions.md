@@ -3,9 +3,8 @@ title: "영양제 상호작용: 섞어 먹으면 안 되는 것과 완벽한 조
 description: "철분과 칼슘처럼 절대 함께 복용하면 안 되는 비타민과 미네랄, 그리고 함께 복용할 때 흡수율이 극대화되는 조합을 알아보세요."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
+image: "/blog/supplement_interactions_cover.png"
 ---
-
-<img src="/blog/supplement_interactions_cover.png" alt="Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 영양제를 섭취하는 것은 건강을 최적화하는 훌륭한 방법이지만, 한꺼번에 모두 삼키는 것은 득보다 실이 많을 수 있습니다. 영양소는 종종 서로 상호작용합니다. 어떤 것들은 서로의 효과를 상쇄하는 반면, 어떤 것들은 흡수율을 높이기 위해 완벽한 시너지를 발휘합니다.
 

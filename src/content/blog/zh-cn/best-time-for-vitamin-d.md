@@ -3,9 +3,8 @@ title: "补充维生素D的最佳时间：科学指南"
 description: "了解有科学依据的服用维生素D补充剂的最佳时间，以实现最大吸收。"
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 维生素D对骨骼健康、免疫功能和情绪调节至关重要。尽管它很重要，但全球多达50%的人口维生素D水平不足。
 

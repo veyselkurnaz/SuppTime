@@ -4,9 +4,8 @@ description: "Scopri le differenze tra Magnesio Glicinato, Citrato, L-Treonato e
 pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
+image: \"/blog/magnesium_blog_cover.png\"
 ---
-
-<img src="/blog/magnesium_blog_cover.png" alt="Forme di Magnesio" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Spesso descritto come il motore principale della fisiologia cellulare, il magnesio è un macrominerale indispensabile che governa i ritmi metabolici del corpo umano. Agisce come cofattore necessario in oltre 600 reazioni enzimatiche, regolando processi che vanno dalla produzione di energia cellulare alla neurotrasmissione e alla contrazione muscolare.
 

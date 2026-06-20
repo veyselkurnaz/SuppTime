@@ -5,7 +5,7 @@
   <title>SuppTime</title>
   <script>
     var supported = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
-    var userLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+    var userLang = (navigator.language || (navigator as any).userLanguage || 'en').toLowerCase();
     
     var target = 'en';
     if (supported.indexOf(userLang) !== -1) {

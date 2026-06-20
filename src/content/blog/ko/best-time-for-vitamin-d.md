@@ -3,9 +3,8 @@ title: "비타민 D 복용을 위한 최적의 시간: 과학적 가이드"
 description: "최대 흡수를 위해 비타민 D 보충제를 복용하는 과학적으로 입증된 최적의 시간을 알아보세요."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 비타민 D는 뼈 건강, 면역 기능 및 기분 조절에 매우 중요합니다. 중요성에도 불구하고 전 세계 인구의 최대 50%가 비타민 D 수치가 부족합니다. 보충제를 복용하는 것은 훌륭한 단계이지만, *언제* 그리고 *어떻게* 복용하느냐에 따라 신체가 비타민 D를 흡수하는 정도가 크게 달라질 수 있습니다.
 

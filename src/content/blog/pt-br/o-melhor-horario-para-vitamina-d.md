@@ -3,9 +3,8 @@ title: "O Melhor Horário para Tomar Vitamina D: Um Guia Científico"
 description: "Descubra o melhor horário do dia, apoiado pela ciência, para tomar seus suplementos de Vitamina D e obter máxima absorção."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 A vitamina D é crucial para a saúde óssea, a função imunológica e a regulação do humor. Apesar de sua importância, até 50% da população mundial possui níveis insuficientes de vitamina D. Embora tomar um suplemento seja um ótimo passo, *quando* e *como* você o toma pode afetar drasticamente a forma como o seu corpo o absorve.
 

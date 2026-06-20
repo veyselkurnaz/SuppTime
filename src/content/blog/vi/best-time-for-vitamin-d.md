@@ -3,9 +3,8 @@ title: "Thời điểm tốt nhất để bổ sung Vitamin D: Hướng dẫn kh
 description: "Khám phá thời điểm tốt nhất trong ngày để bổ sung Vitamin D nhằm đạt hiệu quả hấp thu tối đa theo khoa học."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Vitamin D rất quan trọng đối với sức khỏe của xương, chức năng miễn dịch và điều chỉnh tâm trạng. Mặc dù quan trọng, nhưng có tới 50% dân số toàn cầu không đủ Vitamin D. 
 

@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { type CollectionEntry, getCollection, render } from 'astro:content';
 import { I18N } from '../../../i18n.js';
 import Layout from '../../../layouts/Layout.astro';
 import Navbar from '../../../components/Navbar.astro';
@@ -7,7 +7,7 @@ import Navbar from '../../../components/Navbar.astro';
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   
-  return posts.map(post => {
+  return posts.map((post: CollectionEntry<'blog'>) => {
     // id is like "en/best-time-for-vitamin-d.md"
     const [lang, ...slugParts] = post.id.split('/');
     // slug is the filename without lang and without .md
@@ -20,23 +20,21 @@ export async function getStaticPaths() {
   });
 }
 
-const { lang } = Astro.params;
-const { post, allPosts } = Astro.props;
+interface Props {
+  post: CollectionEntry<'blog'>;
+  allPosts: CollectionEntry<'blog'>[];
+}
+
+const { lang, slug } = Astro.params as { lang: string; slug: string };
+const { post, allPosts } = Astro.props as Props;
 const { Content } = await render(post);
 
-const t = I18N[lang];
+const t = I18N[lang as keyof typeof I18N] || I18N['en'];
 
 // SEO: Find translations of this post for hreflang
-const translations = allPosts.filter(p => p.data.translationKey === post.data.translationKey);
+const translations = allPosts.filter((p: CollectionEntry<'blog'>) => p.data.translationKey === post.data.translationKey);
 
 const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
-
-function shortCode(c) { 
-  if (c === 'pt-br') return 'PT';
-  if (c === 'zh-cn') return '简';
-  if (c === 'zh-tw') return '繁';
-  return c.toUpperCase(); 
-}
 
 // Generate JSON-LD Schema
 const schema = [
@@ -52,7 +50,7 @@ const schema = [
     "datePublished": post.data.pubDate.toISOString(),
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://supptime.app/${lang}/blog/${Astro.params.slug}`
+      "@id": `https://supptime.app/${lang}/blog/${slug}`
     }
   },
   {
@@ -72,22 +70,28 @@ const schema = [
 
 const slugLinks: Record<string, string> = {};
 LANG_ORDER.forEach(code => {
-  const translation = translations.find(p => p.id.startsWith(`${code}/`));
-  slugLinks[code] = translation ? `/${code}/blog/${translation.id.split('/').pop().replace('.md', '')}` : `/${code}/blog/`;
+  const translation = translations.find((p: CollectionEntry<'blog'>) => p.id.startsWith(`${code}/`));
+  slugLinks[code] = translation ? `/${code}/blog/${translation.id.split('/').pop()?.replace('.md', '')}` : `/${code}/blog/`;
 });
 ---
 
 <Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'} image="/blog/vitamin_d_blog_cover.png" ogType="article">
   <!-- Inject JSON-LD -->
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} is:inline />
   
   <Navbar lang={lang} isBlog={true} slugLinks={slugLinks} />
 
-  <main style="padding-top: 120px; min-height: 100vh; background: #fafafa;">
+  <main style="padding-top: 120px; min-height: 100vh; background: #fafafa; padding-bottom: 80px;">
+    <div style="max-width: 760px; margin: 0 auto 24px auto;">
+      <a href={`/${lang}/blog`} style="display: inline-flex; align-items: center; gap: 8px; color: #666; text-decoration: none; font-weight: 500; font-size: 15px; transition: color 0.2s;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        {lang === 'tr' ? 'Bloga Dön' : 'Back to Blog'}
+      </a>
+    </div>
     <article style="max-width: 760px; margin: 0 auto; padding: 48px; background: white; border-radius: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.04);">
       {post.data.image && (
         <div style="margin: -48px -48px 40px -48px; border-radius: 24px 24px 0 0; overflow: hidden; background: #f4f6f8; text-align: center;">
-          <img src={post.data.image} alt={post.data.title} style="width: 100%; height: auto; max-height: 480px; object-fit: cover; display: block;" />
+          <img src={post.data.image} alt={post.data.title} style="width: 100%; height: auto; aspect-ratio: 2/1; object-fit: cover; object-position: center bottom; display: block;" />
         </div>
       )}
       <h1 style="font-size: 38px; font-weight: 700; margin-bottom: 20px; line-height: 1.25; letter-spacing: -0.02em;">{post.data.title}</h1>
@@ -125,6 +129,22 @@ LANG_ORDER.forEach(code => {
   </main>
   
   <script>
+    // GitHub Alerts Parser
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.prose blockquote').forEach(bq => {
+        const html = bq.innerHTML;
+        if (html.includes('[!TIP]')) {
+          const content = html.replace(/\[!TIP\](?:<br>|\n)?/i, '');
+          bq.innerHTML = `<div class="alert-icon">💡</div><div>${content}</div>`;
+          bq.classList.add('alert-tip');
+        } else if (html.includes('[!WARNING]') || html.includes('[!CAUTION]')) {
+          const content = html.replace(/\[!(?:WARNING|CAUTION)\](?:<br>|\n)?/i, '');
+          bq.innerHTML = `<div class="alert-icon">⚠️</div><div>${content}</div>`;
+          bq.classList.add('alert-warning');
+        }
+      });
+    });
+
     // Language Menu Toggling
     const langBtn = document.getElementById('lang-btn');
     const langMenu = document.getElementById('lang-menu');
@@ -137,7 +157,7 @@ LANG_ORDER.forEach(code => {
         langMenu.style.display = langMenuOpen ? 'grid' : 'none';
       });
       document.addEventListener('mousedown', (e) => {
-        if (langMenuOpen && !langBtn.contains(e.target) && !langMenu.contains(e.target)) {
+        if (langMenuOpen && e.target instanceof Node && !langBtn.contains(e.target) && !langMenu.contains(e.target)) {
           langMenuOpen = false;
           langMenu.style.display = 'none';
         }
@@ -147,20 +167,63 @@ LANG_ORDER.forEach(code => {
 </Layout>
 
 <style is:global>
-  .prose h1 {
-    display: none;
+  .prose h1 { display: none; }
+  .prose h2 { font-size: 26px; font-weight: 700; margin-top: 48px; margin-bottom: 16px; color: #111; letter-spacing: -0.01em; }
+  .prose h3 { font-size: 20px; font-weight: 600; margin-top: 32px; margin-bottom: 12px; color: #222; }
+  .prose p { margin-bottom: 24px; }
+  .prose strong { font-weight: 600; color: #111; }
+  .prose ul, .prose ol { margin-bottom: 24px; padding-left: 24px; }
+  .prose li { margin-bottom: 8px; }
+  
+  /* Tables */
+  .prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+    font-size: 15px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   }
-  .prose h2 {
-    font-size: 24px;
+  .prose th {
+    background: #f8f9fa;
     font-weight: 600;
-    margin-top: 40px;
-    margin-bottom: 16px;
-  }
-  .prose p {
-    margin-bottom: 24px;
-  }
-  .prose strong {
-    font-weight: 600;
+    text-align: left;
+    padding: 16px 20px;
+    border-bottom: 2px solid #eaeaea;
     color: #111;
   }
+  .prose td {
+    padding: 16px 20px;
+    border-bottom: 1px solid #eaeaea;
+    color: #444;
+    vertical-align: top;
+  }
+  .prose tr:last-child td { border-bottom: none; }
+  
+  /* Alerts */
+  .alert-tip, .alert-warning {
+    background: #f4f9ff;
+    border: 1px solid #cce3f6;
+    border-left: 4px solid #007aff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 40px 0;
+    color: #1d3d5e;
+    font-size: 15px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .alert-warning {
+    background: #fff8f0;
+    border-color: #fce2c6;
+    border-left-color: #ff9500;
+    color: #5c3600;
+  }
+  .alert-tip .alert-icon, .alert-warning .alert-icon { font-size: 22px; line-height: 1; margin-top: 2px; }
+  .alert-tip p, .alert-warning p { margin: 0; }
+  .alert-tip strong, .alert-warning strong { color: #005c8a; display: block; margin-bottom: 4px; font-size: 16px; }
+  .alert-warning strong { color: #8f5400; }
 </style>

@@ -3,9 +3,8 @@ title: "Tương tác của Thực phẩm chức năng: Những gì Không nên T
 description: "Khám phá những loại vitamin và khoáng chất nào bạn không bao giờ nên uống cùng nhau (như Sắt và Canxi) và loại nào hoạt động tốt hơn nhiều khi kết hợp."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
+image: "/blog/supplement_interactions_cover.png"
 ---
-
-<img src="/blog/supplement_interactions_cover.png" alt="Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Dùng thực phẩm chức năng là một cách tuyệt vời để tối ưu hóa sức khỏe của bạn, nhưng uống tất cả chúng cùng một lúc có thể lợi bất cập hại. Các chất dinh dưỡng thường tương tác với nhau - một số triệt tiêu tác dụng của nhau, trong khi những chất khác phối hợp hoàn hảo để tăng cường hấp thu.
 

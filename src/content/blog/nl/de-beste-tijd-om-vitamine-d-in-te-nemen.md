@@ -3,9 +3,8 @@ title: "De beste tijd om vitamine D in te nemen: Een wetenschappelijke gids"
 description: "Ontdek het wetenschappelijk onderbouwde beste moment van de dag om je vitamine D in te nemen voor maximale opname."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Vitamine D is cruciaal voor de gezondheid van botten, de immuunfunctie en stemmingsregulatie. Ondanks het belang ervan, heeft tot 50% van de wereldbevolking onvoldoende vitamine D. Hoewel het nemen van een supplement een geweldige stap is, kan *wanneer* en *hoe* je het inneemt de opname drastisch beïnvloeden.
 

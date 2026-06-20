@@ -3,9 +3,8 @@ title: "The Best Time to Take Vitamin D: A Scientific Guide"
 description: "Discover the science-backed best time of day to take your Vitamin D supplements for maximum absorption, and why timing matters for your sleep."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Vitamin D is crucial for bone health, immune function, and mood regulation. Despite its importance, up to 50% of the global population has insufficient levels of Vitamin D. While taking a supplement is a great step, *when* and *how* you take it can dramatically impact how well your body absorbs it. 
 

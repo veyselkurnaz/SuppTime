@@ -3,9 +3,8 @@ title: "Takviye Etkileşimleri: Neler Karıştırılmamalı, Neler Birleştirilm
 description: "Hangi vitamin ve mineralleri (Demir ve Kalsiyum gibi) asla birlikte almamanız gerektiğini ve hangilerinin birleştirildiğinde daha iyi çalıştığını keşfedin."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
+image: "/blog/supplement_interactions_cover.png"
 ---
-
-<img src="/blog/supplement_interactions_cover.png" alt="Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Takviye almak sağlığınızı optimize etmenin harika bir yoludur, ancak hepsini aynı anda avuç dolusu yutmak yarardan çok zarar verebilir. Besinler sıklıkla birbirleriyle etkileşime girer; bazıları birbirinin etkisini sıfırlarken, diğerleri emilimi artırmak için birlikte çalışır.
 

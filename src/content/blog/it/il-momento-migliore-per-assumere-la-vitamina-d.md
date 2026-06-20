@@ -3,9 +3,8 @@ title: "Il momento migliore per assumere la vitamina D: una guida scientifica"
 description: "Scopri il momento migliore della giornata per assumere integratori di vitamina D e ottenere il massimo assorbimento."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 La vitamina D è fondamentale per la salute delle ossa, la funzione immunitaria e la regolazione dell'umore. Nonostante la sua importanza, fino al 50% della popolazione globale ha livelli insufficienti di vitamina D. Sebbene assumere un integratore sia un ottimo passo, *quando* e *come* lo si assume può influire drasticamente su come il corpo lo assorbe.
 

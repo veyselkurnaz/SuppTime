@@ -3,9 +3,8 @@ title: "Interações de Suplementos: O Que Não Misturar e O Que Combinar"
 description: "Descubra quais vitaminas e minerais você nunca deve tomar juntos (como Ferro e Cálcio) e quais funcionam muito melhor quando combinados."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
+image: "/blog/supplement_interactions_cover.png"
 ---
-
-<img src="/blog/supplement_interactions_cover.png" alt="Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Tomar suplementos é uma excelente maneira de otimizar sua saúde, mas engolir todos de uma vez pode fazer mais mal do que bem. Os nutrientes frequentemente interagem entre si—alguns se anulam, enquanto outros trabalham em perfeita harmonia para aumentar a absorção.
 

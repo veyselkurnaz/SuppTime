@@ -3,9 +3,8 @@ title: "Najlepszy czas na przyjmowanie witaminy D: Poradnik naukowy"
 description: "Odkryj poparty badaniami najlepszy moment w ciągu dnia na przyjmowanie witaminy D."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Witamina D ma kluczowe znaczenie dla zdrowia kości, funkcji układu odpornościowego i regulacji nastroju. Pomimo jej znaczenia, nawet 50% światowej populacji ma jej niedobory. Chociaż suplementacja to świetny krok, *kiedy* i *jak* ją przyjmujesz, ma ogromne znaczenie dla wchłaniania.
 

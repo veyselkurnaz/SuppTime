@@ -3,9 +3,8 @@ title: "Wechselwirkungen bei Nahrungsergänzungsmitteln: Was man nicht mischen u
 description: "Entdecken Sie, welche Vitamine und Mineralien Sie niemals zusammen einnehmen sollten (wie Eisen und Calcium) und welche in Kombination besser wirken."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
+image: "/blog/supplement_interactions_cover.png"
 ---
-
-<img src="/blog/supplement_interactions_cover.png" alt="Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Die Einnahme von Nahrungsergänzungsmitteln ist eine hervorragende Möglichkeit, Ihre Gesundheit zu optimieren, aber alle auf einmal in einer Handvoll einzunehmen, kann mehr schaden als nützen. Nährstoffe interagieren oft miteinander – einige heben sich gegenseitig auf, während andere synergistisch zusammenarbeiten, um die Aufnahme zu verbessern.
 

@@ -4,9 +4,8 @@ description: "ค้นพบความแตกต่างที่สำค
 pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
+image: \"/blog/magnesium_blog_cover.png\"
 ---
-
-<img src="/blog/magnesium_blog_cover.png" alt="รูปแบบของแมกนีเซียม" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 แมกนีเซียมได้รับการอธิบายว่าเป็นเครื่องยนต์หลักของสรีรวิทยาของเซลล์ เป็นแร่ธาตุหลักที่ขาดไม่ได้ซึ่งควบคุมจังหวะการเผาผลาญของร่างกายมนุษย์ ทำหน้าที่เป็นโคแฟกเตอร์ที่จำเป็นในปฏิกิริยาของเอนไซม์กว่า 600 ชนิด 
 

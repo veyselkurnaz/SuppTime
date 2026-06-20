@@ -3,9 +3,8 @@ title: "サプリメントの相互作用：混ぜてはいけないものと組
 description: "絶対に一緒に摂取してはいけないビタミンやミネラル（鉄とカルシウムなど）と、組み合わせると吸収率が格段に上がるものを発見してください。"
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
+image: "/blog/supplement_interactions_cover.png"
 ---
-
-<img src="/blog/supplement_interactions_cover.png" alt="Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 サプリメントを摂取することは健康を最適化する素晴らしい方法ですが、一度にすべてを飲み込むと、かえって害になることがあります。栄養素は頻繁に相互作用し、効果を打ち消し合うものもあれば、吸収を高めるために完璧な相乗効果で働くものもあります。
 

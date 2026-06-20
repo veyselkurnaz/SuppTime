@@ -3,9 +3,8 @@ title: "D Vitamini Ne Zaman Alınmalı? Bilimsel Rehber"
 description: "Maksimum emilim için D vitamini takviyelerinizi günün hangi saatinde almanız gerektiğini ve zamanlamanın uykunuz için neden önemli olduğunu keşfedin."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 D vitamini kemik sağlığı, bağışıklık fonksiyonları ve duygu durum düzenlemesi için hayati öneme sahiptir. Bu önemine rağmen, küresel nüfusun %50'ye kadarı yetersiz D vitamini seviyelerine sahiptir. Takviye almak harika bir adım olsa da, onu *ne zaman* ve *nasıl* aldığınız vücudunuzun onu ne kadar iyi emdiğini önemli ölçüde etkileyebilir.
 

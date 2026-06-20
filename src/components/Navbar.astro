@@ -8,7 +8,7 @@ export interface Props {
 }
 
 const { lang, isBlog = false, slugLinks } = Astro.props;
-const t = I18N[lang] || I18N['en'];
+const t = I18N[lang as keyof typeof I18N] || I18N['en'];
 
 const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
 
@@ -58,7 +58,7 @@ function shortCode(c: string) {
                 </button>
                 <div class="lang-menu lang-menu-tall" id="lang-menu" style="display: none;">
                   {LANG_ORDER.map(code => {
-                    const opt = I18N[code];
+                    const opt = I18N[code as keyof typeof I18N];
                     const linkUrl = slugLinks && slugLinks[code] ? slugLinks[code] : `/${code}${isBlog ? '/blog/' : '/'}`;
                     return (
                       <a href={linkUrl} class={`lang-opt ${code === lang ? 'is-active' : ''}`} style="text-decoration:none; color:inherit;">

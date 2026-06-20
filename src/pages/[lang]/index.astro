@@ -10,8 +10,8 @@ export function getStaticPaths() {
   }));
 }
 
-const { lang } = Astro.params;
-const t = I18N[lang];
+const { lang } = Astro.params as { lang: string };
+const t = I18N[lang as keyof typeof I18N] || I18N['en'];
 
 const ICONS = {
   zap: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z"/></svg>',
@@ -23,14 +23,7 @@ const ICONS = {
   star: '<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3 7 7 .8-5.3 4.7 1.6 7L12 17.8 5.7 21.5l1.6-7L2 9.8 9 9z"/></svg>'
 };
 const FEATURE_ICONS = ['zap', 'watch', 'bell', 'shield'];
-const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
 
-function shortCode(c) { 
-  if (c === 'pt-br') return 'PT';
-  if (c === 'zh-cn') return '简';
-  if (c === 'zh-tw') return '繁';
-  return c.toUpperCase(); 
-}
 
 const faqItems = (t.faq && t.faq.items) ? t.faq.items : I18N.en.faq.items;
 const faqTitle = (t.faq && t.faq.title) ? t.faq.title : I18N.en.faq.title;
@@ -42,12 +35,12 @@ const chunks = [
   REVIEWS.slice(10, 20),
   REVIEWS.slice(20, 30)
 ];
-function getReviewLang(country) {
-  const map = {'Korea':'ko', 'Japan':'ja', 'Germany':'de', 'Brazil':'pt', 'Turkey':'tr', 'Indonesia':'id', 'Spain':'es', 'Thailand':'th', 'France':'fr', 'Italy':'it', 'Russia':'ru', 'Poland':'pl', 'Sweden':'sv', 'UAE':'ar', 'China':'zh-cn'};
+function getReviewLang(country: string) {
+  const map: Record<string, string> = {'Korea':'ko', 'Japan':'ja', 'Germany':'de', 'Brazil':'pt', 'Turkey':'tr', 'Indonesia':'id', 'Spain':'es', 'Thailand':'th', 'France':'fr', 'Italy':'it', 'Russia':'ru', 'Poland':'pl', 'Sweden':'sv', 'UAE':'ar', 'China':'zh-cn'};
   return map[country] || 'en';
 }
 
-const formatHtml = (str) => str.replace(/\n/g, '<br/>');
+const formatHtml = (str: string) => str.replace(/\n/g, '<br/>');
 
 const schema = {
   "@context": "https://schema.org",
@@ -64,7 +57,7 @@ const schema = {
 };
 ---
 <Layout title={`SuppTime — ${t.footer.tag}`} description={t.hero.sub} lang={lang} dir={t.dir || 'ltr'}>
-<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+<script type="application/ld+json" set:html={JSON.stringify(schema)} is:inline />
 <div class="page">
   <Navbar lang={lang} />
 
@@ -140,9 +133,9 @@ const schema = {
               <p class="section-sub">{t.features.sub}</p>
           </div>
           <div class="features-grid">
-            {t.features.list.map((f, i) => (
+            {t.features.list.map((f: any, i: number) => (
               <article class={`feature glass feature-${i}`}>
-                <div class="feature-icon" set:html={ICONS[FEATURE_ICONS[i]]}></div>
+                <div class="feature-icon" set:html={ICONS[FEATURE_ICONS[i] as keyof typeof ICONS]}></div>
                 <div class="feature-body">
                   <h3 class="feature-title">{f.title}</h3>
                   <p class="feature-desc">{f.desc}</p>
@@ -177,7 +170,7 @@ const schema = {
                   <h2 class="h2">{t.watch.title}</h2>
                   <p class="section-sub">{t.watch.sub}</p>
                   <ul class="watch-list">
-                    {t.watch.bullets.map(b => (
+                    {t.watch.bullets.map((b: string) => (
                       <li><span class="watch-check" set:html={ICONS.check}></span><span>{b}</span></li>
                     ))}
                   </ul>
@@ -224,7 +217,7 @@ const schema = {
               <h2 class="h2">{faqTitle}</h2>
           </div>
           <div class="faq-grid">
-            {faqItems.map(item => (
+            {faqItems.map((item: any) => (
               <div class="faq-item">
                 <h3 class="faq-q">{item.q}</h3>
                 <p class="faq-a">{item.a}</p>
@@ -241,7 +234,7 @@ const schema = {
                   <h2 class="h2 h2-light">{t.download_cta.title}</h2>
                   <p class="dl-sub">{t.download_cta.sub}</p>
                   <div class="dl-bullets">
-                    {t.download_cta.bullets.map(b => (
+                    {t.download_cta.bullets.map((b: string) => (
                       <div class="dl-bullet"><span class="dl-bullet-check" set:html={ICONS.check_dl}></span><span>{b}</span></div>
                     ))}
                   </div>
@@ -267,25 +260,6 @@ const schema = {
       </section>
 
   </main>
-  <footer class="foot">
-      <div class="foot-inner">
-          <div class="foot-brand">
-              <span class="brand-mark" style="width: 32px; height: 32px;">
-                  <img src="/assets/watchos.png" alt="SuppTime" />
-              </span>
-              <div>
-                  <div class="brand-name" style="font-size: 15px">SuppTime</div>
-                  <div class="foot-tag">{t.footer.tag}</div>
-              </div>
-          </div>
-          <div class="foot-links">
-            {t.footer.links.map((l, i) => (
-              <a href={i === 0 ? `/${lang}/privacy` : (i === 1 ? `/${lang}/terms` : (i === 2 ? 'mailto:veyselkurnaz@icloud.com' : '#'))}>{l}</a>
-            ))}
-          </div>
-          <div class="foot-copy">© 2026 SuppTime, Inc.</div>
-      </div>
-  </footer>
 </div>
 
 <script>

@@ -111,8 +111,7 @@ export const I18N = {
       "links": [
         "Privacy",
         "Terms",
-        "Support",
-        "Press"
+        "Support"
       ]
     },
     "blog_disclaimer": "Disclaimer: The content on this blog is for informational and educational purposes only and does not constitute medical advice. Always consult with a qualified healthcare professional before starting any new supplement regimen or making changes to your health routine.",
@@ -234,8 +233,7 @@ export const I18N = {
       "links": [
         "Gizlilik",
         "Şartlar",
-        "Destek",
-        "Basın"
+        "Destek"
       ]
     },
     "blog_disclaimer": "Yasal Uyarı: Bu blogdaki içerik yalnızca bilgilendirme ve eğitim amaçlıdır ve tıbbi tavsiye niteliği taşımaz. Yeni bir takviye rejimine başlamadan veya sağlık rutininizde değişiklik yapmadan önce daima uzman bir sağlık profesyoneline danışın.",
@@ -357,8 +355,7 @@ export const I18N = {
       "links": [
         "개인정보 처리방침",
         "이용약관",
-        "지원",
-        "프레스"
+        "지원"
       ]
     },
     "blog_disclaimer": "면책 조항: 이 블로그의 콘텐츠는 정보 제공 및 교육 목적으로만 제공되며 의학적 조언을 구성하지 않습니다. 새로운 영양제 요법을 시작하기 전에 항상 자격을 갖춘 의료 전문가와 상담하세요.",
@@ -480,8 +477,7 @@ export const I18N = {
       "links": [
         "プライバシー",
         "規約",
-        "サポート",
-        "プレス"
+        "サポート"
       ]
     },
     "blog_disclaimer": "免責事項：このブログのコンテンツは情報提供および教育目的のみであり、医学的アドバイスを構成するものではありません。新しいサプリメント療法を開始する前に、必ず資格のある医療専門家にご相談ください。",
@@ -603,8 +599,7 @@ export const I18N = {
       "links": [
         "隐私",
         "条款",
-        "支持",
-        "媒体"
+        "支持"
       ]
     },
     "blog_disclaimer": "免责声明：本博客上的内容仅供参考和教育目的，不构成医疗建议。在开始任何新的补充剂养生法之前，请务必咨询合格的医疗保健专业人员。",
@@ -726,8 +721,7 @@ export const I18N = {
       "links": [
         "隱私",
         "條款",
-        "支持",
-        "媒體"
+        "支持"
       ]
     },
     "blog_disclaimer": "免責聲明：本博客上的內容僅供參考和教育目的，不構成醫療建議。在開始任何新的補充劑養生法之前，請務必諮詢合格的醫療保健專業人員。",
@@ -849,8 +843,7 @@ export const I18N = {
       "links": [
         "Datenschutz",
         "AGB",
-        "Support",
-        "Presse"
+        "Support"
       ]
     },
     "blog_disclaimer": "Haftungsausschluss: Die Inhalte auf diesem Blog dienen nur zu Informations- und Bildungszwecken und stellen keine medizinische Beratung dar. Konsultieren Sie immer einen qualifizierten Arzt, bevor Sie eine neue Nahrungsergänzungskur beginnen.",
@@ -972,8 +965,7 @@ export const I18N = {
       "links": [
         "Privacidad",
         "Términos",
-        "Soporte",
-        "Prensa"
+        "Soporte"
       ]
     },
     "blog_disclaimer": "Descargo de responsabilidad: El contenido de este blog es solo para fines informativos y educativos y no constituye asesoramiento médico. Siempre consulte a un profesional de la salud calificado antes de comenzar cualquier nuevo régimen de suplementos.",
@@ -1095,8 +1087,7 @@ export const I18N = {
       "links": [
         "Privacidade",
         "Termos",
-        "Suporte",
-        "Imprensa"
+        "Suporte"
       ]
     },
     "blog_disclaimer": "Isenção de responsabilidade: O conteúdo deste blog é apenas para fins informativos e educacionais e não constitui aconselhamento médico. Consulte sempre um profissional de saúde qualificado antes de iniciar um novo regime de suplementos.",
@@ -1218,8 +1209,7 @@ export const I18N = {
       "links": [
         "Privacy",
         "Termini",
-        "Supporto",
-        "Stampa"
+        "Supporto"
       ]
     },
     "blog_disclaimer": "Dichiarazione di non responsabilità: Il contenuto di questo blog è solo a scopo informativo ed educativo e non costituisce consulenza medica. Consultare sempre un professionista della salute qualificato prima di iniziare qualsiasi nuovo regime di integratori.",
@@ -1341,8 +1331,7 @@ export const I18N = {
       "links": [
         "Privacy",
         "Voorwaarden",
-        "Support",
-        "Pers"
+        "Support"
       ]
     },
     "blog_disclaimer": "Disclaimer: De inhoud op deze blog is uitsluitend voor informatieve en educatieve doeleinden en vormt geen medisch advies. Raadpleeg altijd een gekwalificeerde zorgprofessional voordat u met een nieuw supplementenregime begint.",
@@ -1464,8 +1453,7 @@ export const I18N = {
       "links": [
         "Prywatność",
         "Regulamin",
-        "Pomoc",
-        "Prasa"
+        "Pomoc"
       ]
     },
     "blog_disclaimer": "Zastrzeżenie: Treści na tym blogu służą wyłącznie celom informacyjnym i edukacyjnym i nie stanowią porady medycznej. Zawsze skonsultuj się z wykwalifikowanym pracownikiem służby zdrowia przed rozpoczęciem jakiegokolwiek nowego schematu suplementacji.",
@@ -1587,8 +1575,7 @@ export const I18N = {
       "links": [
         "Приватность",
         "Условия",
-        "Поддержка",
-        "Пресса"
+        "Поддержка"
       ]
     },
     "blog_disclaimer": "Отказ от ответственности: Содержание этого блога предназначено только для информационных и образовательных целей и не является медицинской консультацией. Всегда консультируйтесь с врачом перед началом приема любых новых добавок.",
@@ -1710,8 +1697,7 @@ export const I18N = {
       "links": [
         "Privasi",
         "Ketentuan",
-        "Dukungan",
-        "Pers"
+        "Dukungan"
       ]
     },
     "blog_disclaimer": "Penyangkalan: Konten di blog ini hanya untuk tujuan informasi dan pendidikan dan bukan merupakan saran medis. Selalu konsultasikan dengan profesional kesehatan yang berkualifikasi sebelum memulai rejimen suplemen baru.",
@@ -1833,8 +1819,7 @@ export const I18N = {
       "links": [
         "Riêng tư",
         "Điều khoản",
-        "Hỗ trợ",
-        "Báo chí"
+        "Hỗ trợ"
       ]
     },
     "blog_disclaimer": "Tuyên bố miễn trừ trách nhiệm: Nội dung trên blog này chỉ dành cho mục đích thông tin và giáo dục, không cấu thành lời khuyên y tế. Luôn tham khảo ý kiến chuyên gia chăm sóc sức khỏe có chuyên môn trước khi bắt đầu bất kỳ chế độ bổ sung mới nào.",
@@ -1956,8 +1941,7 @@ export const I18N = {
       "links": [
         "ส่วนตัว",
         "เงื่อนไข",
-        "ช่วยเหลือ",
-        "ข่าว"
+        "ช่วยเหลือ"
       ]
     },
     "blog_disclaimer": "ข้อจำกัดความรับผิดชอบ: เนื้อหาในบล็อกนี้มีวัตถุประสงค์เพื่อให้ข้อมูลและการศึกษาเท่านั้น และไม่ถือเป็นคำแนะนำทางการแพทย์ ปรึกษาผู้เชี่ยวชาญด้านสุขภาพที่มีคุณสมบัติเหมาะสมเสมอก่อนเริ่มอาหารเสริมใหม่ๆ",
@@ -2079,8 +2063,7 @@ export const I18N = {
       "links": [
         "الخصوصية",
         "الشروط",
-        "الدعم",
-        "الصحافة"
+        "الدعم"
       ]
     },
     "blog_disclaimer": "إخلاء المسؤولية: المحتوى الموجود في هذه المدونة مخصص للأغراض الإعلامية والتعليمية فقط ولا يشكل نصيحة طبية. استشر دائمًا أخصائي رعاية صحية مؤهل قبل البدء في أي نظام مكملات جديد.",

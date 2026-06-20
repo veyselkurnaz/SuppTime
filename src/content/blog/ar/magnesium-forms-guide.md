@@ -4,9 +4,8 @@ description: "اكتشف الاختلافات الحاسمة بين جلايسي
 pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
+image: \"/blog/magnesium_blog_cover.png\"
 ---
-
-<img src="/blog/magnesium_blog_cover.png" alt="أشكال المغنيسيوم" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 غالبًا ما يوصف المغنيسيوم بأنه المحرك الأساسي للوظائف الفسيولوجية الخلوية، وهو معدن كبدي لا غنى عنه يتحكم في الإيقاعات الأيضية لجسم الإنسان. يعمل كعامل مساعد ضروري في أكثر من 600 تفاعل إنزيمي.
 

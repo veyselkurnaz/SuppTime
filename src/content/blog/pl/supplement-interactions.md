@@ -3,9 +3,8 @@ title: "Interakcje Suplementów: Czego Nie Mieszać, A Co Łączyć"
 description: "Odkryj, jakich witamin i minerałów nigdy nie powinieneś brać razem (jak żelazo i wapń), a które działają znacznie lepiej w połączeniu."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
+image: "/blog/supplement_interactions_cover.png"
 ---
-
-<img src="/blog/supplement_interactions_cover.png" alt="Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Przyjmowanie suplementów to świetny sposób na optymalizację zdrowia, ale połykanie wszystkich na raz w jednej garści może przynieść więcej szkody niż pożytku. Składniki odżywcze często wchodzą ze sobą w interakcje – niektóre znoszą się nawzajem, podczas gdy inne działają w doskonałej synergii, aby zwiększyć wchłanianie.
 

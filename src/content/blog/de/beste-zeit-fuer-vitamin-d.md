@@ -3,9 +3,8 @@ title: "Die beste Zeit zur Einnahme von Vitamin D: Ein wissenschaftlicher Leitfa
 description: "Entdecken Sie die wissenschaftlich fundierte beste Tageszeit für die Einnahme Ihrer Vitamin-D-Ergänzungen für maximale Aufnahme."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Vitamin D ist entscheidend für die Knochengesundheit, die Immunfunktion und die Stimmungsregulation. Trotz seiner Wichtigkeit weisen bis zu 50 % der Weltbevölkerung einen unzureichenden Vitamin-D-Spiegel auf. Auch wenn die Einnahme einer Ergänzung ein großartiger Schritt ist, kann das *Wann* und *Wie* dramatisch beeinflussen, wie gut Ihr Körper es aufnimmt.
 

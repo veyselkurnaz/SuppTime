@@ -3,9 +3,8 @@ title: "Waktu Terbaik Minum Vitamin D: Panduan Ilmiah"
 description: "Temukan waktu terbaik yang didukung sains untuk mengonsumsi suplemen Vitamin D Anda agar penyerapannya maksimal."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
+image: "/blog/vitamin_d_blog_cover.png"
 ---
-
-<img src="/blog/vitamin_d_blog_cover.png" alt="Vitamin D Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Vitamin D sangat penting untuk kesehatan tulang, fungsi kekebalan tubuh, dan pengaturan suasana hati. Meskipun penting, hingga 50% populasi global memiliki tingkat Vitamin D yang tidak mencukupi. 
 

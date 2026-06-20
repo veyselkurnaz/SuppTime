@@ -3,9 +3,8 @@ title: "補充劑相互作用：不能混合吃什麼和完美組合"
 description: "探索哪些維生素和礦物質絕對不能一起服用（如鐵和鈣），以及哪些結合使用吸收率會大幅提高。"
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
+image: "/blog/supplement_interactions_cover.png"
 ---
-
-<img src="/blog/supplement_interactions_cover.png" alt="Cover" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 服用補充劑是優化健康的絕佳方式，但一次性全部吞下可能會弊大於利。營養素之間經常發生相互作用——有些會抵消彼此的作用，而另一些則完美協同以促進吸收。
 

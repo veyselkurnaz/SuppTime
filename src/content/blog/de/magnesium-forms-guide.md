@@ -4,9 +4,8 @@ description: "Entdecken Sie die Unterschiede zwischen Magnesiumbisglycinat, Citr
 pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
+image: \"/blog/magnesium_blog_cover.png\"
 ---
-
-<img src="/blog/magnesium_blog_cover.png" alt="Magnesium Formen" style="width: 100%; border-radius: 16px; margin-bottom: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" />
 
 Oft als primärer Motor der zellulären Physiologie beschrieben, ist Magnesium ein unverzichtbares Makromineral, das die metabolischen Rhythmen des menschlichen Körpers steuert. Es fungiert als notwendiger Cofaktor in über 600 enzymatischen Reaktionen, die Prozesse von der zellulären Energieproduktion bis hin zur Neurotransmission und Muskelkontraktion regulieren.
 
