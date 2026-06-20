@@ -32,14 +32,14 @@ function shortCode(c: string) {
             {isBlog ? (
                 <>
                     <a href={`/${lang}/`}>{t.nav.home}</a>
-                    <a href={`/${lang}/blog/`}>{t.nav.blog}</a>
+                    <a href={`/${lang}/blog/`} class="nav-blog-btn">{t.nav.blog}</a>
                 </>
             ) : (
                 <>
                     <a href="#features">{t.nav.features}</a>
                     <a href="#watch">{t.nav.watch}</a>
                     <a href="#reviews">{t.nav.reviews}</a>
-                    <a href={`/${lang}/blog/`}>{t.nav.blog}</a>
+                    <a href={`/${lang}/blog/`} class="nav-blog-btn">{t.nav.blog}</a>
                 </>
             )}
         </div>
@@ -95,14 +95,14 @@ function shortCode(c: string) {
             {isBlog ? (
                 <>
                     <a href={`/${lang}/`} class="mobile-nav-item">{t.nav.home}</a>
-                    <a href={`/${lang}/blog/`} class="mobile-nav-item">{t.nav.blog}</a>
+                    <a href={`/${lang}/blog/`} class="mobile-nav-item nav-blog-btn">{t.nav.blog}</a>
                 </>
             ) : (
                 <>
                     <a href="#features" class="mobile-nav-item">{t.nav.features}</a>
                     <a href="#watch" class="mobile-nav-item">{t.nav.watch}</a>
                     <a href="#reviews" class="mobile-nav-item">{t.nav.reviews}</a>
-                    <a href={`/${lang}/blog/`} class="mobile-nav-item">{t.nav.blog}</a>
+                    <a href={`/${lang}/blog/`} class="mobile-nav-item nav-blog-btn">{t.nav.blog}</a>
                 </>
             )}
         </div>

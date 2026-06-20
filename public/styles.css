@@ -270,6 +270,16 @@ button { font-family: inherit; cursor: pointer; }
   transition: color .15s ease, background .15s ease;
 }
 .nav-links a:hover { color: var(--ink); background: rgba(15,23,42,0.04); }
+.nav-links a.nav-blog-btn {
+  color: var(--emerald-deep);
+  background: color-mix(in oklab, var(--emerald) 12%, transparent);
+  border: 1px solid color-mix(in oklab, var(--emerald) 25%, transparent);
+  font-weight: 500;
+}
+.nav-links a.nav-blog-btn:hover {
+  background: color-mix(in oklab, var(--emerald) 20%, transparent);
+  border-color: color-mix(in oklab, var(--emerald) 40%, transparent);
+}
 
 .nav-tools { margin-left: auto; display: flex; align-items: center; gap: 10px; }
 
@@ -1190,6 +1200,7 @@ button { font-family: inherit; cursor: pointer; }
   transform: translateY(20px);
   transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
+.mobile-nav-item.nav-blog-btn { color: var(--emerald-deep); }
 .mobile-menu-overlay.is-open .mobile-nav-item {
   opacity: 1;
   transform: translateY(0);
