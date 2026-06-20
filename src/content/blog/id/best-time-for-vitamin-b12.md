@@ -3,6 +3,7 @@ title: "Waktu dan Kondisi Optimal untuk Suplementasi Vitamin B12 (Kobalamin)"
 description: "Apakah Anda harus mengonsumsi Vitamin B12 di pagi atau malam hari? Apakah lebih baik diserap saat perut kosong atau bersama makanan? Temukan interaksi ilmiahnya."
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
+image: "/images/blog/b12-timing.png"
 ---
 
 # Waktu dan Kondisi Optimal untuk Suplementasi Vitamin B12 (Kobalamin)

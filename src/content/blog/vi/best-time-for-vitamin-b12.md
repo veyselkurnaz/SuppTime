@@ -3,6 +3,7 @@ title: "Thời Gian và Điều Kiện Tối Ưu Để Bổ Sung Vitamin B12 (Co
 description: "Bạn nên uống Vitamin B12 vào buổi sáng hay buổi tối? Vitamin được hấp thụ tốt hơn khi bụng đói hay khi ăn cùng thức ăn? Khám phá các tương tác khoa học."
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
+image: "/images/blog/b12-timing.png"
 ---
 
 # Thời Gian và Điều Kiện Tối Ưu Để Bổ Sung Vitamin B12 (Cobalamin)
