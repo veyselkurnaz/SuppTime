@@ -9,21 +9,21 @@ image: "/assets/supptime_og_banner.png"
 
 Demir, oksijen taşınması, hücresel solunum ve DNA sentezinde yapısal ve katalitik bir kofaktör olarak işlev gören vazgeçilmez bir mikro besindir. Çevresel bolluğuna rağmen, insan diyetinde sıklıkla büyüme sınırlayıcı bir besin maddesi konumundadır. İnsanlarda aktif demir atılımı için fizyolojik bir mekanizma bulunmadığından, sistemik demir dengesi tamamen bağırsak emilimi seviyesinde korunur.
 
-Diyetteki demir iki ana formda bulunur: **organik (hem)** ve **inorganik (hem olmayan)** demir.
+Diyetteki demir iki ana formda bulunur: **organik (hem formunda)** ve **inorganik (hem formunda olmayan)** demir.
 
-Hem demiri yüksek oranda biyoyararlanımlıdır, genellikle %15 ila %35 oranlarında emilir. Duodenal enterositlerin apikal fırçamsı kenarı boyunca Hem Taşıyıcı Protein 1 (HCP1) aracılığıyla bozulmadan taşınır ve diyetle alınan standart inhibitörlerden korunur.
+Heme demiri yüksek oranda biyoyararlanımlıdır, genellikle %15 ila %35 oranlarında emilir. Duodenal enterositlerin apikal fırçamsı kenarı boyunca Heme Taşıyıcı Protein 1 (HCP1) aracılığıyla bozulmadan taşınır ve diyetle alınan standart inhibitörlerden korunur.
 
-Buna karşın, hem olmayan demir (inorganik demir) diyet alımının %80'inden fazlasını oluşturmasına rağmen, %2 ila %20 arasında değişen çok düşük bir emilim profili sergiler.
+Buna karşın, non-heme demir (inorganik demir) diyet alımının %80'inden fazlasını oluşturmasına rağmen, %2 ila %20 arasında değişen çok düşük bir emilim profili sergiler.
 
 > [!TIP]
-> Fizyolojik pH'ta, hem olmayan demir ağırlıklı olarak oksitlenmiş, yüksek oranda çözünmeyen ferrik (Fe³⁺) formunda bulunur. Emilişebilmesi için, enterosite Divalent Metal Taşıyıcı 1 (DMT1) yoluyla girmeden önce, apikal redüktaz olan duodenal sitokrom b (Dcytb) tarafından çözünür ferröz (Fe²⁺) durumuna indirgenmesi gerekir.
+> Fizyolojik pH'ta, non-heme demir ağırlıklı olarak oksitlenmiş, yüksek oranda çözünmeyen ferrik (Fe³⁺) formunda bulunur. Emilişebilmesi için, enterosite Divalent Metal Taşıyıcı 1 (DMT1) yoluyla girmeden önce, apikal redüktaz olan duodenal sitokrom b (Dcytb) tarafından çözünür ferröz (Fe²⁺) durumuna indirgenmesi gerekir.
 
-## Hem ve Hem Olmayan Demir Kıyaslaması
+## Heme ve Non-Heme Demir Kıyaslaması
 
-| Özellik / Metrik | Hem Demiri Yolu | Hem Olmayan (İnorganik) Demir Yolu |
+| Özellik / Metrik | Heme Demiri Yolu | Non-Heme (İnorganik) Demir Yolu |
 | :--- | :--- | :--- |
 | **Diyet Kaynakları** | Hayvansal dokular (hemoglobin, miyoglobin) | Bitkiler, demirle zenginleştirilmiş gıdalar, mineral tuzları |
-| **Apikal Taşıyıcı** | Hem Taşıyıcı Protein 1 (HCP1) | Divalent Metal Taşıyıcı 1 (DMT1) |
+| **Apikal Taşıyıcı** | Heme Taşıyıcı Protein 1 (HCP1) | Divalent Metal Taşıyıcı 1 (DMT1) |
 | **Gereken Değerlik** | Porfirin bağlı kompleks | Ferröz (Fe²⁺) |
 | **Optimal Lümen pH'ı** | Genellikle stabildir; mide pH'ından etkilenmez | Çözünme için yüksek asidik (pH < 3.0) olmalıdır |
 | **Tipik Emilim Oranı** | %15 – %35 (yüksek biyoyararlanım) | %2 – %20 (çok değişkendir) |
@@ -31,7 +31,7 @@ Buna karşın, hem olmayan demir (inorganik demir) diyet alımının %80'inden f
 
 ## Optimal Zamanlama (Kronofarmakoloji)
 
-Hem olmayan demir emilimini optimize etmek, esas olarak hepatositler tarafından sentezlenen 25 amino asitlik bir peptid hormon olan **hepsidin**'in (hepcidin) günlük ritmiyle hassas bir koordinasyon gerektirir. Hepsidin, bazolateral dışa aktarıcı Ferroportin'e doğrudan bağlanıp parçalanmasını sağlayarak sistemik demir homeostazının ana düzenleyicisi olarak çalışır. Sonuç olarak, dolaşımdaki yüksek hepsidin seviyeleri demiri duodenal enterositlerin içine hapseder ve kan dolaşımına girmesini engeller.
+Non-heme demir emilimini optimize etmek, esas olarak hepatositler tarafından sentezlenen 25 amino asitlik bir peptid hormon olan **hepsidin**'in (hepcidin) günlük ritmiyle hassas bir koordinasyon gerektirir. Hepsidin, bazolateral dışa aktarıcı Ferroportin'e doğrudan bağlanıp parçalanmasını sağlayarak sistemik demir homeostazının ana düzenleyicisi olarak çalışır. Sonuç olarak, dolaşımdaki yüksek hepsidin seviyeleri demiri duodenal enterositlerin içine hapseder ve kan dolaşımına girmesini engeller.
 
 ### Hepsidinin Sirkadiyen Ritmi
 Temel fizyolojik koşullar altında, hepsidin konsantrasyonları sabahın erken saatlerinde en düşük seviyededir, öğleden sonra istikrarlı bir şekilde yükselerek zirveye ulaşır ve gece boyunca düşer.
@@ -58,10 +58,10 @@ graph TD
 Oral demirin terapötik etkinliği, çeşitli diyet bileşikleri ve farmasötik ajanlarla eş zamanlı yutulmasıyla kolayca tehlikeye atılır.
 
 ### Kalsiyum
-Kalsiyum, ister diyet yoluyla (süt, peynir, yoğurt) isterse mineral takviyeleri olarak alınsın, hem ve hem olmayan demir emiliminin güçlü bir inhibitörüdür. Demir içeren bir öğünle birlikte 500 mg kalsiyum karbonatın birlikte alınması, fraksiyonel demir emilimini %50'den fazla azaltır.
+Kalsiyum, ister diyet yoluyla (süt, peynir, yoğurt) isterse mineral takviyeleri olarak alınsın, hem Heme hem de Non-Heme demir emiliminin güçlü bir inhibitörüdür. Demir içeren bir öğünle birlikte 500 mg kalsiyum karbonatın birlikte alınması, fraksiyonel demir emilimini %50'den fazla azaltır.
 
 ### Tanenler ve Polifenoller
-**Siyah çay, yeşil çay, bitki çayları ve kahvede** bulunan polifenoller olağanüstü derecede etkili demir bağlayıcılarıdır. Bu bitkisel kaynaklı bileşikler, duodenal fırçamsı kenarı geçemeyen oldukça kararlı, büyük organometalik kompleksler oluşturmak için ferrik demir ile koordine olurlar. Bir öğüne sadece tek bir fincan kahve veya çay eklemek, hem olmayan demir emilimini %40 ila %70 oranında azaltabilir.
+**Siyah çay, yeşil çay, bitki çayları ve kahvede** bulunan polifenoller olağanüstü derecede etkili demir bağlayıcılarıdır. Bu bitkisel kaynaklı bileşikler, duodenal fırçamsı kenarı geçemeyen oldukça kararlı, büyük organometalik kompleksler oluşturmak için ferrik demir ile koordine olurlar. Bir öğüne sadece tek bir fincan kahve veya çay eklemek, non-heme demir emilimini %40 ila %70 oranında azaltabilir.
 
 ### Fitik Asit
 Fitik asit, tam tahıllar, yemişler ve baklagillerdeki birincil fosfor depolama bileşiğidir. Bitkisel diyetlerde demir biyoyararlanımını sınırlayan en önemli diyet faktörü fitik asit/demir molar oranıdır.
@@ -77,7 +77,7 @@ Oral demir takviyelerinin levotiroksin (T4) ile birlikte uygulanması ciddi bir 
 
 ## Nihai Kofaktör: C Vitamini
 
-Askorbik asit (C Vitamini), hem olmayan demir emiliminin en güçlü arttırıcısıdır ve diyet fitatlarının, polifenollerin ve kalsiyumun inhibitör (engelleyici) etkilerini geçersiz kılma yeteneğine sahiptir.
+Askorbik asit (C Vitamini), non-heme demir emiliminin en güçlü arttırıcısıdır ve diyet fitatlarının, polifenollerin ve kalsiyumun inhibitör (engelleyici) etkilerini geçersiz kılma yeteneğine sahiptir.
 
 Bu sinerjik ilişki son derece verimli, ikili bir biyokimyasal mekanizma yoluyla işler:
 1. **Termodinamik Açıdan Uygun İndirgeme:** Askorbik asit, çözünmeyen ferrik iyonları (Fe³⁺) hızla, taşımaya hazır olan yüksek oranda çözünür ferröz (Fe²⁺) forma dönüştürür.

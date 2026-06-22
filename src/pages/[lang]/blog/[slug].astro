@@ -215,6 +215,33 @@ schema.push(breadcrumbSchema as any);
     </article>
   </main>
   
+  <script type="module" is:inline>
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: false, theme: 'base', themeVariables: { fontFamily: 'inherit', primaryColor: '#f4f9ff', primaryBorderColor: '#cce3f6', primaryTextColor: '#111', lineColor: '#007aff' } });
+    
+    document.addEventListener('DOMContentLoaded', async () => {
+      const blocks = document.querySelectorAll('pre[data-language="mermaid"], pre.language-mermaid');
+      if (blocks.length === 0) return;
+      
+      blocks.forEach((block, index) => {
+        const code = block.textContent;
+        const div = document.createElement('div');
+        div.className = 'mermaid';
+        div.id = 'mermaid-chart-' + index;
+        div.style.display = 'flex';
+        div.style.justifyContent = 'center';
+        div.style.margin = '40px 0';
+        div.textContent = code;
+        block.parentNode.replaceChild(div, block);
+      });
+      
+      try {
+        await mermaid.run({ nodes: document.querySelectorAll('.mermaid') });
+      } catch (err) {
+        console.error('Mermaid render error:', err);
+      }
+    });
+  </script>
   <script>
     // GitHub Alerts Parser
     document.addEventListener('DOMContentLoaded', () => {
