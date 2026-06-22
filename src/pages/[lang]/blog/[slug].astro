@@ -217,7 +217,20 @@ schema.push(breadcrumbSchema as any);
   
   <script type="module" is:inline>
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: false, theme: 'base', themeVariables: { fontFamily: 'inherit', primaryColor: '#f4f9ff', primaryBorderColor: '#cce3f6', primaryTextColor: '#111', lineColor: '#007aff' } });
+    mermaid.initialize({ 
+      startOnLoad: false, 
+      theme: 'base', 
+      securityLevel: 'loose',
+      flowchart: { htmlLabels: true, nodeSpacing: 40, rankSpacing: 40, padding: 15 },
+      themeVariables: { 
+        fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif', 
+        primaryColor: '#f4f9ff', 
+        primaryBorderColor: '#cce3f6', 
+        primaryTextColor: '#111', 
+        lineColor: '#007aff',
+        fontSize: '14px'
+      } 
+    });
     
     document.addEventListener('DOMContentLoaded', async () => {
       const blocks = document.querySelectorAll('pre[data-language="mermaid"], pre.language-mermaid');
@@ -288,6 +301,12 @@ schema.push(breadcrumbSchema as any);
   .prose strong { font-weight: 600; color: #111; }
   .prose ul, .prose ol { margin-bottom: 24px; padding-left: 24px; }
   .prose li { margin-bottom: 8px; }
+  
+  /* Mermaid */
+  .mermaid svg {
+    max-width: 100%;
+    height: auto;
+  }
   
   /* Tables */
   .prose table {
