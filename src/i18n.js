@@ -126,6 +126,10 @@ export const I18N = {
       "accept": "Accept",
       "decline": "Decline",
       "privacy": "Privacy Policy"
+    },
+    "blog_search": {
+      "placeholder": "Search articles...",
+      "empty": "No articles found matching your criteria."
     }
   },
   "tr": {
@@ -254,6 +258,10 @@ export const I18N = {
       "accept": "Kabul Et",
       "decline": "Reddet",
       "privacy": "Gizlilik Politikası"
+    },
+    "blog_search": {
+      "placeholder": "Makalelerde ara...",
+      "empty": "Aradığınız kriterlere uygun makale bulunamadı."
     }
   },
   "ko": {
@@ -382,6 +390,10 @@ export const I18N = {
       "accept": "수락",
       "decline": "거절",
       "privacy": "개인정보 처리방침"
+    },
+    "blog_search": {
+      "placeholder": "기사 검색...",
+      "empty": "조건에 맞는 기사를 찾을 수 없습니다."
     }
   },
   "ja": {
@@ -510,6 +522,10 @@ export const I18N = {
       "accept": "同意する",
       "decline": "拒否する",
       "privacy": "プライバシーポリシー"
+    },
+    "blog_search": {
+      "placeholder": "記事を検索...",
+      "empty": "条件に一致する記事が見つかりませんでした。"
     }
   },
   "zh-cn": {
@@ -638,6 +654,10 @@ export const I18N = {
       "accept": "接受",
       "decline": "拒绝",
       "privacy": "隐私政策"
+    },
+    "blog_search": {
+      "placeholder": "搜索文章...",
+      "empty": "没有找到符合条件的文章。"
     }
   },
   "zh-tw": {
@@ -766,6 +786,10 @@ export const I18N = {
       "accept": "接受",
       "decline": "拒絕",
       "privacy": "隱私政策"
+    },
+    "blog_search": {
+      "placeholder": "搜尋文章...",
+      "empty": "沒有找到符合條件的文章。"
     }
   },
   "de": {
@@ -894,6 +918,10 @@ export const I18N = {
       "accept": "Akzeptieren",
       "decline": "Ablehnen",
       "privacy": "Datenschutzerklärung"
+    },
+    "blog_search": {
+      "placeholder": "Artikel suchen...",
+      "empty": "Keine Artikel gefunden, die Ihren Kriterien entsprechen."
     }
   },
   "es": {
@@ -1022,6 +1050,10 @@ export const I18N = {
       "accept": "Aceptar",
       "decline": "Rechazar",
       "privacy": "Política de Privacidad"
+    },
+    "blog_search": {
+      "placeholder": "Buscar artículos...",
+      "empty": "No se encontraron artículos que coincidan con sus criterios."
     }
   },
   "pt-br": {
@@ -1150,6 +1182,10 @@ export const I18N = {
       "accept": "Aceitar",
       "decline": "Recusar",
       "privacy": "Política de Privacidade"
+    },
+    "blog_search": {
+      "placeholder": "Buscar artigos...",
+      "empty": "Nenhum artigo encontrado correspondente aos seus critérios."
     }
   },
   "it": {
@@ -1278,6 +1314,10 @@ export const I18N = {
       "accept": "Accetta",
       "decline": "Rifiuta",
       "privacy": "Informativa sulla Privacy"
+    },
+    "blog_search": {
+      "placeholder": "Cerca articoli...",
+      "empty": "Nessun articolo trovato che corrisponda ai tuoi criteri."
     }
   },
   "nl": {
@@ -1406,6 +1446,10 @@ export const I18N = {
       "accept": "Accepteren",
       "decline": "Weigeren",
       "privacy": "Privacybeleid"
+    },
+    "blog_search": {
+      "placeholder": "Artikelen zoeken...",
+      "empty": "Geen artikelen gevonden die aan uw criteria voldoen."
     }
   },
   "pl": {
@@ -1534,6 +1578,10 @@ export const I18N = {
       "accept": "Akceptuj",
       "decline": "Odrzuć",
       "privacy": "Polityka Prywatności"
+    },
+    "blog_search": {
+      "placeholder": "Szukaj artykułów...",
+      "empty": "Nie znaleziono artykułów spełniających Twoje kryteria."
     }
   },
   "ru": {
@@ -1662,6 +1710,10 @@ export const I18N = {
       "accept": "Принять",
       "decline": "Отклонить",
       "privacy": "Политика конфиденциальности"
+    },
+    "blog_search": {
+      "placeholder": "Поиск статей...",
+      "empty": "Статьи, соответствующие вашим критериям, не найдены."
     }
   },
   "id": {
@@ -1790,6 +1842,10 @@ export const I18N = {
       "accept": "Terima",
       "decline": "Tolak",
       "privacy": "Kebijakan Privasi"
+    },
+    "blog_search": {
+      "placeholder": "Cari artikel...",
+      "empty": "Tidak ada artikel yang cocok dengan kriteria Anda."
     }
   },
   "vi": {
@@ -1918,6 +1974,10 @@ export const I18N = {
       "accept": "Chấp nhận",
       "decline": "Từ chối",
       "privacy": "Chính sách Bảo mật"
+    },
+    "blog_search": {
+      "placeholder": "Tìm kiếm bài viết...",
+      "empty": "Không tìm thấy bài viết nào phù hợp với tiêu chí của bạn."
     }
   },
   "th": {
@@ -2046,6 +2106,10 @@ export const I18N = {
       "accept": "ยอมรับ",
       "decline": "ปฏิเสธ",
       "privacy": "นโยบายความเป็นส่วนตัว"
+    },
+    "blog_search": {
+      "placeholder": "ค้นหาบทความ...",
+      "empty": "ไม่พบบทความที่ตรงกับเกณฑ์ของคุณ"
     }
   },
   "ar": {
@@ -2174,6 +2238,10 @@ export const I18N = {
       "accept": "قبول",
       "decline": "رفض",
       "privacy": "سياسة الخصوصية"
+    },
+    "blog_search": {
+      "placeholder": "البحث في المقالات...",
+      "empty": "لم يتم العثور على مقالات تطابق المعايير الخاصة بك."
     }
   }
 };

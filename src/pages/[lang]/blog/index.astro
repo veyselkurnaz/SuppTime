@@ -22,9 +22,11 @@ const allPosts = await getCollection('blog', ({ id }: { id: string }) => {
 // Sort by date
 allPosts.sort((a: CollectionEntry<'blog'>, b: CollectionEntry<'blog'>) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-// Get title based on lang
+// Get localized texts
 const blogTitle = lang === 'tr' ? 'SuppTime Blog' : 'SuppTime Blog';
 const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hakkında en son yazılar.' : 'The latest articles on health, supplements, and scientific timing.';
+const searchPlaceholder = t.blog_search?.placeholder || 'Search articles...';
+const noResultsText = t.blog_search?.empty || 'No articles found matching your criteria.';
 
 ---
 
@@ -34,12 +36,30 @@ const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hak
   <main style="padding-top: 120px; padding-bottom: 120px; min-height: 100vh; background: #fafafa;">
     <div style="max-width: 800px; margin: 0 auto; padding: 0 24px;">
       <h1 class="h2" style="margin-bottom: 16px;">{blogTitle}</h1>
-      <p style="color: #666; font-size: 18px; margin-bottom: 48px;">{blogDesc}</p>
+      <p style="color: #666; font-size: 18px; margin-bottom: 40px;">{blogDesc}</p>
 
-      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 32px;">
+      {/* Search Input */}
+      <div style="margin-bottom: 40px; position: relative;">
+        <input 
+          type="text" 
+          id="blog-search" 
+          placeholder={searchPlaceholder} 
+          autocomplete="off"
+          style="width: 100%; padding: 16px 24px; padding-left: 54px; border-radius: 99px; border: 1px solid #eaeaea; background: white; font-size: 16px; outline: none; box-shadow: 0 4px 20px rgba(0,0,0,0.03); transition: all 0.3s ease;"
+        />
+        <svg style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); color: #999; width: 20px; height: 20px;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      </div>
+
+      {/* Blog Grid */}
+      <div id="blog-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 32px;">
         {allPosts.map((post: CollectionEntry<'blog'>) => (
-          <article class="blog-card" style="background: white; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease; display: flex; flex-direction: column;">
-            <a href={`/${lang}/blog/${post.id.split('/').pop().replace('.md', '')}`} style="text-decoration: none; color: inherit; display: flex; flex-direction: column; flex-grow: 1;">
+          <article 
+            class="blog-card" 
+            data-title={post.data.title.toLowerCase()} 
+            data-desc={post.data.description.toLowerCase()}
+            style="background: white; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease; display: none; flex-direction: column;"
+          >
+            <a href={`/${lang}/blog/${post.id.split('/').pop()?.replace('.md', '')}`} style="text-decoration: none; color: inherit; display: flex; flex-direction: column; flex-grow: 1;">
               {post.data.image && (
                 <div style="width: 100%; height: 220px; overflow: hidden; background: #f4f6f8; position: relative;">
                   <img src={post.data.image} alt={post.data.title} style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;" class="blog-card-img" />
@@ -59,16 +79,24 @@ const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hak
             </a>
           </article>
         ))}
-        
-        {allPosts.length === 0 && (
-          <p style="color: #999; font-style: italic; grid-column: 1 / -1;">No posts found for this language yet.</p>
-        )}
       </div>
+      
+      {/* Empty State */}
+      <div id="empty-state" style="display: none; text-align: center; padding: 60px 0; color: #999;">
+        <svg style="width: 48px; height: 48px; margin: 0 auto 16px; opacity: 0.5;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <p style="font-size: 16px;">{noResultsText}</p>
+      </div>
+
+      {/* Pagination Controls */}
+      <div id="pagination-container" style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 48px;">
+        {/* Buttons will be injected here via JS */}
+      </div>
+
     </div>
   </main>
   
   <script>
-    // Language Menu Toggling
+    // Language Menu Toggling (Existing Logic)
     const langBtn = document.getElementById('lang-btn');
     const langMenu = document.getElementById('lang-menu');
     let langMenuOpen = false;
@@ -86,6 +114,96 @@ const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hak
         }
       });
     }
+
+    // Search and Pagination Logic (Instant Client-Side)
+    document.addEventListener('DOMContentLoaded', () => {
+      const ITEMS_PER_PAGE = 6;
+      let currentPage = 1;
+      let currentQuery = "";
+
+      const searchInput = document.getElementById('blog-search') as HTMLInputElement;
+      const articles = Array.from(document.querySelectorAll('.blog-card')) as HTMLElement[];
+      const paginationContainer = document.getElementById('pagination-container');
+      const emptyState = document.getElementById('empty-state');
+
+      function render() {
+        // 1. Filter articles instantly
+        const filtered = articles.filter(article => {
+          const title = article.getAttribute('data-title') || '';
+          const desc = article.getAttribute('data-desc') || '';
+          return title.includes(currentQuery) || desc.includes(currentQuery);
+        });
+
+        // 2. Calculate pagination
+        const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
+        if (currentPage > totalPages) currentPage = Math.max(1, totalPages);
+        
+        const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+        const endIndex = startIndex + ITEMS_PER_PAGE;
+
+        // 3. Update DOM Visibility
+        articles.forEach(article => { article.style.display = 'none'; }); // Hide all
+        
+        const visibleArticles = filtered.slice(startIndex, endIndex);
+        visibleArticles.forEach(article => { article.style.display = 'flex'; }); // Show paginated
+
+        // 4. Handle Empty State
+        if (emptyState) {
+          emptyState.style.display = filtered.length === 0 ? 'block' : 'none';
+        }
+
+        // 5. Render Pagination UI
+        renderPagination(totalPages);
+      }
+
+      function renderPagination(totalPages: number) {
+        if (!paginationContainer) return;
+        
+        if (totalPages <= 1) {
+          paginationContainer.style.display = 'none';
+          return;
+        }
+
+        paginationContainer.style.display = 'flex';
+        paginationContainer.innerHTML = '';
+
+        for (let i = 1; i <= totalPages; i++) {
+          const btn = document.createElement('button');
+          btn.textContent = i.toString();
+          btn.className = i === currentPage ? 'page-btn active' : 'page-btn';
+          
+          btn.addEventListener('click', () => {
+            currentPage = i;
+            render();
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top smoothly
+          });
+          
+          paginationContainer.appendChild(btn);
+        }
+      }
+
+      // Listen for search input (Instant filtering)
+      if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+          currentQuery = (e.target as HTMLInputElement).value.toLowerCase().trim();
+          currentPage = 1; // Reset to page 1 on new search
+          render();
+        });
+        
+        // Add subtle focus ring styling
+        searchInput.addEventListener('focus', () => {
+          searchInput.style.borderColor = '#111';
+          searchInput.style.boxShadow = '0 0 0 4px rgba(0,0,0,0.05)';
+        });
+        searchInput.addEventListener('blur', () => {
+          searchInput.style.borderColor = '#eaeaea';
+          searchInput.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
+        });
+      }
+
+      // Initial Render
+      render();
+    });
   </script>
 </Layout>
 
@@ -96,5 +214,33 @@ const blogDesc = lang === 'tr' ? 'Sağlık, takviyeler ve bilimsel zamanlama hak
   }
   .blog-card:hover .blog-card-img {
     transform: scale(1.05);
+  }
+
+  /* Pagination Button Styles */
+  .page-btn {
+    background: white;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 15px;
+    font-family: inherit;
+  }
+  .page-btn:hover {
+    background: #f8f8f8;
+    color: #111;
+    border-color: #ddd;
+  }
+  .page-btn.active {
+    background: #111;
+    color: white;
+    border-color: #111;
   }
 </style>
