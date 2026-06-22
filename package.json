@@ -29,6 +29,8 @@
     "typescript": "^6.0.3"
   },
   "dependencies": {
-    "@astrojs/rss": "^4.0.18"
+    "@astrojs/cloudflare": "^13.7.0",
+    "@astrojs/rss": "^4.0.18",
+    "wrangler": "^4.103.0"
   }
 }
