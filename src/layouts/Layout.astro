@@ -105,26 +105,34 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
 
     <footer class="foot">
         <div class="foot-inner">
-            <div class="foot-brand">
-                <span class="brand-mark" style="width: 32px; height: 32px;">
-                    <img src="/assets/watchos.png" alt="SuppTime" />
-                </span>
-                <div>
-                    <div class="brand-name" style="font-size: 15px">SuppTime</div>
-                    <div class="foot-tag">{t.footer?.tag}</div>
+            <div class="foot-top">
+                <div class="foot-brand">
+                    <span class="brand-mark" style="width: 36px; height: 36px;">
+                        <img src="/assets/watchos.png" alt="SuppTime" />
+                    </span>
+                    <div>
+                        <div class="brand-name" style="font-size: 16px; font-weight: 600;">SuppTime</div>
+                        <div class="foot-tag">{t.footer?.tag}</div>
+                    </div>
+                </div>
+                
+                <div class="foot-nav">
+                    <div class="foot-links">
+                      {t.footer?.links?.map((l: string, i: number) => (
+                        <a href={i === 0 ? `/${lang}/privacy` : (i === 1 ? `/${lang}/terms` : (i === 2 ? 'mailto:veyselkurnaz@icloud.com' : '#'))}>{l}</a>
+                      ))}
+                    </div>
                 </div>
             </div>
-            <div class="foot-links">
-              {t.footer?.links?.map((l: string, i: number) => (
-                <a href={i === 0 ? `/${lang}/privacy` : (i === 1 ? `/${lang}/terms` : (i === 2 ? 'mailto:veyselkurnaz@icloud.com' : '#'))}>{l}</a>
-              ))}
+
+            <div class="foot-bottom">
+                {t.medical_disclaimer && (
+                  <div class="foot-disclaimer">
+                    {t.medical_disclaimer}
+                  </div>
+                )}
+                <div class="foot-copy">© 2026 SuppTime, Inc.</div>
             </div>
-            {t.medical_disclaimer && (
-              <div style="font-size: 11px; color: #888; max-width: 800px; line-height: 1.5; text-align: left; margin-bottom: 12px;">
-                {t.medical_disclaimer}
-              </div>
-            )}
-            <div class="foot-copy" style="margin-top: 0;">© 2026 SuppTime, Inc.</div>
         </div>
     </footer>
 

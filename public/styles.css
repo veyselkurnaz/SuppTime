@@ -825,20 +825,55 @@ button { font-family: inherit; cursor: pointer; }
 /* Footer                                                               */
 /* ──────────────────────────────────────────────────────────────────── */
 .foot {
+  background: linear-gradient(to bottom, transparent, rgba(15, 23, 42, 0.02));
   border-top: 1px solid var(--line);
-  padding: 36px var(--pad-x);
+  padding: 64px var(--pad-x) 40px;
 }
 .foot-inner {
-  max-width: var(--maxw); margin: 0 auto;
-  display: grid; grid-template-columns: 1fr auto 1fr;
-  gap: 24px; align-items: center;
+  max-width: var(--maxw); 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
-.foot-brand { display: flex; align-items: center; gap: 12px; }
-.foot-tag { font-size: 12px; color: var(--ink-muted); margin-top: 2px; }
-.foot-links { display: flex; gap: 18px; }
-.foot-links a { font-size: 13px; color: var(--ink-soft); }
+.foot-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.foot-brand { display: flex; align-items: center; gap: 14px; }
+.foot-tag { font-size: 13px; color: var(--ink-soft); }
+.foot-nav { display: flex; gap: 40px; margin-top: 8px; }
+.foot-links { display: flex; gap: 32px; align-items: center; }
+.foot-links a { 
+  font-size: 14px; 
+  font-weight: 500;
+  color: var(--ink-soft); 
+  transition: color 0.2s ease;
+}
 .foot-links a:hover { color: var(--ink); }
-.foot-copy { font-size: 12px; color: var(--ink-muted); text-align: right; font-family: var(--mono); letter-spacing: 0.02em; }
+
+.foot-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line-2);
+}
+.foot-disclaimer {
+  font-size: 11px; 
+  color: var(--ink-muted); 
+  line-height: 1.6; 
+  max-width: 900px;
+}
+.foot-copy { 
+  font-size: 12px; 
+  color: var(--ink-muted); 
+  font-family: var(--mono); 
+  letter-spacing: 0.02em; 
+}
 
 /* ──────────────────────────────────────────────────────────────────── */
 /* Responsive                                                           */
@@ -854,8 +889,10 @@ button { font-family: inherit; cursor: pointer; }
   .stat-card-kr { grid-template-columns: auto 1fr; }
   .kr-rank { grid-column: 1 / -1; text-align: left; }
   .kr-rank-num { font-size: 40px; }
-  .foot-inner { grid-template-columns: 1fr; }
-  .foot-copy { text-align: left; }
+  
+  .foot-top { flex-direction: column; gap: 40px; }
+  .foot-nav { margin-top: 0; }
+  .foot-links { flex-direction: column; align-items: flex-start; gap: 16px; }
 }
 @media (max-width: 600px) {
   .nav-tools .as-btn-text { display: none; }
