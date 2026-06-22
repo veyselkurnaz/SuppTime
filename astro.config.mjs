@@ -13,18 +13,18 @@ export default defineConfig({
       if (item.url === 'https://supptime.app/' || item.url.match(/^https:\/\/supptime\.app\/[a-z-]+\/$/)) {
         item.changefreq = 'monthly';
         item.priority = 0.5;
-      } 
+      }
       // Blog Homepages (e.g., https://supptime.app/en/blog/)
       else if (item.url.match(/^https:\/\/supptime\.app\/[a-z-]+\/blog\/$/)) {
         item.changefreq = 'daily';
         item.priority = 1.0;
-      } 
+      }
       // Blog Posts (e.g., https://supptime.app/en/blog/vitamin-d)
       // Makaleler her gün güncelleneceği için daily ve priority 0.9 yapıldı.
       else if (item.url.includes('/blog/')) {
         item.changefreq = 'daily';
         item.priority = 0.9;
-      } 
+      }
       // Others (privacy, terms, etc.)
       else {
         item.changefreq = 'yearly';
@@ -32,11 +32,12 @@ export default defineConfig({
       }
       return item;
     }
+
   })],
   prefetch: true,
   i18n: {
     defaultLocale: 'en',
-    locales: ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'],
+    locales: ['en', 'tr', 'ko', 'ja', 'zh-cn', 'zh-tw', 'de', 'es', 'pt-br', 'it', 'nl', 'pl', 'ru', 'id', 'vi', 'th', 'ar'],
     routing: {
       prefixDefaultLocale: true,
       strategy: 'pathname'
