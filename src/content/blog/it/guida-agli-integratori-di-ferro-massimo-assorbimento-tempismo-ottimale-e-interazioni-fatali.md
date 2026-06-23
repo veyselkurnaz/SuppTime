@@ -4,7 +4,7 @@ description: "Una guida clinica all'integrazione di ferro. Scopri la scienza die
 pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
-image: "/assets/supptime_og_banner.png"
+image: "/assets/iron_cover.png"
 ---
 
 Il ferro è un micronutriente indispensabile che funge da cofattore strutturale e catalitico nel trasporto dell'ossigeno, nella respirazione cellulare e nella sintesi del DNA. Nonostante la sua abbondanza nell'ambiente, il ferro è frequentemente un nutriente limitante la crescita nella dieta umana. Poiché gli esseri umani non possiedono alcun meccanismo fisiologico per l'escrezione attiva del ferro, l'equilibrio sistemico del ferro è mantenuto esclusivamente a livello dell'assorbimento intestinale.
