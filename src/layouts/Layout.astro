@@ -99,6 +99,41 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
       
       gtag('config', 'G-0GC3N2F5V1');
     </script>
+
+    <!-- Structured Data (JSON-LD) for SEO & Entity Recognition -->
+    <script type="application/ld+json" is:inline>
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "SuppTime",
+      "operatingSystem": "iOS",
+      "applicationCategory": "HealthApplication",
+      "description": "SuppTime is the ultimate vitamin tracker and supplement planner.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://supptime.app",
+      "author": {
+        "@type": "Organization",
+        "name": "SuppTime"
+      }
+    }
+    </script>
+    <script type="application/ld+json" is:inline>
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SuppTime",
+      "alternateName": "SuppTime Vitamin Tracker",
+      "url": "https://supptime.app",
+      "logo": "https://supptime.app/assets/watchos.png",
+      "sameAs": [
+        "https://apps.apple.com/app/id6762088156"
+      ]
+    }
+    </script>
 </head>
 <body class={`lang-${lang}`}>
     <slot />
