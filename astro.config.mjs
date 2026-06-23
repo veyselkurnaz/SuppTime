@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import cloudflare from '@astrojs/cloudflare';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 export default defineConfig({
   output: 'static',
@@ -35,6 +37,10 @@ export default defineConfig({
 
   })],
   prefetch: true,
+  markdown: {
+    remarkPlugins: [remarkMath],
+    rehypePlugins: [rehypeKatex],
+  },
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'tr', 'ko', 'ja', 'zh-cn', 'zh-tw', 'de', 'es', 'pt-br', 'it', 'nl', 'pl', 'ru', 'id', 'vi', 'th', 'ar'],
