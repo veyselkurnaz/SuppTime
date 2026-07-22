@@ -78,3 +78,13 @@ Para resolver este exacto desafío de programación, las personas que se preocup
 * **Privacidad Estricta:** Operando en una arquitectura totalmente descentralizada y fuera de línea, SuppTime no requiere cuentas de usuario y no rastrea ningún dato de salud personal, sincronizando todo de forma privada a través de tu Apple iCloud.
 
 Al delegar los complejos cálculos de los tiempos de absorción, los requisitos de alimentos y las interacciones de nutrientes a **SuppTime**, puedes mantener sin esfuerzo una rutina de suplementos altamente precisa y científicamente optimizada.
+
+## Referencias
+
+1. Schuster J, Cycelskij I, Lopresti A, Hahn A. [Magnesium Bisglycinate Supplementation in Healthy Adults Reporting Poor Sleep: A Randomized, Placebo-Controlled Trial](https://pubmed.ncbi.nlm.nih.gov/40918053/). *Nutrients.* 2025.
+2. Zhang C, Hu Q, Li S, Dai F, Qian W, Hewlings S, Yan T, Wang Y. [A Magtein®, Magnesium L-Threonate, -Based Formula Improves Brain Cognitive Functions in Healthy Chinese Adults](https://pubmed.ncbi.nlm.nih.gov/36558392/). *Nutrients.* 2022.
+3. Lindberg JS, et al. [Magnesium bioavailability from magnesium citrate and magnesium oxide](https://pubmed.ncbi.nlm.nih.gov/2407766/). *J Am Coll Nutr.* 1990.
+4. Pouteau E, Kabir-Ahmadi M, et al. [Superiority of magnesium and vitamin B6 over magnesium alone on severe stress in healthy adults with low magnesemia: A randomized, single-blind clinical trial](https://pubmed.ncbi.nlm.nih.gov/30562392/). *PLoS One.* 2018.
+5. Hardwick LL, Jones MR, Brautbar N, Lee DB. [Magnesium absorption: mechanisms and the influence of vitamin D, calcium and phosphate](https://pubmed.ncbi.nlm.nih.gov/1992050/). *J Nutr.* 1991.
+
+*Este artículo tiene fines informativos únicamente y no constituye asesoramiento médico. Consulte a un profesional de la salud calificado antes de modificar su rutina de suplementos o medicamentos.*

@@ -101,3 +101,12 @@ Bovendien activeren dagelijkse hoge doses ijzersupplementen een systemische **"M
 *   **Houd Strikte Tussenpozen Tussen Medicatie Aan:** Scheid ijzer en levothyroxine met ten minste 4 uur.
 *   **Benut Vitamine C:** Gelijktijdige toediening van ijzer met Vitamine C verhoogt de absorptie met wel 300%.
 *   **Kies voor Dosering Om de Dag:** Neem orale ijzerdoses met een tussenpoos van 48 uur in om door hepcidine geïnduceerde slijmvliesblokkade te voorkomen en absorptie te maximaliseren.
+
+## Bronnen
+
+1. Stoffel NU, Zeder C, Brittenham GM, Moretti D, Zimmermann MB. [Iron absorption from oral iron supplements given on consecutive versus alternate days and as single morning doses versus twice-daily split dosing in iron-depleted women: two open-label, randomised controlled trials](https://pubmed.ncbi.nlm.nih.gov/29032957/). *Lancet Haematol.* 2017.
+2. Campbell NR, Hasinoff BB. [Ferrous sulfate reduces thyroxine efficacy in patients with hypothyroidism](https://pubmed.ncbi.nlm.nih.gov/1443969/). *Ann Intern Med.* 1992.
+3. Hallberg L, Hulthén L. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *Am J Clin Nutr.* 2000.
+4. Lönnerdal B. [Calcium and iron absorption—mechanisms and public health relevance](https://pubmed.ncbi.nlm.nih.gov/21462112/). *Int J Vitam Nutr Res.* 2010.
+
+*Dit artikel is uitsluitend bedoeld voor informatieve doeleinden en vormt geen medisch advies. Raadpleeg een gekwalificeerde zorgverlener voordat je je supplementen- of medicatieroutine wijzigt.*

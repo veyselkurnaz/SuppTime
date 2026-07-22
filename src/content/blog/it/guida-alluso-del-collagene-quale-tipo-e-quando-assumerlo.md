@@ -94,3 +94,13 @@ Con lo **Smart Stack Builder** di SuppTime:
 - **La sicurezza prima di tutto:** Registra i tuoi farmaci (come i corticosteroidi) e lascia che SuppTime verifichi automaticamente la presenza di interazioni farmacologiche che potrebbero inibire la rigenerazione del collagene.
 
 Smetti di indovinare con la tua salute. Scarica **SuppTime** oggi stesso, metti un farmacologo virtuale in tasca e assicurati di ottenere il 100% dei benefici da ogni integratore che assumi.
+
+## Riferimenti
+
+1. Pinnell SR. [Regulation of collagen biosynthesis by ascorbic acid: a review](https://pubmed.ncbi.nlm.nih.gov/3008449/). *Yale Journal of Biology and Medicine.* 1985.
+2. Virgilio N, Schön C, Mödinger Y, et al. [Absorption of bioactive peptides following collagen hydrolysate intake: a randomized, double-blind crossover study in healthy individuals](https://pubmed.ncbi.nlm.nih.gov/39149544/). *Amino Acids.* 2024.
+3. Kim DU, Chung HC, Choi J, Sakai Y, Lee BY. [Oral Intake of Low-Molecular-Weight Collagen Peptide Improves Hydration, Elasticity, and Wrinkling in Human Skin: A Randomized, Double-Blind, Placebo-Controlled Study](https://pubmed.ncbi.nlm.nih.gov/29949889/). *Nutrients.* 2018.
+4. Thomas C, Kingshott RN, Allott KM, et al. [Collagen peptide supplementation before bedtime reduces sleep fragmentation and improves cognitive function in physically active males with sleep complaints](https://pubmed.ncbi.nlm.nih.gov/37874350/). *European Journal of Nutrition.* 2023.
+5. Lugo JP, Saiyed ZM, Lau FC, et al. [Undenatured type II collagen (UC-II®) for joint support: a randomized, double-blind, placebo-controlled study in healthy volunteers](https://pubmed.ncbi.nlm.nih.gov/24153020/). *Journal of the International Society of Sports Nutrition.* 2013.
+
+*Questo articolo ha solo scopo informativo e non costituisce un parere medico. Consulta un professionista sanitario qualificato prima di modificare la tua routine di integratori o farmaci.*

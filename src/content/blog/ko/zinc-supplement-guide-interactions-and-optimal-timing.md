@@ -98,3 +98,13 @@ $\text{Zn}^{2+}$와 $\text{Fe}^{2+}$는 전하와 이온 반경이 매우 유사
 | **아침 식사** | 비헴철, 비타민 C, 비타민 D3 | 비타민 C는 철분 흡수를 높입니다. 칼슘과 아연은 피하세요. |
 | **점심 / 오후** | 아연 비스글리시네이트(15-30mg) + 구리(1-2mg) | 구리 고갈을 막기 위해 15:1 비율로 섭취하며, 철분/칼슘과 완전히 분리합니다. |
 | **밤** | 칼슘, 마그네슘 글리시네이트 | 마그네슘은 근육을 이완시키고 취침 전 GABA 수용체를 조절합니다. |
+
+## 참고 자료
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+*본 글은 정보 제공을 목적으로 작성되었으며 의학적 조언을 대체하지 않습니다. 영양제나 약물 복용 방식을 변경하기 전에 반드시 자격을 갖춘 의료 전문가와 상담하시기 바랍니다.*

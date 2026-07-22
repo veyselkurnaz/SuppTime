@@ -111,3 +111,13 @@ Bu biyolojik ritimlerden yararlanmak için çinko takviyesi için en uygun zaman
 | **Kahvaltı** | Non-Heme Demir, C Vitamini, D3 Vitamini | C Vitamini demir emilimini artırır; yağda çözünen vitaminler diyet yağları ile emilir. Kalsiyum ve Çinko'dan kaçının. |
 | **Öğle/Akşamüstü** | Çinko Bisglisinat (15–30 mg) + Bakır (1–2 mg) | Bakır tuzağını önlemek için 15:1 oranında formüle edilmiştir; demir ve kalsiyumdan tamamen ayrılmıştır. Gece melatoninine hazırlık yapar. |
 | **Gece** | Kalsiyum, Magnezyum Glisinat | Magnezyum kas iskelet sistemlerini rahatlatır ve uykudan önce sakinleştirici GABA reseptörlerini modüle eder. |
+
+## Kaynaklar
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+*Bu makale yalnızca bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşımaz. Takviye veya ilaç rutininizi değiştirmeden önce yetkin bir sağlık uzmanına danışın.*

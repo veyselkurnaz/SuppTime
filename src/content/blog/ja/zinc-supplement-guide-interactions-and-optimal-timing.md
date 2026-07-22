@@ -105,3 +105,13 @@ $\text{Zn}^{2+}$と$\text{Fe}^{2+}$は電荷とイオン半径が非常に似て
 | **朝食** | 非ヘム鉄、ビタミンC、ビタミンD3 | ビタミンCは鉄の吸収を促進。カルシウムと亜鉛は避けてください。 |
 | **昼 / 夕方** | ビスグリシン酸亜鉛 (15–30mg) + 銅 (1–2mg) | 銅の枯渇を防ぐため15:1の比率で。鉄やカルシウムとは完全に分離します。 |
 | **夜** | カルシウム、グリシン酸マグネシウム | マグネシウムは筋肉を弛緩させ、就寝前にGABA受容体を調節します。 |
+
+## 参考文献
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+*本記事は情報提供のみを目的としており、医学的なアドバイスを構成するものではありません。サプリメントや薬の摂取内容を変更する前に、資格を持つ医療専門家にご相談ください。*

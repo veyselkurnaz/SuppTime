@@ -100,3 +100,13 @@ Bovendien werkt zink als een neuromodulator in het centrale zenuwstelsel. Het is
 | **Ontbijt** | Non-Heem IJzer, Vitamine C, Vitamine D3 | Vitamine C verbetert ijzerabsorptie. Vermijd Calcium en Zink. |
 | **Lunch / Namiddag** | Zinkbisglycinaat (15–30 mg) + Koper (1–2 mg) | Geformuleerd in een verhouding van 15:1; volledig gescheiden van ijzer en calcium. Bereidt voor op melatonine. |
 | **Nacht** | Calcium, Magnesiumglycinaat | Magnesium ontspant de skeletspieren en moduleert GABA-receptoren voor het slapen. |
+
+## Bronnen
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+*Dit artikel is uitsluitend bedoeld voor informatieve doeleinden en vormt geen medisch advies. Raadpleeg een gekwalificeerde zorgverlener voordat je je supplementen- of medicatieroutine wijzigt.*

@@ -101,3 +101,12 @@ Dahası, günlük yüksek demir takviyeleri sistemik bir **"Mukozal Blokaj"** te
 *   **İlaç Aralığını Sıkı Tutun:** Demir ve levotiroksini en az 4 saat ayırın.
 *   **C Vitamininden Faydalanın:** Demirin C Vitamini ile birlikte alınması emilimi %300'e kadar artırır.
 *   **Gün Aşırı Dozlamayı Benimseyin:** Hepsidin kaynaklı mukozal tıkanıklığı önlemek ve emilimi en üst düzeye çıkarmak için oral demir dozlarını 48 saat arayla alın.
+
+## Kaynaklar
+
+1. Stoffel NU, Zeder C, Brittenham GM, Moretti D, Zimmermann MB. [Iron absorption from oral iron supplements given on consecutive versus alternate days and as single morning doses versus twice-daily split dosing in iron-depleted women: two open-label, randomised controlled trials](https://pubmed.ncbi.nlm.nih.gov/29032957/). *Lancet Haematol.* 2017.
+2. Campbell NR, Hasinoff BB. [Ferrous sulfate reduces thyroxine efficacy in patients with hypothyroidism](https://pubmed.ncbi.nlm.nih.gov/1443969/). *Ann Intern Med.* 1992.
+3. Hallberg L, Hulthén L. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *Am J Clin Nutr.* 2000.
+4. Lönnerdal B. [Calcium and iron absorption—mechanisms and public health relevance](https://pubmed.ncbi.nlm.nih.gov/21462112/). *Int J Vitam Nutr Res.* 2010.
+
+*Bu makale yalnızca bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşımaz. Takviye veya ilaç rutininizi değiştirmeden önce yetkin bir sağlık uzmanına danışın.*

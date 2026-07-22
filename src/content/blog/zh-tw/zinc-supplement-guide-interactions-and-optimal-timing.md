@@ -98,3 +98,13 @@ graph TD
 | **早餐** | 非血紅素鐵、維生素C、維生素D3 | 維生素C促進鐵吸收。請避開鈣和鋅。 |
 | **午餐 / 下午** | 甘氨酸鋅 (15–30 毫克) + 銅 (1–2 毫克) | 以 15:1 的比例配製以防止銅耗竭；與鐵和鈣完全分開。 |
 | **夜晚** | 鈣、甘氨酸鎂 | 鎂在睡前放鬆骨骼肌肉系統並調節具有鎮靜作用的 GABA 受體。 |
+
+## 參考文獻
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+本文僅供資訊參考，不構成醫療建議。在調整您的補充劑或藥物治療方案之前，請諮詢合格的醫療專業人員。

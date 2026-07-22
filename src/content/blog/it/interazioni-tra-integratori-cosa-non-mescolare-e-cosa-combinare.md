@@ -77,3 +77,13 @@ Con lo **Smart Stack Builder** di SuppTime:
 - **Sicurezza con i Farmaci:** SuppTime ti consente di registrare i tuoi farmaci prescritti (come quelli per la tiroide o i fluidificanti del sangue) e incrociarli con i tuoi integratori a base di erbe per prevenire interazioni pericolose.
 
 Smettila di tirare a indovinare con la tua salute. Scarica **SuppTime** oggi stesso, metti un farmacologo virtuale in tasca e assicurati di ottenere il 100% dei benefici da ogni singola pillola che assumi.
+
+## Riferimenti
+
+1. Hallberg L, Rossander-Hultén L, Brune M, Gleerup A. [Inhibition of haem-iron absorption in man by calcium](https://pubmed.ncbi.nlm.nih.gov/8490006/). *British Journal of Nutrition.* 1993.
+2. Hoffman HN 2nd, Phyliky RL, Fleming CR. [Zinc-induced copper deficiency](https://pubmed.ncbi.nlm.nih.gov/3335323/). *Gastroenterology.* 1988.
+3. Cook JD, Reddy MB. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *American Journal of Clinical Nutrition.* 2001.
+4. Hayashi M, Hamada H, Azuma S, Hayashi K. [Painless Thyroiditis by Withania somnifera (Ashwagandha)](https://pubmed.ncbi.nlm.nih.gov/38559552/). *Cureus.* 2024.
+5. Pouteau E, Kabir-Ahmadi M, Noah L, et al. [Superiority of magnesium and vitamin B6 over magnesium alone on severe stress in healthy adults with low magnesemia: A randomized, single-blind clinical trial](https://pubmed.ncbi.nlm.nih.gov/30562392/). *PLoS One.* 2018.
+
+*Questo articolo ha solo scopo informativo e non costituisce un parere medico. Consulta un professionista sanitario qualificato prima di modificare la tua routine di integratori o farmaci.*

@@ -101,3 +101,12 @@ Además, los suplementos diarios de altas dosis de hierro desencadenan un **"Blo
 *   **Mantenga un Espaciamiento Estricto:** Separe el hierro de la levotiroxina por al menos 4 horas.
 *   **Aproveche la Vitamina C:** La coadministración de hierro con vitamina C aumenta la absorción hasta en un 300%.
 *   **Adopte la Dosis en Días Alternos:** Espacie las dosis de hierro oral por 48 horas para evitar el bloqueo mucoso inducido por la hepcidina y maximizar la absorción.
+
+## Referencias
+
+1. Stoffel NU, Zeder C, Brittenham GM, Moretti D, Zimmermann MB. [Iron absorption from oral iron supplements given on consecutive versus alternate days and as single morning doses versus twice-daily split dosing in iron-depleted women: two open-label, randomised controlled trials](https://pubmed.ncbi.nlm.nih.gov/29032957/). *Lancet Haematol.* 2017.
+2. Campbell NR, Hasinoff BB. [Ferrous sulfate reduces thyroxine efficacy in patients with hypothyroidism](https://pubmed.ncbi.nlm.nih.gov/1443969/). *Ann Intern Med.* 1992.
+3. Hallberg L, Hulthén L. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *Am J Clin Nutr.* 2000.
+4. Lönnerdal B. [Calcium and iron absorption—mechanisms and public health relevance](https://pubmed.ncbi.nlm.nih.gov/21462112/). *Int J Vitam Nutr Res.* 2010.
+
+*Este artículo tiene fines informativos únicamente y no constituye asesoramiento médico. Consulte a un profesional de la salud calificado antes de modificar su rutina de suplementos o medicamentos.*

@@ -77,3 +77,13 @@ Com o **Smart Stack Builder** do SuppTime:
 - **Segurança com Medicamentos:** O SuppTime permite que você registre seus medicamentos prescritos (como para a tireoide ou anticoagulantes) e faça o cruzamento com seus suplementos de ervas para prevenir interações perigosas.
 
 Pare de adivinhar com a sua saúde. Baixe o **SuppTime** hoje, coloque um farmacologista virtual no seu bolso e certifique-se de que está obtendo 100% dos benefícios de cada pílula que toma.
+
+## Referências
+
+1. Hallberg L, Rossander-Hultén L, Brune M, Gleerup A. [Inhibition of haem-iron absorption in man by calcium](https://pubmed.ncbi.nlm.nih.gov/8490006/). *British Journal of Nutrition.* 1993.
+2. Hoffman HN 2nd, Phyliky RL, Fleming CR. [Zinc-induced copper deficiency](https://pubmed.ncbi.nlm.nih.gov/3335323/). *Gastroenterology.* 1988.
+3. Cook JD, Reddy MB. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *American Journal of Clinical Nutrition.* 2001.
+4. Hayashi M, Hamada H, Azuma S, Hayashi K. [Painless Thyroiditis by Withania somnifera (Ashwagandha)](https://pubmed.ncbi.nlm.nih.gov/38559552/). *Cureus.* 2024.
+5. Pouteau E, Kabir-Ahmadi M, Noah L, et al. [Superiority of magnesium and vitamin B6 over magnesium alone on severe stress in healthy adults with low magnesemia: A randomized, single-blind clinical trial](https://pubmed.ncbi.nlm.nih.gov/30562392/). *PLoS One.* 2018.
+
+*Este artigo tem fins apenas informativos e não constitui aconselhamento médico. Consulte um profissional de saúde qualificado antes de alterar sua rotina de suplementos ou medicamentos.*

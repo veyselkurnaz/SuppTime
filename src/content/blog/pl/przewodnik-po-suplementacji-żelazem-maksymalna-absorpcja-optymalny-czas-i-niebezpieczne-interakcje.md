@@ -101,3 +101,12 @@ Ponadto wysokie codzienne dawki suplementów żelaza wywołują ogólnoustrojowy
 *   **Zachowaj ścisły odstęp między lekami:** Oddziel żelazo od lewotyroksyny na co najmniej 4 godziny.
 *   **Wykorzystaj witaminę C:** Jednoczesne podawanie żelaza z witaminą C zwiększa jego wchłanianie nawet o 300%.
 *   **Zastosuj dawkowanie co drugi dzień:** Zrób 48-godzinny odstęp między kolejnymi dawkami żelaza doustnego, aby uniknąć bloku śluzówkowego wywołanego przez hepcydynę i zmaksymalizować wchłanianie.
+
+## Źródła
+
+1. Stoffel NU, Zeder C, Brittenham GM, Moretti D, Zimmermann MB. [Iron absorption from oral iron supplements given on consecutive versus alternate days and as single morning doses versus twice-daily split dosing in iron-depleted women: two open-label, randomised controlled trials](https://pubmed.ncbi.nlm.nih.gov/29032957/). *Lancet Haematol.* 2017.
+2. Campbell NR, Hasinoff BB. [Ferrous sulfate reduces thyroxine efficacy in patients with hypothyroidism](https://pubmed.ncbi.nlm.nih.gov/1443969/). *Ann Intern Med.* 1992.
+3. Hallberg L, Hulthén L. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *Am J Clin Nutr.* 2000.
+4. Lönnerdal B. [Calcium and iron absorption—mechanisms and public health relevance](https://pubmed.ncbi.nlm.nih.gov/21462112/). *Int J Vitam Nutr Res.* 2010.
+
+*Ten artykuł ma charakter wyłącznie informacyjny i nie stanowi porady medycznej. Skonsultuj się z wykwalifikowanym pracownikiem służby zdrowia przed zmianą swojej rutyny suplementacji lub przyjmowanych leków.*

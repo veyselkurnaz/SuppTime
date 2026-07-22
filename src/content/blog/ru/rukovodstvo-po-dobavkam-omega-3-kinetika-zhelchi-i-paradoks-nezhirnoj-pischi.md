@@ -130,3 +130,12 @@ graph TD
 Кроме того, для защиты этих крайне нестабильных $\text{ПНЖК}$ от окислительного повреждения внутри организма состав всегда должен включать природный жирорастворимый антиоксидант, такой как d-альфа-токоферол (витамин Е).
 
 Наконец, согласование приема добавок с ужином гарантирует, что пик всасывания совпадет с естественными ночными противовоспалительными и путями восстановления клеток организма, максимизируя сердечно-сосудистые, иммунологические и неврологические преимущества $\text{ЭПК}$ и $\text{ДГК}$.
+
+## Источники
+
+1. Nordøy A, et al. [Absorption of the n-3 eicosapentaenoic and docosahexaenoic acids as ethyl esters and triglycerides by humans](https://pubmed.ncbi.nlm.nih.gov/1826985/). *American Journal of Clinical Nutrition.* 1991.
+2. Offman E, Marenco T, Ferber S, Johnson J, Kling D, Curcio D, Davidson M. [Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study](https://pubmed.ncbi.nlm.nih.gov/24124374/). *Vascular Health and Risk Management.* 2013.
+3. Schuchardt JP, Schneider I, Meyer H, Neubronner J, von Schacky C, Hahn A. [Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations - a comparative bioavailability study of fish oil vs. krill oil](https://pubmed.ncbi.nlm.nih.gov/21854650/). *Lipids in Health and Disease.* 2011.
+4. Brown JE, Wahle KW. [Effect of fish-oil and vitamin E supplementation on lipid peroxidation and whole-blood aggregation in man](https://pubmed.ncbi.nlm.nih.gov/2282693/). *Clinica Chimica Acta.* 1990.
+
+*Данная статья предназначена только для ознакомительных целей и не является медицинской консультацией. Проконсультируйтесь с квалифицированным специалистом здравоохранения, прежде чем менять свой режим приема добавок или лекарств.*

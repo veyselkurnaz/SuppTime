@@ -77,3 +77,13 @@ SuppTime'ın **Akıllı Yığın Oluşturucusu (Smart Stack Builder)** sayesinde
 - **İlaç Güvenliği:** SuppTime, reçeteli ilaçlarınızı (Tiroid ilaçları veya Kan Sulandırıcılar gibi) kaydetmenize olanak tanır ve tehlikeli etkileşimleri önlemek için bunları bitkisel takviyelerinizle çapraz olarak kontrol eder.
 
 Sağlığınızla tahminde bulunmayı bırakın. Bugün **SuppTime**'ı indirin, cebinize sanal bir farmakolog koyun ve içtiğiniz her bir hapın faydasının %100'ünü aldığınızdan emin olun.
+
+## Kaynaklar
+
+1. Hallberg L, Rossander-Hultén L, Brune M, Gleerup A. [Inhibition of haem-iron absorption in man by calcium](https://pubmed.ncbi.nlm.nih.gov/8490006/). *British Journal of Nutrition.* 1993.
+2. Hoffman HN 2nd, Phyliky RL, Fleming CR. [Zinc-induced copper deficiency](https://pubmed.ncbi.nlm.nih.gov/3335323/). *Gastroenterology.* 1988.
+3. Cook JD, Reddy MB. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *American Journal of Clinical Nutrition.* 2001.
+4. Hayashi M, Hamada H, Azuma S, Hayashi K. [Painless Thyroiditis by Withania somnifera (Ashwagandha)](https://pubmed.ncbi.nlm.nih.gov/38559552/). *Cureus.* 2024.
+5. Pouteau E, Kabir-Ahmadi M, Noah L, et al. [Superiority of magnesium and vitamin B6 over magnesium alone on severe stress in healthy adults with low magnesemia: A randomized, single-blind clinical trial](https://pubmed.ncbi.nlm.nih.gov/30562392/). *PLoS One.* 2018.
+
+*Bu makale yalnızca bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşımaz. Takviye veya ilaç rutininizi değiştirmeden önce yetkin bir sağlık uzmanına danışın.*

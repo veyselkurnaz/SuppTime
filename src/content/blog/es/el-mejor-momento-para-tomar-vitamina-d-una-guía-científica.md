@@ -79,3 +79,11 @@ Con el motor de seguimiento inteligente de SuppTime, no tienes que memorizar la 
 - Te advertirá automáticamente si faltan cofactores cruciales como Magnesio o K2 en tu rutina diaria.
 
 Deja de desperdiciar tus costosos suplementos. Transfiere el control del tiempo a la tecnología y deja que tu cuerpo se centre en la recuperación.
+
+## Referencias
+
+1. Tripkovic L, Lambert H, Hart K, et al. [Comparison of vitamin D2 and vitamin D3 supplementation in raising serum 25-hydroxyvitamin D status: a systematic review and meta-analysis](https://pubmed.ncbi.nlm.nih.gov/22552031/). *Am J Clin Nutr.* 2012.
+2. Mulligan GB, Licata A. [Taking vitamin D with the largest meal improves absorption and results in higher serum levels of 25-hydroxyvitamin D](https://pubmed.ncbi.nlm.nih.gov/20200983/). *J Bone Miner Res.* 2010.
+3. Uwitonze AM, Razzaque MS. [Role of Magnesium in Vitamin D Activation and Function](https://pubmed.ncbi.nlm.nih.gov/29480918/). *J Am Osteopath Assoc.* 2018.
+
+*Este artículo tiene fines informativos únicamente y no constituye asesoramiento médico. Consulte a un profesional de la salud calificado antes de modificar su rutina de suplementos o medicamentos.*

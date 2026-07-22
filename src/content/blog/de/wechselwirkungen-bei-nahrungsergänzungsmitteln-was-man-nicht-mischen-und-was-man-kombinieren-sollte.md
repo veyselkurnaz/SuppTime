@@ -77,3 +77,13 @@ Mit dem **Smart Stack Builder** von SuppTime:
 - **Medikamentensicherheit:** Mit SuppTime können Sie Ihre verschreibungspflichtigen Medikamente (wie Schilddrüsenmedikamente oder Blutverdünner) protokollieren und mit Ihren pflanzlichen Nahrungsergänzungsmitteln abgleichen, um gefährliche Wechselwirkungen zu vermeiden.
 
 Hören Sie auf, bei Ihrer Gesundheit zu raten. Laden Sie **SuppTime** noch heute herunter, stecken Sie sich einen virtuellen Pharmakologen in die Tasche und stellen Sie sicher, dass Sie 100% der Vorteile jeder einzelnen Pille erhalten, die Sie einnehmen.
+
+## Quellen
+
+1. Hallberg L, Rossander-Hultén L, Brune M, Gleerup A. [Inhibition of haem-iron absorption in man by calcium](https://pubmed.ncbi.nlm.nih.gov/8490006/). *British Journal of Nutrition.* 1993.
+2. Hoffman HN 2nd, Phyliky RL, Fleming CR. [Zinc-induced copper deficiency](https://pubmed.ncbi.nlm.nih.gov/3335323/). *Gastroenterology.* 1988.
+3. Cook JD, Reddy MB. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *American Journal of Clinical Nutrition.* 2001.
+4. Hayashi M, Hamada H, Azuma S, Hayashi K. [Painless Thyroiditis by Withania somnifera (Ashwagandha)](https://pubmed.ncbi.nlm.nih.gov/38559552/). *Cureus.* 2024.
+5. Pouteau E, Kabir-Ahmadi M, Noah L, et al. [Superiority of magnesium and vitamin B6 over magnesium alone on severe stress in healthy adults with low magnesemia: A randomized, single-blind clinical trial](https://pubmed.ncbi.nlm.nih.gov/30562392/). *PLoS One.* 2018.
+
+*Dieser Artikel dient nur zu Informationszwecken und stellt keine medizinische Beratung dar. Konsultieren Sie eine qualifizierte medizinische Fachkraft, bevor Sie Ihre Routine für Nahrungsergänzungsmittel oder Medikamente ändern.*

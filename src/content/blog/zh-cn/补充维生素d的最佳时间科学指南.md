@@ -79,3 +79,11 @@ image: "/blog/vitamin_d_blog_cover.png"
 - 如果您的日常生活中缺少镁或K2等重要的辅因子，它会自动向您发出警告。
 
 不要再浪费昂贵的补充剂了。将时间管理交给技术，让您的身体专注于恢复。
+
+## 参考文献
+
+1. Tripkovic L, Lambert H, Hart K, et al. [Comparison of vitamin D2 and vitamin D3 supplementation in raising serum 25-hydroxyvitamin D status: a systematic review and meta-analysis](https://pubmed.ncbi.nlm.nih.gov/22552031/). *Am J Clin Nutr.* 2012.
+2. Mulligan GB, Licata A. [Taking vitamin D with the largest meal improves absorption and results in higher serum levels of 25-hydroxyvitamin D](https://pubmed.ncbi.nlm.nih.gov/20200983/). *J Bone Miner Res.* 2010.
+3. Uwitonze AM, Razzaque MS. [Role of Magnesium in Vitamin D Activation and Function](https://pubmed.ncbi.nlm.nih.gov/29480918/). *J Am Osteopath Assoc.* 2018.
+
+本文仅供参考，不构成医疗建议。在改变您的补充剂或药物使用方案之前，请咨询合格的医疗专业人员。

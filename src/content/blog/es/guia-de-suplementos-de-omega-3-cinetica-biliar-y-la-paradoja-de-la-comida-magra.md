@@ -130,3 +130,12 @@ Independientemente de la formulación elegida, el suplemento debe tomarse junto 
 Además, para proteger estos $\text{PUFAs}$ altamente inestables del daño oxidativo dentro del cuerpo, la formulación siempre debe incluir un antioxidante natural y soluble en lípidos como el d-alfa-tocoferol (Vitamina E).
 
 Finalmente, alinear la suplementación con la cena asegura que la absorción máxima coincida con las vías naturales de reparación celular y antiinflamatorias nocturnas del cuerpo, maximizando los beneficios cardiovasculares, inmunológicos y neurológicos del $\text{EPA}$ y el $\text{DHA}$.
+
+## Referencias
+
+1. Nordøy A, et al. [Absorption of the n-3 eicosapentaenoic and docosahexaenoic acids as ethyl esters and triglycerides by humans](https://pubmed.ncbi.nlm.nih.gov/1826985/). *American Journal of Clinical Nutrition.* 1991.
+2. Offman E, Marenco T, Ferber S, Johnson J, Kling D, Curcio D, Davidson M. [Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study](https://pubmed.ncbi.nlm.nih.gov/24124374/). *Vascular Health and Risk Management.* 2013.
+3. Schuchardt JP, Schneider I, Meyer H, Neubronner J, von Schacky C, Hahn A. [Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations - a comparative bioavailability study of fish oil vs. krill oil](https://pubmed.ncbi.nlm.nih.gov/21854650/). *Lipids in Health and Disease.* 2011.
+4. Brown JE, Wahle KW. [Effect of fish-oil and vitamin E supplementation on lipid peroxidation and whole-blood aggregation in man](https://pubmed.ncbi.nlm.nih.gov/2282693/). *Clinica Chimica Acta.* 1990.
+
+*Este artículo tiene fines informativos únicamente y no constituye asesoramiento médico. Consulte a un profesional de la salud calificado antes de modificar su rutina de suplementos o medicamentos.*

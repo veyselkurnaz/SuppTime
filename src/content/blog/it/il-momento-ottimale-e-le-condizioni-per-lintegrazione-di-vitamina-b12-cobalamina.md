@@ -140,4 +140,12 @@ La differenza fondamentale tra le due forme emerge dopo che entrano nel corpo, r
 | **Carico Elaborazione Cellulare** | Il cianuro deve essere staccato dall'enzima MMACHC. | Il gruppo metilico deve essere staccato dall'enzima MMACHC. |
 | **Pubblico Target / Motivo Scelta** | Chi cerca protezione giornaliera economica con una scadenza stabile. | Chi desidera alta ritenzione tissutale a lungo termine e meno perdita urinaria. |
 
+## Riferimenti
+
+1. Mayer G, Kröger M, Meier-Ewert K. [Effects of vitamin B12 on performance and circadian rhythm in normal subjects](https://pubmed.ncbi.nlm.nih.gov/8914118/). *Neuropsychopharmacology.* 1996.
+2. Bauman WA, et al. [Increased intake of calcium reverses vitamin B12 malabsorption induced by metformin](https://pubmed.ncbi.nlm.nih.gov/10977010/). *Diabetes Care.* 2000.
+3. Termanini B, et al. [Effect of long-term gastric acid suppressive therapy on serum vitamin B12 levels in patients with Zollinger-Ellison syndrome](https://pubmed.ncbi.nlm.nih.gov/9626024/). *Am J Med.* 1998.
+4. Kozyraki R, Cases O. [Vitamin B12 absorption: mammalian physiology and acquired and inherited disorders](https://pubmed.ncbi.nlm.nih.gov/23178706/). *Biochimie.* 2013.
+5. Bouloukaki I, et al. [Association of Vitamin B12 Status with Polysomnographic Parameters and Cardiovascular Disease in Patients with Obstructive Sleep Apnoea](https://pubmed.ncbi.nlm.nih.gov/41097156/). *Nutrients.* 2025.
+
 *Questo documento ha solo scopo informativo. Consulta un medico per un parere o una diagnosi professionale.*

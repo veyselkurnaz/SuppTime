@@ -79,3 +79,11 @@ image: "/blog/vitamin_d_blog_cover.png"
 - Автоматически предупредит вас, если в вашем ежедневном рационе отсутствуют такие важные кофакторы, как магний или K2.
 
 Хватит тратить впустую свои дорогие добавки. Передайте заботу о времени технологиям и позвольте своему организму сосредоточиться на восстановлении.
+
+## Источники
+
+1. Tripkovic L, Lambert H, Hart K, et al. [Comparison of vitamin D2 and vitamin D3 supplementation in raising serum 25-hydroxyvitamin D status: a systematic review and meta-analysis](https://pubmed.ncbi.nlm.nih.gov/22552031/). *Am J Clin Nutr.* 2012.
+2. Mulligan GB, Licata A. [Taking vitamin D with the largest meal improves absorption and results in higher serum levels of 25-hydroxyvitamin D](https://pubmed.ncbi.nlm.nih.gov/20200983/). *J Bone Miner Res.* 2010.
+3. Uwitonze AM, Razzaque MS. [Role of Magnesium in Vitamin D Activation and Function](https://pubmed.ncbi.nlm.nih.gov/29480918/). *J Am Osteopath Assoc.* 2018.
+
+*Данная статья предназначена только для ознакомительных целей и не является медицинской консультацией. Проконсультируйтесь с квалифицированным специалистом здравоохранения, прежде чем менять свой режим приема добавок или лекарств.*

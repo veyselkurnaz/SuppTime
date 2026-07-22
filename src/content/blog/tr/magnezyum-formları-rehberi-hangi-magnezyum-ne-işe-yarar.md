@@ -78,3 +78,13 @@ Bu zamanlama karmaşasını çözmek için sağlığına değer veren binlerce k
 * **Katı Gizlilik Anlayışı:** Tamamen merkeziyetsiz ve çevrimdışı bir mimariyle çalışan SuppTime; üyelik istemez, sağlık verilerinizi asla takip etmez ve her şeyi sadece sizin kişisel Apple iCloud'unuz üzerinden senkronize eder.
 
 Emilim saatleri, yemek gereksinimleri ve besin etkileşimleri gibi tüm o karmaşık hesaplamaları **SuppTime**'a devrederek, kusursuz çalışan ve bilimsel olarak optimize edilmiş bir takviye rutinine zahmetsizce sahip olabilirsiniz.
+
+## Kaynaklar
+
+1. Schuster J, Cycelskij I, Lopresti A, Hahn A. [Magnesium Bisglycinate Supplementation in Healthy Adults Reporting Poor Sleep: A Randomized, Placebo-Controlled Trial](https://pubmed.ncbi.nlm.nih.gov/40918053/). *Nutrients.* 2025.
+2. Zhang C, Hu Q, Li S, Dai F, Qian W, Hewlings S, Yan T, Wang Y. [A Magtein®, Magnesium L-Threonate, -Based Formula Improves Brain Cognitive Functions in Healthy Chinese Adults](https://pubmed.ncbi.nlm.nih.gov/36558392/). *Nutrients.* 2022.
+3. Lindberg JS, et al. [Magnesium bioavailability from magnesium citrate and magnesium oxide](https://pubmed.ncbi.nlm.nih.gov/2407766/). *J Am Coll Nutr.* 1990.
+4. Pouteau E, Kabir-Ahmadi M, et al. [Superiority of magnesium and vitamin B6 over magnesium alone on severe stress in healthy adults with low magnesemia: A randomized, single-blind clinical trial](https://pubmed.ncbi.nlm.nih.gov/30562392/). *PLoS One.* 2018.
+5. Hardwick LL, Jones MR, Brautbar N, Lee DB. [Magnesium absorption: mechanisms and the influence of vitamin D, calcium and phosphate](https://pubmed.ncbi.nlm.nih.gov/1992050/). *J Nutr.* 1991.
+
+*Bu makale yalnızca bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşımaz. Takviye veya ilaç rutininizi değiştirmeden önce yetkin bir sağlık uzmanına danışın.*

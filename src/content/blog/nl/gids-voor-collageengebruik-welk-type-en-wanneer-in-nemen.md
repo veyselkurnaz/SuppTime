@@ -94,3 +94,13 @@ Met SuppTime's **Smart Stack Builder**:
 - **Veiligheid voorop:** Registreer eventuele medicijnen (zoals corticosteroïden) en laat SuppTime automatisch controleren op farmacologische interacties die je collageenregeneratie zouden kunnen remmen.
 
 Stop met gissen naar je gezondheid. Download **SuppTime** vandaag nog, stop een virtuele farmacoloog in je broekzak en zorg ervoor dat je 100% profiteert van elk supplement dat je inneemt.
+
+## Bronnen
+
+1. Pinnell SR. [Regulation of collagen biosynthesis by ascorbic acid: a review](https://pubmed.ncbi.nlm.nih.gov/3008449/). *Yale Journal of Biology and Medicine.* 1985.
+2. Virgilio N, Schön C, Mödinger Y, et al. [Absorption of bioactive peptides following collagen hydrolysate intake: a randomized, double-blind crossover study in healthy individuals](https://pubmed.ncbi.nlm.nih.gov/39149544/). *Amino Acids.* 2024.
+3. Kim DU, Chung HC, Choi J, Sakai Y, Lee BY. [Oral Intake of Low-Molecular-Weight Collagen Peptide Improves Hydration, Elasticity, and Wrinkling in Human Skin: A Randomized, Double-Blind, Placebo-Controlled Study](https://pubmed.ncbi.nlm.nih.gov/29949889/). *Nutrients.* 2018.
+4. Thomas C, Kingshott RN, Allott KM, et al. [Collagen peptide supplementation before bedtime reduces sleep fragmentation and improves cognitive function in physically active males with sleep complaints](https://pubmed.ncbi.nlm.nih.gov/37874350/). *European Journal of Nutrition.* 2023.
+5. Lugo JP, Saiyed ZM, Lau FC, et al. [Undenatured type II collagen (UC-II®) for joint support: a randomized, double-blind, placebo-controlled study in healthy volunteers](https://pubmed.ncbi.nlm.nih.gov/24153020/). *Journal of the International Society of Sports Nutrition.* 2013.
+
+*Dit artikel is uitsluitend bedoeld voor informatieve doeleinden en vormt geen medisch advies. Raadpleeg een gekwalificeerde zorgverlener voordat je je supplementen- of medicatieroutine wijzigt.*

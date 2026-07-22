@@ -111,3 +111,13 @@ Um diese biologischen Rhythmen zu nutzen, ist der optimale Zeitpunkt für die Zi
 | **Frühstück** | Non-Häm Eisen, Vitamin C, Vitamin D3 | Vitamin C verbessert die Eisenaufnahme; fettlösliche Vitamine werden mit Nahrungsfetten aufgenommen. Zink & Kalzium vermeiden! |
 | **Mittag / Nachmittag** | Zink-Bisglycinat (15–30 mg) + Kupfer (1–2 mg) | Im Verhältnis 15:1 formuliert, um Kupfermangel zu verhindern; vollständig von Eisen/Kalzium getrennt. Bereitet auf nächtliches Melatonin vor. |
 | **Nacht** | Kalzium, Magnesiumglycinat | Magnesium entspannt die Skelettmuskulatur und moduliert die beruhigenden GABA-Rezeptoren vor dem Schlaf. |
+
+## Quellen
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+*Dieser Artikel dient nur zu Informationszwecken und stellt keine medizinische Beratung dar. Konsultieren Sie eine qualifizierte medizinische Fachkraft, bevor Sie Ihre Routine für Nahrungsergänzungsmittel oder Medikamente ändern.*

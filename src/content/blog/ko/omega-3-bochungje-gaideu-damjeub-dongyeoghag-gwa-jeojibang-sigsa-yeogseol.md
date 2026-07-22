@@ -130,3 +130,12 @@ graph TD
 또한, 신체 내부의 산화 손상으로부터 이 매우 불안정한 $\text{PUFA}$를 보호하기 위해, 제형에는 항상 d-알파-토코페롤(비타민 E)과 같은 천연 지용성 항산화제가 포함되어야 합니다.
 
 마지막으로, 저녁 식사와 함께 보충을 조정하면 최대 흡수가 신체의 자연적인 야간 항염증 및 세포 복구 경로와 일치하여 $\text{EPA}$ 및 $\text{DHA}$의 심혈관계, 면역계 및 신경계 이점을 극대화할 수 있습니다.
+
+## 참고 자료
+
+1. Nordøy A, et al. [Absorption of the n-3 eicosapentaenoic and docosahexaenoic acids as ethyl esters and triglycerides by humans](https://pubmed.ncbi.nlm.nih.gov/1826985/). *American Journal of Clinical Nutrition.* 1991.
+2. Offman E, Marenco T, Ferber S, Johnson J, Kling D, Curcio D, Davidson M. [Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study](https://pubmed.ncbi.nlm.nih.gov/24124374/). *Vascular Health and Risk Management.* 2013.
+3. Schuchardt JP, Schneider I, Meyer H, Neubronner J, von Schacky C, Hahn A. [Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations - a comparative bioavailability study of fish oil vs. krill oil](https://pubmed.ncbi.nlm.nih.gov/21854650/). *Lipids in Health and Disease.* 2011.
+4. Brown JE, Wahle KW. [Effect of fish-oil and vitamin E supplementation on lipid peroxidation and whole-blood aggregation in man](https://pubmed.ncbi.nlm.nih.gov/2282693/). *Clinica Chimica Acta.* 1990.
+
+*본 글은 정보 제공을 목적으로 작성되었으며 의학적 조언을 대체하지 않습니다. 영양제나 약물 복용 방식을 변경하기 전에 반드시 자격을 갖춘 의료 전문가와 상담하시기 바랍니다.*

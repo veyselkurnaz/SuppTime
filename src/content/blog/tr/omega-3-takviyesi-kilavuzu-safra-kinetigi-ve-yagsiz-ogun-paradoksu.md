@@ -130,3 +130,12 @@ Hangi formülasyon seçilirse seçilsin, takviye kesinlikle en az 10 ila 15 gram
 Ayrıca, oldukça kararsız olan bu PUFA'ları vücut içindeki oksidatif (bozulma) hasarlardan korumak için, formülasyonun her zaman d-alfa-tokoferol gibi doğal, lipidde çözünen bir antioksidan (E Vitamini) içermesine dikkat edilmelidir.
 
 Sonuç olarak, takviyenin akşam yemeğiyle uyumlu hale getirilmesi (akşam yemeğinden hemen sonra veya yemek sırasında alınması), zirve emilimin vücudun doğal gece anti-inflamatuar ve hücresel onarım yollarıyla örtüşmesini sağlayarak, $\text{EPA}$ ve $\text{DHA}$'nın kalp-damar, bağışıklık ve nörolojik faydalarını maksimize eder.
+
+## Kaynaklar
+
+1. Nordøy A, et al. [Absorption of the n-3 eicosapentaenoic and docosahexaenoic acids as ethyl esters and triglycerides by humans](https://pubmed.ncbi.nlm.nih.gov/1826985/). *American Journal of Clinical Nutrition.* 1991.
+2. Offman E, Marenco T, Ferber S, Johnson J, Kling D, Curcio D, Davidson M. [Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study](https://pubmed.ncbi.nlm.nih.gov/24124374/). *Vascular Health and Risk Management.* 2013.
+3. Schuchardt JP, Schneider I, Meyer H, Neubronner J, von Schacky C, Hahn A. [Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations - a comparative bioavailability study of fish oil vs. krill oil](https://pubmed.ncbi.nlm.nih.gov/21854650/). *Lipids in Health and Disease.* 2011.
+4. Brown JE, Wahle KW. [Effect of fish-oil and vitamin E supplementation on lipid peroxidation and whole-blood aggregation in man](https://pubmed.ncbi.nlm.nih.gov/2282693/). *Clinica Chimica Acta.* 1990.
+
+*Bu makale yalnızca bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşımaz. Takviye veya ilaç rutininizi değiştirmeden önce yetkin bir sağlık uzmanına danışın.*

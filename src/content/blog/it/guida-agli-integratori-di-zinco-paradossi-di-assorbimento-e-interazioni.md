@@ -100,3 +100,13 @@ Inoltre, lo zinco agisce come neuromodulatore diretto, funzionando come antagoni
 | **Colazione** | Ferro Non-Eme, Vitamina C, Vitamina D3 | La vitamina C migliora l'assorbimento del ferro. Evitare Calcio e Zinco. |
 | **Pranzo / Pomeriggio**| Bisglicinato di Zinco (15–30 mg) + Rame (1–2 mg) | Formulato in rapporto 15:1 per evitare la deplezione di rame; separato da ferro e calcio. |
 | **Sera** | Calcio, Magnesio Glicinato | Il magnesio rilassa il sistema muscolare e modula i recettori GABA prima di dormire. |
+
+## Riferimenti
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+*Questo articolo ha solo scopo informativo e non costituisce un parere medico. Consulta un professionista sanitario qualificato prima di modificare la tua routine di integratori o farmaci.*

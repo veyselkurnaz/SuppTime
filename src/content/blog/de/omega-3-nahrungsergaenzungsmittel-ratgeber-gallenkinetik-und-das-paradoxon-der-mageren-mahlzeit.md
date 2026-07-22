@@ -130,3 +130,12 @@ Unabhängig von der gewählten Formulierung muss das Ergänzungsmittel zusammen 
 Um diese hochgradig instabilen $\text{PUFAs}$ vor oxidativen Schäden im Körper zu schützen, sollte die Formulierung darüber hinaus immer ein natürliches, fettlösliches Antioxidans wie d-alpha-Tocopherol (Vitamin E) enthalten.
 
 Schließlich stellt die Abstimmung der Supplementierung auf das Abendessen sicher, dass die maximale Absorption mit den natürlichen nächtlichen entzündungshemmenden und zellulären Reparaturwegen des Körpers übereinstimmt, wodurch die kardiovaskulären, immunologischen und neurologischen Vorteile von $\text{EPA}$ und $\text{DHA}$ maximiert werden.
+
+## Quellen
+
+1. Nordøy A, et al. [Absorption of the n-3 eicosapentaenoic and docosahexaenoic acids as ethyl esters and triglycerides by humans](https://pubmed.ncbi.nlm.nih.gov/1826985/). *American Journal of Clinical Nutrition.* 1991.
+2. Offman E, Marenco T, Ferber S, Johnson J, Kling D, Curcio D, Davidson M. [Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study](https://pubmed.ncbi.nlm.nih.gov/24124374/). *Vascular Health and Risk Management.* 2013.
+3. Schuchardt JP, Schneider I, Meyer H, Neubronner J, von Schacky C, Hahn A. [Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations - a comparative bioavailability study of fish oil vs. krill oil](https://pubmed.ncbi.nlm.nih.gov/21854650/). *Lipids in Health and Disease.* 2011.
+4. Brown JE, Wahle KW. [Effect of fish-oil and vitamin E supplementation on lipid peroxidation and whole-blood aggregation in man](https://pubmed.ncbi.nlm.nih.gov/2282693/). *Clinica Chimica Acta.* 1990.
+
+*Dieser Artikel dient nur zu Informationszwecken und stellt keine medizinische Beratung dar. Konsultieren Sie eine qualifizierte medizinische Fachkraft, bevor Sie Ihre Routine für Nahrungsergänzungsmittel oder Medikamente ändern.*

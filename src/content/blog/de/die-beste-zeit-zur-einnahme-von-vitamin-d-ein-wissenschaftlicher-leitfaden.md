@@ -79,3 +79,11 @@ Mit der intelligenten Tracking-Engine von SuppTime müssen Sie sich die Wissensc
 - Sie automatisch warnen, wenn in Ihrer täglichen Routine wichtige Cofaktoren wie Magnesium oder K2 fehlen.
 
 Hören Sie auf, Ihre teuren Nahrungsergänzungsmittel zu verschwenden. Überlassen Sie das Timing der Technologie, damit sich Ihr Körper auf die Heilung konzentrieren kann.
+
+## Quellen
+
+1. Tripkovic L, Lambert H, Hart K, et al. [Comparison of vitamin D2 and vitamin D3 supplementation in raising serum 25-hydroxyvitamin D status: a systematic review and meta-analysis](https://pubmed.ncbi.nlm.nih.gov/22552031/). *Am J Clin Nutr.* 2012.
+2. Mulligan GB, Licata A. [Taking vitamin D with the largest meal improves absorption and results in higher serum levels of 25-hydroxyvitamin D](https://pubmed.ncbi.nlm.nih.gov/20200983/). *J Bone Miner Res.* 2010.
+3. Uwitonze AM, Razzaque MS. [Role of Magnesium in Vitamin D Activation and Function](https://pubmed.ncbi.nlm.nih.gov/29480918/). *J Am Osteopath Assoc.* 2018.
+
+*Dieser Artikel dient nur zu Informationszwecken und stellt keine medizinische Beratung dar. Konsultieren Sie eine qualifizierte medizinische Fachkraft, bevor Sie Ihre Routine für Nahrungsergänzungsmittel oder Medikamente ändern.*
