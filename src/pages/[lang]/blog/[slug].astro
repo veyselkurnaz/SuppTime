@@ -58,6 +58,8 @@ const translations = allPosts.filter((p: CollectionEntry<'blog'>) => p.data.tran
 const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
 
 const wordCount = post.body ? post.body.split(/\s+/).length : 0;
+// KaTeX CSS is ~800ms of render-blocking weight — only load it on posts that actually use math syntax.
+const hasMath = post.body ? /\$\$[\s\S]+?\$\$|\$[^\s$][^$]*\$/.test(post.body) : false;
 
 // Grab related posts
 const otherPostsInLang = allPosts.filter((p: CollectionEntry<'blog'>) => p.id.startsWith(`${lang}/`) && p.id !== post.id);
@@ -88,27 +90,26 @@ const schema = [
       "name": post.data.author || "SuppTime Editorial",
       "url": "https://supptime.app/"
     },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SuppTime",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://supptime.app/assets/watchos.png"
+      }
+    },
+    "image": post.data.image ? `https://supptime.app${post.data.image}` : undefined,
     "datePublished": post.data.pubDate.toISOString(),
     "dateModified": post.data.pubDate.toISOString(),
+    "inLanguage": lang,
     "wordCount": wordCount,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://supptime.app/${lang}/blog/${slug}`
     }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "SuppTime",
-    "operatingSystem": "iOS",
-    "applicationCategory": "HealthAndFitnessApplication",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "url": "https://apps.apple.com/app/supptime-vitamin-tracker/id6762088156"
   }
+  // Note: the site's single SoftwareApplication + Organization entities are declared
+  // once, sitewide, in Layout.astro — no need to repeat a conflicting copy per post.
 ];
 
 const slugLinks: Record<string, string> = {};
@@ -152,7 +153,7 @@ const breadcrumbSchema = {
 schema.push(breadcrumbSchema as any);
 ---
 
-<Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'} image={post.data.image} ogType="article" alternateUrls={alternateUrls} pubDate={post.data.pubDate} author={post.data.author}>
+<Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'} image={post.data.image} ogType="article" alternateUrls={alternateUrls} pubDate={post.data.pubDate} author={post.data.author} hasMath={hasMath}>
   <!-- Inject JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(schema)} is:inline />
   
@@ -180,10 +181,6 @@ schema.push(breadcrumbSchema as any);
         <div>
           <div style="color: #666; margin-bottom: 16px; font-size: 15px; font-weight: 500;">
             <time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString(lang)}</time> • {post.data.author || 'SuppTime Team'}
-          </div>
-          <div style="display: inline-flex; align-items: center; gap: 8px; background: #e8f5e9; color: #1b5e20; padding: 6px 12px; border-radius: 8px; font-size: 13px; font-weight: 600; border: 1px solid #c8e6c9;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-            {t.reviewed_by}
           </div>
         </div>
         
@@ -246,7 +243,7 @@ schema.push(breadcrumbSchema as any);
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
             {relatedPosts.map((rp: any) => (
               <a href={`/${lang}/blog/${rp.rpSlug}`} class="related-card" style="text-decoration: none; color: inherit; display: block; border-radius: 16px; overflow: hidden; background: #fafafa; border: 1px solid #eee; transition: transform 0.2s, box-shadow 0.2s;">
-                {rp.data.image && <img src={rp.data.image} alt={rp.data.title} style="width: 100%; height: 140px; object-fit: cover; display: block;" />}
+                {rp.data.image && <img src={rp.data.image} alt={rp.data.title} loading="lazy" style="width: 100%; height: 140px; object-fit: cover; display: block;" />}
                 <div style="padding: 16px;">
                   <h4 style="font-size: 16px; font-weight: 600; margin: 0; line-height: 1.4; color: #111;">{rp.data.title}</h4>
                 </div>

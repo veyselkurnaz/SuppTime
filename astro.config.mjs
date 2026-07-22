@@ -3,16 +3,34 @@ import sitemap from '@astrojs/sitemap';
 import cloudflare from '@astrojs/cloudflare';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import { readFileSync, existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+// Reads the `pubDate: YYYY-MM-DD` line straight out of a post's frontmatter so the
+// sitemap can carry a real <lastmod> without needing the astro:content runtime here.
+function getBlogPubDate(lang, slug) {
+  const path = join(__dirname, 'src/content/blog', lang, `${slug}.md`);
+  if (!existsSync(path)) return null;
+  const match = readFileSync(path, 'utf-8').match(/^pubDate:\s*(\S+)/m);
+  return match ? new Date(match[1]).toISOString() : null;
+}
 
 export default defineConfig({
   output: 'static',
   adapter: cloudflare(),
   site: 'https://supptime.app', // Assuming this is the custom domain, or it can be updated
+  trailingSlash: 'always',
   integrations: [sitemap({
+    // The bare apex (/) is a redirect-only route (see src/pages/index.astro) and
+    // must not be submitted as an indexable URL.
+    filter: (url) => url !== 'https://supptime.app/',
     serialize(item) {
       // Root or Language Homepages (e.g., https://supptime.app/, https://supptime.app/tr/)
       // Anasayfa değişmeyeceği için monthly ve priority 0.5'e çekildi.
-      if (item.url === 'https://supptime.app/' || item.url.match(/^https:\/\/supptime\.app\/[a-z-]+\/$/)) {
+      if (item.url.match(/^https:\/\/supptime\.app\/[a-z-]+\/$/)) {
         item.changefreq = 'monthly';
         item.priority = 0.5;
       }
@@ -26,6 +44,13 @@ export default defineConfig({
       else if (item.url.includes('/blog/')) {
         item.changefreq = 'daily';
         item.priority = 0.9;
+
+        const match = item.url.match(/^https:\/\/supptime\.app\/([a-z-]+)\/blog\/([^/]+)\/$/);
+        if (match) {
+          const [, lang, slug] = match;
+          const lastmod = getBlogPubDate(lang, slug);
+          if (lastmod) item.lastmod = lastmod;
+        }
       }
       // Others (privacy, terms, etc.)
       else {

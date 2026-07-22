@@ -1,31 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>SuppTime</title>
-  <script>
-    var supported = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
-    var userLang = (navigator.language || (navigator as any).userLanguage || 'en').toLowerCase();
-    
-    var target = 'en';
-    if (supported.indexOf(userLang) !== -1) {
-      target = userLang;
-    } else {
-      var shortLang = userLang.split('-')[0];
-      if (supported.indexOf(shortLang) !== -1) {
-        target = shortLang;
-      } else if (userLang === 'zh-hk') {
-        target = 'zh-tw';
-      } else if (userLang.indexOf('zh') === 0) {
-        target = 'zh-cn';
-      } else if (userLang.indexOf('pt') === 0) {
-        target = 'pt-br';
-      }
-    }
-    window.location.replace('/' + target + '/');
-  </script>
-  <meta http-equiv="refresh" content="0; url=/en/">
-</head>
-<body>
-</body>
-</html>
+---
+export const prerender = false;
+
+const SUPPORTED = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
+
+function pickLocale(acceptLanguage: string | null): string {
+  if (!acceptLanguage) return 'en';
+
+  const candidates = acceptLanguage
+    .split(',')
+    .map((part) => {
+      const [tag, qPart] = part.trim().split(';q=');
+      return { tag: tag.trim().toLowerCase(), q: qPart ? parseFloat(qPart) : 1 };
+    })
+    .sort((a, b) => b.q - a.q);
+
+  for (const { tag } of candidates) {
+    if (SUPPORTED.includes(tag)) return tag;
+
+    const short = tag.split('-')[0];
+    if (SUPPORTED.includes(short)) return short;
+    if (tag === 'zh-hk') return 'zh-tw';
+    if (tag.startsWith('zh')) return 'zh-cn';
+    if (tag.startsWith('pt')) return 'pt-br';
+  }
+
+  return 'en';
+}
+
+return Astro.redirect(`/${pickLocale(Astro.request.headers.get('accept-language'))}/`, 302);
+---

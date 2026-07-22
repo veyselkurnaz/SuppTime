@@ -11,9 +11,10 @@ export interface Props {
   alternateUrls?: Record<string, string>;
   pubDate?: Date;
   author?: string;
+  hasMath?: boolean;
 }
 
-const { title, description, lang, dir, image = '/assets/supptime_og_banner.png', ogType = 'website', alternateUrls, pubDate, author } = Astro.props;
+const { title, description, lang, dir, image = '/assets/supptime_og_banner.png', ogType = 'website', alternateUrls, pubDate, author, hasMath = false } = Astro.props;
 
 // Compute hreflang tags for SEO
 const locales = Object.keys(I18N);
@@ -60,7 +61,9 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/styles.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous" />
+    {hasMath && (
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous" />
+    )}
     
     <!-- SEO: Hreflang Tags -->
     {alternateUrls ? (
@@ -107,18 +110,29 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "SuppTime",
-      "operatingSystem": "iOS",
-      "applicationCategory": "HealthApplication",
-      "description": "SuppTime is the ultimate vitamin tracker and supplement planner.",
+      "alternateName": "SuppTime: Vitamin & Supplement Tracker for iPhone and Apple Watch",
+      "operatingSystem": "iOS 16.0 or later, watchOS",
+      "applicationCategory": "HealthAndFitnessApplication",
+      "applicationSubCategory": "Vitamin Tracker",
+      "description": "SuppTime is a private, offline-first vitamin and supplement tracker built natively for iPhone and Apple Watch. It schedules doses across six daily time slots, flags supplement-supplement and supplement-medication interactions, and syncs securely through iCloud with no accounts or servers.",
+      "featureList": [
+        "Apple Watch app for logging doses from your wrist",
+        "iPhone Home Screen and Lock Screen widgets",
+        "80+ supplement database with interaction warnings",
+        "Prescription medication tracking alongside supplements",
+        "Local, on-device notifications with no internet required",
+        "Private iCloud sync with no accounts or servers"
+      ],
+      "screenshot": "https://supptime.app/screens/en/1.jpg",
       "offers": {
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD"
       },
       "url": "https://supptime.app",
+      "downloadUrl": "https://apps.apple.com/app/supptime-vitamin-tracker/id6762088156",
       "author": {
-        "@type": "Organization",
-        "name": "SuppTime"
+        "@id": "https://supptime.app/#organization"
       }
     }
     </script>
@@ -126,13 +140,20 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "https://supptime.app/#organization",
       "name": "SuppTime",
       "alternateName": "SuppTime Vitamin Tracker",
+      "description": "SuppTime builds a private, offline supplement and vitamin tracker for iPhone and Apple Watch.",
       "url": "https://supptime.app",
       "logo": "https://supptime.app/assets/watchos.png",
       "sameAs": [
         "https://apps.apple.com/app/id6762088156"
-      ]
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "veyselkurnaz@icloud.com",
+        "contactType": "customer support"
+      }
     }
     </script>
 </head>

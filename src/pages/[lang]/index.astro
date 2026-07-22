@@ -27,7 +27,6 @@ const FEATURE_ICONS = ['zap', 'watch', 'bell', 'shield'];
 
 const faqItems = (t.faq && t.faq.items) ? t.faq.items : I18N.en.faq.items;
 const faqTitle = (t.faq && t.faq.title) ? t.faq.title : I18N.en.faq.title;
-const ratingTitle = t.hero.rating || I18N.en.hero.rating;
 
 // Reviews
 const chunks = [
@@ -42,25 +41,8 @@ function getReviewLang(country: string) {
 
 const formatHtml = (str: string) => str.replace(/\n/g, '<br/>');
 
-const appSchema = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "SuppTime",
-  "operatingSystem": "iOS",
-  "applicationCategory": "HealthAndFitnessApplication",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "ratingCount": "1254"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "url": "https://apps.apple.com/app/supptime-vitamin-tracker/id6762088156"
-};
-
+// Note: the site's single SoftwareApplication + Organization entities are declared
+// once, sitewide, in Layout.astro — this page only adds its own FAQPage.
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -74,7 +56,7 @@ const faqSchema = {
   }))
 };
 
-const schema = [appSchema, faqSchema];
+const schema = [faqSchema];
 ---
 <Layout title={`SuppTime — ${t.footer.tag}`} description={t.hero.sub} lang={lang} dir={t.dir || 'ltr'}>
 <script type="application/ld+json" set:html={JSON.stringify(schema)} is:inline />
@@ -90,10 +72,6 @@ const schema = [appSchema, faqSchema];
           </div>
           <div class="hero-inner">
               <div class="hero-copy">
-                  <div class="hero-ratings rise-2">
-                      <div class="stars" set:html={ICONS.star.repeat(5)}></div>
-                      <span>{ratingTitle}</span>
-                  </div>
                   <h1 class="h1">
                       <span class="h1-l1">{t.hero.headline_1}</span>
                       <span class="h1-l2">{t.hero.headline_2}</span>
@@ -206,6 +184,9 @@ const schema = [appSchema, faqSchema];
                       <li><span class="watch-check" set:html={ICONS.check}></span><span>{b}</span></li>
                     ))}
                   </ul>
+                  {(t.watch as any).geo_answer && (
+                    <p class="section-sub" style="margin-top: 24px; font-size: 15px; line-height: 1.7;">{(t.watch as any).geo_answer}</p>
+                  )}
               </div>
               <div class="watch-stage">
                   <div class="watch-stage-glow"></div>

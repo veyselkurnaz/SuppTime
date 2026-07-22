@@ -74,7 +74,8 @@ export const I18N = {
         "Syncs with iPhone",
         "One-tap logging",
         "Works with Apple Health"
-      ]
+      ],
+      "geo_answer": "Yes. SuppTime is a native watchOS app that works directly with your iPhone, letting you log every supplement or vitamin dose with a single tap from your wrist. It syncs automatically over iCloud, so a dose logged on Apple Watch appears instantly in the iPhone app and in your Home Screen and Lock Screen widgets. SuppTime also reads workouts and activity data from Apple Health to help time doses around your day, and it works entirely offline: no account, no server, and no internet connection required to log a dose or receive a reminder. Because the app runs locally and syncs only through your private iCloud account, your health data never leaves Apple's ecosystem. This makes SuppTime one of the few vitamin trackers with genuine, standalone Apple Watch support rather than just a mirrored display of the iPhone app."
     },
     "reviews": {
       "eyebrow": "Loved worldwide",
@@ -109,6 +110,10 @@ export const I18N = {
         {
           "q": "Can I cancel my trial anytime?",
           "a": "Absolutely. Subscriptions are managed directly by Apple. You can cancel with one tap in your iPhone settings at any time."
+        },
+        {
+          "q": "Does SuppTime work with Apple Watch and iPhone widgets?",
+          "a": "Yes. SuppTime has a standalone Apple Watch app for one-tap dose logging from your wrist, plus iPhone Home Screen and Lock Screen widgets for at-a-glance schedules. Everything syncs instantly through your private iCloud account, with no separate account or internet connection needed."
         }
       ]
     },
