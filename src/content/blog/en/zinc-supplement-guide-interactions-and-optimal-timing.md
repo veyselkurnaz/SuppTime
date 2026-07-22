@@ -107,3 +107,13 @@ To capitalize on these biological rhythms, the optimal timing for zinc supplemen
 | **Breakfast** | Non-Heme Iron, Vitamin C, Vitamin D3 | Vitamin C enhances iron absorption; fat-soluble vitamins absorb with dietary fat. Avoid Calcium and Zinc. |
 | **Lunch** | Zinc Bisglycinate (15–30 mg) + Copper (1–2 mg) | Formulated at a 15:1 ratio to prevent copper trapping; separated from iron/calcium. |
 | **Night** | Calcium, Magnesium Glycinate | Magnesium relaxes muscular skeletal systems and modulates calming GABA receptors before sleep. |
+
+## References
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+*This article is for informational purposes only and does not constitute medical advice. Consult a qualified healthcare professional before changing your supplement or medication routine.*

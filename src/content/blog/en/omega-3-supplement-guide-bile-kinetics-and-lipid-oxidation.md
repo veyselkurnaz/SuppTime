@@ -130,3 +130,12 @@ Regardless of the formulation chosen, the supplement must be taken alongside a m
 Furthermore, to protect these highly unstable $\text{PUFAs}$ from oxidative damage inside the body, the formulation should always include a natural, lipid-soluble antioxidant like d-alpha-tocopherol.
 
 Finally, aligning supplementation with the evening meal ensures that peak absorption coincides with the body's natural nighttime anti-inflammatory and cellular repair pathways, maximizing the cardiovascular, immunological, and neurological benefits of $\text{EPA}$ and $\text{DHA}$.
+
+## References
+
+1. Nordøy A, et al. [Absorption of the n-3 eicosapentaenoic and docosahexaenoic acids as ethyl esters and triglycerides by humans](https://pubmed.ncbi.nlm.nih.gov/1826985/). *American Journal of Clinical Nutrition.* 1991.
+2. Offman E, Marenco T, Ferber S, Johnson J, Kling D, Curcio D, Davidson M. [Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study](https://pubmed.ncbi.nlm.nih.gov/24124374/). *Vascular Health and Risk Management.* 2013.
+3. Schuchardt JP, Schneider I, Meyer H, Neubronner J, von Schacky C, Hahn A. [Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations - a comparative bioavailability study of fish oil vs. krill oil](https://pubmed.ncbi.nlm.nih.gov/21854650/). *Lipids in Health and Disease.* 2011.
+4. Brown JE, Wahle KW. [Effect of fish-oil and vitamin E supplementation on lipid peroxidation and whole-blood aggregation in man](https://pubmed.ncbi.nlm.nih.gov/2282693/). *Clinica Chimica Acta.* 1990.
+
+*This article is for informational purposes only and does not constitute medical advice. Consult a qualified healthcare professional before changing your supplement or medication routine.*

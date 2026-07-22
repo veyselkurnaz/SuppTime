@@ -140,4 +140,12 @@ The fundamental difference between the two forms emerges after they enter the bo
 | **Cellular Processing Load** | Cyanide must be detached by the MMACHC enzyme. | The methyl group must be detached by the MMACHC enzyme. |
 | **Target Audience / Preference Reason** | Those seeking cost-effective daily protection and stable shelf life. | Those desiring long-term high tissue storage and less urinary loss. |
 
-*This report is for informational purposes only. Consult a healthcare professional for medical advice or diagnosis.*
+## References
+
+1. Mayer G, Kröger M, Meier-Ewert K. [Effects of vitamin B12 on performance and circadian rhythm in normal subjects](https://pubmed.ncbi.nlm.nih.gov/8914118/). *Neuropsychopharmacology.* 1996.
+2. Bauman WA, et al. [Increased intake of calcium reverses vitamin B12 malabsorption induced by metformin](https://pubmed.ncbi.nlm.nih.gov/10977010/). *Diabetes Care.* 2000.
+3. Termanini B, et al. [Effect of long-term gastric acid suppressive therapy on serum vitamin B12 levels in patients with Zollinger-Ellison syndrome](https://pubmed.ncbi.nlm.nih.gov/9626024/). *Am J Med.* 1998.
+4. Kozyraki R, Cases O. [Vitamin B12 absorption: mammalian physiology and acquired and inherited disorders](https://pubmed.ncbi.nlm.nih.gov/23178706/). *Biochimie.* 2013.
+5. Bouloukaki I, et al. [Association of Vitamin B12 Status with Polysomnographic Parameters and Cardiovascular Disease in Patients with Obstructive Sleep Apnoea](https://pubmed.ncbi.nlm.nih.gov/41097156/). *Nutrients.* 2025.
+
+*This article is for informational purposes only and does not constitute medical advice. Consult a qualified healthcare professional before changing your supplement or medication routine.*

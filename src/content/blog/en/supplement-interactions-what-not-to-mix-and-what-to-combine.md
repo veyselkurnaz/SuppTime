@@ -77,3 +77,13 @@ With SuppTime's **Smart Stack Builder**:
 - **Medication Safety:** SuppTime allows you to log your prescription medications (like Thyroid meds or Blood Thinners) and cross-references them against your herbal supplements to prevent dangerous interactions.
 
 Stop guessing with your health. Download **SuppTime** today, put a virtual pharmacologist in your pocket, and ensure you are getting 100% of the benefits from every single pill you take.
+
+## References
+
+1. Hallberg L, Rossander-Hultén L, Brune M, Gleerup A. [Inhibition of haem-iron absorption in man by calcium](https://pubmed.ncbi.nlm.nih.gov/8490006/). *British Journal of Nutrition.* 1993.
+2. Hoffman HN 2nd, Phyliky RL, Fleming CR. [Zinc-induced copper deficiency](https://pubmed.ncbi.nlm.nih.gov/3335323/). *Gastroenterology.* 1988.
+3. Cook JD, Reddy MB. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *American Journal of Clinical Nutrition.* 2001.
+4. Hayashi M, Hamada H, Azuma S, Hayashi K. [Painless Thyroiditis by Withania somnifera (Ashwagandha)](https://pubmed.ncbi.nlm.nih.gov/38559552/). *Cureus.* 2024.
+5. Pouteau E, Kabir-Ahmadi M, Noah L, et al. [Superiority of magnesium and vitamin B6 over magnesium alone on severe stress in healthy adults with low magnesemia: A randomized, single-blind clinical trial](https://pubmed.ncbi.nlm.nih.gov/30562392/). *PLoS One.* 2018.
+
+*This article is for informational purposes only and does not constitute medical advice. Consult a qualified healthcare professional before changing your supplement or medication routine.*
