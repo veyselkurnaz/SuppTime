@@ -248,7 +248,10 @@ const schema = {
   renderStack();
 </script>
 
-<style>
+<style is:global>
+  /* This page injects search results, stack chips, and result cards via client-side
+     innerHTML, so these rules must be global — Astro's scoped-CSS attribute is only
+     stamped onto elements present in the template at build time. */
   .checker-main { max-width: var(--maxw); margin: 0 auto; padding: clamp(120px, 12vw, 160px) var(--pad-x) 80px; }
   .checker-hero { max-width: 720px; margin: 0 auto 48px; text-align: center; }
   .checker-hero .eyebrow { margin: 0 auto 20px; }
@@ -257,7 +260,11 @@ const schema = {
 
   .checker-tool { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
 
-  .search-wrap { position: relative; display: flex; align-items: center; gap: 10px; padding: 14px 18px; }
+  /* z-index lifts the whole box (and its absolutely-positioned dropdown) above the
+     .stack-panel sibling below — both use `.glass` (backdrop-filter), which creates its
+     own stacking context, so without this the dropdown's z-index gets trapped and the
+     later sibling paints over it regardless of the dropdown's own z-index. */
+  .search-wrap { position: relative; z-index: 5; display: flex; align-items: center; gap: 10px; padding: 14px 18px; }
   .search-icon { color: var(--ink-muted); flex-shrink: 0; }
   .search-wrap input {
     flex: 1; border: none; background: transparent; outline: none;
