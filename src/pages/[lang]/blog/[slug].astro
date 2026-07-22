@@ -115,12 +115,7 @@ const schema = [
       "url": "https://supptime.app/"
     },
     "publisher": {
-      "@type": "Organization",
-      "name": "SuppTime",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://supptime.app/assets/watchos.png"
-      }
+      "@id": "https://supptime.app/#organization"
     },
     "image": post.data.image ? `https://supptime.app${post.data.image}` : undefined,
     "datePublished": post.data.pubDate.toISOString(),

@@ -154,7 +154,9 @@ export const I18N = {
       "disclaimer": "This tool is for educational purposes only and is not a substitute for professional medical advice. Always consult a qualified healthcare provider before starting, stopping, or combining supplements — especially if you take prescription medication.",
       "ctaText": "Want automatic reminders and full interaction tracking for your whole stack?",
       "ctaButton": "Get the App",
-      "addedBadge": "Added"
+      "addedBadge": "Added",
+      "databaseTitle": "Full Supplement Database",
+      "databaseSubtitle": "Browse all {count} supplements below — timing, category, and a quick summary for each."
     }
   },
   "tr": {
@@ -306,7 +308,9 @@ export const I18N = {
       "disclaimer": "Bu araç yalnızca eğitim amaçlıdır ve profesyonel tıbbi tavsiyenin yerini tutmaz. Takviye almaya başlamadan, bırakmadan veya kombine etmeden önce, özellikle reçeteli ilaç kullanıyorsanız, mutlaka yetkin bir sağlık uzmanına danışın.",
       "ctaText": "Tüm takviye listeniz için otomatik hatırlatmalar ve tam etkileşim takibi mi istiyorsunuz?",
       "ctaButton": "Uygulamayı İndir",
-      "addedBadge": "Eklendi"
+      "addedBadge": "Eklendi",
+      "databaseTitle": "Tam Takviye Veritabanı",
+      "databaseSubtitle": "Aşağıda {count} takviyenin tümüne göz atın — her biri için zamanlama, kategori ve kısa bir özet."
     }
   },
   "ko": {
@@ -458,7 +462,9 @@ export const I18N = {
       "disclaimer": "이 도구는 교육 목적으로만 제공되며 전문적인 의학적 조언을 대체하지 않습니다. 특히 처방약을 복용 중이라면 영양제를 시작, 중단, 또는 조합하기 전에 반드시 자격을 갖춘 의료 전문가와 상담하세요.",
       "ctaText": "전체 영양제 목록에 대한 자동 알림과 완전한 상호작용 추적을 원하시나요?",
       "ctaButton": "앱 다운로드",
-      "addedBadge": "추가됨"
+      "addedBadge": "추가됨",
+      "databaseTitle": "전체 영양제 데이터베이스",
+      "databaseSubtitle": "아래에서 {count}개의 영양제를 모두 확인하세요 — 각각의 복용 시간, 분류, 간단한 요약을 제공합니다."
     }
   },
   "ja": {
@@ -610,7 +616,9 @@ export const I18N = {
       "disclaimer": "このツールは教育目的のみで提供されており、専門的な医学的アドバイスに代わるものではありません。特に処方薬を服用している場合は、サプリメントの開始・中止・併用の前に必ず資格のある医療専門家にご相談ください。",
       "ctaText": "スタック全体の自動リマインダーと完全な相互作用トラッキングをご希望ですか?",
       "ctaButton": "アプリを入手",
-      "addedBadge": "追加済み"
+      "addedBadge": "追加済み",
+      "databaseTitle": "サプリメント完全データベース",
+      "databaseSubtitle": "以下で{count}種類すべてのサプリメントをご覧いただけます — それぞれの摂取タイミング、カテゴリー、簡単な概要を掲載しています。"
     }
   },
   "zh-cn": {
@@ -762,7 +770,9 @@ export const I18N = {
       "disclaimer": "本工具仅供教育目的使用，不能替代专业医疗建议。在开始、停止或组合服用补充剂之前，尤其是在服用处方药物时，请务必咨询合格的医疗专业人员。",
       "ctaText": "想为您的整个补充剂清单获得自动提醒和完整的相互作用追踪吗?",
       "ctaButton": "获取应用",
-      "addedBadge": "已添加"
+      "addedBadge": "已添加",
+      "databaseTitle": "完整补充剂数据库",
+      "databaseSubtitle": "浏览下方全部 {count} 种补充剂——包含每种的服用时间、类别和简要说明。"
     }
   },
   "zh-tw": {
@@ -914,7 +924,9 @@ export const I18N = {
       "disclaimer": "本工具僅供教育目的使用，不能替代專業醫療建議。在開始、停止或組合服用補充劑之前，尤其是在服用處方藥物時，請務必諮詢合格的醫療專業人員。",
       "ctaText": "想為您的整個補充劑清單獲得自動提醒和完整的交互作用追蹤嗎?",
       "ctaButton": "取得應用程式",
-      "addedBadge": "已新增"
+      "addedBadge": "已新增",
+      "databaseTitle": "完整補充劑資料庫",
+      "databaseSubtitle": "瀏覽下方全部 {count} 種補充劑——包含每種的服用時間、類別與簡短說明。"
     }
   },
   "de": {
@@ -1066,7 +1078,9 @@ export const I18N = {
       "disclaimer": "Dieses Tool dient nur zu Informationszwecken und ersetzt keine professionelle medizinische Beratung. Konsultieren Sie stets eine qualifizierte Fachkraft, bevor Sie Präparate beginnen, absetzen oder kombinieren — insbesondere bei verschreibungspflichtigen Medikamenten.",
       "ctaText": "Möchten Sie automatische Erinnerungen und vollständiges Wechselwirkungs-Tracking für Ihren gesamten Stack?",
       "ctaButton": "App herunterladen",
-      "addedBadge": "Hinzugefügt"
+      "addedBadge": "Hinzugefügt",
+      "databaseTitle": "Vollständige Nahrungsergänzungsmittel-Datenbank",
+      "databaseSubtitle": "Alle {count} Nahrungsergänzungsmittel im Überblick — mit Einnahmezeit, Kategorie und kurzer Zusammenfassung."
     }
   },
   "es": {
@@ -1218,7 +1232,9 @@ export const I18N = {
       "disclaimer": "Esta herramienta tiene fines educativos únicamente y no sustituye el consejo médico profesional. Consulta siempre a un profesional de la salud cualificado antes de iniciar, suspender o combinar suplementos, especialmente si tomas medicación recetada.",
       "ctaText": "¿Quieres recordatorios automáticos y seguimiento completo de interacciones para toda tu combinación?",
       "ctaButton": "Obtener la App",
-      "addedBadge": "Añadido"
+      "addedBadge": "Añadido",
+      "databaseTitle": "Base de datos completa de suplementos",
+      "databaseSubtitle": "Consulta los {count} suplementos a continuación, con horario, categoría y un breve resumen de cada uno."
     }
   },
   "pt-br": {
@@ -1370,7 +1386,9 @@ export const I18N = {
       "disclaimer": "Esta ferramenta tem fins apenas educativos e não substitui o aconselhamento médico profissional. Consulte sempre um profissional de saúde qualificado antes de iniciar, interromper ou combinar suplementos, especialmente se você usa medicação prescrita.",
       "ctaText": "Quer lembretes automáticos e rastreamento completo de interações para toda a sua combinação?",
       "ctaButton": "Baixar o App",
-      "addedBadge": "Adicionado"
+      "addedBadge": "Adicionado",
+      "databaseTitle": "Banco de Dados Completo de Suplementos",
+      "databaseSubtitle": "Veja abaixo todos os {count} suplementos — horário, categoria e um resumo rápido de cada um."
     }
   },
   "it": {
@@ -1522,7 +1540,9 @@ export const I18N = {
       "disclaimer": "Questo strumento ha solo scopo educativo e non sostituisce il parere medico professionale. Consulta sempre un professionista sanitario qualificato prima di iniziare, interrompere o combinare integratori, specialmente se assumi farmaci su prescrizione.",
       "ctaText": "Vuoi promemoria automatici e monitoraggio completo delle interazioni per tutta la tua combinazione?",
       "ctaButton": "Scarica l'App",
-      "addedBadge": "Aggiunto"
+      "addedBadge": "Aggiunto",
+      "databaseTitle": "Database Completo degli Integratori",
+      "databaseSubtitle": "Sfoglia tutti i {count} integratori qui sotto — tempistica, categoria e una breve descrizione per ciascuno."
     }
   },
   "nl": {
@@ -1674,7 +1694,9 @@ export const I18N = {
       "disclaimer": "Deze tool is uitsluitend bedoeld voor educatieve doeleinden en vervangt geen professioneel medisch advies. Raadpleeg altijd een gekwalificeerde zorgverlener voordat je supplementen start, stopt of combineert — zeker als je voorgeschreven medicatie gebruikt.",
       "ctaText": "Wil je automatische herinneringen en volledige interactietracking voor je hele stack?",
       "ctaButton": "Download de App",
-      "addedBadge": "Toegevoegd"
+      "addedBadge": "Toegevoegd",
+      "databaseTitle": "Volledige Supplementendatabase",
+      "databaseSubtitle": "Bekijk hieronder alle {count} supplementen — met tijdstip, categorie en een korte samenvatting per stuk."
     }
   },
   "pl": {
@@ -1826,7 +1848,9 @@ export const I18N = {
       "disclaimer": "To narzędzie służy wyłącznie celom edukacyjnym i nie zastępuje profesjonalnej porady medycznej. Zawsze skonsultuj się z wykwalifikowanym pracownikiem służby zdrowia przed rozpoczęciem, zaprzestaniem lub łączeniem suplementów — szczególnie jeśli przyjmujesz leki na receptę.",
       "ctaText": "Chcesz automatyczne przypomnienia i pełne śledzenie interakcji dla całego swojego zestawu?",
       "ctaButton": "Pobierz Aplikację",
-      "addedBadge": "Dodano"
+      "addedBadge": "Dodano",
+      "databaseTitle": "Pełna Baza Suplementów",
+      "databaseSubtitle": "Przejrzyj poniżej wszystkie {count} suplementów — z porą przyjmowania, kategorią i krótkim opisem każdego z nich."
     }
   },
   "ru": {
@@ -1978,7 +2002,9 @@ export const I18N = {
       "disclaimer": "Этот инструмент предназначен только для образовательных целей и не заменяет профессиональную медицинскую консультацию. Всегда консультируйтесь с квалифицированным специалистом здравоохранения перед началом, прекращением или сочетанием приёма добавок — особенно если вы принимаете рецептурные препараты.",
       "ctaText": "Хотите автоматические напоминания и полное отслеживание взаимодействий для всего вашего набора?",
       "ctaButton": "Скачать приложение",
-      "addedBadge": "Добавлено"
+      "addedBadge": "Добавлено",
+      "databaseTitle": "Полная база данных добавок",
+      "databaseSubtitle": "Просмотрите все {count} добавок ниже — время приёма, категория и краткое описание для каждой."
     }
   },
   "id": {
@@ -2130,7 +2156,9 @@ export const I18N = {
       "disclaimer": "Alat ini hanya untuk tujuan edukasi dan bukan pengganti nasihat medis profesional. Selalu konsultasikan dengan tenaga kesehatan yang kompeten sebelum memulai, menghentikan, atau menggabungkan suplemen — terutama jika Anda mengonsumsi obat resep.",
       "ctaText": "Ingin pengingat otomatis dan pelacakan interaksi lengkap untuk seluruh daftar suplemen Anda?",
       "ctaButton": "Unduh Aplikasi",
-      "addedBadge": "Ditambahkan"
+      "addedBadge": "Ditambahkan",
+      "databaseTitle": "Basis Data Suplemen Lengkap",
+      "databaseSubtitle": "Jelajahi semua {count} suplemen di bawah ini — waktu konsumsi, kategori, dan ringkasan singkat untuk masing-masing."
     }
   },
   "vi": {
@@ -2282,7 +2310,9 @@ export const I18N = {
       "disclaimer": "Công cụ này chỉ nhằm mục đích giáo dục và không thay thế cho tư vấn y tế chuyên nghiệp. Luôn tham khảo ý kiến chuyên gia y tế có chuyên môn trước khi bắt đầu, ngừng hoặc kết hợp các sản phẩm bổ sung — đặc biệt nếu bạn đang dùng thuốc kê đơn.",
       "ctaText": "Bạn muốn nhận nhắc nhở tự động và theo dõi tương tác đầy đủ cho toàn bộ danh sách của mình?",
       "ctaButton": "Tải Ứng Dụng",
-      "addedBadge": "Đã thêm"
+      "addedBadge": "Đã thêm",
+      "databaseTitle": "Cơ Sở Dữ Liệu Đầy Đủ Về Thực Phẩm Chức Năng",
+      "databaseSubtitle": "Xem tất cả {count} loại thực phẩm chức năng bên dưới — thời điểm dùng, phân loại và tóm tắt ngắn gọn cho từng loại."
     }
   },
   "th": {
@@ -2434,7 +2464,9 @@ export const I18N = {
       "disclaimer": "เครื่องมือนี้มีไว้เพื่อวัตถุประสงค์ทางการศึกษาเท่านั้น และไม่สามารถทดแทนคำแนะนำทางการแพทย์จากผู้เชี่ยวชาญได้ ควรปรึกษาผู้เชี่ยวชาญด้านสุขภาพที่มีคุณสมบัติเหมาะสมก่อนเริ่ม หยุด หรือรับประทานอาหารเสริมร่วมกัน โดยเฉพาะอย่างยิ่งหากคุณกำลังใช้ยาตามใบสั่งแพทย์",
       "ctaText": "ต้องการการแจ้งเตือนอัตโนมัติและการติดตามปฏิกิริยาแบบเต็มรูปแบบสำหรับรายการทั้งหมดของคุณหรือไม่?",
       "ctaButton": "ดาวน์โหลดแอป",
-      "addedBadge": "เพิ่มแล้ว"
+      "addedBadge": "เพิ่มแล้ว",
+      "databaseTitle": "ฐานข้อมูลอาหารเสริมฉบับสมบูรณ์",
+      "databaseSubtitle": "ดูอาหารเสริมทั้งหมด {count} รายการด้านล่าง — เวลาที่ควรทาน หมวดหมู่ และสรุปสั้นๆ ของแต่ละรายการ"
     }
   },
   "ar": {
@@ -2586,11 +2618,12 @@ export const I18N = {
       "disclaimer": "هذه الأداة مخصصة لأغراض تعليمية فقط ولا تُغني عن الاستشارة الطبية المتخصصة. يُرجى دائمًا استشارة أخصائي رعاية صحية مؤهل قبل بدء تناول المكملات أو إيقافها أو الجمع بينها — خاصة إذا كنت تتناول أدوية موصوفة.",
       "ctaText": "هل ترغب في تذكيرات تلقائية وتتبع كامل للتفاعلات لكامل قائمتك؟",
       "ctaButton": "احصل على التطبيق",
-      "addedBadge": "تمت الإضافة"
+      "addedBadge": "تمت الإضافة",
+      "databaseTitle": "قاعدة بيانات المكملات الكاملة",
+      "databaseSubtitle": "تصفح جميع المكملات البالغ عددها {count} أدناه — التوقيت والفئة وملخص موجز لكل منها."
     }
   }
 };
-
 export const REVIEWS = [
   {
     "id": 1,

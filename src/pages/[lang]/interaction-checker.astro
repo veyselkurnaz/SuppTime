@@ -21,7 +21,7 @@ const supplements = (dataFor(lang) || dataFor('en')).supplements;
 
 const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
 const alternateUrls: Record<string, string> = {};
-LANG_ORDER.forEach(code => { alternateUrls[code] = `/${code}/interaction-checker`; });
+LANG_ORDER.forEach(code => { alternateUrls[code] = `/${code}/interaction-checker/`; });
 
 const schema = {
   "@context": "https://schema.org",
@@ -80,6 +80,25 @@ const schema = {
     </section>
 
     <p class="checker-disclaimer">{t.checker.disclaimer}</p>
+
+    <section class="checker-database">
+      <h2 class="checker-db-title">{t.checker.databaseTitle}</h2>
+      <p class="checker-db-subtitle">{t.checker.databaseSubtitle.replace('{count}', String(supplements.length))}</p>
+      <div class="checker-db-grid">
+        {supplements.map((s: any) => (
+          <div class="db-card glass">
+            <div class="db-card-head">
+              <span class="db-card-emoji">{s.emoji || '💊'}</span>
+              <span class="db-card-name">{s.name}</span>
+            </div>
+            <p class="db-card-desc">{s.shortDescription}</p>
+            {s.timing?.preferredTime && (
+              <p class="db-card-timing">{s.timing.preferredTime}{s.timing.takeWithFood ? ' · with food' : ''}</p>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
 
     <section class="checker-cta glass">
       <p>{t.checker.ctaText}</p>
@@ -329,6 +348,19 @@ const schema = {
     display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center;
   }
   .checker-cta p { margin: 0; font-size: 15px; color: var(--ink-soft); }
+
+  .checker-database { max-width: var(--maxw); margin: 64px auto 0; }
+  .checker-db-title { font-size: 22px; font-weight: 700; margin: 0 0 8px; text-align: center; }
+  .checker-db-subtitle { font-size: 14px; color: var(--ink-muted); text-align: center; margin: 0 0 32px; }
+  .checker-db-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px;
+  }
+  .db-card { padding: 16px; }
+  .db-card-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .db-card-emoji { font-size: 16px; }
+  .db-card-name { font-size: 14.5px; font-weight: 600; }
+  .db-card-desc { font-size: 13px; line-height: 1.5; color: var(--ink-soft); margin: 0 0 6px; }
+  .db-card-timing { font-size: 12px; color: var(--ink-muted); margin: 0; text-transform: capitalize; font-family: var(--mono); }
 
   [dir="rtl"] .stack-chip { padding: 8px 12px 8px 8px; }
 </style>

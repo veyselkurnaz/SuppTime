@@ -11,6 +11,12 @@ export async function GET() {
     content += `## ${post.data.title}\n\n`;
     content += `**Description**: ${post.data.description}\n\n`;
     content += `${post.body}\n\n`;
+    if (post.data.faq && post.data.faq.length > 0) {
+      content += `### Frequently Asked Questions\n\n`;
+      for (const item of post.data.faq as { q: string; a: string }[]) {
+        content += `**Q: ${item.q}**\n${item.a}\n\n`;
+      }
+    }
     content += `---\n\n`;
   }
 

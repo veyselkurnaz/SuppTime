@@ -59,7 +59,17 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
     <link rel="apple-touch-icon" href="/assets/watchos.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Non-blocking font load: fetch the stylesheet without blocking render, then
+         swap it in; falls back to a blocking <link> for no-JS/no-preload-support clients. -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Pretendard:wght@400;500;600;700&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    </noscript>
     <link rel="stylesheet" href="/styles.css" />
     {hasMath && (
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous" />
@@ -145,7 +155,10 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
       "alternateName": "SuppTime Vitamin Tracker",
       "description": "SuppTime builds a private, offline supplement and vitamin tracker for iPhone and Apple Watch.",
       "url": "https://supptime.app",
-      "logo": "https://supptime.app/assets/watchos.png",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://supptime.app/assets/watchos.png"
+      },
       "sameAs": [
         "https://apps.apple.com/app/id6762088156"
       ],

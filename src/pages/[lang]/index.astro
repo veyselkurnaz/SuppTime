@@ -127,7 +127,7 @@ const schema = [faqSchema];
                   </div>
                   <div class="hero-shot-card">
                       <!-- Fallback handling in SSR isn't identical to client side onerror, so we output straight path -->
-                      <img src={`/screens/${lang}/1.webp`} onerror={`this.src='/screens/en/1.webp'`} alt="SuppTime" class="hero-shot" fetchpriority="high" />
+                      <img src={`/screens/${lang}/1.webp`} onerror={`this.src='/screens/en/1.webp'`} alt="SuppTime" class="hero-shot" fetchpriority="high" width="800" height="1731" />
                   </div>
               </div>
           </div>
@@ -167,7 +167,7 @@ const schema = [faqSchema];
           <div class="gallery-row">
             {[1, 2, 3, 4].map((n, i) => (
               <figure class="gallery-card" style={`--i: ${i}`}>
-                <img src={`/screens/${lang}/${n}.webp`} onerror={`this.src='/screens/en/${n}.webp'`} class="gallery-img" loading={n > 1 ? 'lazy' : 'eager'} />
+                <img src={`/screens/${lang}/${n}.webp`} onerror={`this.src='/screens/en/${n}.webp'`} class="gallery-img" loading="lazy" width="800" height="1731" />
               </figure>
             ))}
           </div>
@@ -190,7 +190,7 @@ const schema = [faqSchema];
               </div>
               <div class="watch-stage">
                   <div class="watch-stage-glow"></div>
-                  <img src={`/screens/${lang}/5.webp`} onerror={`this.src='/screens/en/5.webp'`} alt="Apple Watch SuppTime" class="watch-static-img" loading="lazy" />
+                  <img src={`/screens/${lang}/5.webp`} onerror={`this.src='/screens/en/5.webp'`} alt="Apple Watch SuppTime" class="watch-static-img" loading="lazy" width="800" height="1731" />
               </div>
           </div>
       </section>
