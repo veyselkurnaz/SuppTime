@@ -4,6 +4,15 @@ description: "Temukan waktu terbaik yang didukung sains untuk mengonsumsi suplem
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
 image: "/assets/vitamin_d_cover.webp"
+faq:
+  - q: "Sebaiknya saya minum Vitamin D2 atau D3?"
+    a: "Selalu pilih D3 (kolekalsiferol). Studi secara konsisten menunjukkan bahwa D3 hingga 87% lebih efektif dibandingkan D2 (ergokalsiferol) dalam meningkatkan dan mempertahankan kadar aktif kalsifediol dalam darah."
+  - q: "Apakah saya perlu minum Vitamin D bersama makanan?"
+    a: "Ya. Vitamin D larut dalam lemak dan membutuhkan lemak dari makanan agar dapat terserap — meminumnya bersama makanan terbesar dan paling berlemak dalam sehari dapat meningkatkan penyerapan sebesar 50-60% dibandingkan dalam keadaan perut kosong."
+  - q: "Bisakah minum Vitamin D di malam hari mengganggu tidur saya?"
+    a: "Untuk sebagian orang, ya. Vitamin D memiliki hubungan berbanding terbalik dengan produksi melatonin, sehingga dosis tinggi yang diminum tepat sebelum tidur dikaitkan dengan meningkatnya waktu untuk tertidur, berkurangnya tidur REM, dan lebih sering terbangun di malam hari."
+  - q: "Mengapa saya perlu magnesium dan Vitamin K2 bersama Vitamin D?"
+    a: "Magnesium diperlukan pada setiap tahap konversi Vitamin D menjadi bentuk aktifnya (kalsitriol), dan Vitamin K2 mengarahkan kalsium yang diserap berkat Vitamin D ke tulang, bukan ke arteri."
 ---
 
 Vitamin D jauh lebih dari sekadar vitamin biasa; di dalam tubuh manusia, ia berfungsi sebagai prohormon dan memainkan peran krusial dalam kepadatan tulang, pengaturan sistem imun, produksi testosteron, dan stabilisasi suasana hati. Terlepas dari kepentingan sistemik yang masif ini, data epidemiologi saat ini menunjukkan bahwa lebih dari 50% populasi global mengalami defisiensi atau kekurangan vitamin D.

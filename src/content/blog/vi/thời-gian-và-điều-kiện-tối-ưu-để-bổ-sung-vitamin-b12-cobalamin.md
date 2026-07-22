@@ -4,6 +4,15 @@ description: "Bạn nên uống Vitamin B12 vào buổi sáng hay buổi tối? 
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
 image: "/assets/b12_cover.webp"
+faq:
+  - q: "Nên uống B12 vào buổi sáng hay buổi tối?"
+    a: "Buổi sáng, khi bụng đói. B12 hỗ trợ sản xuất năng lượng tế bào và có thể ức chế giải phóng melatonin, vì vậy uống trước khi ngủ có thể gây khó ngủ ở những người nhạy cảm."
+  - q: "B12 nên uống cùng thức ăn hay khi bụng đói?"
+    a: "Nên uống khi bụng đói chỉ với nước, lý tưởng là 30 phút trước khi ăn hoặc 2 giờ sau bữa ăn. B12 bổ sung đã ở dạng tự do (tinh thể) và không cần axit dạ dày để hấp thụ, khác với B12 gắn trong thực phẩm."
+  - q: "Sự khác biệt giữa cyanocobalamin và methylcobalamin là gì?"
+    a: "Cyanocobalamin là dạng tổng hợp, rất ổn định và có thời hạn sử dụng dài, trong khi methylcobalamin là dạng sinh học tự nhiên có trong thực phẩm, được giữ lại lâu hơn trong mô nhưng phân hủy nhanh hơn khi tiếp xúc với ánh sáng. Khi vào trong tế bào, cả hai đều được chuyển hóa thành cùng các dạng hoạt động."
+  - q: "Cà phê hoặc vitamin C có ảnh hưởng đến hấp thụ B12 không?"
+    a: "Có. Vitamin C liều cao có thể phá vỡ cấu trúc hóa học của B12, và việc uống nhiều cà phê thường xuyên có liên quan đến nồng độ B12 huyết thanh thấp hơn. Hãy tách B12 khỏi vitamin C ít nhất 2 giờ và khỏi cà phê 30-60 phút."
 ---
 
 # Thời Gian và Điều Kiện Tối Ưu Để Bổ Sung Vitamin B12 (Cobalamin)

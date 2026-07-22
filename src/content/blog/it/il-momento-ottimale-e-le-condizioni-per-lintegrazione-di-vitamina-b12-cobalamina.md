@@ -4,6 +4,15 @@ description: "Dovresti assumere la Vitamina B12 al mattino o alla sera? Viene as
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
 image: "/assets/b12_cover.webp"
+faq:
+  - q: "È meglio assumere la B12 al mattino o alla sera?"
+    a: "Al mattino, a stomaco vuoto. La B12 sostiene la produzione di energia cellulare e può sopprimere il rilascio di melatonina, quindi assumerla prima di dormire può causare difficoltà ad addormentarsi nelle persone più sensibili."
+  - q: "La B12 va assunta con il cibo o a stomaco vuoto?"
+    a: "A stomaco vuoto con sola acqua, idealmente 30 minuti prima di mangiare o 2 ore dopo un pasto. La B12 integrata è già in forma libera (cristallina) e non necessita di acidità gastrica per essere assorbita, a differenza della B12 legata agli alimenti."
+  - q: "Qual è la differenza tra cianocobalamina e metilcobalamina?"
+    a: "La cianocobalamina è sintetica, molto stabile e con una lunga durata di conservazione, mentre la metilcobalamina è la forma bioidentica presente negli alimenti, viene trattenuta più a lungo nei tessuti ma si degrada più rapidamente se esposta alla luce. Una volta all'interno della cellula, entrambe vengono convertite nelle stesse forme attive."
+  - q: "Caffè o vitamina C possono interferire con l'assorbimento della B12?"
+    a: "Sì. La vitamina C ad alte dosi può degradare chimicamente la struttura della B12, e un consumo abituale ed elevato di caffè è associato a livelli sierici di B12 più bassi. Separa la B12 dalla vitamina C di almeno 2 ore e dal caffè di 30-60 minuti."
 ---
 
 # Il Momento Ottimale e le Condizioni per l'Integrazione di Vitamina B12 (Cobalamina)

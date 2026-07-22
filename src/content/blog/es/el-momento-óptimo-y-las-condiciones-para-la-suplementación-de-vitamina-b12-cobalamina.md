@@ -4,6 +4,15 @@ description: "¿Debería tomar Vitamina B12 por la mañana o por la noche? ¿Se 
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
 image: "/assets/b12_cover.webp"
+faq:
+  - q: "¿Es mejor tomar B12 por la mañana o por la noche?"
+    a: "Por la mañana, con el estómago vacío. La B12 favorece la producción de energía celular y puede suprimir la liberación de melatonina, por lo que tomarla antes de dormir podría dificultar conciliar el sueño en personas sensibles."
+  - q: "¿La B12 debe tomarse con comida o con el estómago vacío?"
+    a: "Con el estómago vacío y solo agua, idealmente 30 minutos antes de comer o 2 horas después de una comida. La B12 suplementaria ya se encuentra en forma libre (cristalina) y no necesita ácido estomacal para absorberse, a diferencia de la B12 unida a los alimentos."
+  - q: "¿Cuál es la diferencia entre la cianocobalamina y la metilcobalamina?"
+    a: "La cianocobalamina es sintética, muy estable y con una vida útil larga, mientras que la metilcobalamina es la forma bioidéntica presente en los alimentos, se retiene más tiempo en los tejidos pero se degrada más rápido con la luz. Una vez dentro de la célula, ambas se convierten en las mismas formas activas."
+  - q: "¿El café o la vitamina C pueden interferir con la absorción de B12?"
+    a: "Sí. Dosis altas de vitamina C pueden degradar químicamente la estructura de la B12, y el consumo habitual y elevado de café se asocia con niveles séricos más bajos de B12. Separa la B12 de la vitamina C por al menos 2 horas y del café por 30 a 60 minutos."
 ---
 
 # El Momento Óptimo y las Condiciones para la Suplementación de Vitamina B12 (Cobalamina)

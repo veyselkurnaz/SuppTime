@@ -5,6 +5,15 @@ pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
 image: "/assets/iron_cover.webp"
+faq:
+  - q: "¿Cuál es el mejor momento del día para tomar hierro?"
+    a: "Tómalo por la mañana, con el estómago vacío. En ese momento la hepcidina circulante —la hormona que bloquea la absorción de hierro— está en su punto más bajo, lo que permite que entre a la sangre significativamente más hierro que con una dosis tomada por la tarde o por la noche."
+  - q: "¿Puedo tomar hierro y calcio al mismo tiempo?"
+    a: "No. Ingerir 500 mg de carbonato de calcio junto con una comida que contenga hierro reduce la absorción fraccional de hierro en más del 50%. Separa el hierro y el calcio por al menos 2 horas."
+  - q: "¿La vitamina C realmente ayuda a absorber el hierro?"
+    a: "Sí. El ácido ascórbico convierte el hierro férrico insoluble (Fe3+) en su forma ferrosa soluble (Fe2+) y lo protege de unirse a fitatos y polifenoles, lo que la convierte en el potenciador más eficaz de la absorción de hierro no hemo."
+  - q: "¿Debo tomar hierro todos los días o en días alternos?"
+    a: "Los ensayos clínicos muestran que la dosificación en días alternos (cada 48 horas) aumenta la absorción fraccional de hierro entre un 40 y un 50% respecto a la dosificación diaria, ya que evita el bloqueo de la mucosa inducido por la hepcidina que provocan las dosis altas diarias."
 ---
 
 El hierro es un micronutriente indispensable que funciona como cofactor estructural y catalítico en el transporte de oxígeno, la respiración celular y la síntesis de ADN. A pesar de su abundancia en la naturaleza, el hierro es con frecuencia un nutriente limitante del crecimiento en la dieta humana. Debido a que los humanos no poseen ningún mecanismo fisiológico para la excreción activa de hierro, el equilibrio sistémico del hierro se mantiene exclusivamente a nivel de la absorción intestinal.

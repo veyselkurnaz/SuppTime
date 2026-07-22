@@ -4,6 +4,13 @@ description: "Omega-3 (EPA/DHA) takviyelerinin kronofarmakolojisini keşfedin. B
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
 image: "/assets/omega3_cover.webp"
+faq:
+  - q: "Balık yağını aç karnına alınca neden işe yaramıyor?"
+    a: "Omega-3'ler oldukça hidrofobiktir ve bağırsakta safra salgılanmasını ve misel oluşumunu tetiklemek için diyet yağına ihtiyaç duyar. Birlikte yağ alınmazsa yağ emülsifiye edilemez ve pankreatik lipazlar ona erişemez, bu yüzden büyük bir kısmı emilmeden vücuttan atılır — buna 'yağsız öğün paradoksu' denir."
+  - q: "Omega-3 takviyemle birlikte ne yemeliyim?"
+    a: "Sızma zeytinyağı, avokado, yumurta veya yağlı bir öğün gibi bir diyet yağı kaynağı. Bu, kolesistokinin (CCK) salınımını tetikleyerek safra kesesinin, emilebilir miseller oluşturmak için gereken safra asitlerini salgılamasını sağlar."
+  - q: "Su içmek balık yağının emilimine yardımcı olur mu?"
+    a: "Hayır. Su hidrofobik lipidleri emülsifiye etmez — aç karnına tek başına içildiğinde, mevcut az miktardaki sindirim enzimlerini seyrelterek emilmeyen yağı bağırsak duvarından daha da uzaklaştırabilir."
 ---
 
 Uzun zincirli deniz kaynaklı omega-3 çoklu doymamış yağ asitlerinin ($\text{PUFAs}$), özellikle eikosapentaenoik asit ($\text{EPA}$) ve dokosahekzaenoik asitin ($\text{DHA}$) terapötik etkinliği, tamamen bağırsaklardaki biyoyararlanımlarına (bioavailability) bağlıdır. Klinik beslenmede, terapötik başarısızlığın ana kaynaklarından biri "yağsız öğün paradoksu"dur; yani son derece hidrofobik deniz lipidlerinin açlık durumunda veya yağsız öğünlerle birlikte uygulanması. Yüksek dozlarda alınmasına rağmen, lipidlerin birlikte sindirildiği yapısal bir matrisin olmaması, insan gastrointestinal sisteminin sulu (aqueous) ortamında lipid emilimi için gereken fiziksel ve enzimatik mekanizmaları engeller. Bu klinik analiz, $\text{EPA}$ ve $\text{DHA}$'nın sindirimini ve emilimini yöneten biyofiziksel, biyokimyasal ve kronofarmakolojik ilkeleri detaylandırmaktadır.

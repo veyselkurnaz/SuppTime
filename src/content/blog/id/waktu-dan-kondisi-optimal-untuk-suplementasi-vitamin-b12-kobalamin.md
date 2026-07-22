@@ -4,6 +4,15 @@ description: "Apakah Anda harus mengonsumsi Vitamin B12 di pagi atau malam hari?
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
 image: "/assets/b12_cover.webp"
+faq:
+  - q: "Lebih baik minum B12 di pagi hari atau malam hari?"
+    a: "Pagi hari, dalam keadaan perut kosong. B12 mendukung produksi energi sel dan dapat menekan pelepasan melatonin, sehingga meminumnya sebelum tidur dapat menyebabkan kesulitan tidur pada sebagian orang yang sensitif."
+  - q: "Sebaiknya B12 diminum bersama makanan atau dalam keadaan perut kosong?"
+    a: "Dalam keadaan perut kosong hanya dengan air, idealnya 30 menit sebelum makan atau 2 jam setelah makan. B12 suplemen sudah dalam bentuk bebas (kristalin) dan tidak memerlukan asam lambung untuk terserap, berbeda dengan B12 yang terikat pada makanan."
+  - q: "Apa perbedaan antara sianokobalamin dan metilkobalamin?"
+    a: "Sianokobalamin bersifat sintetis dan sangat stabil dengan masa simpan yang panjang, sementara metilkobalamin adalah bentuk bioidentik yang ditemukan dalam makanan dan bertahan lebih lama dalam jaringan tetapi lebih cepat terurai bila terkena cahaya. Setelah masuk ke dalam sel, keduanya diubah menjadi bentuk aktif yang sama."
+  - q: "Bisakah kopi atau vitamin C mengganggu penyerapan B12?"
+    a: "Ya. Vitamin C dosis tinggi dapat merusak struktur kimia B12 secara langsung, dan konsumsi kopi berat secara rutin dikaitkan dengan kadar B12 serum yang lebih rendah. Beri jeda minimal 2 jam antara B12 dan vitamin C, serta 30-60 menit dari kopi."
 ---
 
 # Waktu dan Kondisi Optimal untuk Suplementasi Vitamin B12 (Kobalamin)

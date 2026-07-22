@@ -4,6 +4,13 @@ description: "Analisis klinis tentang tipe kolagen, kinetika absorpsi, waktu opt
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
 image: "/assets/collagen_cover.webp"
+faq:
+  - q: "Jenis kolagen mana yang terbaik untuk nyeri sendi?"
+    a: "Kolagen Tipe II, yang menyusun 90-95% tulang rawan pada sendi. Strukturnya berbeda dari kolagen Tipe I/III yang ditemukan pada sebagian besar suplemen yang berfokus pada kulit dan rambut."
+  - q: "Sumber kolagen mana yang paling mudah diserap?"
+    a: "Kolagen marine (dari ikan), karena berat molekulnya yang sangat rendah (bisa di bawah 600 Da setelah hidrolisis), memberikan tingkat penyerapan usus terbaik di antara sumber-sumber umum (sapi, babi, marine)."
+  - q: "Apakah saya perlu vitamin C bersama suplemen kolagen?"
+    a: "Ya. Vitamin C (asam askorbat) adalah kofaktor penting bagi enzim yang mensintesis kolagen baru dalam tubuh — tanpa vitamin C yang cukup, peptida kolagen suplemen memiliki lebih sedikit bahan baku untuk dibangun menjadi kolagen fungsional."
 ---
 
 # Panduan Penggunaan Kolagen: Tipe Struktural, Kinetika Absorpsi, dan Analisis Ilmiah Kofaktor Metabolik

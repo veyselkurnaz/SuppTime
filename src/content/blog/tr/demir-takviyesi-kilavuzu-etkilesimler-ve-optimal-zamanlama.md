@@ -5,6 +5,15 @@ pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
 image: "/assets/iron_cover.webp"
+faq:
+  - q: "Demir takviyesini günün hangi saatinde almak en iyisidir?"
+    a: "Demiri sabah, aç karnına alın. Demir emilimini engelleyen hormon olan hepsidin seviyesi o saatte en düşük noktasındadır, bu da öğleden sonra veya akşam alınan bir doza kıyasla kan dolaşımına çok daha fazla demirin geçmesine izin verir."
+  - q: "Demir ve kalsiyumu aynı anda alabilir miyim?"
+    a: "Hayır. Demir içeren bir öğünle birlikte 500 mg kalsiyum karbonat alınması, fraksiyonel demir emilimini %50'nin üzerinde azaltır. Demir ile kalsiyum arasında en az 2 saat ara bırakın."
+  - q: "C vitamini gerçekten demir emilimine yardımcı olur mu?"
+    a: "Evet. Askorbik asit, suda çözünmeyen ferrik demiri (Fe3+) çözünür ferröz forma (Fe2+) dönüştürür ve onu fitatlara ve polifenollere bağlanmaktan korur; bu da onu hem içermeyen (non-heme) demir emilimini artıran en etkili bileşen yapar."
+  - q: "Demiri her gün mü yoksa gün aşırı mı almalıyım?"
+    a: "Klinik çalışmalar, gün aşırı dozlamanın (48 saatte bir) günlük dozlamaya kıyasla fraksiyonel demir emilimini %40-50 oranında artırdığını göstermektedir, çünkü bu şekilde günlük yüksek dozların tetiklediği hepsidin kaynaklı mukozal bloke önlenmiş olur."
 ---
 
 Demir, oksijen taşınması, hücresel solunum ve DNA sentezinde yapısal ve katalitik bir kofaktör olarak işlev gören vazgeçilmez bir mikro besindir. Çevresel bolluğuna rağmen, insan diyetinde sıklıkla büyüme sınırlayıcı bir besin maddesi konumundadır. İnsanlarda aktif demir atılımı için fizyolojik bir mekanizma bulunmadığından, sistemik demir dengesi tamamen bağırsak emilimi seviyesinde korunur.

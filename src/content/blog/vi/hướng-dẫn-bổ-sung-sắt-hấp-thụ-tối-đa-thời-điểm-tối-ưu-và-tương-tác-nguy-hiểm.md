@@ -5,6 +5,15 @@ pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
 image: "/assets/iron_cover.webp"
+faq:
+  - q: "Thời điểm tốt nhất trong ngày để uống bổ sung sắt là khi nào?"
+    a: "Nên uống sắt vào buổi sáng khi bụng đói. Đây là lúc nồng độ hepcidin lưu hành - hormone ngăn chặn hấp thụ sắt - ở mức thấp nhất, cho phép lượng sắt đi vào máu nhiều hơn đáng kể so với liều dùng vào buổi chiều hoặc tối."
+  - q: "Tôi có thể uống sắt và canxi cùng lúc không?"
+    a: "Không nên. Việc dùng chung 500mg canxi carbonat với bữa ăn có chứa sắt làm giảm hơn 50% tỷ lệ hấp thụ sắt. Hãy tách sắt và canxi ra ít nhất 2 giờ."
+  - q: "Vitamin C có thực sự giúp hấp thụ sắt tốt hơn không?"
+    a: "Có. Axit ascorbic chuyển hóa sắt dạng ferric không tan (Fe3+) thành dạng ferrous hòa tan (Fe2+) và bảo vệ nó khỏi liên kết với phytat và polyphenol, khiến vitamin C trở thành chất tăng cường hấp thụ sắt non-heme hiệu quả nhất."
+  - q: "Tôi nên uống sắt mỗi ngày hay cách ngày?"
+    a: "Các thử nghiệm lâm sàng cho thấy dùng liều cách ngày (mỗi 48 giờ) làm tăng tỷ lệ hấp thụ sắt lên 40-50% so với dùng hàng ngày, vì cách này tránh được sự ức chế niêm mạc do hepcidin gây ra khi dùng liều cao hàng ngày."
 ---
 
 Sắt là một vi chất dinh dưỡng không thể thiếu có chức năng như một đồng yếu tố cấu trúc và xúc tác trong quá trình vận chuyển oxy, hô hấp tế bào và tổng hợp DNA. Mặc dù có nhiều trong tự nhiên, sắt thường là một chất dinh dưỡng hạn chế sự phát triển trong chế độ ăn uống của con người. Vì con người không có cơ chế sinh lý nào để bài tiết sắt chủ động, sự cân bằng sắt toàn thân được duy trì độc quyền ở mức độ hấp thụ ở ruột.

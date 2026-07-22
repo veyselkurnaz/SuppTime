@@ -5,6 +5,15 @@ pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 image: "/assets/magnesium_cover.webp"
+faq:
+  - q: "Która forma magnezu jest najlepsza na sen?"
+    a: "Glicynian magnezu (diglicynian). Jest związany z glicyną, aminokwasem o działaniu uspokajającym, a badania kliniczne pokazują, że zmniejsza on nasilenie bezsenności i wspomaga rozluźnienie mięśni przy minimalnym ryzyku problemów trawiennych."
+  - q: "Której formy magnezu powinienem unikać?"
+    a: "Tlenku magnezu. Mimo wysokiej zawartości magnezu elementarnego wagowo, wchłania się z niego jedynie 4-15% – jest przydatny głównie jako krótkotrwały środek przeczyszczający, a nie do korygowania niedoboru."
+  - q: "Jaka forma magnezu jest najlepsza na zaparcia?"
+    a: "Cytrynian magnezu. Jest wysoce rozpuszczalny w wodzie i wciąga wodę do jelita grubego, pobudzając perystaltykę i łagodząc zaparcia w sposób bezpieczny i przewidywalny."
+  - q: "Czy mogę przyjmować magnez i wapń razem?"
+    a: "Nie w wysokich, skoncentrowanych dawkach jednocześnie – konkurują o ten sam szlak wchłaniania. Zamiast tego przyjmuj wapń rano z posiłkiem, a magnez wieczorem."
 ---
 
 Magnez jest niezastąpionym makroelementem zarządzającym rytmem metabolicznym ludzkiego organizmu. Działa jako kofaktor w ponad 600 reakcjach enzymatycznych, od produkcji energii komórkowej po kurczenie się mięśni.

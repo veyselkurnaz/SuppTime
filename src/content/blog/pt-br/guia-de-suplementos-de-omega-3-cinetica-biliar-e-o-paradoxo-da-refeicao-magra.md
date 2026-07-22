@@ -4,6 +4,13 @@ description: "Descubra a cronofarmacologia dos suplementos de ômega-3 (EPA/DHA)
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
 image: "/assets/omega3_cover.webp"
+faq:
+  - q: "Por que o óleo de peixe não funciona se eu o tomar com o estômago vazio?"
+    a: "Os ômega-3 são altamente hidrofóbicos e precisam de gordura alimentar para desencadear a liberação de bile e a formação de micelas no intestino. Sem gordura ingerida junto, o óleo não consegue ser emulsificado e as lipases pancreáticas não conseguem acessá-lo, então a maior parte passa sem ser absorvida — isso é chamado de 'paradoxo da refeição magra'."
+  - q: "O que devo comer junto com meu suplemento de ômega-3?"
+    a: "Uma fonte de gordura alimentar, como azeite de oliva extra virgem, abacate, ovos ou uma refeição gordurosa. Isso desencadeia a liberação de colecistoquinina (CCK), que faz a vesícula biliar liberar os ácidos biliares necessários para formar micelas absorvíveis."
+  - q: "Beber água ajuda a absorver o óleo de peixe?"
+    a: "Não. A água não emulsifica lipídios hidrofóbicos — tomada sozinha com o estômago vazio, ela pode até diluir os traços de enzimas digestivas presentes e afastar o óleo não absorvido da parede intestinal."
 ---
 
 A eficácia terapêutica dos ácidos graxos poli-insaturados ($\text{PUFAs}$) ômega-3 marinhos de cadeia longa, especificamente o ácido eicosapentaenoico ($\text{EPA}$) e o ácido docosahexaenoico ($\text{DHA}$), é estritamente regida por sua biodisponibilidade intestinal. Na nutrição clínica, uma das principais fontes de falha terapêutica é o "paradoxo da refeição magra" (lean-meal paradox) — a administração de lipídios marinhos altamente hidrofóbicos em jejum ou acompanhados de refeições sem gordura. Apesar da ingestão de altas doses nominais, a falta de uma matriz estruturada de co-ingestão de lipídios impede os mecanismos físicos e enzimáticos necessários para a absorção de lipídios no lúmen aquoso do trato gastrointestinal humano. Esta análise clínica detalha os princípios biofísicos, bioquímicos e cronofarmacológicos que ditam a digestão e absorção do $\text{EPA}$ e $\text{DHA}$.

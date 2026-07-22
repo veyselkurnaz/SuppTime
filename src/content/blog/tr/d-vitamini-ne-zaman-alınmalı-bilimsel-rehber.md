@@ -4,6 +4,15 @@ description: "Maksimum emilim için D vitamini takviyelerinizi günün hangi saa
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
 image: "/assets/vitamin_d_cover.webp"
+faq:
+  - q: "D Vitamini D2 mi yoksa D3 mü alınmalı?"
+    a: "Her zaman D3'ü (kolekalsiferol) tercih edin. Araştırmalar sürekli olarak D3'ün, kalsifediolün aktif kan seviyelerini yükseltmede ve korumada D2'ye (ergokalsiferol) kıyasla %87'ye kadar daha etkili olduğunu göstermektedir."
+  - q: "D Vitaminini yemekle birlikte almam gerekir mi?"
+    a: "Evet. D Vitamini yağda çözünür ve emilebilmesi için diyet yağına ihtiyaç duyar — günün en büyük ve en yağlı öğünüyle almak, aç karnına almaya kıyasla emilimi %50-60 oranında artırabilir."
+  - q: "D Vitaminini gece almak uykumu etkiler mi?"
+    a: "Bazı kişilerde evet. D Vitamininin melatonin üretimiyle ters bir ilişkisi vardır, bu yüzden yatmadan hemen önce alınan yüksek dozların uykuya dalma süresini uzattığı, REM uykusunu azalttığı ve gece uyanmalarını artırdığı gözlemlenmiştir."
+  - q: "D Vitamininin yanında neden magnezyum ve K2 vitaminine ihtiyacım var?"
+    a: "Magnezyum, D Vitamininin aktif forma (kalsitriol) dönüştürülmesinin her aşamasında gereklidir; K2 vitamini ise D Vitamininin emilmesine yardımcı olduğu kalsiyumu damarlara değil kemiklere yönlendirir."
 ---
 
 D Vitamini sıradan bir vitaminden çok daha fazlasıdır; insan vücudunda kemik yoğunluğu, bağışıklık sistemi regülasyonu, testosteron üretimi ve ruh hali stabilizasyonunda kritik rol oynayan bir prohormon (hormon öncüsü) olarak işlev görür. Bu muazzam sistemik önemine rağmen, güncel epidemiyolojik veriler küresel nüfusun %50'sinden fazlasının D vitamini eksikliği veya yetersizliği çektiğini göstermektedir.

@@ -4,6 +4,13 @@ description: "Temukan vitamin dan mineral mana yang tidak boleh Anda konsumsi be
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
 image: "/assets/supplement_interactions_cover.webp"
+faq:
+  - q: "Bolehkah saya minum kalsium dan zat besi bersamaan?"
+    a: "Tidak. Kalsium adalah penghambat kuat penyerapan zat besi non-heme — meminumnya bersamaan bisa sepenuhnya menghalangi zat besi masuk ke aliran darah. Beri jeda minimal 2 hingga 3 jam antara keduanya."
+  - q: "Amankah minum seng dan tembaga bersamaan?"
+    a: "Minumlah pada waktu yang berbeda dalam sehari. Seng dan tembaga bersaing memperebutkan jalur penyerapan usus yang sama, dan penggunaan seng dosis tinggi jangka panjang tanpa tembaga yang cukup dapat menyebabkan kekurangan tembaga."
+  - q: "Haruskah kalsium dan magnesium diminum pada waktu yang sama?"
+    a: "Sebaiknya tidak. Dosis tinggi kalsium dan magnesium bersaing memperebutkan reseptor seluler yang sama — minum kalsium di pagi hari bersama makanan dan magnesium di malam hari."
 ---
 
 Mengonsumsi suplemen adalah salah satu langkah paling proaktif yang dapat Anda ambil untuk kesehatan Anda. Namun, memperlakukan rutinitas suplemen harian Anda seperti prasmanan makan sepuasnya—menelan sepuluh pil berbeda sekaligus dengan kopi pagi Anda—secara ilmiah terbukti kontraproduktif, dan dalam beberapa kasus, bahkan berbahaya.

@@ -5,6 +5,15 @@ pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 image: "/assets/magnesium_cover.webp"
+faq:
+  - q: "Bentuk magnesium mana yang terbaik untuk tidur?"
+    a: "Magnesium glisinat (bisglisinat). Ia terikat dengan glisin, asam amino yang menenangkan, dan studi klinis menunjukkan bahwa bentuk ini mengurangi tingkat keparahan insomnia serta mendukung relaksasi otot dengan risiko gangguan pencernaan yang minimal."
+  - q: "Bentuk magnesium mana yang sebaiknya dihindari?"
+    a: "Magnesium oksida. Meskipun kandungan magnesium elementalnya tinggi per beratnya, hanya 4-15% yang benar-benar terserap tubuh — bentuk ini lebih berguna sebagai pencahar jangka pendek, bukan untuk mengatasi kekurangan magnesium."
+  - q: "Bentuk magnesium apa yang terbaik untuk sembelit?"
+    a: "Magnesium sitrat. Bentuk ini sangat larut dalam air dan menarik air ke usus besar, merangsang gerak peristaltik dan meredakan sembelit dengan aman dan konsisten."
+  - q: "Bolehkah saya minum magnesium dan kalsium bersamaan?"
+    a: "Sebaiknya tidak, dalam dosis tinggi yang terkonsentrasi pada waktu bersamaan — keduanya bersaing memperebutkan jalur penyerapan yang sama. Minum kalsium di pagi hari bersama makanan dan magnesium di malam hari."
 ---
 
 Sering digambarkan sebagai mesin utama fisiologi seluler, magnesium adalah makromineral yang sangat diperlukan yang mengatur ritme metabolisme tubuh manusia. Mineral ini bertindak sebagai kofaktor yang diperlukan di lebih dari 600 reaksi enzimatik, mengatur proses yang berkisar dari produksi energi seluler hingga transmisi saraf dan kontraksi otot.

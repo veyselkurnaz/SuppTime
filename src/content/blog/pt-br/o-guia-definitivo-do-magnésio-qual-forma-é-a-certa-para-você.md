@@ -5,6 +5,15 @@ pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 image: "/assets/magnesium_cover.webp"
+faq:
+  - q: "Qual forma de magnésio é melhor para o sono?"
+    a: "Glicinato de magnésio (bisglicinato). Ele está ligado à glicina, um aminoácido calmante, e estudos clínicos mostram que reduz a gravidade da insônia e apoia o relaxamento muscular com risco mínimo de desconforto digestivo."
+  - q: "Qual forma de magnésio devo evitar?"
+    a: "Óxido de magnésio. Apesar de ter um alto teor de magnésio elementar por peso, apenas 4-15% dele é realmente absorvido — é útil principalmente como laxante de curto prazo, não para corrigir uma deficiência."
+  - q: "Qual é a melhor forma de magnésio para constipação?"
+    a: "Citrato de magnésio. É altamente solúvel em água e atrai água para o cólon, estimulando o peristaltismo e aliviando a constipação de forma segura e previsível."
+  - q: "Posso tomar magnésio e cálcio juntos?"
+    a: "Não em doses altas e concentradas ao mesmo tempo — eles competem pela mesma via de absorção. Tome o cálcio pela manhã com alimentos e o magnésio à noite."
 ---
 
 Frequentemente descrito como um motor primário da fisiologia celular, o magnésio é um macromineral indispensável que governa os ritmos metabólicos do corpo humano. Atua como um cofator necessário em mais de 600 reações enzimáticas, regulando processos que vão desde a produção de energia celular até a neurotransmissão e a contração muscular.

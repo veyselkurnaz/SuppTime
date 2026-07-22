@@ -4,6 +4,15 @@ description: "Khám phá thời điểm tốt nhất trong ngày để bổ sung
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
 image: "/assets/vitamin_d_cover.webp"
+faq:
+  - q: "Tôi nên uống Vitamin D2 hay D3?"
+    a: "Luôn chọn D3 (cholecalciferol). Các nghiên cứu liên tục cho thấy D3 hiệu quả hơn D2 (ergocalciferol) tới 87% trong việc tăng và duy trì nồng độ calcifediol hoạt động trong máu."
+  - q: "Tôi có cần uống Vitamin D cùng thức ăn không?"
+    a: "Có. Vitamin D tan trong chất béo và cần chất béo trong khẩu phần để hấp thụ - uống cùng bữa ăn nhiều chất béo nhất trong ngày có thể tăng hấp thụ lên 50-60% so với khi bụng đói."
+  - q: "Uống Vitamin D vào ban đêm có ảnh hưởng đến giấc ngủ không?"
+    a: "Với một số người thì có. Vitamin D có mối quan hệ nghịch với việc sản xuất melatonin, vì vậy liều cao uống ngay trước khi ngủ đã được liên hệ với việc tăng thời gian đi vào giấc ngủ, giảm giấc ngủ REM và thức giấc nhiều hơn vào ban đêm."
+  - q: "Tại sao tôi cần magie và Vitamin K2 cùng với Vitamin D?"
+    a: "Magie cần thiết cho mọi bước chuyển hóa Vitamin D thành dạng hoạt động (calcitriol), và Vitamin K2 định hướng lượng canxi mà Vitamin D giúp bạn hấp thụ đi vào xương thay vì động mạch."
 ---
 
 Vitamin D không chỉ đơn thuần là một loại vitamin; trong cơ thể con người, nó hoạt động như một tiền hormone và đóng vai trò quan trọng trong mật độ xương, điều hòa hệ miễn dịch, sản xuất testosterone và ổn định tâm trạng. Mặc dù có tầm quan trọng mang tính hệ thống lớn như vậy, dữ liệu dịch tễ học hiện tại cho thấy hơn 50% dân số toàn cầu bị thiếu hụt Vitamin D.

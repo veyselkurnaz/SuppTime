@@ -5,6 +5,15 @@ pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
 image: "/assets/calcium_cover.webp"
+faq:
+  - q: "Hoeveel calcium kan mijn lichaam in één dosis opnemen?"
+    a: "De opname-efficiëntie daalt naarmate de dosis groter wordt, daarom stelt de klinische standaardaanbeveling een limiet van 500 mg elementair calcium per dosis, waarbij elk hoger dagelijks doel wordt gesplitst over twee of meer momenten."
+  - q: "Moet ik calciumcarbonaat of calciumcitraat nemen?"
+    a: "Calciumcitraat is de veiligere standaardkeuze, zeker als je een PPI of H2-blokker gebruikt of ouder bent dan 65 — het heeft geen maagzuur nodig om op te lossen. Calciumcarbonaat moet met eten en normaal maagzuur worden ingenomen om goed opgenomen te worden."
+  - q: "Kan ik calcium samen met mijn schildkliermedicatie innemen?"
+    a: "Nee. Calcium (in elke vorm, ook via verrijkte voedingsmiddelen) moet minstens 4 uur gescheiden blijven van levothyroxine — calciumcarbonaat kan de opname van levothyroxine verlagen van ongeveer 84% naar 58%."
+  - q: "Is het veilig om elke dag calciumsupplementen te nemen?"
+    a: "Een grote meta-analyse vond dat calciumsupplementen die zonder gelijktijdige vitamine D en in geïsoleerde hoge bolusdoses werden ingenomen, geassocieerd waren met een verhoogd cardiovasculair risico. Kleine doses (≤500 mg), gespreid over de dag en gecombineerd met vitamine D, is de veiligere aanpak."
 ---
 
 Calcium is het meest voorkomende mineraal in het menselijk lichaam en essentieel voor botmineralisatie, spiercontractie, zenuwsignalering en bloedstolling. Omdat 99% van het lichaamscalcium in het bot is opgeslagen, wordt suppletie vaak benaderd als een simpel "meer is beter"-probleem. Fysiologisch klopt dat niet: calciumabsorptie is een verzadigbaar proces, en een grote dosis in één keer innemen verspilt een aanzienlijk deel ervan.

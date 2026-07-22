@@ -5,6 +5,15 @@ pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
 image: "/assets/calcium_cover.webp"
+faq:
+  - q: "Vücudum tek bir dozda ne kadar kalsiyum emebilir?"
+    a: "Doz büyüklüğü arttıkça emilim verimliliği düşer; bu yüzden standart klinik öneri, tek dozu 500 mg elemental kalsiyumla sınırlandırmak ve daha yüksek bir günlük hedefi iki veya daha fazla doza bölmektir."
+  - q: "Kalsiyum karbonat mı yoksa kalsiyum sitrat mı almalıyım?"
+    a: "Kalsiyum sitrat, özellikle PPI veya H2 blokeri kullanıyorsanız ya da 65 yaşın üzerindeyseniz daha güvenli bir varsayılan seçimdir — çözünmek için mide asidine ihtiyaç duymaz. Kalsiyum karbonat ise iyi emilebilmesi için yemekle ve yeterli mide asidiyle birlikte alınmalıdır."
+  - q: "Kalsiyumu tiroid ilacımla birlikte alabilir miyim?"
+    a: "Hayır. Kalsiyum (zenginleştirilmiş gıdalar dahil, her form) levotiroksinden en az 4 saat ayrılmalıdır — kalsiyum karbonat, levotiroksin emilimini yaklaşık %84'ten %58'e kadar düşürebilir."
+  - q: "Kalsiyum takviyelerini her gün almak güvenli mi?"
+    a: "Büyük bir meta-analizde, D vitamini eşliğinde alınmayan ve tek seferde yüksek doz şeklinde alınan kalsiyum takviyelerinin artmış kardiyovasküler riskle ilişkili olduğu bulunmuştur. Tek dozları küçük tutmak (≤500 mg), gün içine bölmek ve D vitaminiyle birlikte almak daha güvenli bir yaklaşımdır."
 ---
 
 Kalsiyum, insan vücudundaki en bol bulunan mineraldir; iskelet mineralizasyonu, kas kasılması, sinir sinyal iletimi ve kan pıhtılaşması için elzemdir. Vücuttaki kalsiyumun %99'u kemikte depolandığı için, takviye kullanımı çoğu zaman basit bir "ne kadar çok o kadar iyi" meselesi olarak ele alınır. Fizyolojik açıdan bu yanlıştır: kalsiyum emilimi doyurulabilir (satüre olabilen) bir süreçtir ve tek seferde alınan yüksek bir doz, kalsiyumun önemli bir kısmının boşa gitmesine neden olur.

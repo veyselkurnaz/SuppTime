@@ -4,6 +4,13 @@ description: "Kolajen takviyesi seçerken nelere dikkat edilmeli? Kolajen tipler
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
 image: "/assets/collagen_cover.webp"
+faq:
+  - q: "Eklem ağrısı için hangi kolajen tipi en iyisidir?"
+    a: "Eklemlerdeki kıkırdağın %90-95'ini oluşturan Tip II kolajen. Bu, cilt ve saç odaklı takviyelerin çoğunda bulunan Tip I/III kolajenden yapısal olarak farklıdır."
+  - q: "Hangi kolajen kaynağı en kolay emilir?"
+    a: "Deniz kolajeni, hidrolizden sonra 600 Da'nın altına kadar inebilen çok düşük moleküler ağırlığı sayesinde, yaygın kaynaklar (sığır, domuz, deniz) arasında en iyi bağırsak emilim oranına sahiptir."
+  - q: "Kolajen takviyeleriyle birlikte C vitaminine ihtiyacım var mı?"
+    a: "Evet. C vitamini (askorbik asit), vücutta yeni kolajen sentezleyen enzimler için vazgeçilmez bir kofaktördür — yeterli C vitamini olmadan, takviye edilen kolajen peptitlerinin işlevsel kolajene dönüştürülecek ham maddesi azalır."
 ---
 
 # Kolajen Kullanım Rehberi: Yapısal Tipler, Absorpsiyon Kinetiği ve Metabolik Kofaktörlerin Bilimsel Analizi

@@ -4,6 +4,13 @@ description: "Een klinische uitsplitsing van collageentypes, absorptiekinetiek, 
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
 image: "/assets/collagen_cover.webp"
+faq:
+  - q: "Welk type collageen is het beste voor gewrichtspijn?"
+    a: "Type II-collageen, dat 90-95% van het kraakbeen in gewrichten vormt. Het is structureel anders dan het Type I/III-collageen dat in de meeste huid- en haargerichte supplementen zit."
+  - q: "Welke collageenbron wordt het gemakkelijkst opgenomen?"
+    a: "Marien collageen, dankzij het zeer lage moleculaire gewicht (na hydrolyse tot onder de 600 Da), heeft de beste darmopnamesnelheid van de gangbare bronnen (rund, varken, marien)."
+  - q: "Heb ik vitamine C nodig bij collageensupplementen?"
+    a: "Ja. Vitamine C (ascorbinezuur) is een essentiële cofactor voor de enzymen die nieuw collageen in het lichaam aanmaken — zonder voldoende vitamine C hebben supplementaire collageenpeptiden minder grondstof om tot functioneel collageen te worden opgebouwd."
 ---
 
 # Gids voor Collageengebruik: Structurele Types, Absorptiekinetiek en Wetenschappelijke Analyse van Metabole Cofactoren

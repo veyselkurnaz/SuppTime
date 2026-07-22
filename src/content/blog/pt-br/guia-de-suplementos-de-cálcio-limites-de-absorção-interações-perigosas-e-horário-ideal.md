@@ -5,6 +5,15 @@ pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
 image: "/assets/calcium_cover.webp"
+faq:
+  - q: "Quanto cálcio o meu corpo consegue absorver em uma única dose?"
+    a: "A eficiência de absorção cai à medida que o tamanho da dose aumenta, e é por isso que a recomendação clínica padrão limita as doses únicas a 500 mg de cálcio elementar, dividindo qualquer meta diária mais alta em duas ou mais doses."
+  - q: "Devo tomar carbonato de cálcio ou citrato de cálcio?"
+    a: "O citrato de cálcio é a escolha padrão mais segura, especialmente se você usa um IBP ou bloqueador H2 ou tem mais de 65 anos — ele não depende do ácido estomacal para se dissolver. O carbonato de cálcio precisa ser tomado com alimentos e acidez estomacal normal para ser bem absorvido."
+  - q: "Posso tomar cálcio junto com minha medicação para tireoide?"
+    a: "Não. O cálcio (em qualquer forma, incluindo alimentos fortificados) precisa ser separado da levotiroxina por pelo menos 4 horas — o carbonato de cálcio pode reduzir a absorção de levotiroxina de cerca de 84% para 58%."
+  - q: "É seguro tomar suplementos de cálcio todos os dias?"
+    a: "Uma grande metanálise constatou que suplementos de cálcio tomados sem vitamina D associada, e em doses isoladas e altas, foram associados a um risco cardiovascular aumentado. Manter as doses únicas pequenas (≤500mg), divididas ao longo do dia e combinadas com vitamina D é a abordagem mais segura."
 ---
 
 O cálcio é o mineral mais abundante do corpo humano, essencial para a mineralização óssea, contração muscular, sinalização nervosa e coagulação sanguínea. Como 99% do cálcio corporal fica armazenado nos ossos, a suplementação costuma ser tratada de forma simplista, como se "quanto mais, melhor". Fisiologicamente, isso está incorreto: a absorção de cálcio é um processo saturável, e tomar uma dose grande de uma só vez desperdiça uma fração substancial dela.

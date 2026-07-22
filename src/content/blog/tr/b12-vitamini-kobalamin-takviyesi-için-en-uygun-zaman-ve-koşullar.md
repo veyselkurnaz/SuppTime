@@ -4,6 +4,15 @@ description: "B12 vitaminini sabah mı yoksa gece mi almalısınız? Aç karnın
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
 image: "/assets/b12_cover.webp"
+faq:
+  - q: "B12 sabah mı yoksa gece mi alınmalı?"
+    a: "Sabah, aç karnına. B12 hücresel enerji üretimini destekler ve melatonin salınımını baskılayabilir; bu yüzden yatmadan önce alınması hassas kişilerde uykuya dalmayı zorlaştırabilir."
+  - q: "B12, yemekle mi yoksa aç karnına mı alınmalı?"
+    a: "Aç karnına, sadece suyla birlikte, ideal olarak yemekten 30 dakika önce veya 2 saat sonra. Takviyedeki B12 zaten serbest (kristalize) formdadır ve gıdaya bağlı B12'nin aksine emilmek için mide asidine ihtiyaç duymaz."
+  - q: "Siyanokobalamin ile metilkobalamin arasındaki fark nedir?"
+    a: "Siyanokobalamin sentetiktir, oldukça kararlıdır ve raf ömrü uzundur; metilkobalamin ise gıdalarda bulunan biyoözdeş formdur, dokuda daha uzun süre kalır ama ışığa maruz kaldığında daha hızlı bozulur. Hücre içine girdikten sonra ikisi de aynı aktif formlara dönüştürülür."
+  - q: "Kahve veya C vitamini B12 emilimini etkiler mi?"
+    a: "Evet. Yüksek doz C vitamini B12'nin yapısını kimyasal olarak bozabilir, düzenli yoğun kahve tüketimi ise düşük serum B12 seviyeleriyle ilişkilendirilmiştir. B12'yi C vitamininden en az 2 saat, kahveden ise 30-60 dakika ayırın."
 ---
 
 # Vitamin B12 (Kobalamin) Takviyesi İçin En Uygun Zaman ve Koşullar

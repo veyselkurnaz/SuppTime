@@ -4,6 +4,13 @@ description: "Descubre qué vitaminas y minerales nunca debes tomar juntos (como
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
 image: "/assets/supplement_interactions_cover.webp"
+faq:
+  - q: "¿Puedo tomar calcio y hierro juntos?"
+    a: "No. El calcio es un potente inhibidor de la absorción de hierro no hemo: tomarlos juntos puede bloquear por completo que el hierro llegue a tu torrente sanguíneo. Sepáralos por al menos 2 a 3 horas."
+  - q: "¿Es seguro tomar zinc y cobre juntos?"
+    a: "Tómalos en momentos distintos del día. El zinc y el cobre compiten por la misma vía de absorción intestinal, y el uso prolongado de zinc en dosis altas sin suficiente cobre puede provocar una deficiencia de cobre."
+  - q: "¿Deben tomarse el calcio y el magnesio al mismo tiempo?"
+    a: "Mejor no. Las dosis altas de calcio y magnesio compiten por los mismos receptores celulares; toma el calcio por la mañana con comida y el magnesio por la noche."
 ---
 
 Tomar suplementos es uno de los pasos más proactivos que puedes dar por tu salud. Sin embargo, tratar tu rutina diaria de suplementos como un buffet libre —tomando diez pastillas diferentes a la vez con tu café de la mañana— ha demostrado científicamente ser contraproducente y, en algunos casos, incluso dañino.

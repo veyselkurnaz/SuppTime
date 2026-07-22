@@ -5,6 +5,15 @@ pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 image: "/assets/magnesium_cover.webp"
+faq:
+  - q: "Quale forma di magnesio è migliore per il sonno?"
+    a: "Il magnesio glicinato (bisglicinato). È legato alla glicina, un amminoacido calmante, e gli studi clinici mostrano che riduce la gravità dell'insonnia e favorisce il rilassamento muscolare con un rischio minimo di disturbi digestivi."
+  - q: "Quale forma di magnesio dovrei evitare?"
+    a: "L'ossido di magnesio. Nonostante un alto contenuto di magnesio elementare in peso, solo il 4-15% viene effettivamente assorbito: è utile soprattutto come lassativo a breve termine, non per correggere una carenza."
+  - q: "Qual è la migliore forma di magnesio per la stitichezza?"
+    a: "Il citrato di magnesio. È molto solubile in acqua e richiama acqua nel colon, stimolando la peristalsi e alleviando la stitichezza in modo sicuro e prevedibile."
+  - q: "Posso assumere magnesio e calcio insieme?"
+    a: "Non in dosi elevate e concentrate nello stesso momento: competono per lo stesso meccanismo di assorbimento. Assumi il calcio al mattino con il cibo e il magnesio la sera."
 ---
 
 Spesso descritto come il motore principale della fisiologia cellulare, il magnesio è un macrominerale indispensabile che governa i ritmi metabolici del corpo umano. Agisce come cofattore necessario in oltre 600 reazioni enzimatiche, regolando processi che vanno dalla produzione di energia cellulare alla neurotrasmissione e alla contrazione muscolare.

@@ -5,6 +5,15 @@ pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
 image: "/assets/calcium_cover.webp"
+faq:
+  - q: "¿Cuánto calcio puede absorber mi cuerpo en una sola dosis?"
+    a: "La eficiencia de absorción disminuye a medida que aumenta el tamaño de la dosis, por eso la recomendación clínica estándar limita cada toma a 500 mg de calcio elemental, dividiendo cualquier objetivo diario superior en dos o más dosis."
+  - q: "¿Debo tomar carbonato de calcio o citrato de calcio?"
+    a: "El citrato de calcio es la opción más segura por defecto, especialmente si tomas un IBP o un antagonista H2, o si tienes más de 65 años, ya que no necesita ácido estomacal para disolverse. El carbonato de calcio debe tomarse con comida y con acidez estomacal normal para absorberse bien."
+  - q: "¿Puedo tomar calcio junto con mi medicación para la tiroides?"
+    a: "No. El calcio (en cualquier forma, incluidos los alimentos fortificados) debe separarse de la levotiroxina por al menos 4 horas: el carbonato de calcio puede reducir la absorción de levotiroxina de aproximadamente un 84% a un 58%."
+  - q: "¿Es seguro tomar suplementos de calcio todos los días?"
+    a: "Un gran metaanálisis encontró que los suplementos de calcio tomados sin vitamina D concomitante, y en bolos aislados de dosis altas, se asociaron con un mayor riesgo cardiovascular. Mantener las dosis individuales bajas (≤500 mg), repartidas a lo largo del día y acompañadas de vitamina D, es el enfoque más seguro."
 ---
 
 El calcio es el mineral más abundante del cuerpo humano, esencial para la mineralización ósea, la contracción muscular, la transmisión de señales nerviosas y la coagulación sanguínea. Dado que el 99% del calcio del organismo se almacena en el hueso, la suplementación suele abordarse con la lógica simplista de "cuanto más, mejor". Fisiológicamente, esto es incorrecto: la absorción de calcio es un proceso saturable, y tomar una dosis grande de una sola vez desperdicia una fracción considerable de la misma.

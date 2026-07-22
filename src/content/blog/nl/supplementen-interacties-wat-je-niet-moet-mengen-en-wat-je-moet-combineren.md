@@ -4,6 +4,13 @@ description: "Ontdek welke vitamines en mineralen je nooit samen mag innemen (zo
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
 image: "/assets/supplement_interactions_cover.webp"
+faq:
+  - q: "Kan ik calcium en ijzer samen innemen?"
+    a: "Nee. Calcium is een krachtige remmer van non-heemijzeropname — ze samen innemen kan de opname van ijzer in je bloedbaan volledig blokkeren. Houd minstens 2 tot 3 uur ertussen."
+  - q: "Is het veilig om zink en koper samen in te nemen?"
+    a: "Neem ze op verschillende momenten van de dag. Zink en koper concurreren om dezelfde darmopnameroute, en langdurig gebruik van hoge doses zink zonder voldoende koper kan een kopertekort veroorzaken."
+  - q: "Moeten calcium en magnesium op hetzelfde moment worden ingenomen?"
+    a: "Beter van niet. Hoge doses calcium en magnesium concurreren om dezelfde cellulaire receptoren — neem calcium 's ochtends met eten en magnesium in plaats daarvan 's avonds."
 ---
 
 Het nemen van supplementen is een van de meest proactieve stappen die je kunt nemen voor je gezondheid. Echter, het behandelen van je dagelijkse supplementenroutine als een lopend buffet — tien verschillende pillen tegelijk slikken met je ochtendkoffie — is wetenschappelijk bewezen contraproductief en in sommige gevallen zelfs schadelijk.

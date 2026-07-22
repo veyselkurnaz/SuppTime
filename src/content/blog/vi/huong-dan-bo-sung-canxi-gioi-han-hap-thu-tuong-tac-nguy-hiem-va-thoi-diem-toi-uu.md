@@ -5,6 +5,15 @@ pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
 image: "/assets/calcium_cover.webp"
+faq:
+  - q: "Cơ thể tôi có thể hấp thụ bao nhiêu canxi trong một liều?"
+    a: "Hiệu quả hấp thụ giảm dần khi liều lượng tăng lên, đó là lý do vì sao khuyến nghị lâm sàng tiêu chuẩn giới hạn mỗi liều ở mức 500mg canxi nguyên tố, và chia nhỏ bất kỳ mục tiêu hàng ngày cao hơn thành hai liều trở lên."
+  - q: "Tôi nên dùng canxi carbonat hay canxi citrat?"
+    a: "Canxi citrat là lựa chọn mặc định an toàn hơn, đặc biệt nếu bạn đang dùng thuốc ức chế bơm proton (PPI), thuốc chẹn H2, hoặc trên 65 tuổi - vì nó không cần axit dạ dày để hòa tan. Canxi carbonat cần được uống cùng thức ăn và axit dạ dày bình thường để hấp thụ tốt."
+  - q: "Tôi có thể uống canxi cùng với thuốc tuyến giáp không?"
+    a: "Không. Canxi (dưới bất kỳ dạng nào, kể cả thực phẩm tăng cường) phải được tách khỏi levothyroxine ít nhất 4 giờ - canxi carbonat có thể làm giảm hấp thụ levothyroxine từ khoảng 84% xuống còn 58%."
+  - q: "Uống bổ sung canxi hàng ngày có an toàn không?"
+    a: "Một phân tích tổng hợp quy mô lớn cho thấy các chất bổ sung canxi dùng riêng lẻ không kèm vitamin D, và ở liều cao đơn lẻ, có liên quan đến việc tăng nguy cơ tim mạch. Giữ liều mỗi lần nhỏ (≤500mg), chia nhỏ trong ngày, và kết hợp với vitamin D là cách tiếp cận an toàn hơn."
 ---
 
 Canxi là khoáng chất dồi dào nhất trong cơ thể người, đóng vai trò thiết yếu đối với quá trình khoáng hóa xương, co cơ, dẫn truyền thần kinh và đông máu. Vì 99% lượng canxi của cơ thể được lưu trữ trong xương, việc bổ sung thường bị hiểu đơn giản theo kiểu "càng nhiều càng tốt". Về mặt sinh lý học, quan niệm này là sai lầm: hấp thụ canxi là một quá trình có ngưỡng bão hòa, và việc uống một liều lớn trong một lần sẽ lãng phí một phần đáng kể lượng canxi đó.

@@ -4,6 +4,15 @@ description: "Scopri il momento migliore della giornata per assumere integratori
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
 image: "/assets/vitamin_d_cover.webp"
+faq:
+  - q: "Dovrei assumere Vitamina D2 o D3?"
+    a: "Scegli sempre la D3 (colecalciferolo). Gli studi mostrano costantemente che la D3 è fino all'87% più efficace della D2 (ergocalciferolo) nell'innalzare e mantenere i livelli ematici attivi di calcifediolo."
+  - q: "Devo assumere la Vitamina D insieme al cibo?"
+    a: "Sì. La vitamina D è liposolubile e necessita di grassi alimentari per essere assorbita: assumerla insieme al pasto più abbondante e più grasso della giornata può aumentarne l'assorbimento del 50-60% rispetto allo stomaco vuoto."
+  - q: "Assumere la Vitamina D di sera può influire sul sonno?"
+    a: "Per alcune persone sì. La vitamina D ha una relazione inversa con la produzione di melatonina, quindi dosi elevate assunte poco prima di coricarsi sono state associate a un aumento della latenza del sonno, a una riduzione del sonno REM e a più risvegli notturni."
+  - q: "Perché ho bisogno di magnesio e Vitamina K2 insieme alla Vitamina D?"
+    a: "Il magnesio è necessario in ogni fase della conversione della Vitamina D nella sua forma attiva (calcitriolo), e la Vitamina K2 indirizza il calcio che la Vitamina D ti aiuta ad assorbire verso le ossa piuttosto che verso le arterie."
 ---
 
 La vitamina D è molto più di una semplice vitamina; nel corpo umano agisce come un pro-ormone e svolge un ruolo cruciale nella densità ossea, nella regolazione del sistema immunitario, nella produzione di testosterone e nella stabilizzazione dell'umore. Nonostante questa immensa importanza sistemica, i dati epidemiologici attuali mostrano che oltre il 50% della popolazione globale è carente o insufficiente di vitamina D.

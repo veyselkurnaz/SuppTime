@@ -5,6 +5,15 @@ pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
 image: "/assets/iron_cover.webp"
+faq:
+  - q: "Was ist die beste Tageszeit für die Einnahme von Eisenpräparaten?"
+    a: "Nehmen Sie Eisen morgens auf nüchternen Magen ein. Das zirkulierende Hepcidin, das Hormon, das die Eisenaufnahme blockiert, befindet sich zu diesem Zeitpunkt auf seinem Tiefpunkt und lässt deutlich mehr Eisen in den Blutkreislauf gelangen als eine Einnahme am Nachmittag oder Abend."
+  - q: "Kann ich Eisen und Calcium gleichzeitig einnehmen?"
+    a: "Nein. Werden 500 mg Calciumcarbonat zusammen mit einer eisenhaltigen Mahlzeit eingenommen, sinkt die fraktionelle Eisenaufnahme um über 50 %. Trennen Sie Eisen und Calcium um mindestens 2 Stunden."
+  - q: "Hilft Vitamin C wirklich bei der Eisenaufnahme?"
+    a: "Ja. Ascorbinsäure wandelt unlösliches Ferri-Eisen (Fe³⁺) in die lösliche Ferro-Form (Fe²⁺) um und schützt es davor, sich an Phytate und Polyphenole zu binden – damit ist es der wirksamste Verstärker der Nicht-Häm-Eisenaufnahme."
+  - q: "Sollte ich Eisen täglich oder jeden zweiten Tag einnehmen?"
+    a: "Klinische Studien zeigen, dass eine Dosierung jeden zweiten Tag (alle 48 Stunden) die fraktionelle Eisenaufnahme im Vergleich zur täglichen Einnahme um 40-50 % erhöht, da sie die durch Hepcidin ausgelöste Schleimhautblockade umgeht, die tägliche hohe Dosen auslösen."
 ---
 
 Eisen ist ein unverzichtbarer Mikronährstoff, der als struktureller und katalytischer Cofaktor beim Sauerstofftransport, der Zellatmung und der DNA-Synthese fungiert. Trotz seines reichlichen Vorkommens in der Natur ist Eisen in der menschlichen Ernährung häufig ein wachstumslimitierender Nährstoff. Da der Mensch über keinen physiologischen Mechanismus zur aktiven Eisenausscheidung verfügt, wird der systemische Eisenhaushalt ausschließlich auf der Ebene der Darmabsorption aufrechterhalten.

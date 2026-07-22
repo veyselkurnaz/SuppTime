@@ -5,6 +5,15 @@ pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
 image: "/assets/calcium_cover.webp"
+faq:
+  - q: "Berapa banyak kalsium yang bisa diserap tubuh saya dalam satu dosis?"
+    a: "Efisiensi penyerapan menurun seiring bertambahnya ukuran dosis, itulah sebabnya rekomendasi klinis standar membatasi dosis tunggal hingga 500 mg kalsium elemental, dengan membagi target harian yang lebih tinggi ke dalam dua dosis atau lebih."
+  - q: "Sebaiknya saya memilih kalsium karbonat atau kalsium sitrat?"
+    a: "Kalsium sitrat adalah pilihan default yang lebih aman, terutama jika Anda mengonsumsi PPI atau penghambat H2 atau berusia di atas 65 tahun — bentuk ini tidak memerlukan asam lambung untuk larut. Kalsium karbonat perlu diminum bersama makanan dan asam lambung normal agar terserap dengan baik."
+  - q: "Bolehkah saya minum kalsium bersama obat tiroid saya?"
+    a: "Tidak. Kalsium (dalam bentuk apa pun, termasuk makanan yang difortifikasi) harus diberi jeda minimal 4 jam dari levotiroksin — kalsium karbonat dapat menurunkan penyerapan levotiroksin dari sekitar 84% menjadi hanya 58%."
+  - q: "Amankah minum suplemen kalsium setiap hari?"
+    a: "Sebuah meta-analisis besar menemukan bahwa suplemen kalsium yang diminum tanpa vitamin D dan dalam dosis tinggi yang terisolasi dikaitkan dengan peningkatan risiko kardiovaskular. Menjaga dosis tunggal tetap kecil (≤500mg), membaginya sepanjang hari, dan memadukannya dengan vitamin D adalah pendekatan yang lebih aman."
 ---
 
 Kalsium adalah mineral paling melimpah dalam tubuh manusia, penting untuk mineralisasi tulang, kontraksi otot, transmisi sinyal saraf, dan pembekuan darah. Karena 99% kalsium tubuh disimpan di dalam tulang, suplementasi sering dianggap sebagai masalah sederhana "semakin banyak semakin baik". Secara fisiologis, anggapan ini keliru: penyerapan kalsium adalah proses yang dapat jenuh (saturable), dan mengonsumsi dosis besar sekaligus akan menyia-nyiakan sebagian besar dari kalsium tersebut.

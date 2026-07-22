@@ -4,6 +4,13 @@ description: "Descubra la cronofarmacología de los suplementos de Omega-3 (EPA/
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
 image: "/assets/omega3_cover.webp"
+faq:
+  - q: "¿Por qué el aceite de pescado no funciona si lo tomo con el estómago vacío?"
+    a: "Los omega-3 son altamente hidrofóbicos y necesitan grasa dietética para desencadenar la liberación de bilis y la formación de micelas en el intestino. Sin grasa co-ingerida, el aceite no puede emulsionarse y las lipasas pancreáticas no pueden acceder a él, por lo que la mayor parte pasa sin absorberse; a esto se le llama la 'paradoja de la comida magra'."
+  - q: "¿Qué debo comer junto con mi suplemento de omega-3?"
+    a: "Una fuente de grasa dietética, como aceite de oliva virgen extra, aguacate, huevos o una comida grasa. Esto desencadena la liberación de colecistoquinina (CCK), que hace que la vesícula biliar libere los ácidos biliares necesarios para formar micelas absorbibles."
+  - q: "¿Beber agua ayuda a absorber el aceite de pescado?"
+    a: "No. El agua no emulsiona lípidos hidrofóbicos; tomada sola con el estómago vacío, incluso puede diluir las escasas enzimas digestivas presentes y alejar el aceite no absorbido de la pared intestinal."
 ---
 
 La eficacia terapéutica de los ácidos grasos poliinsaturados ($\text{PUFAs}$) omega-3 marinos de cadena larga, específicamente el ácido eicosapentaenoico ($\text{EPA}$) y el ácido docosahexaenoico ($\text{DHA}$), está estrictamente regida por su biodisponibilidad intestinal. En la nutrición clínica, una fuente principal de fracaso terapéutico es la "paradoja de la comida magra" (lean-meal paradox): la administración de lípidos marinos altamente hidrofóbicos en condiciones de ayuno o junto con comidas sin grasa. A pesar de la ingesta de altas dosis nominales, la falta de una matriz estructurada de co-ingestión de lípidos impide los mecanismos físicos y enzimáticos necesarios para la absorción de lípidos en el lumen acuoso del tracto gastrointestinal humano. Este análisis clínico detalla los principios biofísicos, bioquímicos y cronofarmacológicos que dictan la digestión y absorción de $\text{EPA}$ y $\text{DHA}$.

@@ -4,6 +4,13 @@ description: "Khám phá những loại vitamin và khoáng chất nào bạn kh
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
 image: "/assets/supplement_interactions_cover.webp"
+faq:
+  - q: "Tôi có thể uống canxi và sắt cùng lúc không?"
+    a: "Không. Canxi là chất ức chế mạnh đối với hấp thụ sắt non-heme - uống chúng cùng lúc có thể ngăn chặn hoàn toàn sắt đi vào máu. Hãy tách chúng ra ít nhất 2 đến 3 giờ."
+  - q: "Uống kẽm và đồng cùng lúc có an toàn không?"
+    a: "Nên uống chúng vào các thời điểm khác nhau trong ngày. Kẽm và đồng cạnh tranh cùng một con đường hấp thụ ở ruột, và việc dùng kẽm liều cao lâu dài mà không có đủ đồng có thể gây thiếu đồng."
+  - q: "Có nên uống canxi và magie cùng lúc không?"
+    a: "Tốt hơn là không nên. Liều cao canxi và magie cạnh tranh cùng một thụ thể tế bào - thay vào đó hãy uống canxi vào buổi sáng cùng thức ăn và magie vào buổi tối."
 ---
 
 Việc uống thực phẩm bổ sung là một trong những bước chủ động nhất bạn có thể thực hiện cho sức khỏe của mình. Tuy nhiên, việc coi thói quen bổ sung hàng ngày của bạn như một bữa tiệc buffet ăn thỏa thích — nuốt mười viên thuốc khác nhau cùng một lúc với tách cà phê buổi sáng — đã được chứng minh về mặt khoa học là phản tác dụng, và trong một số trường hợp, thậm chí còn gây hại.

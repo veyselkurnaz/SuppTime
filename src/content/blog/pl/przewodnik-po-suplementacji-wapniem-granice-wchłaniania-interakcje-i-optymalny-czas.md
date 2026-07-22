@@ -5,6 +5,15 @@ pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
 image: "/assets/calcium_cover.webp"
+faq:
+  - q: "Ile wapnia mój organizm może wchłonąć w jednej dawce?"
+    a: "Skuteczność wchłaniania spada wraz ze wzrostem wielkości dawki, dlatego standardowe zalecenie kliniczne ogranicza pojedynczą dawkę do 500 mg wapnia elementarnego, dzieląc każdy wyższy dzienny cel na dwie lub więcej dawek."
+  - q: "Czy powinienem przyjmować węglan wapnia, czy cytrynian wapnia?"
+    a: "Cytrynian wapnia jest bezpieczniejszym domyślnym wyborem, zwłaszcza jeśli przyjmujesz IPP lub bloker H2 albo masz powyżej 65 lat – nie wymaga kwasu żołądkowego do rozpuszczenia. Węglan wapnia musi być przyjmowany z jedzeniem i przy prawidłowej kwasowości żołądka, aby dobrze się wchłonąć."
+  - q: "Czy mogę przyjmować wapń razem z lekami na tarczycę?"
+    a: "Nie. Wapń (w każdej formie, w tym z żywności wzbogaconej) musi być oddzielony od lewotyroksyny o co najmniej 4 godziny – węglan wapnia może zmniejszyć wchłanianie lewotyroksyny z około 84% do 58%."
+  - q: "Czy codzienne przyjmowanie suplementów wapnia jest bezpieczne?"
+    a: "Duża metaanaliza wykazała, że suplementy wapnia przyjmowane bez towarzyszącej witaminy D, w izolowanych wysokich dawkach jednorazowych, wiązały się ze zwiększonym ryzykiem sercowo-naczyniowym. Bezpieczniejszym podejściem jest utrzymywanie niewielkich pojedynczych dawek (≤500 mg), rozłożonych w ciągu dnia i połączonych z witaminą D."
 ---
 
 Wapń jest najobficiej występującym minerałem w organizmie człowieka, niezbędnym do mineralizacji kości, skurczu mięśni, przewodnictwa nerwowego i krzepnięcia krwi. Ponieważ 99% wapnia w organizmie jest zmagazynowane w kościach, suplementację często traktuje się jako prosty problem typu "im więcej, tym lepiej". Fizjologicznie jest to nieprawidłowe: wchłanianie wapnia jest procesem wysycalnym, a przyjęcie dużej dawki jednorazowo powoduje, że znaczna jej część zostaje zmarnowana.

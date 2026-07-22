@@ -5,6 +5,15 @@ pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
 image: "/assets/iron_cover.webp"
+faq:
+  - q: "Jaka jest najlepsza pora dnia na przyjmowanie żelaza?"
+    a: "Żelazo przyjmuj rano na pusty żołądek. Krążący wtedy hepcydyna, hormon blokujący wchłanianie żelaza, jest na najniższym poziomie, co pozwala na wchłonięcie znacznie większej ilości żelaza niż przy dawce popołudniowej czy wieczornej."
+  - q: "Czy można przyjmować żelazo i wapń w tym samym czasie?"
+    a: "Nie. Jednoczesne spożycie 500 mg węglanu wapnia z posiłkiem zawierającym żelazo zmniejsza frakcyjne wchłanianie żelaza o ponad 50%. Rozdziel żelazo i wapń o co najmniej 2 godziny."
+  - q: "Czy witamina C rzeczywiście pomaga we wchłanianiu żelaza?"
+    a: "Tak. Kwas askorbinowy przekształca nierozpuszczalne żelazo trójwartościowe (Fe3+) w rozpuszczalną formę dwuwartościową (Fe2+) i chroni je przed wiązaniem z fitynianami i polifenolami, co czyni go najskuteczniejszym wzmacniaczem wchłaniania żelaza niehemowego."
+  - q: "Czy żelazo powinienem przyjmować codziennie, czy co drugi dzień?"
+    a: "Badania kliniczne pokazują, że dawkowanie co drugi dzień (co 48 godzin) zwiększa frakcyjne wchłanianie żelaza o 40-50% w porównaniu z dawkowaniem codziennym, ponieważ pozwala uniknąć blokady śluzówkowej wywołanej przez hepcydynę, którą wyzwalają wysokie codzienne dawki."
 ---
 
 Żelazo jest niezastąpionym mikroskładnikiem odżywczym, który działa jako strukturalny i katalityczny kofaktor w transporcie tlenu, oddychaniu komórkowym i syntezie DNA. Pomimo jego obfitości w środowisku, żelazo jest często składnikiem odżywczym ograniczającym wzrost w diecie człowieka. Ponieważ ludzie nie posiadają fizjologicznego mechanizmu aktywnego wydalania żelaza, ogólnoustrojowa równowaga żelaza jest utrzymywana wyłącznie na poziomie wchłaniania jelitowego.

@@ -5,6 +5,15 @@ pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
 image: "/assets/iron_cover.webp"
+faq:
+  - q: "Apa waktu terbaik dalam sehari untuk minum suplemen zat besi?"
+    a: "Minum zat besi di pagi hari dalam keadaan perut kosong. Hepcidin, hormon yang menghambat penyerapan zat besi, berada pada titik terendahnya saat itu, sehingga jauh lebih banyak zat besi yang bisa masuk ke aliran darah dibandingkan dosis siang atau malam hari."
+  - q: "Bolehkah saya minum zat besi dan kalsium bersamaan?"
+    a: "Tidak. Mengonsumsi 500 mg kalsium karbonat bersamaan dengan makanan yang mengandung zat besi dapat menurunkan penyerapan zat besi lebih dari 50%. Beri jeda minimal 2 jam antara zat besi dan kalsium."
+  - q: "Apakah vitamin C benar-benar membantu penyerapan zat besi?"
+    a: "Ya. Asam askorbat mengubah zat besi feri (Fe3+) yang tidak larut menjadi bentuk fero (Fe2+) yang larut, sekaligus melindunginya agar tidak terikat oleh fitat dan polifenol, menjadikannya penambah penyerapan zat besi non-heme yang paling efektif."
+  - q: "Sebaiknya saya minum zat besi setiap hari atau selang sehari?"
+    a: "Uji klinis menunjukkan bahwa dosis selang hari (setiap 48 jam) meningkatkan penyerapan zat besi sebesar 40-50% dibandingkan dosis harian, karena cara ini menghindari blokade mukosa akibat hepcidin yang dipicu oleh dosis tinggi harian."
 ---
 
 Zat besi adalah zat gizi mikro yang sangat diperlukan dan berfungsi sebagai kofaktor struktural dan katalitik dalam transportasi oksigen, respirasi seluler, dan sintesis DNA. Meskipun melimpah di lingkungan, zat besi sering kali menjadi nutrisi yang membatasi pertumbuhan dalam makanan manusia. Karena manusia tidak memiliki mekanisme fisiologis untuk ekskresi zat besi aktif, keseimbangan zat besi sistemik dipertahankan secara eksklusif pada tingkat penyerapan usus.

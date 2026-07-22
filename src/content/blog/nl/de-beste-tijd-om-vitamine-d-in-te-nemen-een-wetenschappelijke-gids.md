@@ -4,6 +4,15 @@ description: "Ontdek het wetenschappelijk onderbouwde beste moment van de dag om
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
 image: "/assets/vitamin_d_cover.webp"
+faq:
+  - q: "Moet ik vitamine D2 of D3 nemen?"
+    a: "Kies altijd voor D3 (cholecalciferol). Studies tonen consistent aan dat D3 tot 87% effectiever is dan D2 (ergocalciferol) in het verhogen en handhaven van actieve bloedspiegels van calcifediol."
+  - q: "Moet ik vitamine D met eten innemen?"
+    a: "Ja. Vitamine D is vetoplosbaar en heeft voedingsvetten nodig om opgenomen te worden — het innemen bij de grootste, vetste maaltijd van de dag kan de opname met 50-60% verhogen vergeleken met een lege maag."
+  - q: "Kan vitamine D 's avonds mijn slaap beïnvloeden?"
+    a: "Bij sommige mensen wel. Vitamine D heeft een omgekeerde relatie met melatonineproductie, dus hoge doses vlak voor het slapengaan zijn in verband gebracht met een langere inslaaptijd, minder REM-slaap en meer nachtelijk wakker worden."
+  - q: "Waarom heb ik magnesium en vitamine K2 nodig naast vitamine D?"
+    a: "Magnesium is vereist voor elke stap van de omzetting van vitamine D naar de actieve vorm (calcitriol), en vitamine K2 stuurt het calcium dat vitamine D je helpt op te nemen naar je botten in plaats van naar je slagaders."
 ---
 
 Vitamine D is veel meer dan alleen een simpele vitamine; het functioneert als een prohormoon in het menselijk lichaam en speelt een cruciale rol bij de botdichtheid, de regulatie van het immuunsysteem, de testosteronproductie en de stabilisatie van de stemming. Ondanks dit immense systemische belang, tonen huidige epidemiologische gegevens aan dat meer dan 50% van de wereldbevolking een tekort of onvoldoende vitamine D heeft.

@@ -4,6 +4,13 @@ description: "Un desglose clínico de los tipos de colágeno, cinética de absor
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
 image: "/assets/collagen_cover.webp"
+faq:
+  - q: "¿Qué tipo de colágeno es mejor para el dolor articular?"
+    a: "El colágeno tipo II, que representa entre el 90 y el 95% del cartílago de las articulaciones. Es estructuralmente distinto del colágeno tipo I/III que se encuentra en la mayoría de los suplementos enfocados en piel y cabello."
+  - q: "¿Qué fuente de colágeno se absorbe más fácilmente?"
+    a: "El colágeno marino, gracias a su peso molecular muy bajo (hasta menos de 600 Da tras la hidrólisis), tiene la mejor tasa de absorción intestinal entre las fuentes comunes (bovino, porcino, marino)."
+  - q: "¿Necesito vitamina C junto con los suplementos de colágeno?"
+    a: "Sí. La vitamina C (ácido ascórbico) es un cofactor esencial para las enzimas que sintetizan colágeno nuevo en el cuerpo; sin suficiente vitamina C, los péptidos de colágeno suplementario tienen menos materia prima disponible para convertirse en colágeno funcional."
 ---
 
 # Guía de Uso del Colágeno: Tipos Estructurales, Cinética de Absorción y Análisis Científico de Cofactores Metabólicos

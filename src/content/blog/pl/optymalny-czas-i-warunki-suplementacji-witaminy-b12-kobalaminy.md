@@ -4,6 +4,15 @@ description: "Czy witaminę B12 należy brać rano czy wieczorem? Czy lepiej wch
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
 image: "/assets/b12_cover.webp"
+faq:
+  - q: "Czy witaminę B12 lepiej przyjmować rano czy wieczorem?"
+    a: "Rano, na pusty żołądek. B12 wspomaga produkcję energii komórkowej i może hamować wydzielanie melatoniny, więc przyjęta przed snem może u osób wrażliwych utrudniać zasypianie."
+  - q: "Czy B12 należy przyjmować z jedzeniem, czy na pusty żołądek?"
+    a: "Na pusty żołądek, popijając jedynie wodą, najlepiej 30 minut przed posiłkiem lub 2 godziny po nim. Suplementowana B12 znajduje się już w formie wolnej (krystalicznej) i nie potrzebuje kwasu żołądkowego do wchłonięcia, w przeciwieństwie do B12 związanej z pożywieniem."
+  - q: "Jaka jest różnica między cyjanokobalaminą a metylokobalaminą?"
+    a: "Cyjanokobalamina jest formą syntetyczną, bardzo stabilną i o długim okresie przydatności, natomiast metylokobalamina jest formą biotożsamą występującą w pożywieniu, dłużej zatrzymywaną w tkankach, ale szybciej ulegającą degradacji pod wpływem światła. Po wniknięciu do komórki obie zostają przekształcone w te same formy aktywne."
+  - q: "Czy kawa lub witamina C mogą zaburzać wchłanianie B12?"
+    a: "Tak. Wysokie dawki witaminy C mogą chemicznie uszkadzać strukturę B12, a nawykowe, intensywne picie kawy wiąże się z niższym poziomem B12 w surowicy. Rozdziel B12 od witaminy C o co najmniej 2 godziny, a od kawy o 30-60 minut."
 ---
 
 # Optymalny Czas i Warunki Suplementacji Witaminy B12 (Kobalaminy)

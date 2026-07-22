@@ -4,6 +4,13 @@ description: "Scopri quali vitamine e minerali non dovresti mai prendere insieme
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
 image: "/assets/supplement_interactions_cover.webp"
+faq:
+  - q: "Posso assumere calcio e ferro insieme?"
+    a: "No. Il calcio è un potente inibitore dell'assorbimento del ferro non-eme: assumerli insieme può bloccare completamente il ferro dal raggiungere il flusso sanguigno. Separali di almeno 2-3 ore."
+  - q: "È sicuro assumere zinco e rame insieme?"
+    a: "Assumili in momenti diversi della giornata. Zinco e rame competono per la stessa via di assorbimento intestinale, e l'uso prolungato di zinco ad alto dosaggio senza rame adeguato può causare una carenza di rame."
+  - q: "Calcio e magnesio andrebbero assunti nello stesso momento?"
+    a: "È meglio di no. Dosi elevate di calcio e magnesio competono per gli stessi recettori cellulari: assumi il calcio al mattino con il cibo e il magnesio di sera."
 ---
 
 Assumere integratori è uno dei passi più proattivi che puoi fare per la tua salute. Tuttavia, trattare la tua routine quotidiana di integratori come un buffet libero — ingoiando dieci pillole diverse tutte in una volta con il tuo caffè mattutino — ha dimostrato scientificamente di essere controproducente e, in alcuni casi, persino dannoso.

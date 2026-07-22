@@ -4,6 +4,15 @@ description: "Descubre el mejor momento del día respaldado por la ciencia para 
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
 image: "/assets/vitamin_d_cover.webp"
+faq:
+  - q: "¿Debo tomar Vitamina D2 o D3?"
+    a: "Elige siempre D3 (colecalciferol). Los estudios muestran de forma consistente que la D3 es hasta un 87% más eficaz que la D2 (ergocalciferol) para elevar y mantener los niveles sanguíneos activos de calcifediol."
+  - q: "¿Necesito tomar la Vitamina D con comida?"
+    a: "Sí. La vitamina D es liposoluble y necesita grasa dietética para absorberse; tomarla con la comida más abundante y grasa del día puede aumentar su absorción entre un 50 y un 60% en comparación con el estómago vacío."
+  - q: "¿Tomar Vitamina D por la noche puede afectar mi sueño?"
+    a: "En algunas personas, sí. La vitamina D tiene una relación inversa con la producción de melatonina, por lo que dosis altas tomadas justo antes de dormir se han relacionado con mayor latencia del sueño, menos sueño REM y más despertares nocturnos."
+  - q: "¿Por qué necesito magnesio y Vitamina K2 junto con la Vitamina D?"
+    a: "El magnesio es necesario en cada paso de la conversión de la Vitamina D a su forma activa (calcitriol), y la Vitamina K2 dirige el calcio que la Vitamina D te ayuda a absorber hacia los huesos en lugar de hacia las arterias."
 ---
 
 La vitamina D es mucho más que una simple vitamina; funciona como una prohormona en el cuerpo humano y desempeña un papel crucial en la densidad ósea, la regulación del sistema inmunológico, la producción de testosterona y la estabilización del estado de ánimo. A pesar de esta inmensa importancia sistémica, los datos epidemiológicos actuales muestran que más del 50% de la población mundial tiene deficiencia o insuficiencia de vitamina D.

@@ -5,6 +5,15 @@ pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 image: "/assets/magnesium_cover.webp"
+faq:
+  - q: "Dạng magie nào tốt nhất cho giấc ngủ?"
+    a: "Magie glycinate (bisglycinate). Nó liên kết với glycine, một axit amin có tác dụng làm dịu, và các nghiên cứu lâm sàng cho thấy nó giảm mức độ mất ngủ và hỗ trợ thư giãn cơ với nguy cơ rối loạn tiêu hóa tối thiểu."
+  - q: "Dạng magie nào tôi nên tránh?"
+    a: "Magie oxide. Mặc dù có hàm lượng magie nguyên tố cao tính theo trọng lượng, chỉ có 4-15% thực sự được hấp thụ - nó chủ yếu hữu ích như một loại thuốc nhuận tràng ngắn hạn, không phải để khắc phục tình trạng thiếu hụt."
+  - q: "Dạng magie nào tốt nhất cho táo bón?"
+    a: "Magie citrat. Nó rất dễ hòa tan trong nước và kéo nước vào đại tràng, kích thích nhu động ruột và giảm táo bón một cách an toàn và dễ dự đoán."
+  - q: "Tôi có thể uống magie và canxi cùng lúc không?"
+    a: "Không nên ở liều cao đậm đặc cùng lúc - chúng cạnh tranh cùng một con đường hấp thụ. Thay vào đó hãy uống canxi vào buổi sáng cùng thức ăn và magie vào buổi tối."
 ---
 
 Được ví như động cơ chính của sinh lý tế bào, magie là một khoáng chất đa lượng không thể thiếu, chi phối nhịp điệu trao đổi chất của cơ thể con người. Nó hoạt động như một đồng yếu tố cần thiết trong hơn 600 phản ứng enzym, từ sản xuất năng lượng tế bào đến dẫn truyền thần kinh và co cơ.

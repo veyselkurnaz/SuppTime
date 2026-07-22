@@ -5,6 +5,15 @@ pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
 image: "/assets/iron_cover.webp"
+faq:
+  - q: "Qual è il momento migliore della giornata per assumere gli integratori di ferro?"
+    a: "Assumi il ferro al mattino a stomaco vuoto. In quel momento l'epcidina circolante, l'ormone che blocca l'assorbimento del ferro, è al suo livello più basso, permettendo a una quantità di ferro significativamente maggiore di entrare nel flusso sanguigno rispetto a una dose assunta nel pomeriggio o alla sera."
+  - q: "Posso assumere ferro e calcio insieme?"
+    a: "No. L'assunzione contemporanea di 500 mg di carbonato di calcio con un pasto contenente ferro riduce l'assorbimento frazionale del ferro di oltre il 50%. Separa ferro e calcio di almeno 2 ore."
+  - q: "La vitamina C aiuta davvero l'assorbimento del ferro?"
+    a: "Sì. L'acido ascorbico converte il ferro ferrico insolubile (Fe3+) nella forma ferrosa solubile (Fe2+) e lo protegge dal legame con fitati e polifenoli, rendendolo il potenziatore più efficace dell'assorbimento del ferro non-eme."
+  - q: "Dovrei assumere il ferro tutti i giorni o a giorni alterni?"
+    a: "Gli studi clinici mostrano che il dosaggio a giorni alterni (ogni 48 ore) aumenta l'assorbimento frazionale del ferro del 40-50% rispetto al dosaggio giornaliero, perché evita il blocco della mucosa indotto dall'epcidina che le dosi giornaliere elevate innescano."
 ---
 
 Il ferro è un micronutriente indispensabile che funge da cofattore strutturale e catalitico nel trasporto dell'ossigeno, nella respirazione cellulare e nella sintesi del DNA. Nonostante la sua abbondanza nell'ambiente, il ferro è frequentemente un nutriente limitante la crescita nella dieta umana. Poiché gli esseri umani non possiedono alcun meccanismo fisiologico per l'escrezione attiva del ferro, l'equilibrio sistemico del ferro è mantenuto esclusivamente a livello dell'assorbimento intestinale.

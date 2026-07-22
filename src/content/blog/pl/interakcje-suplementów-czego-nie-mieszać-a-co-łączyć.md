@@ -4,6 +4,13 @@ description: "Odkryj, jakich witamin i minerałów nigdy nie powinieneś brać r
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
 image: "/assets/supplement_interactions_cover.webp"
+faq:
+  - q: "Czy można łączyć wapń i żelazo?"
+    a: "Nie. Wapń jest silnym inhibitorem wchłaniania żelaza niehemowego – przyjęte razem mogą całkowicie zablokować przenikanie żelaza do krwiobiegu. Rozdziel je o co najmniej 2-3 godziny."
+  - q: "Czy cynk i miedź można przyjmować razem?"
+    a: "Lepiej przyjmować je o różnych porach dnia. Cynk i miedź konkurują o ten sam szlak wchłaniania jelitowego, a długotrwała suplementacja wysokimi dawkami cynku bez odpowiedniej ilości miedzi może prowadzić do jej niedoboru."
+  - q: "Czy wapń i magnez należy przyjmować w tym samym momencie?"
+    a: "Lepiej tego unikać. Wysokie dawki wapnia i magnezu konkurują o te same receptory komórkowe – zamiast tego przyjmuj wapń rano z posiłkiem, a magnez wieczorem."
 ---
 
 Przyjmowanie suplementów to jeden z najbardziej proaktywnych kroków, jakie możesz podjąć dla swojego zdrowia. Jednak traktowanie codziennej rutyny suplementacyjnej jak otwartego bufetu — połykanie dziesięciu różnych tabletek na raz i popijanie ich poranną kawą — naukowo udowodniono jako przeciwskuteczne, a w niektórych przypadkach nawet szkodliwe.

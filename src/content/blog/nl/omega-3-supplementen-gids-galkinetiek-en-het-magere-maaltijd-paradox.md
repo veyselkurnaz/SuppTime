@@ -4,6 +4,13 @@ description: "Ontdek de chronofarmacologie van Omega-3 (EPA/DHA) supplementen. L
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
 image: "/assets/omega3_cover.webp"
+faq:
+  - q: "Waarom werkt visolie niet als ik het op een lege maag inneem?"
+    a: "Omega-3-vetzuren zijn sterk hydrofoob en hebben voedingsvet nodig om galafgifte en micelvorming in de darm te activeren. Zonder gelijktijdig ingenomen vet kan de olie niet worden geëmulgeerd en kunnen pancreaslipasen er niet bij, waardoor het grootste deel onopgenomen door je systeem gaat — dit heet de 'magere-maaltijd-paradox'."
+  - q: "Wat moet ik eten samen met mijn omega-3-supplement?"
+    a: "Een bron van voedingsvet, zoals extra vierge olijfolie, avocado, eieren of een vette maaltijd. Dit activeert de afgifte van cholecystokinine (CCK), waardoor de galblaas galzuren afgeeft die nodig zijn om opneembare micellen te vormen."
+  - q: "Helpt water drinken bij de opname van visolie?"
+    a: "Nee. Water emulgeert geen hydrofobe lipiden — alleen ingenomen op een lege maag kan het juist de sporen van spijsverteringsenzymen verdunnen en de onopgenomen olie verder van de darmwand wegbewegen."
 ---
 
 De therapeutische effectiviteit van lange-keten mariene omega-3 meervoudig onverzadigde vetzuren ($\text{PUFA}$'s), in het bijzonder eicosapentaeenzuur ($\text{EPA}$) en docosahexaeenzuur ($\text{DHA}$), wordt strikt bepaald door hun intestinale biologische beschikbaarheid. In de klinische voeding is een belangrijke oorzaak van therapeutisch falen de "lean-meal paradox" (het paradox van de magere maaltijd) — de toediening van sterk hydrofobe mariene lipiden tijdens het vasten of naast vetvrije maaltijden. Ondanks de inname van hoge nominale doses, verhindert het ontbreken van een gestructureerde lipide co-ingestie matrix de fysieke en enzymatische mechanismen die nodig zijn voor vetopname in het waterige lumen van het menselijk maag-darmkanaal. Deze klinische analyse beschrijft de biofysische, biochemische en chronofarmacologische principes die de vertering en opname van $\text{EPA}$ en $\text{DHA}$ bepalen.

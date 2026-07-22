@@ -4,6 +4,15 @@ description: "Odkryj poparty badaniami najlepszy moment w ciągu dnia na przyjmo
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
 image: "/assets/vitamin_d_cover.webp"
+faq:
+  - q: "Czy powinienem przyjmować Witaminę D2 czy D3?"
+    a: "Zawsze wybieraj D3 (cholekalcyferol). Badania konsekwentnie pokazują, że D3 jest nawet o 87% skuteczniejsza od D2 (ergokalcyferolu) w podnoszeniu i utrzymywaniu aktywnego poziomu kalcyfediolu we krwi."
+  - q: "Czy muszę przyjmować Witaminę D z jedzeniem?"
+    a: "Tak. Witamina D jest rozpuszczalna w tłuszczach i potrzebuje tłuszczu z pożywienia, aby się wchłonąć – przyjmowanie jej z największym, najbardziej tłustym posiłkiem dnia może zwiększyć wchłanianie o 50-60% w porównaniu z pustym żołądkiem."
+  - q: "Czy przyjmowanie Witaminy D wieczorem może wpływać na sen?"
+    a: "U niektórych osób tak. Witamina D ma odwrotną zależność z produkcją melatoniny, więc wysokie dawki przyjęte tuż przed snem wiązano z wydłużonym zasypianiem, skróconym snem REM i częstszymi wybudzeniami w nocy."
+  - q: "Dlaczego potrzebuję magnezu i Witaminy K2 razem z Witaminą D?"
+    a: "Magnez jest niezbędny na każdym etapie przekształcania Witaminy D w jej aktywną formę (kalcytriol), a Witamina K2 kieruje wapń, który Witamina D pomaga wchłonąć, do kości zamiast do tętnic."
 ---
 
 Witamina D to znacznie więcej niż tylko zwykła witamina; w organizmie człowieka pełni funkcję prohormonu i odgrywa kluczową rolę w gęstości kości, regulacji układu odpornościowego, produkcji testosteronu i stabilizacji nastroju. Pomimo tego ogromnego znaczenia ogólnoustrojowego, obecne dane epidemiologiczne pokazują, że ponad 50% światowej populacji ma niedobór lub niewystarczający poziom witaminy D.

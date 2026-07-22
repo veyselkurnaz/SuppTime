@@ -5,6 +5,15 @@ pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 image: "/assets/magnesium_cover.webp"
+faq:
+  - q: "Welke vorm van magnesium is het beste voor slaap?"
+    a: "Magnesiumglycinaat (bisglycinaat). Het is gebonden aan glycine, een kalmerend aminozuur, en klinische studies tonen aan dat het de ernst van slapeloosheid vermindert en spierontspanning ondersteunt met minimaal risico op maagklachten."
+  - q: "Welke magnesiumvorm moet ik vermijden?"
+    a: "Magnesiumoxide. Ondanks een hoog gehalte aan elementair magnesium per gewicht, wordt slechts 4-15% ervan daadwerkelijk opgenomen — het is vooral bruikbaar als kortdurend laxeermiddel, niet om een tekort te verhelpen."
+  - q: "Wat is de beste magnesiumvorm bij verstopping?"
+    a: "Magnesiumcitraat. Het is zeer wateroplosbaar en trekt water naar de dikke darm, wat de peristaltiek stimuleert en verstopping veilig en voorspelbaar verlicht."
+  - q: "Kan ik magnesium en calcium samen innemen?"
+    a: "Niet in hoge geconcentreerde doses tegelijk — ze concurreren om dezelfde opnameroute. Neem calcium 's ochtends met eten en magnesium in plaats daarvan 's avonds."
 ---
 
 Magnesium wordt vaak beschreven als de primaire motor van onze celfysiologie en is een onmisbaar macromineraal dat de metabolische ritmes van het menselijk lichaam stuurt. Het fungeert als noodzakelijke cofactor in meer dan 600 enzymatische reacties.

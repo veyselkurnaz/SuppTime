@@ -4,6 +4,13 @@ description: "Hangi vitamin ve mineralleri (Demir ve Kalsiyum gibi) asla birlikt
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
 image: "/assets/supplement_interactions_cover.webp"
+faq:
+  - q: "Kalsiyum ve demiri birlikte alabilir miyim?"
+    a: "Hayır. Kalsiyum, hem içermeyen (non-heme) demirin emilimini güçlü şekilde engeller — ikisini birlikte almak demirin kan dolaşımına ulaşmasını tamamen engelleyebilir. Aralarında en az 2 ila 3 saat bırakın."
+  - q: "Çinko ve bakırı birlikte almak güvenli mi?"
+    a: "Bunları günün farklı saatlerinde alın. Çinko ve bakır bağırsakta aynı emilim yolunu paylaşır ve yeterli bakır alımı olmadan uzun süre yüksek doz çinko kullanımı bakır eksikliğine yol açabilir."
+  - q: "Kalsiyum ve magnezyum aynı anda mı alınmalı?"
+    a: "Almamak daha iyidir. Yüksek dozda kalsiyum ve magnezyum aynı hücresel reseptörler için rekabet eder — kalsiyumu sabah yemekle, magnezyumu ise gece almak daha uygundur."
 ---
 
 Takviye almak, sağlığınız için atabileceğiniz en proaktif adımlardan biridir. Ancak, günlük takviye rutininize açık büfe muamelesi yapmak (sabah kahvenizle birlikte on farklı hapı aynı anda yutmak) bilimsel olarak kanıtlanmış bir şekilde verimsizdir ve bazı durumlarda zararlıdır.

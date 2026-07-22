@@ -4,6 +4,13 @@ description: "Khám phá dược lý học thời gian (chronopharmacology) củ
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
 image: "/assets/omega3_cover.webp"
+faq:
+  - q: "Tại sao dầu cá không có tác dụng nếu uống khi bụng đói?"
+    a: "Omega-3 có tính kỵ nước cao và cần chất béo trong khẩu phần để kích hoạt giải phóng mật và hình thành micelle trong ruột. Nếu không có chất béo dùng kèm, dầu không thể được nhũ hóa và lipase tuyến tụy không thể tiếp cận nó, khiến phần lớn dầu đi qua mà không được hấp thụ - đây gọi là 'nghịch lý bữa ăn ít béo'."
+  - q: "Tôi nên ăn gì cùng với chất bổ sung omega-3?"
+    a: "Một nguồn chất béo trong khẩu phần, chẳng hạn như dầu ô liu nguyên chất, bơ, trứng, hoặc một bữa ăn giàu chất béo. Điều này kích hoạt giải phóng cholecystokinin (CCK), khiến túi mật tiết ra axit mật cần thiết để hình thành các micelle có thể hấp thụ."
+  - q: "Uống nước có giúp hấp thụ dầu cá không?"
+    a: "Không. Nước không nhũ hóa các lipid kỵ nước - nếu uống một mình khi bụng đói, nó thực sự có thể pha loãng các enzym tiêu hóa vi lượng hiện có và đẩy dầu chưa được hấp thụ ra xa thành ruột hơn."
 ---
 
 Hiệu quả điều trị của axit béo không bão hòa đa Omega-3 chuỗi dài từ biển ($\text{PUFA}$), đặc biệt là axit eicosapentaenoic ($\text{EPA}$) và axit docosahexaenoic ($\text{DHA}$), bị chi phối nghiêm ngặt bởi sinh khả dụng tại ruột của chúng. Trong dinh dưỡng lâm sàng, một nguyên nhân chính gây thất bại trong điều trị là "nghịch lý bữa ăn không béo" (lean-meal paradox) — việc dùng các lipid biển có tính kỵ nước cao trong trạng thái nhịn ăn hoặc cùng với các bữa ăn không có chất béo. Bất chấp việc tiêu thụ liều lượng danh nghĩa cao, việc thiếu một mạng lưới lipid dùng kèm có cấu trúc ngăn cản các cơ chế vật lý và enzym cần thiết cho quá trình hấp thụ chất béo trong lòng ống dẫn nước của đường tiêu hóa ở người. Phân tích lâm sàng này nêu chi tiết các nguyên tắc sinh lý sinh lý, sinh hóa và dược lý học thời gian quyết định quá trình tiêu hóa và hấp thụ $\text{EPA}$ và $\text{DHA}$.

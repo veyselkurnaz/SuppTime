@@ -4,6 +4,13 @@ description: "Odkryj chronofarmakologię suplementów Omega-3 (EPA/DHA). Dowiedz
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
 image: "/assets/omega3_cover.webp"
+faq:
+  - q: "Dlaczego olej rybny nie działa, gdy przyjmuję go na pusty żołądek?"
+    a: "Kwasy omega-3 są silnie hydrofobowe i wymagają tłuszczu z pożywienia, aby wywołać uwolnienie żółci i utworzenie miceli w jelicie. Bez współprzyjętego tłuszczu olej nie może zostać zemulgowany, a lipazy trzustkowe nie mają do niego dostępu, więc większość przechodzi przez organizm niewchłonięta – to tzw. „paradoks chudego posiłku”."
+  - q: "Co powinienem zjeść razem z suplementem omega-3?"
+    a: "Źródło tłuszczu z pożywienia, np. oliwę z oliwek extra virgin, awokado, jajka lub tłusty posiłek. Wywołuje to uwolnienie cholecystokininy (CCK), która pobudza pęcherzyk żółciowy do uwolnienia kwasów żółciowych potrzebnych do utworzenia wchłanialnych miceli."
+  - q: "Czy picie wody pomaga wchłonąć olej rybny?"
+    a: "Nie. Woda nie emulguje hydrofobowych lipidów – przyjęta samodzielnie na pusty żołądek może wręcz rozcieńczyć śladowe ilości enzymów trawiennych i oddalić niewchłonięty olej od ściany jelita."
 ---
 
 Skuteczność terapeutyczna długołańcuchowych morskich wielonienasyconych kwasów tłuszczowych omega-3 ($\text{PUFA}$), w szczególności kwasu eikozapentaenowego ($\text{EPA}$) i kwasu dokozaheksaenowego ($\text{DHA}$), jest ściśle uwarunkowana ich biodostępnością jelitową. W żywieniu klinicznym głównym powodem niepowodzeń terapeutycznych jest "paradoks chudego posiłku" (lean-meal paradox) — podawanie wysoce hydrofobowych lipidów morskich na czczo lub wraz z beztłuszczowymi posiłkami. Pomimo przyjmowania wysokich dawek nominalnych, brak zorganizowanej matrycy lipidowej przyjmowanej z pokarmem zapobiega fizycznym i enzymatycznym mechanizmom niezbędnym do wchłaniania tłuszczów w wodnym środowisku przewodu pokarmowego człowieka. Niniejsza analiza kliniczna szczegółowo opisuje biofizyczne, biochemiczne i chronofarmakologiczne zasady, które dyktują trawienie i wchłanianie $\text{EPA}$ i $\text{DHA}$.

@@ -4,6 +4,13 @@ description: "Eine klinische Aufschlüsselung der Kollagentypen, Absorptionskine
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
 image: "/assets/collagen_cover.webp"
+faq:
+  - q: "Welcher Kollagentyp ist am besten bei Gelenkschmerzen?"
+    a: "Typ-II-Kollagen, das 90-95 % des Knorpels in den Gelenken ausmacht. Es unterscheidet sich strukturell von dem Typ-I/III-Kollagen, das in den meisten haut- und haarfokussierten Präparaten enthalten ist."
+  - q: "Welche Kollagenquelle wird am leichtesten aufgenommen?"
+    a: "Marines Kollagen erreicht dank seines sehr niedrigen Molekulargewichts (nach der Hydrolyse teilweise unter 600 Da) die beste Darmabsorptionsrate unter den gängigen Quellen (Rind, Schwein, Marine)."
+  - q: "Brauche ich Vitamin C zusammen mit Kollagenpräparaten?"
+    a: "Ja. Vitamin C (Ascorbinsäure) ist ein essenzieller Cofaktor für die Enzyme, die im Körper neues Kollagen synthetisieren – ohne ausreichend Vitamin C steht supplementiertem Kollagen weniger Rohmaterial zur Verfügung, um zu funktionalem Kollagen verarbeitet zu werden."
 ---
 
 # Kollagen-Anwendungsleitfaden: Strukturelle Typen, Absorptionskinetik und wissenschaftliche Analyse metabolischer Kofaktoren

@@ -5,6 +5,15 @@ pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
 image: "/assets/iron_cover.webp"
+faq:
+  - q: "Qual é o melhor horário do dia para tomar suplementos de ferro?"
+    a: "Tome ferro pela manhã, em jejum. Nesse horário, os níveis circulantes de hepcidina — o hormônio que bloqueia a absorção de ferro — estão no ponto mais baixo, permitindo que uma quantidade significativamente maior de ferro chegue à corrente sanguínea do que em uma dose à tarde ou à noite."
+  - q: "Posso tomar ferro e cálcio ao mesmo tempo?"
+    a: "Não. Ingerir 500 mg de carbonato de cálcio junto com uma refeição que contém ferro reduz a absorção fracionada de ferro em mais de 50%. Separe o ferro do cálcio por pelo menos 2 horas."
+  - q: "A vitamina C realmente ajuda na absorção do ferro?"
+    a: "Sim. O ácido ascórbico converte o ferro férrico insolúvel (Fe3+) na forma ferrosa solúvel (Fe2+) e o protege da ligação com fitatos e polifenóis, tornando-se o potencializador mais eficaz da absorção de ferro não-heme."
+  - q: "Devo tomar ferro todos os dias ou em dias alternados?"
+    a: "Estudos clínicos mostram que a dosagem em dias alternados (a cada 48 horas) aumenta a absorção fracionada de ferro em 40-50% em comparação com a dosagem diária, pois evita o bloqueio da mucosa induzido pela hepcidina que doses diárias elevadas provocam."
 ---
 
 O ferro é um micronutriente indispensável que atua como cofator estrutural e catalítico no transporte de oxigênio, na respiração celular e na síntese de DNA. Apesar de sua abundância ambiental, o ferro é frequentemente um nutriente limitante do crescimento na dieta humana. Como os humanos não possuem nenhum mecanismo fisiológico para a excreção ativa de ferro, o equilíbrio sistêmico de ferro é mantido exclusivamente no nível da absorção intestinal.

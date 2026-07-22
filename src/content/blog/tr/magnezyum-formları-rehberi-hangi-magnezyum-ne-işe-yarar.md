@@ -5,6 +5,15 @@ pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 image: "/assets/magnesium_cover.webp"
+faq:
+  - q: "Uyku için en iyi magnezyum formu hangisidir?"
+    a: "Magnezyum glisinat (bisglisinat). Yatıştırıcı bir amino asit olan glisine bağlıdır ve klinik çalışmalar uykusuzluk şiddetini azalttığını, minimum sindirim rahatsızlığıyla kas gevşemesini desteklediğini göstermektedir."
+  - q: "Hangi magnezyum formundan kaçınmalıyım?"
+    a: "Magnezyum oksit. Ağırlıkça yüksek elemental magnezyum içeriğine rağmen, bunun yalnızca %4-15'i gerçekten emilir — daha çok kısa süreli bir müshil olarak işe yarar, eksikliği gidermek için değil."
+  - q: "Kabızlık için en iyi magnezyum formu hangisidir?"
+    a: "Magnezyum sitrat. Suda yüksek oranda çözünür ve bağırsağa su çekerek peristaltizmi uyarır, kabızlığı güvenli ve öngörülebilir şekilde giderir."
+  - q: "Magnezyum ve kalsiyumu birlikte alabilir miyim?"
+    a: "Aynı anda yüksek konsantre dozlarda almayın — aynı emilim yolu için rekabet ederler. Kalsiyumu sabah yemekle, magnezyumu ise akşam alın."
 ---
 
 Hücresel fizyolojimizin ana motoru olarak tanımlanan magnezyum, insan vücudunun metabolik ritmini yöneten vazgeçilmez bir makro mineraldir. Enerji üretiminden sinir iletimine ve kas kasılmasına kadar 600'den fazla enzimatik reaksiyonda gerekli bir kofaktör olarak görev yapar.

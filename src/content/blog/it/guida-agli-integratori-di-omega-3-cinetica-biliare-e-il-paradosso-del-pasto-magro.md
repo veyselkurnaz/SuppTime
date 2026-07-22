@@ -4,6 +4,13 @@ description: "Scopri la cronofarmacologia degli integratori di Omega-3 (EPA/DHA)
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
 image: "/assets/omega3_cover.webp"
+faq:
+  - q: "Perché l'olio di pesce non funziona se lo assumo a stomaco vuoto?"
+    a: "Gli omega-3 sono altamente idrofobici e richiedono grassi alimentari per innescare il rilascio di bile e la formazione di micelle nell'intestino. Senza grassi co-ingeriti, l'olio non può essere emulsionato e le lipasi pancreatiche non possono agire su di esso, quindi gran parte passa inassorbita: è il cosiddetto 'paradosso del pasto magro'."
+  - q: "Cosa dovrei mangiare insieme al mio integratore di omega-3?"
+    a: "Una fonte di grassi alimentari, come olio extravergine d'oliva, avocado, uova o un pasto grasso. Questo innesca il rilascio di colecistochinina (CCK), che induce la cistifellea a rilasciare gli acidi biliari necessari per formare micelle assorbibili."
+  - q: "Bere acqua aiuta ad assorbire l'olio di pesce?"
+    a: "No. L'acqua non emulsiona i lipidi idrofobici: assunta da sola a stomaco vuoto, può addirittura diluire i pochi enzimi digestivi presenti e allontanare l'olio non assorbito dalla parete intestinale."
 ---
 
 L'efficacia terapeutica degli acidi grassi polinsaturi ($\text{PUFA}$) omega-3 marini a catena lunga, in particolare l'acido eicosapentaenoico ($\text{EPA}$) e l'acido docosaesaenoico ($\text{DHA}$), è strettamente regolata dalla loro biodisponibilità intestinale. Nella nutrizione clinica, una delle principali fonti di fallimento terapeutico è il "paradosso del pasto magro" (lean-meal paradox): la somministrazione di lipidi marini altamente idrofobici a digiuno o insieme a pasti privi di grassi. Nonostante l'assunzione di alte dosi nominali, la mancanza di una matrice strutturata di co-ingestione lipidica impedisce i meccanismi fisici ed enzimatici necessari per l'assorbimento dei lipidi nel lume acquoso del tratto gastrointestinale umano. Questa analisi clinica descrive i principi biofisici, biochimici e cronofarmacologici che determinano la digestione e l'assorbimento di $\text{EPA}$ e $\text{DHA}$.

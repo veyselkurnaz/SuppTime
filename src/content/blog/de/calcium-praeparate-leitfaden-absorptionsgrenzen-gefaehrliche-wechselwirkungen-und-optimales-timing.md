@@ -5,6 +5,15 @@ pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
 image: "/assets/calcium_cover.webp"
+faq:
+  - q: "Wie viel Calcium kann mein Körper in einer Dosis aufnehmen?"
+    a: "Die Absorptionseffizienz sinkt mit steigender Dosisgröße. Deshalb begrenzt die gängige klinische Empfehlung Einzeldosen auf 500 mg elementares Calcium und teilt ein höheres Tagesziel auf zwei oder mehr Einnahmen auf."
+  - q: "Sollte ich Calciumcarbonat oder Calciumcitrat einnehmen?"
+    a: "Calciumcitrat ist die sicherere Standardwahl, besonders wenn Sie einen PPI oder H2-Blocker einnehmen oder über 65 Jahre alt sind – es benötigt keine Magensäure zur Auflösung. Calciumcarbonat muss mit einer Mahlzeit und normaler Magensäure eingenommen werden, um gut aufgenommen zu werden."
+  - q: "Kann ich Calcium zusammen mit meinem Schilddrüsenmedikament einnehmen?"
+    a: "Nein. Calcium (in jeglicher Form, auch aus angereicherten Lebensmitteln) muss um mindestens 4 Stunden von Levothyroxin getrennt eingenommen werden – Calciumcarbonat kann die Levothyroxin-Aufnahme von rund 84 % auf 58 % senken."
+  - q: "Ist es sicher, täglich Calciumpräparate einzunehmen?"
+    a: "Eine große Metaanalyse fand heraus, dass Calciumpräparate, die ohne begleitendes Vitamin D und in isolierten hochdosierten Einzelgaben eingenommen wurden, mit einem erhöhten kardiovaskulären Risiko verbunden waren. Einzeldosen klein zu halten (≤500 mg), über den Tag zu verteilen und mit Vitamin D zu kombinieren, ist der sicherere Ansatz."
 ---
 
 Calcium ist das häufigste Mineral im menschlichen Körper und unverzichtbar für die Skelettmineralisierung, die Muskelkontraktion, die Reizweiterleitung im Nervensystem und die Blutgerinnung. Da 99 % des körpereigenen Calciums im Knochen gespeichert sind, wird die Supplementierung oft nach dem einfachen Prinzip "viel hilft viel" betrachtet. Physiologisch ist das falsch: Die Calciumaufnahme ist ein sättigbarer Prozess, und wer eine große Dosis auf einmal einnimmt, verschwendet einen erheblichen Teil davon.

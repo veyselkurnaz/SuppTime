@@ -5,6 +5,15 @@ pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
 image: "/assets/zinc_cover.webp"
+faq:
+  - q: "Çinko aç karnına mı yoksa yemekle birlikte mi alınmalı?"
+    a: "Bu gerçek bir ödünleşimdir: aç karnına almak emilimi en üst düzeye çıkarır ancak bazı kişilerde bulantıya neden olabilir, yemekle almak ise bulantıyı azaltır ama emilimi engelleyen fitatları devreye sokar. Çinko bisglisinat veya çinko pikolinat gibi organik şelatlar bu iki sorunu da büyük ölçüde ortadan kaldırır."
+  - q: "Çinko neden aç karnına mide bulantısı yapar?"
+    a: "Çinko sülfat gibi inorganik çinko tuzları midede hızla ayrışarak lokal olarak asidik ve tahriş edici bir ortam oluşturur; bu da beyin sapına vagal sinir sinyalleri göndererek yaklaşık 30 dakika içinde bulantı ve mide spazmlarına yol açar."
+  - q: "Çinko, demir veya bakırla etkileşime girer mi?"
+    a: "Evet. Çinko her ikisiyle de emilim için rekabet eder. Uzun süreli yüksek doz çinko kullanımı, günün farklı saatinde ve genellikle 10:1 ila 15:1 çinko-bakır oranında az miktarda bakır takviyesi yapılmadığı takdirde bakır eksikliğine yol açabilir."
+  - q: "En iyi çinko formu hangisidir?"
+    a: "Çinko bisglisinat veya çinko pikolinat gibi organik şelatlar — bunlar çinko sülfat gibi inorganik tuzlara kıyasla mide içinde ayrışmaya ve fitat engellemesine çok daha dirençlidir ve çok daha iyi tolere edilir."
 ---
 
 Çinko ($\text{Zn}^{2+}$) takviyesi uygulaması, bir dizi fizyolojik ve biyokimyasal paradoks barındırır. Çinko 300'den fazla enzimatik reaksiyonda yer alan hayati bir eser mineral olsa da, oral yolla (ağızdan) alınması genellikle akut gastrointestinal rahatsızlıklar, diğer minerallerle rekabetçi inhibisyon (engelleme) ve sistemik mineral tükenmesi ile sekteye uğrar. Bu sorunları çözmek ve optimum dozlama protokolleri tasarlamak için bağırsak taşıyıcı kinetiğinin, mukozal biyokimyanın ve kronofarmakolojinin ayrıntılı bir şekilde anlaşılması gerekir.

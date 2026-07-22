@@ -4,6 +4,13 @@ description: "Kliniczna analiza typów kolagenu, kinetyki wchłaniania, optymaln
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
 image: "/assets/collagen_cover.webp"
+faq:
+  - q: "Który typ kolagenu jest najlepszy na bóle stawów?"
+    a: "Kolagen Typu II, który stanowi 90-95% chrząstki w stawach. Jest strukturalnie inny od kolagenu Typu I/III, obecnego w większości suplementów ukierunkowanych na skórę i włosy."
+  - q: "Które źródło kolagenu wchłania się najłatwiej?"
+    a: "Kolagen morski, dzięki bardzo niskiej masie cząsteczkowej (nawet poniżej 600 Da po hydrolizie), zapewnia najlepszy wskaźnik wchłaniania jelitowego wśród popularnych źródeł (wołowego, wieprzowego, morskiego)."
+  - q: "Czy potrzebuję witaminy C razem z suplementami kolagenu?"
+    a: "Tak. Witamina C (kwas askorbinowy) jest niezbędnym kofaktorem dla enzymów syntetyzujących nowy kolagen w organizmie – bez jej odpowiedniej ilości suplementowane peptydy kolagenu mają mniej surowca do budowy funkcjonalnego kolagenu."
 ---
 
 # Przewodnik po Stosowaniu Kolagenu: Typy Strukturalne, Kinetyka Wchłaniania i Naukowa Analiza Kofaktorów Metabolicznych

@@ -4,6 +4,13 @@ description: "Descubra quais vitaminas e minerais você nunca deve tomar juntos 
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
 image: "/assets/supplement_interactions_cover.webp"
+faq:
+  - q: "Posso tomar cálcio e ferro juntos?"
+    a: "Não. O cálcio é um poderoso inibidor da absorção do ferro não-heme — tomá-los juntos pode bloquear completamente a chegada do ferro à corrente sanguínea. Separe-os por pelo menos 2 a 3 horas."
+  - q: "É seguro tomar zinco e cobre juntos?"
+    a: "Tome-os em horários diferentes do dia. O zinco e o cobre competem pela mesma via de absorção intestinal, e o uso prolongado de zinco em altas doses sem cobre adequado pode causar deficiência de cobre."
+  - q: "Cálcio e magnésio devem ser tomados ao mesmo tempo?"
+    a: "É melhor não. Altas doses de cálcio e magnésio competem pelos mesmos receptores celulares — tome o cálcio pela manhã com alimentos e o magnésio à noite."
 ---
 
 Tomar suplementos é um dos passos mais proativos que você pode dar pela sua saúde. No entanto, tratar sua rotina diária de suplementos como um buffet livre — engolindo dez pílulas diferentes de uma só vez com o café da manhã — provou cientificamente ser contraproducente e, em alguns casos, até prejudicial.

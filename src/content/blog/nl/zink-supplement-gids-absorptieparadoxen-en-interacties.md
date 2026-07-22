@@ -5,6 +5,15 @@ pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
 image: "/assets/zinc_cover.webp"
+faq:
+  - q: "Moet zink op een lege maag of met eten worden ingenomen?"
+    a: "Dit is een echte afweging: een lege maag maximaliseert de opname maar kan bij sommigen misselijkheid veroorzaken, terwijl eten de misselijkheid vermindert maar fytaten introduceert die de opname blokkeren. Organische chelaten zoals zinkbisglycinaat of zinkpicolinaat omzeilen grotendeels beide problemen."
+  - q: "Waarom veroorzaakt zink misselijkheid op een lege maag?"
+    a: "Anorganische zinkzouten zoals zinksulfaat dissociëren snel in de maag, waardoor een lokaal zuur, irriterend milieu ontstaat dat vagale zenuwsignalen naar de hersenstam triggert, wat binnen ongeveer 30 minuten misselijkheid en maagkramp veroorzaakt."
+  - q: "Heeft zink een interactie met ijzer of koper?"
+    a: "Ja. Zink concurreert met beide om opname. Langdurig gebruik van hoge doses zink kan een kopertekort veroorzaken, tenzij een kleine hoeveelheid koper wordt gesuppleerd (doorgaans in een verhouding van 10:1 tot 15:1 zink-tot-koper), ingenomen op een ander moment van de dag dan zink."
+  - q: "Wat is de beste vorm van zink om in te nemen?"
+    a: "Organische chelaten zoals zinkbisglycinaat of zinkpicolinaat — ze weerstaan dissociatie in de maag en interferentie door fytaten veel beter dan anorganische zouten zoals zinksulfaat, met een veel hogere verdraagbaarheid."
 ---
 
 De toediening van zinksupplementen ($\text{Zn}^{2+}$) brengt een reeks fysiologische en biochemische paradoxen met zich mee. Hoewel zink een essentieel sporenmineraal is dat betrokken is bij meer dan 300 enzymatische reacties, wordt de orale inname vaak belemmerd door acute gastro-intestinale klachten, competitieve remming door andere tweewaardige kationen en systemische uitputting van andere mineralen. Om deze problemen op te lossen, is een gedetailleerd begrip nodig van darmtransporterkinetiek, mucosale biochemie en chronofarmacologie.

@@ -4,6 +4,15 @@ description: "Moet je Vitamine B12 's ochtends of 's avonds innemen? Wordt het b
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
 image: "/assets/b12_cover.webp"
+faq:
+  - q: "Is het beter om B12 's ochtends of 's avonds in te nemen?"
+    a: "'s Ochtends, op een lege maag. B12 ondersteunt de cellulaire energieproductie en kan de melatonineafgifte onderdrukken, dus het vlak voor het slapengaan innemen kan bij gevoelige personen inslaapproblemen veroorzaken."
+  - q: "Moet B12 met eten of op een lege maag worden ingenomen?"
+    a: "Op een lege maag met alleen water, idealiter 30 minuten voor het eten of 2 uur na een maaltijd. Supplementair B12 bevindt zich al in een vrije (kristallijne) vorm en heeft geen maagzuur nodig om opgenomen te worden, in tegenstelling tot aan voedsel gebonden B12."
+  - q: "Wat is het verschil tussen cyanocobalamine en methylcobalamine?"
+    a: "Cyanocobalamine is synthetisch en zeer stabiel met een lange houdbaarheid, terwijl methylcobalamine de bio-identieke vorm is die in voeding voorkomt en langer in weefsel behouden blijft maar sneller afbreekt bij blootstelling aan licht. Eenmaal in een cel worden beide omgezet naar dezelfde actieve vormen."
+  - q: "Kunnen koffie of vitamine C de opname van B12 verstoren?"
+    a: "Ja. Hoge doses vitamine C kunnen de structuur van B12 chemisch afbreken, en gewoontematig zwaar koffiegebruik is geassocieerd met lagere serum-B12-waarden. Houd minstens 2 uur tussen B12 en vitamine C aan, en 30-60 minuten tussen B12 en koffie."
 ---
 
 # De Optimale Tijd en Omstandigheden voor Vitamine B12 (Cobalamine) Suppletie

@@ -4,6 +4,13 @@ description: "Entdecken Sie, welche Vitamine und Mineralien Sie niemals zusammen
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
 image: "/assets/supplement_interactions_cover.webp"
+faq:
+  - q: "Kann ich Calcium und Eisen zusammen einnehmen?"
+    a: "Nein. Calcium ist ein starker Hemmstoff der Nicht-Häm-Eisenaufnahme – nimmt man beide zusammen ein, kann dies verhindern, dass das Eisen überhaupt in den Blutkreislauf gelangt. Trennen Sie beide um mindestens 2 bis 3 Stunden."
+  - q: "Ist es sicher, Zink und Kupfer zusammen einzunehmen?"
+    a: "Nehmen Sie diese zu unterschiedlichen Tageszeiten ein. Zink und Kupfer konkurrieren um denselben Aufnahmeweg im Darm, und eine langfristige hochdosierte Zinkeinnahme ohne ausreichend Kupfer kann zu einem Kupfermangel führen."
+  - q: "Sollten Calcium und Magnesium gleichzeitig eingenommen werden?"
+    a: "Besser nicht. Hohe Dosen von Calcium und Magnesium konkurrieren um dieselben zellulären Rezeptoren – nehmen Sie Calcium stattdessen morgens mit Nahrung und Magnesium abends ein."
 ---
 
 Die Einnahme von Nahrungsergänzungsmitteln ist einer der proaktivsten Schritte, die Sie für Ihre Gesundheit tun können. Es ist jedoch wissenschaftlich erwiesen, dass es kontraproduktiv und in einigen Fällen sogar schädlich ist, Ihre tägliche Supplement-Routine wie ein Buffet zu behandeln – sprich zehn verschiedene Pillen auf einmal mit Ihrem Morgenkaffee hinunterzuspülen.

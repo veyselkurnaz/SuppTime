@@ -5,6 +5,15 @@ pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
 image: "/assets/calcium_cover.webp"
+faq:
+  - q: "Quanto calcio riesce ad assorbire il mio corpo in un'unica dose?"
+    a: "L'efficienza di assorbimento diminuisce all'aumentare della dose, motivo per cui la raccomandazione clinica standard limita le dosi singole a 500 mg di calcio elementare, suddividendo qualsiasi obiettivo giornaliero superiore in due o più assunzioni."
+  - q: "Dovrei assumere carbonato di calcio o citrato di calcio?"
+    a: "Il citrato di calcio è la scelta predefinita più sicura, soprattutto se assumi un PPI o un anti-H2 o hai più di 65 anni: non richiede acidità gastrica per sciogliersi. Il carbonato di calcio deve essere assunto con il cibo e con una normale acidità gastrica per essere assorbito bene."
+  - q: "Posso assumere il calcio insieme al mio farmaco per la tiroide?"
+    a: "No. Il calcio (in qualsiasi forma, inclusi gli alimenti fortificati) va separato dalla levotiroxina di almeno 4 ore: il carbonato di calcio può ridurre l'assorbimento della levotiroxina da circa l'84% fino al 58%."
+  - q: "È sicuro assumere integratori di calcio ogni giorno?"
+    a: "Una vasta meta-analisi ha rilevato che gli integratori di calcio assunti senza vitamina D concomitante, e in boli isolati ad alto dosaggio, erano associati a un aumento del rischio cardiovascolare. Mantenere le dosi singole basse (≤500 mg), suddivise nell'arco della giornata e abbinate alla vitamina D è l'approccio più sicuro."
 ---
 
 Il calcio è il minerale più abbondante nel corpo umano, essenziale per la mineralizzazione dello scheletro, la contrazione muscolare, la trasmissione degli impulsi nervosi e la coagulazione del sangue. Poiché il 99% del calcio corporeo è immagazzinato nelle ossa, l'integrazione viene spesso trattata con la logica semplicistica del "più è meglio". Dal punto di vista fisiologico, questo è scorretto: l'assorbimento del calcio è un processo saturabile, e assumere una dose elevata in un'unica volta ne spreca una parte considerevole.

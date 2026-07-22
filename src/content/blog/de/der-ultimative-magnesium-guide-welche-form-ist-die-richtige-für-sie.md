@@ -5,6 +5,15 @@ pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 image: "/assets/magnesium_cover.webp"
+faq:
+  - q: "Welche Magnesiumform ist am besten für den Schlaf?"
+    a: "Magnesiumglycinat (Bisglycinat). Es ist an Glycin, eine beruhigende Aminosäure, gebunden, und klinische Studien zeigen, dass es die Schwere von Schlaflosigkeit reduziert und die Muskelentspannung unterstützt – bei minimalem Risiko für Magenbeschwerden."
+  - q: "Welche Magnesiumform sollte ich meiden?"
+    a: "Magnesiumoxid. Trotz eines hohen elementaren Magnesiumgehalts pro Gewicht werden davon nur 4-15 % tatsächlich aufgenommen – es eignet sich vor allem als kurzfristiges Abführmittel, nicht zur Behebung eines Mangels."
+  - q: "Welche Magnesiumform ist am besten bei Verstopfung?"
+    a: "Magnesiumcitrat. Es ist sehr gut wasserlöslich und zieht Wasser in den Dickdarm, wodurch die Peristaltik angeregt und Verstopfung sicher und vorhersehbar gelindert wird."
+  - q: "Kann ich Magnesium und Calcium zusammen einnehmen?"
+    a: "Nicht in hohen, konzentrierten Dosen gleichzeitig – sie konkurrieren um denselben Aufnahmeweg. Nehmen Sie Calcium stattdessen morgens mit Nahrung und Magnesium abends ein."
 ---
 
 Oft als primärer Motor der zellulären Physiologie beschrieben, ist Magnesium ein unverzichtbares Makromineral, das die metabolischen Rhythmen des menschlichen Körpers steuert. Es fungiert als notwendiger Cofaktor in über 600 enzymatischen Reaktionen, die Prozesse von der zellulären Energieproduktion bis hin zur Neurotransmission und Muskelkontraktion regulieren.

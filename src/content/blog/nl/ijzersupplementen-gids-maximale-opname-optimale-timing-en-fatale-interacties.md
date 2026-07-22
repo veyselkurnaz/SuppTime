@@ -5,6 +5,15 @@ pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
 image: "/assets/iron_cover.webp"
+faq:
+  - q: "Wat is het beste tijdstip van de dag om ijzersupplementen in te nemen?"
+    a: "Neem ijzer 's ochtends op een lege maag. Het circulerende hepcidine, het hormoon dat ijzeropname blokkeert, staat dan op zijn laagste niveau, waardoor aanzienlijk meer ijzer in de bloedbaan terechtkomt dan bij een dosis in de middag of avond."
+  - q: "Kan ik ijzer en calcium tegelijk innemen?"
+    a: "Nee. Het gelijktijdig innemen van 500 mg calciumcarbonaat met een ijzerhoudende maaltijd vermindert de fractionele ijzeropname met meer dan 50%. Houd minstens 2 uur tussen ijzer en calcium aan."
+  - q: "Helpt vitamine C echt bij de opname van ijzer?"
+    a: "Ja. Ascorbinezuur zet onoplosbaar ferri-ijzer (Fe³⁺) om in de oplosbare ferro-vorm (Fe²⁺) en beschermt het tegen binding met fytaten en polyfenolen, waardoor het de meest effectieve versterker is van non-heemijzeropname."
+  - q: "Moet ik ijzer elke dag of om de dag innemen?"
+    a: "Klinische studies tonen aan dat dosering om de dag (elke 48 uur) de fractionele ijzeropname met 40-50% verhoogt vergeleken met dagelijkse dosering, omdat het de door hepcidine veroorzaakte mucosale blokkade vermijdt die dagelijkse hoge doses uitlokken."
 ---
 
 IJzer is een onmisbaar micronutriënt dat fungeert als structurele en katalytische cofactor bij zuurstoftransport, cellulaire ademhaling en DNA-synthese. Ondanks de ruime beschikbaarheid in de natuur, is ijzer vaak een groeibeperkende voedingsstof in het menselijk dieet. Omdat mensen geen fysiologisch mechanisme bezitten voor actieve ijzeruitscheiding, wordt de systemische ijzerbalans uitsluitend op het niveau van darmabsorptie gehandhaafd.
