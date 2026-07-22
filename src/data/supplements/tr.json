@@ -1,0 +1,3501 @@
+{
+  "supplements": [
+    {
+      "id": "vitamin_d3",
+      "name": "D3 Vitamini",
+      "aliases": [
+        "Cholecalciferol",
+        "Vitamin D"
+      ],
+      "category": "vitamins",
+      "emoji": "☀️",
+      "shortDescription": "Kemik sağlığını, bağışıklık sistemini ve duygu durum düzenlemesini destekler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yağda çözünen vitamindir — yağ içeren bir öğünle alındığında emilimi önemli ölçüde artar."
+      },
+      "synergies": [
+        "vitamin_k2",
+        "magnesium_glycinate",
+        "omega3",
+        "probiotics"
+      ],
+      "synergyReasons": {
+        "vitamin_k2": "K2 vitamini kalsiyumu damarlar yerine kemiklere yönlendirir — D3'ün vazgeçilmez yoldaşıdır.",
+        "magnesium_glycinate": "D vitamininin vücutta aktif hale gelmesi için magnezyum gereklidir.",
+        "omega3": "İkisi de yağda çözünür ve aynı emilim yollarını paylaşır — birlikte alınmaları biyoyararlanımı artırabilir.",
+        "probiotics": "Probiyotiklerin D vitamini ile birleştirilmesi metabolik sağlık ve iyileşme üzerinde sinerjik etki yaratır."
+      },
+      "interactions": [
+        "vitamin_a",
+        "st_johns_wort"
+      ],
+      "interactionReasons": {
+        "vitamin_a": "Yüksek dozda A vitamini (>5.000 IU/gün), D vitamini reseptör sinyallerini engeller ve yeterli D3 takviyesine rağmen kemik mineral yoğunluğunun azalmasıyla ilişkilendirilmiştir. D3 takviyesi alırken A vitamini dozlarını orta seviyede tutun.",
+        "st_johns_wort": "Sarı Kantaron (St. John's Wort) CYP3A4 enzimini güçlü bir şekilde uyararak D vitamini metabolizmasını hızlandırır ve serum seviyelerini düşürür."
+      },
+      "commonDoses": "1,000–5,000 IU daily",
+      "notes": "Çoğu insan D vitamini eksikliği yaşar. Takviyeye başlamadan önce kan testi (25-OHD) yaptırılması önerilir. Hedef aralık: 40–60 ng/mL.",
+      "tags": [
+        "bağışıklık",
+        "kemik sağlığı",
+        "duygu durumu",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Holick MF, NEJM 2007"
+      ]
+    },
+    {
+      "id": "vitamin_k2",
+      "name": "K2 Vitamini (MK-7)",
+      "aliases": [
+        "Menaquinone-7",
+        "MK-7",
+        "Vitamin K"
+      ],
+      "category": "vitamins",
+      "emoji": "🦴",
+      "shortDescription": "Kalsiyumu damarlardan uzaklaştırarak kemiklere yönlendirir. D3 vitamininin temel yoldaşıdır.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yağda çözünür — diyet yağı içeren bir öğünle en iyi şekilde emilir."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "calcium"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "D3 kalsiyum emilimini artırır; K2 ise kalsiyumun damarlara değil kemiklere gitmesini sağlar.",
+        "calcium": "K2 kalsiyumu kemik matrisine bağlayan osteokalsini aktive eder."
+      },
+      "interactions": [
+        "vitamin_e"
+      ],
+      "interactionReasons": {
+        "vitamin_e": "Yüksek dozda E vitamini (>300 IU/gün), K vitamini bağımlı enzimleri rekabetçi bir şekilde inhibe ederek K2'nin osteokalsini aktive etme yeteneğini bozar."
+      },
+      "commonDoses": "90–200 mcg daily",
+      "notes": "MK-7 formunun yarı ömrü daha uzundur (72 saat) ve MK-4'e göre biyoyararlanımı daha yüksektir. Kan sulandırıcı (warfarin) kullananlar doktorlarına danışmalıdır.",
+      "tags": [
+        "kemik sağlığı",
+        "kalp ve damar",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Geleijnse JM, Thromb Haemost 2004"
+      ]
+    },
+    {
+      "id": "vitamin_c",
+      "name": "C Vitamini",
+      "aliases": [
+        "Ascorbic Acid",
+        "L-Ascorbic Acid"
+      ],
+      "category": "vitamins",
+      "emoji": "🍊",
+      "shortDescription": "Bağışıklığı, kolajen sentezini ve demir emilimini destekleyen güçlü bir antioksidan.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Suda çözünür ve her zaman iyi emilir. Demir açısından zengin öğünlerle almak hem demir emilimini artırır."
+      },
+      "synergies": [
+        "iron",
+        "collagen_peptides"
+      ],
+      "synergyReasons": {
+        "iron": "C vitamini ferrik demiri ferröz demire indirgeyerek hem olmayan demir emilimini önemli ölçüde artırır.",
+        "collagen_peptides": "C vitamini, kolajen sentezi için gerekli olan prolil hidroksilaz enzimi için temel bir kofaktördür."
+      },
+      "interactions": [
+        "vitamin_b12",
+        "selenium"
+      ],
+      "interactionReasons": {
+        "vitamin_b12": "Yüksek doz C vitamini (≥500 mg) sindirim sisteminde B12'yi oksidatif olarak parçalayabilir. En az 2 saat arayla alın.",
+        "selenium": "Yüksek doz C vitamini, inorganik selenyumun (selenat) biyoyararlanımını azaltabilir. Organik formları (selenometiyonin) tercih edin veya ayrı ayrı alın."
+      },
+      "commonDoses": "500–2,000 mg daily",
+      "notes": "Suda çözünür — fazlası idrarla atılır. Günlük üst sınır 2.000 mg'dır. Yüksek dozlarda tamponlanmış veya lipozomal formlar mide için daha hafiftir.",
+      "tags": [
+        "bağışıklık",
+        "antioksidan",
+        "kolajen",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Carr AC, Nutrients 2017"
+      ]
+    },
+    {
+      "id": "vitamin_b12",
+      "name": "B12 Vitamini",
+      "aliases": [
+        "Methylcobalamin",
+        "Cyanocobalamin",
+        "Cobalamin"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Enerji metabolizması, sinir sistemi işlevi ve kırmızı kan hücresi oluşumu için gereklidir.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "B12 uyanıklığı ve enerji metabolizmasını desteklediği için en iyi sabahları alınır."
+      },
+      "synergies": [
+        "folate",
+        "vitamin_b_complex"
+      ],
+      "synergyReasons": {
+        "folate": "B12 ve folat metilasyon, homosistein regülasyonu ve DNA sentezi için birbirine bağımlıdır.",
+        "vitamin_b_complex": "B12, enerji metabolizması için diğer B vitaminleriyle sinerjik olarak çalışır."
+      },
+      "interactions": [
+        "vitamin_c",
+        "berberine"
+      ],
+      "interactionReasons": {
+        "vitamin_c": "Yüksek doz C vitamini sindirim sisteminde B12'yi parçalayabilir. En az 2 saat arayla alın.",
+        "berberine": "Berberin, metforminin B12 emilimini bozduğu aynı mekanizma ile intrinsik faktör salgılanmasını inhibe eder."
+      },
+      "commonDoses": "500–2,000 mcg daily",
+      "notes": "Emilim için Metilkobalamin formu tercih edilmelidir. Veganlar, vejetaryenler ve 50 yaş üstü kişiler en yüksek eksiklik riskine sahiptir.",
+      "tags": [
+        "enerji",
+        "sinir sağlığı",
+        "veganlar için temel",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Allen LH, Am J Clin Nutr 2009"
+      ]
+    },
+    {
+      "id": "magnesium_glycinate",
+      "name": "Magnezyum Glisinat",
+      "aliases": [
+        "Magnesium Bisglycinate",
+        "Chelated Magnesium"
+      ],
+      "category": "vitamins",
+      "emoji": "🌙",
+      "shortDescription": "Rahatlama, uyku kalitesi ve kas fonksiyonu için biyoyararlanımı yüksek magnezyum formu.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": false,
+        "reason": "En iyi akşamları alınır — rahatlamayı teşvik eder ve derin uykuyu destekler."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "zinc",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnezyum D vitaminini aktive eder ve aktif formuna dönüşmesi için gereklidir.",
+        "zinc": "Çinko ve magnezyum birlikte testosteron seviyelerini ve uyku kalitesini destekler.",
+        "l_theanine": "Her ikisi de uyku hali yapmadan sakinliği ve rahatlamayı teşvik eder."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnezyum bağırsaklarda demir ile rekabet eder. Demir takviyesi ile arasına en az 2 saat koyun.",
+        "calcium": "Kalsiyum ve magnezyum bağırsak emilim kanallarını paylaşır. Birlikte yüksek dozlarda alınması her ikisinin de emilimini azaltır."
+      },
+      "commonDoses": "200–400 mg elemental magnesium daily",
+      "notes": "Glisinat formu mideye karşı naziktir ve oksit veya sitrat formundan daha yüksek biyoyararlanıma sahiptir.",
+      "tags": [
+        "uyku",
+        "rahatlama",
+        "kas",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Abbasi B, J Res Med Sci 2012"
+      ]
+    },
+    {
+      "id": "magnesium_malate",
+      "name": "Magnezyum Malat",
+      "aliases": [
+        "Magnesium L-Malate"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "ATP üretimini destekleyen ve kas yorgunluğunu azaltan enerji verici magnezyum formu.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Malat Krebs döngüsü yoluyla enerji üretimini destekler — en iyi sabahları yemekle birlikte alınır."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "creatine"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnezyum D vitaminini aktive eder ve aktif formuna dönüşmesi için gereklidir.",
+        "creatine": "Her ikisi de farklı mekanizmalar aracılığıyla ATP üretimini ve kas performansını destekler."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnezyum bağırsaklarda demir ile rekabet eder. En az 2 saat arayla alın.",
+        "calcium": "Kalsiyum ve magnezyum emilim kanallarını paylaşır. En az 2 saat arayla alın."
+      },
+      "commonDoses": "200–400 mg elemental magnesium daily",
+      "notes": "Uyku yerine gündüz enerji desteği hedeflendiğinde glisinat formundan daha iyi bir seçimdir.",
+      "tags": [
+        "enerji",
+        "kas",
+        "yorgunluk"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Russell IJ, J Rheumatol 1995"
+      ]
+    },
+    {
+      "id": "zinc",
+      "name": "Çinko",
+      "aliases": [
+        "Zinc Picolinate",
+        "Zinc Bisglycinate",
+        "ZMA"
+      ],
+      "category": "vitamins",
+      "emoji": "🔩",
+      "shortDescription": "Bağışıklık, testosteron üretimi ve yara iyileşmesi için temel mineral.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Aç karnına mide bulantısına neden olabilir. Akşam yemeğiyle almak bakır ve diğer minerallerle rekabeti önler."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "vitamin_d3"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Çinko ve magnezyum birlikte testosteron seviyelerini ve uyku kalitesini destekler.",
+        "vitamin_d3": "Çinko, D vitamini reseptör işlevini ve bağışıklık sinyallerini destekler."
+      },
+      "interactions": [
+        "iron",
+        "calcium",
+        "folate",
+        "magnesium_citrate",
+        "copper"
+      ],
+      "interactionReasons": {
+        "iron": "Demir ve çinko aynı bağırsak taşıyıcısı için rekabet eder. En az 2 saat arayla alın.",
+        "calcium": "Kalsiyum emilim taşıyıcıları üzerinden çinko ile rekabet eder. En az 2 saat arayla alın.",
+        "folate": "Kronik yüksek doz çinko folat emilimini bozabilir.",
+        "magnesium_citrate": "Yüksek doz magnezyum çinko ile emilim için rekabet eder.",
+        "copper": "Yüksek doz çinko, bakırı bağırsakta hapseden metallotioneini indükler ve ciddi bakır eksikliğine yol açabilir."
+      },
+      "commonDoses": "15–30 mg elemental zinc daily",
+      "notes": "Kalsiyum veya demirle birlikte almayın — emilim için rekabet ederler. Günlük üst sınır 40 mg'dır. Uzun süreli kullanım bakır eksikliğine yol açabilir; bakır takviyesi düşünün. Pikolinat formu iyi emilir.",
+      "tags": [
+        "bağışıklık",
+        "testosteron",
+        "yara iyileşmesi",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Prasad AS, J Am Coll Nutr 1996"
+      ]
+    },
+    {
+      "id": "iron",
+      "name": "Demir",
+      "aliases": [
+        "Ferrous Sulfate",
+        "Ferrous Bisglycinate",
+        "Iron Bisglycinate"
+      ],
+      "category": "vitamins",
+      "emoji": "🔴",
+      "shortDescription": "Oksijen taşınması, enerji ve bilişsel işlevler için temel mineral.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "En iyi aç karnına emilir. Emilimi artırmak için C vitamini ile birlikte alın. Kalsiyum, kahve veya çay ile almaktan kaçının."
+      },
+      "synergies": [
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "C vitamini ferrik demiri ferröz demire indirgeyerek hem olmayan demir emilimini 3 kata kadar artırır."
+      },
+      "interactions": [
+        "calcium",
+        "zinc",
+        "magnesium_glycinate",
+        "magnesium_malate",
+        "magnesium_threonate",
+        "magnesium_citrate",
+        "magnesium_taurate",
+        "magnesium_oxide",
+        "curcumin",
+        "resveratrol",
+        "nac",
+        "prebiotics",
+        "vitamin_e",
+        "green_tea_extract"
+      ],
+      "interactionReasons": {
+        "calcium": "Kalsiyum, ≥300 mg dozlarda demir emilimini %60'a kadar azaltır. En az 2 saat arayla alın.",
+        "zinc": "Demir ve çinko emilim için rekabet eder. En az 2 saat arayla alın.",
+        "magnesium_glycinate": "Magnezyum bağırsak taşıyıcıları için demirle rekabet eder. En az 2 saat arayla alın.",
+        "magnesium_malate": "Magnezyum demirle rekabet eder. En az 2 saat arayla alın.",
+        "magnesium_threonate": "Magnezyum (tüm formları) emilimde demirle rekabet eder. En az 2 saat arayla alın.",
+        "magnesium_citrate": "Magnezyum demir emilimini azaltabilir. En az 2 saat arayla alın.",
+        "magnesium_taurate": "Magnezyum (tüm formlar), bağırsaktaki iki değerlikli metal taşıyıcılarda (DMT1) demir ile rekabet eder. En az 2 saat boyunca uzay demiri takviyesi. (NIH ODS; Minihane AM, Br J Nutr 1998)",
+        "magnesium_oxide": "Magnezyum (tüm formlar), bağırsaktaki iki değerlikli metal taşıyıcılarda demir ile rekabet eder. En az 2 saat boyunca uzay demiri takviyesi. (NIH ODS)",
+        "curcumin": "Kurkumin bağırsakta çözünmeyen demir kompleksleri oluşturarak demir emilimini önemli ölçüde azaltır. En az 3 saat arayla alın.",
+        "resveratrol": "Resveratrol demir iyonlarını şelatlayarak emilimini azaltır.",
+        "nac": "N-Asetil Sistein demiri şelatlayabilir. En az 2 saat arayla alın.",
+        "prebiotics": "İnülin tipi lifler bağırsakta demiri bağlayarak emilimini azaltabilir.",
+        "vitamin_e": "Yüksek doz E vitamini demir emilimini azaltabilir. En az 2 saat arayla alın.",
+        "green_tea_extract": "Yeşil çaydaki EGCG demir ile çözünmeyen kompleksler oluşturur. En az 2 saat arayla alın."
+      },
+      "commonDoses": "RDA: 8 mg/day (men), 18 mg/day (women 19–50), 27 mg/day (pregnant). Supplement only under medical supervision.",
+      "notes": "Sadece eksiklik varsa takviye edin — fazla demir zararlıdır ve organ hasarına neden olabilir. Demir bisglisinat sindirim sistemine karşı daha naziktir.",
+      "tags": [
+        "enerji",
+        "oksijen taşınması",
+        "kadın sağlığı"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Hallberg L, Am J Clin Nutr 1989"
+      ]
+    },
+    {
+      "id": "calcium",
+      "name": "Kalsiyum",
+      "aliases": [
+        "Calcium Citrate",
+        "Calcium Carbonate"
+      ],
+      "category": "vitamins",
+      "emoji": "🦷",
+      "shortDescription": "Güçlü kemikler, kas kasılmaları ve sinir sinyalleri için gereklidir.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Kalsiyum karbonat mide asidine ihtiyaç duyar — yemekle birlikte alın. Daha iyi emilim için dozları bölerek alın."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "vitamin_k2"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "D3 vitamini bağırsakta aktif kalsiyum emilimi için gereklidir.",
+        "vitamin_k2": "K2, kalsiyumun yumuşak dokular ve damarlar yerine kemiklerde birikmesini sağlar."
+      },
+      "interactions": [
+        "iron",
+        "zinc",
+        "magnesium_glycinate",
+        "magnesium_malate",
+        "magnesium_threonate",
+        "magnesium_citrate",
+        "magnesium_taurate",
+        "magnesium_oxide"
+      ],
+      "interactionReasons": {
+        "iron": "Kalsiyum demir emilimini önemli ölçüde azaltır. En az 2 saat arayla alın.",
+        "zinc": "Kalsiyum bağırsak emilimi için çinko ile rekabet eder. En az 2 saat arayla alın.",
+        "magnesium_glycinate": "Kalsiyum ve magnezyum yüksek dozlarda emilim için rekabet eder.",
+        "magnesium_malate": "Kalsiyum ve magnezyum emilim kanallarını paylaşır.",
+        "magnesium_threonate": "Kalsiyum emilim için magnezyumla rekabet eder.",
+        "magnesium_citrate": "Kalsiyum ve magnezyum emilim kanallarını paylaşır.",
+        "magnesium_taurate": "Kalsiyum ve magnezyum, ortak bağırsak emilim kanalları için rekabet eder. Her ikisinin de yüksek dozları diğerinin biyoyararlanımını azaltır. En az 2 saat ayırın. (Seelig MS, JAMA 1975; NIH ODS)",
+        "magnesium_oxide": "Kalsiyum ve magnezyum bağırsakta emilim taşıyıcılarını paylaşır. Düşük emilim oranlarında bile yüksek dozda oksit müdahale edebilir. En az 2 saat ayırın. (NIH ODS)"
+      },
+      "commonDoses": "500–1,200 mg daily (total from diet + supplement combined; do not exceed 2,500 mg/day)",
+      "notes": "Kalsiyum sitrat karbonattan daha iyi emilir ve aç karnına alınabilir. Demir veya çinko ile almayın.",
+      "tags": [
+        "kemik sağlığı",
+        "kas",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Bolland MJ, BMJ 2010"
+      ]
+    },
+    {
+      "id": "iodine",
+      "name": "İyot",
+      "aliases": [
+        "Potassium Iodide",
+        "Nascent Iodine"
+      ],
+      "category": "vitamins",
+      "emoji": "🧬",
+      "shortDescription": "Tiroid hormonu üretimi, metabolizma ve beyin gelişimi için kritiktir.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Tiroid işlevini desteklemek ve uykuyu engellememek için en iyi sabahları yemekle birlikte alınır."
+      },
+      "synergies": [
+        "selenium"
+      ],
+      "synergyReasons": {
+        "selenium": "Selenyum bağımlı enzimler, iyot metabolizması sırasında üretilen H₂O₂'nin neden olduğu oksidatif hasardan tiroidi korur."
+      },
+      "commonDoses": "RDA: 150 mcg/day. UL: 1,100 mcg/day. Supplement only if deficient.",
+      "notes": "Gelişmiş ülkelerdeki çoğu insan iyotlu tuz ve süt ürünlerinden yeterli iyot alır. Fazla iyot paradoksal olarak tiroid fonksiyonunu baskılayabilir. Yalnızca doktor gözetiminde kullanın.",
+      "tags": [
+        "tiroid",
+        "metabolizma",
+        "beyin"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Zimmermann MB, Lancet 2008"
+      ]
+    },
+    {
+      "id": "selenium",
+      "name": "Selenyum",
+      "aliases": [
+        "Selenomethionine",
+        "Sodium Selenate"
+      ],
+      "category": "vitamins",
+      "emoji": "🛡️",
+      "shortDescription": "Tiroid fonksiyonunu ve bağışıklık sağlığını destekleyen antioksidan mineral.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Emilimi en üst düzeye çıkarmak ve mide rahatsızlığını azaltmak için yemekle birlikte alınır."
+      },
+      "synergies": [
+        "iodine"
+      ],
+      "synergyReasons": {
+        "iodine": "Selenyum, iyot metabolizması sırasında tiroid bezini oksidatif strese karşı korur."
+      },
+      "interactions": [
+        "vitamin_c"
+      ],
+      "interactionReasons": {
+        "vitamin_c": "Yüksek doz C vitamini inorganik selenyumun biyoyararlanımını azaltabilir."
+      },
+      "commonDoses": "55–200 mcg daily (RDA: 55 mcg; UL: 400 mcg — do not exceed)",
+      "notes": "Günlük 400 mcg üzerinde selenyum toksisitesi oluşabilir — saç dökülmesi, tırnak kırılması. Selenometiyonin tercih edilen organik formdur.",
+      "tags": [
+        "tiroid",
+        "antioksidan",
+        "bağışıklık"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Rayman MP, Lancet 2000"
+      ]
+    },
+    {
+      "id": "folate",
+      "name": "Folat (B9 Vitamini)",
+      "aliases": [
+        "Methylfolate",
+        "5-MTHF",
+        "Folic Acid",
+        "Vitamin B9"
+      ],
+      "category": "vitamins",
+      "emoji": "🧬",
+      "shortDescription": "DNA sentezi, metilasyon ve nöral tüp gelişimi için kritiktir.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Her zaman iyi emilir. İstikrar için sabah tercih edilir."
+      },
+      "synergies": [
+        "vitamin_b12"
+      ],
+      "synergyReasons": {
+        "vitamin_b12": "B12 ve folat metilasyon döngüsü ve DNA sentezi için birbirine bağımlıdır."
+      },
+      "interactions": [
+        "zinc"
+      ],
+      "interactionReasons": {
+        "zinc": "Kronik yüksek doz çinko (≥40 mg/gün) folat emilimini bozabilir."
+      },
+      "commonDoses": "400–800 mcg daily (RDA: 400 mcg; 600 mcg during pregnancy)",
+      "notes": "Sentetik folik asit yerine Metilfolat (5-MTHF) tercih edilmelidir. Hamilelik sırasında nöral tüp defektlerini önlemek için gereklidir.",
+      "tags": [
+        "metilasyon",
+        "hamilelik",
+        "beyin",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Greenberg JA, Rev Obstet Gynecol 2011"
+      ]
+    },
+    {
+      "id": "creatine",
+      "name": "Kreatin Monohidrat",
+      "aliases": [
+        "Creatine",
+        "Monohydrate"
+      ],
+      "category": "performance",
+      "emoji": "💥",
+      "shortDescription": "Güç, performans ve kas gelişimi için en çok araştırılan takviye.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Zamanlamadan çok günlük kullanım önemlidir. Antrenman sonrası karbonhidratlarla alınması kas alımını hafifçe artırabilir."
+      },
+      "synergies": [
+        "magnesium_malate",
+        "beta_alanine"
+      ],
+      "synergyReasons": {
+        "magnesium_malate": "Her ikisi de ATP üretimini ve kas performansını destekler.",
+        "beta_alanine": "Kreatin tepe gücünü artırır; beta-alanin dayanıklılığı uzatır."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Bazı araştırmalar kafeinin kreatinin etkinliğini azaltabileceğini göstermektedir. İkisini bir arada alıyorsanız dozları ayırmayı düşünün."
+      },
+      "commonDoses": "3–5 g daily",
+      "notes": "Uzun süreli kullanım için yükleme evresine gerek yoktur. Monohidrat formu altın standarttır — daha pahalı formların kanıtlanmış bir avantajı yoktur.",
+      "tags": [
+        "güç",
+        "kas",
+        "performans",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "ISSN Position Stand 2017",
+        "Rawson ES, J Strength Cond Res 2003"
+      ]
+    },
+    {
+      "id": "whey_protein",
+      "name": "Whey Protein (Peynir Altı Suyu)",
+      "aliases": [
+        "Whey Isolate",
+        "Whey Concentrate",
+        "WPC",
+        "WPI"
+      ],
+      "category": "performance",
+      "emoji": "🥛",
+      "shortDescription": "Antrenman sonrası kas onarımı ve büyümesi için ideal, hızlı emilen tam protein.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "En iyi antrenman sonrasındaki 2 saat içinde veya öğünler arasında pratik bir protein takviyesi olarak tüketilir."
+      },
+      "synergies": [
+        "creatine",
+        "collagen_peptides"
+      ],
+      "synergyReasons": {
+        "creatine": "Protein + kreatin, kas kazanımı için en çok kanıtla desteklenen kombinasyondur.",
+        "collagen_peptides": "Whey tam bir amino asit profili sağlarken, kolajen bağ dokusu için glisin ve prolin sağlar."
+      },
+      "commonDoses": "20–40 g per serving",
+      "notes": "Laktoz intoleransınız varsa İzole (Isolate) formu tercih edilmelidir. Kas protein sentezini tetikleyen lösini bolca içerir.",
+      "tags": [
+        "kas",
+        "protein",
+        "toparlanma",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "Phillips SM, J Am Coll Nutr 2011"
+      ]
+    },
+    {
+      "id": "casein_protein",
+      "name": "Kazein Protein",
+      "aliases": [
+        "Micellar Casein",
+        "Slow-Release Protein"
+      ],
+      "category": "performance",
+      "emoji": "🌙",
+      "shortDescription": "Sürekli amino asit salınımı sağlayan yavaş sindirilen protein — uyku öncesi için ideal.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "Yavaş sindirimi (~7 saat) sayesinde gece kas protein sentezini desteklemek için uykudan önce idealdir."
+      },
+      "synergies": [
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Her ikisi de gece toparlanmasını destekler — kazein kasları beslerken magnezyum uyku kalitesini artırır."
+      },
+      "commonDoses": "30–40 g before bed",
+      "notes": "Misellar (Micellar) kazein formu tercih edilmelidir.",
+      "tags": [
+        "kas",
+        "protein",
+        "toparlanma",
+        "uyku"
+      ],
+      "sources": [
+        "Res PT, Med Sci Sports Exerc 2012",
+        "Snijders T, J Nutr 2015"
+      ]
+    },
+    {
+      "id": "beta_alanine",
+      "name": "Beta-Alanin",
+      "aliases": [
+        "β-Alanine",
+        "CarnoSyn"
+      ],
+      "category": "performance",
+      "emoji": "🔥",
+      "shortDescription": "Laktik asidi tamponlamak ve yüksek yoğunluklu performansı artırmak için kas karnozinini artırır.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "En iyi antrenmandan 30–60 dakika önce alınır. Yemekle almak karıncalanma hissini (parestezi) azaltır."
+      },
+      "synergies": [
+        "creatine",
+        "citrulline_malate"
+      ],
+      "synergyReasons": {
+        "creatine": "Kreatin anlık güç çıkışını artırır; beta-alanin dayanıklılık süresini uzatır.",
+        "citrulline_malate": "Sitrülin kan akışını hedefler; beta-alanin anaerobik egzersizde asidi tamponlar."
+      },
+      "commonDoses": "3.2–6.4 g daily (split into 800 mg–1.6 g doses to minimize paresthesia)",
+      "notes": "Karıncalanma hissi normal ve zararsız fizyolojik bir tepkidir. Faydaları 4+ haftalık düzenli kullanımla birikir.",
+      "tags": [
+        "dayanıklılık",
+        "antrenman öncesi",
+        "performance"
+      ],
+      "sources": [
+        "ISSN Position Stand 2015",
+        "Sale C, Amino Acids 2010"
+      ]
+    },
+    {
+      "id": "citrulline_malate",
+      "name": "Sitrülin Malat",
+      "aliases": [
+        "L-Citrulline",
+        "Citrulline"
+      ],
+      "category": "performance",
+      "emoji": "🩸",
+      "shortDescription": "Daha iyi kan akışı, pump hissi ve aerobik dayanıklılık için nitrik oksit üretimini artırır.",
+      "timing": {
+        "preferredTime": "afternoon",
+        "takeWithFood": false,
+        "reason": "Egzersiz sırasında nitrik oksidi yükseltmek için antrenmandan 60 dakika önce alın."
+      },
+      "synergies": [
+        "beta_alanine",
+        "creatine"
+      ],
+      "synergyReasons": {
+        "beta_alanine": "Sitrülin kan akışını iyileştirir; beta-alanin asidi tamponlar.",
+        "creatine": "Sitrülin kaslara giden kanı artırır; kreatin ATP'yi destekler."
+      },
+      "commonDoses": "6–8 g citrulline malate (2:1 ratio) before training",
+      "notes": "Sitrülin malat (2:1), performans için saf L-sitrülinden daha çok araştırılmıştır.",
+      "tags": [
+        "antrenman öncesi",
+        "pump",
+        "dayanıklılık",
+        "kan akışı"
+      ],
+      "sources": [
+        "Pérez-Guisado J, J Strength Cond Res 2010",
+        "Figueroa A, J Strength Cond Res 2015"
+      ]
+    },
+    {
+      "id": "electrolytes",
+      "name": "Elektrolitler",
+      "aliases": [
+        "Sodium",
+        "Potassium",
+        "Magnesium",
+        "Chloride",
+        "Electrolyte Mix"
+      ],
+      "category": "performance",
+      "emoji": "⚡",
+      "shortDescription": "Hidrasyonu korumak, performansı sürdürmek ve krampları önlemek için terle kaybedilen mineralleri yeniler.",
+      "timing": {
+        "preferredTime": "afternoon",
+        "takeWithFood": false,
+        "reason": "Kayıpları yerine koymak için yoğun egzersiz sırasında veya sonrasında alın."
+      },
+      "synergies": [
+        "creatine",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "creatine": "Kreatin hücre içine su çeker — yeterli elektrolit ve hidrasyon bu etkiyi destekler.",
+        "magnesium_glycinate": "Magnezyumun kendisi bir elektrolittir ve krampların önlenmesini destekler."
+      },
+      "interactions": [
+        "iron",
+        "zinc"
+      ],
+      "interactionReasons": {
+        "iron": "Elektrolit karışımları demir emilimini azaltır. Demir takviyelerini en az 2 saat arayla alın.",
+        "zinc": "Elektrolit formüllerindeki mineraller çinko ile rekabet eder."
+      },
+      "commonDoses": "Varies by product; ensure adequate sodium (≥500 mg), potassium, and magnesium per serving",
+      "notes": "Düşük şekerli veya şekersiz elektrolit formülleri çoğu insan için tercih edilir.",
+      "tags": [
+        "hidrasyon",
+        "performance",
+        "toparlanma",
+        "kramplar"
+      ],
+      "sources": [
+        "Sawka MN, Med Sci Sports Exerc 2007",
+        "American College of Sports Medicine"
+      ]
+    },
+    {
+      "id": "collagen_peptides",
+      "name": "Kolajen Peptitler",
+      "aliases": [
+        "Hydrolyzed Collagen",
+        "Collagen Protein",
+        "Type I & III Collagen"
+      ],
+      "category": "performance",
+      "emoji": "💆",
+      "shortDescription": "Eklem sağlığını, cilt elastikiyetini, tendon onarımını ve bağırsak bariyer bütünlüğünü destekler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Eklem ve tendonlarda kolajen sentezini en üst düzeye çıkarmak için aktiviteden 30–60 dakika önce C vitamini ile alın."
+      },
+      "synergies": [
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "C vitamini kolajen çapraz bağlanması için gerekli enzimin temel kofaktörüdür."
+      },
+      "commonDoses": "10–15 g daily",
+      "notes": "Tam bir protein değildir. Daha iyi emilim için hidrolize (peptit) formu tercih edin.",
+      "tags": [
+        "eklemler",
+        "cilt",
+        "tendons",
+        "gut"
+      ],
+      "sources": [
+        "Shaw G, Am J Clin Nutr 2017",
+        "Zdzieblik D, Br J Nutr 2015"
+      ]
+    },
+    {
+      "id": "omega3",
+      "name": "Omega-3 (Balık Yağı)",
+      "aliases": [
+        "EPA",
+        "DHA",
+        "Fish Oil",
+        "EPA+DHA",
+        "Marine Omega-3"
+      ],
+      "category": "brain",
+      "emoji": "🐟",
+      "shortDescription": "Beyin fonksiyonlarını destekleyen, iltihabı azaltan ve kalp sağlığını koruyan temel yağ asitleri.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yağda çözünür — yağ içeren bir öğünle alındığında biyoyararlanımı %60'a kadar artar. Ayrıca balık tadını azaltır."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "curcumin"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Her ikisi de yağda çözünür ve aynı emilim yollarını paylaşır.",
+        "curcumin": "Her ikisi de tamamlayıcı yollar (eikosanoidler yoluyla EPA/DHA; NF-κB yoluyla kurkumin) yoluyla iltihabı azaltır."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Serbest demir iyonları EPA ve DHA'nın lipit peroksidasyonunu katalizleyerek omega-3 takviyelerinin kalitesini bozar. Omega-3 bütünlüğünü korumak için demir ve balık yağını günün farklı saatlerinde alın. (Siddiqui RA, Prostaglandins Leukot Essent Fatty Acids 2004)"
+      },
+      "commonDoses": "1–3 g combined EPA+DHA daily",
+      "notes": "Kapsül başına en az 500 mg EPA+DHA içerenleri arayın. Trigliserid formu, etil ester formundan önemli ölçüde daha iyi emilir. IFOS onaylı ürünleri tercih edin.",
+      "tags": [
+        "beyin",
+        "inflammation",
+        "heart",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "AHA Scientific Statement 2002",
+        "Calder PC, Prog Lipid Res 2012"
+      ]
+    },
+    {
+      "id": "lions_mane",
+      "name": "Aslan Yelesi Mantarı (Lion's Mane)",
+      "aliases": [
+        "Hericium Erinaceus",
+        "Lion's Mane Extract"
+      ],
+      "category": "brain",
+      "emoji": "🍄",
+      "shortDescription": "Sinir büyüme faktörü (NGF) sentezini teşvik ederek hafıza, odaklanma ve nöroplastisiteyi destekler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Bilişsel performansı gün boyu desteklemek için en iyi sabahları alınır."
+      },
+      "synergies": [
+        "omega3",
+        "alpha_gpc"
+      ],
+      "synergyReasons": {
+        "omega3": "İkisi de farklı mekanizmalar aracılığıyla (NGF vs. DHA membran desteği) nöroplastisiteyi ve beyin sağlığını destekler.",
+        "alpha_gpc": "Birlikte asetilkolin sistemini ve nöroplastisiteyi güçlü şekilde destekler."
+      },
+      "commonDoses": "500–3,000 mg daily (fruiting body extract standardized for beta-glucans)",
+      "notes": "Miselyum ürünleri yerine mantarın meyve gövdesi özlerini (fruiting body) kullanın. Etkileri genellikle 4–8 haftalık tutarlı kullanımın ardından fark edilir.",
+      "tags": [
+        "beyin",
+        "hafıza",
+        "neuroplasticity",
+        "odaklanma"
+      ],
+      "sources": [
+        "Mori K, Phytother Res 2009",
+        "Lai PL, Int J Med Mushrooms 2013"
+      ]
+    },
+    {
+      "id": "alpha_gpc",
+      "name": "Alpha-GPC",
+      "aliases": [
+        "Alpha-Glycerophosphocholine",
+        "A-GPC",
+        "Choline Alfoscerate"
+      ],
+      "category": "brain",
+      "emoji": "🧠",
+      "shortDescription": "Gelişmiş hafıza, odaklanma ve zihin-kas bağlantısı için asetilkolin seviyelerini artırır.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Bilişsel veya fiziksel çalışmalardan 30–60 dakika önce alınması en iyi sonucu verir."
+      },
+      "synergies": [
+        "lions_mane",
+        "l_theanine",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "lions_mane": "Aslan Yelesi ile sinerjik çalışarak bilişsel işlevleri artırır.",
+        "l_theanine": "L-teanin bilişsel aşırı uyarılmayı yumuşatır ve sakin, odaklanmış dikkati destekler."
+      },
+      "commonDoses": "300–600 mg daily",
+      "notes": "En iyi emilen kolin kaynaklarından biridir. Toplam kolin alımı zaten çok yüksekse baş ağrısına neden olabilir.",
+      "tags": [
+        "beyin",
+        "hafıza",
+        "odaklanma",
+        "cholinergic"
+      ],
+      "sources": [
+        "Parnetti L, J Neural Transm 2001",
+        "Bellar D, J Int Soc Sports Nutr 2015"
+      ]
+    },
+    {
+      "id": "l_theanine",
+      "name": "L-Teanin",
+      "aliases": [
+        "Theanine",
+        "L-γ-Glutamylethylamide"
+      ],
+      "category": "brain",
+      "emoji": "🍵",
+      "shortDescription": "Uyku hali yapmadan sakin ve odaklanmış uyanıklığı destekler. Klasik olarak kafeinle eşleştirilir.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Herhangi bir zamanda alınabilir. Gerginliği gidermek için sabah kafeiniyle mükemmel uyum sağlar."
+      },
+      "synergies": [
+        "caffeine",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "caffeine": "Kafeinin enerjisi ile teaninin sakinliğini birleştirerek yan etkisiz (çarpıntısız) odaklanma sağlar.",
+        "magnesium_glycinate": "Her ikisi de rahatlamayı destekler."
+      },
+      "commonDoses": "100–400 mg daily",
+      "notes": "Bilinen ciddi yan etkileri olmadan çok güvenlidir. Yeşil çayda doğal olarak bulunur. Uyku desteği için daha yüksek dozlarda (200–400 mg) kullanılabilir.",
+      "tags": [
+        "odaklanma",
+        "sakinlik",
+        "uyku",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "Nobre AC, Asia Pac J Clin Nutr 2008",
+        "Owen GN, Nutr Neurosci 2008"
+      ]
+    },
+    {
+      "id": "caffeine",
+      "name": "Kafein",
+      "aliases": [
+        "Caffeine Anhydrous",
+        "Caffeine Supplement"
+      ],
+      "category": "brain",
+      "emoji": "☕",
+      "shortDescription": "Dünyanın en çok tüketilen uyarıcısı — uyanıklığı, odaklanmayı ve fiziksel performansı artırır.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Sabahları veya egzersizden önce alın. Uyku bozukluğunu önlemek için öğleden sonra 2'den sonra kullanmaktan kaçının."
+      },
+      "synergies": [
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "l_theanine": "Teanin, kafeinin neden olduğu titreme ve endişeyi azaltarak pürüzsüz bir enerji sağlar."
+      },
+      "interactions": [
+        "melatonin",
+        "vitamin_b1"
+      ],
+      "interactionReasons": {
+        "melatonin": "Kafein, adenosin reseptörlerini bloke eder ve uyarıcı görevi görerek melatoninin uykuyu artırıcı etkisine doğrudan karşı koyar. Melatonin aldıktan sonraki 6-8 saat içinde kafeinden kaçının.",
+        "vitamin_b1": "Kafein tiyamin (B1) bağırsak taşıma proteinlerini (ThTr1/ThTr2) inhibe eder ve idrar tiyamin atılımını artırır. Düzenli yüksek kafein alımı zamanla marjinal tiyamin tükenmesine katkıda bulunabilir. Tiyamin takviyesini kafeinden en az 1 saat uzaklaştırın. (Stein J, Am J Physiol 1987; Said HM, Am J Physiol 1999)"
+      },
+      "commonDoses": "100–200 mg per dose; limit to 400 mg/day total",
+      "notes": "Günlük kullanımda hızla tolerans gelişir. Ara sıra kullanım etkisini korumaya yardımcı olur.",
+      "tags": [
+        "odaklanma",
+        "enerji",
+        "antrenman öncesi",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "EFSA Panel, EFSA Journal 2015",
+        "Goldstein ER, JISSN 2010"
+      ]
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "aliases": [
+        "Withania Somnifera",
+        "KSM-66",
+        "Sensoril",
+        "Indian Ginseng"
+      ],
+      "category": "brain",
+      "emoji": "🌿",
+      "shortDescription": "Kortizolü azaltan, strese karşı direnci, testosteronu ve uykuyu destekleyen adaptojen.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Uykuya yardımcı sakinleştirici etkileri olduğu için akşam tercih edilir. Yemek mide toleransını artırır."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Her ikisi de stresi azaltır ve uyku kalitesini artırır.",
+        "l_theanine": "Birlikte kapsamlı bir stres karşıtı, gevşeme destekleyici yığın oluştururlar."
+      },
+      "interactions": [
+        "berberine",
+        "levothyroxine"
+      ],
+      "interactionReasons": {
+        "berberine": "Hem ashwagandha hem de berberine bağımsız olarak kan şekerini düşürür. Kombinasyonları, diyabetli bireylerde veya kan şekeri ilaçlarında aşırı olabilecek kümülatif hipoglisemik etki üretebilir. Birleştirirken glikoz seviyelerini dikkatle izleyin. (Chandrasekhar K, Indian J Psychol Med 2012; Yin J, Metabolism 2008)",
+        "levothyroxine": "Ashwagandha T3 ve T4 seviyelerini doğal olarak artırabilir. Levotiroksin gibi tiroid ilaçlarıyla birleştirmek hipertiroidizme benzer etkiler riski oluşturabilir."
+      },
+      "commonDoses": "300–600 mg daily (KSM-66 or Sensoril standardized extract)",
+      "notes": "KSM-66 (kök ekstresi) en çok incelenen formdur. Hamilelik sırasında kullanmaktan kaçının. Tiroid ilaçlarıyla etkileşime girebilir.",
+      "tags": [
+        "stres",
+        "cortisol",
+        "testosteron",
+        "uyku",
+        "adaptojen"
+      ],
+      "sources": [
+        "Chandrasekhar K, Indian J Psychol Med 2012",
+        "Wankhede S, JISSN 2015"
+      ]
+    },
+    {
+      "id": "magnesium_threonate",
+      "name": "Magnezyum L-Treonat",
+      "aliases": [
+        "MgT",
+        "Magtein",
+        "Magnesium Threonate"
+      ],
+      "category": "sleep",
+      "emoji": "🧠",
+      "shortDescription": "Kan-beyin bariyerini anlamlı şekilde geçtiği gösterilen, hafızayı ve uykuyu iyileştiren tek magnezyum formu.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "Uykuya dalmayı ve bilişsel onarımı iyileştirmek için uykudan 1–2 saat önce alın."
+      },
+      "synergies": [
+        "apigenin",
+        "l_glycine",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "apigenin": "Apigenin + Magnezyum L-Treonat geniş çapta referans alınan bir uyku yığınıdır (Huberman Lab protokolü).",
+        "l_glycine": "İkisi de tamamlayıcı mekanizmalar aracılığıyla (beyin Mg seviyeleri vs. çekirdek vücut sıcaklığı düşüşü) derin, yenileyici uykuyu destekler."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnezyum (tüm formlar), bağırsaktaki iki değerlikli metal taşıyıcılarda demir ile rekabet eder. En az 2 saat boşluk bırakın. (NIH ODS; Minihane AM, Br J Nutr 1998)",
+        "calcium": "Kalsiyum ve magnezyum bağırsakta taşıyıcılar için rekabet eder. Yüksek dozda birlikte uygulama her ikisinin de emilimini azaltır. En az 2 saat boşluk bırakın. (Seelig MS, JAMA 1975)"
+      },
+      "commonDoses": "1,500–2,000 mg (providing ~140 mg elemental magnesium)",
+      "notes": "Diğer magnezyum formlarından daha pahalıdır. Genel magnezyum takviyesi yerine öncelikle bilişsel ve uyku faydaları içindir.",
+      "tags": [
+        "uyku",
+        "beyin",
+        "hafıza",
+        "cognitive"
+      ],
+      "sources": [
+        "Liu G, Neuron 2016",
+        "Slutsky I, Neuron 2010"
+      ]
+    },
+    {
+      "id": "melatonin",
+      "name": "Melatonin",
+      "aliases": [
+        "Melatonin Sleep Aid"
+      ],
+      "category": "sleep",
+      "emoji": "🌙",
+      "shortDescription": "Uyku-uyanıklık döngüsünü düzenler. Jet lag ve uyku saatini değiştirmek için en etkilidir.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "İstediğiniz uyku saatinden 30–60 dakika önce loş bir ortamda alın."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "l_glycine"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Magnezyum, melatoninin etkin çalışması için gereken fizyolojik rahatlama ve GABA sinyalini destekler.",
+        "l_glycine": "L-glisin çekirdek vücut sıcaklığını düşürür ve uyku mimarisini iyileştirir — melatoninin sirkadiyen sinyaline tamamlayıcıdır."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Kafein, adenosin reseptörlerini bloke eder ve uyarıcı görevi görerek melatoninin uykuyu artırıcı etkisine doğrudan karşı koyar. Melatonin aldıktan sonraki 6-8 saat içinde kafeinden kaçının."
+      },
+      "commonDoses": "0.3–1 mg (physiological dose); most OTC products contain 3–10 mg (often unnecessarily high)",
+      "notes": "Araştırmalar çoğu insan için 0.3–1 mg'ın yüksek dozlardan daha etkili olduğunu gösteriyor. Tıbbi yönlendirme olmadan uzun süreli kullanılması önerilmez.",
+      "tags": [
+        "uyku",
+        "jet lag",
+        "circadian",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "Brzezinski A, Sleep Med Rev 2005",
+        "Arendt J, Br Med J 2006",
+        "MIT Melatonin Synthesis Research (Wurtman RJ)"
+      ]
+    },
+    {
+      "id": "l_glycine",
+      "name": "L-Glisin",
+      "aliases": [
+        "Glycine"
+      ],
+      "category": "sleep",
+      "emoji": "😴",
+      "shortDescription": "Derin ve dinlendirici uykuyu kolaylaştırmak için vücut sıcaklığını düşüren amino asit.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "Yatmadan 30–60 dakika önce alın. Su veya ılık çayda kolayca çözünür."
+      },
+      "synergies": [
+        "melatonin",
+        "magnesium_threonate",
+        "apigenin"
+      ],
+      "synergyReasons": {
+        "magnesium_threonate": "Tamamlayıcı uyku mekanizmaları — glisin periferik vücut sıcaklığını düşürür; Mg-treonat sinaptik magnezyum üzerinde merkezi etki yapar.",
+        "apigenin": "Melatonin ve apigenin ile birlikte Huberman uyku yığınını oluşturur — birden fazla tamamlayıcı mekanizma."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Kafein, L-Glisin'in gevşeme ve uykuyu teşvik edici etkilerine doğrudan karşı çıkan bir uyarıcı ve adenozin reseptör antagonistidir. Uyku için L-Glisin aldıktan sonraki 6 saat içinde kafeinden kaçının. (Bannai M, Uyku Biol Ritimleri 2012)"
+      },
+      "commonDoses": "3 g before bed",
+      "notes": "Önerilen dozlarda çok güvenlidir. Uyku kısıtlaması olan kişilerde ertesi gün uyanıklığı artırdığı kanıtlanmıştır.",
+      "tags": [
+        "uyku",
+        "toparlanma",
+        "yaşlanma karşıtı"
+      ],
+      "sources": [
+        "Bannai M, Sleep Biol Rhythms 2012",
+        "Kawai N, Neuropsychopharmacology 2015"
+      ]
+    },
+    {
+      "id": "gaba",
+      "name": "GABA",
+      "aliases": [
+        "Gamma-Aminobutyric Acid"
+      ],
+      "category": "sleep",
+      "emoji": "🧘",
+      "shortDescription": "Rahatlamayı teşvik edebilen ve kaygıyı azaltabilen inhibitör nörotransmitter öncüsü.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "Olası rahatlatıcı etkiler için yatmadan 30–60 dakika önce alın."
+      },
+      "synergies": [
+        "l_theanine",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "l_theanine": "L-teanin GABA sinyalini modüle eder — birlikte kümülatif gevşeme etkileri olabilir.",
+        "magnesium_glycinate": "İkisi de farklı mekanizmalar aracılığıyla GABAerjik sakinleştirici yolları destekler."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Kafein, bir CNS uyarıcısı ve adenosin reseptörü antagonisti olarak görev yapar ve GABA'nın sakinleştirici ve uykuyu teşvik edici etkilerine doğrudan karşı koyar. Her ikisini bir arada almak GABA takviyesinin faydasını ortadan kaldırır. (Boonstra E, Ön Psikoloji 2015)"
+      },
+      "commonDoses": "100–750 mg daily",
+      "notes": "Oral GABA'nın kan-beyin bariyerini geçişi sınırlıdır — merkezi sinir sistemi etkileri tartışmalıdır.",
+      "tags": [
+        "uyku",
+        "rahatlama",
+        "kaygı"
+      ],
+      "sources": [
+        "Boonstra E, Front Psychol 2015",
+        "Hepsomali P, Front Neurosci 2020"
+      ]
+    },
+    {
+      "id": "apigenin",
+      "name": "Apigenin",
+      "aliases": [
+        "Chamomile Extract",
+        "Apigenin 4',5,7-trihydroxyflavone"
+      ],
+      "category": "sleep",
+      "emoji": "🌼",
+      "shortDescription": "Rahatlamayı ve uykuyu teşvik etmek için GABA-A reseptörlerine bağlanan, papatya kaynaklı doğal flavonoid.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "Uyumadan 30–60 dakika önce alın. Huberman uyku protokolünün bir parçasıdır."
+      },
+      "synergies": [
+        "magnesium_threonate",
+        "l_glycine",
+        "melatonin"
+      ],
+      "synergyReasons": {
+        "magnesium_threonate": "Huberman uyku yığınının parçası: Mg-treonat + Apigenin + L-glisin farklı uyku mekanizmalarını hedefler.",
+        "l_glycine": "Birlikte çekirdek vücut sıcaklığını düşürür ve daha derin uyku için GABA-A reseptör aktivitesini potansiyalize eder."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Karabiberdeki piperin, kafeini metabolize eden birincil enzim olan CYP1A2'yi inhibe eder ve apigenin de CYP1A2'yi inhibe eder. Bir araya geldiklerinde kandaki kafein düzeylerini önemli ölçüde yükselterek anksiyete, çarpıntı veya uykusuzluk riskini artırabilirler. Apigenin alırken kafeinden kaçının. (Bhardwaj RK, J Pharmacol Exp Ther 2002; Wolfman C, Pharmacol Biochem Behav 1994)"
+      },
+      "commonDoses": "50 mg before bed",
+      "notes": "Hamile olanlar doktorlarına danışmalıdır — yüksek dozlarda hafif anti-östrojenik aktiviteye sahiptir.",
+      "tags": [
+        "uyku",
+        "GABA",
+        "rahatlama"
+      ],
+      "sources": [
+        "Wolfman C, Pharmacol Biochem Behav 1994",
+        "Avallone R, Eur J Pharmacol 2000"
+      ]
+    },
+    {
+      "id": "probiotics",
+      "name": "Probiyotikler",
+      "aliases": [
+        "Lactobacillus",
+        "Bifidobacterium",
+        "Live Cultures",
+        "Probiotic Blend"
+      ],
+      "category": "gut",
+      "emoji": "🦠",
+      "shortDescription": "Bağırsak mikrobiyomu çeşitliliğini, sindirimi ve bağışıklık fonksiyonunu destekleyen faydalı bakteriler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "En iyi yemekten 30 dakika önce alınır — yemekten önce mide asidi daha düşüktür, bu da bakterilerin bağırsağa canlı ulaşmasını artırır."
+      },
+      "synergies": [
+        "prebiotics",
+        "vitamin_d3"
+      ],
+      "synergyReasons": {
+        "prebiotics": "Prebiyotikler, probiyotik bakterilerin besin kaynağıdır — prebiyotik + probiyotik (sinbiyotik) kombinasyon mikrobiom kolonizasyonunu önemli ölçüde iyileştirir.",
+        "vitamin_d3": "Probiyotikler, D vitamininin emilimini ve metabolik faydalarını artırabilir."
+      },
+      "commonDoses": "5–50 billion CFU daily",
+      "notes": "Lactobacillus ve Bifidobacterium türlerini içeren çoklu suş formülleri genellikle tercih edilir. Faydalar suşa özgüdür.",
+      "tags": [
+        "gut",
+        "bağışıklık",
+        "sindirim",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "Hill C, Nat Rev Gastroenterol Hepatol 2014",
+        "Salminen S, EFSA J 2016"
+      ],
+      "interactions": []
+    },
+    {
+      "id": "prebiotics",
+      "name": "Prebiyotikler",
+      "aliases": [
+        "Inulin",
+        "FOS",
+        "GOS",
+        "Resistant Starch",
+        "Prebiotic Fiber"
+      ],
+      "category": "gut",
+      "emoji": "🌾",
+      "shortDescription": "Faydalı bağırsak bakterilerini besleyen ve mikrobiyom çeşitliliğini teşvik eden sindirilmeyen lifler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Başlangıçtaki adaptasyon sırasında şişkinlik ve gaz riskini azaltmak için en iyi yemeklerle birlikte alınır."
+      },
+      "synergies": [
+        "probiotics"
+      ],
+      "synergyReasons": {
+        "probiotics": "Prebiyotikler, probiyotik bakterileri besler — prebiyotik + probiyotik (sinbiyotik) kombinasyon her birini tek başına önemli ölçüde geride bırakır."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "İnülin tipi prebiyotik lifler (FOS, inulin), şelasyon yoluyla bağırsaktaki hem içermeyen demiri bağlayabilir ve demir emilimini %10-30 oranında azaltabilir. Demir takviyesi yapıyorsanız, prebiyotik takviyelerinden en az 2 saat arayla alın. (Laparra JM, J Nutr 2012; Tompkins TA, J Dairy Sci 2001)"
+      },
+      "commonDoses": "5–10 g daily",
+      "notes": "2–3 g ile başlayın ve 2–4 hafta içinde kademeli olarak artırın. GOS (galaktooligosakkaritler) genellikle inülinden daha iyi tolere edilir.",
+      "tags": [
+        "gut",
+        "microbiome",
+        "fiber",
+        "sindirim"
+      ],
+      "sources": [
+        "Gibson GR, Nat Rev Gastroenterol Hepatol 2017",
+        "Bindels LB, Nat Rev Gastroenterol 2015"
+      ]
+    },
+    {
+      "id": "berberine",
+      "name": "Berberin",
+      "aliases": [
+        "Berberine HCL",
+        "Berberine Hydrochloride"
+      ],
+      "category": "gut",
+      "emoji": "🌿",
+      "shortDescription": "Kan şekeri regülasyonunu ve metabolik sağlığı iyileştirmek için AMPK'yi aktive eden bitki alkaloidi.",
+      "timing": {
+        "preferredTime": "lunch",
+        "takeWithFood": true,
+        "reason": "Yemek sonrası kan şekeri artışlarını köreltmek için yemeklerden önce veya yemekle birlikte alın."
+      },
+      "synergies": [
+        "omega3",
+        "curcumin"
+      ],
+      "synergyReasons": {
+        "omega3": "İkisi de farklı mekanizmalar aracılığıyla metabolik ve kardiyovasküler sağlığı destekler.",
+        "curcumin": "İkisi de tamamlayıcı yollarla (AMPK vs. NF-κB) anti-inflamatuar ve metabolik faydalar sağlar."
+      },
+      "interactions": [
+        "vitamin_b12"
+      ],
+      "interactionReasons": {
+        "vitamin_b12": "Berberine AMPK'yı aktive eder ve gastrik intrinsik faktör salgısını azaltır — metforminin vitamin B12 emilimini bozduğu mekanizmanın aynısı. Uzun süreli berberine kullanımı B12'yi tüketebilir; seviyeleri izleyin. (Hua W, Eur J Med Chem 2020; de Jager J, BMJ 2010)"
+      },
+      "commonDoses": "500 mg 2–3x daily with meals (total 1,000–1,500 mg/day)",
+      "notes": "Berberin laboratuvar ortamında Metformine benzer şekilde AMPK'yi aktive eder. Kan şekeri ilaçları alıyorsanız doktorunuza danışın.",
+      "tags": [
+        "kan şekeri",
+        "metabolizma",
+        "gut",
+        "uzun ömür"
+      ],
+      "sources": [
+        "Yin J, Metabolism 2008",
+        "Zhang Y, J Clin Endocrinol Metab 2008"
+      ]
+    },
+    {
+      "id": "coq10",
+      "name": "Koenzim Q10 (CoQ10)",
+      "aliases": [
+        "Coenzyme Q10",
+        "Ubiquinol",
+        "Ubiquinone"
+      ],
+      "category": "longevity",
+      "emoji": "⚡",
+      "shortDescription": "Mitokondriyal ATP üretimini, antioksidan savunmayı ve kalp sağlığını destekler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yağda çözünür — yağ içeren bir yemekle alındığında biyoyararlanımı önemli ölçüde artar."
+      },
+      "synergies": [
+        "omega3",
+        "resveratrol"
+      ],
+      "synergyReasons": {
+        "omega3": "İkisi de kardiyovasküler sağlığı ve mitokondriyal membran bütünlüğünü destekler.",
+        "resveratrol": "Resveratrol sirtuinleri aktive ederken CoQ10 mitokondriyal fonksiyonu destekler — tamamlayıcı uzun ömür yolları."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Serbest demir iyonları CoQ10'un (ubiquinol → ubiquinone) oksidasyonunu katalize ederek takviyenin antioksidan aktivitesini azaltabilir. Demir ve CoQ10'u en az 2 saat arayla, ideal olarak farklı öğünlerde alın. (Crane FL, Mitokondri 2007)"
+      },
+      "commonDoses": "100–300 mg daily (ubiquinol form preferred)",
+      "notes": "Özellikle 40 yaş üstü kişilerde Ubikinol (indirgenmiş form) ubikinondan daha iyi emilir. Statin ilaçları alanlar için temel önemdedir.",
+      "tags": [
+        "enerji",
+        "mitokondri",
+        "kalp ve damar",
+        "uzun ömür"
+      ],
+      "sources": [
+        "Mortensen SA, JACC Heart Fail 2014 (Q-SYMBIO trial)",
+        "Crane FL, Mitochondrion 2007"
+      ]
+    },
+    {
+      "id": "resveratrol",
+      "name": "Resveratrol",
+      "aliases": [
+        "Trans-Resveratrol",
+        "Polygonum Cuspidatum Extract"
+      ],
+      "category": "longevity",
+      "emoji": "🍇",
+      "shortDescription": "Sirtuin yaşlanma karşıtı yollarını aktive eden ve kalp-damar koruması sağlayan polifenol.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yağda çözünür — en iyi yağ içeren bir yemekle emilir. Sabahları almak tutarlılık sağlar."
+      },
+      "synergies": [
+        "coq10",
+        "nmn_nr",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "coq10": "CoQ10 mitokondriyal fonksiyonu destekler; resveratrol sirtuinleri aktive eder — tamamlayıcı uzun ömür mekanizmaları.",
+        "nmn_nr": "NMN/NR NAD+ seviyelerini artırır; resveratrol NAD+'a bağlı sirtuinleri aktive eder — iyi çalışılmış bir uzun ömür kombinasyonu."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Resveratrol demir iyonlarını şelatlayarak hem demir emilimini hem de resveratrol biyoyararlanımını azaltan stabil demir-resveratrol kompleksleri oluşturur. Eksiklik için demir takviyesi yapıyorsanız bunları ayrı ayrı alın. (Scheers N, Besinler 2020; Joven J, Crit Rev Food Sci 2014)"
+      },
+      "commonDoses": "250–500 mg daily",
+      "notes": "Biyoaktif formu Trans-resveratrol'dür. İnsan ömrü uzatma kanıtları henüz net değildir.",
+      "tags": [
+        "uzun ömür",
+        "antioksidan",
+        "kalp ve damar",
+        "sirtuins"
+      ],
+      "sources": [
+        "Baur JA, Nature 2006",
+        "Timmers S, Cell Metab 2011"
+      ]
+    },
+    {
+      "id": "nmn_nr",
+      "name": "NMN / NR (NAD+ Öncüleri)",
+      "aliases": [
+        "Nicotinamide Mononucleotide",
+        "Nicotinamide Riboside",
+        "NMN",
+        "NR",
+        "Tru Niagen"
+      ],
+      "category": "longevity",
+      "emoji": "🔬",
+      "shortDescription": "Hücresel enerji, DNA onarımı ve uzun ömürlülük sinyallerini destekleyen NAD+ öncüleri.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "NAD+, sirkadiyen ritim ve gündüz enerji metabolizmasında rol oynadığı için sabah tercih edilir."
+      },
+      "synergies": [
+        "resveratrol",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "resveratrol": "Resveratrol, NAD+ tüketen sirtuinleri aktive eder — NMN/NR ile NAD+'ı artırmak bu reaksiyon için substrat sağlar.",
+        "coq10": "Her ikisi de mitokondriyal enerji üretimini destekler ve yaşa bağlı mitokondriyal fonksiyon bozukluğunu azaltır."
+      },
+      "interactions": [
+        "vitamin_b_complex"
+      ],
+      "interactionReasons": {
+        "vitamin_b_complex": "NMN ve NR nikotinamide (niasin/B3'ün bir formu) metabolize edilir. Niasin içeren B-kompleksiyle birleştirildiğinde toplam nikotinamid yükü tolere edilebilir üst sınırı aşabilir. Toplam niasin alımını izleyin. (Trammell SA, Nat Commun 2016; NIH ODS niacin UL)"
+      },
+      "commonDoses": "250–500 mg NMN or 300 mg NR daily",
+      "notes": "İnsan çalışmaları umut verici ancak uzun ömür iddiaları için henüz kesin değil.",
+      "tags": [
+        "uzun ömür",
+        "NAD+",
+        "enerji",
+        "yaşlanma karşıtı"
+      ],
+      "sources": [
+        "Yoshino J, Cell Metab 2021",
+        "Dollerup OL, Diabetes 2018 (NR in humans)"
+      ]
+    },
+    {
+      "id": "curcumin",
+      "name": "Zerdeçal / Kurkumin",
+      "aliases": [
+        "Curcuma Longa",
+        "Curcuminoids",
+        "Turmeric Extract",
+        "BCM-95"
+      ],
+      "category": "gut",
+      "emoji": "🟡",
+      "shortDescription": "Zerdeçal kökünden elde edilen güçlü anti-enflamatuar ve antioksidan bileşik.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yağda çözünür — yağ içeren yemeklerle en iyi emilir. Karabiber ekstraktı (Piperin) emilimi büyük ölçüde artırır."
+      },
+      "synergies": [
+        "black_pepper",
+        "omega3",
+        "piperine"
+      ],
+      "synergyReasons": {
+        "black_pepper": "Piperin, kurkumin glukuronidasyonunu inhibe ederek biyoyararlanımını ~20 kat (2.000%) artırır — bu ikisini her zaman birleştirin.",
+        "omega3": "Her ikisi de tamamlayıcı yollar (NF-κB inhibisyonu ve eikosanoid modülasyonu) yoluyla inflamasyonu azaltır.",
+        "piperine": "Piperin, kurkuminin sistemik biyoyararlanımını %2000'e kadar artırır."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Kurkumin demir emilimini azaltır. En az 3 saat arayla alın."
+      },
+      "commonDoses": "500–2,000 mg curcuminoids daily",
+      "notes": "Sade zerdeçal tozunun biyoyararlanımı çok düşüktür. Formülasyonlu ürünler kullanın.",
+      "tags": [
+        "iltihap önleyici",
+        "antioksidan",
+        "joint health",
+        "gut"
+      ],
+      "sources": [
+        "Shoba G, Planta Med 1998",
+        "Aggarwal BB, Biochem Pharmacol 2006"
+      ]
+    },
+    {
+      "id": "black_pepper",
+      "name": "Karabiber Ekstraktı (Piperin)",
+      "aliases": [
+        "Piperine",
+        "BioPerine"
+      ],
+      "category": "gut",
+      "emoji": "🌶️",
+      "shortDescription": "Kurkumin ve bazı diğer besinlerin biyoyararlanımını dramatik olarak artırır.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Özellikle kurkumin olmak üzere, etkisini artırmak istediğiniz takviyelerle birlikte alın."
+      },
+      "synergies": [
+        "curcumin",
+        "resveratrol"
+      ],
+      "synergyReasons": {
+        "curcumin": "Piperin, kurkuminin bağırsak ve karaciğer metabolizmasını inhibe ederek biyoyararlanımını ~20 kat artırır — bu ikisini her zaman birleştirin.",
+        "resveratrol": "Piperin ayrıca resveratrolün ilk geçiş metabolizmasını azaltarak emilimini potansiyel olarak artırabilir."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Piperin, kafein metabolizmasından sorumlu birincil karaciğer enzimi olan CYP1A2'yi güçlü biçimde inhibe eder. Birlikte kullanım kafein plazma konsantrasyonlarını %50–100 artırabilir. Birleştirirken dikkatli olun. (Bhardwaj RK, J Pharmacol Exp Ther 2002)"
+      },
+      "commonDoses": "5–20 mg daily",
+      "notes": "Genellikle kurkumin formülasyonlarına 5 mg olarak dahil edilir. Yüksek dozlar bazı ilaçların emilimini etkileyebilir.",
+      "tags": [
+        "bioavailability",
+        "absorption",
+        "gut"
+      ],
+      "sources": [
+        "Shoba G, Planta Med 1998"
+      ]
+    },
+    {
+      "id": "vitamin_b_complex",
+      "name": "B Vitamini Kompleksi",
+      "aliases": [
+        "B-Complex",
+        "B Vitamins",
+        "Multivitamin B"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Enerji metabolizmasını, beyin işlevini ve stres yanıtını destekleyen sekiz temel B vitamininin tümü.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Kahvaltıyla alın — B vitaminleri enerji metabolizmasında rol alır ve yemek mide bulantısı riskini azaltır."
+      },
+      "synergies": [
+        "vitamin_b12",
+        "folate"
+      ],
+      "synergyReasons": {
+        "vitamin_b12": "B kompleksi tam bir B vitamini yelpazesi sağlar; tekil B12 veganlar veya emilim eksikliği olanlar için yararlıdır.",
+        "folate": "Tüm B vitaminleri metilasyon döngüsünü destekler — folat ve B12 en kritik ko-faktörlerdir."
+      },
+      "interactions": [
+        "nmn_nr"
+      ],
+      "interactionReasons": {
+        "nmn_nr": "NMN ve NR nikotinamide (niasin/B3) metabolize edilir. Zaten niasin (B3) içeren bir B-kompleksiyle birleştirildiğinde toplam nikotinamid alımı güvenli seviyeleri aşabilir. Toplam niasin alımını izleyin. (Trammell SA, Nat Commun 2016; NIH ODS niacin UL 35 mg/day)"
+      },
+      "commonDoses": "1 serving daily (varies by product; follow label)",
+      "notes": "İdrarın parlak sarıya dönmesi (B2 vitamininden dolayı) normal ve zararsızdır.",
+      "tags": [
+        "enerji",
+        "beyin",
+        "stres",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Kennedy DO, Nutrients 2016"
+      ]
+    },
+    {
+      "id": "nac",
+      "name": "NAC (N-Asetil Sistein)",
+      "aliases": [
+        "N-Acetyl Cysteine",
+        "N-Acetyl L-Cysteine"
+      ],
+      "category": "gut",
+      "emoji": "🛡️",
+      "shortDescription": "Vücudun ana antioksidanı glutatyonun öncüsüdür. Karaciğer, akciğer ve bağışıklık sağlığını destekler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Aç karnına oluşabilecek mide bulantısı riskini azaltmak için yemekle birlikte alın."
+      },
+      "synergies": [
+        "vitamin_c",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "İkisi de glutatyon sentezini destekler ve tamamlayıcı antioksidanlar olarak etki eder — C vitamini oksitlenmiş glutatyonu yenileyebilir.",
+        "coq10": "Birlikte kapsamlı mitokondriyal koruma ve antioksidan destek sağlarlar."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "NAC, bağırsakta demir-NAC kompleksleri oluşturarak demiri şelat yapan serbest tiyol (sülfhidril) grupları içerir. Bu, demir biyoyararlanımını azaltır. En az 2 saat arayla alın. (Haase H, Metallomics 2012; Aldini G, Free Radic Res 2018)"
+      },
+      "commonDoses": "600–1,800 mg daily (split doses)",
+      "notes": "Glutatyon öncülerinin en etkililerinden biridir. Asetaminofen zehirlenmesinde ve solunum sorunlarında tıbbi olarak kullanılır.",
+      "tags": [
+        "antioksidan",
+        "karaciğer",
+        "lungs",
+        "glutathione",
+        "bağışıklık"
+      ],
+      "sources": [
+        "Mokhtari V, J Cell Biochem 2017",
+        "Aldini G, Free Radic Res 2018"
+      ]
+    },
+    {
+      "id": "vitamin_e",
+      "name": "E Vitamini",
+      "aliases": [
+        "Tocopherol",
+        "Alpha-Tocopherol",
+        "Mixed Tocopherols"
+      ],
+      "category": "vitamins",
+      "emoji": "🌻",
+      "shortDescription": "Hücreleri oksidatif hasardan koruyan, bağışıklık ve cilt sağlığını destekleyen yağda çözünen antioksidan.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yağda çözünür — uygun emilim için diyet yağı gerekir. Günün en büyük öğünüyle birlikte alın."
+      },
+      "synergies": [
+        "vitamin_c",
+        "selenium",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "C vitamini, oksitlenmiş E vitaminini yenileyerek hücre zarlarındaki antioksidan aktivitesini uzatır.",
+        "selenium": "Selenyum (glutatyon peroksidaz olarak) ve E vitamini lipit peroksitleri nötralize etmek için sinerjik çalışır.",
+        "omega3": "E vitamini, hem takviyede hem de hücre zarlarında omega-3 yağ asitlerini oksidasyondan korur."
+      },
+      "interactions": [
+        "iron",
+        "vitamin_k2"
+      ],
+      "interactionReasons": {
+        "iron": "E vitamini demir emilimini azaltabilir. En az 2 saat arayla alın.",
+        "vitamin_k2": "Yüksek doz E vitamini K2'nin etkisini azaltabilir."
+      },
+      "commonDoses": "100–400 IU daily (as mixed tocopherols preferred)",
+      "notes": "Sentetik dl-alfa-tokoferol yerine 'karışık tokoferoller'i seçin. Kan sulandırıcı alanlarda kanama riskini artırabilir.",
+      "tags": [
+        "antioksidan",
+        "cilt",
+        "bağışıklık",
+        "fat-soluble",
+        "kalp ve damar"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Traber MG, Adv Nutr 2014"
+      ]
+    },
+    {
+      "id": "vitamin_a",
+      "name": "A Vitamini",
+      "aliases": [
+        "Retinol",
+        "Beta-Carotene",
+        "Retinyl Palmitate"
+      ],
+      "category": "vitamins",
+      "emoji": "🥕",
+      "shortDescription": "Görme, bağışıklık savunması, cilt hücresi yenilenmesi ve üreme sağlığı için gereklidir.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yağda çözünen vitamin — yağ içeren bir yemekle alındığında emilimi önemli ölçüde artar."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "zinc",
+        "vitamin_e"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "A ve D vitaminleri nükleer reseptör yollarını paylaşır ve immün fonksiyon ile gen ekspresyonunu düzenlemek için birlikte çalışır.",
+        "zinc": "Çinko, kanda A vitaminini taşıyan retinol bağlayıcı proteinin sentezi için gereklidir.",
+        "vitamin_e": "E vitamini, bağırsak ve dokularda A vitaminini oksidasyondan korur."
+      },
+      "interactions": [
+        "vitamin_d3"
+      ],
+      "interactionReasons": {
+        "vitamin_d3": "Yüksek dozda önceden oluşturulmuş A Vitamini (retinol, >5.000 IU/gün), D Vitamini reseptör sinyalini antagonize eder ve yeterli D3 takviyesine rağmen kemik mineral yoğunluğunun azalmasıyla ilişkilendirilir. A:D oranını dengeli tutun; tahmini optimum oran kabaca 5:1'dir (IU). Bu riski azaltmak için beta-karoten formunu kullanın. (Johansson S, J Bone Miner Res 2004; Cannell JJ, Ann Otol Rhinol Laryngol 2008)"
+      },
+      "commonDoses": "2,500–5,000 IU daily (retinol); up to 25,000 IU as beta-carotene",
+      "notes": "A vitamini (retinol) birikebilir ve yüksek dozlarda toksik hale gelebilir. Hamileler yüksek doz retinol takviyesinden kaçınmalıdır.",
+      "tags": [
+        "görme",
+        "bağışıklık",
+        "cilt",
+        "fat-soluble",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Semba RD, Proc Nutr Soc 1999"
+      ]
+    },
+    {
+      "id": "vitamin_b6",
+      "name": "B6 Vitamini",
+      "aliases": [
+        "Pyridoxine",
+        "Pyridoxal-5-Phosphate",
+        "P5P"
+      ],
+      "category": "vitamins",
+      "emoji": "🧬",
+      "shortDescription": "Nörotransmitter sentezi, hormon regülasyonu ve amino asit metabolizması dahil olmak üzere 100'den fazla reaksiyonda kofaktördür.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Suda çözünür — gündüz nörotransmitter aktivitesini desteklemek ve bulantıyı önlemek için kahvaltıyla alın."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "vitamin_b12",
+        "folate"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "B6, magnezyumun hücrelere taşınması için gereklidir; ikisi birlikte uyku, ruh hali ve sinir sistemini destekler.",
+        "vitamin_b12": "B6, B12 ve folat çekirdek homosistein düşürücü üçlüyü oluşturur — homosisteni güvenli metabolitlere dönüştürmek için üçü de gereklidir.",
+        "folate": "B6 ve folat tek karbon metabolizmasında birlikte çalışarak DNA sentezini ve metilasyonu destekler."
+      },
+      "commonDoses": "10–50 mg daily (P5P form preferred for direct activity)",
+      "notes": "Aktif koenzim formu P5P'dir ve karaciğer dönüşümü gerektirmez. Uzun süre 100 mg/gün üzeri dozlar nöropati ile ilişkilendirilmiştir.",
+      "tags": [
+        "duygu durumu",
+        "neurotransmitters",
+        "enerji",
+        "hormones",
+        "homocysteine"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Stover PJ, Annu Rev Nutr 2004"
+      ]
+    },
+    {
+      "id": "biotin",
+      "name": "Biotin (B7 Vitamini)",
+      "aliases": [
+        "Vitamin B7",
+        "Vitamin H",
+        "Coenzyme R"
+      ],
+      "category": "vitamins",
+      "emoji": "💇",
+      "shortDescription": "Saç, tırnak ve cilt bütünlüğü ile karbonhidrat, yağ ve protein metabolizması için gerekli B vitamini.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Suda çözünür — aç veya tok karnına alınabilir. Sabah dozu gün içindeki metabolik aktiviteyi destekler."
+      },
+      "synergies": [
+        "zinc",
+        "vitamin_b_complex"
+      ],
+      "synergyReasons": {
+        "zinc": "İkisi de keratin yapısını destekler; birinin eksikliği kırılgan saç ve tırnaklara yol açar.",
+        "vitamin_b_complex": "Biotin, enerji ve makrobesin metabolizmasında diğer B vitaminleriyle sinerjik çalışır."
+      },
+      "commonDoses": "2.5–10 mg (2,500–10,000 mcg) daily",
+      "notes": "Yüksek doz biyotin tiroid ve troponin laboratuvar testlerine müdahale edebilir. Kan testlerinden önce doktorunuza bilgi verin.",
+      "tags": [
+        "hair",
+        "nails",
+        "cilt",
+        "enerji",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Patel DP, Skin Appendage Disord 2017"
+      ]
+    },
+    {
+      "id": "magnesium_citrate",
+      "name": "Magnezyum Sitrat",
+      "aliases": [
+        "Mag Citrate"
+      ],
+      "category": "vitamins",
+      "emoji": "🪨",
+      "shortDescription": "Bağırsak düzenini ve sindirim rahatlığını da destekleyen yüksek biyoyararlanımlı magnezyum formu.",
+      "timing": {
+        "preferredTime": "beforeSleep",
+        "takeWithFood": false,
+        "reason": "Akşam dozlaması rahatlama ve uykuyu destekler. Hafif müshil etkisi nedeniyle yatmadan önce tercih edilebilir."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "vitamin_b6"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnezyum, D vitaminini aktive etmek için gereklidir — yeterli magnezyum olmadan D3 takviyesi daha az etkilidir.",
+        "vitamin_b6": "B6, magnezyumun hücrelere taşınmasını kolaylaştırarak hücre içi aktivitesini artırır."
+      },
+      "interactions": [
+        "iron",
+        "calcium",
+        "zinc"
+      ],
+      "interactionReasons": {
+        "iron": "Magnezyum, bağırsakta iki değerlikli metal taşıyıcının (DMT1) emilimi için demir ile rekabet eder. Özellikle demir eksikliğini tedavi ederken demir ve magnezyumu en az 2 saat arayla alın. (NIH ODS; Minihane AM, Br J Nutr 1998)",
+        "calcium": "Kalsiyum ve magnezyum, ortak bağırsak emilim kanalları için rekabet eder. Her ikisinin de yüksek dozları diğerinin biyoyararlanımını azaltır. En az 2 saat ayırın. (Seelig MS, JAMA 1975; NIH ODS)",
+        "zinc": "Yüksek dozda magnezyum (>350 mg elemental), iki değerlikli mineral taşıyıcı emilimi için çinko ile rekabet eder. Tipik takviye dozlarında etki küçüktür; Bunlardan herhangi birinin terapötik dozlarını alıyorsanız 1-2 saat boşluk bırakın. (NIH ODS)"
+      },
+      "commonDoses": "200–400 mg elemental magnesium daily",
+      "notes": "Sitrat formu kabızlık sorunu olanlar için faydalıdır. İshale yatkın olanlar için glisinat daha iyi tolere edilebilir.",
+      "tags": [
+        "rahatlama",
+        "uyku",
+        "sindirim",
+        "kas",
+        "yeni başlayanlara uygun"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Schuchardt JP, Curr Nutr Food Sci 2017"
+      ]
+    },
+    {
+      "id": "magnesium_taurate",
+      "name": "Magnezyum Taurat",
+      "aliases": [
+        "Mag Taurate",
+        "Magnesium Taurinate"
+      ],
+      "category": "vitamins",
+      "emoji": "❤️",
+      "shortDescription": "Kardiyovasküler sağlık, kan basıncı ve kan şekeri düzenlemesi için magnezyum ile taurin kombinasyonu.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Akşam yemekle birlikte alın — yiyecek magnezyum emilimini %40'a kadar artırır ve mide rahatsızlığını azaltır."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "vitamin_b6",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnezyum, D vitamini aktive etmek için gereklidir; yetersiz magnezyum D3 takviyesini daha az etkili yapar.",
+        "vitamin_b6": "B6 vitamini, magnezyumun hücre içine taşınmasını kolaylaştırarak hücre içi magnezyum düzeyini artırır.",
+        "l_theanine": "Magnezyum taurattaki taurin ve L-theanin, tamamlayıcı GABAerjik mekanizmalar aracılığıyla sakinliği ve rahatlamayı destekler."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnezyum, bağırsaklarda demir ile DMT1 taşıyıcısı için rekabet eder. Demir takviyesi ile arasına en az 2 saat koyun.",
+        "calcium": "Kalsiyum ve magnezyum bağırsak emilim kanallarını paylaşır. Yüksek dozda birlikte alınması her ikisinin de biyoyararlanımını azaltır. En az 2 saat ayırın."
+      },
+      "commonDoses": "Günlük 125–500 mg elemental magnezyum",
+      "notes": "Taurin bileşeni ek kardiyovasküler ve nörolojik destek sağlar. Dikkat: Digoksin etkisini güçlendirebilir (toksisite riski — kardiyologunuza danışın). Makrolid antibiyotikler (ör. azitromisin, klaritromisin) ile arasına en az 2 saat koyun. Günde birden fazla magnezyum formu alıyorsanız dozlar arasında en az 6 saat bırakın.",
+      "tags": [
+        "kardiyovasküler",
+        "kan basıncı",
+        "kan şekeri",
+        "kalp"
+      ],
+      "sources": [
+        "McCarty MF, Med Hypotheses 1996",
+        "Shao M, Front Pharmacol 2022",
+        "NIH ODS"
+      ]
+    },
+    {
+      "id": "magnesium_oxide",
+      "name": "Magnezyum Oksit",
+      "aliases": [
+        "Mag Oxide",
+        "MgO"
+      ],
+      "category": "vitamins",
+      "emoji": "🧲",
+      "shortDescription": "Biyoyararlanımı çok düşük olan magnezyum formu; eksiklik düzeltmek için değil, yalnızca müshil olarak kullanılır.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": false,
+        "reason": "Akşam alın — esas olarak ozmotik müshil etkisi için kullanılır. Emilim zaten minimal olduğundan yiyecekle alınması zorunlu değildir."
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnezyum bağırsaklarda demir ile rekabet eder. Demir takviyesi ile arasına en az 2 saat koyun.",
+        "calcium": "Kalsiyum ve magnezyum bağırsak emilim kanallarını paylaşır. En az 2 saat ayırın."
+      },
+      "commonDoses": "Günlük 250–500 mg (müshil kullanımı)",
+      "notes": "Magnezyum oksit formunun yalnızca yaklaşık %4'ü emilir — tüm magnezyum tuzları arasında en düşük biyoyararlanım. Magnezyum eksikliğini gidermek için önerilmez. Bunun yerine glisinat, malat veya sitrat tercih edin. Yalnızca ara sıra görülen kabızlık için uygun maliyetli bir ozmotik müshil olarak uygundur.",
+      "tags": [
+        "sindirim",
+        "müshil"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Meijer P, Magnes Res 2003",
+        "Lindberg JS, J Am Coll Nutr 1990"
+      ]
+    },
+    {
+      "id": "vitamin_b1",
+      "name": "B1 Vitamini (Tiamin)",
+      "aliases": [
+        "Thiamine",
+        "Thiamin",
+        "Benfotiamine"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Karbonhidratları enerjiye dönüştürmek için temel koenzim. Sinir ve kalp işlevi için kritiktir.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Suda çözünür — gün boyunca enerji metabolizmasını desteklemek için kahvaltıyla birlikte alın."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "Tüm B vitaminleri enerji metabolizmasında birlikte çalışır; B1, eksiksiz bir B-kompleksinin parçası olarak en etkilidir.",
+        "magnesium_glycinate": "Magnezyum, tiyamina bağlı enzimler için bir ko-faktördür — ikisi birlikte ATP üretiminde çalışır."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Kafein tiyamin (B1) bağırsak taşıma proteinlerini (ThTr1/ThTr2) inhibe eder ve idrar tiyamin atılımını artırır. Düzenli yüksek kafein alımı zamanla marjinal tiyamin tükenmesine katkıda bulunabilir. Tiyamin takviyesini kafeinden en az 1 saat uzaklaştırın. (Said HM, Am J Physiol 1999; Stein J, Am J Physiol 1987)"
+      },
+      "commonDoses": "50–100 mg daily (standard); 150–600 mg for benfotiamine (fat-soluble form)",
+      "notes": "Benfotiamin, diyabetik nöropati ve metabolik destek için özellikle incelenen yağda çözünür üstün bir B1 türevidir.",
+      "tags": [
+        "enerji",
+        "nerves",
+        "kalp ve damar",
+        "metabolizma"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Thornalley PJ, Ann N Y Acad Sci 2005"
+      ]
+    },
+    {
+      "id": "st_johns_wort",
+      "aliases": [
+        "Sarı Kantaron"
+      ],
+      "category": "brain",
+      "emoji": "🌻",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "vitamin_d3"
+      ],
+      "commonDoses": "300-900 mg",
+      "tags": [
+        "duygu durumu",
+        "depression"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Sarı Kantaron (St. John's Wort)",
+      "shortDescription": "Genellikle ruh hali ve depresyon için kullanılan bitkisel takviye.",
+      "notes": "Birçok ilaç ve takviye ile etkileşime girer.",
+      "interactionReasons": {
+        "vitamin_d3": "St. John's Wort, D Vitamini metabolizmasını hızlandırabilen ve serum seviyelerini azaltabilen CYP3A4'ü güçlü bir şekilde uyarır."
+      }
+    },
+    {
+      "id": "copper",
+      "aliases": [
+        "Cu"
+      ],
+      "category": "vitamins",
+      "emoji": "🪙",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "zinc"
+      ],
+      "commonDoses": "1-2 mg",
+      "tags": [
+        "minerals"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Bakır",
+      "shortDescription": "Enerji ve demir metabolizması için temel eser mineral.",
+      "notes": "Çinko ile aynı anda almaktan kaçının.",
+      "interactionReasons": {
+        "zinc": "Yüksek doz çinko bağırsakta bakırı tutarak eksikliğe yol açabilir. Dengeli bir oran gereklidir."
+      }
+    },
+    {
+      "id": "green_tea_extract",
+      "aliases": [
+        "EGCG"
+      ],
+      "category": "longevity",
+      "emoji": "🍵",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "iron"
+      ],
+      "commonDoses": "250-500 mg",
+      "tags": [
+        "antioksidan"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Yeşil Çay Ekstraktı (EGCG)",
+      "shortDescription": "Metabolik desteği ile bilinen güçlü antioksidan.",
+      "notes": "Demir takviyelerine yakın zamanlarda almayın.",
+      "interactionReasons": {
+        "iron": "Yeşil çaydaki EGCG demire bağlanarak her ikisinin de emilimini azaltır. En az 2 saat ara verin."
+      }
+    },
+    {
+      "id": "levothyroxine",
+      "aliases": [
+        "Thyroid Medication"
+      ],
+      "category": "longevity",
+      "emoji": "💊",
+      "timing": {
+        "preferredTime": "early_morning",
+        "takeWithFood": false,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "ashwagandha",
+        "calcium",
+        "iron",
+        "zinc",
+        "magnesium_glycinate"
+      ],
+      "commonDoses": "-",
+      "tags": [
+        "medication"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Levotiroksin (Tiroid İlacı)",
+      "shortDescription": "Hipotiroidizm tedavisinde kullanılan ilaç.",
+      "notes": "Kesinlikle aç karnına minerallerden uzak olarak alın.",
+      "interactionReasons": {
+        "ashwagandha": "Ashwagandha T3 ve T4 seviyelerini doğal olarak artırabilir. Tiroid ilaçlarıyla birleştirmek hipertiroidizme benzer etkiler riski oluşturabilir.",
+        "calcium": "Mineraller levotiroksin emilimini engeller. 4 saat arayla alın.",
+        "iron": "Mineraller levotiroksin emilimini engeller. 4 saat arayla alın.",
+        "zinc": "Mineraller levotiroksin emilimini engeller. 4 saat arayla alın.",
+        "magnesium_glycinate": "Mineraller levotiroksin emilimini engeller. 4 saat arayla alın."
+      }
+    },
+    {
+      "id": "5_htp",
+      "name": "5-HTP (Griffonia)",
+      "aliases": [
+        "5-Hydroxytryptophan",
+        "Griffonia Seed Extract"
+      ],
+      "category": "sleep",
+      "emoji": "😊",
+      "shortDescription": "Doğrudan serotonin öncüsü; bağımlılık yaratmadan ruh halini iyileştirir, kaygıyı azaltır ve daha derin uyku sağlar.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": false,
+        "reason": "Uyku faydaları için akşam aç karnına — serotonin gece melatonine dönüşür."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "vitamin_b6",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Magnezyum, 5-HTP'nin serotonine enzimatik dönüşümünde bir kofaktördür; yetersiz magnezyum bu dönüşüm yolunu yavaşlatabilir.",
+        "vitamin_b6": "B6 (piridoksal-5-fosfat), aromatik amino asit dekarboksilaz için kritiktir; bu enzim 5-HTP'yi serotonine dönüştürür — B6 olmadan 5-HTP etkisiz kalır.",
+        "l_theanine": "L-Theanine GABA aracılı sakinlik sağlarken 5-HTP serotonini artırır — bu ikili hem nörolojik sakinliği hem de duygusal dengeyi ele alır."
+      },
+      "interactions": [
+        "st_johns_wort",
+        "nac"
+      ],
+      "interactionReasons": {
+        "st_johns_wort": "Both increase serotonin availability — combining them risks serotonin syndrome (agitation, confusion, rapid heart rate). Do not combine without medical supervision.",
+        "nac": "NAC increases glutathione, which can modulate serotonin metabolism. The interaction is mild but monitor for mood changes."
+      },
+      "commonDoses": "50–300 mg daily",
+      "notes": "Toleransı değerlendirmek için 50–100 mg ile başlayın. Doktor rehberliği olmadan SSRI, SNRI veya MAOI ile birleştirmeyin. Sürekli kullanım yerine 8–12 haftalık döngüler daha güvenlidir.",
+      "tags": [
+        "serotonin",
+        "uyku",
+        "ruh hali",
+        "anksiyete",
+        "melatonin"
+      ],
+      "sources": [
+        "Birdsall TC, Altern Med Rev 1998",
+        "Ravindran AV, CNS Drugs 2010"
+      ]
+    },
+    {
+      "id": "ala",
+      "name": "Alfa-Lipoik Asit (ALA)",
+      "aliases": [
+        "ALA",
+        "R-ALA",
+        "Na-R-ALA",
+        "Thioctic Acid"
+      ],
+      "category": "longevity",
+      "emoji": "⚗️",
+      "shortDescription": "C ve E vitaminlerini yenileyen, insülin duyarlılığını artıran, sinir hasarını azaltan ve ağır metalleri bağlayan evrensel antioksidan.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Aç karnına emilim önemli ölçüde daha yüksektir — maksimum biyoyararlanım için yemekten 30 dakika önce alın."
+      },
+      "synergies": [
+        "vitamin_c",
+        "vitamin_e",
+        "coq10",
+        "nac",
+        "vitamin_b1"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "ALA, oksitlenmiş C vitaminini doğrudan aktif formuna geri dönüştürür — bu en iyi belgelenmiş antioksidan yenileme döngülerinden biridir.",
+        "vitamin_e": "ALA, oksitlenmiş E vitaminini (alfa-tokoferol) aktif formuna geri dönüştürür; bu sayede lipofilik antioksidan kapasiteyi yeniden yükler.",
+        "coq10": "Her ikisi de mitokondriyal enerji üretimini ve zar korumayı destekler; birlikte kullanıldığında mitokondriyal işlevsellik ve anti-yaşlanma etkileri güçlenir.",
+        "nac": "NAC glutatyon düzeylerini yükseltirken ALA hem glutatyonu geri dönüştürür hem de diğer antioksidanları (C, E) yeniler — kapsamlı antioksidan ağı.",
+        "vitamin_b1": "ALA functions as a cofactor with thiamine (B1) in the pyruvate dehydrogenase complex, making them metabolically interdependent."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "200–600 mg daily (R-ALA preferred over racemic ALA)",
+      "notes": "R-ALA biyolojik olarak aktif formdur ve 3–5 kat daha güçlüdür. Na-R-ALA (sodyum tuzu) stabilize edilmiş ve daha biyoyararlanan formdur. ALA kan şekerini hafifçe düşürür — diyabetikler glikozu yakından takip etmeli.",
+      "tags": [
+        "antioksidan",
+        "insülin",
+        "sinir",
+        "enerji",
+        "detoks"
+      ],
+      "sources": [
+        "Shay KP, Biochim Biophys Acta 2009",
+        "Ziegler D, Diabetes Care 2006"
+      ]
+    },
+    {
+      "id": "astaxanthin",
+      "name": "Astaksantin",
+      "aliases": [
+        "Haematococcus Astaxanthin",
+        "Natural Astaxanthin"
+      ],
+      "category": "longevity",
+      "emoji": "🦞",
+      "shortDescription": "C vitamininden 6.000 kat daha güçlü antioksidan kapasite ile deriyi, gözleri, kasları ve mitokondrileri oksidatif hasardan koruyan deniz karotenoidir.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Yağda çözünen karotenoid — yağ içeren yemekle alındığında biyoyararlanım 3–7 kat artar."
+      },
+      "synergies": [
+        "vitamin_c",
+        "vitamin_e",
+        "omega3",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "C vitamini suda çözünen ortamlarda görev yaparken astaksantin hücre zarlarını korur — birlikte hem suda hem de yağda çözünen bölümleri kapsayan tam antioksidan kapsama sağlarlar.",
+        "vitamin_e": "Her ikisi de hücre zarlarını oksidatif hasara karşı koruyan lipit çözünür antioksidanlardır; astaksantin E vitamininden çok daha güçlüdür ve onu tamamlar.",
+        "omega3": "Omega-3 yağ asitleri lipit peroksidasyonu riskini artırır; astaksantin bu açığı kapatır ve omega-3'ü oksidatif hasara karşı korurken her ikisi de birlikte anti-inflamatuar etki sağlar.",
+        "coq10": "Her ikisi de mitokondri zarlarını korur ve enerji üretimini destekler; birlikte hücresel enerji verimliliği ve oksidatif strese karşı koruma güçlenir."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "4–12 mg daily",
+      "notes": "En yoğun doğal kaynağı Haematococcus pluvialis mikroalgidir. Günde 4 mg'da 4–8 hafta sonra deri faydaları (UV koruması, elastikiyet) görülür.",
+      "tags": [
+        "antioksidan",
+        "deri",
+        "göz",
+        "kas",
+        "mitokondri"
+      ],
+      "sources": [
+        "Guerin M, Trends Biotechnol 2003",
+        "Fassett RG, Mar Drugs 2011"
+      ]
+    },
+    {
+      "id": "bacopa_monnieri",
+      "name": "Bacopa Monnieri",
+      "aliases": [
+        "Bacopa",
+        "Brahmi",
+        "Water Hyssop"
+      ],
+      "category": "brain",
+      "emoji": "🧠",
+      "shortDescription": "Hafıza oluşumunu artıran, bilgi işleme hızını artıran ve nörotrofik ve antioksidan mekanizmalarla anksiyeteyi azaltan Ayurvedik bir bitki.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Her zaman yağ içeren yemekle alın — bakosidesler yağda çözünür ve diyet yağı olmadan biyoyararlanım önemli ölçüde düşer."
+      },
+      "synergies": [
+        "lions_mane",
+        "alpha_gpc",
+        "ginkgo_biloba",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "lions_mane": "Aslan Yelesi NGF (sinir büyüme faktörü) üretimini teşvik ederken Bacopa hafıza konsolidasyonunu ve sinaptik iletimi güçlendirir — tamamlayıcı nörotrofik etki.",
+        "alpha_gpc": "Alpha-GPC asetilkolin sentezini artırırken Bacopa kolinesteraz inhibisyonu yoluyla asetilkolini korur — öğrenme ve hafıza için güçlü bilişsel sinerji.",
+        "ginkgo_biloba": "Ginkgo serebral kan akışını iyileştirirken Bacopa hafıza oluşumunu ve nörotransmiter verimliliğini artırır — tamamlayıcı bilişsel güçlendirme mekanizmaları.",
+        "omega3": "Omega-3'teki DHA nöronal zar sıvılığını desteklerken Bacopa'nın bakosidleri sinaptik yeniden şekillendirmeyi ve hafıza oluşumunu teşvik eder."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "300–600 mg daily (standardized to 50% bacosides)",
+      "notes": "Tam hafıza faydaları için 8–12 haftalık düzenli kullanım gerekir. Yemeksiz alınırsa GI rahatsızlığına neden olabilir. 300 mg KM Syriva ekstraktında en çok çalışılmıştır.",
+      "tags": [
+        "hafıza",
+        "öğrenme",
+        "beyin",
+        "anksiyete",
+        "bilişsel"
+      ],
+      "sources": [
+        "Roodenrys S, Neuropsychopharmacology 2002",
+        "Calabrese C, J Altern Complement Med 2008"
+      ]
+    },
+    {
+      "id": "bcaa",
+      "name": "BCAA (Dallanmış Zincirli Amino Asitler)",
+      "aliases": [
+        "BCAAs",
+        "Leucine",
+        "Isoleucine",
+        "Valine"
+      ],
+      "category": "performance",
+      "emoji": "💪",
+      "shortDescription": "Lösin, izolösin ve valin — kas yıkımını önleyen, kas protein sentezini uyaran ve egzersiz yorgunluğunu azaltan temel amino asitler.",
+      "timing": {
+        "preferredTime": "before_workout",
+        "takeWithFood": false,
+        "reason": "Egzersizden 30 dakika önce veya egzersiz sırasında alın — BCAA'lar egzersiz sırasında kas dokusunda doğrudan oksidize edilir."
+      },
+      "synergies": [
+        "creatine",
+        "glutamine",
+        "electrolytes",
+        "vitamin_b6"
+      ],
+      "synergyReasons": {
+        "creatine": "Kreatin, kas kasılması için ATP kullanılabilirliğini artırırken BCAA'lar kas protein sentezi için lösin sinyali sağlar — temel performans ikilisi.",
+        "glutamine": "Glutamin antrenman sırasında bağırsak bütünlüğünü ve bağışıklık işlevini desteklerken BCAA'lar kasları besler — farklı toparlanma ihtiyaçlarını aynı anda karşılar.",
+        "electrolytes": "BCAA'lar kas yorgunluğunu azaltırken elektrolitler nöromüsküler sinyalizasyonu korur — birlikte egzersiz performansı ve hidrasyonu desteklerler.",
+        "vitamin_b6": "B6 (PLP), tüm üç BCAA'nın metabolizması için gerekli olan BCAA aminotransferaz enzimlerinin kritik kofaktörüdür."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "5–20 g daily (2:1:1 or 4:1:1 leucine:isoleucine:valine ratio)",
+      "notes": "Yeterli protein alıyorsanız (1,6–2,2 g/kg vücut ağırlığı), ek BCAA sınırlı fayda sağlar. Aç karnına antrenman, kalori kısıtlaması veya bitki bazlı sporcular için en değerlidir.",
+      "tags": [
+        "kas",
+        "amino asit",
+        "egzersiz",
+        "protein",
+        "toparlanma"
+      ],
+      "sources": [
+        "Shimomura Y, J Nutr 2006",
+        "Jackman SR, Nutrients 2017"
+      ]
+    },
+    {
+      "id": "cordyceps",
+      "name": "Cordyceps (CS-4)",
+      "aliases": [
+        "Cordyceps sinensis",
+        "CS-4",
+        "Cordyceps militaris"
+      ],
+      "category": "performance",
+      "emoji": "🐛",
+      "shortDescription": "ATP sentezini artıran, VO₂ maks'ı yükselten, oksijen kullanımını iyileştiren ve hem sporcularda hem de yaşlı yetişkinlerde yorgunluğu azaltan tıbbi bir mantar.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Enerji verici, performans artırıcı etkilerinden tüm gün boyunca yararlanmak için sabah, tercihen egzersiz öncesinde."
+      },
+      "synergies": [
+        "reishi",
+        "lions_mane",
+        "coq10",
+        "l_carnitine"
+      ],
+      "synergyReasons": {
+        "reishi": "Tamamlayıcı işlevsel mantarlar: Kordiseps gündüz enerjisi ve VO₂max'ı iyileştirirken Reishi akşam iyileşmesini ve bağışıklık modülasyonunu destekler.",
+        "lions_mane": "Aslan Yelesi bilişsel işlevi desteklerken Kordiseps fiziksel performansı ve oksijen kullanımını artırır — tüm performans boyutlarını kapsayan kombinasyon.",
+        "coq10": "Her ikisi de farklı mekanizmalar aracılığıyla mitokondriyal ATP üretimini artırır; birlikte kardiyorespiratuvar kapasite ve egzersiz performansı için en güçlü enerji kombinasyonu.",
+        "l_carnitine": "Karnitin yağ asitlerini mitokondriye taşırken Kordiseps ATP sentez hızını artırır ve oksijen kullanımını iyileştirir — atletik performans için sinerjik yakıt sistemi."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,000–3,000 mg daily (CS-4 mycelium extract preferred)",
+      "notes": "CS-4 (Paecilomyces hepiali) kapsamlı şekilde çalışılan farmasötik suştur. Yaşlı yetişkinlerde 6 haftalık denemelerde VO₂ maks'ı iyileştirir. Uzun vadeli günlük kullanım için güvenlidir.",
+      "tags": [
+        "enerji",
+        "VO2max",
+        "egzersiz",
+        "oksijen",
+        "dayanıklılık"
+      ],
+      "sources": [
+        "Chen S, J Altern Complement Med 2010",
+        "Baroni L, J Sports Med 2015"
+      ]
+    },
+    {
+      "id": "digestive_enzymes",
+      "name": "Sindirim Enzimleri",
+      "aliases": [
+        "Digestive Enzyme Blend",
+        "Bromelain",
+        "Papain",
+        "Pancreatin"
+      ],
+      "category": "gut",
+      "emoji": "⚙️",
+      "shortDescription": "Makrobesin sindirimini iyileştiren, şişkinliği azaltan ve besin emilimini artıran enzim karışımı (proteaz, lipaz, amilaz, laktaz).",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Her öğünün hemen öncesinde veya başında alınmalıdır — enzimlerin mide içindeki yiyeceklerle karışması gerekir."
+      },
+      "synergies": [
+        "probiotics",
+        "prebiotics",
+        "collagen_peptides",
+        "zinc"
+      ],
+      "synergyReasons": {
+        "probiotics": "Sindirim enzimleri besinleri mikrobiyom fermantasyonu için parçalarken probiyotikler bağırsak florasını optimize eder — birlikte sindirim sağlığının hem ön hem de arka aşamalarını ele alırlar.",
+        "prebiotics": "Enzymes improve digestion of the polysaccharides that prebiotics deliver to the gut microbiome, enhancing prebiotic effectiveness.",
+        "collagen_peptides": "Digestive enzymes improve collagen peptide digestion and absorption, making collagen supplementation more effective.",
+        "zinc": "Çinko mide asidi ve endojen enzim üretimi için gereklidir; çinko eksikliği doğal sindirim kapasitesini azaltır ve takviyeli enzimlerle birlikte kullanım daha etkilidir."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1–2 capsules per meal (look for full-spectrum blends)",
+      "notes": "IBS, şişkinlik, süt ürünleri intoleransı veya azalmış mide asidi (yaşlanma, PPI'ler ile yaygın) için en yararlıdır. Bromelain ve papain bitki bazlı seçeneklerdir.",
+      "tags": [
+        "sindirim",
+        "şişkinlik",
+        "emilim",
+        "IBS",
+        "probiyotik"
+      ],
+      "sources": [
+        "Ianiro G, Med 2016",
+        "Rachman B, Gastroenterol Hepatol 1997"
+      ]
+    },
+    {
+      "id": "elderberry",
+      "name": "Mürver Meyvesi (Sambucus)",
+      "aliases": [
+        "Sambucus nigra",
+        "Black Elderberry",
+        "Elderberry Extract"
+      ],
+      "category": "gut",
+      "emoji": "🫐",
+      "shortDescription": "Viral çoğalmayı engelleyerek ve bağışıklık yanıtını güçlendirerek soğuk algınlığı ve grip şiddetini ve süresini azaltan antosiyanin açısından zengin bir meyve.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yemekle alın; sabah rutin bakım dozu, hastalık belirtilerinde yüksek doz."
+      },
+      "synergies": [
+        "vitamin_c",
+        "zinc",
+        "vitamin_d3",
+        "probiotics"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "C vitamini ve mürver antosiyaninleri tamamlayıcı bağışıklık desteği sağlar: C vitamini bağışıklık hücrelerini beslerken antosiyaninler viral replikasyonu doğrudan engeller.",
+        "zinc": "Çinko viral replikasyonu engeller (kuersetin iyonofor mekanizmasıyla) ve mürver berrisi virüslerin hücrelere bağlanmasını engeller — çok katmanlı antiviral savunma.",
+        "vitamin_d3": "D3 vitamini doğal bağışıklığı düzenlerken mürver berrisi adaptif bağışıklık yanıtlarını doğrudan uyarır — tamamlayıcı immün yollar.",
+        "probiotics": "Bağırsak mikrobiyom sağlığı bağışıklık işlevinin merkezindedir; probiyotikler bağışıklık sistemini hazırlarken mürver viral saldırıya karşı ön cephede yer alır."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "150–300 mg extract (standardized to 25% anthocyanins) or 10–15 ml syrup daily",
+      "notes": "Klinik kanıt grip şiddetini ve süresini 2–4 gün azaltmada en güçlüdür. Ham, olgunlaşmamış mürver meyvesi siyanojenik glikozitler içerir — yalnızca ticari olarak işlenmiş ürünleri kullanın.",
+      "tags": [
+        "bağışıklık",
+        "grip",
+        "soğuk algınlığı",
+        "antioksidan",
+        "virüs"
+      ],
+      "sources": [
+        "Zakay-Rones Z, J Int Med Res 2004",
+        "Hawkins J, Complement Ther Med 2019"
+      ]
+    },
+    {
+      "id": "fisetin",
+      "name": "Fisetin",
+      "aliases": [
+        "Fisetin Flavonoid",
+        "Longevity Bioscience Fisetin"
+      ],
+      "category": "longevity",
+      "emoji": "🍓",
+      "shortDescription": "Çileklerde bulunan, yaşlı hücreleri temizleyen, kan-beyin bariyerini geçen ve uzun ömür yollarını aktive eden güçlü senolitik flavonoid.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yağ içeren yemek, bu yağda çözünen flavonoidin biyoyararlanımını dramatik biçimde artırır."
+      },
+      "synergies": [
+        "quercetin",
+        "resveratrol",
+        "vitamin_c",
+        "black_pepper"
+      ],
+      "synergyReasons": {
+        "quercetin": "Her ikisi de senolitiktir — birlikte kullanıldığında farklı hücre popülasyonlarını ve senolitik mekanizmaları kapsar, böylece senoterapötik protokolün etkinliği artar.",
+        "resveratrol": "Resveratrol SIRT1/AMPK uzun ömür yollarını aktive ederken fisetin yaşlı hücreleri temizler ve FAK sinyalizasyonunu inhibe eder — tamamlayıcı anti-yaşlanma stratejileri.",
+        "vitamin_c": "C vitamini oksitlenmiş fizetini geri dönüştürür ve biyoyararlanımını artırır — antioksidan döngüsünü uzatarak fizetinin senoterapötik etkilerini güçlendirir.",
+        "black_pepper": "Piperine in black pepper inhibits fisetin's first-pass metabolism, increasing blood levels by 20–30%."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "100–200 mg daily continuous, or 500–1,500 mg in 2-day senolytic pulses",
+      "notes": "Senolitik protokol: ayda 2 ardışık gün 1.000–1.500 mg. En yoğun besin kaynağı: çilek (160 mcg/g). Longevity Bioscience Fisetin daha iyi emilim için fosfolipit kompleksi kullanır.",
+      "tags": [
+        "senolitik",
+        "uzun ömür",
+        "beyin",
+        "antioksidan",
+        "yaşlanma"
+      ],
+      "sources": [
+        "Yousefzadeh MJ, EBioMedicine 2018",
+        "Kirkland JL, J Gerontol 2020"
+      ]
+    },
+    {
+      "id": "ginkgo_biloba",
+      "name": "Ginkgo Biloba",
+      "aliases": [
+        "Ginkgo",
+        "EGb 761",
+        "Maidenhair Tree"
+      ],
+      "category": "brain",
+      "emoji": "🍃",
+      "shortDescription": "Beyne kan dolaşımını iyileştiren, hafızayı ve işlem hızını artıran ve yaşa bağlı bilişsel gerilemeyi azaltan kadim bir ağaç özü.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Toleransı iyileştirmek için yemekle alın; kararlı kan düzeyleri için 2 doza bölün (sabah/öğlen)."
+      },
+      "synergies": [
+        "alpha_gpc",
+        "bacopa_monnieri",
+        "omega3",
+        "vitamin_b12"
+      ],
+      "synergyReasons": {
+        "alpha_gpc": "Alpha-GPC asetilkolin sentezini artırırken Ginkgo serebral dolaşımı iyileştirir — birlikte hem nörotransmiter üretimini hem de beyin kan akışını desteklerler.",
+        "bacopa_monnieri": "Bacopa hafıza konsolidasyonunu artırırken Ginkgo işlem hızını ve dolaşımı iyileştirir — bu ikili bilişsel performansı farklı yollarla güçlendirir.",
+        "omega3": "Omega-3 nöronal zar bütünlüğünü desteklerken Ginkgo serebral dolaşımı ve nöronal sinyalizasyonu iyileştirir — bilişsel sağlık için sinerjik etki.",
+        "vitamin_b12": "B12 eksikliği sinir iletimini bozar; Ginkgo ile birleştirildiğinde hem nöral koruma hem de gelişmiş serebral dolaşım sağlanır."
+      },
+      "interactions": [
+        "vitamin_e",
+        "omega3"
+      ],
+      "interactionReasons": {
+        "vitamin_e": "Both Ginkgo and high-dose Vitamin E have mild blood-thinning effects — combining may increase bleeding risk. Space them and keep Vitamin E under 200 IU.",
+        "omega3": "High-dose omega-3 (>3g EPA+DHA) combined with Ginkgo may have additive antiplatelet effects. Moderate doses are generally safe; caution before surgery."
+      },
+      "commonDoses": "120–240 mg daily (standardized to 24% ginkgo flavonoids, 6% terpene lactones)",
+      "notes": "Bilişsel etkiler için 4–6 hafta bekleyin. Ameliyat öncesinde kullanmayın (trombosit karşıtı etki). EGb 761 veya LI 1370 gibi standardize edilmiş ekstreler kullanın.",
+      "tags": [
+        "beyin",
+        "hafıza",
+        "dolaşım",
+        "bilişsel",
+        "odaklanma"
+      ],
+      "sources": [
+        "Vellas B, JAMA 2012",
+        "Kleijnen J, BMJ 1992"
+      ]
+    },
+    {
+      "id": "ginseng",
+      "name": "Panax Ginseng (Kore Ginsengi)",
+      "aliases": [
+        "Korean Ginseng",
+        "Panax Ginseng",
+        "Red Ginseng"
+      ],
+      "category": "brain",
+      "emoji": "🌿",
+      "shortDescription": "2.000 yıllık klinik kullanımı olan kraliyet adaptojen — fiziksel ve bilişsel performansı artırır, bağışıklığı, libidoyu ve kan şekeri kontrolünü destekler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Maksimum ginsenosid emilimi için sabah aç karnına; öğleden sonra/akşam almaktan kaçının — uyarıcı etkisi uykuyu bozabilir."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "rhodiola_rosea",
+        "ginkgo_biloba",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "B vitaminleri, ginseng'in üzerinde çalıştığı adrenal ve sinir sistemi tepkisini besler; B5 özellikle kortizol sentezi ve stres adaptasyonu için kritiktir.",
+        "rhodiola_rosea": "Her ikisi de adaptogen ama tamamlayıcı mekanizmalarla: Ginseng çift yönlü enerji modülasyonu ve bağışıklık desteği sağlarken Rhodiola kortizolle doğrudan savaşır.",
+        "ginkgo_biloba": "Ginkgo serebral dolaşımı iyileştirirken Ginseng'in ginsenozitleri nörotransmiter aktivitesini ve bilişsel işlevi doğrudan güçlendirir — kapsamlı bilişsel destek.",
+        "coq10": "Her ikisi de enerji üretimini ve kardiyovasküler işlevi destekler — CoQ10 mitokondriyal enerji üretimini optimize ederken Ginseng dolaşımı ve hücresel verimliliği artırır."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "200–400 mg daily (standardized to 7% ginsenosides)",
+      "notes": "Panax ginseng ≠ Sibirya ginsengi (Eleutherococcus). Toleransı önlemek için 3 ay kullan, 1 ay ara ver. KG-C ve HRG80 iyi çalışılmış, patentli ekstrelerdir.",
+      "tags": [
+        "adaptogen",
+        "enerji",
+        "libido",
+        "bağışıklık",
+        "bilişsel"
+      ],
+      "sources": [
+        "Reay JL, Psychopharmacology 2005",
+        "Kim JH, J Ginseng Res 2012"
+      ]
+    },
+    {
+      "id": "glucosamine",
+      "name": "Glukozamin Sülfat",
+      "aliases": [
+        "Glucosamine",
+        "Glucosamine HCl"
+      ],
+      "category": "performance",
+      "emoji": "🦴",
+      "shortDescription": "Kıkırdağı yeniden inşa eden, eklem ağrısını azaltan ve osteoartrit ilerlemesini yavaşlatabilen doğal bir bileşik.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Gastrointestinal rahatsızlığı azaltmak ve toleransı iyileştirmek için bir öğünle alın."
+      },
+      "synergies": [
+        "msm",
+        "omega3",
+        "collagen_peptides",
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "msm": "MSM kıkırdak oluşumu için gerekli kükürt sağlarken glukozamin kondroitin ile birlikte kıkırdak matriksini yeniden inşa eder — eklem onarımı için klasik ikili.",
+        "omega3": "Omega-3 eklem iltihabını azaltırken glukozamin kıkırdağı yeniden inşa eder; bu ikili semptomları hem azaltır hem de altta yatan eklem sağlığını ele alır.",
+        "collagen_peptides": "Collagen provides the matrix framework for cartilage while glucosamine supplies the proteoglycan building blocks.",
+        "vitamin_c": "C vitamini, glukozaminin kıkırdak tamirine katkıda bulunduğu eklem kıkırdağındaki kolajen sentezi için gereklidir."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,500 mg daily (as glucosamine sulfate)",
+      "notes": "Klinik olarak doğrulanan form glukozamin sülfat'tır (HCl değil). Eklem faydaları için 6–8 hafta bekleyin. Kabuklu deniz ürünlerinden elde edilir — alerjisi olanlar bitki bazlı (fermente mısır) tercih etmeli.",
+      "tags": [
+        "eklem",
+        "kıkırdak",
+        "osteoartrit",
+        "kemik sağlığı",
+        "ağrı"
+      ],
+      "sources": [
+        "Reginster JY, Lancet 2001",
+        "Poolsup N, Ann Pharmacother 2005"
+      ]
+    },
+    {
+      "id": "glutamine",
+      "name": "L-Glutamin",
+      "aliases": [
+        "Glutamine",
+        "L-Glutamine Powder"
+      ],
+      "category": "gut",
+      "emoji": "🛡️",
+      "shortDescription": "Vücuttaki en bol amino asit — bağırsak bariyeri bütünlüğü, bağışıklık fonksiyonu, kas toparlanması ve bağırsak geçirgenliğini (sızdıran bağırsak) azaltma için kritik.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Bağırsak bariyeri desteği için sabah aç karnına; kas toparlanması için egzersiz sonrası. İkisini de kapsayan bölünmüş dozaj (sabah + egzersiz sonrası) önerilir."
+      },
+      "synergies": [
+        "probiotics",
+        "collagen_peptides",
+        "zinc",
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "probiotics": "Glutamin bağırsak astarındaki sıkı kavşak bütünlüğünü korurken probiyotikler sağlıklı mikrobiyom kompozisyonunu destekler — kapsamlı bağırsak bariyeri koruması.",
+        "collagen_peptides": "Both repair intestinal connective tissue — glutamine via enterocyte fuel, collagen via structural matrix proteins.",
+        "zinc": "Çinko bağırsak hücre çoğalması için gereklidir; glutamin ise enterositlere enerji sağlar — her ikisi de bağırsak bariyerinin onarımı ve bakımı için temel bileşenler.",
+        "vitamin_c": "C vitamini bağırsak astarındaki kolajen sentezini desteklerken glutamin enterositlere birincil enerji kaynağı olarak hizmet eder — tamamlayıcı bağırsak bariyeri onarım mekanizmaları."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "5–15 g daily",
+      "notes": "Hastalık, ameliyat veya yoğun antrenman sırasında koşullu olarak temel hale gelir. Sızdıran bağırsak için 4+ hafta boyunca günde 10–15 g en etkilidir.",
+      "tags": [
+        "bağırsak",
+        "bağışıklık",
+        "kas",
+        "toparlanma",
+        "amino asit"
+      ],
+      "sources": [
+        "Cruzat V, Nutrients 2018",
+        "Kim MH, Int J Mol Sci 2017"
+      ]
+    },
+    {
+      "id": "hyaluronic_acid",
+      "name": "Hyalüronik Asit",
+      "aliases": [
+        "HA",
+        "Sodium Hyaluronate",
+        "Hyaluron"
+      ],
+      "category": "performance",
+      "emoji": "💧",
+      "shortDescription": "Eklemleri yağlayan, deriyi içten nemlendiren ve sinovyal sıvıyı geri kazandırarak osteoartrit ağrısını azaltan doğal bir glikozaminoglikan.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "En iyi emilim için yemekle alın; oral HA, beslenme durumunda daha aktif olan bağırsak HA-reseptörleri aracılığıyla emilir."
+      },
+      "synergies": [
+        "collagen_peptides",
+        "vitamin_c",
+        "glucosamine",
+        "msm"
+      ],
+      "synergyReasons": {
+        "collagen_peptides": "Collagen provides structural protein while hyaluronic acid provides hydration and lubrication — comprehensive skin and joint matrix support.",
+        "vitamin_c": "C vitamini hem kolajen hem de hyalüronik asit sentezi için gereklidir; HY suyu tutan yapısal matriks sağlarken C vitamini yapısal bütünlüğü güçlendirir.",
+        "glucosamine": "Glukozamin sinovyal hücrelerde HA üretimini uyarırken oral HA eklem yağlamasını geri kazandırır — eklem kıkırdak bakımı için kapsamlı yaklaşım.",
+        "msm": "MSM iltihabı azaltırken HA eklem yağlamasını yeniler — bu ikili hem yapısal hem de inflamatuar eklem sağlığı bileşenlerini ele alır."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "80–200 mg daily",
+      "notes": "Düşük moleküler ağırlıklı HA (< 50 kDa) daha iyi oral biyoyararlanıma sahiptir. Deri nem etkileri 4–8 haftada görülür. Diş eti sağlığını da iyileştirir.",
+      "tags": [
+        "eklem",
+        "deri",
+        "nem",
+        "kolajen",
+        "yaşlanma"
+      ],
+      "sources": [
+        "Nagaoka I, J Nutr 2014",
+        "Tashiro T, Biosci Biotechnol Biochem 2012"
+      ]
+    },
+    {
+      "id": "inositol",
+      "name": "Myo-İnositol",
+      "aliases": [
+        "Inositol",
+        "Myo-Inositol",
+        "D-Chiro-Inositol"
+      ],
+      "category": "brain",
+      "emoji": "🌀",
+      "shortDescription": "İnsülin duyarlılığını artıran, ruh halini destekleyen (PKOS, OKB, anksiyete) ve üreme hormonlarını düzenleyen hücresel bir mesajcı.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Tutarlı emilim için sabah aç karnına — PKOS protokollerinde bölünmüş doz (sabah ve akşam) yaygındır."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "magnesium_glycinate",
+        "folate"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "B vitaminleri, inositolün hücresel sinyal iletimindeki rolünü destekler; B12 özellikle nöral metilasyon döngüleri için sinerjik etki yapar.",
+        "magnesium_glycinate": "Magnezyum ve inositol, GABA ve serotonin yolaklarını etkiler — birlikte kullanıldığında kaygı ve uyku kalitesi üzerinde daha kapsamlı etki sağlarlar.",
+        "folate": "Folat ve inositol, epigenetik gen düzenlemesi için kritik olan metilasyon ve hücresel sinyalizasyon için birlikte kritik öneme sahiptir."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "2,000–4,000 mg daily (often in 4:1 Myo:D-Chiro ratio for PCOS)",
+      "notes": "Myo-İnositol + D-Kiro-İnositol 40:1 oranı, PKOS ve insülin direnci için kanıta dayalı kombinasyondur. Yüksek dozlar (12 g+) hafif GI rahatsızlığa neden olabilir.",
+      "tags": [
+        "PKOS",
+        "insülin",
+        "ruh hali",
+        "hormon",
+        "anksiyete"
+      ],
+      "sources": [
+        "Unfer V, Gynecol Endocrinol 2012",
+        "Costantino D, Eur Rev Med Pharmacol 2009"
+      ]
+    },
+    {
+      "id": "l_carnitine",
+      "name": "L-Karnitin",
+      "aliases": [
+        "Carnitine",
+        "L-Carnitine Tartrate",
+        "Acetyl-L-Carnitine",
+        "ALCAR"
+      ],
+      "category": "performance",
+      "emoji": "🔥",
+      "shortDescription": "Yağ asitlerini mitokondrilere taşıyarak enerji üretimine katkıda bulunur; kardiyovasküler sağlığı ve egzersiz sonrası toparlanmayı destekler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Egzersizden 30–60 dakika önce veya aç karnına sabah alınması en iyisidir; yemek zirve plazma düzeylerini düşürür."
+      },
+      "synergies": [
+        "coq10",
+        "omega3",
+        "vitamin_b5"
+      ],
+      "synergyReasons": {
+        "coq10": "Her ikisi de tamamlayıcı mitokondriyal mekanizmalar aracılığıyla enerji üretimini destekler; CoQ10 elektron transferini optimize ederken L-Karnitin yakıt sağlar.",
+        "omega3": "Omega-3 yağ asitleri, L-Karnitin'in yağ asidi oksidasyonu üzerindeki etkisini artırır; EPA/DHA mitokondri zarlarını sıvılaştırarak besin taşınmasını iyileştirir.",
+        "vitamin_b5": "Pantotenik asit (B5), karnitin taşıyıcılarına ve enerji üretimine bağlanan CoA sentezi için gereklidir — B5 defisit L-Karnitin kullanımını azaltır."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "L-Carnitine biosynthesis requires iron as a cofactor; iron deficiency reduces endogenous carnitine. Not a dangerous interaction — ensure adequate iron intake."
+      },
+      "commonDoses": "1,000–3,000 mg daily",
+      "notes": "L-Karnitin Tartrat egzersiz performansı için en iyisidir; Asetil-L-Karnitin (ALCAR) bilişsel faydalar için tercih edilir. Bol balık içeren diyetler bir miktar karnitin sağlar.",
+      "tags": [
+        "enerji",
+        "yağ yakma",
+        "kardiyovasküler",
+        "egzersiz",
+        "toparlanma"
+      ],
+      "sources": [
+        "Pekala J, Nutrients 2011",
+        "Fielding R, J Physiol 2011"
+      ]
+    },
+    {
+      "id": "maca_root",
+      "name": "Maca Kökü",
+      "aliases": [
+        "Peruvian Maca",
+        "Lepidium meyenii",
+        "Gelatinized Maca"
+      ],
+      "category": "performance",
+      "emoji": "🌰",
+      "shortDescription": "Libidoyu artıran, hormonal dengeyi destekleyen, egzersiz dayanıklılığını iyileştiren ve östrojen veya testosteron düzeylerini değiştirmeden menopoz semptomlarını azaltan And bitkisi.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Sabah yemekle alın; enerji için sabah ve öğlen bölünmüş doz. Akşam almaktan kaçının — hafifçe enerji vericidir."
+      },
+      "synergies": [
+        "vitamin_b6",
+        "zinc",
+        "vitamin_d3",
+        "ashwagandha"
+      ],
+      "synergyReasons": {
+        "vitamin_b6": "B6 hormonal düzenlemeyi ve seks hormonu metabolizmasını destekler; Maka'nın SHBG'yi düşürme etkisini tamamlayarak serbest testosteron kullanımını iyileştirir.",
+        "zinc": "Çinko testosteron sentezi ve sperm sağlığı için gereklidir; Maka'nın libidoyu artırma etkisiyle sinerjik olarak erkek üreme sağlığını güçlendirir.",
+        "vitamin_d3": "D3 vitamini reseptörleri üreme dokularında mevcuttur; D3 Maka'nın hormonal denge üzerindeki etkisini güçlendirir.",
+        "ashwagandha": "Ashwagandha kortizolü düşürerek testosteronu dolaylı yoldan yükseltirken Maka doğrudan libido ve dayanıklılık üzerinde etki eder — tamamlayıcı hormonal destek."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,500–3,000 mg daily (Gelatinized Maca preferred for bioavailability)",
+      "notes": "Jelatin haline getirilmiş (ön pişirilmiş) maca ham macaya kıyasla daha iyi sindirilir ve daha yüksek biyoyararlanıma sahiptir. Sarı maca genel sağlık/libido için; Siyah maca sporcular ve bilişsel fonksiyon için. Libiodo etkileri 6–8 haftada görülür.",
+      "tags": [
+        "libido",
+        "hormon",
+        "enerji",
+        "menopoz",
+        "dayanıklılık"
+      ],
+      "sources": [
+        "Brooks NA, Andrologia 2008",
+        "Gonzales GF, Asian J Androl 2001"
+      ]
+    },
+    {
+      "id": "milk_thistle",
+      "name": "Deve Dikeni (Silimarin)",
+      "aliases": [
+        "Silymarin",
+        "Silybum marianum",
+        "Milk Thistle Extract"
+      ],
+      "category": "gut",
+      "emoji": "🌾",
+      "shortDescription": "Karaciğer hücrelerinin yenilenmesini teşvik eden, iltihabı azaltan ve detoksifikasyon yollarını destekleyen karaciğer koruyucu bir bitki.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Silimarin emilimini artırmak (yağda çözünür) ve GI tahrişi en aza indirmek için yemekle alın."
+      },
+      "synergies": [
+        "nac",
+        "vitamin_e",
+        "curcumin",
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "nac": "NAC hücre içi glutatyon düzeylerini yükseltirken silimarin karaciğer hücrelerini lipid peroksidasyonuna karşı korur — her ikisi de karaciğer detoksifikasyonunu güçlendirir.",
+        "vitamin_e": "Her ikisi de hücre zarlarını oksidatif hasara karşı koruyan antioksidanlardır; kombine kullanım, tek başına kullanıma kıyasla karaciğer koruma kapsamını genişletir.",
+        "curcumin": "Curcumin reduces liver inflammation while milk thistle promotes hepatocyte regeneration — addressing different aspects of liver protection.",
+        "vitamin_c": "C vitamini, silymarinin kullandığı antioksidanları yeniler; bu şekilde kümülatif karaciğer koruma etkinliğini artırır ve antioksidan döngüsünü uzatır."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "140–420 mg silymarin daily (standardized to 70–80% silymarin)",
+      "notes": "Düzenli alkol kullanımı, ilaç kaynaklı karaciğer stresi veya NAFLD'de en fazla faydalıdır. Fitosom formu 4–10 kat daha iyi biyoyararlanıma sahiptir.",
+      "tags": [
+        "karaciğer",
+        "detoks",
+        "antioksidan",
+        "alkol",
+        "sindirim"
+      ],
+      "sources": [
+        "Mulrow C, Am J Gastroenterol 2000",
+        "Vargas-Mendoza N, World J Hepatol 2014"
+      ]
+    },
+    {
+      "id": "msm",
+      "name": "MSM (Metilsülfonilmetan)",
+      "aliases": [
+        "MSM",
+        "Dimethyl Sulfone",
+        "OptiMSM"
+      ],
+      "category": "performance",
+      "emoji": "🔩",
+      "shortDescription": "Eklem iltihabını azaltan, kas ağrısını gideren, kolajen sentezini destekleyen ve antioksidan kapasiteyi artıran organik kükürt bileşiği.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "GI rahatsızlığını azaltmak için yemekle alın; sabah ve akşam bölünmüş doz toleransı iyileştirir."
+      },
+      "synergies": [
+        "glucosamine",
+        "collagen_peptides",
+        "vitamin_c",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "glucosamine": "MSM proteoglikan sentezi için kükürt sağlarken glukozamin kıkırdak matriksinin yapı taşlarını oluşturur — eklem onarımı ve ağrı azaltımı için klasik tamamlayıcı ikili.",
+        "collagen_peptides": "Both contribute sulfur-containing amino acids (cysteine in collagen; MSM as sulfur source) needed for collagen cross-linking and cartilage integrity.",
+        "vitamin_c": "C vitamini, MSM'nin katkıda bulunduğu kolajen hidroksilasyonu için gereklidir — MSM kükürt sağlarken C vitamini kolajen çapraz bağlantısını etkinleştirir.",
+        "omega3": "Omega-3 eklem iltihabını azaltırken MSM pro-inflamatuar sitokinleri inhibe eder — birlikte hem ağrıyı hem de ilerleyici eklem hasarını ele alan çift etki mekanizması."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,000–3,000 mg daily",
+      "notes": "Eklem faydalarını değerlendirmeden önce 4–6 hafta bekleyin. OptiMSM en araştırılmış ve saflaştırılmış ticari formdur. Kolajen ve keratin'deki kükürt rolü aracılığıyla cilt ve saç faydaları da sağlar.",
+      "tags": [
+        "eklem",
+        "kolajen",
+        "kas",
+        "deri",
+        "kükürt"
+      ],
+      "sources": [
+        "Kim LS, Osteoarthritis Cartilage 2006",
+        "Barmaki S, Acta Physiol Hung 2012"
+      ]
+    },
+    {
+      "id": "phosphatidylserine",
+      "name": "Fosfatidilserin (PS)",
+      "aliases": [
+        "PS",
+        "Sharp-PS",
+        "Phospholipid PS"
+      ],
+      "category": "brain",
+      "emoji": "🔬",
+      "shortDescription": "Nöronal membranlardaki temel fosfolipit — hafızayı iyileştirir, kortizolü azaltır ve ADHD ile yaşa bağlı bilişsel gerilemeyi destekler.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Yağ içeren yemekle en iyi emilir; stabil kan düzeyleri için 2–3 doza bölünmüş olarak yemeklerle alın."
+      },
+      "synergies": [
+        "omega3",
+        "alpha_gpc",
+        "bacopa_monnieri",
+        "ashwagandha"
+      ],
+      "synergyReasons": {
+        "omega3": "Omega-3'teki DHA ve EPA, PS ile birlikte nöronal hücre zarlarına dahil edilir — her ikisi de nöroplastisite ve sinaptik sinyalizasyon için zarın optimal akışkanlığını korur.",
+        "alpha_gpc": "Alpha-GPC, zar fosfolipid sentezi için kolin öncüsünü sağlarken PS, nöronların zar bileşimini optimize eder — bu birleşim asetilkolin temelli bilişsel işlevi güçlendirir.",
+        "bacopa_monnieri": "Bacopa'nın bakosidleri zar akışkanlığını ve sinaptik verimliliği artırırken PS, nöronal zarın yapısal bütünlüğünü korur.",
+        "ashwagandha": "Her ikisi de kortizolü düşürür — ashwagandha HPA ekseni modülasyonu yoluyla, PS doğrudan hipokampüs-kortizol geri bildirim döngüsünü inhibe ederek."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "100–400 mg daily",
+      "notes": "Sharp-PS (ayçiçeği lesitin bazlı) soya bazlı PS'e tercih edilir. FDA onaylı sağlık iddiası: günde 100 mg veya üzerinde demans riskini azaltır. ADHD'li çocuklarda iyi çalışılmıştır.",
+      "tags": [
+        "beyin",
+        "hafıza",
+        "kortizol",
+        "ADHD",
+        "bilişsel"
+      ],
+      "sources": [
+        "Kidd PM, Altern Med Rev 1996",
+        "Benton D, Psychopharmacology 2001"
+      ]
+    },
+    {
+      "id": "psyllium_husk",
+      "name": "Psyllium Kabuğu",
+      "aliases": [
+        "Psyllium",
+        "Ispaghula",
+        "Plantago ovata"
+      ],
+      "category": "gut",
+      "emoji": "🌾",
+      "shortDescription": "LDL kolesterolü düşüren, kan şekerini stabilize eden, düzenliliği artıran ve faydalı bağırsak bakterilerini besleyen Plantago ovata'dan çözünür lif.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Bol su (en az 250 ml) ile alın; öğün öncesi öğün sonrası glukoz ve iştahı azaltmak için en iyisidir."
+      },
+      "synergies": [
+        "probiotics",
+        "berberine",
+        "prebiotics"
+      ],
+      "synergyReasons": {
+        "probiotics": "Psyllium'un çözünür lifi, psyllium'un prebiyotik substrası üzerinde çoğalan aynı faydalı bakterileri besler — prebiyotik+probiyotik sinerjisi bağırsak mikrobiyomunu güçlendirir.",
+        "berberine": "Her ikisi de tamamlayıcı mekanizmalar aracılığıyla kan glikozunu düşürür; psyllium glikoz emilimini yavaşlatırken berberine insülin duyarlılığını artırır.",
+        "prebiotics": "Psyllium lifi bir prebiyotiktir — bağırsak mikrobiyotasını besleyen ve iltihabı azaltan kısa zincirli yağ asitlerine fermente olur."
+      },
+      "interactions": [
+        "iron",
+        "zinc",
+        "calcium",
+        "vitamin_b12"
+      ],
+      "interactionReasons": {
+        "iron": "Psyllium fiber can reduce iron absorption by 10–20% — take iron 2 hours before or after psyllium.",
+        "zinc": "High fiber intake may modestly reduce zinc absorption — space by at least 2 hours.",
+        "calcium": "Fiber can mildly reduce calcium absorption — space by 1–2 hours.",
+        "vitamin_b12": "Very high fiber may slow B12 absorption — take separately."
+      },
+      "commonDoses": "5–15 g daily (1–3 teaspoons of whole husks)",
+      "notes": "Gaz ve şişkinliği önlemek için 5 g ile başlayın ve yavaş yavaş artırın. FDA onaylı sağlık iddiası: günde 7 g LDL kolesterolü azaltır.",
+      "tags": [
+        "lif",
+        "kolesterol",
+        "kan şekeri",
+        "sindirim",
+        "bağırsak"
+      ],
+      "sources": [
+        "Anderson JW, Am J Clin Nutr 2000",
+        "Gibb RD, Nutr J 2015"
+      ]
+    },
+    {
+      "id": "quercetin",
+      "name": "Kuersetin",
+      "aliases": [
+        "Quercetin Phytosome",
+        "Quercetin Dihydrate"
+      ],
+      "category": "longevity",
+      "emoji": "🍎",
+      "shortDescription": "Antioksidan, antiinflamatuar ve senolitik özelliklere sahip güçlü bir bitki flavonoidi — sağlıklı yaşlanmayı desteklemek için hasarlı hücreleri temizler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yağda çözünen flavonoid — yiyecek (özellikle biraz yağ ile) biyoyararlanımı önemli ölçüde artırır."
+      },
+      "synergies": [
+        "vitamin_c",
+        "resveratrol",
+        "zinc",
+        "fisetin"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "C vitamini, oksitlenmiş kuersetini aktif formuna geri dönüştürür — bu birleşim antioksidan döngüsünü uzatır ve her ikisinin de anti-inflamatuar etkinliğini artırır.",
+        "resveratrol": "Her ikisi de tamamlayıcı uzun ömür mekanizmalarına sahip polifenoller: resveratrol SIRT1'i aktive ederken kuersetin AMPK'yi aktive eder ve hücresel temizlemeyi teşvik eder.",
+        "zinc": "Kuersetin bir çinko iyonofor olarak görev yapar; çinkonun hücrelere girişine yardımcı olarak antiviral ve bağışıklık güçlendirici etkisini önemli ölçüde artırır.",
+        "fisetin": "Her ikisi de yaşlı hücreleri temizleyen senolitiklerdir — birlikte kullanıldığında farklı hücre popülasyonlarını ve mekanizmaları kapsayarak senoterapötik protokolün kapsamını genişletirler."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "500–1,000 mg daily",
+      "notes": "Kuersetin Fitozomu (ayçiçeği fosfolipidleriyle) standart kuersetinden 20 kat daha iyi biyoyararlanıma sahiptir. Senolitik protokollerde haftada 2 kez 1.000 mg olarak uygulanır.",
+      "tags": [
+        "antioksidan",
+        "uzun ömür",
+        "inflamasyon",
+        "senolitik",
+        "yaşlanma"
+      ],
+      "sources": [
+        "Boots AW, Eur J Pharmacol 2008",
+        "Legeay S, Nutrients 2015"
+      ]
+    },
+    {
+      "id": "reishi",
+      "name": "Reishi Mantarı (Ganoderma)",
+      "aliases": [
+        "Ganoderma lucidum",
+        "Lingzhi",
+        "Reishi"
+      ],
+      "category": "gut",
+      "emoji": "🍄",
+      "shortDescription": "\"Ölümsüzlük mantarı\" — bağışıklığı düzenleyen, yorgunluğu azaltan, sinir sistemini sakinleştiren ve karaciğer sağlığını destekleyen adaptojenik bir mantar.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Reishi'nin sakinleştirici ve uyku destekleyici özellikleri için akşam en idealdir; triterpen emilimini iyileştirmek için yemekle alın."
+      },
+      "synergies": [
+        "lions_mane",
+        "cordyceps",
+        "ashwagandha",
+        "vitamin_d3"
+      ],
+      "synergyReasons": {
+        "lions_mane": "Aslan Yelesi nörogenezi teşvik ederken Reishi bağışıklığı düzenler ve kaygıyı azaltır — tamamlayıcı işlevsel mantar kombinasyonu.",
+        "cordyceps": "Kordiseps ATP üretimi yoluyla gündüz enerjisi sağlarken Reishi akşam toparlanması ve bağışıklık modülasyonunu destekler — klasik gündüz/gece mantar protokolü.",
+        "ashwagandha": "Her ikisi de adaptojenik ve sakinleştirici özelliklere sahip; Reishi NK-hücre bağışıklığını düzenlerken Ashwagandha kortizolü düşürür — tamamlayıcı stres-bağışıklık eksenleri.",
+        "vitamin_d3": "D3 vitamini ve Reishi'nin beta-glukanları tamamlayıcı bağışıklık reseptör yolları üzerinde etki ederek doğal ve adaptif bağışıklığı birlikte güçlendirir."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,500–3,000 mg whole powder or 1.5–9 mg triterpenes daily",
+      "notes": "\"Çift ekstrakte\" reishi arayın (beta-glukanlar için sıcak su + triterpenler için alkol). Ganoderma lucidum türü klinik olarak çalışılan türdür.",
+      "tags": [
+        "bağışıklık",
+        "uyku",
+        "stres",
+        "karaciğer",
+        "adaptogen"
+      ],
+      "sources": [
+        "Bao XF, Phytomedicine 2002",
+        "Tang W, J Ethnopharmacol 2011"
+      ]
+    },
+    {
+      "id": "rhodiola_rosea",
+      "name": "Rhodiola Rosea",
+      "aliases": [
+        "Golden Root",
+        "Arctic Root",
+        "Rhodiola"
+      ],
+      "category": "brain",
+      "emoji": "🌸",
+      "shortDescription": "Kortizolü azaltan, yorgunlukla savaşan ve stres altında zihinsel ve fiziksel performansı artıran adaptojenik bir bitki.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Uyarıcı etkisi var — uykuyu bozmamak için sabah veya öğleden önce aç karnına alınması önerilir."
+      },
+      "synergies": [
+        "ashwagandha",
+        "vitamin_b_complex",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "ashwagandha": "Tamamlayıcı adaptogenler: Rhodiola enerji verici ve akut-adaptif iken Ashwagandha sakinleştirici ve kronik stres odaklıdır — birlikte 24 saatlik stres yönetimi sağlarlar.",
+        "vitamin_b_complex": "B vitaminleri, Rhodiola'nın performans etkilerini güçlendiren adrenal bezleri ve sinir sistemini destekler; B5 özellikle stres hormonu sentezi için kritiktir.",
+        "magnesium_glycinate": "Magnezyum sinir sistemini sakinleştirirken Rhodiola dayanıklılığı ve enerjiyi artırır — kortizolü hem yukarı hem aşağı düzenleyerek dengeyi desteklerler."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "200–600 mg daily (standardized to 3% rosavins, 1% salidroside)",
+      "notes": "En iyi sonuçlar için 5 gün kullan, 2 gün dinlen şeklinde döngü yapın. Düşük dozla (200 mg) başlayın ve artırın. Günün ilerleyen saatlerinde alınırsa huzursuzluğa neden olabilir.",
+      "tags": [
+        "adaptogen",
+        "stres",
+        "enerji",
+        "odaklanma",
+        "kortizol"
+      ],
+      "sources": [
+        "Panossian A, Phytomedicine 2010",
+        "Olsson EM, Planta Med 2009"
+      ]
+    },
+    {
+      "id": "spermidine",
+      "name": "Spermidin",
+      "aliases": [
+        "Spermidine Trihydrochloride",
+        "Wheat Germ Spermidine"
+      ],
+      "category": "longevity",
+      "emoji": "🌱",
+      "shortDescription": "Otofajiyi (hücresel öz temizleme) tetikleyen ve kardiyovasküler mortalite ile bilişsel korumayı yaşlanmayla ilişkilendiren doğal poliamin.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Otoforaji indüksiyonunu en üst düzeye çıkarmak için sabah aç karnına — yemek (özellikle protein) oruç taklit edici etkiyi azaltır."
+      },
+      "synergies": [
+        "resveratrol",
+        "quercetin",
+        "nmn_nr",
+        "fisetin"
+      ],
+      "synergyReasons": {
+        "resveratrol": "Resveratrol SIRT1'i aktive ederken spermidin autophagy (otofaji) yoluyla hücresel temizlemeyi aktive eder — tamamlayıcı uzun ömür mekanizmaları, bu ikili en güçlü anti-yaşlanma kombinasyonlarındandır.",
+        "quercetin": "Kuersetin yaşlı hücreleri temizleyen bir senolitikken spermidin sağlıklı hücre yenilenmesini otofaji yoluyla teşvik eder — yaşlanan hücre yönetimi için iki farklı yaklaşım.",
+        "nmn_nr": "NMN/NR, enerji metabolizması için NAD+ düzeylerini restore ederken spermidin otofaji ile hücresel temizliği aktive eder — hücresel gençleşmenin iki temel mekanizması.",
+        "fisetin": "Fisetin yaşlı hücreleri temizlerken spermidin otofaji yoluyla hücresel yenilemeyi teşvik eder — senolitik temizleme ile otofajik yenileme kombinasyonu optimal hücresel sağlık için."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1–5 mg daily (often as wheat germ extract)",
+      "notes": "Besin kaynakları: buğday özü (en yüksek), olgunlaşmış peynir, soya fasülyesi, mantar. Çoğu ticari takviye buğday özü ekstraktı kullanır.",
+      "tags": [
+        "otofaji",
+        "uzun ömür",
+        "hücresel",
+        "kardiyovasküler",
+        "beyin"
+      ],
+      "sources": [
+        "Madeo F, Science 2018",
+        "Eisenberg T, Nat Med 2016"
+      ]
+    },
+    {
+      "id": "taurine",
+      "name": "Taurin",
+      "aliases": [
+        "L-Taurine",
+        "2-Aminoethanesulfonic Acid"
+      ],
+      "category": "performance",
+      "emoji": "⚡️",
+      "shortDescription": "Kalp fonksiyonunu, nörolojik sağlığı, egzersiz performansını ve mitokondriyal verimliliği destekleyen koşullu temel amino asit.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Sabah veya egzersizden 1 saat önce aç karnına — yemekle alınması emilimi yavaşlatır ama GI toleransını iyileştirir."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "coq10",
+        "l_carnitine",
+        "electrolytes"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Taurin ve magnezyum, kardiyovasküler ve nörolojik koruma üzerinde sinerjik etkiye sahiptir; her ikisi de kas gevşemesini, kalp ritmini ve elektrolit dengesini destekler.",
+        "coq10": "Her ikisi de farklı mekanizmalar aracılığıyla mitokondriyal verimliliği ve kalp işlevini destekler; CoQ10 elektron transferini optimize ederken taurin zarları korur.",
+        "l_carnitine": "Karnitin yağ asidi taşınmasını üstlenirken taurin mitokondri zarlarını oksidatif strese karşı korur — birlikte yağ yakımı verimliliğini en üst düzeye çıkarırlar.",
+        "electrolytes": "Taurin hücresel elektrolit dengesinin temel bir düzenleyicisidir (sodyum/potasyum kanallarını etkiler); elektrolit takviyeleriyle birlikte nöromüsküler işlev optimize edilir."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "500–3,000 mg daily",
+      "notes": "Hayvan modellerinde uzun ömrü iyileştirdiği gösterilen nadir takviyelerden biri. Günde 3 g'a kadar çok güvenlidir. Veganların taurin seviyeleri daha düşük olur.",
+      "tags": [
+        "kalp",
+        "enerji",
+        "egzersiz",
+        "uzun ömür",
+        "mitokondri"
+      ],
+      "sources": [
+        "Schaffer SW, Amino Acids 2010",
+        "Singh P, Nutrition 2014"
+      ]
+    },
+    {
+      "id": "vitamin_b2",
+      "name": "B2 Vitamini (Riboflavin)",
+      "aliases": [
+        "Riboflavin",
+        "Riboflavin-5-Phosphate",
+        "Vitamin B2"
+      ],
+      "category": "vitamins",
+      "emoji": "🟡",
+      "shortDescription": "Hücresel enerji üretimi, diğer B vitaminlerinin aktivasyonu, oksidatif strese karşı koruma ve migren önleme için temel B vitamini.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Yemekle alın — riboflavin GI kanalında aktif olarak taşınır ve yemek bu taşıyıcıları uyarır."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "coq10",
+        "iron",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "Tüm B vitaminleri uyumlu çalışır — riboflavin (B2) özellikle B6, folik asit ve B12'nin aktif formlarına dönüşümü için kritik bir ortak faktördür.",
+        "coq10": "Riboflavin, CoQ10'un elektron taşıma zincirindeki FADH2 mekanizmasının doğrudan bir yapısal bileşenidir; B2 eksikliği CoQ10 etkinliğini azaltır.",
+        "iron": "Riboflavin ferritin üretimi ve demir mobilizasyonu için gereklidir; B2 eksikliği demir emilimini bozabilir ve riboflavin ile demir birlikte daha etkin çalışır.",
+        "magnesium_glycinate": "Magnezyum, riboflavine bağımlı enzimleri aktive eder; bu sinerjizm glukoz metabolizması ve enerji üretimini optimize eder."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1.1–400 mg daily (1.1 mg for RDA; 400 mg for migraine prevention)",
+      "notes": "İdrar parlak sarıya döner — bu zararsızdır ve vücudun riboflavin işlediğini gösterir. 3+ ay boyunca günde 400 mg migren sıklığını azaltmak için güçlü kanıta sahiptir.",
+      "tags": [
+        "enerji",
+        "migren",
+        "hücresel",
+        "B vitamini",
+        "antioksidan"
+      ],
+      "sources": [
+        "Schoenen J, Neurology 1998",
+        "Powers HJ, Am J Clin Nutr 2003"
+      ]
+    },
+    {
+      "id": "vitamin_b3",
+      "name": "B3 Vitamini (Niasin/Nikotinamid)",
+      "aliases": [
+        "Niacin",
+        "Nicotinamide",
+        "Niacinamide",
+        "Nicotinic Acid"
+      ],
+      "category": "vitamins",
+      "emoji": "🔆",
+      "shortDescription": "HDL kolesterolü yükselten, NAD+ üretimini destekleyen, deri bariyerini iyileştiren ve DNA onarımına yardımcı olan temel B vitamini. Niasin veya nikotinamid olarak mevcuttur.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Her zaman yemekle alın (flush form için niasin kızarmasını azaltmak amacıyla). Yemekle alınması emilimi yavaşlatır ve vazodilatasyonu azaltır."
+      },
+      "synergies": [
+        "nmn_nr",
+        "vitamin_b_complex",
+        "coq10",
+        "vitamin_b2"
+      ],
+      "synergyReasons": {
+        "nmn_nr": "NMN/NR doğrudan NAD+ sentezine katkıda bulunur; niasin/nikotinamid aynı havuza farklı bir yoldan katkı sağlar — enerji ve onarım için NAD+ düzeylerini maksimize ederler.",
+        "vitamin_b_complex": "Tüm B vitaminleri kofaktör olarak işlev görür; niasin diğer B vitaminleriyle birlikte enerji metabolizmasının temel enzim sistemlerini aktive eder.",
+        "coq10": "Her ikisi de mitokondriyal elektron taşıma zinciri işlevini destekler; niasin NADH/FADH2 üretimini sağlarken CoQ10 bu elektronları enerji için kullanır.",
+        "vitamin_b2": "Riboflavin (B2) ve niasin (B3), birbirini tamamlayan adımlarla çalışan elektron taşıyıcılarıdır; ikisi birlikte hücresel enerji üretimini optimize eder."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "15–500 mg daily; up to 2,000 mg for cholesterol (medical supervision)",
+      "notes": "Flush-niasin terapötik formdur (zararsız deri kızarması). Nikotinamid/niasinamid = flush yok. Nikotin amid Ribozit (NR) ve NMN gelişmiş NAD+ öncüleridir.",
+      "tags": [
+        "NAD+",
+        "kolesterol",
+        "enerji",
+        "deri",
+        "B vitamini"
+      ],
+      "sources": [
+        "Altschul R, Arch Biochem Biophys 1955",
+        "Cantó C, Cell Metab 2012"
+      ]
+    },
+    {
+      "id": "vitamin_b5",
+      "name": "B5 Vitamini (Pantotenik Asit)",
+      "aliases": [
+        "Pantothenic Acid",
+        "Pantethine",
+        "Calcium Pantothenate"
+      ],
+      "category": "vitamins",
+      "emoji": "🧪",
+      "shortDescription": "Koenzim A sentezi için gereken temel B vitamini — enerji metabolizması, adrenal hormon üretimi ve yara iyileşmesi için merkezi öneme sahip.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Sabah yemekle alın; iyi tolere edilir ve öğün türlerinde stabil emilim sağlar."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "l_carnitine",
+        "coq10",
+        "vitamin_b2"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "Pantotenik asit, CoA sentezi ve enerji üretimi için tüm B vitaminleriyle sinerjistik biçimde çalışır; B kompleks kombinasyonu adrenal ve nöral işlevi güçlendirir.",
+        "l_carnitine": "Pantotenik asit, karnitin taşıyıcılarının karnitin oluşturduğu Koenzim A sentezi için gereklidir — B5 eksikliği L-Karnitin'in yağ asidi taşıma kapasitesini doğrudan azaltır.",
+        "coq10": "Hem B5 hem de CoQ10, aynı mitokondriyal yağ asidi oksidasyonu (beta-oksidasyon) yolunda gereklidir; bu kombinasyon lipid bazlı enerji metabolizmasını optimize eder.",
+        "vitamin_b2": "B2 ve B5, CoA bağımlı enerji metabolizmasının bitişik adımlarında çalışır; bu sinerji özellikle adrenal stres yanıtı ve kortizol sentezi sırasında önem kazanır."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "5–10 mg (RDA 5 mg; therapeutic doses up to 500 mg for adrenal support)",
+      "notes": "Pantethine (daha aktif form) kolesterol düşürücü etkileri için tercih edilen takviye formudur. Eksiklik nadirdir ama yorgunluk ve adrenal disfonksiyonla ilişkilendirilmiştir.",
+      "tags": [
+        "enerji",
+        "adrenal",
+        "koenzim A",
+        "metabolizma",
+        "B vitamini"
+      ],
+      "sources": [
+        "Kelly GS, Altern Med Rev 2011",
+        "NIH ODS"
+      ]
+    },
+    {
+      "id": "tmg",
+      "name": "TMG (Trimetilglisin)",
+      "aliases": ["Betaine Anhydrous", "Betaine", "Trimethylglycine"],
+      "category": "longevity",
+      "emoji": "🔬",
+      "shortDescription": "Homosistein düzeyini düşüren, hücresel metilasyonu, karaciğer detoksifikasyonunu ve kreatin sentezini destekleyen bir metil donörü.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Suda çözünür; yemekle birlikte alındığında emilimi artar ve mide bulantısı gibi sindirim yan etkileri en aza indirilir."
+      },
+      "synergies": ["vitamin_b12", "folate", "vitamin_b6", "creatine", "zinc"],
+      "synergyReasons": {
+        "vitamin_b12": "Her ikisi de metilasyon döngüsünü destekler. TMG, homosisteinin folata bağımsız yeniden metilasyonunu BHMT enzimi üzerinden sağlarken B12 ana MTHFR yolunu destekler — birlikte homosistein düşürme maksimuma ulaşır.",
+        "folate": "Folat ve TMG, paralel yeniden metilasyon yollarında çalışır. MTHFR aktivitesi bozulduğunda TMG telafi eder — tersi de geçerlidir. Birlikte tam metilasyon desteği sunarlar.",
+        "vitamin_b6": "B6, homosisteinin aşağı akışındaki transsülfürasyon yolağının bir kofaktörüdür. B6 ile TMG'nin kombinasyonu, homosisteini düşüren tam kaskadı destekler.",
+        "creatine": "TMG, karaciğerde kreatin sentezi için gerekli metil gruplarını sağlar. Birlikte kullanıldığında SAMe'yi kreatin üretiminden kurtararak diğer kritik metilasyon görevlerine yönlendirir.",
+        "zinc": "TMG'nin homosisteini geri dönüştürmek için aktive ettiği BHMT enzimi çinko bağımlıdır. TMG'nin tam etkisini gösterebilmesi için yeterli çinko gereklidir."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "500–3,000 mg daily",
+      "notes": "Birden fazla metil donörüyle (kolin, SAMe) eş zamanlı kullanmaktan kaçının — aşırı metilasyon baş ağrısı veya sinirlilik yaratabilir. 2 g/gün üzerindeki dozlarda bazı kişilerde LDL artışı görülebilir; uzun süreli kullanımda lipit takibi yapın. Hamilelikte ve böbrek/karaciğer hastalığı olanlarda tıbbi gözetim olmadan kullanılması önerilmez.",
+      "tags": ["metilasyon", "kardiyovasküler", "uzun ömür", "karaciğer sağlığı", "performans"],
+      "sources": ["Olthof MR, Nutr Rev 2013", "Arumugam MK, Nutrients 2021", "Cholewa JM, J Int Soc Sports Nutr 2013"]
+    }
+  ]
+}

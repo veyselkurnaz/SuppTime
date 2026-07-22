@@ -32,6 +32,7 @@ function shortCode(c: string) {
             {isBlog ? (
                 <>
                     <a href={`/${lang}/`}>{t.nav.home}</a>
+                    <a href={`/${lang}/interaction-checker/`}>{t.nav.checker}</a>
                     <a href={`/${lang}/blog/`} class="nav-blog-btn">{t.nav.blog}</a>
                 </>
             ) : (
@@ -39,6 +40,7 @@ function shortCode(c: string) {
                     <a href="#features">{t.nav.features}</a>
                     <a href="#watch">{t.nav.watch}</a>
                     <a href="#reviews">{t.nav.reviews}</a>
+                    <a href={`/${lang}/interaction-checker/`}>{t.nav.checker}</a>
                     <a href={`/${lang}/blog/`} class="nav-blog-btn">{t.nav.blog}</a>
                 </>
             )}

@@ -1,0 +1,3452 @@
+{
+  "supplements": [
+    {
+      "id": "vitamin_d3",
+      "name": "Vitamin D3",
+      "aliases": [
+        "Cholecalciferol",
+        "Vitamin D"
+      ],
+      "category": "vitamins",
+      "emoji": "☀️",
+      "shortDescription": "Mendukung kesehatan tulang, fungsi kekebalan tubuh, dan suasana hati.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Vitamin yang larut dalam lemak — penyerapannya jauh lebih tinggi jika dikonsumsi dengan makanan yang mengandung lemak."
+      },
+      "synergies": [
+        "vitamin_k2",
+        "magnesium_glycinate",
+        "omega3",
+        "probiotics"
+      ],
+      "synergyReasons": {
+        "vitamin_k2": "K2 mengarahkan kalsium ke tulang, bukan ke arteri — pendamping penting untuk D3.",
+        "magnesium_glycinate": "Magnesium diperlukan untuk mengaktifkan Vitamin D dalam tubuh.",
+        "omega3": "Keduanya larut dalam lemak dan berbagi jalur penyerapan — konsumsi bersama dapat meningkatkan bioavailabilitas.",
+        "probiotics": "Menggabungkan probiotik dengan Vitamin D memiliki efek sinergis pada kesehatan metabolik dan pemulihan."
+      },
+      "interactions": [
+        "vitamin_a",
+        "st_johns_wort"
+      ],
+      "interactionReasons": {
+        "vitamin_a": "Vitamin A prabentuk dosis tinggi (retinol, >5.000 IU/hari) mengantagonis sinyal reseptor Vitamin D dan telah dikaitkan dengan berkurangnya kepadatan mineral tulang meskipun suplementasi D3 memadai. Rasio A:D optimal diperkirakan sekitar 5:1 (IU). Jaga dosis retinol tetap moderat saat mengonsumsi D3. (Johansson S, J Bone Miner Res 2004; Cannell JJ, Ann Otol Rhinol Laryngol 2008)",
+        "st_johns_wort": "St. John's Wort sangat menginduksi CYP3A4, mempercepat metabolisme Vitamin D dan mengurangi kadar serum."
+      },
+      "commonDoses": "1,000–5,000 IU daily",
+      "notes": "Most people are deficient. Testing blood levels (25-OHD) before supplementing is recommended. Target range: 40–60 ng/mL.",
+      "tags": [
+        "imunitas",
+        "kesehatan tulang",
+        "suasana hati",
+        "untuk pemula"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Holick MF, NEJM 2007"
+      ]
+    },
+    {
+      "id": "vitamin_k2",
+      "name": "Vitamin K2 (MK-7)",
+      "aliases": [
+        "Menaquinone-7",
+        "MK-7",
+        "Vitamin K"
+      ],
+      "category": "vitamins",
+      "emoji": "🦴",
+      "shortDescription": "Mengarahkan kalsium ke tulang, menjauhkannya dari arteri. Pasangan penting D3.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Larut dalam lemak — diserap paling baik saat makan."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "calcium"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "D3 meningkatkan penyerapan kalsium; K2 memastikan kalsium menuju tulang, bukan arteri.",
+        "calcium": "K2 mengaktifkan osteokalsin, yang mengikat kalsium ke matriks tulang."
+      },
+      "interactions": [
+        "vitamin_e"
+      ],
+      "interactionReasons": {
+        "vitamin_e": "Dosis tinggi Vitamin E (>300 IU/hari) secara kompetitif menghambat enzim γ-karboksilase yang bergantung pada vitamin K, mengganggu kemampuan K2 untuk mengaktifkan osteokalsin dan protein matrix Gla. Jaga dosis Vitamin E tetap moderat (<200 IU) saat mengonsumsi K2 untuk manfaat tulang atau kardiovaskular. (Booth SL, Am J Clin Nutr 2004)"
+      },
+      "commonDoses": "90–200 mcg daily",
+      "notes": "MK-7 form has a longer half-life (72 hours) and better bioavailability than MK-4. Those on warfarin should consult a doctor.",
+      "tags": [
+        "kesehatan tulang",
+        "kardiovaskular",
+        "untuk pemula"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Geleijnse JM, Thromb Haemost 2004"
+      ]
+    },
+    {
+      "id": "vitamin_c",
+      "name": "Vitamin C",
+      "aliases": [
+        "Ascorbic Acid",
+        "L-Ascorbic Acid"
+      ],
+      "category": "vitamins",
+      "emoji": "🍊",
+      "shortDescription": "Antioksidan kuat untuk mendukung kekebalan tubuh, sintesis kolagen, dan penyerapan zat besi.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Larut dalam air, penyerapan baik kapan saja."
+      },
+      "synergies": [
+        "iron",
+        "collagen_peptides"
+      ],
+      "synergyReasons": {
+        "iron": "Vitamin C mereduksi besi feri menjadi besi fero, secara signifikan meningkatkan penyerapan besi non-heme.",
+        "collagen_peptides": "Vitamin C adalah kofaktor penting untuk prolil hidroksilase — diperlukan untuk sintesis kolagen."
+      },
+      "interactions": [
+        "vitamin_b12",
+        "selenium"
+      ],
+      "interactionReasons": {
+        "vitamin_b12": "Vitamin C dosis tinggi (≥500 mg) dapat merusak B12 di saluran cerna. Beri jarak minimal 2 jam.",
+        "selenium": "Vitamin C dosis tinggi dapat mengurangi ketersediaan hayati selenium anorganik (bentuk selenat) dengan mengubahnya menjadi unsur selenium yang sulit diserap. Lebih suka bentuk organik (selenomethionine) atau ambil secara terpisah. (Oster O, J Nutr Biokimia 1993)"
+      },
+      "commonDoses": "500–2,000 mg daily",
+      "notes": "Water-soluble — excess is excreted in urine. UL is 2,000 mg/day. Buffered or liposomal forms are gentler on the stomach at higher doses.",
+      "tags": [
+        "imunitas",
+        "antioksidan",
+        "kolagen"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Carr AC, Nutrients 2017"
+      ]
+    },
+    {
+      "id": "vitamin_b12",
+      "name": "Vitamin B12",
+      "aliases": [
+        "Methylcobalamin",
+        "Cyanocobalamin",
+        "Cobalamin"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Penting untuk metabolisme energi, fungsi saraf, dan pembentukan sel darah merah.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Terbaik di pagi hari karena mendukung kewaspadaan dan energi."
+      },
+      "synergies": [
+        "folate",
+        "vitamin_b_complex"
+      ],
+      "synergyReasons": {
+        "folate": "B12 dan folat saling bergantung untuk metilasi, regulasi homosistein, dan sintesis DNA.",
+        "vitamin_b_complex": "B12 bekerja secara sinergis dengan vitamin B lainnya untuk metabolisme energi dan metilasi."
+      },
+      "interactions": [
+        "vitamin_c",
+        "berberine"
+      ],
+      "interactionReasons": {
+        "vitamin_c": "Vitamin C dosis tinggi (≥500 mg) dapat merusak B12 di saluran cerna. Beri jarak minimal 2 jam.",
+        "berberine": "Berberine mengaktifkan AMPK dan menghambat sekresi faktor intrinsik — mekanisme yang sama dengan metformin yang mengganggu penyerapan B12. Penggunaan gabungan jangka panjang memerlukan pemantauan B12. (Hua W, Eur J Med Chem 2020; de Jager J, BMJ 2010)"
+      },
+      "commonDoses": "500–2,000 mcg daily",
+      "notes": "Methylcobalamin form is preferred for absorption. Vegans, vegetarians, and those over 50 are at highest deficiency risk. Intrinsic factor is required for absorption — those with pernicious anaemia may need injections.",
+      "tags": [
+        "energi",
+        "kesehatan saraf",
+        "penting untuk vegan"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Allen LH, Am J Clin Nutr 2009"
+      ]
+    },
+    {
+      "id": "magnesium_glycinate",
+      "name": "Magnesium Glisinat",
+      "aliases": [
+        "Magnesium Bisglycinate",
+        "Chelated Magnesium"
+      ],
+      "category": "vitamins",
+      "emoji": "🌙",
+      "shortDescription": "Bentuk magnesium yang sangat mudah diserap untuk relaksasi dan kualitas tidur.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": false,
+        "reason": "Paling baik di malam hari."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "zinc",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnesium mengaktifkan Vitamin D dan diperlukan untuk konversinya ke bentuk aktif (kalsitriol).",
+        "zinc": "Zinc dan magnesium bersama-sama (formulasi ZMA) mendukung kadar testosteron dan kualitas tidur.",
+        "l_theanine": "Keduanya mendorong ketenangan dan relaksasi tanpa sedasi — mekanisme yang saling melengkapi."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium bersaing dengan besi pada pengangkut logam divalen usus. Suplementasi zat besi minimal 2 jam. (Minihane AM, Br J Nutr 1998; NIH ODS)",
+        "calcium": "Kalsium dan magnesium berbagi saluran penyerapan usus. Pemberian bersama dosis tinggi mengurangi penggunaan keduanya. Beri jarak minimal 2 jam. (Seelig MS, JAMA 1975)"
+      },
+      "commonDoses": "200–400 mg elemental magnesium daily",
+      "notes": "Glycinate form is gentle on the stomach and has higher bioavailability than oxide or citrate. ~47% of the US population does not meet the EAR for magnesium. If taking multiple magnesium forms in a day, space doses by at least 6 hours.",
+      "tags": [
+        "tidur",
+        "relaksasi",
+        "otot"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Abbasi B, J Res Med Sci 2012"
+      ]
+    },
+    {
+      "id": "magnesium_malate",
+      "name": "Magnesium Malat",
+      "aliases": [
+        "Magnesium L-Malate"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Magnesium pemberi energi yang mendukung produksi ATP dan mengurangi kelelahan.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Ideal di pagi hari dengan makanan."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "creatine"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnesium mengaktifkan Vitamin D dan diperlukan untuk konversinya ke bentuk aktif.",
+        "creatine": "Keduanya mendukung produksi ATP dan kinerja otot melalui mekanisme yang berbeda."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium bersaing dengan besi pada pengangkut logam divalen usus. Suplementasi zat besi minimal 2 jam. (Minihane AM, Br J Nutr 1998; NIH ODS)",
+        "calcium": "Kalsium dan magnesium berbagi saluran penyerapan usus. Pemberian bersama dosis tinggi mengurangi penggunaan keduanya. Beri jarak minimal 2 jam. (Seelig MS, JAMA 1975)"
+      },
+      "commonDoses": "200–400 mg elemental magnesium daily",
+      "notes": "Better choice than glycinate when daytime energy support is the primary goal rather than sleep. If combining with other magnesium forms in a day, space doses by at least 6 hours.",
+      "tags": [
+        "energi",
+        "otot",
+        "kelelahan"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Russell IJ, J Rheumatol 1995"
+      ]
+    },
+    {
+      "id": "zinc",
+      "name": "Zink (Seng)",
+      "aliases": [
+        "Zinc Picolinate",
+        "Zinc Bisglycinate",
+        "ZMA"
+      ],
+      "category": "vitamins",
+      "emoji": "🔩",
+      "shortDescription": "Mineral penting untuk kekebalan tubuh, produksi testosteron, dan penyembuhan luka.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Bisa menyebabkan mual saat perut kosong. Konsumsi di malam hari bersama makanan."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "vitamin_d3"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Zinc dan magnesium bersama-sama (tumpukan ZMA) mendukung kadar testosteron dan kualitas tidur.",
+        "vitamin_d3": "Zinc mendukung fungsi reseptor Vitamin D dan sinyal imun."
+      },
+      "interactions": [
+        "iron",
+        "calcium",
+        "folate",
+        "magnesium_citrate",
+        "copper"
+      ],
+      "interactionReasons": {
+        "iron": "Zat besi dan seng bersaing untuk mendapatkan transporter usus yang sama (DMT1) — persaingan dosis tinggi secara signifikan mengurangi penyerapan keduanya. Beri jarak minimal 2 jam. (Sandström B, J Nutr 1985; NIH ODS)",
+        "calcium": "Kalsium bersaing dengan seng untuk penyerapan melalui transporter ZIP bersama. Dosis ruang setidaknya 2 jam. (Kayu RJ, Am J Clin Nutr 1997; NIH ODS)",
+        "folate": "Suplementasi zinc dosis tinggi yang kronis (≥40 mg/hari) dapat mengganggu penyerapan folat dan menurunkan kadar folat serum. Pantau status folat jika mengonsumsi keduanya dalam jangka panjang. (Milne DB, Am J Clin Nutr 1984)",
+        "magnesium_citrate": "Magnesium dosis tinggi (>350 mg unsur) bersaing dengan seng untuk penyerapan transporter mineral divalen. Pada dosis suplemen tertentu, efeknya kecil; ruang selama 1-2 jam jika menggunakan dosis terapeutik salah satunya. (NIH ODS)",
+        "copper": "Dosis tinggi zinc menginduksi metallothionein, yang memerangkap tembaga di usus dan dapat menyebabkan defisiensi tembaga yang parah. Rasio zinc terhadap tembaga 10:1 atau 15:1 direkomendasikan."
+      },
+      "commonDoses": "15–30 mg elemental zinc daily",
+      "notes": "Do not take with calcium or iron — they compete for absorption. UL is 40 mg/day. Long-term supplementation >40 mg may deplete copper; consider a copper supplement. Picolinate form is well-absorbed.",
+      "tags": [
+        "imunitas",
+        "testosteron",
+        "penyembuhan luka"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Prasad AS, J Am Coll Nutr 1996"
+      ]
+    },
+    {
+      "id": "iron",
+      "name": "Zat Besi",
+      "aliases": [
+        "Ferrous Sulfate",
+        "Ferrous Bisglycinate",
+        "Iron Bisglycinate"
+      ],
+      "category": "vitamins",
+      "emoji": "🔴",
+      "shortDescription": "Sangat penting untuk transportasi oksigen, energi, dan fungsi kognitif.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Lebih baik diserap dengan perut kosong. Konsumsi dengan vitamin C."
+      },
+      "synergies": [
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C mereduksi besi feri menjadi besi fero, secara signifikan meningkatkan penyerapan besi non-heme — hingga 3 kali lipat."
+      },
+      "interactions": [
+        "calcium",
+        "zinc",
+        "magnesium_glycinate",
+        "magnesium_malate",
+        "magnesium_threonate",
+        "magnesium_citrate",
+        "magnesium_taurate",
+        "magnesium_oxide",
+        "curcumin",
+        "resveratrol",
+        "nac",
+        "prebiotics",
+        "vitamin_e",
+        "green_tea_extract"
+      ],
+      "interactionReasons": {
+        "calcium": "Kalsium mengurangi penyerapan zat besi. Beri jarak minimal 2 jam.",
+        "zinc": "Zat besi dan seng bersaing untuk mendapatkan transporter usus yang sama (DMT1) — persaingan dosis tinggi secara signifikan mengurangi penyerapan keduanya. Beri jarak minimal 2 jam. (Sandström B, J Nutr 1985; NIH ODS)",
+        "magnesium_glycinate": "Magnesium bersaing dengan besi untuk pengangkut logam divalen usus. Beri jarak minimal 2 jam untuk penyerapan zat besi yang optimal. (Minihane AM, Br J Nutr 1998)",
+        "magnesium_malate": "Magnesium bersaing dengan besi untuk pengangkut logam divalen usus. Beri jarak minimal 2 jam untuk penyerapan zat besi yang optimal. (NIH ODS)",
+        "magnesium_threonate": "Magnesium (semua bentuk) bersaing dengan zat besi pada tingkat penyerapan usus. Beri jarak minimal 2 jam. (NIH ODS)",
+        "magnesium_citrate": "Magnesium bersaing dengan besi untuk penyerapan pengangkut logam divalen (DMT1). Konsumsi zat besi dan magnesium setidaknya dengan jarak 2 jam, terutama penting ketika mengobati kekurangan zat besi. (NIH ODS)",
+        "magnesium_taurate": "Magnesium (segala bentuk) bersaing dengan besi pada pengangkut logam divalen usus (DMT1). Suplementasi zat besi minimal 2 jam. (NIH ODS; Minihane AM, Br J Nutr 1998)",
+        "magnesium_oxide": "Magnesium (segala bentuk) bersaing dengan besi pada pengangkut logam divalen usus. Suplementasi zat besi minimal 2 jam. (NIH ODS)",
+        "curcumin": "Kurkumin membentuk kompleks besi yang tidak larut (khelasi besi) di usus, sehingga secara signifikan mengurangi penyerapan zat besi. Beri jarak minimal 3 jam. (Tuntipopipat S, J Nutr 2006; Jiao Y, Kimia Makanan 2009)",
+        "resveratrol": "Resveratrol mengkelat ion besi, mengurangi penyerapan besi intestinal. Sangat penting bagi mereka yang mengonsumsi suplemen besi untuk defisiensi. Konsumsi secara terpisah. (Scheers N, Nutrients 2020)",
+        "nac": "N-Asetil Sistein dapat mengkelat besi melalui gugus tiol, membentuk kompleks besi-NAC yang mengurangi bioavailabilitas besi. Beri jarak minimal 2 jam. (Haase H, Metalomik 2012)",
+        "prebiotics": "Serat jenis inulin (FOS, inulin) dapat mengikat besi non-heme di usus, mengurangi penyerapan sebesar 10–30%. Konsumsi besi secara terpisah dari suplemen prebiotik. (Laparra JM, J Nutr 2012)",
+        "vitamin_e": "Vitamin E pada dosis >400 IU/hari dapat menurunkan penyerapan zat besi dengan menghambat konversi besi menjadi besi di brush border usus. Beri jarak 2 jam, terutama penting selama pengobatan defisiensi besi. (Lynch SR, Am J Clin Nutr 1980)",
+        "green_tea_extract": "EGCG dalam teh hijau membentuk kompleks tidak larut dengan besi, mencegah penyerapannya. Pisahkan setidaknya 2 jam."
+      },
+      "commonDoses": "RDA: 8 mg/day (men), 18 mg/day (women 19–50), 27 mg/day (pregnant). Supplement only under medical supervision.",
+      "notes": "Only supplement if deficient — excess iron is harmful and can cause organ damage. Ferrous bisglycinate is gentler on the digestive system. Avoid with calcium, antacids, coffee, and tea. Do not co-administer with zinc.",
+      "tags": [
+        "energi",
+        "transportasi oksigen",
+        "kesehatan wanita"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Hallberg L, Am J Clin Nutr 1989"
+      ]
+    },
+    {
+      "id": "calcium",
+      "name": "Kalsium",
+      "aliases": [
+        "Calcium Citrate",
+        "Calcium Carbonate"
+      ],
+      "category": "vitamins",
+      "emoji": "🦷",
+      "shortDescription": "Penting untuk kekuatan tulang, kontraksi otot, dan fungsi saraf.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Kalsium karbonat membutuhkan asam lambung - minumlah bersama makanan."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "vitamin_k2"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Vitamin D3 penting untuk penyerapan kalsium aktif di usus (melalui kalbindin).",
+        "vitamin_k2": "K2 memastikan kalsium disimpan di tulang daripada di jaringan lunak dan arteri."
+      },
+      "interactions": [
+        "iron",
+        "zinc",
+        "magnesium_glycinate",
+        "magnesium_malate",
+        "magnesium_threonate",
+        "magnesium_citrate",
+        "magnesium_taurate",
+        "magnesium_oxide"
+      ],
+      "interactionReasons": {
+        "iron": "Kalsium mengurangi penyerapan zat besi non-heme hingga 60% pada dosis ≥300 mg. Konsumsi kalsium dan zat besi dengan jarak minimal 2 jam. (Hallberg L, Am J Clin Nutr 1991; NIH ODS)",
+        "zinc": "Kalsium bersaing dengan seng untuk penyerapan usus melalui transporter ZIP bersama. Dosis ruang setidaknya 2 jam. (Kayu RJ, Am J Clin Nutr 1997; NIH ODS)",
+        "magnesium_glycinate": "Kalsium dan magnesium bersaing untuk penyerapan. Beri jarak 2 jam.",
+        "magnesium_malate": "Kalsium dan magnesium berbagi transporter usus — pemberian bersamaan dalam dosis tinggi mengurangi penyerapan keduanya. Beri jarak minimal 2 jam. (NIH ODS)",
+        "magnesium_threonate": "Kalsium bersaing dengan magnesium untuk transportasi usus. Jika meminum keduanya, pisahkan 2 jam untuk menghindari gangguan penyerapan timbal balik. (NIH ODS)",
+        "magnesium_citrate": "Kalsium dan magnesium bersaing untuk berbagi saluran penyerapan usus. Dosis tinggi keduanya mengurangi bioavailabilitas yang lain. Pisahkan minimal 2 jam. (Seelig MS, JAMA 1975; NIH ODS)",
+        "magnesium_taurate": "Kalsium dan magnesium bersaing untuk berbagi saluran penyerapan usus. Dosis tinggi keduanya mengurangi bioavailabilitas yang lain. Pisahkan minimal 2 jam. (Seelig MS, JAMA 1975; NIH ODS)",
+        "magnesium_oxide": "Kalsium dan magnesium berbagi transporter penyerapan usus. Bahkan pada tingkat penyerapan yang rendah, oksida dosis tinggi dapat mengganggu. Pisahkan minimal 2 jam. (NIH ODS)"
+      },
+      "commonDoses": "500–1,200 mg daily (total from diet + supplement combined; do not exceed 2,500 mg/day)",
+      "notes": "Calcium citrate is better absorbed than carbonate and can be taken without food. Do not take with iron or zinc. Most adults get sufficient calcium from dairy — supplementation is primarily for post-menopausal women.",
+      "tags": [
+        "kesehatan tulang",
+        "otot"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Bolland MJ, BMJ 2010"
+      ]
+    },
+    {
+      "id": "iodine",
+      "name": "Yodium",
+      "aliases": [
+        "Potassium Iodide",
+        "Nascent Iodine"
+      ],
+      "category": "vitamins",
+      "emoji": "🧬",
+      "shortDescription": "Sangat penting untuk hormon tiroid, metabolisme, dan perkembangan otak.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Pagi hari dengan makanan."
+      },
+      "synergies": [
+        "selenium"
+      ],
+      "synergyReasons": {
+        "selenium": "Enzim yang bergantung pada selenium melindungi tiroid dari kerusakan oksidatif yang disebabkan oleh H₂O₂ yang diproduksi selama metabolisme yodium."
+      },
+      "commonDoses": "RDA: 150 mcg/day. UL: 1,100 mcg/day. Supplement only if deficient.",
+      "notes": "Most people in developed countries get sufficient iodine from iodized salt and dairy. Excess iodine can paradoxically suppress thyroid function (Wolff-Chaikoff effect). Only supplement under guidance.",
+      "tags": [
+        "tiroid",
+        "metabolisme",
+        "otak"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Zimmermann MB, Lancet 2008"
+      ]
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "aliases": [
+        "Selenomethionine",
+        "Sodium Selenate"
+      ],
+      "category": "vitamins",
+      "emoji": "🛡️",
+      "shortDescription": "Mineral antioksidan yang mendukung fungsi tiroid dan kekebalan tubuh.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Konsumsi dengan makanan."
+      },
+      "synergies": [
+        "iodine"
+      ],
+      "synergyReasons": {
+        "iodine": "Selenium melindungi kelenjar tiroid dari stres oksidatif selama metabolisme yodium — kedua mineral tersebut adalah mitra penting untuk kesehatan tiroid."
+      },
+      "interactions": [
+        "vitamin_c"
+      ],
+      "interactionReasons": {
+        "vitamin_c": "Vitamin C dosis tinggi dapat mengurangi bioavailabilitas selenium anorganik (bentuk selenat) dengan mengubahnya menjadi unsur selenium yang sulit diserap. Lebih suka bentuk selenomethionine atau ambil secara terpisah. (Oster O, J Nutr Biokimia 1993)"
+      },
+      "commonDoses": "55–200 mcg daily (RDA: 55 mcg; UL: 400 mcg — do not exceed)",
+      "notes": "Selenium toxicity (selenosis) can occur above 400 mcg/day — hair loss, nail brittleness, and neurological symptoms. Selenomethionine is the preferred organic form. Brazil nuts are a rich dietary source (70–90 mcg each).",
+      "tags": [
+        "tiroid",
+        "antioksidan",
+        "imunitas"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Rayman MP, Lancet 2000"
+      ]
+    },
+    {
+      "id": "folate",
+      "name": "Folat (B9)",
+      "aliases": [
+        "Methylfolate",
+        "5-MTHF",
+        "Folic Acid",
+        "Vitamin B9"
+      ],
+      "category": "vitamins",
+      "emoji": "🧬",
+      "shortDescription": "Penting untuk sintesis DNA dan kehamilan.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Diserap dengan baik secara konsisten setiap hari."
+      },
+      "synergies": [
+        "vitamin_b12"
+      ],
+      "synergyReasons": {
+        "vitamin_b12": "B12 dan folat saling bergantung untuk siklus metilasi, sintesis DNA, dan regulasi homosistein — defisiensi salah satunya mengganggu yang lain."
+      },
+      "interactions": [
+        "zinc"
+      ],
+      "interactionReasons": {
+        "zinc": "Seng dosis tinggi yang kronis (≥40 mg/hari) dapat mengganggu penyerapan folat dan menurunkan kadar folat serum dengan bersaing dalam mekanisme penyerapan usus. Pantau folat jika menambah zinc dosis tinggi dalam jangka panjang. (Milne DB, Am J Clin Nutr 1984; NIH ODS)"
+      },
+      "commonDoses": "400–800 mcg daily (RDA: 400 mcg; 600 mcg during pregnancy)",
+      "notes": "Methylfolate (5-MTHF) is preferred over synthetic folic acid, especially for those with MTHFR C677T or A1298C gene variants. Essential during pregnancy to prevent neural tube defects.",
+      "tags": [
+        "metilasi",
+        "kehamilan",
+        "otak"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Greenberg JA, Rev Obstet Gynecol 2011"
+      ]
+    },
+    {
+      "id": "creatine",
+      "name": "Kreatin Monohidrat",
+      "aliases": [
+        "Creatine",
+        "Monohydrate"
+      ],
+      "category": "performance",
+      "emoji": "💥",
+      "shortDescription": "Suplemen yang paling banyak diteliti untuk kekuatan, tenaga, dan massa otot.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Konsistensi harian lebih penting. Mengonsumsinya setelah latihan dengan karbohidrat sedikit meningkatkan penyerapannya."
+      },
+      "synergies": [
+        "magnesium_malate",
+        "beta_alanine"
+      ],
+      "synergyReasons": {
+        "magnesium_malate": "Keduanya mendukung produksi ATP dan kinerja otot melalui mekanisme yang berbeda.",
+        "beta_alanine": "Kreatin meningkatkan daya puncak; beta-alanin memperpanjang ketahanan — kombinasi pra-latihan yang telah banyak diteliti."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Penelitian awal menunjukkan bahwa kafein melemahkan kemampuan kreatin untuk meningkatkan resintesis fosfokreatin selama sesi intensitas tinggi berulang. Meskipun penelitian selanjutnya menunjukkan hasil yang beragam, beberapa individu mungkin melihat efektivitas kreatin yang berkurang ketika mengonsumsi kafein secara bersamaan. Jika menggabungkan keduanya, pertimbangkan untuk memisahkan dosis. (Vandenberghe K, J Appl Physiol 1996; Hespel P, J Physiol 2002)"
+      },
+      "commonDoses": "3–5 g daily",
+      "notes": "No loading phase is necessary for long-term use. Monohydrate is the gold standard — more expensive forms (HCl, buffered, ethyl ester) offer no proven advantage. Safe for long-term use in healthy individuals.",
+      "tags": [
+        "kekuatan",
+        "otot",
+        "performa"
+      ],
+      "sources": [
+        "ISSN Position Stand 2017",
+        "Rawson ES, J Strength Cond Res 2003"
+      ]
+    },
+    {
+      "id": "whey_protein",
+      "name": "Protein Whey",
+      "aliases": [
+        "Whey Isolate",
+        "Whey Concentrate",
+        "WPC",
+        "WPI"
+      ],
+      "category": "performance",
+      "emoji": "🥛",
+      "shortDescription": "Protein yang cepat diserap, ideal untuk pemulihan dan pertumbuhan otot.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Dalam 2 jam setelah latihan."
+      },
+      "synergies": [
+        "creatine",
+        "collagen_peptides"
+      ],
+      "synergyReasons": {
+        "creatine": "Protein + kreatin adalah kombinasi yang paling didukung bukti untuk peningkatan massa otot tanpa lemak.",
+        "collagen_peptides": "Whey menyediakan profil asam amino lengkap; kolagen menyediakan glisin, prolin, dan hidroksiprolin untuk jaringan ikat."
+      },
+      "commonDoses": "20–40 g per serving",
+      "notes": "Isolate is preferable if lactose-intolerant. Contains all essential amino acids including leucine — the key trigger for muscle protein synthesis.",
+      "tags": [
+        "otot",
+        "protein",
+        "pemulihan"
+      ],
+      "sources": [
+        "Phillips SM, J Am Coll Nutr 2011"
+      ]
+    },
+    {
+      "id": "casein_protein",
+      "name": "Protein Kasein",
+      "aliases": [
+        "Micellar Casein",
+        "Slow-Release Protein"
+      ],
+      "category": "performance",
+      "emoji": "🌙",
+      "shortDescription": "Protein lambat cerna untuk pemulihan jangka panjang (tidur).",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "Pencernaan memakan waktu ~7 jam, membuatnya sempurna di malam hari."
+      },
+      "synergies": [
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Keduanya mendukung pemulihan semalaman — kasein memberi makan otot sementara magnesium mendukung kualitas tidur."
+      },
+      "commonDoses": "30–40 g before bed",
+      "notes": "Micellar casein is preferred over calcium caseinate. Research by Res et al. (2012) demonstrated 22% greater whole-body protein synthesis during overnight sleep.",
+      "tags": [
+        "otot",
+        "protein",
+        "tidur"
+      ],
+      "sources": [
+        "Res PT, Med Sci Sports Exerc 2012",
+        "Snijders T, J Nutr 2015"
+      ]
+    },
+    {
+      "id": "beta_alanine",
+      "name": "Beta-Alanin",
+      "aliases": [
+        "β-Alanine",
+        "CarnoSyn"
+      ],
+      "category": "performance",
+      "emoji": "🔥",
+      "shortDescription": "Mengurangi penumpukan asam laktat untuk daya tahan.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "30-60 menit sebelum latihan."
+      },
+      "synergies": [
+        "creatine",
+        "citrulline_malate"
+      ],
+      "synergyReasons": {
+        "creatine": "Kreatin meningkatkan output daya puncak; beta-alanin memperpanjang waktu hingga kelelahan — kombinasi pra-latihan yang telah banyak diteliti.",
+        "citrulline_malate": "Citrullin menargetkan aliran darah dan ketahanan aerobik; beta-alanin menyangga asam dalam latihan anaerobik."
+      },
+      "commonDoses": "3.2–6.4 g daily (split into 800 mg–1.6 g doses to minimize paresthesia)",
+      "notes": "Tingling/flushing (paresthesia) is a normal, harmless physiological response. Sustained-release formulations reduce this side effect. Benefits accumulate with 4+ weeks of consistent use.",
+      "tags": [
+        "daya tahan",
+        "sebelum latihan",
+        "performa"
+      ],
+      "sources": [
+        "ISSN Position Stand 2015",
+        "Sale C, Amino Acids 2010"
+      ]
+    },
+    {
+      "id": "citrulline_malate",
+      "name": "Sitrulin Malat",
+      "aliases": [
+        "L-Citrulline",
+        "Citrulline"
+      ],
+      "category": "performance",
+      "emoji": "🩸",
+      "shortDescription": "Meningkatkan oksida nitrat untuk aliran darah dan pump otot yang luar biasa.",
+      "timing": {
+        "preferredTime": "afternoon",
+        "takeWithFood": false,
+        "reason": "60 menit sebelum latihan."
+      },
+      "synergies": [
+        "beta_alanine",
+        "creatine"
+      ],
+      "synergyReasons": {
+        "beta_alanine": "Citrullin meningkatkan aliran darah dan kapasitas aerobik; beta-alanin menyangga asam — mekanisme yang saling melengkapi untuk atlet ketahanan.",
+        "creatine": "Citrulline meningkatkan aliran darah ke otot; creatine memicu ATP — kombinasi klasik sebelum latihan."
+      },
+      "commonDoses": "6–8 g citrulline malate (2:1 ratio) before training",
+      "notes": "Citrulline malate (2:1) is more researched than pure L-citrulline for performance. More effective than arginine at raising plasma arginine levels, as it bypasses first-pass hepatic metabolism.",
+      "tags": [
+        "sebelum latihan",
+        "aliran darah",
+        "daya tahan"
+      ],
+      "sources": [
+        "Pérez-Guisado J, J Strength Cond Res 2010",
+        "Figueroa A, J Strength Cond Res 2015"
+      ]
+    },
+    {
+      "id": "electrolytes",
+      "name": "Elektrolit",
+      "aliases": [
+        "Sodium",
+        "Potassium",
+        "Magnesium",
+        "Chloride",
+        "Electrolyte Mix"
+      ],
+      "category": "performance",
+      "emoji": "⚡",
+      "shortDescription": "Mengganti mineral yang hilang untuk mencegah kram.",
+      "timing": {
+        "preferredTime": "afternoon",
+        "takeWithFood": false,
+        "reason": "Selama atau setelah latihan intensif."
+      },
+      "synergies": [
+        "creatine",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "creatine": "Kreatin menarik air ke dalam sel otot — status elektrolit dan hidrasi yang memadai mendukung efek ini.",
+        "magnesium_glycinate": "Magnesium sendiri adalah elektrolit dan mendukung relaksasi otot dan pencegahan kram."
+      },
+      "interactions": [
+        "iron",
+        "zinc"
+      ],
+      "interactionReasons": {
+        "iron": "Campuran elektrolit yang mengandung kalsium dan magnesium secara signifikan mengurangi penyerapan zat besi non-heme jika dikonsumsi bersamaan. Konsumsi suplemen zat besi minimal 2 jam terpisah dari minuman atau tablet elektrolit. (Hallberg L, Am J Clin Nutr 1991; NIH ODS)",
+        "zinc": "Kalsium dan magnesium yang terdapat dalam formula elektrolit bersaing dengan zinc untuk penyerapan intestinal melalui transporter ZIP yang sama. Konsumsi zinc secara terpisah dari suplemen elektrolit. (Wood RJ, Am J Clin Nutr 1997)"
+      },
+      "commonDoses": "Varies by product; ensure adequate sodium (≥500 mg), potassium, and magnesium per serving",
+      "notes": "Low-sugar or sugar-free electrolyte formulas are preferable for most people. Regular table salt with foods covers most needs unless exercising intensely for >60 min.",
+      "tags": [
+        "hidrasi",
+        "kram",
+        "pemulihan"
+      ],
+      "sources": [
+        "Sawka MN, Med Sci Sports Exerc 2007",
+        "American College of Sports Medicine"
+      ]
+    },
+    {
+      "id": "collagen_peptides",
+      "name": "Peptida Kolagen",
+      "aliases": [
+        "Hydrolyzed Collagen",
+        "Collagen Protein",
+        "Type I & III Collagen"
+      ],
+      "category": "performance",
+      "emoji": "💆",
+      "shortDescription": "Mendukung sendi, elastisitas kulit, dan perbaikan tendon.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "30-60 menit sebelum pergerakan dengan Vitamin C."
+      },
+      "synergies": [
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C adalah kofaktor penting untuk prolyl hidroksilase – enzim yang dibutuhkan untuk pengikatan silang kolagen. Shaw dkk. (2017) menunjukkan kombinasi ini meningkatkan sintesis kolagen tendon."
+      },
+      "commonDoses": "10–15 g daily",
+      "notes": "Not a complete protein — low in tryptophan. Best used alongside other protein sources. Look for hydrolyzed (peptide) form for better absorption.",
+      "tags": [
+        "sendi",
+        "kulit",
+        "anti-penuaan"
+      ],
+      "sources": [
+        "Shaw G, Am J Clin Nutr 2017",
+        "Zdzieblik D, Br J Nutr 2015"
+      ]
+    },
+    {
+      "id": "omega3",
+      "name": "Omega-3 (Minyak Ikan)",
+      "aliases": [
+        "EPA",
+        "DHA",
+        "Fish Oil",
+        "EPA+DHA",
+        "Marine Omega-3"
+      ],
+      "category": "brain",
+      "emoji": "🐟",
+      "shortDescription": "Kesehatan jantung, otak, dan sangat anti-inflamasi.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Dengan makanan berat berlemak untuk penyerapan optimal."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "curcumin"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Keduanya larut lemak dan berbagi jalur penyerapan — D3 + Omega-3 adalah tumpukan dasar inti.",
+        "curcumin": "Keduanya mengurangi peradangan melalui jalur komplementer (EPA/DHA melalui eicosanoid; kurkumin melalui NF-κB)."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Ion besi bebas mengkatalisis peroksidasi lipid EPA dan DHA, menurunkan kualitas dan kapasitas antioksidan suplemen omega-3. Konsumsi besi dan minyak ikan pada waktu yang berbeda untuk menjaga integritas omega-3. (Siddiqui RA, Prostaglandins Leukot Essent Fatty Acids 2004)"
+      },
+      "commonDoses": "1–3 g combined EPA+DHA daily",
+      "notes": "Look for at least 500 mg combined EPA+DHA per capsule. Triglyceride form is significantly better absorbed than ethyl ester. Third-party tested for oxidation and heavy metals (IFOS certified).",
+      "tags": [
+        "otak",
+        "kesehatan jantung",
+        "anti-inflamasi"
+      ],
+      "sources": [
+        "AHA Scientific Statement 2002",
+        "Calder PC, Prog Lipid Res 2012"
+      ]
+    },
+    {
+      "id": "lions_mane",
+      "name": "Jamur Lion's Mane",
+      "aliases": [
+        "Hericium Erinaceus",
+        "Lion's Mane Extract"
+      ],
+      "category": "brain",
+      "emoji": "🍄",
+      "shortDescription": "Mendukung faktor pertumbuhan saraf (NGF), plastisitas, dan ingatan.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Pagi hari untuk dukungan siang hari."
+      },
+      "synergies": [
+        "omega3",
+        "alpha_gpc"
+      ],
+      "synergyReasons": {
+        "omega3": "Keduanya mendukung neuroplastisitas dan kesehatan otak melalui mekanisme yang berbeda (NGF vs. dukungan membran DHA).",
+        "alpha_gpc": "Alpha-GPC menyediakan dukungan prekursor asetilkolin sementara Lion's Mane meningkatkan NGF — tumpukan otak yang saling melengkapi."
+      },
+      "commonDoses": "500–3,000 mg daily (fruiting body extract standardized for beta-glucans)",
+      "notes": "Use fruiting body extracts, not mycelium-on-grain products — the latter have low active compound content. Effects typically noticed after 4–8 weeks of consistent use.",
+      "tags": [
+        "otak",
+        "fokus",
+        "ingatan"
+      ],
+      "sources": [
+        "Mori K, Phytother Res 2009",
+        "Lai PL, Int J Med Mushrooms 2013"
+      ]
+    },
+    {
+      "id": "alpha_gpc",
+      "name": "Alpha-GPC",
+      "aliases": [
+        "Alpha-Glycerophosphocholine",
+        "A-GPC",
+        "Choline Alfoscerate"
+      ],
+      "category": "brain",
+      "emoji": "🧠",
+      "shortDescription": "Penambah asetilkolin untuk memori dan hubungan pikiran-otot yang kuat.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "30-60 menit sebelum tantangan kognitif/fisik."
+      },
+      "synergies": [
+        "lions_mane",
+        "l_theanine",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "lions_mane": "Lion's Mane meningkatkan NGF sementara Alpha-GPC meningkatkan asetilkolin — dukungan kognitif yang saling melengkapi.",
+        "l_theanine": "L-theanine menghaluskan stimulasi kognitif berlebih dan mendorong perhatian yang tenang dan terfokus."
+      },
+      "commonDoses": "300–600 mg daily",
+      "notes": "One of the most bioavailable choline sources. Can cause headaches if total choline intake is already very high. Shown to support growth hormone release in acute studies.",
+      "tags": [
+        "fokus",
+        "otak",
+        "performa"
+      ],
+      "sources": [
+        "Parnetti L, J Neural Transm 2001",
+        "Bellar D, J Int Soc Sports Nutr 2015"
+      ]
+    },
+    {
+      "id": "l_theanine",
+      "name": "L-Teanin",
+      "aliases": [
+        "Theanine",
+        "L-γ-Glutamylethylamide"
+      ],
+      "category": "brain",
+      "emoji": "🍵",
+      "shortDescription": "Asam amino dari teh hijau yang meningkatkan fokus tenang.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Sangat baik bila dikombinasikan dengan kafein untuk mencegah gelisah."
+      },
+      "synergies": [
+        "caffeine",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "caffeine": "L-theanine mengurangi kecemasan dan kegelisahan akibat kafein sambil mempertahankan efek peningkatan fokus. Rasio 2:1 (200 mg theanine : 100 mg kafein) telah banyak diteliti.",
+        "magnesium_glycinate": "Keduanya mendorong keadaan tenang dan rileks melalui jalur yang berbeda (modulasi GABA vs. aktivitas reseptor NMDA)."
+      },
+      "commonDoses": "100–400 mg daily",
+      "notes": "Very safe with no known serious adverse effects. Naturally found in green and black tea (~20–50 mg per cup). Can be used at higher doses (200–400 mg) for sleep support.",
+      "tags": [
+        "ketenangan",
+        "fokus",
+        "relaksasi"
+      ],
+      "sources": [
+        "Nobre AC, Asia Pac J Clin Nutr 2008",
+        "Owen GN, Nutr Neurosci 2008"
+      ]
+    },
+    {
+      "id": "caffeine",
+      "name": "Kafein",
+      "aliases": [
+        "Caffeine Anhydrous",
+        "Caffeine Supplement"
+      ],
+      "category": "brain",
+      "emoji": "☕",
+      "shortDescription": "Stimulan populer untuk energi dan menekan rasa kantuk.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Pagi hari atau sebelum berolahraga."
+      },
+      "synergies": [
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "l_theanine": "L-theanine secara signifikan mengurangi kecemasan dan kegelisahan akibat kafein sambil mempertahankan manfaat fokus dan kinerjanya."
+      },
+      "interactions": [
+        "melatonin",
+        "vitamin_b1"
+      ],
+      "interactionReasons": {
+        "melatonin": "Kafein memblokir reseptor adenosin dan bertindak sebagai stimulan, secara langsung melawan efek melatonin yang meningkatkan kualitas tidur. Hindari kafein dalam waktu 6–8 jam setelah mengonsumsi melatonin.",
+        "vitamin_b1": "Kafein menghambat protein transporter intestinal tiamin (B1) (ThTr1/ThTr2) dan meningkatkan ekskresi tiamin urin. Asupan kafein tinggi secara teratur dapat berkontribusi pada penipisan tiamin marginal dari waktu ke waktu. Pisahkan suplementasi tiamin dari kafein setidaknya 1 jam. (Stein J, Am J Physiol 1987; Said HM, Am J Physiol 1999)"
+      },
+      "commonDoses": "100–200 mg per dose; limit to 400 mg/day total",
+      "notes": "Tolerance develops rapidly with daily use. Cycling off periodically helps maintain effectiveness. Adenosine receptor antagonist — works by blocking sleep-promoting adenosine. Half-life: ~5–6 hours.",
+      "tags": [
+        "energi",
+        "fokus",
+        "sebelum latihan"
+      ],
+      "sources": [
+        "EFSA Panel, EFSA Journal 2015",
+        "Goldstein ER, JISSN 2010"
+      ]
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "aliases": [
+        "Withania Somnifera",
+        "KSM-66",
+        "Sensoril",
+        "Indian Ginseng"
+      ],
+      "category": "brain",
+      "emoji": "🌿",
+      "shortDescription": "Herba adaptogen untuk menekan stres dan menurunkan kortisol.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Penggunaan malam hari sering disukai untuk manfaat relaksasi."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Keduanya mengurangi respons stres sumbu HPA dan mendukung kualitas tidur melalui mekanisme yang saling melengkapi.",
+        "l_theanine": "Bersama-sama membentuk tumpukan anti-stres dan pro-relaksasi yang komprehensif."
+      },
+      "interactions": [
+        "berberine",
+        "levothyroxine"
+      ],
+      "interactionReasons": {
+        "berberine": "Baik ashwagandha maupun berberine secara independen menurunkan kadar glukosa darah. Kombinasinya dapat menghasilkan efek hipoglikemik aditif yang mungkin berlebihan pada individu dengan diabetes atau mereka yang mengonsumsi obat gula darah. Pantau kadar glukosa dengan cermat jika dikombinasikan. (Chandrasekhar K, Indian J Psychol Med 2012; Yin J, Metabolism 2008)",
+        "levothyroxine": "Ashwagandha dapat secara alami meningkatkan kadar T3 dan T4. Menggabungkan dengan obat tiroid seperti levotiroksin dapat menimbulkan risiko efek seperti hipertiroidisme."
+      },
+      "commonDoses": "300–600 mg daily (KSM-66 or Sensoril standardized extract)",
+      "notes": "KSM-66 (root extract) and Sensoril (root+leaf) are the most clinically studied forms. Effects build over 4–8 weeks. Avoid during pregnancy. May interact with thyroid medications.",
+      "tags": [
+        "stres",
+        "tidur",
+        "testosteron"
+      ],
+      "sources": [
+        "Chandrasekhar K, Indian J Psychol Med 2012",
+        "Wankhede S, JISSN 2015"
+      ]
+    },
+    {
+      "id": "magnesium_threonate",
+      "name": "Magnesium Treonat",
+      "aliases": [
+        "MgT",
+        "Magtein",
+        "Magnesium Threonate"
+      ],
+      "category": "sleep",
+      "emoji": "🧠",
+      "shortDescription": "Satu-satunya magnesium yang melewati sawar darah-otak.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "Malam hari untuk memori."
+      },
+      "synergies": [
+        "apigenin",
+        "l_glycine",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "apigenin": "Apigenin + Magnesium L-Threonat adalah tumpukan tidur yang banyak dirujuk (protokol Huberman Lab).",
+        "l_glycine": "Keduanya mendorong tidur yang dalam dan memulihkan melalui mekanisme yang saling melengkapi (kadar Mg otak vs. pengurangan suhu tubuh inti)."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium (segala bentuk) bersaing dengan besi pada pengangkut logam divalen usus. Beri jarak minimal 2 jam. (NIH ODS; Minihane AM, Br J Nutr 1998)",
+        "calcium": "Kalsium dan magnesium bersaing untuk transporter usus. Pemberian bersama dosis tinggi mengurangi penyerapan keduanya. Beri jarak minimal 2 jam. (Seelig MS, JAMA 1975)"
+      },
+      "commonDoses": "1,500–2,000 mg (providing ~140 mg elemental magnesium)",
+      "notes": "More expensive than other magnesium forms. Primarily for cognitive and sleep benefits rather than general magnesium repletion. Animal data is strong; human sleep data emerging. If combining with other magnesium forms for deficiency, space doses by at least 6 hours.",
+      "tags": [
+        "otak",
+        "ingatan",
+        "tidur"
+      ],
+      "sources": [
+        "Liu G, Neuron 2016",
+        "Slutsky I, Neuron 2010"
+      ]
+    },
+    {
+      "id": "melatonin",
+      "name": "Melatonin",
+      "aliases": [
+        "Melatonin Sleep Aid"
+      ],
+      "category": "sleep",
+      "emoji": "🌙",
+      "shortDescription": "Hormon tidur. Sangat efektif untuk jet lag.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "30-60 menit sebelum tidur di kamar yang gelap."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "l_glycine"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Magnesium mendukung relaksasi fisiologis dan sinyal GABA yang diperlukan agar melatonin bekerja secara efektif.",
+        "l_glycine": "L-glisin menurunkan suhu tubuh inti dan meningkatkan arsitektur tidur — melengkapi sinyal sirkadian melatonin."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Kafein memblokir reseptor adenosin dan bertindak sebagai stimulan, secara langsung melawan efek melatonin yang meningkatkan kualitas tidur. Hindari kafein dalam waktu 6–8 jam setelah mengonsumsi melatonin."
+      },
+      "commonDoses": "0.3–1 mg (physiological dose); most OTC products contain 3–10 mg (often unnecessarily high)",
+      "notes": "Research consistently shows 0.3–1 mg is equally or more effective than high doses for most people. Use the lowest effective dose to avoid morning grogginess and potential suppression of endogenous production. Not recommended for long-term nightly use without medical guidance.",
+      "tags": [
+        "tidur",
+        "ritme sirkadian"
+      ],
+      "sources": [
+        "Brzezinski A, Sleep Med Rev 2005",
+        "Arendt J, Br Med J 2006",
+        "MIT Melatonin Synthesis Research (Wurtman RJ)"
+      ]
+    },
+    {
+      "id": "l_glycine",
+      "name": "L-Glisin",
+      "aliases": [
+        "Glycine"
+      ],
+      "category": "sleep",
+      "emoji": "😴",
+      "shortDescription": "Menurunkan suhu inti tubuh dan memfasilitasi tidur yang dalam.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "30-60 menit sebelum tidur."
+      },
+      "synergies": [
+        "melatonin",
+        "magnesium_threonate",
+        "apigenin"
+      ],
+      "synergyReasons": {
+        "magnesium_threonate": "Mekanisme tidur yang saling melengkapi — glisin menurunkan suhu tubuh perifer; Mg-threonat bekerja secara sentral pada magnesium sinaptik.",
+        "apigenin": "Bersama dengan melatonin dan apigenin, membentuk tumpukan tidur Huberman — beberapa mekanisme yang saling melengkapi."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Kafein adalah stimulan dan antagonis reseptor adenosin yang secara langsung menentang efek relaksasi dan peningkatan tidur dari L-Glycine. Hindari kafein dalam waktu 6 jam setelah mengonsumsi L-Glycine untuk tidur. (Bannai M, Irama Biol Tidur 2012)"
+      },
+      "commonDoses": "3 g before bed",
+      "notes": "Very safe at recommended doses. Evidence shows improved next-day alertness and reduced daytime sleepiness in people with restricted sleep. Acts via NMDA receptor co-agonism and peripheral vasodilation.",
+      "tags": [
+        "tidur",
+        "relaksasi"
+      ],
+      "sources": [
+        "Bannai M, Sleep Biol Rhythms 2012",
+        "Kawai N, Neuropsychopharmacology 2015"
+      ]
+    },
+    {
+      "id": "gaba",
+      "name": "GABA",
+      "aliases": [
+        "Gamma-Aminobutyric Acid"
+      ],
+      "category": "sleep",
+      "emoji": "🧘",
+      "shortDescription": "Menenangkan otak dan mengurangi kecemasan.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "Sebelum tidur."
+      },
+      "synergies": [
+        "l_theanine",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "l_theanine": "L-theanine memodulasi sinyal GABA — bersama-sama mereka mungkin memiliki efek relaksasi aditif.",
+        "magnesium_glycinate": "Keduanya mendukung jalur penenang GABAergik melalui mekanisme yang berbeda."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Kafein bertindak sebagai stimulan SSP dan antagonis reseptor adenosin, yang secara langsung melawan efek GABA yang menenangkan dan meningkatkan kualitas tidur. Menggabungkan keduanya meniadakan manfaat suplementasi GABA. (Boonstra E, Psikol Depan 2015)"
+      },
+      "commonDoses": "100–750 mg daily",
+      "notes": "Oral GABA has limited blood-brain barrier penetration — direct CNS effects after supplementation are scientifically debated. Peripheral effects (digestive relaxation, vagal nerve stimulation) may account for reported benefits. PharmaGABA form may have slightly better data.",
+      "tags": [
+        "tidur",
+        "kecemasan",
+        "relaksasi"
+      ],
+      "sources": [
+        "Boonstra E, Front Psychol 2015",
+        "Hepsomali P, Front Neurosci 2020"
+      ]
+    },
+    {
+      "id": "apigenin",
+      "name": "Apigenin",
+      "aliases": [
+        "Chamomile Extract",
+        "Apigenin 4',5,7-trihydroxyflavone"
+      ],
+      "category": "sleep",
+      "emoji": "🌼",
+      "shortDescription": "Senyawa aktif dalam kamomil.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "Malam hari."
+      },
+      "synergies": [
+        "magnesium_threonate",
+        "l_glycine",
+        "melatonin"
+      ],
+      "synergyReasons": {
+        "magnesium_threonate": "Bagian dari tumpukan tidur Huberman: Mg-threonat + Apigenin + L-glisin menargetkan mekanisme tidur yang berbeda.",
+        "l_glycine": "Bersama-sama menurunkan suhu tubuh inti dan meningkatkan aktivitas reseptor GABA-A untuk tidur yang lebih dalam."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Piperine dalam lada hitam menghambat CYP1A2 – enzim utama yang memetabolisme kafein – dan apigenin juga menghambat CYP1A2. Jika digabungkan, keduanya dapat secara signifikan meningkatkan kadar kafein dalam darah, meningkatkan risiko kecemasan, jantung berdebar, atau insomnia. Hindari kafein saat mengonsumsi apigenin. (Bhardwaj RK, J Pharmacol Exp Ada 2002; Wolfman C, Pharmacol Biochem Behav 1994)"
+      },
+      "commonDoses": "50 mg before bed",
+      "notes": "Women who are pregnant or actively trying to conceive should consult a doctor — apigenin has mild anti-estrogenic activity at high doses. Generally considered safe at 50 mg.",
+      "tags": [
+        "tidur",
+        "relaksasi"
+      ],
+      "sources": [
+        "Wolfman C, Pharmacol Biochem Behav 1994",
+        "Avallone R, Eur J Pharmacol 2000"
+      ]
+    },
+    {
+      "id": "probiotics",
+      "name": "Probiotik",
+      "aliases": [
+        "Lactobacillus",
+        "Bifidobacterium",
+        "Live Cultures",
+        "Probiotic Blend"
+      ],
+      "category": "gut",
+      "emoji": "🦠",
+      "shortDescription": "Kultur bakteri hidup untuk mendukung kesehatan dan imunitas usus.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "30 menit sebelum makan."
+      },
+      "synergies": [
+        "prebiotics",
+        "vitamin_d3"
+      ],
+      "synergyReasons": {
+        "prebiotics": "Prebiotik adalah sumber makanan bagi bakteri probiotik — kombinasi prebiotik + probiotik (sinbiotik) secara signifikan meningkatkan kolonisasi mikrobiom.",
+        "vitamin_d3": "Probiotik dapat meningkatkan penyerapan dan manfaat metabolik Vitamin D."
+      },
+      "commonDoses": "5–50 billion CFU daily",
+      "notes": "Multi-strain formulas including Lactobacillus and Bifidobacterium species are generally preferred. Refrigerated probiotics may have superior viability. Benefits are strain-specific — not all strains work for all conditions.",
+      "tags": [
+        "pencernaan",
+        "imunitas",
+        "kesehatan usus"
+      ],
+      "sources": [
+        "Hill C, Nat Rev Gastroenterol Hepatol 2014",
+        "Salminen S, EFSA J 2016"
+      ],
+      "interactions": []
+    },
+    {
+      "id": "prebiotics",
+      "name": "Prebiotik",
+      "aliases": [
+        "Inulin",
+        "FOS",
+        "GOS",
+        "Resistant Starch",
+        "Prebiotic Fiber"
+      ],
+      "category": "gut",
+      "emoji": "🌾",
+      "shortDescription": "Serat tumbuhan yang memberi makan bakteri usus.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Bersama makanan."
+      },
+      "synergies": [
+        "probiotics"
+      ],
+      "synergyReasons": {
+        "probiotics": "Prebiotik memberi makan bakteri probiotik — kombinasi prebiotik + probiotik (sinbiotik) secara signifikan mengungguli keduanya secara terpisah."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Serat prebiotik tipe inulin (FOS, inulin) dapat mengikat zat besi non-heme di usus melalui khelasi, sehingga mengurangi penyerapan zat besi sebesar 10–30%. Jika menambah zat besi, konsumsilah setidaknya 2 jam terpisah dari suplemen prebiotik. (Laparra JM, J Nutr 2012; Tompkins TA, J Dairy Sci 2001)"
+      },
+      "commonDoses": "5–10 g daily",
+      "notes": "Start with 2–3 g and increase gradually over 2–4 weeks — rapid introduction frequently causes bloating and flatulence. GOS (galactooligosaccharides) tends to be better tolerated than inulin.",
+      "tags": [
+        "pencernaan",
+        "kesehatan usus"
+      ],
+      "sources": [
+        "Gibson GR, Nat Rev Gastroenterol Hepatol 2017",
+        "Bindels LB, Nat Rev Gastroenterol 2015"
+      ]
+    },
+    {
+      "id": "berberine",
+      "name": "Berberin",
+      "aliases": [
+        "Berberine HCL",
+        "Berberine Hydrochloride"
+      ],
+      "category": "gut",
+      "emoji": "🌿",
+      "shortDescription": "Sangat ampuh menstabilkan gula darah.",
+      "timing": {
+        "preferredTime": "lunch",
+        "takeWithFood": true,
+        "reason": "Sebelum makanan berkarbohidrat tinggi."
+      },
+      "synergies": [
+        "omega3",
+        "curcumin"
+      ],
+      "synergyReasons": {
+        "omega3": "Keduanya mendukung kesehatan metabolik dan kardiovaskular melalui mekanisme yang berbeda.",
+        "curcumin": "Keduanya memiliki manfaat anti-inflamasi dan metabolik dengan jalur yang saling melengkapi (AMPK vs. NF-κB)."
+      },
+      "interactions": [
+        "vitamin_b12"
+      ],
+      "interactionReasons": {
+        "vitamin_b12": "Berberine mengaktifkan AMPK dan mengurangi sekresi faktor intrinsik lambung — mekanisme yang sama dengan metformin yang mengganggu penyerapan vitamin B12. Penggunaan berberine jangka panjang dapat menguras B12; pantau kadar dan pertimbangkan suplementasi terpisah. (Hua W, Eur J Med Chem 2020; de Jager J, BMJ 2010)"
+      },
+      "commonDoses": "500 mg 2–3x daily with meals (total 1,000–1,500 mg/day)",
+      "notes": "Berberine activates AMPK similarly to Metformin in vitro — however, direct clinical comparisons are limited and it is not FDA-approved as a drug. If you take blood sugar medications or are diabetic, consult a doctor before use as berberine can significantly lower blood glucose. May reduce absorption of certain medications via CYP3A4 inhibition.",
+      "tags": [
+        "gula darah",
+        "metabolisme",
+        "umur panjang"
+      ],
+      "sources": [
+        "Yin J, Metabolism 2008",
+        "Zhang Y, J Clin Endocrinol Metab 2008"
+      ]
+    },
+    {
+      "id": "coq10",
+      "name": "CoQ10",
+      "aliases": [
+        "Coenzyme Q10",
+        "Ubiquinol",
+        "Ubiquinone"
+      ],
+      "category": "longevity",
+      "emoji": "⚡",
+      "shortDescription": "Kesehatan jantung dan antioksidan seluler.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Bersama lemak."
+      },
+      "synergies": [
+        "omega3",
+        "resveratrol"
+      ],
+      "synergyReasons": {
+        "omega3": "Keduanya mendukung kesehatan kardiovaskular dan integritas membran mitokondria.",
+        "resveratrol": "Resveratrol mengaktifkan sirtuin sementara CoQ10 mendukung fungsi mitokondria — jalur umur panjang yang saling melengkapi."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Ion besi bebas dapat mengkatalisis oksidasi CoQ10 (ubiquinol → ubiquinone), sehingga mengurangi aktivitas antioksidan suplemen. Konsumsi zat besi dan CoQ10 setidaknya dengan jarak 2 jam, idealnya pada waktu makan yang berbeda. (Derek FL, Mitokondria 2007)"
+      },
+      "commonDoses": "100–300 mg daily (ubiquinol form preferred)",
+      "notes": "Ubiquinol (reduced form) is better absorbed than ubiquinone, especially in people over 40. Essential consideration for those on statin medications — statins inhibit the same pathway used to synthesize CoQ10.",
+      "tags": [
+        "energi",
+        "kesehatan jantung",
+        "mitokondria"
+      ],
+      "sources": [
+        "Mortensen SA, JACC Heart Fail 2014 (Q-SYMBIO trial)",
+        "Crane FL, Mitochondrion 2007"
+      ]
+    },
+    {
+      "id": "resveratrol",
+      "name": "Resveratrol",
+      "aliases": [
+        "Trans-Resveratrol",
+        "Polygonum Cuspidatum Extract"
+      ],
+      "category": "longevity",
+      "emoji": "🍇",
+      "shortDescription": "Senyawa umur panjang.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Pagi dengan lemak (seperti minyak zaitun/yogurt)."
+      },
+      "synergies": [
+        "coq10",
+        "nmn_nr",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "coq10": "CoQ10 mendukung fungsi mitokondria; resveratrol mengaktifkan sirtuin — mekanisme umur panjang yang saling melengkapi.",
+        "nmn_nr": "NMN/NR meningkatkan kadar NAD+; resveratrol mengaktifkan sirtuin yang bergantung pada NAD+ — kombinasi umur panjang yang telah banyak diteliti."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Resveratrol mengkelat ion besi, membentuk kompleks besi-resveratrol stabil yang mengurangi penyerapan zat besi dan bioavailabilitas resveratrol. Jika menambah zat besi karena kekurangan, konsumsilah secara terpisah. (Scheers N, Nutrisi 2020; Joven J, Crit Rev Food Sci 2014)"
+      },
+      "commonDoses": "250–500 mg daily",
+      "notes": "Trans-resveratrol is the bioactive form. Oral bioavailability is low due to rapid metabolism — micronized or liposomal forms improve absorption. Human longevity evidence is still emerging; most robust data is preclinical.",
+      "tags": [
+        "anti-penuaan",
+        "antioksidan",
+        "kesehatan jantung"
+      ],
+      "sources": [
+        "Baur JA, Nature 2006",
+        "Timmers S, Cell Metab 2011"
+      ]
+    },
+    {
+      "id": "nmn_nr",
+      "name": "NMN / NR",
+      "aliases": [
+        "Nicotinamide Mononucleotide",
+        "Nicotinamide Riboside",
+        "NMN",
+        "NR",
+        "Tru Niagen"
+      ],
+      "category": "longevity",
+      "emoji": "🔬",
+      "shortDescription": "Anti-penuaan dan energi seluler (prekursor NAD+).",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Pagi."
+      },
+      "synergies": [
+        "resveratrol",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "resveratrol": "Resveratrol mengaktifkan sirtuin yang mengkonsumsi NAD+ — meningkatkan NAD+ dengan NMN/NR menyediakan substrat untuk reaksi ini.",
+        "coq10": "Keduanya mendukung produksi energi mitokondria dan mengurangi disfungsi mitokondria terkait usia."
+      },
+      "interactions": [
+        "vitamin_b_complex"
+      ],
+      "interactionReasons": {
+        "vitamin_b_complex": "NMN dan NR dimetabolisme menjadi nikotinamid (suatu bentuk niasin/B3). Dikombinasikan dengan B-kompleks yang sudah mengandung niasin, total beban nikotinamid mungkin melebihi batas atas yang dapat ditoleransi (35 mg/hari untuk flushing), berpotensi menyebabkan flushing, peningkatan enzim hati, atau resistensi insulin pada dosis yang sangat tinggi. Pantau total asupan niasin. (Trammell SA, Nat Commun 2016; NIH ODS niasin UL)"
+      },
+      "commonDoses": "250–500 mg NMN or 300 mg NR daily",
+      "notes": "Human research is promising but not yet conclusive for longevity claims — most robust data is in animal models. NMN is more expensive; NR (e.g., Tru Niagen) has more published human trials. Both raise blood NAD+ levels in human studies.",
+      "tags": [
+        "anti-penuaan",
+        "energi seluler",
+        "perbaikan DNA"
+      ],
+      "sources": [
+        "Yoshino J, Cell Metab 2021",
+        "Dollerup OL, Diabetes 2018 (NR in humans)"
+      ]
+    },
+    {
+      "id": "curcumin",
+      "name": "Kurkumin (Kunyit)",
+      "aliases": [
+        "Curcuma Longa",
+        "Curcuminoids",
+        "Turmeric Extract",
+        "BCM-95"
+      ],
+      "category": "gut",
+      "emoji": "🟡",
+      "shortDescription": "Anti-inflamasi super alami.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Dengan lemak dan lada hitam."
+      },
+      "synergies": [
+        "black_pepper",
+        "omega3",
+        "piperine"
+      ],
+      "synergyReasons": {
+        "black_pepper": "Piperin menghambat glukuronidasi kurkumin, meningkatkan bioavailabilitasnya ~20 kali lipat (2.000%) — selalu gabungkan keduanya.",
+        "omega3": "Keduanya mengurangi peradangan melalui jalur komplementer (penghambatan NF-κB vs. modulasi eicosanoid).",
+        "piperine": "Piperin meningkatkan bioavailabilitas sistemik kurkumin hingga 2000%."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Kurkumin adalah obat pengkelat zat besi yang ampuh – ia membentuk kompleks yang tidak larut dengan zat besi di usus, sehingga secara signifikan mengurangi penyerapan zat besi. Terutama relevan bagi orang-orang dengan kekurangan zat besi atau anemia. Ambil kurkumin dan setrika dengan jarak minimal 3 jam. (Tuntipopipat S, J Nutr 2006; Jiao Y, Kimia Makanan 2009)"
+      },
+      "commonDoses": "500–2,000 mg curcuminoids daily",
+      "notes": "Plain turmeric powder has very poor bioavailability. Use formulations with piperine (BioPerine), phospholipid complex (Meriva, BCM-95), or nanoparticle delivery systems.",
+      "tags": [
+        "anti-inflamasi",
+        "sendi",
+        "antioksidan"
+      ],
+      "sources": [
+        "Shoba G, Planta Med 1998",
+        "Aggarwal BB, Biochem Pharmacol 2006"
+      ]
+    },
+    {
+      "id": "black_pepper",
+      "name": "Ekstrak Lada Hitam (Piperin)",
+      "aliases": [
+        "Piperine",
+        "BioPerine"
+      ],
+      "category": "gut",
+      "emoji": "🌶️",
+      "shortDescription": "Peningkat penyerapan suplemen lainnya.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": ""
+      },
+      "synergies": [
+        "curcumin",
+        "resveratrol"
+      ],
+      "synergyReasons": {
+        "curcumin": "Piperin menghambat metabolisme intestinal dan hepatik kurkumin, meningkatkan bioavailabilitas ~20 kali lipat — selalu gabungkan keduanya.",
+        "resveratrol": "Piperine juga dapat mengurangi metabolisme lintas pertama resveratrol, sehingga berpotensi meningkatkan penyerapannya."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Piperin secara kuat menghambat CYP1A2 — enzim hepatik utama yang bertanggung jawab untuk metabolisme kafein. Penggunaan gabungan dapat meningkatkan konsentrasi plasma kafein sebesar 50–100%, secara signifikan meningkatkan risiko efek samping terkait kafein (kecemasan, takikardia, insomnia). Gunakan dengan hati-hati saat dikombinasikan. (Bhardwaj RK, J Pharmacol Exp Ther 2002)"
+      },
+      "commonDoses": "5–20 mg daily",
+      "notes": "Usually included at 5 mg in curcumin formulations. Stand-alone dosing is rarely needed. High doses (>20 mg) may affect absorption of certain medications — consult a doctor if taking prescription drugs.",
+      "tags": [
+        "bioavailability",
+        "absorption",
+        "gut"
+      ],
+      "sources": [
+        "Shoba G, Planta Med 1998"
+      ]
+    },
+    {
+      "id": "vitamin_b_complex",
+      "name": "Vitamin B Kompleks",
+      "aliases": [
+        "B-Complex",
+        "B Vitamins",
+        "Multivitamin B"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Dukungan energi dan saraf yang menyeluruh.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Pagi saat sarapan."
+      },
+      "synergies": [
+        "vitamin_b12",
+        "folate"
+      ],
+      "synergyReasons": {
+        "vitamin_b12": "B kompleks menyediakan rangkaian lengkap vitamin B; B12 mandiri berguna untuk vegan atau mereka yang mengalami defisit penyerapan.",
+        "folate": "Semua vitamin B mendukung siklus metilasi — folat dan B12 adalah kofaktor yang paling kritis."
+      },
+      "interactions": [
+        "nmn_nr"
+      ],
+      "interactionReasons": {
+        "nmn_nr": "NMN dan NR dimetabolisme menjadi nikotinamid (niasin/B3). Dikombinasikan dengan B-kompleks yang sudah mengandung niasin (B3), total asupan nikotinamid mungkin melebihi tingkat aman, berisiko menyebabkan niasin flush, peningkatan enzim hati, atau gangguan kontrol glukosa pada dosis tinggi. Pantau total asupan niasin. (Trammell SA, Nat Commun 2016; NIH ODS niasin UL 35 mg/hari)"
+      },
+      "commonDoses": "1 serving daily (varies by product; follow label)",
+      "notes": "Methylated forms (methylfolate, methylcobalamin) are preferred for better bioavailability. Urine may turn bright yellow from riboflavin (B2) — this is normal and harmless.",
+      "tags": [
+        "energi",
+        "otak",
+        "stres",
+        "untuk pemula"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Kennedy DO, Nutrients 2016"
+      ]
+    },
+    {
+      "id": "nac",
+      "name": "NAC",
+      "aliases": [
+        "N-Acetyl Cysteine",
+        "N-Acetyl L-Cysteine"
+      ],
+      "category": "gut",
+      "emoji": "🛡️",
+      "shortDescription": "Membantu detoksifikasi hati dan pernapasan.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Bersama makanan."
+      },
+      "synergies": [
+        "vitamin_c",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Keduanya mendukung sintesis glutathion dan bertindak sebagai antioksidan yang saling melengkapi — Vitamin C dapat meregenerasi glutathion yang teroksidasi.",
+        "coq10": "Bersama-sama mereka memberikan perlindungan mitokondria yang komprehensif dan dukungan antioksidan."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "NAC mengandung gugus tiol (sulfhidril) bebas yang mengkelat besi, membentuk kompleks besi-NAC di usus. Ini mengurangi bioavailabilitas besi — terutama penting bagi orang yang mengonsumsi suplemen besi untuk defisiensi. Pisahkan setidaknya 2 jam. (Haase H, Metallomics 2012; Aldini G, Free Radic Res 2018)"
+      },
+      "commonDoses": "600–1,800 mg daily (split doses)",
+      "notes": "One of the most effective glutathione precursors. Used medically for acetaminophen overdose and respiratory conditions. Note: the FDA attempted to restrict NAC as a supplement in 2020 — regulatory status may vary by region. Consult current local regulations.",
+      "tags": [
+        "hati",
+        "paru-paru"
+      ],
+      "sources": [
+        "Mokhtari V, J Cell Biochem 2017",
+        "Aldini G, Free Radic Res 2018"
+      ]
+    },
+    {
+      "id": "vitamin_e",
+      "name": "Vitamin E",
+      "aliases": [
+        "Tocopherol",
+        "Alpha-Tocopherol",
+        "Mixed Tocopherols"
+      ],
+      "category": "vitamins",
+      "emoji": "🌻",
+      "shortDescription": "Antioksidan larut lemak yang baik untuk kulit.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Bersama makanan."
+      },
+      "synergies": [
+        "vitamin_c",
+        "selenium",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C meregenerasi Vitamin E yang teroksidasi, memperpanjang aktivitas antioksidannya dalam membran sel.",
+        "selenium": "Selenium (sebagai glutathion peroksidase) dan Vitamin E bekerja secara sinergis untuk menetralisir peroksida lipid.",
+        "omega3": "Vitamin E melindungi asam lemak omega-3 dari oksidasi baik dalam suplemen maupun dalam membran sel."
+      },
+      "interactions": [
+        "iron",
+        "vitamin_k2"
+      ],
+      "interactionReasons": {
+        "iron": "Vitamin E dapat menghambat penyerapan besi ketika dikonsumsi bersamaan. Pisahkan setidaknya 2 jam. (Lynch SR, Am J Clin Nutr 1980)",
+        "vitamin_k2": "Vitamin E dosis tinggi (>300 IU/hari) secara kompetitif menghambat enzim γ-karboksilase yang bergantung pada vitamin K, mengurangi kemampuan K2 untuk mengaktifkan osteokalsin dan matriks protein Gla. Jaga dosis Vitamin E dalam jumlah sedang (<200 IU) jika mengonsumsi K2 untuk manfaat tulang atau kardiovaskular. (Booth SL, Am J Clin Nutr 2004)"
+      },
+      "commonDoses": "100–400 IU daily (as mixed tocopherols preferred)",
+      "notes": "Choose 'mixed tocopherols' (alpha, beta, gamma, delta) over synthetic dl-alpha-tocopherol for better biological activity. High doses (>400 IU/day) may increase bleeding risk in those on anticoagulants.",
+      "tags": [
+        "kesehatan kulit",
+        "antioksidan"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Traber MG, Adv Nutr 2014"
+      ]
+    },
+    {
+      "id": "vitamin_a",
+      "name": "Vitamin A",
+      "aliases": [
+        "Retinol",
+        "Beta-Carotene",
+        "Retinyl Palmitate"
+      ],
+      "category": "vitamins",
+      "emoji": "🥕",
+      "shortDescription": "Penglihatan dan regenerasi sel kulit.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Bersama makanan."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "zinc",
+        "vitamin_e"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Vitamin A dan D berbagi jalur reseptor nuklir dan bekerja bersama untuk mengatur fungsi imun dan ekspresi gen.",
+        "zinc": "Zinc diperlukan untuk sintesis protein pengikat retinol, yang mengangkut Vitamin A dalam darah.",
+        "vitamin_e": "Vitamin E melindungi Vitamin A dari oksidasi di usus dan jaringan."
+      },
+      "interactions": [
+        "vitamin_d3"
+      ],
+      "interactionReasons": {
+        "vitamin_d3": "Vitamin A (retinol, >5.000 IU/hari) dosis tinggi menghambat sinyal reseptor Vitamin D dan telah dikaitkan dengan penurunan kepadatan mineral tulang meskipun suplementasi D3 memadai. Jaga agar rasio A:D tetap seimbang — perkiraan rasio optimal kira-kira 5:1 (IU). Gunakan bentuk beta-karoten untuk mengurangi risiko ini. (Johansson S, J Bone Miner Res 2004; Cannell JJ, Ann Otol Rhinol Laryngol 2008)"
+      },
+      "commonDoses": "2,500–5,000 IU daily (retinol); up to 25,000 IU as beta-carotene",
+      "notes": "Preformed Vitamin A (retinol) can accumulate and become toxic at high doses — do not exceed 10,000 IU/day long-term. Beta-carotene is converted to Vitamin A as needed and is safer. Pregnant women should avoid high-dose retinol supplementation.",
+      "tags": [
+        "penglihatan",
+        "kesehatan kulit"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Semba RD, Proc Nutr Soc 1999"
+      ]
+    },
+    {
+      "id": "vitamin_b6",
+      "name": "Vitamin B6",
+      "aliases": [
+        "Pyridoxine",
+        "Pyridoxal-5-Phosphate",
+        "P5P"
+      ],
+      "category": "vitamins",
+      "emoji": "🧬",
+      "shortDescription": "Penting untuk serotonin dan neurotransmiter.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Pagi."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "vitamin_b12",
+        "folate"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "B6 diperlukan untuk mengangkut magnesium ke dalam sel; keduanya bekerja bersama untuk mendukung tidur, suasana hati, dan sistem saraf.",
+        "vitamin_b12": "B6, B12, dan folat membentuk trio penurun homosistein inti — ketiganya diperlukan untuk mengubah homosistein menjadi metabolit yang aman.",
+        "folate": "B6 dan folat bekerja bersama dalam metabolisme satu karbon, mendukung sintesis DNA dan metilasi."
+      },
+      "commonDoses": "10–50 mg daily (P5P form preferred for direct activity)",
+      "notes": "P5P (pyridoxal-5-phosphate) is the active coenzyme form and does not require liver conversion. Doses above 100 mg/day long-term have been associated with peripheral neuropathy. Most people get adequate B6 from diet; supplementation is most beneficial for those with high protein intake or stress.",
+      "tags": [
+        "mood",
+        "neurotransmitters",
+        "energy",
+        "hormones",
+        "homocysteine"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Stover PJ, Annu Rev Nutr 2004"
+      ]
+    },
+    {
+      "id": "biotin",
+      "name": "Biotin (Vitamin B7)",
+      "aliases": [
+        "Vitamin B7",
+        "Vitamin H",
+        "Coenzyme R"
+      ],
+      "category": "vitamins",
+      "emoji": "💇",
+      "shortDescription": "Rambut, kulit, dan kuku.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Pagi."
+      },
+      "synergies": [
+        "zinc",
+        "vitamin_b_complex"
+      ],
+      "synergyReasons": {
+        "zinc": "Keduanya mendukung struktur keratin; kekurangan salah satunya menyebabkan rambut dan kuku rapuh.",
+        "vitamin_b_complex": "Biotin bekerja secara sinergis dengan vitamin B lainnya dalam metabolisme energi dan makronutrien."
+      },
+      "commonDoses": "2.5–10 mg (2,500–10,000 mcg) daily",
+      "notes": "High-dose biotin (>5 mg/day) can interfere with thyroid and troponin lab tests, causing false results. Inform your doctor if supplementing biotin before blood tests. True biotin deficiency is rare but more common in those consuming raw egg whites regularly (avidin blocks biotin absorption).",
+      "tags": [
+        "rambut dan kulit",
+        "kesehatan kuku"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Patel DP, Skin Appendage Disord 2017"
+      ]
+    },
+    {
+      "id": "magnesium_citrate",
+      "name": "Magnesium Sitrat",
+      "aliases": [
+        "Mag Citrate"
+      ],
+      "category": "vitamins",
+      "emoji": "🪨",
+      "shortDescription": "Magnesium ringan, juga membantu mencegah sembelit.",
+      "timing": {
+        "preferredTime": "beforeSleep",
+        "takeWithFood": false,
+        "reason": "Malam."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "vitamin_b6"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnesium diperlukan untuk mengaktifkan Vitamin D — tanpa magnesium yang cukup, suplementasi D3 kurang efektif.",
+        "vitamin_b6": "B6 memfasilitasi transportasi magnesium ke dalam sel, meningkatkan aktivitas intraselulernya."
+      },
+      "interactions": [
+        "iron",
+        "calcium",
+        "zinc"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium bersaing dengan zat besi untuk penyerapan pengangkut logam divalen (DMT1) di usus. Konsumsi zat besi dan magnesium setidaknya dengan jarak 2 jam, terutama ketika mengobati kekurangan zat besi. (NIH ODS; Minihane AM, Br J Nutr 1998)",
+        "calcium": "Kalsium dan magnesium bersaing untuk berbagi saluran penyerapan usus. Dosis tinggi keduanya mengurangi bioavailabilitas yang lain. Pisahkan minimal 2 jam. (Seelig MS, JAMA 1975; NIH ODS)",
+        "zinc": "Magnesium dosis tinggi (>350 mg unsur) bersaing dengan seng untuk penyerapan transporter mineral divalen. Pada dosis suplemen tertentu, efeknya kecil; ruang selama 1-2 jam jika menggunakan dosis terapeutik salah satunya. (NIH ODS)"
+      },
+      "commonDoses": "200–400 mg elemental magnesium daily",
+      "notes": "Citrate form has good bioavailability and a mild osmotic laxative effect, making it useful for those with constipation. For those prone to loose stools, magnesium glycinate or malate may be better tolerated. Count elemental magnesium (not total salt weight) when dosing. If taking multiple magnesium forms in a day, space doses by at least 6 hours.",
+      "tags": [
+        "relaxation",
+        "sleep",
+        "digestion",
+        "muscle",
+        "beginner-friendly"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Schuchardt JP, Curr Nutr Food Sci 2017"
+      ]
+    },
+    {
+      "id": "magnesium_taurate",
+      "name": "Magnesium Taurate",
+      "aliases": [
+        "Mag Taurate",
+        "Magnesium Taurinate"
+      ],
+      "category": "vitamins",
+      "emoji": "❤️",
+      "shortDescription": "Combines magnesium with taurine for cardiovascular health, blood pressure regulation, and blood sugar support.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Take in the evening with food — food increases magnesium absorption by up to 40% and reduces stomach discomfort."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "vitamin_b6",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnesium diperlukan untuk mengaktifkan Vitamin D — tanpa magnesium yang cukup, suplementasi D3 kurang efektif.",
+        "vitamin_b6": "Vitamin B6 meningkatkan transportasi magnesium ke dalam sel, meningkatkan kadar magnesium intraseluler.",
+        "l_theanine": "Baik taurin (dalam magnesium taurat) maupun L-theanine mendukung ketenangan dan relaksasi melalui mekanisme GABAergik yang saling melengkapi."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium bersaing dengan besi pada pengangkut logam divalen usus (DMT1). Suplementasi zat besi minimal 2 jam. (NIH ODS; Minihane AM, Br J Nutr 1998)",
+        "calcium": "Kalsium dan magnesium bersaing untuk berbagi saluran penyerapan usus. Dosis tinggi keduanya mengurangi bioavailabilitas yang lain. Pisahkan minimal 2 jam. (Seelig MS, JAMA 1975; NIH ODS)"
+      },
+      "commonDoses": "125–500 mg elemental magnesium daily",
+      "notes": "The taurine component provides additional cardiovascular and neurological support. Caution: may potentiate the effects of digoxin (risk of toxicity — consult your cardiologist). Macrolide antibiotics (e.g. azithromycin, clarithromycin) should be taken at least 2 hours apart from magnesium. If taking multiple magnesium forms in a day, space doses by at least 6 hours.",
+      "tags": [
+        "cardiovascular",
+        "blood pressure",
+        "blood sugar",
+        "heart"
+      ],
+      "sources": [
+        "McCarty MF, Med Hypotheses 1996",
+        "Shao M, Front Pharmacol 2022",
+        "NIH ODS"
+      ]
+    },
+    {
+      "id": "magnesium_oxide",
+      "name": "Magnesium Oxide",
+      "aliases": [
+        "Mag Oxide",
+        "MgO"
+      ],
+      "category": "vitamins",
+      "emoji": "🧲",
+      "shortDescription": "Very low bioavailability magnesium form used primarily as a laxative, not for deficiency correction.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": false,
+        "reason": "Take in the evening — primarily used for its osmotic laxative effect. Food co-administration is optional since absorption is minimal regardless."
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium bersaing dengan besi pada pengangkut logam divalen usus. Suplementasi zat besi minimal 2 jam. (NIH ODS)",
+        "calcium": "Kalsium dan magnesium bersaing untuk saluran penyerapan intestinal yang sama. Pisahkan setidaknya 2 jam. (NIH ODS)"
+      },
+      "commonDoses": "250–500 mg daily (laxative use)",
+      "notes": "Only ~4% of elemental magnesium in oxide form is absorbed — the lowest bioavailability of all magnesium salts. Not recommended for correcting magnesium deficiency. Choose glycinate, malate, or citrate instead for repletion. Oxide is only suitable as a cost-effective osmotic laxative for occasional constipation relief.",
+      "tags": [
+        "digestion",
+        "laxative"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Meijer P, Magnes Res 2003",
+        "Lindberg JS, J Am Coll Nutr 1990"
+      ]
+    },
+    {
+      "id": "vitamin_b1",
+      "name": "Vitamin B1 (Tiamin)",
+      "aliases": [
+        "Thiamine",
+        "Thiamin",
+        "Benfotiamine"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Pengubah karbohidrat menjadi energi.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Pagi."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "Semua vitamin B bekerja sama dalam metabolisme energi; B1 paling efektif sebagai bagian dari B-kompleks lengkap.",
+        "magnesium_glycinate": "Magnesium adalah kofaktor untuk enzim yang bergantung pada tiamin — keduanya bekerja bersama dalam produksi ATP."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Kafein menghambat protein transporter intestinal tiamin (B1) (ThTr1/ThTr2) dan meningkatkan ekskresi tiamin urin. Asupan kafein tinggi secara teratur dapat berkontribusi pada penipisan tiamin marginal dari waktu ke waktu. Pisahkan suplementasi tiamin dari kafein setidaknya 1 jam. (Said HM, Am J Physiol 1999; Stein J, Am J Physiol 1987)"
+      },
+      "commonDoses": "50–100 mg daily (standard); 150–600 mg for benfotiamine (fat-soluble form)",
+      "notes": "Benfotiamine is a fat-soluble synthetic derivative of B1 with superior bioavailability and is particularly studied for diabetic neuropathy and metabolic support. Thiamine deficiency is associated with alcohol overuse, restrictive diets, and bariatric surgery.",
+      "tags": [
+        "energy",
+        "nerves",
+        "cardiovascular",
+        "metabolism"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Thornalley PJ, Ann N Y Acad Sci 2005"
+      ]
+    },
+    {
+      "id": "st_johns_wort",
+      "aliases": [
+        "Sarı Kantaron"
+      ],
+      "category": "brain",
+      "emoji": "🌻",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "vitamin_d3"
+      ],
+      "commonDoses": "300-900 mg",
+      "tags": [
+        "mood",
+        "depression"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "St. John's Wort",
+      "shortDescription": "Peningkat suasana hati tradisional.",
+      "notes": "Strong inducer of CYP3A4, interacting with many medications and supplements.",
+      "interactionReasons": {
+        "vitamin_d3": "John's Wort sangat menginduksi CYP3A4, yang dapat mempercepat metabolisme Vitamin D dan menurunkan kadar serumnya."
+      }
+    },
+    {
+      "id": "copper",
+      "aliases": [
+        "Cu"
+      ],
+      "category": "vitamins",
+      "emoji": "🪙",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "zinc"
+      ],
+      "commonDoses": "1-2 mg",
+      "tags": [
+        "minerals"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Tembaga",
+      "shortDescription": "Trace mineral.",
+      "notes": "Avoid taking at the same time as zinc.",
+      "interactionReasons": {
+        "zinc": "Dosis tinggi zinc dapat memerangkap tembaga di usus, menyebabkan defisiensi. Rasio yang seimbang diperlukan."
+      }
+    },
+    {
+      "id": "green_tea_extract",
+      "aliases": [
+        "EGCG"
+      ],
+      "category": "longevity",
+      "emoji": "🍵",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "iron"
+      ],
+      "commonDoses": "250-500 mg",
+      "tags": [
+        "antioxidant"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Ekstrak Teh Hijau",
+      "shortDescription": "Pembakar lemak dan antioksidan.",
+      "notes": "Do not take closely with iron supplements.",
+      "interactionReasons": {
+        "iron": "EGCG dalam teh hijau mengikat zat besi sehingga mengurangi penyerapan keduanya. Beri jarak minimal 2 jam."
+      }
+    },
+    {
+      "id": "levothyroxine",
+      "aliases": [
+        "Thyroid Medication"
+      ],
+      "category": "longevity",
+      "emoji": "💊",
+      "timing": {
+        "preferredTime": "early_morning",
+        "takeWithFood": false,
+        "reason": "Perut benar-benar kosong."
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "ashwagandha",
+        "calcium",
+        "iron",
+        "zinc",
+        "magnesium_glycinate"
+      ],
+      "commonDoses": "-",
+      "tags": [
+        "medication"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Levotiroksin (Obat Tiroid)",
+      "shortDescription": "Obat untuk hipotiroidisme.",
+      "notes": "Take strictly on an empty stomach away from minerals.",
+      "interactionReasons": {
+        "ashwagandha": "Ashwagandha dapat secara alami meningkatkan kadar T3 dan T4. Menggabungkan dengan obat tiroid dapat menimbulkan risiko efek seperti hipertiroidisme.",
+        "calcium": "Mineral menghalangi penyerapan levotiroksin. Pisahkan 4 jam.",
+        "iron": "Mineral menghalangi penyerapan levotiroksin. Pisahkan 4 jam.",
+        "zinc": "Mineral menghalangi penyerapan levotiroksin. Pisahkan 4 jam.",
+        "magnesium_glycinate": "Mineral menghalangi penyerapan levotiroksin. Pisahkan 4 jam."
+      }
+    },
+    {
+      "id": "5_htp",
+      "name": "5-HTP (Griffonia)",
+      "aliases": [
+        "5-Hydroxytryptophan",
+        "Griffonia Seed Extract"
+      ],
+      "category": "sleep",
+      "emoji": "😊",
+      "shortDescription": "Direct serotonin precursor that improves mood, reduces anxiety, and promotes deeper sleep without dependence.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": false,
+        "reason": "Evening on an empty stomach for sleep benefits — serotonin converts to melatonin overnight."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "vitamin_b6",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Magnesium is a cofactor in the enzymatic conversion of 5-HTP to serotonin, amplifying its effect.",
+        "vitamin_b6": "B6 (pyridoxal-5-phosphate) is essential for aromatic amino acid decarboxylase — the enzyme that converts 5-HTP to serotonin.",
+        "l_theanine": "L-Theanine promotes GABA-mediated calm while 5-HTP elevates serotonin — together they address both anxious and depressive components of sleep disruption."
+      },
+      "interactions": [
+        "st_johns_wort",
+        "nac"
+      ],
+      "interactionReasons": {
+        "st_johns_wort": "Both increase serotonin availability — combining them risks serotonin syndrome (agitation, confusion, rapid heart rate). Do not combine without medical supervision.",
+        "nac": "NAC increases glutathione, which can modulate serotonin metabolism. The interaction is mild but monitor for mood changes."
+      },
+      "commonDoses": "50–300 mg daily",
+      "notes": "Start with 50–100 mg to assess tolerance. Do not combine with SSRIs, SNRIs, or MAOIs without physician guidance. Short-term (8–12 week) cycles are safer than continuous use.",
+      "tags": [
+        "mood",
+        "sleep",
+        "serotonin",
+        "anxiety"
+      ],
+      "sources": [
+        "Birdsall TC, Altern Med Rev 1998",
+        "Ravindran AV, CNS Drugs 2010"
+      ]
+    },
+    {
+      "id": "ala",
+      "name": "Asam Alfa-Lipoat (ALA)",
+      "aliases": [
+        "ALA",
+        "R-ALA",
+        "Na-R-ALA",
+        "Thioctic Acid"
+      ],
+      "category": "longevity",
+      "emoji": "⚗️",
+      "shortDescription": "Universal antioxidant that regenerates vitamins C and E, improves insulin sensitivity, reduces nerve damage, and chelates heavy metals.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Fasted absorption is significantly higher — take 30 minutes before meals for maximum bioavailability."
+      },
+      "synergies": [
+        "vitamin_c",
+        "vitamin_e",
+        "coq10",
+        "nac",
+        "vitamin_b1"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "ALA directly regenerates oxidized vitamin C back to its active ascorbate form — among the most potent antioxidant recycling synergies.",
+        "vitamin_e": "ALA regenerates vitamin E (alpha-tocopherol) from its oxidized form, extending its protective duration.",
+        "coq10": "Both support mitochondrial energy production and membrane protection — synergistic against mitochondrial dysfunction.",
+        "nac": "NAC raises glutathione while ALA both recycles glutathione and independently scavenges free radicals — comprehensive antioxidant defense.",
+        "vitamin_b1": "ALA functions as a cofactor with thiamine (B1) in the pyruvate dehydrogenase complex, making them metabolically interdependent."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "200–600 mg daily (R-ALA preferred over racemic ALA)",
+      "notes": "R-ALA is the biologically active form with 3–5x better potency. Na-R-ALA (sodium salt) is stabilized and more bioavailable. ALA mildly lowers blood sugar — diabetics should monitor glucose closely.",
+      "tags": [
+        "antioxidant",
+        "insulin sensitivity",
+        "neuroprotection",
+        "heavy metal",
+        "longevity"
+      ],
+      "sources": [
+        "Shay KP, Biochim Biophys Acta 2009",
+        "Ziegler D, Diabetes Care 2006"
+      ]
+    },
+    {
+      "id": "astaxanthin",
+      "name": "Astaxanthin",
+      "aliases": [
+        "Haematococcus Astaxanthin",
+        "Natural Astaxanthin"
+      ],
+      "category": "longevity",
+      "emoji": "🦞",
+      "shortDescription": "Marine carotenoid 6,000x more potent than vitamin C as an antioxidant — protects skin, eyes, muscles, and mitochondria from oxidative damage.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Fat-soluble carotenoid — bioavailability increases 3-7x when taken with fat-containing food."
+      },
+      "synergies": [
+        "vitamin_c",
+        "vitamin_e",
+        "omega3",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C works in aqueous environments while astaxanthin protects lipid membranes — together they provide complete cellular antioxidant coverage.",
+        "vitamin_e": "Both are lipid-soluble antioxidants that protect cell membranes — astaxanthin spans the entire membrane bilayer while vitamin E protects only the outer layer.",
+        "omega3": "Omega-3 fatty acids increase the risk of lipid peroxidation; astaxanthin specifically protects polyunsaturated fatty acids from oxidation — a natural pairing.",
+        "coq10": "Both protect mitochondrial membranes and support energy production — synergistic mitochondrial antioxidant coverage."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "4–12 mg daily",
+      "notes": "Most concentrated natural source is Haematococcus pluvialis microalgae. Skin benefits (UV protection, elasticity) appear at 4 mg/day after 4–8 weeks. Unlike beta-carotene, no toxicity concern at standard doses.",
+      "tags": [
+        "antioxidant",
+        "skin",
+        "eye health",
+        "sports recovery",
+        "longevity"
+      ],
+      "sources": [
+        "Guerin M, Trends Biotechnol 2003",
+        "Fassett RG, Mar Drugs 2011"
+      ]
+    },
+    {
+      "id": "bacopa_monnieri",
+      "name": "Bacopa Monnieri",
+      "aliases": [
+        "Bacopa",
+        "Brahmi",
+        "Water Hyssop"
+      ],
+      "category": "brain",
+      "emoji": "🧠",
+      "shortDescription": "Ayurvedic herb that enhances memory formation, speeds information processing, and reduces anxiety through neurotrophic and antioxidant mechanisms.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Always take with fat-containing food — bacosides are fat-soluble and bioavailability drops sharply without dietary fat."
+      },
+      "synergies": [
+        "lions_mane",
+        "alpha_gpc",
+        "ginkgo_biloba",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "lions_mane": "Lion's Mane promotes NGF (nerve growth) while Bacopa enhances synaptic communication and memory encoding — complementary neuroplasticity stack.",
+        "alpha_gpc": "Alpha-GPC boosts acetylcholine synthesis while Bacopa inhibits acetylcholinesterase (slows breakdown) — synergistic cholinergic enhancement.",
+        "ginkgo_biloba": "Ginkgo improves cerebral blood flow while Bacopa enhances memory consolidation — addressing delivery and processing together.",
+        "omega3": "DHA in omega-3 supports neuronal membrane fluidity while Bacopa's bacosides enhance synaptic plasticity."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "300–600 mg daily (standardized to 50% bacosides)",
+      "notes": "Requires 8–12 weeks of consistent use for full memory benefits — unlike stimulants, effects build gradually. May cause GI upset if taken without food. Most studied at 300 mg of the KM Syriva KeenMind/Naturex extract.",
+      "tags": [
+        "memory",
+        "cognitive",
+        "adaptogen",
+        "anxiety",
+        "learning"
+      ],
+      "sources": [
+        "Roodenrys S, Neuropsychopharmacology 2002",
+        "Calabrese C, J Altern Complement Med 2008"
+      ]
+    },
+    {
+      "id": "bcaa",
+      "name": "BCAA (Asam Amino Rantai Cabang)",
+      "aliases": [
+        "BCAAs",
+        "Leucine",
+        "Isoleucine",
+        "Valine"
+      ],
+      "category": "performance",
+      "emoji": "💪",
+      "shortDescription": "Leucine, isoleucine, and valine — essential amino acids that prevent muscle breakdown, stimulate muscle protein synthesis, and reduce exercise fatigue.",
+      "timing": {
+        "preferredTime": "before_workout",
+        "takeWithFood": false,
+        "reason": "Take 30 minutes before or during exercise — BCAAs are directly oxidized in muscle tissue during exercise."
+      },
+      "synergies": [
+        "creatine",
+        "glutamine",
+        "electrolytes",
+        "vitamin_b6"
+      ],
+      "synergyReasons": {
+        "creatine": "Creatine increases ATP availability for muscle contraction while BCAAs provide the leucine signal for muscle protein synthesis — foundational performance duo.",
+        "glutamine": "Glutamine supports gut integrity and immune function during training while BCAAs fuel muscle — addressing different recovery needs simultaneously.",
+        "electrolytes": "BCAAs reduce muscle fatigue while electrolytes maintain neuromuscular signaling — together they support exercise performance and hydration.",
+        "vitamin_b6": "B6 (PLP) is the essential cofactor for BCAA aminotransferase enzymes — required for the metabolism of all three BCAAs."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "5–20 g daily (2:1:1 or 4:1:1 leucine:isoleucine:valine ratio)",
+      "notes": "If you eat sufficient protein (1.6–2.2 g/kg body weight), additional BCAAs provide limited benefit. Most valuable for fasted training, caloric restriction, or plant-based athletes. Leucine (>2.5 g per dose) is the key muscle-protein-synthesis trigger.",
+      "tags": [
+        "muscle",
+        "performance",
+        "recovery",
+        "anti-catabolic",
+        "protein synthesis"
+      ],
+      "sources": [
+        "Shimomura Y, J Nutr 2006",
+        "Jackman SR, Nutrients 2017"
+      ]
+    },
+    {
+      "id": "cordyceps",
+      "name": "Cordyceps (CS-4)",
+      "aliases": [
+        "Cordyceps sinensis",
+        "CS-4",
+        "Cordyceps militaris"
+      ],
+      "category": "performance",
+      "emoji": "🐛",
+      "shortDescription": "Medicinal fungus that boosts ATP synthesis, increases VO₂ max, improves oxygen utilization, and reduces fatigue in both athletes and older adults.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morning to leverage its energizing, performance-enhancing effects throughout the day; preferably before exercise."
+      },
+      "synergies": [
+        "reishi",
+        "lions_mane",
+        "coq10",
+        "l_carnitine"
+      ],
+      "synergyReasons": {
+        "reishi": "Complementary functional mushrooms: Cordyceps provides daytime energy and athletic performance while Reishi supports evening recovery and immunity.",
+        "lions_mane": "Lion's Mane supports cognitive function while Cordyceps improves physical energy and oxygen efficiency — mind and body performance stack.",
+        "coq10": "Both enhance mitochondrial ATP production through different mechanisms — CoQ10 via electron transport chain, Cordyceps via adenosine and ATP precursors.",
+        "l_carnitine": "Carnitine transports fatty acids into mitochondria while Cordyceps boosts ATP synthesis capacity — synergistic energy metabolism support."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,000–3,000 mg daily (CS-4 mycelium extract preferred)",
+      "notes": "CS-4 (Paecilomyces hepiali) is the extensively studied pharmaceutical strain. Fruiting body products are also available. Improves VO₂ max in older adults in 6-week trials. Safe for daily long-term use.",
+      "tags": [
+        "energy",
+        "athletic performance",
+        "oxygen",
+        "endurance",
+        "VO2max"
+      ],
+      "sources": [
+        "Chen S, J Altern Complement Med 2010",
+        "Baroni L, J Sports Med 2015"
+      ]
+    },
+    {
+      "id": "digestive_enzymes",
+      "name": "Enzim Pencernaan",
+      "aliases": [
+        "Digestive Enzyme Blend",
+        "Bromelain",
+        "Papain",
+        "Pancreatin"
+      ],
+      "category": "gut",
+      "emoji": "⚙️",
+      "shortDescription": "Blend of enzymes (protease, lipase, amylase, lactase) that improves macronutrient digestion, reduces bloating, and enhances nutrient absorption.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Must be taken immediately before or at the start of each meal — enzymes need to mix with food in the stomach."
+      },
+      "synergies": [
+        "probiotics",
+        "prebiotics",
+        "collagen_peptides",
+        "zinc"
+      ],
+      "synergyReasons": {
+        "probiotics": "Digestive enzymes break down food for microbiome fermentation; probiotics maintain the microbial environment that produces some endogenous enzymes — complementary digestive support.",
+        "prebiotics": "Enzymes improve digestion of the polysaccharides that prebiotics deliver to the gut microbiome, enhancing prebiotic effectiveness.",
+        "collagen_peptides": "Digestive enzymes improve collagen peptide digestion and absorption, making collagen supplementation more effective.",
+        "zinc": "Zinc is required for the production of gastric acid and endogenous digestive enzymes — addressing root causes of enzyme insufficiency."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1–2 capsules per meal (look for full-spectrum blends)",
+      "notes": "Most beneficial for IBS, bloating, dairy intolerance, or reduced stomach acid (common with aging, PPIs). Bromelain and papain are plant-based options. Full-spectrum blends (protease + lipase + amylase + lactase + cellulase) cover all food types.",
+      "tags": [
+        "digestion",
+        "bloating",
+        "gut health",
+        "nutrient absorption",
+        "IBS"
+      ],
+      "sources": [
+        "Ianiro G, Med 2016",
+        "Rachman B, Gastroenterol Hepatol 1997"
+      ]
+    },
+    {
+      "id": "elderberry",
+      "name": "Elderberry (Sambucus)",
+      "aliases": [
+        "Sambucus nigra",
+        "Black Elderberry",
+        "Elderberry Extract"
+      ],
+      "category": "gut",
+      "emoji": "🫐",
+      "shortDescription": "Anthocyanin-rich berry that reduces cold and flu severity and duration by inhibiting viral replication and boosting immune response.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Take with food; daily maintenance dose in the morning, higher doses at first sign of illness."
+      },
+      "synergies": [
+        "vitamin_c",
+        "zinc",
+        "vitamin_d3",
+        "probiotics"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C and elderberry anthocyanins provide complementary antioxidant and antiviral immune support.",
+        "zinc": "Zinc inhibits viral replication while elderberry prevents viral attachment to cells — dual-mechanism immune defense.",
+        "vitamin_d3": "Vitamin D3 modulates innate immunity while elderberry provides acute antiviral activity — together they cover both long-term and immediate immune protection.",
+        "probiotics": "Gut microbiome health is central to immune function; probiotics enhance elderberry's systemic immune benefits."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "150–300 mg extract (standardized to 25% anthocyanins) or 10–15 ml syrup daily",
+      "notes": "Clinical evidence strongest for reducing flu severity and duration by 2–4 days. Raw, unripe elderberries contain cyanogenic glycosides — only use properly processed commercial preparations.",
+      "tags": [
+        "immune",
+        "antiviral",
+        "cold & flu",
+        "antioxidant"
+      ],
+      "sources": [
+        "Zakay-Rones Z, J Int Med Res 2004",
+        "Hawkins J, Complement Ther Med 2019"
+      ]
+    },
+    {
+      "id": "fisetin",
+      "name": "Fisetin",
+      "aliases": [
+        "Fisetin Flavonoid",
+        "Longevity Bioscience Fisetin"
+      ],
+      "category": "longevity",
+      "emoji": "🍓",
+      "shortDescription": "Potent senolytic flavonoid found in strawberries that clears senescent cells, crosses the blood-brain barrier, and activates longevity pathways.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fat-containing food dramatically improves bioavailability of this fat-soluble flavonoid."
+      },
+      "synergies": [
+        "quercetin",
+        "resveratrol",
+        "vitamin_c",
+        "black_pepper"
+      ],
+      "synergyReasons": {
+        "quercetin": "Both are senolytics — combining them covers different cell populations and may achieve clearance at lower individual doses, reducing potential side effects.",
+        "resveratrol": "Resveratrol activates SIRT1/AMPK longevity pathways while fisetin clears accumulated senescent cells — structural and functional longevity synergy.",
+        "vitamin_c": "Vitamin C regenerates oxidized fisetin and enhances its bioavailability and duration of action.",
+        "black_pepper": "Piperine in black pepper inhibits fisetin's first-pass metabolism, increasing blood levels by 20–30%."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "100–200 mg daily continuous, or 500–1,500 mg in 2-day senolytic pulses",
+      "notes": "Senolytic protocol (Kirkland et al.): 1,000–1,500 mg for 2 consecutive days/month. Most concentrated food source: strawberries (160 mcg/g). Longevity Bioscience Fisetin uses a phospholipid complex for better absorption.",
+      "tags": [
+        "senolytic",
+        "longevity",
+        "anti-aging",
+        "neuroprotective",
+        "antioxidant"
+      ],
+      "sources": [
+        "Yousefzadeh MJ, EBioMedicine 2018",
+        "Kirkland JL, J Gerontol 2020"
+      ]
+    },
+    {
+      "id": "ginkgo_biloba",
+      "name": "Ginkgo Biloba",
+      "aliases": [
+        "Ginkgo",
+        "EGb 761",
+        "Maidenhair Tree"
+      ],
+      "category": "brain",
+      "emoji": "🍃",
+      "shortDescription": "Ancient tree extract that improves circulation to the brain, enhances memory and processing speed, and reduces age-related cognitive decline.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Take with food to improve tolerability; split into 2 doses (morning/noon) for stable blood levels."
+      },
+      "synergies": [
+        "alpha_gpc",
+        "bacopa_monnieri",
+        "omega3",
+        "vitamin_b12"
+      ],
+      "synergyReasons": {
+        "alpha_gpc": "Alpha-GPC increases acetylcholine synthesis while Ginkgo improves cerebral blood flow — addressing both the neurotransmitter and delivery aspects of cognition.",
+        "bacopa_monnieri": "Bacopa enhances memory consolidation while Ginkgo improves processing speed and circulation — complementary cognitive enhancers.",
+        "omega3": "Omega-3 supports neuronal membrane integrity while Ginkgo improves cerebral blood flow — synergistic for long-term brain health.",
+        "vitamin_b12": "B12 deficiency impairs nerve conduction; combining with Ginkgo's circulation benefits amplifies cognitive protection."
+      },
+      "interactions": [
+        "vitamin_e",
+        "omega3"
+      ],
+      "interactionReasons": {
+        "vitamin_e": "Both Ginkgo and high-dose Vitamin E have mild blood-thinning effects — combining may increase bleeding risk. Space them and keep Vitamin E under 200 IU.",
+        "omega3": "High-dose omega-3 (>3g EPA+DHA) combined with Ginkgo may have additive antiplatelet effects. Moderate doses are generally safe; caution before surgery."
+      },
+      "commonDoses": "120–240 mg daily (standardized to 24% ginkgo flavonoids, 6% terpene lactones)",
+      "notes": "Allow 4–6 weeks for cognitive effects. Avoid before surgery (antiplatelet effect). Use standardized extract (EGb 761 or LI 1370) — raw leaf teas have inconsistent dosing.",
+      "tags": [
+        "cognitive",
+        "memory",
+        "circulation",
+        "anti-aging"
+      ],
+      "sources": [
+        "Vellas B, JAMA 2012",
+        "Kleijnen J, BMJ 1992"
+      ]
+    },
+    {
+      "id": "ginseng",
+      "name": "Ginseng Korea (Panax)",
+      "aliases": [
+        "Korean Ginseng",
+        "Panax Ginseng",
+        "Red Ginseng"
+      ],
+      "category": "brain",
+      "emoji": "🌿",
+      "shortDescription": "Royal adaptogen with 2,000 years of clinical use — enhances physical and cognitive performance, supports immunity, libido, and blood sugar control.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morning on empty stomach for maximum ginsenoside absorption; avoid afternoon/evening — stimulating effect may disrupt sleep."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "rhodiola_rosea",
+        "ginkgo_biloba",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "B vitamins fuel the adrenal and nervous system response that Panax Ginseng modulates — synergistic for sustained energy and stress resilience.",
+        "rhodiola_rosea": "Both are adaptogens but with complementary mechanisms — Ginseng is tonic and immunomodulatory, Rhodiola is acutely anti-fatigue.",
+        "ginkgo_biloba": "Ginkgo improves cerebral circulation while Ginseng's ginsenosides enhance neurotransmitter efficiency — combined cognitive support.",
+        "coq10": "Both support energy production and cardiovascular function — CoQ10 at the mitochondrial level, Ginseng at the systemic/hormonal level."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "200–400 mg daily (standardized to 7% ginsenosides)",
+      "notes": "Panax ginseng ≠ Siberian ginseng (Eleutherococcus). Cycle 3 months on, 1 month off to prevent tolerance. KG-C (Korean Ginseng Corp) and HRG80 are well-studied, patented extracts.",
+      "tags": [
+        "adaptogen",
+        "energy",
+        "immune",
+        "libido",
+        "cognitive",
+        "blood sugar"
+      ],
+      "sources": [
+        "Reay JL, Psychopharmacology 2005",
+        "Kim JH, J Ginseng Res 2012"
+      ]
+    },
+    {
+      "id": "glucosamine",
+      "name": "Glukosamin Sulfat",
+      "aliases": [
+        "Glucosamine",
+        "Glucosamine HCl"
+      ],
+      "category": "performance",
+      "emoji": "🦴",
+      "shortDescription": "Naturally occurring compound that rebuilds cartilage, reduces joint pain, and may slow osteoarthritis progression.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Take with a meal to reduce gastrointestinal upset and improve tolerability."
+      },
+      "synergies": [
+        "msm",
+        "omega3",
+        "collagen_peptides",
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "msm": "MSM provides sulfur needed for cartilage formation while glucosamine provides the structural building blocks — the classic joint supplement combination.",
+        "omega3": "Omega-3 reduces joint inflammation while glucosamine rebuilds cartilage — addressing both cause and structure.",
+        "collagen_peptides": "Collagen provides the matrix framework for cartilage while glucosamine supplies the proteoglycan building blocks.",
+        "vitamin_c": "Vitamin C is essential for collagen synthesis in cartilage and enhances glucosamine's structural repair effects."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,500 mg daily (as glucosamine sulfate)",
+      "notes": "Glucosamine sulfate (not HCl) is the clinically validated form. Allow 6–8 weeks to notice joint benefits. Derived from shellfish — choose plant-based (fermented corn) if allergic.",
+      "tags": [
+        "joint health",
+        "cartilage",
+        "mobility",
+        "anti-inflammatory"
+      ],
+      "sources": [
+        "Reginster JY, Lancet 2001",
+        "Poolsup N, Ann Pharmacother 2005"
+      ]
+    },
+    {
+      "id": "glutamine",
+      "name": "L-Glutamin",
+      "aliases": [
+        "Glutamine",
+        "L-Glutamine Powder"
+      ],
+      "category": "gut",
+      "emoji": "🛡️",
+      "shortDescription": "Most abundant amino acid in the body — critical for gut barrier integrity, immune function, muscle recovery, and reducing intestinal permeability (leaky gut).",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morning fasted for gut barrier support; post-workout for muscle recovery. Split dosing (morning + post-workout) covers both goals."
+      },
+      "synergies": [
+        "probiotics",
+        "collagen_peptides",
+        "zinc",
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "probiotics": "Glutamine maintains tight junction integrity in the gut lining while probiotics maintain a healthy microbiome — comprehensive gut health protection.",
+        "collagen_peptides": "Both repair intestinal connective tissue — glutamine via enterocyte fuel, collagen via structural matrix proteins.",
+        "zinc": "Zinc is required for intestinal cell proliferation while glutamine is the primary fuel for enterocytes — essential cofactors for gut mucosal repair.",
+        "vitamin_c": "Vitamin C supports collagen synthesis in the gut lining while glutamine fuels the epithelial cells — synergistic mucosal healing."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "5–15 g daily",
+      "notes": "Conditionally essential during illness, surgery, or intense training. Most effective for leaky gut at 10–15 g/day for 4+ weeks. Post-surgery and ICU patients benefit most (standard of care in some hospitals). Unflavored powder dissolves easily in water.",
+      "tags": [
+        "gut health",
+        "leaky gut",
+        "immune",
+        "muscle recovery",
+        "IBS"
+      ],
+      "sources": [
+        "Cruzat V, Nutrients 2018",
+        "Kim MH, Int J Mol Sci 2017"
+      ]
+    },
+    {
+      "id": "hyaluronic_acid",
+      "name": "Asam Hialuronat",
+      "aliases": [
+        "HA",
+        "Sodium Hyaluronate",
+        "Hyaluron"
+      ],
+      "category": "performance",
+      "emoji": "💧",
+      "shortDescription": "Natural glycosaminoglycan that lubricates joints, hydrates skin from within, and reduces osteoarthritis pain by restoring synovial fluid.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Take with food for best absorption; oral HA is absorbed via intestinal HA-receptors that are more active in fed state."
+      },
+      "synergies": [
+        "collagen_peptides",
+        "vitamin_c",
+        "glucosamine",
+        "msm"
+      ],
+      "synergyReasons": {
+        "collagen_peptides": "Collagen provides structural protein while hyaluronic acid provides hydration and lubrication — comprehensive skin and joint matrix support.",
+        "vitamin_c": "Vitamin C is essential for both collagen and hyaluronic acid synthesis in connective tissue.",
+        "glucosamine": "Glucosamine stimulates HA production in synovial cells while supplemental HA provides immediate lubrication.",
+        "msm": "MSM reduces inflammation while HA restores joint lubrication — addressing both symptoms and structure of joint degradation."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "80–200 mg daily",
+      "notes": "Low molecular weight HA (< 50 kDa) has better oral bioavailability. High molecular weight HA is preferred for injectable treatments. Skin hydration effects visible in 4–8 weeks. Also improves gum health.",
+      "tags": [
+        "joint health",
+        "skin",
+        "hydration",
+        "anti-aging",
+        "cartilage"
+      ],
+      "sources": [
+        "Nagaoka I, J Nutr 2014",
+        "Tashiro T, Biosci Biotechnol Biochem 2012"
+      ]
+    },
+    {
+      "id": "inositol",
+      "name": "Myo-Inositol",
+      "aliases": [
+        "Inositol",
+        "Myo-Inositol",
+        "D-Chiro-Inositol"
+      ],
+      "category": "brain",
+      "emoji": "🌀",
+      "shortDescription": "Cellular messenger that improves insulin sensitivity, supports mood (PCOS, OCD, anxiety), and regulates reproductive hormones.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morning on an empty stomach for consistent absorption — split dose (morning and evening) is common in PCOS protocols."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "magnesium_glycinate",
+        "folate"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "B vitamins support inositol's role in cellular signaling and nerve function.",
+        "magnesium_glycinate": "Magnesium and inositol both influence GABA and serotonin pathways — complementary mood and anxiety support.",
+        "folate": "Folate and inositol are both critical for methylation and cell growth — important in PCOS and fertility contexts."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "2,000–4,000 mg daily (often in 4:1 Myo:D-Chiro ratio for PCOS)",
+      "notes": "Myo-Inositol + D-Chiro-Inositol at 40:1 ratio is the evidence-based combination for PCOS and insulin resistance. High doses (12g+) may cause mild GI upset.",
+      "tags": [
+        "PCOS",
+        "insulin sensitivity",
+        "mood",
+        "fertility",
+        "hormones"
+      ],
+      "sources": [
+        "Unfer V, Gynecol Endocrinol 2012",
+        "Costantino D, Eur Rev Med Pharmacol 2009"
+      ]
+    },
+    {
+      "id": "l_carnitine",
+      "name": "L-Karnitin",
+      "aliases": [
+        "Carnitine",
+        "L-Carnitine Tartrate",
+        "Acetyl-L-Carnitine",
+        "ALCAR"
+      ],
+      "category": "performance",
+      "emoji": "🔥",
+      "shortDescription": "Transports fatty acids into mitochondria for energy production; supports cardiovascular health and exercise recovery.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Best taken 30–60 minutes before exercise or in the morning fasted; food reduces peak plasma levels."
+      },
+      "synergies": [
+        "coq10",
+        "omega3",
+        "vitamin_b5"
+      ],
+      "synergyReasons": {
+        "coq10": "Both support mitochondrial energy production via complementary mechanisms — carnitine shuttles fatty acids while CoQ10 powers the electron transport chain.",
+        "omega3": "Omega-3 fatty acids enhance carnitine's fat-oxidation effects and reduce exercise-induced inflammation.",
+        "vitamin_b5": "Pantothenic acid (B5) is needed for CoA synthesis, which carnitine depends on for its transport function."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "L-Carnitine biosynthesis requires iron as a cofactor; iron deficiency reduces endogenous carnitine. Not a dangerous interaction — ensure adequate iron intake."
+      },
+      "commonDoses": "1,000–3,000 mg daily",
+      "notes": "L-Carnitine Tartrate is best for exercise performance; Acetyl-L-Carnitine (ALCAR) is preferred for cognitive benefits. Fish-heavy diets provide some dietary carnitine.",
+      "tags": [
+        "energy",
+        "fat metabolism",
+        "performance",
+        "cardiovascular"
+      ],
+      "sources": [
+        "Pekala J, Nutrients 2011",
+        "Fielding R, J Physiol 2011"
+      ]
+    },
+    {
+      "id": "maca_root",
+      "name": "Akar Maca",
+      "aliases": [
+        "Peruvian Maca",
+        "Lepidium meyenii",
+        "Gelatinized Maca"
+      ],
+      "category": "performance",
+      "emoji": "🌰",
+      "shortDescription": "Andean root that enhances libido, supports hormonal balance, improves exercise endurance, and reduces menopause symptoms without altering estrogen or testosterone levels.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Take with food in the morning; if taken for energy, split morning and noon dose. Avoid evening — mildly energizing."
+      },
+      "synergies": [
+        "vitamin_b6",
+        "zinc",
+        "vitamin_d3",
+        "ashwagandha"
+      ],
+      "synergyReasons": {
+        "vitamin_b6": "B6 supports hormonal regulation and sex hormone metabolism, complementing Maca's non-hormonal adaptogenic effects on the endocrine system.",
+        "zinc": "Zinc is essential for testosterone synthesis and sperm health; combined with Maca's aphrodisiac effects, they provide comprehensive male reproductive support.",
+        "vitamin_d3": "Vitamin D3 receptors are present in reproductive tissues; D3 and Maca have synergistic effects on libido and hormonal balance.",
+        "ashwagandha": "Ashwagandha reduces cortisol (indirectly raising testosterone) while Maca directly enhances libido and energy — complementary endocrine adaptogens."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,500–3,000 mg daily (Gelatinized Maca preferred for bioavailability)",
+      "notes": "Gelatinized (pre-cooked) maca has better starch digestibility and higher bioavailability than raw. Yellow maca for general health/libido; Black maca for athletes and cognitive function. Effects on libido appear in 6–8 weeks.",
+      "tags": [
+        "libido",
+        "hormonal balance",
+        "energy",
+        "fertility",
+        "menopause",
+        "endurance"
+      ],
+      "sources": [
+        "Brooks NA, Andrologia 2008",
+        "Gonzales GF, Asian J Androl 2001"
+      ]
+    },
+    {
+      "id": "milk_thistle",
+      "name": "Milk Thistle (Silimarin)",
+      "aliases": [
+        "Silymarin",
+        "Silybum marianum",
+        "Milk Thistle Extract"
+      ],
+      "category": "gut",
+      "emoji": "🌾",
+      "shortDescription": "Liver-protective herb that promotes liver cell regeneration, reduces inflammation, and supports detoxification pathways.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Take with food to improve silymarin absorption (fat-soluble) and minimize gastrointestinal irritation."
+      },
+      "synergies": [
+        "nac",
+        "vitamin_e",
+        "curcumin",
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "nac": "NAC raises intracellular glutathione while silymarin protects liver cells from oxidative damage — powerful liver detox stack.",
+        "vitamin_e": "Both are antioxidants that protect liver cell membranes from lipid peroxidation — complementary hepatoprotective effects.",
+        "curcumin": "Curcumin reduces liver inflammation while milk thistle promotes hepatocyte regeneration — addressing different aspects of liver protection.",
+        "vitamin_c": "Vitamin C regenerates antioxidants used by silymarin, sustaining liver protection."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "140–420 mg silymarin daily (standardized to 70–80% silymarin)",
+      "notes": "Most beneficial with regular alcohol use, medication-induced liver stress, or NAFLD. Phytosome form (silymarin-phosphatidylcholine complex) has 4–10x better bioavailability.",
+      "tags": [
+        "liver",
+        "detox",
+        "anti-inflammatory",
+        "antioxidant"
+      ],
+      "sources": [
+        "Mulrow C, Am J Gastroenterol 2000",
+        "Vargas-Mendoza N, World J Hepatol 2014"
+      ]
+    },
+    {
+      "id": "msm",
+      "name": "MSM (Metilsulfonilmetan)",
+      "aliases": [
+        "MSM",
+        "Dimethyl Sulfone",
+        "OptiMSM"
+      ],
+      "category": "performance",
+      "emoji": "🔩",
+      "shortDescription": "Organic sulfur compound that reduces joint inflammation, muscle soreness, supports collagen synthesis, and enhances antioxidant capacity.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Take with food to reduce GI discomfort; splitting into morning and evening doses improves tolerability."
+      },
+      "synergies": [
+        "glucosamine",
+        "collagen_peptides",
+        "vitamin_c",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "glucosamine": "MSM provides sulfur for proteoglycan synthesis while glucosamine provides the backbone — the evidence-based joint supplement duo.",
+        "collagen_peptides": "Both contribute sulfur-containing amino acids (cysteine in collagen; MSM as sulfur source) needed for collagen cross-linking and cartilage integrity.",
+        "vitamin_c": "Vitamin C is essential for collagen hydroxylation while MSM provides the sulfur — together they support complete connective tissue repair.",
+        "omega3": "Omega-3 reduces joint inflammation while MSM inhibits pro-inflammatory signaling — addressing joint pain from both inflammatory and structural angles."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,000–3,000 mg daily",
+      "notes": "Allow 4–6 weeks before assessing joint benefits. OptiMSM is the most researched and purified commercial form. Also used for skin and hair benefits via sulfur's role in keratin and collagen.",
+      "tags": [
+        "joint health",
+        "anti-inflammatory",
+        "muscle recovery",
+        "collagen",
+        "skin"
+      ],
+      "sources": [
+        "Kim LS, Osteoarthritis Cartilage 2006",
+        "Barmaki S, Acta Physiol Hung 2012"
+      ]
+    },
+    {
+      "id": "phosphatidylserine",
+      "name": "Fosfatidilserin",
+      "aliases": [
+        "PS",
+        "Sharp-PS",
+        "Phospholipid PS"
+      ],
+      "category": "brain",
+      "emoji": "🔬",
+      "shortDescription": "Key phospholipid in neuronal membranes that improves memory, reduces cortisol, and supports ADHD and age-related cognitive decline.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Best absorbed with fat-containing food; split into 2–3 doses with meals for stable blood levels."
+      },
+      "synergies": [
+        "omega3",
+        "alpha_gpc",
+        "bacopa_monnieri",
+        "ashwagandha"
+      ],
+      "synergyReasons": {
+        "omega3": "DHA and EPA from omega-3 are incorporated alongside phosphatidylserine in neuronal membranes — they are structurally interdependent.",
+        "alpha_gpc": "Alpha-GPC supplies the choline backbone for membrane phospholipids while PS provides the serine head — both are essential structural components for optimal neuronal function.",
+        "bacopa_monnieri": "Bacopa's bacosides enhance membrane fluidity and synaptic efficiency while PS ensures optimal membrane structure.",
+        "ashwagandha": "Both reduce cortisol — ashwagandha via HPA axis modulation, PS via direct blunting of cortisol response to exercise and cognitive stress."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "100–400 mg daily",
+      "notes": "Sharp-PS (sunflower lecithin-derived) is preferred over soy-derived PS. FDA-qualified health claim for reducing dementia risk at ≥100 mg/day. Well-studied in children with ADHD.",
+      "tags": [
+        "cognitive",
+        "memory",
+        "cortisol",
+        "ADHD",
+        "anti-aging"
+      ],
+      "sources": [
+        "Kidd PM, Altern Med Rev 1996",
+        "Benton D, Psychopharmacology 2001"
+      ]
+    },
+    {
+      "id": "psyllium_husk",
+      "name": "Kulit Psyllium",
+      "aliases": [
+        "Psyllium",
+        "Ispaghula",
+        "Plantago ovata"
+      ],
+      "category": "gut",
+      "emoji": "🌾",
+      "shortDescription": "Soluble fiber from Plantago ovata that lowers LDL cholesterol, stabilizes blood sugar, promotes regularity, and feeds beneficial gut bacteria.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Take with plenty of water (at least 250 ml); best before meals to reduce post-meal glucose and appetite."
+      },
+      "synergies": [
+        "probiotics",
+        "berberine",
+        "prebiotics"
+      ],
+      "synergyReasons": {
+        "probiotics": "Psyllium's soluble fiber feeds the same beneficial bacteria that probiotics supply — prebiotic and probiotic synergy for gut health.",
+        "berberine": "Both lower blood glucose via complementary mechanisms (psyllium by slowing absorption, berberine by activating AMPK) — synergistic glycemic control.",
+        "prebiotics": "Psyllium husk IS a prebiotic — it ferments into short-chain fatty acids that feed gut microbiota and reduce inflammation."
+      },
+      "interactions": [
+        "iron",
+        "zinc",
+        "calcium",
+        "vitamin_b12"
+      ],
+      "interactionReasons": {
+        "iron": "Psyllium fiber can reduce iron absorption by 10–20% — take iron 2 hours before or after psyllium.",
+        "zinc": "High fiber intake may modestly reduce zinc absorption — space by at least 2 hours.",
+        "calcium": "Fiber can mildly reduce calcium absorption — space by 1–2 hours.",
+        "vitamin_b12": "Very high fiber may slow B12 absorption — take separately."
+      },
+      "commonDoses": "5–15 g daily (1–3 teaspoons of whole husks)",
+      "notes": "Start with 5 g and increase gradually to prevent gas and bloating. Always mix thoroughly in water and drink immediately — gelation occurs quickly. FDA-approved health claim: 7 g/day reduces LDL cholesterol.",
+      "tags": [
+        "fiber",
+        "cholesterol",
+        "blood sugar",
+        "gut health",
+        "regularity"
+      ],
+      "sources": [
+        "Anderson JW, Am J Clin Nutr 2000",
+        "Gibb RD, Nutr J 2015"
+      ]
+    },
+    {
+      "id": "quercetin",
+      "name": "Kuersetin",
+      "aliases": [
+        "Quercetin Phytosome",
+        "Quercetin Dihydrate"
+      ],
+      "category": "longevity",
+      "emoji": "🍎",
+      "shortDescription": "Potent plant flavonoid with antioxidant, anti-inflammatory, and senolytic properties — clears damaged cells to support healthy aging.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fat-soluble flavonoid — food (especially with some fat) significantly increases bioavailability."
+      },
+      "synergies": [
+        "vitamin_c",
+        "resveratrol",
+        "zinc",
+        "fisetin"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C regenerates oxidized quercetin back to its active form, extending its antioxidant activity — a powerful synergistic pair.",
+        "resveratrol": "Both are polyphenols with complementary longevity mechanisms: quercetin is senolytic, resveratrol activates sirtuins.",
+        "zinc": "Quercetin acts as a zinc ionophore, helping zinc enter cells more efficiently — critical for immune defense.",
+        "fisetin": "Both are senolytics that clear senescent cells — combining them at lower doses may reduce side effects while maintaining efficacy."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "500–1,000 mg daily",
+      "notes": "Quercetin Phytosome (with sunflower phospholipids) has 20x better bioavailability than standard quercetin. Used in senolytic protocols at 1,000 mg pulsed 2x/week.",
+      "tags": [
+        "antioxidant",
+        "longevity",
+        "anti-inflammatory",
+        "immune",
+        "senolytic"
+      ],
+      "sources": [
+        "Boots AW, Eur J Pharmacol 2008",
+        "Legeay S, Nutrients 2015"
+      ]
+    },
+    {
+      "id": "reishi",
+      "name": "Jamur Reishi (Ganoderma)",
+      "aliases": [
+        "Ganoderma lucidum",
+        "Lingzhi",
+        "Reishi"
+      ],
+      "category": "gut",
+      "emoji": "🍄",
+      "shortDescription": "The 'mushroom of immortality' — adaptogenic fungi that modulates immunity, reduces fatigue, calms the nervous system, and supports liver health.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Evening is optimal for reishi's calming and sleep-supporting properties; take with food to improve triterpene absorption."
+      },
+      "synergies": [
+        "lions_mane",
+        "cordyceps",
+        "ashwagandha",
+        "vitamin_d3"
+      ],
+      "synergyReasons": {
+        "lions_mane": "Lion's Mane promotes neurogenesis while Reishi modulates immunity and reduces anxiety — complementary functional mushroom combination.",
+        "cordyceps": "Cordyceps provides daytime energy via ATP production while Reishi provides evening recovery and immune modulation — the classic day/night mushroom protocol.",
+        "ashwagandha": "Both are adaptogens with calming properties — Reishi modulates NK-cell immunity while Ashwagandha reduces cortisol — complementary stress-to-immunity axes.",
+        "vitamin_d3": "Vitamin D3 and Reishi's beta-glucans act on complementary immune receptor pathways, enhancing innate and adaptive immunity."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,500–3,000 mg whole powder or 1.5–9 mg triterpenes daily",
+      "notes": "Look for 'dual-extracted' reishi (hot water for beta-glucans + alcohol for triterpenes). Spore oil is more concentrated but expensive. Reishi from Ganoderma lucidum is the clinically studied species.",
+      "tags": [
+        "immune",
+        "adaptogen",
+        "sleep",
+        "liver",
+        "stress"
+      ],
+      "sources": [
+        "Bao XF, Phytomedicine 2002",
+        "Tang W, J Ethnopharmacol 2011"
+      ]
+    },
+    {
+      "id": "rhodiola_rosea",
+      "name": "Rhodiola Rosea",
+      "aliases": [
+        "Golden Root",
+        "Arctic Root",
+        "Rhodiola"
+      ],
+      "category": "brain",
+      "emoji": "🌸",
+      "shortDescription": "Adaptogenic herb that reduces cortisol, combats fatigue, and enhances mental and physical performance under stress.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Stimulating — best taken in the morning or early afternoon on an empty stomach to avoid sleep disruption."
+      },
+      "synergies": [
+        "ashwagandha",
+        "vitamin_b_complex",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "ashwagandha": "Complementary adaptogens: Rhodiola is energizing and acute-acting; Ashwagandha is calming and long-term. Together they cover the full stress-resilience spectrum.",
+        "vitamin_b_complex": "B vitamins support the adrenal glands and nervous system, amplifying Rhodiola's anti-fatigue effects.",
+        "magnesium_glycinate": "Magnesium calms the nervous system while Rhodiola boosts resilience — a balanced stress-management stack."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "200–600 mg daily (standardized to 3% rosavins, 1% salidroside)",
+      "notes": "Cycle 5 days on, 2 days off for best results. Start low (200 mg) and titrate up. May cause restlessness if taken too late in the day.",
+      "tags": [
+        "adaptogen",
+        "stress",
+        "fatigue",
+        "focus",
+        "mood"
+      ],
+      "sources": [
+        "Panossian A, Phytomedicine 2010",
+        "Olsson EM, Planta Med 2009"
+      ]
+    },
+    {
+      "id": "spermidine",
+      "name": "Spermidin",
+      "aliases": [
+        "Spermidine Trihydrochloride",
+        "Wheat Germ Spermidine"
+      ],
+      "category": "longevity",
+      "emoji": "🌱",
+      "shortDescription": "Natural polyamine that induces autophagy (cellular self-cleaning), linked to reduced cardiovascular mortality and cognitive preservation with aging.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morning on an empty stomach to maximize autophagy induction — food (especially protein) blunts the fasting-mimetic effect."
+      },
+      "synergies": [
+        "resveratrol",
+        "quercetin",
+        "nmn_nr",
+        "fisetin"
+      ],
+      "synergyReasons": {
+        "resveratrol": "Resveratrol activates SIRT1 while spermidine activates autophagy via TFEB — complementary cellular rejuvenation mechanisms.",
+        "quercetin": "Quercetin is senolytic (clears damaged cells) while spermidine induces autophagy (cleans within cells) — together they address cellular aging comprehensively.",
+        "nmn_nr": "NMN/NR restores NAD+ for energy metabolism while spermidine stimulates autophagy — both are core interventions in longevity research.",
+        "fisetin": "Fisetin clears senescent cells while spermidine activates the cell's internal cleaning system — synergistic anti-aging from different angles."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1–5 mg daily (often as wheat germ extract)",
+      "notes": "Food sources: wheat germ (highest), aged cheese, soybeans, mushrooms. Longevity research (Madeo et al.) suggests dietary spermidine intake correlates inversely with cardiovascular mortality. Most commercial supplements use wheat germ extract.",
+      "tags": [
+        "autophagy",
+        "longevity",
+        "cardiovascular",
+        "cognitive",
+        "anti-aging"
+      ],
+      "sources": [
+        "Madeo F, Science 2018",
+        "Eisenberg T, Nat Med 2016"
+      ]
+    },
+    {
+      "id": "taurine",
+      "name": "Taurin",
+      "aliases": [
+        "L-Taurine",
+        "2-Aminoethanesulfonic Acid"
+      ],
+      "category": "performance",
+      "emoji": "⚡️",
+      "shortDescription": "Conditionally essential amino acid supporting heart function, neurological health, exercise performance, and mitochondrial efficiency.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morning or 1 hour before exercise fasted — taken with food slows absorption but improves GI tolerance."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "coq10",
+        "l_carnitine",
+        "electrolytes"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Taurine and magnesium have synergistic cardiovascular and neurological effects — this is why magnesium taurate exists as a combined form.",
+        "coq10": "Both support mitochondrial efficiency and heart function via complementary mechanisms.",
+        "l_carnitine": "Carnitine handles fatty acid transport; taurine supports mitochondrial membrane potential — together they maximize cellular energy production.",
+        "electrolytes": "Taurine is a key regulator of cellular electrolyte balance (sodium, potassium, calcium) — supports and amplifies electrolyte supplementation."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "500–3,000 mg daily",
+      "notes": "One of the few supplements shown to improve longevity in animal models. Very safe at doses up to 3g/day — doses in energy drinks (80–1000 mg) are pharmacologically active. Vegans have lower taurine status.",
+      "tags": [
+        "cardiovascular",
+        "performance",
+        "longevity",
+        "electrolytes",
+        "neurological"
+      ],
+      "sources": [
+        "Schaffer SW, Amino Acids 2010",
+        "Singh P, Nutrition 2014"
+      ]
+    },
+    {
+      "id": "vitamin_b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "aliases": [
+        "Riboflavin",
+        "Riboflavin-5-Phosphate",
+        "Vitamin B2"
+      ],
+      "category": "vitamins",
+      "emoji": "🟡",
+      "shortDescription": "Essential B vitamin for cellular energy production, activating other B vitamins, protecting against oxidative stress, and preventing migraines.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Take with food — riboflavin is actively transported in the GI tract, and food stimulates these transporters."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "coq10",
+        "iron",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "All B vitamins work in concert — riboflavin (B2) is especially interdependent with B6, B3, and folate, activating them from their precursor forms.",
+        "coq10": "Riboflavin is a direct structural component of CoQ10's electron carriers (FAD and FMN) — B2 deficiency directly impairs CoQ10 function.",
+        "iron": "Riboflavin is required for ferritin production and iron mobilization — B2 deficiency impairs iron metabolism.",
+        "magnesium_glycinate": "Magnesium activates riboflavin-dependent enzymes, including those converting B6 to its active PLP form."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1.1–400 mg daily (1.1 mg for RDA; 400 mg for migraine prevention)",
+      "notes": "Urine turns bright yellow — this is harmless and indicates the body is processing riboflavin. 400 mg/day for 3+ months has strong evidence for reducing migraine frequency. Riboflavin-5-phosphate (R5P) is the active form.",
+      "tags": [
+        "energy",
+        "migraine prevention",
+        "cellular metabolism",
+        "antioxidant"
+      ],
+      "sources": [
+        "Schoenen J, Neurology 1998",
+        "Powers HJ, Am J Clin Nutr 2003"
+      ]
+    },
+    {
+      "id": "vitamin_b3",
+      "name": "Vitamin B3 (Niasin)",
+      "aliases": [
+        "Niacin",
+        "Nicotinamide",
+        "Niacinamide",
+        "Nicotinic Acid"
+      ],
+      "category": "vitamins",
+      "emoji": "🔆",
+      "shortDescription": "Essential B vitamin that raises HDL cholesterol, supports NAD+ production, improves skin barrier, and aids DNA repair. Available as niacin or nicotinamide.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Always take with food to reduce niacin flush (for flush-form). Taking with meals slows absorption and reduces vasodilation."
+      },
+      "synergies": [
+        "nmn_nr",
+        "vitamin_b_complex",
+        "coq10",
+        "vitamin_b2"
+      ],
+      "synergyReasons": {
+        "nmn_nr": "NMN/NR directly donates to NAD+ synthesis; niacin/nicotinamide is the end metabolite — they converge on the same cellular target.",
+        "vitamin_b_complex": "All B vitamins function as cofactors; niacin activates alongside B2 and B6 in the electron transport chain.",
+        "coq10": "Both support mitochondrial electron transport chain function — niacin via NAD+, CoQ10 directly in complex I/II/III.",
+        "vitamin_b2": "Riboflavin (B2) and niacin (B3) function as electron carriers (FAD and NAD+) in adjacent steps of cellular energy metabolism."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "15–500 mg daily; up to 2,000 mg for cholesterol (medical supervision)",
+      "notes": "Flush-niacin causes skin flushing (harmless) which is the therapeutic form. Nicotinamide/niacinamide = no flush. Nicotinamide Riboside (NR) and NMN are advanced NAD+ precursors. Inositol hexanicotinate = no-flush but inferior bioavailability.",
+      "tags": [
+        "NAD+",
+        "cholesterol",
+        "energy",
+        "DNA repair",
+        "skin"
+      ],
+      "sources": [
+        "Altschul R, Arch Biochem Biophys 1955",
+        "Cantó C, Cell Metab 2012"
+      ]
+    },
+    {
+      "id": "vitamin_b5",
+      "name": "Vitamin B5 (Asam Pantotenat)",
+      "aliases": [
+        "Pantothenic Acid",
+        "Pantethine",
+        "Calcium Pantothenate"
+      ],
+      "category": "vitamins",
+      "emoji": "🧪",
+      "shortDescription": "Essential B vitamin required for Coenzyme A synthesis — central to energy metabolism, adrenal hormone production, and wound healing.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Take with food in the morning; well-tolerated and stable absorption across meal types."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "l_carnitine",
+        "coq10",
+        "vitamin_b2"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "Pantothenic acid works synergistically with all B vitamins, particularly B2 and B3, in CoA-dependent energy pathways.",
+        "l_carnitine": "Pantothenic acid is required for Coenzyme A synthesis, which is the molecule carnitine uses to transport fatty acids into mitochondria — metabolically essential.",
+        "coq10": "Both B5 and CoQ10 are required in the same mitochondrial fatty acid oxidation and energy-production cascade.",
+        "vitamin_b2": "B2 and B5 work in adjacent steps of the CoA-dependent energy production cycle — they are metabolically coupled."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "5–10 mg (RDA 5 mg; therapeutic doses up to 500 mg for adrenal support)",
+      "notes": "Pantethine (a more active form) is the preferred supplement form for cholesterol-lowering effects. Deficiency is rare but associated with fatigue and adrenal dysfunction. High doses may rarely cause GI upset.",
+      "tags": [
+        "energy",
+        "adrenal",
+        "CoA synthesis",
+        "skin",
+        "wound healing"
+      ],
+      "sources": [
+        "Kelly GS, Altern Med Rev 2011",
+        "NIH ODS"
+      ]
+    },
+    {
+      "id": "tmg",
+      "name": "TMG (Trimetilglisin)",
+      "aliases": ["Betaine Anhydrous", "Betaine", "Trimethylglycine"],
+      "category": "longevity",
+      "emoji": "🔬",
+      "shortDescription": "Donor metil yang menurunkan homosistein, mendukung metilasi seluler, detoksifikasi hati, dan sintesis kreatin.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Larut dalam air; paling baik diserap bersama makanan, yang juga meminimalkan efek samping gastrointestinal seperti mual."
+      },
+      "synergies": ["vitamin_b12", "folate", "vitamin_b6", "creatine", "zinc"],
+      "synergyReasons": {
+        "vitamin_b12": "Keduanya mendukung siklus metilasi. TMG menyediakan jalur remetilasi homosistein yang independen dari folat melalui BHMT, sementara B12 mendukung jalur MTHFR utama — bersama-sama memaksimalkan penurunan homosistein.",
+        "folate": "Folat dan TMG bekerja di jalur remetilasi paralel. Ketika aktivitas MTHFR terganggu, TMG mengkompensasi dan sebaliknya. Bersama-sama memberikan dukungan metilasi yang lengkap.",
+        "vitamin_b6": "B6 adalah kofaktor dalam jalur transsulfurasi di hilir homosistein. Dikombinasikan dengan TMG, mendukung seluruh kaskade penurun homosistein.",
+        "creatine": "TMG menyediakan gugus metil untuk sintesis kreatin di hati. Bersama-sama menghemat SAMe untuk tugas metilasi kritis lainnya.",
+        "zinc": "Enzim BHMT yang diaktifkan TMG untuk mendaur ulang homosistein bergantung pada seng. Seng yang cukup diperlukan agar TMG memberikan efek penuh."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "500–3,000 mg daily",
+      "notes": "Hindari penggabungan dengan beberapa donor metil lain (kolin, SAMe) secara bersamaan — metilasi berlebih dapat menyebabkan sakit kepala atau mudah tersinggung. Beberapa orang mengalami peningkatan LDL ringan pada dosis di atas 2 g/hari; pantau lipid pada penggunaan jangka panjang. Tidak dianjurkan selama kehamilan atau bagi penderita penyakit ginjal atau hati tanpa pengawasan medis.",
+      "tags": ["metilasi", "kardiovaskular", "umur panjang", "kesehatan hati", "performa"],
+      "sources": ["Olthof MR, Nutr Rev 2013", "Arumugam MK, Nutrients 2021", "Cholewa JM, J Int Soc Sports Nutr 2013"]
+    }
+  ]
+}

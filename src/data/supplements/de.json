@@ -1,0 +1,3483 @@
+{
+  "supplements": [
+    {
+      "id": "vitamin_d3",
+      "name": "Vitamin D3",
+      "aliases": [
+        "Cholecalciferol",
+        "Vitamin D"
+      ],
+      "category": "vitamins",
+      "emoji": "☀️",
+      "shortDescription": "Unterstützt Knochengesundheit, Immunfunktion und die Regulierung der Stimmung.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fettlösliches Vitamin – die Aufnahme ist deutlich besser, wenn es mit einer fetthaltigen Mahlzeit eingenommen wird."
+      },
+      "synergies": [
+        "vitamin_k2",
+        "magnesium_glycinate",
+        "omega3",
+        "probiotics"
+      ],
+      "synergyReasons": {
+        "vitamin_k2": "K2 leitet Kalzium in die Knochen statt in die Arterien – unverzichtbarer Begleiter für D3.",
+        "magnesium_glycinate": "Magnesium ist notwendig, um Vitamin D im Körper zur aktiven Form zu aktivieren.",
+        "omega3": "Beide sind fettlöslich und teilen Absorptionswege – gemeinsame Einnahme kann die Bioverfügbarkeit verbessern.",
+        "probiotics": "Die Kombination von Probiotika mit Vitamin D hat synergistische Effekte auf die metabolische Gesundheit und Erholung."
+      },
+      "commonDoses": "1.000–5.000 IE täglich",
+      "notes": "Die meisten Menschen haben einen Mangel. Eine Blutspiegel-Kontrolle (25-OHD) vor der Einnahme wird empfohlen. Zielbereich: 40–60 ng/ml.",
+      "tags": [
+        "Immunsystem",
+        "Knochengesundheit",
+        "Stimmung",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Holick MF, NEJM 2007"
+      ],
+      "interactions": [
+        "st_johns_wort"
+      ],
+      "interactionReasons": {
+        "st_johns_wort": "Johanniskraut induziert stark CYP3A4, beschleunigt den Vitamin-D-Stoffwechsel und senkt den Serumspiegel."
+      }
+    },
+    {
+      "id": "vitamin_k2",
+      "name": "Vitamin K2 (MK-7)",
+      "aliases": [
+        "Menaquinon-7",
+        "MK-7",
+        "Vitamin K"
+      ],
+      "category": "vitamins",
+      "emoji": "🦴",
+      "shortDescription": "Leitet Kalzium in die Knochen statt in die Arterien. Unverzichtbarer Partner für D3.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fettlöslich – am besten mit einer fetthaltigen Mahlzeit aufgenommen."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "calcium"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "D3 steigert die Kalziumaufnahme; K2 sorgt dafür, dass Kalzium in die Knochen statt in die Arterien gelangt.",
+        "calcium": "K2 aktiviert Osteocalcin, das Kalzium in die Knochenmatrix einbaut."
+      },
+      "commonDoses": "90–200 µg täglich",
+      "notes": "Die MK-7-Form hat eine längere Halbwertszeit (72 Stunden) und bessere Bioverfügbarkeit als MK-4. Personen unter Marcumar/Warfarin sollten einen Arzt konsultieren.",
+      "tags": [
+        "Knochengesundheit",
+        "Herz-Kreislauf",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Geleijnse JM, Thromb Haemost 2004"
+      ]
+    },
+    {
+      "id": "vitamin_c",
+      "name": "Vitamin C",
+      "aliases": [
+        "Ascorbinsäure",
+        "L-Ascorbinsäure"
+      ],
+      "category": "vitamins",
+      "emoji": "🍊",
+      "shortDescription": "Starkes Antioxidans zur Unterstützung des Immunsystems, der Kollagensynthese und der Eisenaufnahme.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Wasserlöslich – zu jeder Tageszeit gut aufgenommen. Mit eisenhaltigen Mahlzeiten verbessert es die Nicht-Häm-Eisenaufnahme."
+      },
+      "synergies": [
+        "iron",
+        "collagen_peptides"
+      ],
+      "synergyReasons": {
+        "iron": "Vitamin C reduziert dreiwertiges Eisen zu zweiwertigem Eisen und verbessert so die Nicht-Häm-Eisenaufnahme erheblich.",
+        "collagen_peptides": "Vitamin C ist ein essenzieller Kofaktor für die Prolylhydroxylase – unverzichtbar für die Kollagensynthese."
+      },
+      "interactions": [
+        "vitamin_b12",
+        "selenium"
+      ],
+      "interactionReasons": {
+        "vitamin_b12": "Hochdosiertes Vitamin C (≥500 mg) kann B12 im Verdauungstrakt oxidativ abbauen. Mindestens 2 Stunden Abstand einhalten.",
+        "selenium": "Hochdosiertes Vitamin C kann die Bioverfügbarkeit von anorganischem Selen (Selenat) reduzieren. Organische Form (Selenomethionin) bevorzugen oder getrennt einnehmen."
+      },
+      "commonDoses": "500–2.000 mg täglich",
+      "notes": "Wasserlöslich – Überschuss wird im Urin ausgeschieden. Obergrenze: 2.000 mg/Tag. Gepufferte oder liposomale Formen sind bei höheren Dosen magenfreundlicher.",
+      "tags": [
+        "Immunsystem",
+        "Antioxidans",
+        "Kollagen",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Carr AC, Nutrients 2017"
+      ]
+    },
+    {
+      "id": "vitamin_b12",
+      "name": "Vitamin B12",
+      "aliases": [
+        "Methylcobalamin",
+        "Cyanocobalamin",
+        "Cobalamin"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Essenziell für den Energiestoffwechsel, die Nervenfunktion und die Bildung roter Blutkörperchen.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morgens am besten, da B12 Wachheit und Energiestoffwechsel unterstützt."
+      },
+      "synergies": [
+        "folate",
+        "vitamin_b_complex"
+      ],
+      "synergyReasons": {
+        "folate": "B12 und Folat sind für die Methylierung, Homocystein-Regulierung und DNA-Synthese voneinander abhängig.",
+        "vitamin_b_complex": "B12 wirkt synergistisch mit anderen B-Vitaminen für Energiestoffwechsel und Methylierung zusammen."
+      },
+      "interactions": [
+        "vitamin_c",
+        "berberine"
+      ],
+      "interactionReasons": {
+        "vitamin_c": "Hochdosiertes Vitamin C (≥500 mg) kann B12 im Verdauungstrakt oxidativ abbauen. Mindestens 2 Stunden Abstand einhalten.",
+        "berberine": "Berberin hemmt die Intrinsic-Faktor-Ausschüttung – ähnlich wie Metformin kann es die B12-Aufnahme langfristig beeinträchtigen. B12-Spiegel bei längerer kombinierter Einnahme kontrollieren."
+      },
+      "commonDoses": "500–2.000 µg täglich",
+      "notes": "Methylcobalamin wird bevorzugt aufgenommen. Veganer, Vegetarier und Menschen über 50 haben das höchste Mangelrisiko. Intrinsic Factor ist für die Absorption notwendig – bei perniziöser Anämie ggf. Injektionen nötig.",
+      "tags": [
+        "Energie",
+        "Nervengesundheit",
+        "Vegan-essenziell",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Allen LH, Am J Clin Nutr 2009"
+      ]
+    },
+    {
+      "id": "magnesium_glycinate",
+      "name": "Magnesiumglycinat",
+      "aliases": [
+        "Magnesiumbisglycinat",
+        "Chelat-Magnesium"
+      ],
+      "category": "vitamins",
+      "emoji": "🌙",
+      "shortDescription": "Hochverfügbare Magnesiumform für Entspannung, Schlafqualität und Muskelfunktion.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": false,
+        "reason": "Abends am besten – fördert Entspannung und unterstützt tiefen Schlaf."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "zinc",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnesium aktiviert Vitamin D und ist für dessen Umwandlung zur aktiven Form (Calcitriol) notwendig.",
+        "zinc": "Zink und Magnesium gemeinsam (ZMA-Kombination) unterstützen Testosteronspiegel und Schlafqualität.",
+        "l_theanine": "Beide fördern Ruhe und Entspannung ohne Schläfrigkeit – ergänzende Wirkmechanismen."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium konkurriert mit Eisen an den intestinalen Metallionentransportern. Mindestens 2 Stunden Abstand zur Eisenergänzung einhalten.",
+        "calcium": "Kalzium und Magnesium teilen sich die Darmabsorptionskanäle. Hochdosierte gleichzeitige Einnahme reduziert die Aufnahme beider. Mindestens 2 Stunden Abstand."
+      },
+      "commonDoses": "200–400 mg elementares Magnesium täglich",
+      "notes": "Glycinat-Form ist magenschonend und besser verfügbar als Magnesiumoxid oder -citrat. Etwa 47 % der deutschen Bevölkerung erreicht die empfohlene Magnesiumzufuhr nicht.",
+      "tags": [
+        "Schlaf",
+        "Entspannung",
+        "Muskel",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Abbasi B, J Res Med Sci 2012"
+      ]
+    },
+    {
+      "id": "magnesium_malate",
+      "name": "Magnesiummalat",
+      "aliases": [
+        "Magnesium-L-Malat"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Energiefördernde Magnesiumform, die die ATP-Produktion unterstützt und Muskelermüdung reduziert.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Malat unterstützt die Energiegewinnung über den Zitronensäurezyklus – morgens mit einer Mahlzeit am besten."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "creatine"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnesium aktiviert Vitamin D und ist für dessen Umwandlung zur aktiven Form notwendig.",
+        "creatine": "Beide unterstützen die ATP-Produktion und Muskelleistung über unterschiedliche Mechanismen."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium konkurriert mit Eisen an intestinalen Metallionentransportern. Mindestens 2 Stunden Abstand.",
+        "calcium": "Kalzium und Magnesium teilen Darmabsorptionskanäle. Mindestens 2 Stunden Abstand."
+      },
+      "commonDoses": "200–400 mg elementares Magnesium täglich",
+      "notes": "Besser als Glycinat geeignet, wenn tagsüber Energie statt Schlafunterstützung im Vordergrund steht.",
+      "tags": [
+        "Energie",
+        "Muskel",
+        "Erschöpfung"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Russell IJ, J Rheumatol 1995"
+      ]
+    },
+    {
+      "id": "zinc",
+      "name": "Zink",
+      "aliases": [
+        "Zinkpicolinat",
+        "Zinkbisglycinat",
+        "ZMA"
+      ],
+      "category": "vitamins",
+      "emoji": "🔩",
+      "shortDescription": "Essenzielles Mineral für Immunsystem, Testosteronproduktion und Wundheilung.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Kann auf nüchternen Magen Übelkeit verursachen. Abends mit einer Mahlzeit, um Konkurrenzsituationen mit Kupfer und anderen Mineralien zu vermeiden."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "vitamin_d3"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Zink und Magnesium gemeinsam (ZMA-Kombination) unterstützen Testosteronspiegel und Schlafqualität.",
+        "vitamin_d3": "Zink unterstützt die Vitamin-D-Rezeptorfunktion und die Immunsignalisierung."
+      },
+      "interactions": [
+        "iron",
+        "calcium",
+        "folate",
+        "copper"
+      ],
+      "interactionReasons": {
+        "iron": "Eisen und Zink konkurrieren um denselben Darmtransporter (DMT1) – hohe Dosen beider reduzieren gegenseitig die Aufnahme. Mindestens 2 Stunden Abstand.",
+        "calcium": "Kalzium konkurriert mit Zink um die Absorption. Dosen mindestens 2 Stunden trennen.",
+        "folate": "Chronische hochdosierte Zinkeinnahme (≥40 mg/Tag) kann die Folsäureaufnahme beeinträchtigen. Folsäurespiegel bei Langzeiteinnahme kontrollieren.",
+        "copper": "Hochdosiertes Zink induziert Metallothionein, das Kupfer im Darm bindet und zu einem Kupfermangel führen kann. Ein Zink-Kupfer-Verhältnis von 10:1 oder 15:1 wird empfohlen."
+      },
+      "commonDoses": "15–30 mg elementares Zink täglich",
+      "notes": "Nicht zusammen mit Kalzium oder Eisen einnehmen – sie konkurrieren um die Aufnahme. Obergrenze: 40 mg/Tag. Langfristige Einnahme >40 mg kann den Kupferspiegel senken; ggf. Kupfer ergänzen. Zinkpicolinat ist gut verfügbar.",
+      "tags": [
+        "Immunsystem",
+        "Testosteron",
+        "Wundheilung",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Prasad AS, J Am Coll Nutr 1996"
+      ]
+    },
+    {
+      "id": "iron",
+      "name": "Eisen",
+      "aliases": [
+        "Eisensulfat",
+        "Eisenbisglycinat"
+      ],
+      "category": "vitamins",
+      "emoji": "🔴",
+      "shortDescription": "Essenzielles Mineral für Sauerstofftransport, Energie und kognitive Funktion.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Nüchtern am besten aufgenommen. Zusammen mit Vitamin C einnehmen, um die Aufnahme zu verbessern. Nicht mit Kalzium, Kaffee oder Tee kombinieren."
+      },
+      "synergies": [
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C reduziert dreiwertiges Eisen zu zweiwertigem Eisen und verbessert die Nicht-Häm-Aufnahme um bis zu das Dreifache."
+      },
+      "interactions": [
+        "calcium",
+        "zinc",
+        "magnesium_glycinate",
+        "magnesium_malate",
+        "magnesium_threonate",
+        "magnesium_citrate",
+        "magnesium_taurate",
+        "magnesium_oxide",
+        "curcumin",
+        "resveratrol",
+        "nac",
+        "prebiotics",
+        "green_tea_extract"
+      ],
+      "interactionReasons": {
+        "calcium": "Kalzium reduziert die Nicht-Häm-Eisenaufnahme bei Dosen ≥300 mg um bis zu 60 %. Eisen und Kalzium mindestens 2 Stunden trennen.",
+        "zinc": "Eisen und Zink konkurrieren um denselben Darmtransporter. Mindestens 2 Stunden Abstand einhalten.",
+        "magnesium_glycinate": "Magnesium konkurriert mit Eisen an intestinalen Transportern. Mindestens 2 Stunden Abstand.",
+        "magnesium_malate": "Magnesium konkurriert mit Eisen an intestinalen Transportern. Mindestens 2 Stunden Abstand.",
+        "magnesium_threonate": "Magnesium (alle Formen) konkurriert mit Eisen im Darm. Mindestens 2 Stunden Abstand.",
+        "magnesium_citrate": "Magnesium (alle Formen) konkurriert mit Eisen an intestinalen DMT1-Transportern. Mindestens 2 Stunden Abstand.",
+        "magnesium_taurate": "Magnesium (alle Formen) konkurriert mit Eisen an den intestinalen zweiwertigen Metalltransportern (DMT1). Eisensupplementation um mindestens 2 Stunden verschieben. (NIH ODS; Minihane AM, Br J Nutr 1998)",
+        "magnesium_oxide": "Magnesium (alle Formen) konkurriert mit Eisen an den intestinalen zweiwertigen Metalltransportern. Eisensupplementation um mindestens 2 Stunden verschieben. (NIH ODS)",
+        "curcumin": "Curcumin bildet unlösliche Komplexe mit Eisen im Darm und reduziert die Eisenaufnahme deutlich. Mindestens 3 Stunden Abstand.",
+        "resveratrol": "Resveratrol chelatiert Eisenionen und reduziert die intestinale Aufnahme. Bei Eisenmangel-Supplementierung getrennt einnehmen.",
+        "nac": "NAC kann Eisen über Thiolgruppen chelatieren und die Eisenverfügbarkeit verringern. Mindestens 2 Stunden Abstand.",
+        "prebiotics": "Inulin-Ballaststoffe können Nicht-Häm-Eisen im Darm binden und die Aufnahme um 10–30 % reduzieren. Eisen getrennt von Präbiotika einnehmen.",
+        "green_tea_extract": "EGCG in grünem Tee bildet unlösliche Komplexe mit Eisen und verhindert so dessen Aufnahme. Mindestens 2 Stunden Abstand halten."
+      },
+      "commonDoses": "Empfohlene Tagesdosis: 8 mg (Männer), 15 mg (Frauen 19–50), 27 mg (Schwangerschaft). Nur unter ärztlicher Aufsicht supplementieren.",
+      "notes": "Nur bei nachgewiesenem Mangel ergänzen – überschüssiges Eisen ist schädlich. Eisenbisglycinat ist verträglicher für den Verdauungstrakt. Nicht zusammen mit Kalzium, Antazida, Kaffee oder Tee einnehmen.",
+      "tags": [
+        "Energie",
+        "Sauerstofftransport",
+        "Frauengesundheit"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Hallberg L, Am J Clin Nutr 1989"
+      ]
+    },
+    {
+      "id": "calcium",
+      "name": "Kalzium",
+      "aliases": [
+        "Calciumcitrat",
+        "Calciumcarbonat"
+      ],
+      "category": "vitamins",
+      "emoji": "🦷",
+      "shortDescription": "Essenziell für starke Knochen, Muskelkontraktion und Nervenübertragung.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Calciumcarbonat benötigt Magensäure – mit einer Mahlzeit einnehmen. Portionen von ≤500 mg verbessern die Aufnahme."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "vitamin_k2"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Vitamin D3 ist essenziell für die aktive Kalziumaufnahme im Darm.",
+        "vitamin_k2": "K2 sorgt dafür, dass Kalzium in die Knochen statt in Weichgewebe und Arterien eingelagert wird."
+      },
+      "interactions": [
+        "iron",
+        "zinc",
+        "magnesium_glycinate",
+        "magnesium_malate",
+        "magnesium_threonate",
+        "magnesium_citrate",
+        "magnesium_taurate",
+        "magnesium_oxide"
+      ],
+      "interactionReasons": {
+        "iron": "Kalzium reduziert die Nicht-Häm-Eisenaufnahme bei Dosen ≥300 mg um bis zu 60 %. Mindestens 2 Stunden Abstand.",
+        "zinc": "Kalzium konkurriert mit Zink um die Darmabsorption. Mindestens 2 Stunden Abstand.",
+        "magnesium_glycinate": "Kalzium und Magnesium konkurrieren bei hohen Dosen um dieselben Darmkanäle. Mindestens 2 Stunden Abstand.",
+        "magnesium_malate": "Kalzium und Magnesium teilen sich intestinale Transporter. Mindestens 2 Stunden Abstand.",
+        "magnesium_threonate": "Kalzium konkurriert mit Magnesium beim Darmtransport. Mindestens 2 Stunden Abstand.",
+        "magnesium_citrate": "Kalzium und Magnesium konkurrieren um gemeinsame intestinale Absorptionskanäle. Mindestens 2 Stunden Abstand.",
+        "magnesium_taurate": "Kalzium und Magnesium konkurrieren um gemeinsame Darmabsorptionskanäle. Hohe Dosen eines der beiden reduzieren die Bioverfügbarkeit des anderen. Mindestens 2 Stunden Abstand einhalten. (Seelig MS, JAMA 1975; NIH ODS)",
+        "magnesium_oxide": "Kalzium und Magnesium teilen Darmabsorptionstransporter. Selbst bei niedrigen Absorptionsraten kann hochdosiertes Oxid interferieren. Mindestens 2 Stunden Abstand einhalten. (NIH ODS)"
+      },
+      "commonDoses": "500–1.200 mg täglich (gesamt aus Ernährung und Ergänzung; max. 2.500 mg/Tag)",
+      "notes": "Calciumcitrat wird besser aufgenommen als Carbonat und kann ohne Mahlzeit eingenommen werden. Nicht zusammen mit Eisen oder Zink. Die meisten Erwachsenen decken den Bedarf über Milchprodukte – Nahrungsergänzung vor allem für Frauen nach den Wechseljahren empfohlen.",
+      "tags": [
+        "Knochengesundheit",
+        "Muskel",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Bolland MJ, BMJ 2010"
+      ]
+    },
+    {
+      "id": "iodine",
+      "name": "Jod",
+      "aliases": [
+        "Kaliumiodid",
+        "Jodid"
+      ],
+      "category": "vitamins",
+      "emoji": "🧬",
+      "shortDescription": "Unverzichtbar für die Schilddrüsenhormonproduktion, den Stoffwechsel und die Gehirnentwicklung.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Morgens mit einer Mahlzeit am besten – unterstützt die Schilddrüsenfunktion, ohne den Schlaf zu beeinträchtigen."
+      },
+      "synergies": [
+        "selenium"
+      ],
+      "synergyReasons": {
+        "selenium": "Selenabhängige Enzyme schützen die Schilddrüse vor oxidativem Stress, der beim Jodstoffwechsel entsteht."
+      },
+      "commonDoses": "Empfohlene Tagesdosis: 150 µg. Obergrenze: 1.100 µg. Nur bei Mangel supplementieren.",
+      "notes": "Die meisten Menschen in Europa decken den Jodbedarf über jodiertes Speisesalz und Milchprodukte. Überschüssiges Jod kann paradoxerweise die Schilddrüsenfunktion hemmen (Wolff-Chaikoff-Effekt). Nur unter ärztlicher Aufsicht supplementieren.",
+      "tags": [
+        "Schilddrüse",
+        "Stoffwechsel",
+        "Gehirn"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Zimmermann MB, Lancet 2008"
+      ]
+    },
+    {
+      "id": "selenium",
+      "name": "Selen",
+      "aliases": [
+        "Selenomethionin",
+        "Natriumselenat"
+      ],
+      "category": "vitamins",
+      "emoji": "🛡️",
+      "shortDescription": "Antioxidatives Mineral zur Unterstützung der Schilddrüse und des Immunsystems.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Mit einer Mahlzeit einnehmen, um die Aufnahme zu maximieren und Magenprobleme zu vermeiden."
+      },
+      "synergies": [
+        "iodine"
+      ],
+      "synergyReasons": {
+        "iodine": "Selen schützt die Schilddrüse vor oxidativem Stress beim Jodstoffwechsel – beide Mineralien sind unverzichtbare Partner für die Schilddrüsengesundheit."
+      },
+      "interactions": [
+        "vitamin_c"
+      ],
+      "interactionReasons": {
+        "vitamin_c": "Hochdosiertes Vitamin C kann die Bioverfügbarkeit von anorganischem Selen (Selenat) durch Umwandlung in schlecht resorbierbares elementares Selen reduzieren. Selenomethionin-Form bevorzugen oder getrennt einnehmen."
+      },
+      "commonDoses": "55–200 µg täglich (RDA: 55 µg; Obergrenze: 400 µg – nicht überschreiten)",
+      "notes": "Selenvergiftung (Selenose) kann ab 400 µg/Tag auftreten – Haarausfall, Nagelbrüchigkeit und neurologische Symptome. Selenomethionin ist die bevorzugte organische Form. Paranüsse sind reich an Selen (70–90 µg pro Nuss).",
+      "tags": [
+        "Schilddrüse",
+        "Antioxidans",
+        "Immunsystem"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Rayman MP, Lancet 2000"
+      ]
+    },
+    {
+      "id": "folate",
+      "name": "Folsäure (B9)",
+      "aliases": [
+        "Methylfolat",
+        "5-MTHF",
+        "Folsäure",
+        "Vitamin B9"
+      ],
+      "category": "vitamins",
+      "emoji": "🧬",
+      "shortDescription": "Unverzichtbar für DNA-Synthese, Methylierung und Neuralrohrschutz in der Schwangerschaft.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Zu jeder Tageszeit gut aufgenommen. Morgens für mehr Konstanz bevorzugt."
+      },
+      "synergies": [
+        "vitamin_b12"
+      ],
+      "synergyReasons": {
+        "vitamin_b12": "B12 und Folat sind für den Methylierungszyklus, die DNA-Synthese und die Homocystein-Regulierung voneinander abhängig – ein Mangel beeinträchtigt jeweils das andere."
+      },
+      "interactions": [
+        "zinc"
+      ],
+      "interactionReasons": {
+        "zinc": "Chronische hochdosierte Zinkeinnahme (≥40 mg/Tag) kann die Folsäureaufnahme beeinträchtigen. Folsäurespiegel bei langfristiger hochdosierter Zinkergänzung kontrollieren."
+      },
+      "commonDoses": "400–800 µg täglich (400 µg empfohlen; 600 µg in der Schwangerschaft)",
+      "notes": "Methylfolat (5-MTHF) wird gegenüber synthetischer Folsäure bevorzugt, besonders bei MTHFR-Genvarianten (C677T oder A1298C). In der Schwangerschaft essenziell zur Vorbeugung von Neuralrohrdefekten.",
+      "tags": [
+        "Methylierung",
+        "Schwangerschaft",
+        "Gehirn",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Greenberg JA, Rev Obstet Gynecol 2011"
+      ]
+    },
+    {
+      "id": "creatine",
+      "name": "Kreatin Monohydrat",
+      "aliases": [
+        "Kreatin",
+        "Creatine Monohydrate"
+      ],
+      "category": "performance",
+      "emoji": "💥",
+      "shortDescription": "Das am besten erforschte Supplement für Kraft, Leistung und Muskelaufbau.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Der genaue Einnahmezeitpunkt spielt eine untergeordnete Rolle – tägliche Konstanz ist entscheidend. Nach dem Training mit Kohlenhydraten kann die Muskelaufnahme leicht verbessert werden."
+      },
+      "synergies": [
+        "magnesium_malate",
+        "beta_alanine"
+      ],
+      "synergyReasons": {
+        "magnesium_malate": "Beide unterstützen die ATP-Produktion und Muskelleistung über unterschiedliche Mechanismen.",
+        "beta_alanine": "Kreatin steigert die Spitzenleistung; Beta-Alanin verlängert die Ausdauer – eine bewährte Pre-Workout-Kombination."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Frühe Studien deuteten darauf hin, dass Koffein die kreatinbedingte Phosphokreatin-Resynthese abschwächt. Spätere Studien zeigen gemischte Ergebnisse. Wenn beides kombiniert wird, ggf. zeitlichen Abstand einhalten."
+      },
+      "commonDoses": "3–5 g täglich",
+      "notes": "Eine Ladephase ist für Langzeitnutzung nicht notwendig. Monohydrat ist der Goldstandard – teurere Formen (HCl, gepuffert, Ethylester) zeigen keinen bewiesenen Vorteil. Langfristig sicher für gesunde Personen.",
+      "tags": [
+        "Kraft",
+        "Muskel",
+        "Leistung",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "ISSN Position Stand 2017",
+        "Rawson ES, J Strength Cond Res 2003"
+      ]
+    },
+    {
+      "id": "whey_protein",
+      "name": "Whey-Protein",
+      "aliases": [
+        "Molkenprotein",
+        "Whey Isolat",
+        "Whey Konzentrat"
+      ],
+      "category": "performance",
+      "emoji": "🥛",
+      "shortDescription": "Schnell verdauliches Vollprotein – ideal für Muskelreparatur und -aufbau nach dem Training.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Innerhalb von 2 Stunden nach dem Training oder als bequeme Proteinquelle zwischen den Mahlzeiten."
+      },
+      "synergies": [
+        "creatine",
+        "collagen_peptides"
+      ],
+      "synergyReasons": {
+        "creatine": "Protein + Kreatin ist die am besten belegte Kombination für magere Muskelmasse.",
+        "collagen_peptides": "Whey liefert ein vollständiges Aminosäureprofil; Kollagen liefert Glycin, Prolin und Hydroxyprolin für Bindegewebe."
+      },
+      "commonDoses": "20–40 g pro Portion",
+      "notes": "Isolat ist bei Laktoseintoleranz zu bevorzugen. Enthält alle essenziellen Aminosäuren einschließlich Leucin – dem wichtigsten Auslöser der Muskelproteinsynthese.",
+      "tags": [
+        "Muskel",
+        "Protein",
+        "Erholung",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "Phillips SM, J Am Coll Nutr 2011"
+      ]
+    },
+    {
+      "id": "casein_protein",
+      "name": "Kaseinprotein",
+      "aliases": [
+        "Mizellares Kasein",
+        "Langzeitprotein"
+      ],
+      "category": "performance",
+      "emoji": "🌙",
+      "shortDescription": "Langsam verdauliches Protein mit anhaltender Aminosäurefreisetzung – ideal vor dem Schlafen.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "Langsame Verdauung (~7 Stunden) macht es ideal vor dem Schlafen, um die nächtliche Muskelproteinsynthese zu unterstützen."
+      },
+      "synergies": [
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Beide unterstützen die nächtliche Erholung – Kasein versorgt die Muskeln; Magnesium fördert die Schlafqualität."
+      },
+      "commonDoses": "30–40 g vor dem Schlafen",
+      "notes": "Mizellares Kasein wird gegenüber Kalziumkaseinat bevorzugt. Studien zeigen 22 % höhere ganzkörperliche Proteinsynthese während des Schlafs.",
+      "tags": [
+        "Muskel",
+        "Protein",
+        "Erholung",
+        "Schlaf"
+      ],
+      "sources": [
+        "Res PT, Med Sci Sports Exerc 2012",
+        "Snijders T, J Nutr 2015"
+      ]
+    },
+    {
+      "id": "beta_alanine",
+      "name": "Beta-Alanin",
+      "aliases": [
+        "β-Alanin",
+        "CarnoSyn"
+      ],
+      "category": "performance",
+      "emoji": "🔥",
+      "shortDescription": "Erhöht den Muskelcarnosingehalt, um Milchsäure zu puffern und die Hochleistungsausdauer zu verlängern.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "30–60 Minuten vor dem Training am besten. Mahlzeiten reduzieren das Kribbeln (Parästhesie)."
+      },
+      "synergies": [
+        "creatine",
+        "citrulline_malate"
+      ],
+      "synergyReasons": {
+        "creatine": "Kreatin steigert die Spitzenleistung; Beta-Alanin verlängert die Zeit bis zur Erschöpfung – eine bewährte Pre-Workout-Kombination.",
+        "citrulline_malate": "Citrullin verbessert die Durchblutung und aerobe Ausdauer; Beta-Alanin puffert Säure bei anaerober Belastung."
+      },
+      "commonDoses": "3,2–6,4 g täglich (in 800 mg–1,6 g-Dosen aufteilen, um Kribbeln zu minimieren)",
+      "notes": "Kribbeln/Röte (Parästhesie) ist eine normale, harmlose physiologische Reaktion. Retardformulierungen reduzieren diesen Effekt. Vorteile akkumulieren sich nach 4+ Wochen konsequenter Einnahme.",
+      "tags": [
+        "Ausdauer",
+        "Pre-Workout",
+        "Leistung"
+      ],
+      "sources": [
+        "ISSN Position Stand 2015",
+        "Sale C, Amino Acids 2010"
+      ]
+    },
+    {
+      "id": "citrulline_malate",
+      "name": "Citrullinmalat",
+      "aliases": [
+        "L-Citrullin",
+        "Citrullin"
+      ],
+      "category": "performance",
+      "emoji": "🩸",
+      "shortDescription": "Steigert die Stickstoffmonoxid-Produktion für bessere Durchblutung, Muskelpumpe und aerobe Ausdauer.",
+      "timing": {
+        "preferredTime": "afternoon",
+        "takeWithFood": false,
+        "reason": "60 Minuten vor dem Training einnehmen, um während der Belastung optimalen NO-Spiegel zu erreichen."
+      },
+      "synergies": [
+        "beta_alanine",
+        "creatine"
+      ],
+      "synergyReasons": {
+        "beta_alanine": "Citrullin verbessert Durchblutung und aerobe Kapazität; Beta-Alanin puffert Säure – ergänzende Mechanismen für Ausdauersportler.",
+        "creatine": "Citrullin verbessert die Muskeldurchblutung; Kreatin liefert ATP – eine klassische Pre-Workout-Kombination."
+      },
+      "commonDoses": "6–8 g Citrullinmalat (2:1-Verhältnis) vor dem Training",
+      "notes": "Citrullinmalat (2:1) ist besser erforscht als reines L-Citrullin für Leistungszwecke. Wirksamer als Arginin zur Erhöhung des Arginin-Plasmaspiegels, da es den hepatischen Erstpassageeffekt umgeht.",
+      "tags": [
+        "Pre-Workout",
+        "Muskelpumpe",
+        "Ausdauer",
+        "Durchblutung"
+      ],
+      "sources": [
+        "Pérez-Guisado J, J Strength Cond Res 2010",
+        "Figueroa A, J Strength Cond Res 2015"
+      ]
+    },
+    {
+      "id": "electrolytes",
+      "name": "Elektrolyte",
+      "aliases": [
+        "Natrium",
+        "Kalium",
+        "Magnesium",
+        "Chlorid",
+        "Elektrolytmischung"
+      ],
+      "category": "performance",
+      "emoji": "⚡",
+      "shortDescription": "Ersetzt beim Schwitzen verlorene Mineralien, um Hydration, Leistung und Krämpfen vorzubeugen.",
+      "timing": {
+        "preferredTime": "afternoon",
+        "takeWithFood": false,
+        "reason": "Während oder nach intensivem Training einnehmen. Besonders wichtig bei Hitze oder Ausdauersportarten."
+      },
+      "synergies": [
+        "creatine",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "creatine": "Kreatin zieht Wasser in die Muskelzellen – ausreichende Elektrolyte und Hydration unterstützen diesen Effekt.",
+        "magnesium_glycinate": "Magnesium ist selbst ein Elektrolyt und unterstützt Muskelentspannung und Krampfprävention."
+      },
+      "interactions": [
+        "iron",
+        "zinc"
+      ],
+      "interactionReasons": {
+        "iron": "Elektrolytmischungen mit Kalzium und Magnesium reduzieren die Nicht-Häm-Eisenaufnahme erheblich. Eisenpräparate mindestens 2 Stunden von Elektrolytgetränken trennen.",
+        "zinc": "Kalzium und Magnesium in Elektrolytformeln konkurrieren mit Zink um die Darmabsorption. Zink separat von Elektrolytpräparaten einnehmen."
+      },
+      "commonDoses": "Je nach Produkt; auf ausreichend Natrium (≥500 mg), Kalium und Magnesium pro Portion achten",
+      "notes": "Zucker- und zuckerarme Elektrolytformeln sind für die meisten Menschen vorzuziehen. Normales Speisesalz deckt bei weniger als 60 Minuten intensivem Sport meist den Bedarf.",
+      "tags": [
+        "Hydration",
+        "Leistung",
+        "Erholung",
+        "Krämpfe"
+      ],
+      "sources": [
+        "Sawka MN, Med Sci Sports Exerc 2007",
+        "American College of Sports Medicine"
+      ]
+    },
+    {
+      "id": "collagen_peptides",
+      "name": "Kollagenpeptide",
+      "aliases": [
+        "Hydrolysiertes Kollagen",
+        "Kollagenprotein",
+        "Typ-I- und III-Kollagen"
+      ],
+      "category": "performance",
+      "emoji": "💆",
+      "shortDescription": "Unterstützt Gelenkgesundheit, Hautelastizität, Sehnenreparatur und Darmschleimhautintegrität.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "30–60 Minuten vor der Belastung mit Vitamin C einnehmen, um die Kollagensynthese in Gelenken und Sehnen zu maximieren."
+      },
+      "synergies": [
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C ist essenzieller Kofaktor für die Prolylhydroxylase – das Enzym für die Kollagenvernetzung. Studien belegen die synergistische Wirkung für Sehnenkollagen."
+      },
+      "commonDoses": "10–15 g täglich",
+      "notes": "Kein vollständiges Protein – arm an Tryptophan. Am besten in Kombination mit anderen Proteinquellen verwenden. Auf hydrolysierte (Peptid-)Form für bessere Aufnahme achten.",
+      "tags": [
+        "Gelenke",
+        "Haut",
+        "Sehnen",
+        "Darm"
+      ],
+      "sources": [
+        "Shaw G, Am J Clin Nutr 2017",
+        "Zdzieblik D, Br J Nutr 2015"
+      ]
+    },
+    {
+      "id": "omega3",
+      "name": "Omega-3 (Fischöl)",
+      "aliases": [
+        "EPA",
+        "DHA",
+        "Fischöl",
+        "EPA+DHA",
+        "Marine Omega-3"
+      ],
+      "category": "brain",
+      "emoji": "🐟",
+      "shortDescription": "Essenzieller Fettsäure-Komplex zur Unterstützung der Gehirnfunktion, Entzündungshemmung und Herzgesundheit.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fettlöslich – Bioverfügbarkeit bis zu 60 % höher mit einer fetthaltigen Mahlzeit. Reduziert auch den Fischgeschmack im Nachgang."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "curcumin"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Beide sind fettlöslich und teilen Absorptionswege – D3 + Omega-3 ist ein grundlegendes Basis-Supplement-Paar.",
+        "curcumin": "Beide hemmen Entzündungen über komplementäre Wege (EPA/DHA über Eicosanoide; Curcumin über NF-κB)."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Freie Eisenionen fördern die Lipidperoxidation von EPA und DHA. Eisen und Fischöl zu unterschiedlichen Tageszeiten einnehmen."
+      },
+      "commonDoses": "1–3 g kombiniertes EPA+DHA täglich",
+      "notes": "Auf mindestens 500 mg kombiniertes EPA+DHA pro Kapsel achten. Triglyceridform wird signifikant besser aufgenommen als Ethylester. Auf Oxidation und Schwermetalle zertifiziert testen lassen (IFOS).",
+      "tags": [
+        "Gehirn",
+        "Entzündungshemmung",
+        "Herz",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "AHA Scientific Statement 2002",
+        "Calder PC, Prog Lipid Res 2012"
+      ]
+    },
+    {
+      "id": "lions_mane",
+      "name": "Igelstachelbart (Lion's Mane)",
+      "aliases": [
+        "Hericium Erinaceus",
+        "Igelstachelbart-Extrakt"
+      ],
+      "category": "brain",
+      "emoji": "🍄",
+      "shortDescription": "Fördert die NGF-Synthese (Nervenwachstumsfaktor) und unterstützt Gedächtnis, Konzentration und Neuroplastizität.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Morgens am besten, um die kognitive Leistungsfähigkeit den ganzen Tag zu unterstützen."
+      },
+      "synergies": [
+        "omega3",
+        "alpha_gpc"
+      ],
+      "synergyReasons": {
+        "omega3": "Beide unterstützen Neuroplastizität und Gehirngesundheit über unterschiedliche Mechanismen (NGF vs. DHA-Membranunterstützung).",
+        "alpha_gpc": "Alpha-GPC liefert Acetylocholinvorstufen; Lion's Mane fördert NGF – ergänzende Gehirn-Kombination."
+      },
+      "commonDoses": "500–3.000 mg täglich (Fruchtkörper-Extrakt, standardisiert auf Beta-Glucane)",
+      "notes": "Fruchtkörper-Extrakte verwenden, keine Myzel-auf-Getreide-Produkte – letztere haben einen geringen Gehalt an Wirkstoffen. Wirkungen treten meist nach 4–8 Wochen konsequenter Einnahme auf.",
+      "tags": [
+        "Gehirn",
+        "Gedächtnis",
+        "Neuroplastizität",
+        "Konzentration"
+      ],
+      "sources": [
+        "Mori K, Phytother Res 2009",
+        "Lai PL, Int J Med Mushrooms 2013"
+      ]
+    },
+    {
+      "id": "alpha_gpc",
+      "name": "Alpha-GPC",
+      "aliases": [
+        "Alpha-Glycerophosphocholin",
+        "A-GPC",
+        "Cholinalfoscerat"
+      ],
+      "category": "brain",
+      "emoji": "🧠",
+      "shortDescription": "Erhöht den Acetylcholinspiegel für verbessertes Gedächtnis, Konzentration und die Geist-Muskel-Verbindung.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "30–60 Minuten vor kognitiver oder körperlicher Arbeit einnehmen – für maximale Acetylcholinverfügbarkeit."
+      },
+      "synergies": [
+        "lions_mane",
+        "l_theanine",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "lions_mane": "Lion's Mane fördert NGF; Alpha-GPC steigert Acetylcholin – ergänzende kognitive Unterstützung.",
+        "l_theanine": "L-Theanin glättet eine mögliche kognitive Überstimulierung und fördert ruhige, fokussierte Aufmerksamkeit."
+      },
+      "commonDoses": "300–600 mg täglich",
+      "notes": "Eine der bioverfügbarsten Cholinquellen. Kann Kopfschmerzen verursachen, wenn die Gesamtcholinzufuhr bereits sehr hoch ist. In akuten Studien zeigte es Unterstützung der Wachstumshormonausschüttung.",
+      "tags": [
+        "Gehirn",
+        "Gedächtnis",
+        "Konzentration",
+        "Cholinerg"
+      ],
+      "sources": [
+        "Parnetti L, J Neural Transm 2001",
+        "Bellar D, J Int Soc Sports Nutr 2015"
+      ]
+    },
+    {
+      "id": "l_theanine",
+      "name": "L-Theanin",
+      "aliases": [
+        "Theanin",
+        "L-γ-Glutamylethylamid"
+      ],
+      "category": "brain",
+      "emoji": "🍵",
+      "shortDescription": "Fördert ruhige, fokussierte Wachheit ohne Schläfrigkeit. Klassisch kombiniert mit Koffein.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Zu jeder Zeit einnehmbar. Ideal morgens zusammen mit Koffein – glättet das Kribbeln."
+      },
+      "synergies": [
+        "caffeine",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "caffeine": "L-Theanin reduziert koffeininduzierten Stress und Nervosität, während die fokussteigernden Effekte erhalten bleiben. Das 2:1-Verhältnis (200 mg Theanin : 100 mg Koffein) ist gut belegt.",
+        "magnesium_glycinate": "Beide fördern Ruhe über unterschiedliche Wege (GABA-Modulation vs. NMDA-Rezeptoraktivität)."
+      },
+      "commonDoses": "100–400 mg täglich",
+      "notes": "Sehr sicher, keine bekannten ernsthaften Nebenwirkungen. Natürlich in grünem und schwarzem Tee enthalten (~20–50 mg pro Tasse). Bei höheren Dosen (200–400 mg) auch zur Schlafunterstützung geeignet.",
+      "tags": [
+        "Konzentration",
+        "Entspannung",
+        "Schlaf",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "Nobre AC, Asia Pac J Clin Nutr 2008",
+        "Owen GN, Nutr Neurosci 2008"
+      ]
+    },
+    {
+      "id": "caffeine",
+      "name": "Koffein",
+      "aliases": [
+        "Koffein Anhydrat",
+        "Koffeinsupplement"
+      ],
+      "category": "brain",
+      "emoji": "☕",
+      "shortDescription": "Das weltweit meistkonsumierte Stimulans – steigert Wachheit, Konzentration und körperliche Leistung.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morgens oder vor dem Training einnehmen. Nach 14 Uhr vermeiden, um den Schlaf nicht zu stören (Halbwertszeit: ~5–6 Stunden)."
+      },
+      "synergies": [
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "l_theanine": "L-Theanin reduziert koffeininduzierten Stress und Nervosität erheblich, während Konzentrations- und Leistungsvorteile erhalten bleiben."
+      },
+      "interactions": [
+        "melatonin"
+      ],
+      "interactionReasons": {
+        "melatonin": "Koffein blockiert Adenosinrezeptoren und wirkt dem schlaffördernden Effekt von Melatonin direkt entgegen. Koffein mindestens 6–8 Stunden vor der Melatonineinnahme vermeiden."
+      },
+      "commonDoses": "100–200 mg pro Dosis; max. 400 mg/Tag",
+      "notes": "Toleranz entwickelt sich schnell bei täglicher Einnahme. Regelmäßige Einnahmepausen erhalten die Wirksamkeit. Wirkt als Adenosinrezeptor-Antagonist. Halbwertszeit: ~5–6 Stunden.",
+      "tags": [
+        "Konzentration",
+        "Energie",
+        "Pre-Workout",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "EFSA Panel, EFSA Journal 2015",
+        "Goldstein ER, JISSN 2010"
+      ]
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "aliases": [
+        "Withania Somnifera",
+        "KSM-66",
+        "Sensoril",
+        "Indischer Ginseng"
+      ],
+      "category": "brain",
+      "emoji": "🌿",
+      "shortDescription": "Adaptogen, das Cortisol senkt, die Stressresilienz, den Testosteronspiegel und den Schlaf unterstützt.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Abends bevorzugt – hat beruhigende Wirkungen, die den Schlaf unterstützen. Mahlzeiten verbessern die Magenverträglichkeit."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Beide reduzieren die HPA-Achsen-Stressreaktion und unterstützen die Schlafqualität über komplementäre Mechanismen.",
+        "l_theanine": "Zusammen bilden sie ein abgestimmtes Anti-Stress-Paket mit entspannender Wirkung."
+      },
+      "interactions": [
+        "berberine",
+        "levothyroxine"
+      ],
+      "interactionReasons": {
+        "berberine": "Sowohl Ashwagandha als auch Berberin senken den Blutzucker unabhängig voneinander. Die Kombination kann einen additiven blutzuckersenkenden Effekt erzeugen. Bei Diabetes oder blutzuckersenkenden Medikamenten besonders vorsichtig sein.",
+        "levothyroxine": "Ashwagandha kann den T3- und T4-Spiegel natürlich erhöhen. Die Kombination mit Schilddrüsenmedikamenten wie Levothyroxin könnte das Risiko hyperthyreoser Auswirkungen bergen."
+      },
+      "commonDoses": "300–600 mg täglich (KSM-66 oder Sensoril standardisierter Extrakt)",
+      "notes": "KSM-66 (Wurzelextrakt) und Sensoril (Wurzel+Blatt) sind die klinisch am besten belegten Formen. Wirkungen bauen sich über 4–8 Wochen auf. In der Schwangerschaft vermeiden. Kann mit Schilddrüsenmedikamenten wechselwirken.",
+      "tags": [
+        "Stress",
+        "Cortisol",
+        "Testosteron",
+        "Schlaf",
+        "Adaptogen"
+      ],
+      "sources": [
+        "Chandrasekhar K, Indian J Psychol Med 2012",
+        "Wankhede S, JISSN 2015"
+      ]
+    },
+    {
+      "id": "magnesium_threonate",
+      "name": "Magnesium-L-Threonat",
+      "aliases": [
+        "MgT",
+        "Magtein",
+        "Magnesiumthreonat"
+      ],
+      "category": "sleep",
+      "emoji": "🧠",
+      "shortDescription": "Die einzige Magnesiumform, die nachweislich die Blut-Hirn-Schranke überquert – verbessert Gedächtnis und Schlaf.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "1–2 Stunden vor dem Schlafen einnehmen, um Einschlafen und kognitive Erholung zu fördern."
+      },
+      "synergies": [
+        "apigenin",
+        "l_glycine",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "apigenin": "Apigenin + Magnesium-L-Threonat ist ein bekanntes Schlaf-Supplement-Paar (Huberman-Lab-Protokoll).",
+        "l_glycine": "Beide fördern tiefen, erholsamen Schlaf durch komplementäre Mechanismen (Gehirn-Mg-Spiegel vs. Körperkerntemperatur-Senkung)."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium (alle Formen) konkurriert mit Eisen an intestinalen Metallionentransportern. Mindestens 2 Stunden Abstand.",
+        "calcium": "Kalzium und Magnesium konkurrieren um intestinale Transporter. Mindestens 2 Stunden Abstand."
+      },
+      "commonDoses": "1.500–2.000 mg (liefert ~140 mg elementares Magnesium)",
+      "notes": "Teurer als andere Magnesiumformen. Primär für kognitive und schlafbezogene Vorteile, nicht zur allgemeinen Magnesiumauffüllung. Tierstudien überzeugend; Humanstudien zu Schlaf vielversprechend.",
+      "tags": [
+        "Schlaf",
+        "Gehirn",
+        "Gedächtnis",
+        "Kognitiv"
+      ],
+      "sources": [
+        "Liu G, Neuron 2016",
+        "Slutsky I, Neuron 2010"
+      ]
+    },
+    {
+      "id": "melatonin",
+      "name": "Melatonin",
+      "aliases": [
+        "Melatonin Schlafhilfe"
+      ],
+      "category": "sleep",
+      "emoji": "🌙",
+      "shortDescription": "Reguliert den zirkadianen Schlaf-Wach-Rhythmus. Am wirksamsten bei Jetlag und Schlafzeitverschiebung.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "30–60 Minuten vor der gewünschten Schlafzeit in gedimmter Umgebung einnehmen."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "l_glycine"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Magnesium unterstützt die physiologische Entspannung und GABA-Signalisierung, damit Melatonin effektiv wirken kann.",
+        "l_glycine": "L-Glycin senkt die Körperkerntemperatur und verbessert die Schlafarchitektur – ergänzend zum zirkadianen Signal des Melatonins."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Koffein blockiert Adenosinrezeptoren und wirkt der schlaffördernden Wirkung von Melatonin direkt entgegen. Mindestens 6–8 Stunden Abstand zwischen Koffein und Melatonin."
+      },
+      "commonDoses": "0,3–1 mg (physiologische Dosis); die meisten OTC-Produkte enthalten 3–10 mg (oft unnötig hoch)",
+      "notes": "Studien zeigen, dass 0,3–1 mg für die meisten Menschen gleich oder wirksamer als hohe Dosen ist. Niedrigste wirksame Dosis verwenden, um morgendliche Benommenheit zu vermeiden. Nicht für dauerhaften nächtlichen Gebrauch ohne ärztliche Begleitung empfohlen.",
+      "tags": [
+        "Schlaf",
+        "Jetlag",
+        "Zirkadianrhythmus",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "Brzezinski A, Sleep Med Rev 2005",
+        "Arendt J, Br Med J 2006",
+        "MIT Melatonin Synthesis Research (Wurtman RJ)"
+      ]
+    },
+    {
+      "id": "l_glycine",
+      "name": "L-Glycin",
+      "aliases": [
+        "Glycin"
+      ],
+      "category": "sleep",
+      "emoji": "😴",
+      "shortDescription": "Aminosäure, die die Körperkerntemperatur senkt und so tiefen, erholsamen Schlaf fördert.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "30–60 Minuten vor dem Schlafen einnehmen. Löst sich leicht in Wasser oder warmem Tee auf."
+      },
+      "synergies": [
+        "melatonin",
+        "magnesium_threonate",
+        "apigenin"
+      ],
+      "synergyReasons": {
+        "magnesium_threonate": "Komplementäre Schlapmechanismen – Glycin senkt die Körpertemperatur peripher; Mg-Threonat wirkt zentral auf den synaptischen Magnesiumgehalt.",
+        "apigenin": "Zusammen mit Melatonin und Apigenin bildet es das Huberman-Schlaf-Supplement-Set – mehrere komplementäre Mechanismen."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Koffein wirkt als ZNS-Stimulans und Adenosinrezeptor-Antagonist und hemmt die entspannende und schlaffördernde Wirkung von L-Glycin direkt. Mindestens 6 Stunden Abstand."
+      },
+      "commonDoses": "3 g vor dem Schlafen",
+      "notes": "Bei empfohlenen Dosen sehr sicher. Studien zeigen verbesserte Wachheit am nächsten Tag und reduzierte Tagesmüdigkeit. Wirkt über NMDA-Rezeptor-Co-Agonismus und periphere Vasodilatation.",
+      "tags": [
+        "Schlaf",
+        "Erholung",
+        "Anti-Aging"
+      ],
+      "sources": [
+        "Bannai M, Sleep Biol Rhythms 2012",
+        "Kawai N, Neuropsychopharmacology 2015"
+      ]
+    },
+    {
+      "id": "gaba",
+      "name": "GABA",
+      "aliases": [
+        "Gamma-Aminobuttersäure"
+      ],
+      "category": "sleep",
+      "emoji": "🧘",
+      "shortDescription": "Vorläufer des hemmenden Neurotransmitters, der Entspannung fördern und Angst reduzieren kann.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "30–60 Minuten vor dem Schlafen für potenzielle Entspannungswirkung einnehmen."
+      },
+      "synergies": [
+        "l_theanine",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "l_theanine": "L-Theanin moduliert die GABA-Signalübertragung – zusammen können additive Entspannungseffekte auftreten.",
+        "magnesium_glycinate": "Beide unterstützen GABAerge Beruhigungswege über unterschiedliche Mechanismen."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Koffein wirkt als ZNS-Stimulans direkt der beruhigenden und schlaffördernden Wirkung von GABA entgegen. Gemeinsame Einnahme hebt den Nutzen der GABA-Supplementierung auf."
+      },
+      "commonDoses": "100–750 mg täglich",
+      "notes": "Orales GABA überquert die Blut-Hirn-Schranke nur begrenzt – direkte ZNS-Effekte nach Supplementierung sind wissenschaftlich umstritten. Periphere Effekte (Darmrelaxation, Vagusnerv-Stimulation) können berichtete Vorteile erklären. PharmaGABA-Form hat leicht bessere Datenlage.",
+      "tags": [
+        "Schlaf",
+        "Entspannung",
+        "Angst"
+      ],
+      "sources": [
+        "Boonstra E, Front Psychol 2015",
+        "Hepsomali P, Front Neurosci 2020"
+      ]
+    },
+    {
+      "id": "apigenin",
+      "name": "Apigenin",
+      "aliases": [
+        "Kamillenextrakt",
+        "Apigenin 4',5,7-Trihydroxyflavon"
+      ],
+      "category": "sleep",
+      "emoji": "🌼",
+      "shortDescription": "Natürliches Flavonoid aus Kamille, das GABA-A-Rezeptoren bindet und Entspannung sowie Schlaf fördert.",
+      "timing": {
+        "preferredTime": "before_sleep",
+        "takeWithFood": false,
+        "reason": "30–60 Minuten vor dem Schlafen einnehmen. Teil des Huberman-Schlafprotokolls."
+      },
+      "synergies": [
+        "magnesium_threonate",
+        "l_glycine",
+        "melatonin"
+      ],
+      "synergyReasons": {
+        "magnesium_threonate": "Teil des Huberman-Schlaf-Sets: Mg-Threonat + Apigenin + L-Glycin zielen auf verschiedene Schlapmechanismen ab.",
+        "l_glycine": "Zusammen senken sie die Körperkerntemperatur und verstärken die GABA-A-Rezeptoraktivität für tieferen Schlaf."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Apigenin hemmt CYP1A2 – das Hauptenzym für den Koffeinabbau. Gemeinsam können sie den Koffein-Blutspiegel erheblich erhöhen und das Risiko von Angstzuständen, Herzrasen oder Schlaflosigkeit steigern. Bei Apigenin-Einnahme Koffein vermeiden."
+      },
+      "commonDoses": "50 mg vor dem Schlafen",
+      "notes": "Schwangere und Frauen mit Kinderwunsch sollten einen Arzt konsultieren – Apigenin hat bei hohen Dosen leicht antiöstrogene Aktivität. Bei 50 mg generell als sicher eingestuft.",
+      "tags": [
+        "Schlaf",
+        "GABA",
+        "Entspannung"
+      ],
+      "sources": [
+        "Wolfman C, Pharmacol Biochem Behav 1994",
+        "Avallone R, Eur J Pharmacol 2000"
+      ]
+    },
+    {
+      "id": "probiotics",
+      "name": "Probiotika",
+      "aliases": [
+        "Lactobacillus",
+        "Bifidobacterium",
+        "Lebendkulturen",
+        "Probiotika-Mix"
+      ],
+      "category": "gut",
+      "emoji": "🦠",
+      "shortDescription": "Nützliche Bakterien zur Unterstützung der Darmmikrobiom-Vielfalt, Verdauung und Immunfunktion.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "30 Minuten vor einer Mahlzeit am besten – die Magensäure ist vor dem Essen niedriger, was das Überleben der Bakterien verbessert."
+      },
+      "synergies": [
+        "prebiotics",
+        "vitamin_d3"
+      ],
+      "synergyReasons": {
+        "prebiotics": "Präbiotika sind die Nahrungsquelle für probiotische Bakterien – eine Prä- und Probiotika-Kombination (Synbiotikum) verbessert die Mikrobiom-Besiedelung erheblich.",
+        "vitamin_d3": "Probiotika können die Aufnahme und die metabolischen Vorteile von Vitamin D verbessern."
+      },
+      "commonDoses": "5–50 Milliarden KBE täglich",
+      "notes": "Mehrstammige Formeln mit Lactobacillus- und Bifidobacterium-Stämmen werden bevorzugt. Gekühlte Probiotika können eine bessere Lebensfähigkeit haben. Vorteile sind stammspezifisch – nicht alle Stämme wirken bei allen Beschwerden.",
+      "tags": [
+        "Darm",
+        "Immunsystem",
+        "Verdauung",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "Hill C, Nat Rev Gastroenterol Hepatol 2014",
+        "Salminen S, EFSA J 2016"
+      ],
+      "interactions": []
+    },
+    {
+      "id": "prebiotics",
+      "name": "Präbiotika",
+      "aliases": [
+        "Inulin",
+        "FOS",
+        "GOS",
+        "Resistente Stärke",
+        "Präbiotische Ballaststoffe"
+      ],
+      "category": "gut",
+      "emoji": "🌾",
+      "shortDescription": "Unverdauliche Ballaststoffe, die gezielt nützliche Darmbakterien ernähren und die Mikrobiom-Vielfalt fördern.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Mit Mahlzeiten einnehmen, um Blähungen und Gasbildung in der Eingewöhnungsphase zu reduzieren."
+      },
+      "synergies": [
+        "probiotics"
+      ],
+      "synergyReasons": {
+        "probiotics": "Präbiotika ernähren die probiotischen Bakterien – eine Kombination übertrifft beide Einzelprodukte deutlich."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Inulin-artige Ballaststoffe (FOS, Inulin) können Nicht-Häm-Eisen im Darm binden und die Eisenaufnahme um 10–30 % reduzieren. Eisen mindestens 2 Stunden getrennt von Präbiotika einnehmen."
+      },
+      "commonDoses": "5–10 g täglich",
+      "notes": "Mit 2–3 g beginnen und über 2–4 Wochen schrittweise erhöhen – schnelle Einführung verursacht häufig Blähungen. GOS (Galactooligosaccharide) wird in der Regel besser vertragen als Inulin.",
+      "tags": [
+        "Darm",
+        "Mikrobiom",
+        "Ballaststoffe",
+        "Verdauung"
+      ],
+      "sources": [
+        "Gibson GR, Nat Rev Gastroenterol Hepatol 2017",
+        "Bindels LB, Nat Rev Gastroenterol 2015"
+      ]
+    },
+    {
+      "id": "berberine",
+      "name": "Berberin",
+      "aliases": [
+        "Berberin HCl",
+        "Berberinhydrochlorid"
+      ],
+      "category": "gut",
+      "emoji": "🌿",
+      "shortDescription": "Pflanzenalkaloid, das AMPK aktiviert und den Blutzucker sowie die Stoffwechselgesundheit verbessert.",
+      "timing": {
+        "preferredTime": "lunch",
+        "takeWithFood": true,
+        "reason": "Vor oder mit Mahlzeiten einnehmen, um den postprandialen Blutzuckeranstieg zu dämpfen. Aufgeteilte Dosen reduzieren Magenprobleme."
+      },
+      "synergies": [
+        "omega3",
+        "curcumin"
+      ],
+      "synergyReasons": {
+        "omega3": "Beide unterstützen Stoffwechsel- und Herzgesundheit über unterschiedliche Mechanismen.",
+        "curcumin": "Beide haben entzündungshemmende und metabolische Vorteile mit komplementären Wegen (AMPK vs. NF-κB)."
+      },
+      "interactions": [
+        "vitamin_b12"
+      ],
+      "interactionReasons": {
+        "vitamin_b12": "Berberin aktiviert AMPK und hemmt die Intrinsic-Faktor-Ausschüttung – ähnlich wie Metformin kann es die B12-Aufnahme langfristig beeinträchtigen. B12-Spiegel kontrollieren und ggf. separat ergänzen."
+      },
+      "commonDoses": "500 mg 2–3× täglich mit Mahlzeiten (gesamt 1.000–1.500 mg/Tag)",
+      "notes": "Berberin aktiviert AMPK ähnlich wie Metformin – direkte klinische Vergleiche sind jedoch begrenzt und es ist kein zugelassenes Arzneimittel. Bei Diabetes oder blutzuckersenkenden Medikamenten vor der Einnahme unbedingt einen Arzt konsultieren. Kann die Absorption bestimmter Medikamente über CYP3A4-Hemmung beeinflussen.",
+      "tags": [
+        "Blutzucker",
+        "Stoffwechsel",
+        "Darm",
+        "Langlebigkeit"
+      ],
+      "sources": [
+        "Yin J, Metabolism 2008",
+        "Zhang Y, J Clin Endocrinol Metab 2008"
+      ]
+    },
+    {
+      "id": "coq10",
+      "name": "CoQ10",
+      "aliases": [
+        "Coenzym Q10",
+        "Ubiquinol",
+        "Ubiquinon"
+      ],
+      "category": "longevity",
+      "emoji": "⚡",
+      "shortDescription": "Unterstützt die mitochondriale ATP-Produktion, antioxidativen Schutz und Herzgesundheit.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fettlöslich – Bioverfügbarkeit deutlich höher mit einer fetthaltigen Mahlzeit."
+      },
+      "synergies": [
+        "omega3",
+        "resveratrol"
+      ],
+      "synergyReasons": {
+        "omega3": "Beide unterstützen Herzgesundheit und mitochondriale Membranintegrität.",
+        "resveratrol": "Resveratrol aktiviert Sirtuine; CoQ10 unterstützt die Mitochondrienfunktion – komplementäre Langlebigkeitswege."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Freie Eisenionen können CoQ10 (Ubiquinol→Ubiquinon) oxidieren und die antioxidative Wirkung verringern. Eisen und CoQ10 mindestens 2 Stunden trennen."
+      },
+      "commonDoses": "100–300 mg täglich (Ubiquinolform bevorzugt)",
+      "notes": "Ubiquinol (reduzierte Form) wird besser aufgenommen als Ubiquinon, besonders ab 40 Jahren. Besonders relevant bei Einnahme von Statinen – Statine hemmen denselben Biosyntheseweg wie CoQ10.",
+      "tags": [
+        "Energie",
+        "Mitochondrien",
+        "Herz-Kreislauf",
+        "Langlebigkeit"
+      ],
+      "sources": [
+        "Mortensen SA, JACC Heart Fail 2014 (Q-SYMBIO trial)",
+        "Crane FL, Mitochondrion 2007"
+      ]
+    },
+    {
+      "id": "resveratrol",
+      "name": "Resveratrol",
+      "aliases": [
+        "Trans-Resveratrol",
+        "Japanischer Staudenknöterich-Extrakt"
+      ],
+      "category": "longevity",
+      "emoji": "🍇",
+      "shortDescription": "Polyphenol, das Sirtuin-Langlebigkeitspfade aktiviert und Herz-Kreislauf-Schutz bietet.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fettlöslich – am besten mit einer fetthaltigen Mahlzeit aufgenommen. Morgens praktisch und konsistent."
+      },
+      "synergies": [
+        "coq10",
+        "nmn_nr",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "coq10": "CoQ10 unterstützt die Mitochondrienfunktion; Resveratrol aktiviert Sirtuine – komplementäre Langlebigkeitsmechanismen.",
+        "nmn_nr": "NMN/NR erhöht den NAD+-Spiegel; Resveratrol aktiviert die Sirtuine, die NAD+ benötigen – eine gut belegte Langlebigkeitskombination."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Resveratrol chelatiert Eisenionen und bildet stabile Komplexe, die sowohl die Eisenaufnahme als auch die Resveratrol-Bioverfügbarkeit verringern. Bei Eisenmangel-Supplementierung getrennt einnehmen."
+      },
+      "commonDoses": "250–500 mg täglich",
+      "notes": "Trans-Resveratrol ist die bioaktive Form. Orale Bioverfügbarkeit ist durch schnellen Metabolismus gering – mikronisierte oder liposomale Formen verbessern die Aufnahme. Langlebigkeitsnachweise beim Menschen noch begrenzt.",
+      "tags": [
+        "Langlebigkeit",
+        "Antioxidans",
+        "Herz-Kreislauf",
+        "Sirtuine"
+      ],
+      "sources": [
+        "Baur JA, Nature 2006",
+        "Timmers S, Cell Metab 2011"
+      ]
+    },
+    {
+      "id": "nmn_nr",
+      "name": "NMN / NR (NAD+-Vorstufen)",
+      "aliases": [
+        "Nicotinamidmononukleotid",
+        "Nicotinamidribosid",
+        "NMN",
+        "NR"
+      ],
+      "category": "longevity",
+      "emoji": "🔬",
+      "shortDescription": "Vorstufen von NAD+, die zelluläre Energie, DNA-Reparatur und Langlebigkeitssignale unterstützen.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morgens bevorzugt, da NAD+ an der zirkadianen Rhythmusregulierung und dem Tagenergiestoffwechsel beteiligt ist."
+      },
+      "synergies": [
+        "resveratrol",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "resveratrol": "Resveratrol aktiviert Sirtuine, die NAD+ verbrauchen – NMN/NR liefert das nötige Substrat.",
+        "coq10": "Beide unterstützen die mitochondriale Energieproduktion und reduzieren altersbedingte Mitochondriendysfunktion."
+      },
+      "interactions": [
+        "vitamin_b_complex"
+      ],
+      "interactionReasons": {
+        "vitamin_b_complex": "NMN und NR werden zu Nicotinamid (einer Niacinform/B3) metabolisiert. Zusammen mit einem B-Komplex, der Niacin enthält, kann die Gesamtnicotinamid-Aufnahme den sicheren Bereich überschreiten. Gesamtniacin-Einnahme beobachten."
+      },
+      "commonDoses": "250–500 mg NMN oder 300 mg NR täglich",
+      "notes": "Humanforschung vielversprechend, aber für Langlebigkeitsaussagen noch nicht abschließend – robusteste Daten aus Tiermodellen. NMN ist teurer; NR hat mehr veröffentlichte Humanstudien. Beide erhöhen den NAD+-Blutspiegel beim Menschen.",
+      "tags": [
+        "Langlebigkeit",
+        "NAD+",
+        "Energie",
+        "Anti-Aging"
+      ],
+      "sources": [
+        "Yoshino J, Cell Metab 2021",
+        "Dollerup OL, Diabetes 2018 (NR in humans)"
+      ]
+    },
+    {
+      "id": "curcumin",
+      "name": "Kurkuma / Curcumin",
+      "aliases": [
+        "Curcuma Longa",
+        "Curcuminoide",
+        "Kurkuma-Extrakt",
+        "BCM-95"
+      ],
+      "category": "gut",
+      "emoji": "🟡",
+      "shortDescription": "Starke entzündungshemmende und antioxidative Verbindung aus der Kurkumawurzel.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fettlöslich – am besten mit fetthaltigen Mahlzeiten aufgenommen. Piperin erhöht die Bioverfügbarkeit erheblich."
+      },
+      "synergies": [
+        "black_pepper",
+        "omega3",
+        "piperine"
+      ],
+      "synergyReasons": {
+        "black_pepper": "Piperin hemmt die Curcumin-Glucuronidierung und erhöht die Bioverfügbarkeit um das ~20-fache (2.000 %) – diese beiden immer kombinieren.",
+        "omega3": "Beide hemmen Entzündungen über komplementäre Wege (NF-κB-Hemmung vs. Eicosanoid-Modulation).",
+        "piperine": "Piperin schützt Curcumin vor dem schnellen Abbau und erhöht seine systemische Bioverfügbarkeit massiv."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "Curcumin ist ein starker Eisenchelator – es bildet unlösliche Komplexe mit Eisen im Darm und reduziert die Eisenaufnahme erheblich. Bei Eisenmangel mindestens 3 Stunden Abstand."
+      },
+      "commonDoses": "500–2.000 mg Curcuminoide täglich",
+      "notes": "Einfaches Kurkumapulver hat eine sehr geringe Bioverfügbarkeit. Formulierungen mit Piperin (BioPerine), Phospholipid-Komplex (Meriva, BCM-95) oder Nanopartikel-Systemen verwenden.",
+      "tags": [
+        "Entzündungshemmung",
+        "Antioxidans",
+        "Gelenkgesundheit",
+        "Darm"
+      ],
+      "sources": [
+        "Shoba G, Planta Med 1998",
+        "Aggarwal BB, Biochem Pharmacol 2006"
+      ]
+    },
+    {
+      "id": "black_pepper",
+      "name": "Schwarzpfefferextrakt (Piperin)",
+      "aliases": [
+        "Piperin",
+        "BioPerine"
+      ],
+      "category": "gut",
+      "emoji": "🌶️",
+      "shortDescription": "Erhöht die Bioverfügbarkeit von Curcumin und anderen Nährstoffen erheblich.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Zusammen mit den Supplementen einnehmen, deren Wirkung verbessert werden soll – insbesondere Curcumin."
+      },
+      "synergies": [
+        "curcumin",
+        "resveratrol"
+      ],
+      "synergyReasons": {
+        "curcumin": "Piperin hemmt den intestinalen und hepatischen Curcumin-Metabolismus und erhöht die Bioverfügbarkeit um das ~20-fache – diese beiden immer kombinieren.",
+        "resveratrol": "Piperin kann auch den First-Pass-Metabolismus von Resveratrol reduzieren und dessen Absorption verbessern."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Piperin hemmt stark CYP1A2 – das wichtigste Leberenzym für den Koffeinabbau. Gemeinsame Einnahme kann den Koffeinspiegel um 50–100 % erhöhen und das Risiko von Koffein-Nebenwirkungen erhöhen. Vorsicht bei Kombination."
+      },
+      "commonDoses": "5–20 mg täglich",
+      "notes": "Meist mit 5 mg in Curcumin-Formulierungen enthalten. Eigenständige Dosierung selten nötig. Hohe Dosen (>20 mg) können die Absorption bestimmter Medikamente beeinflussen – bei Verschreibungen Arzt konsultieren.",
+      "tags": [
+        "Bioverfügbarkeit",
+        "Absorption",
+        "Darm"
+      ],
+      "sources": [
+        "Shoba G, Planta Med 1998"
+      ]
+    },
+    {
+      "id": "vitamin_b_complex",
+      "name": "Vitamin-B-Komplex",
+      "aliases": [
+        "B-Komplex",
+        "B-Vitamine",
+        "Multivitamin B"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Alle acht essenziellen B-Vitamine zur Unterstützung von Energiestoffwechsel, Gehirnfunktion und Stressreaktion.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Mit dem Frühstück einnehmen – B-Vitamine sind am Energiestoffwechsel beteiligt; Mahlzeiten reduzieren das Übelkeitsrisiko."
+      },
+      "synergies": [
+        "vitamin_b12",
+        "folate"
+      ],
+      "synergyReasons": {
+        "vitamin_b12": "B-Komplex liefert alle B-Vitamine; eigenständiges B12 ist nützlich für Veganer oder bei Aufnahmeproblemen.",
+        "folate": "Alle B-Vitamine unterstützen den Methylierungszyklus – Folat und B12 sind die wichtigsten Kofaktoren."
+      },
+      "interactions": [
+        "nmn_nr"
+      ],
+      "interactionReasons": {
+        "nmn_nr": "NMN und NR werden zu Nicotinamid (Niacin/B3) metabolisiert. Zusammen mit einem Niacin-haltigen B-Komplex kann die Gesamtnicotinamid-Aufnahme sichere Grenzen überschreiten. Gesamtniacin-Einnahme beobachten."
+      },
+      "commonDoses": "1 Portion täglich (je nach Produkt; Herstellerangaben beachten)",
+      "notes": "Methylierte Formen (Methylfolat, Methylcobalamin) bevorzugen. Urin kann durch Riboflavin (B2) leuchtend gelb werden – das ist normal und harmlos.",
+      "tags": [
+        "Energie",
+        "Gehirn",
+        "Stress",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Kennedy DO, Nutrients 2016"
+      ]
+    },
+    {
+      "id": "nac",
+      "name": "NAC (N-Acetylcystein)",
+      "aliases": [
+        "N-Acetylcystein",
+        "N-Acetyl-L-Cystein"
+      ],
+      "category": "gut",
+      "emoji": "🛡️",
+      "shortDescription": "Vorstufe von Glutathion – dem wichtigsten körpereigenen Antioxidans. Unterstützt Leber, Lunge und Immunsystem.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Mit einer Mahlzeit einnehmen, um das Übelkeitsrisiko auf nüchternen Magen zu reduzieren."
+      },
+      "synergies": [
+        "vitamin_c",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Beide unterstützen die Glutathionsynthese und wirken als komplementäre Antioxidantien – Vitamin C kann oxidiertes Glutathion regenerieren.",
+        "coq10": "Zusammen bieten sie umfassenden mitochondrialen Schutz und antioxidative Unterstützung."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "NAC enthält freie Thiolgruppen, die Eisen chelatieren und Eisen-NAC-Komplexe im Darm bilden. Dies reduziert die Eisenverfügbarkeit – besonders relevant bei Eisenmangel-Supplementierung. Mindestens 2 Stunden Abstand."
+      },
+      "commonDoses": "600–1.800 mg täglich (aufgeteilte Dosen)",
+      "notes": "Einer der wirksamsten Glutathion-Vorläufer. Medizinisch bei Paracetamol-Überdosis und Atemwegserkrankungen eingesetzt. Hinweis: Die FDA versuchte 2020, NAC als Nahrungsergänzung einzuschränken – regulatorischer Status kann je nach Region variieren.",
+      "tags": [
+        "Antioxidans",
+        "Leber",
+        "Lunge",
+        "Glutathion",
+        "Immunsystem"
+      ],
+      "sources": [
+        "Mokhtari V, J Cell Biochem 2017",
+        "Aldini G, Free Radic Res 2018"
+      ]
+    },
+    {
+      "id": "vitamin_e",
+      "name": "Vitamin E",
+      "aliases": [
+        "Tocopherol",
+        "Alpha-Tocopherol",
+        "Gemischte Tocopherole"
+      ],
+      "category": "vitamins",
+      "emoji": "🌻",
+      "shortDescription": "Fettlösliches Antioxidans, das Zellen vor oxidativem Schaden schützt und Immun- sowie Hautgesundheit unterstützt.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fettlöslich – benötigt Nahrungsfett für eine gute Aufnahme. Mit der größten Mahlzeit des Tages einnehmen."
+      },
+      "synergies": [
+        "vitamin_c",
+        "selenium",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C regeneriert oxidiertes Vitamin E und verlängert dessen antioxidative Aktivität in Zellmembranen.",
+        "selenium": "Selen (als Glutathionperoxidase) und Vitamin E wirken synergistisch bei der Neutralisierung von Lipidperoxiden.",
+        "omega3": "Vitamin E schützt Omega-3-Fettsäuren vor Oxidation, sowohl im Supplement als auch in Zellmembranen."
+      },
+      "interactions": [
+        "iron",
+        "vitamin_k2"
+      ],
+      "interactionReasons": {
+        "iron": "Vitamin E kann die Eisenaufnahme hemmen, wenn es gleichzeitig eingenommen wird. Mindestens 2 Stunden Abstand einhalten. (Lynch SR, Am J Clin Nutr 1980)",
+        "vitamin_k2": "Hohe Vitamin-E-Dosen (>300 IE/Tag) hemmen Vitamin-K-abhängige γ-Carboxylase-Enzyme und beeinträchtigen die Aktivierung von Osteocalcin und Matrix-Gla-Protein durch K2. Vitamin-E-Dosis moderat halten (<200 IE) bei gleichzeitiger K2-Einnahme. (Booth SL, Am J Clin Nutr 2004)"
+      },
+      "commonDoses": "100–400 IE täglich (vorzugsweise als gemischte Tocopherole)",
+      "notes": "Gemischte Tocopherole (alpha, beta, gamma, delta) dem synthetischen dl-alpha-Tocopherol vorziehen. Hohe Dosen (>400 IE/Tag) können bei Personen unter Blutverdünnern das Blutungsrisiko erhöhen.",
+      "tags": [
+        "Antioxidans",
+        "Haut",
+        "Immunsystem",
+        "fettlöslich",
+        "Herz-Kreislauf"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Traber MG, Adv Nutr 2014"
+      ]
+    },
+    {
+      "id": "vitamin_a",
+      "name": "Vitamin A",
+      "aliases": [
+        "Retinol",
+        "Beta-Carotin",
+        "Retinylpalmitat"
+      ],
+      "category": "vitamins",
+      "emoji": "🥕",
+      "shortDescription": "Essenziell für Sehvermögen, Immunabwehr, Hauterneuerung und Fortpflanzungsgesundheit.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fettlösliches Vitamin – die Aufnahme verbessert sich erheblich mit einer fetthaltigen Mahlzeit."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "zinc",
+        "vitamin_e"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Vitamin A und D teilen Kernrezeptor-Signalwege und regulieren gemeinsam Immunfunktion und Genexpression.",
+        "zinc": "Zink wird für die Synthese des Retinol-Bindungsproteins benötigt, das Vitamin A im Blut transportiert.",
+        "vitamin_e": "Vitamin E schützt Vitamin A vor Oxidation im Darm und im Gewebe."
+      },
+      "interactions": [
+        "vitamin_d3"
+      ],
+      "interactionReasons": {
+        "vitamin_d3": "Hochdosiertes Retinol (>5.000 IE/Tag) antagonisiert die Vitamin-D-Rezeptorsignalisierung und wurde mit verringerter Knochendichte trotz D3-Supplementierung assoziiert. Optimales A:D-Verhältnis: ca. 5:1 (IE). Beta-Carotin bevorzugen, um dieses Risiko zu reduzieren. (Johansson S, J Bone Miner Res 2004)"
+      },
+      "commonDoses": "2.500–5.000 IE täglich (Retinol); bis zu 25.000 IE als Beta-Carotin",
+      "notes": "Präformiertes Vitamin A kann bei hohen Dosen akkumulieren und toxisch werden – langfristig nicht mehr als 10.000 IE/Tag einnehmen. Beta-Carotin wird nach Bedarf umgewandelt und ist sicherer. Schwangere sollten hochdosiertes Retinol meiden.",
+      "tags": [
+        "Sehvermögen",
+        "Immunsystem",
+        "Haut",
+        "fettlöslich",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Semba RD, Proc Nutr Soc 1999"
+      ]
+    },
+    {
+      "id": "vitamin_b6",
+      "name": "Vitamin B6",
+      "aliases": [
+        "Pyridoxin",
+        "Pyridoxal-5-Phosphat",
+        "P5P"
+      ],
+      "category": "vitamins",
+      "emoji": "🧬",
+      "shortDescription": "Kofaktor in über 100 Enzymreaktionen: Neurotransmittersynthese, Hormonregulation und Aminosäurestoffwechsel.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Wasserlöslich – mit dem Frühstück einnehmen, um Übelkeit zu vermeiden und die Neurotransmitteraktivität zu unterstützen."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "vitamin_b12",
+        "folate"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "B6 wird benötigt, um Magnesium in Zellen zu transportieren; beide unterstützen gemeinsam Schlaf, Stimmung und das Nervensystem.",
+        "vitamin_b12": "B6, B12 und Folat bilden das Homocystein-senkende Trio – alle drei sind für die sichere Umwandlung von Homocystein notwendig.",
+        "folate": "B6 und Folat wirken gemeinsam im Ein-Kohlenstoff-Stoffwechsel und unterstützen DNA-Synthese und Methylierung."
+      },
+      "commonDoses": "10–50 mg täglich (P5P-Form bevorzugt)",
+      "notes": "P5P ist die aktive Coenzymform und benötigt keine Leberumwandlung. Dosen über 100 mg/Tag langfristig wurden mit peripherer Neuropathie assoziiert.",
+      "tags": [
+        "Stimmung",
+        "Neurotransmitter",
+        "Energie",
+        "Hormone",
+        "Homocystein"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Stover PJ, Annu Rev Nutr 2004"
+      ]
+    },
+    {
+      "id": "biotin",
+      "name": "Biotin",
+      "aliases": [
+        "Vitamin B7",
+        "Vitamin H",
+        "Coenzym R"
+      ],
+      "category": "vitamins",
+      "emoji": "💇",
+      "shortDescription": "B-Vitamin essenziell für Haare, Nägel und Haut sowie den Stoffwechsel von Kohlenhydraten, Fetten und Proteinen.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Wasserlöslich – kann mit oder ohne Nahrung eingenommen werden. Morgendliche Dosierung unterstützt den Tagesstoffwechsel."
+      },
+      "synergies": [
+        "zinc",
+        "vitamin_b_complex"
+      ],
+      "synergyReasons": {
+        "zinc": "Beide unterstützen die Keratinstruktur; ein Mangel an einem führt zu spröden Haaren und Nägeln.",
+        "vitamin_b_complex": "Biotin wirkt synergistisch mit anderen B-Vitaminen im Energie- und Makronährstoffstoffwechsel."
+      },
+      "commonDoses": "2,5–10 mg (2.500–10.000 mcg) täglich",
+      "notes": "Hochdosiertes Biotin (>5 mg/Tag) kann Schilddrüsen- und Troponin-Laborwerte verfälschen. Arzt vor Bluttests informieren. Echter Biotinmangel ist selten, häufiger bei regelmäßigem Rohei-Konsum.",
+      "tags": [
+        "Haare",
+        "Nägel",
+        "Haut",
+        "Energie",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Patel DP, Skin Appendage Disord 2017"
+      ]
+    },
+    {
+      "id": "magnesium_citrate",
+      "name": "Magnesiumcitrat",
+      "aliases": [
+        "Mag Citrat"
+      ],
+      "category": "vitamins",
+      "emoji": "🪨",
+      "shortDescription": "Hochbioverfügbare Magnesiumform, die auch die Darmregularität und den Verdauungskomfort unterstützt.",
+      "timing": {
+        "preferredTime": "beforeSleep",
+        "takeWithFood": false,
+        "reason": "Abendliche Dosierung unterstützt Entspannung und Schlaf. Kann ohne Nahrung eingenommen werden."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "vitamin_b6"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnesium wird zur Aktivierung von Vitamin D benötigt – ohne ausreichend Magnesium ist D3-Supplementierung weniger wirksam.",
+        "vitamin_b6": "B6 erleichtert den Magnesiumtransport in die Zellen und verbessert dessen intrazelluläre Aktivität."
+      },
+      "interactions": [
+        "iron",
+        "calcium",
+        "zinc"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium konkurriert mit Eisen um den Divalent-Metal-Transporter (DMT1). Eisen und Magnesium mindestens 2 Stunden auseinander einnehmen. (NIH ODS)",
+        "calcium": "Calcium und Magnesium konkurrieren um gemeinsame intestinale Absorptionskanäle. Mindestens 2 Stunden Abstand einhalten. (Seelig MS, JAMA 1975)",
+        "zinc": "Hochdosiertes Magnesium kann mit Zink um Mineraltransporter konkurrieren. Bei therapeutischen Dosen 1–2 Stunden Abstand einhalten. (NIH ODS)"
+      },
+      "commonDoses": "200–400 mg elementares Magnesium täglich",
+      "notes": "Citratform hat eine gute Bioverfügbarkeit und eine leicht abführende Wirkung. Für Personen, die zu Durchfall neigen, ist Magnesiumglycinat oder -malat besser verträglich.",
+      "tags": [
+        "Entspannung",
+        "Schlaf",
+        "Verdauung",
+        "Muskeln",
+        "Einsteiger-geeignet"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Schuchardt JP, Curr Nutr Food Sci 2017"
+      ]
+    },
+    {
+      "id": "magnesium_taurate",
+      "name": "Magnesiumtaurat",
+      "aliases": [
+        "Mag Taurate",
+        "Magnesium Taurinate"
+      ],
+      "category": "vitamins",
+      "emoji": "❤️",
+      "shortDescription": "Kombination aus Magnesium und Taurin für Herzgesundheit, Blutdruckregulierung und Blutzuckerunterstützung.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Abends mit einer Mahlzeit einnehmen — Nahrung erhöht die Magnesiumabsorption um bis zu 40 % und reduziert Magenprobleme."
+      },
+      "synergies": [
+        "vitamin_d3",
+        "vitamin_b6",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "vitamin_d3": "Magnesium wird benötigt, um Vitamin D zu aktivieren — ohne ausreichend Magnesium ist eine D3-Supplementierung weniger wirksam.",
+        "vitamin_b6": "Vitamin B6 fördert den Transport von Magnesium in die Zellen und erhöht den intrazellulären Magnesiumspiegel.",
+        "l_theanine": "Taurin (in Magnesiumtaurat) und L-Theanin unterstützen Ruhe und Entspannung durch komplementäre GABAerge Mechanismen."
+      },
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium konkurriert mit Eisen um den intestinalen DMT1-Transporter. Eisenpräparate mindestens 2 Stunden zeitlich trennen.",
+        "calcium": "Kalzium und Magnesium konkurrieren um gemeinsame intestinale Absorptionskanäle. Hochdosige gleichzeitige Einnahme verringert die Bioverfügbarkeit beider. Mindestens 2 Stunden Abstand einhalten."
+      },
+      "commonDoses": "125–500 mg elementares Magnesium täglich",
+      "notes": "Die Taurinkomponente bietet zusätzliche kardiovaskuläre und neurologische Unterstützung. Vorsicht: Kann die Wirkung von Digoxin verstärken (Toxizitätsrisiko — Kardiologen konsultieren). Makrolid-Antibiotika (z.B. Azithromycin, Clarithromycin) mindestens 2 Stunden zeitlich trennen. Wenn mehrere Magnesiumformen täglich eingenommen werden, Dosen mindestens 6 Stunden trennen.",
+      "tags": [
+        "kardiovaskulär",
+        "blutdruck",
+        "blutzucker",
+        "herz"
+      ],
+      "sources": [
+        "McCarty MF, Med Hypotheses 1996",
+        "Shao M, Front Pharmacol 2022",
+        "NIH ODS"
+      ]
+    },
+    {
+      "id": "magnesium_oxide",
+      "name": "Magnesiumoxid",
+      "aliases": [
+        "Mag Oxide",
+        "MgO"
+      ],
+      "category": "vitamins",
+      "emoji": "🧲",
+      "shortDescription": "Magnesiumform mit sehr geringer Bioverfügbarkeit; primär als Abführmittel verwendet, nicht zur Mangelkorrektur.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": false,
+        "reason": "Abends einnehmen — hauptsächlich für den osmotischen Abführeffekt genutzt. Nahrungseinnahme ist optional, da die Absorption ohnehin minimal ist."
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "iron",
+        "calcium"
+      ],
+      "interactionReasons": {
+        "iron": "Magnesium konkurriert mit Eisen um intestinale DMT1-Transporter. Eisenpräparate mindestens 2 Stunden zeitlich trennen.",
+        "calcium": "Kalzium und Magnesium teilen intestinale Absorptionskanäle. Mindestens 2 Stunden Abstand einhalten."
+      },
+      "commonDoses": "250–500 mg täglich (Abführmittelgebrauch)",
+      "notes": "Nur ca. 4 % des elementaren Magnesiums in Oxidform werden absorbiert — die geringste Bioverfügbarkeit aller Magnesiumsalze. Zur Behebung eines Magnesiummangels nicht empfehlenswert. Stattdessen Glycinat, Malat oder Citrat wählen. Nur als kostengünstiges osmotisches Abführmittel bei gelegentlicher Verstopfung geeignet.",
+      "tags": [
+        "verdauung",
+        "abführmittel"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Meijer P, Magnes Res 2003",
+        "Lindberg JS, J Am Coll Nutr 1990"
+      ]
+    },
+    {
+      "id": "vitamin_b1",
+      "name": "Vitamin B1 (Thiamin)",
+      "aliases": [
+        "Thiamin",
+        "Benfotiamin"
+      ],
+      "category": "vitamins",
+      "emoji": "⚡",
+      "shortDescription": "Essenzielles Coenzym zur Umwandlung von Kohlenhydraten in Energie. Kritisch für Nerven- und Herzfunktion.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Wasserlöslich – mit dem Frühstück einnehmen, um den Energiestoffwechsel den ganzen Tag zu unterstützen."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "Alle B-Vitamine arbeiten gemeinsam im Energiestoffwechsel; B1 ist als Teil eines vollständigen B-Komplexes am effektivsten.",
+        "magnesium_glycinate": "Magnesium ist ein Kofaktor für Thiamin-abhängige Enzyme – beide wirken gemeinsam bei der ATP-Produktion."
+      },
+      "interactions": [
+        "caffeine"
+      ],
+      "interactionReasons": {
+        "caffeine": "Koffein hemmt die intestinalen Thiamin-Transportproteine und erhöht die renale Ausscheidung. Regelmäßiger hoher Koffeinkonsum kann langfristig zu einem marginalen Thiaminmangel beitragen. Mindestens 1 Stunde Abstand einhalten. (Said HM, Am J Physiol 1999)"
+      },
+      "commonDoses": "50–100 mg täglich; 150–600 mg für Benfotiamin",
+      "notes": "Benfotiamin ist die fettlösliche Form mit überlegener Bioverfügbarkeit, besonders bei diabetischer Neuropathie untersucht. Thiaminmangel tritt häufiger bei übermäßigem Alkoholkonsum und restriktiven Diäten auf.",
+      "tags": [
+        "Energie",
+        "Nerven",
+        "Herz-Kreislauf",
+        "Stoffwechsel"
+      ],
+      "sources": [
+        "NIH ODS",
+        "Thornalley PJ, Ann N Y Acad Sci 2005"
+      ]
+    },
+    {
+      "id": "st_johns_wort",
+      "aliases": [
+        "Sarı Kantaron"
+      ],
+      "category": "brain",
+      "emoji": "🌻",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "vitamin_d3"
+      ],
+      "commonDoses": "300-900 mg",
+      "tags": [
+        "mood",
+        "depression"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Johanniskraut",
+      "shortDescription": "Pflanzliches Präparat zur Unterstützung der Stimmung.",
+      "notes": "Starker Induktor von CYP3A4, interagiert mit vielen Medikamenten.",
+      "interactionReasons": {
+        "vitamin_d3": "Johanniskraut induziert stark CYP3A4, was den Metabolismus von Vitamin D beschleunigen und den Serumspiegel senken kann."
+      }
+    },
+    {
+      "id": "copper",
+      "aliases": [
+        "Cu"
+      ],
+      "category": "vitamins",
+      "emoji": "🪙",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "zinc"
+      ],
+      "commonDoses": "1-2 mg",
+      "tags": [
+        "minerals"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Kupfer",
+      "shortDescription": "Essentielles Spurenelement für Energiestoffwechsel und Eisen.",
+      "notes": "Nicht gleichzeitig mit Zink einnehmen.",
+      "interactionReasons": {
+        "zinc": "Hochdosiertes Zink kann Kupfer im Darm binden und zu einem Mangel führen."
+      }
+    },
+    {
+      "id": "green_tea_extract",
+      "aliases": [
+        "EGCG"
+      ],
+      "category": "longevity",
+      "emoji": "🍵",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "iron"
+      ],
+      "commonDoses": "250-500 mg",
+      "tags": [
+        "antioxidant"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Grüntee-Extrakt (EGCG)",
+      "shortDescription": "Starkes Antioxidans, bekannt für metabolische Unterstützung.",
+      "notes": "Nicht zeitnah zu Eisenpräparaten einnehmen.",
+      "interactionReasons": {
+        "iron": "EGCG in grünem Tee bindet an Eisen und verringert die Aufnahme von beiden. Halten Sie mindestens 2 Stunden Abstand."
+      }
+    },
+    {
+      "id": "levothyroxine",
+      "aliases": [
+        "Thyroid Medication"
+      ],
+      "category": "longevity",
+      "emoji": "💊",
+      "timing": {
+        "preferredTime": "early_morning",
+        "takeWithFood": false,
+        "reason": ""
+      },
+      "synergies": [],
+      "synergyReasons": {},
+      "interactions": [
+        "ashwagandha",
+        "calcium",
+        "iron",
+        "zinc",
+        "magnesium_glycinate"
+      ],
+      "commonDoses": "-",
+      "tags": [
+        "medication"
+      ],
+      "sources": [
+        "Research"
+      ],
+      "name": "Levothyroxin (Schilddrüse)",
+      "shortDescription": "Medikament zur Behandlung von Schilddrüsenunterfunktion.",
+      "notes": "Streng nüchtern und getrennt von Mineralien einnehmen.",
+      "interactionReasons": {
+        "ashwagandha": "Ashwagandha kann den T3- und T4-Spiegel erhöhen. Die Kombination birgt Risiken.",
+        "calcium": "Mineralien blockieren die Levothyroxin-Aufnahme. 4 Stunden Abstand halten.",
+        "iron": "Mineralien blockieren die Levothyroxin-Aufnahme. 4 Stunden Abstand halten.",
+        "zinc": "Mineralien blockieren die Levothyroxin-Aufnahme. 4 Stunden Abstand halten.",
+        "magnesium_glycinate": "Mineralien blockieren die Levothyroxin-Aufnahme. 4 Stunden Abstand halten."
+      }
+    },
+    {
+      "id": "5_htp",
+      "name": "5-HTP (Griffonia)",
+      "aliases": [
+        "5-Hydroxytryptophan",
+        "Griffonia Seed Extract"
+      ],
+      "category": "sleep",
+      "emoji": "😊",
+      "shortDescription": "Direkter Serotonin-Vorläufer, der die Stimmung verbessert, Angstzustände reduziert und tieferen Schlaf ohne Abhängigkeit fördert.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": false,
+        "reason": "Abends auf nüchternen Magen für Schlafvorteile — Serotonin wird über Nacht zu Melatonin umgewandelt."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "vitamin_b6",
+        "l_theanine"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Magnesium ist ein Cofaktor bei der enzymatischen Umwandlung von 5-HTP in Serotonin und verstärkt dessen Wirkung.",
+        "vitamin_b6": "B6 (Pyridoxal-5-Phosphat) ist essenziell für die aromatische Aminosäure-Decarboxylase — das Enzym, das 5-HTP in Serotonin umwandelt.",
+        "l_theanine": "L-Theanin fördert GABA-vermittelte Ruhe, während 5-HTP den Serotoninspiegel erhöht — zusammen adressieren sie sowohl angst- als auch depressionsbezogene Schlafstörungen."
+      },
+      "interactions": [
+        "st_johns_wort",
+        "nac"
+      ],
+      "interactionReasons": {
+        "st_johns_wort": "Both increase serotonin availability — combining them risks serotonin syndrome (agitation, confusion, rapid heart rate). Do not combine without medical supervision.",
+        "nac": "NAC increases glutathione, which can modulate serotonin metabolism. The interaction is mild but monitor for mood changes."
+      },
+      "commonDoses": "50–300 mg daily",
+      "notes": "Mit 50–100 mg beginnen, um die Toleranz zu beurteilen. Nicht mit SSRIs, SNRIs oder MAOIs ohne ärztliche Aufsicht kombinieren. Kurzfristige Zyklen (8–12 Wochen) sind sicherer.",
+      "tags": [
+        "Serotonin",
+        "Schlaf",
+        "Stimmung",
+        "Angst",
+        "Melatonin"
+      ],
+      "sources": [
+        "Birdsall TC, Altern Med Rev 1998",
+        "Ravindran AV, CNS Drugs 2010"
+      ]
+    },
+    {
+      "id": "ala",
+      "name": "Alpha-Liponsäure (ALA)",
+      "aliases": [
+        "ALA",
+        "R-ALA",
+        "Na-R-ALA",
+        "Thioctic Acid"
+      ],
+      "category": "longevity",
+      "emoji": "⚗️",
+      "shortDescription": "Universelles Antioxidans, das Vitamine C und E regeneriert, die Insulinsensitivität verbessert, Nervenschäden reduziert und Schwermetalle cheliert.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Nüchterne Absorption ist deutlich höher — 30 Minuten vor den Mahlzeiten für maximale Bioverfügbarkeit nehmen."
+      },
+      "synergies": [
+        "vitamin_c",
+        "vitamin_e",
+        "coq10",
+        "nac",
+        "vitamin_b1"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "ALA regeneriert direkt oxidiertes Vitamin C zurück in seine aktive Ascorbat-Form — eine der wirkungsvollsten Antioxidantien-Recycling-Synergien.",
+        "vitamin_e": "ALA regeneriert Vitamin E (Alpha-Tocopherol) aus seiner oxidierten Form und verlängert so seine schützende Dauer.",
+        "coq10": "Beide unterstützen die mitochondriale Energieproduktion und den Membranschutz — synergistisch gegen mitochondriale Dysfunktion.",
+        "nac": "NAC erhöht Glutathion, während ALA sowohl Glutathion recycelt als auch unabhängig freie Radikale abfängt — umfassende antioxidative Abwehr.",
+        "vitamin_b1": "ALA fungiert als Cofaktor zusammen mit Thiamin (B1) im Pyruvat-Dehydrogenase-Komplex und macht sie metabolisch voneinander abhängig."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "200–600 mg daily (R-ALA preferred over racemic ALA)",
+      "notes": "R-ALA ist die biologisch aktive Form mit 3–5x besserer Wirksamkeit. Na-R-ALA (Natriumsalz) ist stabilisiert und bioverfügbarer. ALA senkt den Blutzucker leicht — Diabetiker sollten die Glukose genau überwachen.",
+      "tags": [
+        "Antioxidans",
+        "Insulin",
+        "Nerven",
+        "Energie",
+        "Detox"
+      ],
+      "sources": [
+        "Shay KP, Biochim Biophys Acta 2009",
+        "Ziegler D, Diabetes Care 2006"
+      ]
+    },
+    {
+      "id": "astaxanthin",
+      "name": "Astaxanthin",
+      "aliases": [
+        "Haematococcus Astaxanthin",
+        "Natural Astaxanthin"
+      ],
+      "category": "longevity",
+      "emoji": "🦞",
+      "shortDescription": "Meereskarotinoid mit 6.000x stärkerem Antioxidans als Vitamin C — schützt Haut, Augen, Muskeln und Mitochondrien vor oxidativem Schaden.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Fettlösliches Karotinoid — die Bioverfügbarkeit steigt bei fetthaltiger Nahrung um das 3–7-fache."
+      },
+      "synergies": [
+        "vitamin_c",
+        "vitamin_e",
+        "omega3",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C wirkt in wässrigen Umgebungen, während Astaxanthin Lipidmembranen schützt — zusammen bieten sie vollständigen zellulären Antioxidantien-Schutz.",
+        "vitamin_e": "Beide sind lipidlösliche Antioxidantien, die Zellmembranen schützen — Astaxanthin überspannt die gesamte Membrandoppelschicht, während Vitamin E nur die äußere Schicht schützt.",
+        "omega3": "Omega-3-Fettsäuren erhöhen das Risiko der Lipidperoxidation; Astaxanthin schützt spezifisch mehrfach ungesättigte Fettsäuren vor Oxidation — eine natürliche Paarung.",
+        "coq10": "Beide schützen mitochondriale Membranen und unterstützen die Energieproduktion — synergistischer mitochondrialer Antioxidantien-Schutz."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "4–12 mg daily",
+      "notes": "Konzentrierteste natürliche Quelle ist die Haematococcus-pluvialis-Mikroalge. Hautvorteile (UV-Schutz, Elastizität) erscheinen nach 4–8 Wochen bei 4 mg/Tag.",
+      "tags": [
+        "Antioxidans",
+        "Haut",
+        "Augen",
+        "Muskeln",
+        "Mitochondrien"
+      ],
+      "sources": [
+        "Guerin M, Trends Biotechnol 2003",
+        "Fassett RG, Mar Drugs 2011"
+      ]
+    },
+    {
+      "id": "bacopa_monnieri",
+      "name": "Bacopa Monnieri",
+      "aliases": [
+        "Bacopa",
+        "Brahmi",
+        "Water Hyssop"
+      ],
+      "category": "brain",
+      "emoji": "🧠",
+      "shortDescription": "Ayurvedisches Kraut, das die Gedächtnisbildung verbessert, die Informationsverarbeitung beschleunigt und Angstzustände durch neurotrophische und antioxidative Mechanismen reduziert.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Immer mit fetthaltiger Nahrung nehmen — Bacosides sind fettlöslich und die Bioverfügbarkeit sinkt ohne Nahrungsfett erheblich."
+      },
+      "synergies": [
+        "lions_mane",
+        "alpha_gpc",
+        "ginkgo_biloba",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "lions_mane": "Löwenmähne fördert NGF (Nervenwachstum), während Bacopa synaptische Kommunikation und Gedächtnisenkodierung verbessert — komplementärer Neuroplastizitäts-Stack.",
+        "alpha_gpc": "Alpha-GPC steigert die Acetylcholinsynthese, während Bacopa die Acetylcholinesterase hemmt (verlangsamt den Abbau) — synergistische cholinerge Verstärkung.",
+        "ginkgo_biloba": "Ginkgo verbessert den zerebralen Blutfluss, während Bacopa die Gedächtniskonsolidierung verbessert — Lieferung und Verarbeitung werden gemeinsam adressiert.",
+        "omega3": "DHA in Omega-3 unterstützt die Fluidität neuronaler Membranen, während Bacopas Bacosides die synaptische Plastizität verbessern."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "300–600 mg daily (standardized to 50% bacosides)",
+      "notes": "Für volle Gedächtnisvorteile sind 8–12 Wochen regelmäßiger Einnahme erforderlich. Kann ohne Nahrung Magen-Darm-Beschwerden verursachen.",
+      "tags": [
+        "Gedächtnis",
+        "Lernen",
+        "Gehirn",
+        "Angst",
+        "Kognition"
+      ],
+      "sources": [
+        "Roodenrys S, Neuropsychopharmacology 2002",
+        "Calabrese C, J Altern Complement Med 2008"
+      ]
+    },
+    {
+      "id": "bcaa",
+      "name": "BCAA (Verzweigtkettige Aminosäuren)",
+      "aliases": [
+        "BCAAs",
+        "Leucine",
+        "Isoleucine",
+        "Valine"
+      ],
+      "category": "performance",
+      "emoji": "💪",
+      "shortDescription": "Leucin, Isoleucin und Valin — essentielle Aminosäuren, die Muskelabbau verhindern, die Muskelproteinsynthese stimulieren und sportliche Ermüdung reduzieren.",
+      "timing": {
+        "preferredTime": "before_workout",
+        "takeWithFood": false,
+        "reason": "30 Minuten vor oder während des Trainings nehmen — BCAAs werden direkt in der Muskulatur während des Trainings oxidiert."
+      },
+      "synergies": [
+        "creatine",
+        "glutamine",
+        "electrolytes",
+        "vitamin_b6"
+      ],
+      "synergyReasons": {
+        "creatine": "Kreatin erhöht die ATP-Verfügbarkeit für die Muskelkontraktion, während BCAAs das Leucin-Signal für die Muskelproteinsynthese liefern — das grundlegende Performance-Duo.",
+        "glutamine": "Glutamin unterstützt die Darmintegrität und Immunfunktion während des Trainings, während BCAAs Muskeln versorgen — verschiedene Erholungsbedürfnisse werden gleichzeitig adressiert.",
+        "electrolytes": "BCAAs reduzieren Muskelermüdung, während Elektrolyte die neuromuskuläre Signalübertragung aufrechterhalten — zusammen unterstützen sie sportliche Leistung und Hydratation.",
+        "vitamin_b6": "B6 (PLP) ist der essenzieller Cofaktor für BCAA-Aminotransferase-Enzyme — erforderlich für den Metabolismus aller drei BCAAs."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "5–20 g daily (2:1:1 or 4:1:1 leucine:isoleucine:valine ratio)",
+      "notes": "Bei ausreichender Proteinzufuhr (1,6–2,2 g/kg Körpergewicht) bieten zusätzliche BCAAs nur begrenzten Vorteil. Am wertvollsten für nüchternes Training, Kalorienrestriktion oder pflanzliche Athleten.",
+      "tags": [
+        "Muskeln",
+        "Aminosäuren",
+        "Sport",
+        "Protein",
+        "Erholung"
+      ],
+      "sources": [
+        "Shimomura Y, J Nutr 2006",
+        "Jackman SR, Nutrients 2017"
+      ]
+    },
+    {
+      "id": "cordyceps",
+      "name": "Cordyceps (CS-4)",
+      "aliases": [
+        "Cordyceps sinensis",
+        "CS-4",
+        "Cordyceps militaris"
+      ],
+      "category": "performance",
+      "emoji": "🐛",
+      "shortDescription": "Heilpilz, der die ATP-Synthese steigert, VO₂max erhöht, die Sauerstoffnutzung verbessert und Müdigkeit bei Athleten und älteren Erwachsenen reduziert.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morgens, um die energetisierenden, leistungssteigernden Effekte den ganzen Tag zu nutzen; vorzugsweise vor dem Training."
+      },
+      "synergies": [
+        "reishi",
+        "lions_mane",
+        "coq10",
+        "l_carnitine"
+      ],
+      "synergyReasons": {
+        "reishi": "Komplementäre Funktionspilze: Kordizeps liefert Tagesenergie und sportliche Leistung, während Reishi abendliche Erholung und Immunität unterstützt.",
+        "lions_mane": "Löwenmähne unterstützt die kognitive Funktion, während Kordizeps körperliche Energie und Sauerstoffeffizienz verbessert — Geist- und Körperleistungs-Stack.",
+        "coq10": "Beide verbessern die mitochondriale ATP-Produktion durch verschiedene Mechanismen — CoQ10 über die Elektronentransportkette, Kordizeps über Adenosin und ATP-Vorstufen.",
+        "l_carnitine": "Carnitin transportiert Fettsäuren in Mitochondrien, während Kordizeps die ATP-Synthesekapazität steigert — synergistische Energiestoffwechselunterstützung."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,000–3,000 mg daily (CS-4 mycelium extract preferred)",
+      "notes": "CS-4 (Paecilomyces hepiali) ist der umfassend untersuchte pharmazeutische Stamm. Verbessert VO₂max bei älteren Erwachsenen in 6-wöchigen Studien. Sicher für die tägliche Langzeitanwendung.",
+      "tags": [
+        "Energie",
+        "VO2max",
+        "Sport",
+        "Sauerstoff",
+        "Ausdauer"
+      ],
+      "sources": [
+        "Chen S, J Altern Complement Med 2010",
+        "Baroni L, J Sports Med 2015"
+      ]
+    },
+    {
+      "id": "digestive_enzymes",
+      "name": "Verdauungsenzyme",
+      "aliases": [
+        "Digestive Enzyme Blend",
+        "Bromelain",
+        "Papain",
+        "Pancreatin"
+      ],
+      "category": "gut",
+      "emoji": "⚙️",
+      "shortDescription": "Enzymgemisch (Protease, Lipase, Amylase, Laktase), das die Makronährstoffverdauung verbessert, Blähungen reduziert und die Nährstoffaufnahme steigert.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Unmittelbar vor oder zu Beginn jeder Mahlzeit nehmen — Enzyme müssen sich mit der Nahrung im Magen vermischen."
+      },
+      "synergies": [
+        "probiotics",
+        "prebiotics",
+        "collagen_peptides",
+        "zinc"
+      ],
+      "synergyReasons": {
+        "probiotics": "Verdauungsenzyme zersetzen Nahrung für die Mikrobiom-Fermentation; Probiotika erhalten die mikrobielle Umgebung, die einige endogene Enzyme produziert — komplementäre Verdauungsunterstützung.",
+        "prebiotics": "Enzyme verbessern die Verdauung der Polysaccharide, die Präbiotika zum Darmmikrobiom liefern, und steigern so deren Wirksamkeit.",
+        "collagen_peptides": "Verdauungsenzyme verbessern die Verdauung und Aufnahme von Kollagenpeptiden und machen die Kollagen-Supplementierung effektiver.",
+        "zinc": "Zink wird für die Produktion von Magensäure und endogenen Verdauungsenzymen benötigt — adressiert die Grundursachen des Enzymmangels."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1–2 capsules per meal (look for full-spectrum blends)",
+      "notes": "Am nützlichsten bei Reizdarmsyndrom, Blähungen, Laktoseintoleranz oder verminderter Magensäure (häufig mit Alterung, PPIs). Bromelain und Papain sind pflanzliche Optionen.",
+      "tags": [
+        "Verdauung",
+        "Blähungen",
+        "Nährstoffaufnahme",
+        "Reizdarm",
+        "Probiotika"
+      ],
+      "sources": [
+        "Ianiro G, Med 2016",
+        "Rachman B, Gastroenterol Hepatol 1997"
+      ]
+    },
+    {
+      "id": "elderberry",
+      "name": "Holunderbeere (Sambucus)",
+      "aliases": [
+        "Sambucus nigra",
+        "Black Elderberry",
+        "Elderberry Extract"
+      ],
+      "category": "gut",
+      "emoji": "🫐",
+      "shortDescription": "Anthocyan-reiche Beere, die Erkältungen und Grippe abschwächt, indem sie die Virusreplikation hemmt und die Immunantwort stärkt.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Mit Nahrung nehmen; tägliche Erhaltungsdosis morgens, höhere Dosen bei ersten Krankheitszeichen."
+      },
+      "synergies": [
+        "vitamin_c",
+        "zinc",
+        "vitamin_d3",
+        "probiotics"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C und Holunderbeeren-Anthocyane bieten komplementäre antioxidative und antivirale Immununterstützung.",
+        "zinc": "Zink hemmt die virale Replikation, während Holunder die Virusanhaftung an Zellen verhindert — Immunabwehr mit dualem Mechanismus.",
+        "vitamin_d3": "Vitamin D3 moduliert die angeborene Immunität, während Holunder akute antivirale Aktivität bietet — zusammen decken sie langfristigen und sofortigen Immunschutz ab.",
+        "probiotics": "Die Darmgesundheit ist zentral für die Immunfunktion; Probiotika verstärken die systemischen Immunvorteile von Holunder."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "150–300 mg extract (standardized to 25% anthocyanins) or 10–15 ml syrup daily",
+      "notes": "Klinische Evidenz am stärksten für die Reduktion der Grippeschwere und -dauer um 2–4 Tage. Rohe, unreife Holunderbeeren enthalten cyanogene Glykoside — nur verarbeitete Produkte verwenden.",
+      "tags": [
+        "Immunsystem",
+        "Grippe",
+        "Erkältung",
+        "Antioxidans",
+        "Virus"
+      ],
+      "sources": [
+        "Zakay-Rones Z, J Int Med Res 2004",
+        "Hawkins J, Complement Ther Med 2019"
+      ]
+    },
+    {
+      "id": "fisetin",
+      "name": "Fisetin",
+      "aliases": [
+        "Fisetin Flavonoid",
+        "Longevity Bioscience Fisetin"
+      ],
+      "category": "longevity",
+      "emoji": "🍓",
+      "shortDescription": "Potentes senolytisches Flavonoid in Erdbeeren, das seneszente Zellen beseitigt, die Blut-Hirn-Schranke überquert und Langlebigkeitswege aktiviert.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fetthaltige Nahrung verbessert die Bioverfügbarkeit dieses fettlöslichen Flavonoids dramatisch."
+      },
+      "synergies": [
+        "quercetin",
+        "resveratrol",
+        "vitamin_c",
+        "black_pepper"
+      ],
+      "synergyReasons": {
+        "quercetin": "Beide sind Senolytika — eine Kombination deckt verschiedene Zellpopulationen ab und kann Clearance bei niedrigeren Einzeldosen erreichen, potenzielle Nebenwirkungen reduzierend.",
+        "resveratrol": "Resveratrol aktiviert SIRT1/AMPK-Langlebigkeitswege, während Fisetin angesammelte seneszente Zellen beseitigt — strukturelle und funktionelle Langlebigkeitssynergie.",
+        "vitamin_c": "Vitamin C regeneriert oxidiertes Fisetin und verbessert seine Bioverfügbarkeit und Wirkdauer.",
+        "black_pepper": "Piperin in schwarzem Pfeffer hemmt Fisetins First-Pass-Metabolismus und erhöht den Blutspiegel um 20–30 %."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "100–200 mg daily continuous, or 500–1,500 mg in 2-day senolytic pulses",
+      "notes": "Senolytisches Protokoll (Kirkland et al.): 1.000–1.500 mg an 2 aufeinanderfolgenden Tagen/Monat. Konzentrierteste Nahrungsquelle: Erdbeeren (160 mcg/g).",
+      "tags": [
+        "Senolytikum",
+        "Langlebigkeit",
+        "Gehirn",
+        "Antioxidans",
+        "Alterung"
+      ],
+      "sources": [
+        "Yousefzadeh MJ, EBioMedicine 2018",
+        "Kirkland JL, J Gerontol 2020"
+      ]
+    },
+    {
+      "id": "ginkgo_biloba",
+      "name": "Ginkgo Biloba",
+      "aliases": [
+        "Ginkgo",
+        "EGb 761",
+        "Maidenhair Tree"
+      ],
+      "category": "brain",
+      "emoji": "🍃",
+      "shortDescription": "Uralter Baumextrakt, der die Durchblutung im Gehirn verbessert, Gedächtnis und Verarbeitungsgeschwindigkeit steigert und altersbedingten kognitiven Abbau verringert.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Mit Nahrung nehmen zur besseren Verträglichkeit; für stabile Blutspiegel in 2 Dosen aufteilen (morgens/mittags)."
+      },
+      "synergies": [
+        "alpha_gpc",
+        "bacopa_monnieri",
+        "omega3",
+        "vitamin_b12"
+      ],
+      "synergyReasons": {
+        "alpha_gpc": "Alpha-GPC erhöht die Acetylcholinsynthese, während Ginkgo den zerebralen Blutfluss verbessert — Neurotransmitter und Versorgung werden gleichzeitig adressiert.",
+        "bacopa_monnieri": "Bacopa verbessert die Gedächtniskonsolidierung, während Ginkgo die Verarbeitungsgeschwindigkeit und Zirkulation steigert — komplementäre kognitive Enhancer.",
+        "omega3": "Omega-3 unterstützt die Integrität neuronaler Membranen, während Ginkgo den zerebralen Blutfluss verbessert — synergistisch für die langfristige Gehirngesundheit.",
+        "vitamin_b12": "B12-Mangel beeinträchtigt die Nervenleitung; die Kombination mit Ginkgos Zirkulationsvorteilen verstärkt den kognitiven Schutz."
+      },
+      "interactions": [
+        "vitamin_e",
+        "omega3"
+      ],
+      "interactionReasons": {
+        "vitamin_e": "Both Ginkgo and high-dose Vitamin E have mild blood-thinning effects — combining may increase bleeding risk. Space them and keep Vitamin E under 200 IU.",
+        "omega3": "High-dose omega-3 (>3g EPA+DHA) combined with Ginkgo may have additive antiplatelet effects. Moderate doses are generally safe; caution before surgery."
+      },
+      "commonDoses": "120–240 mg daily (standardized to 24% ginkgo flavonoids, 6% terpene lactones)",
+      "notes": "4–6 Wochen auf kognitive Effekte warten. Vor Operationen vermeiden (Thrombozytenaggregationshemmer). Standardisierten Extrakt (EGb 761 oder LI 1370) verwenden.",
+      "tags": [
+        "Gehirn",
+        "Gedächtnis",
+        "Durchblutung",
+        "Kognition",
+        "Fokus"
+      ],
+      "sources": [
+        "Vellas B, JAMA 2012",
+        "Kleijnen J, BMJ 1992"
+      ]
+    },
+    {
+      "id": "ginseng",
+      "name": "Panax Ginseng (Koreanischer Ginseng)",
+      "aliases": [
+        "Korean Ginseng",
+        "Panax Ginseng",
+        "Red Ginseng"
+      ],
+      "category": "brain",
+      "emoji": "🌿",
+      "shortDescription": "Königlicher Adaptogen mit 2.000 Jahren klinischer Anwendung — steigert körperliche und kognitive Leistung, unterstützt Immunsystem, Libido und Blutzuckerkontrolle.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morgens auf nüchternen Magen für maximale Ginsenosid-Absorption; Nachmittag/Abend meiden — stimulierende Wirkung kann Schlaf stören."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "rhodiola_rosea",
+        "ginkgo_biloba",
+        "coq10"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "B-Vitamine versorgen die Nebennieren und das Nervensystem, das Panax Ginseng moduliert — synergistisch für anhaltende Energie und Stressresistenz.",
+        "rhodiola_rosea": "Beide sind Adaptogene mit komplementären Mechanismen — Ginseng ist tonisch und immunmodulatorisch, Rhodiola wirkt akut anti-Müdigkeit.",
+        "ginkgo_biloba": "Ginkgo verbessert die zerebrale Zirkulation, während Ginsenosid-Ginseng die Neurotransmitter-Effizienz steigert — kombinierte kognitive Unterstützung.",
+        "coq10": "Beide unterstützen Energieproduktion und kardiovaskuläre Funktion — CoQ10 auf mitochondrialer Ebene, Ginseng auf systemischer/hormoneller Ebene."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "200–400 mg daily (standardized to 7% ginsenosides)",
+      "notes": "Panax Ginseng ≠ Sibirischer Ginseng (Eleutherococcus). Zur Toleranzprävention: 3 Monate nehmen, 1 Monat Pause. KG-C und HRG80 sind gut untersuchte, patentierte Extrakte.",
+      "tags": [
+        "Adaptogen",
+        "Energie",
+        "Libido",
+        "Immunsystem",
+        "Kognition"
+      ],
+      "sources": [
+        "Reay JL, Psychopharmacology 2005",
+        "Kim JH, J Ginseng Res 2012"
+      ]
+    },
+    {
+      "id": "glucosamine",
+      "name": "Glucosamin-Sulfat",
+      "aliases": [
+        "Glucosamine",
+        "Glucosamine HCl"
+      ],
+      "category": "performance",
+      "emoji": "🦴",
+      "shortDescription": "Natürliche Verbindung, die Knorpel aufbaut, Gelenkschmerzen reduziert und das Fortschreiten von Arthrose verlangsamen kann.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Mit einer Mahlzeit nehmen, um Magen-Darm-Beschwerden zu reduzieren und die Verträglichkeit zu verbessern."
+      },
+      "synergies": [
+        "msm",
+        "omega3",
+        "collagen_peptides",
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "msm": "MSM liefert den für die Knorpelbildung benötigten Schwefel, während Glucosamin die strukturellen Bausteine bereitstellt — die klassische Gelenk-Supplement-Kombination.",
+        "omega3": "Omega-3 reduziert Gelenkentzündungen, während Glucosamin Knorpel aufbaut — Ursache und Struktur werden gleichzeitig behandelt.",
+        "collagen_peptides": "Kollagen liefert das Matrixgerüst für Knorpel, während Glucosamin die Proteoglykan-Bausteine bereitstellt.",
+        "vitamin_c": "Vitamin C ist essenziell für die Kollagensynthese im Knorpel und verstärkt die strukturellen Reparatureffekte von Glucosamin."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,500 mg daily (as glucosamine sulfate)",
+      "notes": "Die klinisch validierte Form ist Glucosaminsulfat (nicht HCl). 6–8 Wochen auf Gelenkvorteile warten. Aus Schalentieren gewonnen — bei Allergie pflanzliche (fermentierter Mais) Variante wählen.",
+      "tags": [
+        "Gelenk",
+        "Knorpel",
+        "Arthrose",
+        "Knochen",
+        "Schmerz"
+      ],
+      "sources": [
+        "Reginster JY, Lancet 2001",
+        "Poolsup N, Ann Pharmacother 2005"
+      ]
+    },
+    {
+      "id": "glutamine",
+      "name": "L-Glutamin",
+      "aliases": [
+        "Glutamine",
+        "L-Glutamine Powder"
+      ],
+      "category": "gut",
+      "emoji": "🛡️",
+      "shortDescription": "Häufigste Aminosäure im Körper — entscheidend für Darmbarrierenintegrität, Immunfunktion, Muskelerholung und Reduktion von Darmdurchlässigkeit (Leaky Gut).",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morgens nüchtern für Darmbarriere-Unterstützung; nach dem Training für Muskelregeneration. Geteilte Dosierung (morgens + nach dem Training) deckt beide Ziele ab."
+      },
+      "synergies": [
+        "probiotics",
+        "collagen_peptides",
+        "zinc",
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "probiotics": "Glutamin erhält die Tight-Junction-Integrität in der Darmschleimhaut, während Probiotika ein gesundes Mikrobiom aufrechterhalten — umfassender Darmgesundheitsschutz.",
+        "collagen_peptides": "Beide reparieren intestinales Bindegewebe — Glutamin über Enterozyten-Brennstoff, Kollagen über Strukturmatrixproteine.",
+        "zinc": "Zink wird für die Proliferation von Darmzellen benötigt, während Glutamin der primäre Brennstoff für Enterozyten ist — essenzieller Cofaktor für die Reparatur der Darmschleimhaut.",
+        "vitamin_c": "Vitamin C unterstützt die Kollagensynthese in der Darmschleimhaut, während Glutamin die Epithelzellen antreibt — synergistische Schleimhaut-Heilung."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "5–15 g daily",
+      "notes": "Wird bei Krankheit, Chirurgie oder intensivem Training bedingt essentiell. Für Leaky Gut am effektivsten bei 10–15 g/Tag für 4+ Wochen.",
+      "tags": [
+        "Darm",
+        "Immunsystem",
+        "Muskeln",
+        "Erholung",
+        "Aminosäuren"
+      ],
+      "sources": [
+        "Cruzat V, Nutrients 2018",
+        "Kim MH, Int J Mol Sci 2017"
+      ]
+    },
+    {
+      "id": "hyaluronic_acid",
+      "name": "Hyaluronsäure",
+      "aliases": [
+        "HA",
+        "Sodium Hyaluronate",
+        "Hyaluron"
+      ],
+      "category": "performance",
+      "emoji": "💧",
+      "shortDescription": "Natürliches Glykosaminoglykan, das Gelenke schmiert, Haut von innen befeuchtet und Arthroseschmerzen durch Wiederherstellung der Synovialflüssigkeit reduziert.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Mit Nahrung für beste Absorption nehmen; orales HA wird über Darm-HA-Rezeptoren resorbiert, die im Ernährungszustand aktiver sind."
+      },
+      "synergies": [
+        "collagen_peptides",
+        "vitamin_c",
+        "glucosamine",
+        "msm"
+      ],
+      "synergyReasons": {
+        "collagen_peptides": "Kollagen liefert Strukturprotein, während Hyaluronsäure Hydratation und Schmierung bietet — umfassende Haut- und Gelenkmatrix-Unterstützung.",
+        "vitamin_c": "Vitamin C ist essenziell für die Synthese von Kollagen und Hyaluronsäure in Bindegewebe.",
+        "glucosamine": "Glucosamin stimuliert die HA-Produktion in Synovialzellen, während supplementäre HA sofortige Schmierung bietet.",
+        "msm": "MSM reduziert Entzündungen, während HA die Gelenkschmierung wiederherstellt — Symptome und Struktur der Gelenkdegeneration werden gleichzeitig adressiert."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "80–200 mg daily",
+      "notes": "HA mit niedrigem Molekulargewicht (< 50 kDa) hat bessere orale Bioverfügbarkeit. Hauthydratationseffekte nach 4–8 Wochen sichtbar. Verbessert auch die Zahnfleischgesundheit.",
+      "tags": [
+        "Gelenk",
+        "Haut",
+        "Feuchtigkeit",
+        "Kollagen",
+        "Alterung"
+      ],
+      "sources": [
+        "Nagaoka I, J Nutr 2014",
+        "Tashiro T, Biosci Biotechnol Biochem 2012"
+      ]
+    },
+    {
+      "id": "inositol",
+      "name": "Myo-Inositol",
+      "aliases": [
+        "Inositol",
+        "Myo-Inositol",
+        "D-Chiro-Inositol"
+      ],
+      "category": "brain",
+      "emoji": "🌀",
+      "shortDescription": "Zellulärer Botenstoff, der die Insulinsensitivität verbessert, die Stimmung unterstützt (PCOS, Zwangsstörungen, Angst) und Fortpflanzungshormone reguliert.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morgens auf nüchternen Magen für gleichmäßige Resorption — in PCOS-Protokollen ist die Aufteilung (morgens und abends) üblich."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "magnesium_glycinate",
+        "folate"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "B-Vitamine unterstützen die Rolle von Inositol in der zellulären Signalübertragung und Nervenfunktion.",
+        "magnesium_glycinate": "Magnesium und Inositol beeinflussen beide GABA- und Serotonin-Wege — komplementäre Stimmungs- und Angstunterstützung.",
+        "folate": "Folat und Inositol sind beide entscheidend für Methylierung und Zellwachstum — wichtig im Zusammenhang mit PCOS und Fertilität."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "2,000–4,000 mg daily (often in 4:1 Myo:D-Chiro ratio for PCOS)",
+      "notes": "Myo-Inositol + D-Chiro-Inositol im 40:1-Verhältnis ist die evidenzbasierte Kombination für PCOS und Insulinresistenz. Hohe Dosen (12 g+) können leichte GI-Beschwerden verursachen.",
+      "tags": [
+        "PCOS",
+        "Insulin",
+        "Stimmung",
+        "Hormone",
+        "Angst"
+      ],
+      "sources": [
+        "Unfer V, Gynecol Endocrinol 2012",
+        "Costantino D, Eur Rev Med Pharmacol 2009"
+      ]
+    },
+    {
+      "id": "l_carnitine",
+      "name": "L-Carnitin",
+      "aliases": [
+        "Carnitine",
+        "L-Carnitine Tartrate",
+        "Acetyl-L-Carnitine",
+        "ALCAR"
+      ],
+      "category": "performance",
+      "emoji": "🔥",
+      "shortDescription": "Transportiert Fettsäuren in die Mitochondrien zur Energiegewinnung; unterstützt die Herzgesundheit und Erholung nach dem Sport.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "30–60 Minuten vor dem Training oder morgens nüchtern — Nahrung reduziert den Peak-Plasmaspiegel."
+      },
+      "synergies": [
+        "coq10",
+        "omega3",
+        "vitamin_b5"
+      ],
+      "synergyReasons": {
+        "coq10": "Beide unterstützen die mitochondriale Energieproduktion durch komplementäre Mechanismen — Carnitin transportiert Fettsäuren, während CoQ10 die Elektronentransportkette antreibt.",
+        "omega3": "Omega-3-Fettsäuren verstärken den Fettoxidationseffekt von Carnitin und reduzieren trainingsbedingte Entzündungen.",
+        "vitamin_b5": "Pantothensäure (B5) wird für die CoA-Synthese benötigt, auf die Carnitin für seine Transportfunktion angewiesen ist."
+      },
+      "interactions": [
+        "iron"
+      ],
+      "interactionReasons": {
+        "iron": "L-Carnitine biosynthesis requires iron as a cofactor; iron deficiency reduces endogenous carnitine. Not a dangerous interaction — ensure adequate iron intake."
+      },
+      "commonDoses": "1,000–3,000 mg daily",
+      "notes": "L-Carnitin-Tartrat ist am besten für die Sportleistung; Acetyl-L-Carnitin (ALCAR) ist bei kognitiven Vorteilen bevorzugt. Fischreiche Ernährung liefert etwas Carnitin.",
+      "tags": [
+        "Energie",
+        "Fettverbrennung",
+        "Herz-Kreislauf",
+        "Sport",
+        "Erholung"
+      ],
+      "sources": [
+        "Pekala J, Nutrients 2011",
+        "Fielding R, J Physiol 2011"
+      ]
+    },
+    {
+      "id": "maca_root",
+      "name": "Maca-Wurzel",
+      "aliases": [
+        "Peruvian Maca",
+        "Lepidium meyenii",
+        "Gelatinized Maca"
+      ],
+      "category": "performance",
+      "emoji": "🌰",
+      "shortDescription": "Andine Wurzel, die die Libido steigert, hormonelles Gleichgewicht unterstützt, sportliche Ausdauer verbessert und Wechseljahrsbeschwerden reduziert, ohne Östrogen oder Testosteron zu verändern.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Morgens mit Nahrung; bei Energie morgens und mittags als Teildosis. Abends meiden — leicht energetisierend."
+      },
+      "synergies": [
+        "vitamin_b6",
+        "zinc",
+        "vitamin_d3",
+        "ashwagandha"
+      ],
+      "synergyReasons": {
+        "vitamin_b6": "B6 unterstützt die hormonelle Regulation und den Sexualhormon-Metabolismus und ergänzt so Macas nicht-hormonelle adaptogene Wirkungen auf das Hormonsystem.",
+        "zinc": "Zink ist essenziell für die Testosteronsynthese und Spermiengesundheit; kombiniert mit Macas aphrodisischer Wirkung bieten sie umfassende männliche reproduktive Unterstützung.",
+        "vitamin_d3": "Vitamin-D3-Rezeptoren befinden sich in Reproduktionsgewebe; D3 und Maca haben synergistische Wirkungen auf Libido und hormonelle Balance.",
+        "ashwagandha": "Ashwagandha senkt Cortisol (hebt indirekt Testosteron), während Maca direkt Libido und Energie steigert — komplementäre endokrine Adaptogene."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,500–3,000 mg daily (Gelatinized Maca preferred for bioavailability)",
+      "notes": "Gelatiniertes (vorgekochtes) Maca ist besser verdaulich und hat höhere Bioverfügbarkeit als rohes Maca. Gelbes Maca für allgemeine Gesundheit/Libido; schwarzes Maca für Sportler und kognitive Funktion.",
+      "tags": [
+        "Libido",
+        "Hormone",
+        "Energie",
+        "Wechseljahre",
+        "Ausdauer"
+      ],
+      "sources": [
+        "Brooks NA, Andrologia 2008",
+        "Gonzales GF, Asian J Androl 2001"
+      ]
+    },
+    {
+      "id": "milk_thistle",
+      "name": "Mariendistel (Silymarin)",
+      "aliases": [
+        "Silymarin",
+        "Silybum marianum",
+        "Milk Thistle Extract"
+      ],
+      "category": "gut",
+      "emoji": "🌾",
+      "shortDescription": "Leberschützendes Kraut, das die Regeneration von Leberzellen fördert, Entzündungen reduziert und Entgiftungswege unterstützt.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Mit Nahrung nehmen, um die Silymarin-Absorption zu verbessern (fettlöslich) und Magen-Darm-Reizungen zu minimieren."
+      },
+      "synergies": [
+        "nac",
+        "vitamin_e",
+        "curcumin",
+        "vitamin_c"
+      ],
+      "synergyReasons": {
+        "nac": "NAC erhöht intrazelluläres Glutathion, während Silymarin Leberzellen vor oxidativen Schäden schützt — ein starker Leber-Detox-Stack.",
+        "vitamin_e": "Beide sind Antioxidantien, die Leberzellmembranen vor Lipidperoxidation schützen — komplementäre hepatoprotektive Wirkungen.",
+        "curcumin": "Curcumin reduziert Leberentzündungen, während Mariendistel die Regeneration von Hepatozyten fördert — verschiedene Aspekte des Leberschutzes werden adressiert.",
+        "vitamin_c": "Vitamin C regeneriert die von Silymarin verwendeten Antioxidantien und erhält so den Leberschutz aufrecht."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "140–420 mg silymarin daily (standardized to 70–80% silymarin)",
+      "notes": "Am vorteilhaftesten bei regelmäßigem Alkoholkonsum, medikamentenbedingtem Leberstress oder NAFLD. Phytosom-Form hat 4–10x bessere Bioverfügbarkeit.",
+      "tags": [
+        "Leber",
+        "Detox",
+        "Antioxidans",
+        "Alkohol",
+        "Verdauung"
+      ],
+      "sources": [
+        "Mulrow C, Am J Gastroenterol 2000",
+        "Vargas-Mendoza N, World J Hepatol 2014"
+      ]
+    },
+    {
+      "id": "msm",
+      "name": "MSM (Methylsulfonylmethan)",
+      "aliases": [
+        "MSM",
+        "Dimethyl Sulfone",
+        "OptiMSM"
+      ],
+      "category": "performance",
+      "emoji": "🔩",
+      "shortDescription": "Organische Schwefelverbindung, die Gelenkentzündungen reduziert, Muskelschmerzen lindert, die Kollagensynthese unterstützt und die antioxidative Kapazität erhöht.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Mit Nahrung nehmen, um Magen-Darm-Beschwerden zu reduzieren; Aufteilung in Morgen- und Abenddosis verbessert die Verträglichkeit."
+      },
+      "synergies": [
+        "glucosamine",
+        "collagen_peptides",
+        "vitamin_c",
+        "omega3"
+      ],
+      "synergyReasons": {
+        "glucosamine": "MSM liefert Schwefel für die Proteoglykan-Synthese, während Glucosamin das Gerüst bereitstellt — das evidenzbasierte Gelenk-Supplement-Duo.",
+        "collagen_peptides": "Beide tragen schwefelhaltige Aminosäuren bei, die für die Kollagen-Quervernetzung und Knorpelintegrität benötigt werden.",
+        "vitamin_c": "Vitamin C ist für die Kollagen-Hydroxylierung essenziell, während MSM den Schwefel liefert — zusammen unterstützen sie die vollständige Bindegewebsreparatur.",
+        "omega3": "Omega-3 reduziert Gelenkentzündungen, während MSM pro-inflammatorische Signalwege hemmt — Gelenkschmerzen aus entzündlichen und strukturellen Blickwinkeln werden behandelt."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,000–3,000 mg daily",
+      "notes": "4–6 Wochen warten, bevor Gelenkvorteile bewertet werden. OptiMSM ist die am meisten erforschte und reinste kommerzielle Form. Auch für Haut- und Haarvorteile durch Schwefel in Keratin und Kollagen.",
+      "tags": [
+        "Gelenk",
+        "Kollagen",
+        "Muskel",
+        "Haut",
+        "Schwefel"
+      ],
+      "sources": [
+        "Kim LS, Osteoarthritis Cartilage 2006",
+        "Barmaki S, Acta Physiol Hung 2012"
+      ]
+    },
+    {
+      "id": "phosphatidylserine",
+      "name": "Phosphatidylserin (PS)",
+      "aliases": [
+        "PS",
+        "Sharp-PS",
+        "Phospholipid PS"
+      ],
+      "category": "brain",
+      "emoji": "🔬",
+      "shortDescription": "Wichtiges Phospholipid in Neuronenmembranen, das Gedächtnis verbessert, Cortisol senkt und ADHS sowie altersbedingten kognitiven Abbau unterstützt.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Am besten mit fetthaltiger Nahrung aufgenommen; für stabile Blutspiegel in 2–3 Dosen mit den Mahlzeiten aufteilen."
+      },
+      "synergies": [
+        "omega3",
+        "alpha_gpc",
+        "bacopa_monnieri",
+        "ashwagandha"
+      ],
+      "synergyReasons": {
+        "omega3": "DHA und EPA aus Omega-3 werden zusammen mit Phosphatidylserin in neuronale Membranen eingebaut — sie sind strukturell voneinander abhängig.",
+        "alpha_gpc": "Alpha-GPC liefert das Cholin-Gerüst für Membranphospholipide, während PS die Serin-Kopfgruppe bereitstellt — beide sind wesentliche Strukturkomponenten für optimale Neuronfunktion.",
+        "bacopa_monnieri": "Bacopas Bacosides verbessern die Membranfluidität und synaptische Effizienz, während PS die optimale Membranstruktur sicherstellt.",
+        "ashwagandha": "Beide reduzieren Cortisol — Ashwagandha über HPA-Achsen-Modulation, PS durch direkte Dämpfung der Cortisol-Reaktion auf Belastung."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "100–400 mg daily",
+      "notes": "Sharp-PS (aus Sonnenblumenlecithin) wird gegenüber sojabasiertem PS bevorzugt. FDA-anerkannter Gesundheitsanspruch: reduziert Demenzrisiko bei ≥100 mg/Tag.",
+      "tags": [
+        "Gehirn",
+        "Gedächtnis",
+        "Cortisol",
+        "ADHS",
+        "Kognition"
+      ],
+      "sources": [
+        "Kidd PM, Altern Med Rev 1996",
+        "Benton D, Psychopharmacology 2001"
+      ]
+    },
+    {
+      "id": "psyllium_husk",
+      "name": "Flohsamenschalen",
+      "aliases": [
+        "Psyllium",
+        "Ispaghula",
+        "Plantago ovata"
+      ],
+      "category": "gut",
+      "emoji": "🌾",
+      "shortDescription": "Lösliche Ballaststoffe aus Plantago ovata, die LDL-Cholesterin senken, den Blutzucker stabilisieren, die Regelmäßigkeit fördern und nützliche Darmbakterien ernähren.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Mit viel Wasser (mindestens 250 ml) einnehmen; am besten vor Mahlzeiten zur Reduktion von postprandialem Blutzucker und Appetit."
+      },
+      "synergies": [
+        "probiotics",
+        "berberine",
+        "prebiotics"
+      ],
+      "synergyReasons": {
+        "probiotics": "Psylliums lösliche Ballaststoffe ernähren dieselben nützlichen Bakterien, die Probiotika liefern — präbiotische und probiotische Synergie für die Darmgesundheit.",
+        "berberine": "Beide senken den Blutzucker durch komplementäre Mechanismen (Psyllium durch Verlangsamung der Aufnahme, Berberin durch AMPK-Aktivierung) — synergistische Glykämiekontrolle.",
+        "prebiotics": "Psyllium Husk IST ein Präbiotikum — es fermentiert zu kurzkettigen Fettsäuren, die das Darmmikrobiom ernähren und Entzündungen reduzieren."
+      },
+      "interactions": [
+        "iron",
+        "zinc",
+        "calcium",
+        "vitamin_b12"
+      ],
+      "interactionReasons": {
+        "iron": "Psyllium fiber can reduce iron absorption by 10–20% — take iron 2 hours before or after psyllium.",
+        "zinc": "High fiber intake may modestly reduce zinc absorption — space by at least 2 hours.",
+        "calcium": "Fiber can mildly reduce calcium absorption — space by 1–2 hours.",
+        "vitamin_b12": "Very high fiber may slow B12 absorption — take separately."
+      },
+      "commonDoses": "5–15 g daily (1–3 teaspoons of whole husks)",
+      "notes": "Mit 5 g beginnen und langsam steigern, um Blähungen zu vermeiden. FDA-genehmigter Gesundheitsanspruch: 7 g/Tag senkt LDL-Cholesterin.",
+      "tags": [
+        "Ballaststoffe",
+        "Cholesterin",
+        "Blutzucker",
+        "Verdauung",
+        "Darm"
+      ],
+      "sources": [
+        "Anderson JW, Am J Clin Nutr 2000",
+        "Gibb RD, Nutr J 2015"
+      ]
+    },
+    {
+      "id": "quercetin",
+      "name": "Quercetin",
+      "aliases": [
+        "Quercetin Phytosome",
+        "Quercetin Dihydrate"
+      ],
+      "category": "longevity",
+      "emoji": "🍎",
+      "shortDescription": "Potentes Pflanzenflavonoid mit antioxidativen, entzündungshemmenden und senolytischen Eigenschaften — entfernt beschädigte Zellen für gesundes Altern.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Fettlösliches Flavonoid — Nahrung (besonders mit etwas Fett) erhöht die Bioverfügbarkeit erheblich."
+      },
+      "synergies": [
+        "vitamin_c",
+        "resveratrol",
+        "zinc",
+        "fisetin"
+      ],
+      "synergyReasons": {
+        "vitamin_c": "Vitamin C regeneriert oxidiertes Quercetin zurück in seine aktive Form und verlängert seine antioxidative Aktivität — ein starkes synergistisches Paar.",
+        "resveratrol": "Beide sind Polyphenole mit komplementären Langlebigkeitsmechanismen: Quercetin ist senolytisch, Resveratrol aktiviert Sirtuine.",
+        "zinc": "Quercetin wirkt als Zink-Ionophor und hilft Zink effizienter in Zellen einzudringen — entscheidend für die Immunabwehr.",
+        "fisetin": "Beide sind Senolytika, die seneszente Zellen beseitigen — eine Kombination in niedrigeren Dosen kann Nebenwirkungen reduzieren und gleichzeitig die Wirksamkeit erhalten."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "500–1,000 mg daily",
+      "notes": "Quercetin Phytosom (mit Sonnenblumenphospholipiden) hat 20x bessere Bioverfügbarkeit. In senolytischen Protokollen: 1.000 mg gepulst 2x/Woche.",
+      "tags": [
+        "Antioxidans",
+        "Langlebigkeit",
+        "Entzündung",
+        "Senolytikum",
+        "Alterung"
+      ],
+      "sources": [
+        "Boots AW, Eur J Pharmacol 2008",
+        "Legeay S, Nutrients 2015"
+      ]
+    },
+    {
+      "id": "reishi",
+      "name": "Reishi-Pilz (Ganoderma)",
+      "aliases": [
+        "Ganoderma lucidum",
+        "Lingzhi",
+        "Reishi"
+      ],
+      "category": "gut",
+      "emoji": "🍄",
+      "shortDescription": "Der \"Pilz der Unsterblichkeit\" — adaptogener Pilz, der Immunität moduliert, Müdigkeit reduziert, das Nervensystem beruhigt und die Lebergesundheit unterstützt.",
+      "timing": {
+        "preferredTime": "evening",
+        "takeWithFood": true,
+        "reason": "Abends optimal für Reishis beruhigende und schlaffördernde Eigenschaften; mit Nahrung nehmen für bessere Triterpene-Absorption."
+      },
+      "synergies": [
+        "lions_mane",
+        "cordyceps",
+        "ashwagandha",
+        "vitamin_d3"
+      ],
+      "synergyReasons": {
+        "lions_mane": "Löwenmähne fördert die Neurogenese, während Reishi die Immunität moduliert und Angst reduziert — komplementäre Kombination funktioneller Pilze.",
+        "cordyceps": "Kordizeps liefert tagsüber Energie über ATP-Produktion, während Reishi abendliche Erholung und Immunmodulation unterstützt — das klassische Tag/Nacht-Pilz-Protokoll.",
+        "ashwagandha": "Beide sind Adaptogene mit beruhigenden Eigenschaften — Reishi moduliert NK-Zell-Immunität, während Ashwagandha Cortisol senkt — komplementäre Stress-zu-Immun-Achsen.",
+        "vitamin_d3": "Vitamin D3 und Reishis Beta-Glucane wirken auf komplementären Immunrezeptorwegen und stärken gemeinsam die angeborene und adaptive Immunität."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1,500–3,000 mg whole powder or 1.5–9 mg triterpenes daily",
+      "notes": "Nach \"doppelt extrahiertem\" Reishi suchen (Heißwasser für Beta-Glucane + Alkohol für Triterpene). Ganoderma lucidum ist die klinisch untersuchte Art.",
+      "tags": [
+        "Immunsystem",
+        "Schlaf",
+        "Stress",
+        "Leber",
+        "Adaptogen"
+      ],
+      "sources": [
+        "Bao XF, Phytomedicine 2002",
+        "Tang W, J Ethnopharmacol 2011"
+      ]
+    },
+    {
+      "id": "rhodiola_rosea",
+      "name": "Rhodiola Rosea",
+      "aliases": [
+        "Golden Root",
+        "Arctic Root",
+        "Rhodiola"
+      ],
+      "category": "brain",
+      "emoji": "🌸",
+      "shortDescription": "Adaptogenes Kraut, das Cortisol senkt, Müdigkeit bekämpft und die geistige und körperliche Leistung unter Stress verbessert.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Stimulierend — morgens oder früh nachmittags auf nüchternen Magen nehmen, um Schlafstörungen zu vermeiden."
+      },
+      "synergies": [
+        "ashwagandha",
+        "vitamin_b_complex",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "ashwagandha": "Komplementäre Adaptogene: Rhodiola wirkt energetisierend und akut; Ashwagandha beruhigend und langfristig — zusammen decken sie das gesamte Stressresistenz-Spektrum ab.",
+        "vitamin_b_complex": "B-Vitamine unterstützen die Nebennieren und das Nervensystem und verstärken so Rhodiolas Anti-Müdigkeits-Effekte.",
+        "magnesium_glycinate": "Magnesium beruhigt das Nervensystem, während Rhodiola die Belastbarkeit stärkt — ein ausgewogener Stressmanagement-Stack."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "200–600 mg daily (standardized to 3% rosavins, 1% salidroside)",
+      "notes": "Für beste Ergebnisse: 5 Tage nehmen, 2 Tage Pause. Mit niedriger Dosis (200 mg) beginnen und steigern. Kann bei später Einnahme Unruhe verursachen.",
+      "tags": [
+        "Adaptogen",
+        "Stress",
+        "Energie",
+        "Fokus",
+        "Cortisol"
+      ],
+      "sources": [
+        "Panossian A, Phytomedicine 2010",
+        "Olsson EM, Planta Med 2009"
+      ]
+    },
+    {
+      "id": "spermidine",
+      "name": "Spermidin",
+      "aliases": [
+        "Spermidine Trihydrochloride",
+        "Wheat Germ Spermidine"
+      ],
+      "category": "longevity",
+      "emoji": "🌱",
+      "shortDescription": "Natürliches Polyamin, das Autophagie (zelluläre Selbstreinigung) induziert — mit reduzierter kardiovaskulärer Sterblichkeit und kognitiver Erhaltung im Alter verbunden.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morgens auf nüchternen Magen für maximale Autophagie-Induktion — Nahrung (besonders Protein) schwächt den fastenimitierenden Effekt ab."
+      },
+      "synergies": [
+        "resveratrol",
+        "quercetin",
+        "nmn_nr",
+        "fisetin"
+      ],
+      "synergyReasons": {
+        "resveratrol": "Resveratrol aktiviert SIRT1, während Spermidin die Autophagie über TFEB aktiviert — komplementäre zelluläre Verjüngungsmechanismen.",
+        "quercetin": "Quercetin ist senolytisch (beseitigt beschädigte Zellen), während Spermidin Autophagie induziert (reinigt innerhalb von Zellen) — zusammen adressieren sie die zelluläre Alterung umfassend.",
+        "nmn_nr": "NMN/NR stellt NAD+ für den Energiestoffwechsel wieder her, während Spermidin die Autophagie stimuliert — beide sind zentrale Interventionen in der Langlebigkeitsforschung.",
+        "fisetin": "Fisetin beseitigt seneszente Zellen, während Spermidin das interne Reinigungssystem der Zelle aktiviert — synergistisches Anti-Aging aus verschiedenen Blickwinkeln."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1–5 mg daily (often as wheat germ extract)",
+      "notes": "Nahrungsquellen: Weizenkeime (höchste Konzentration), gereifter Käse, Sojaprodukte, Pilze. Die meisten kommerziellen Präparate verwenden Weizenkeimextrakt.",
+      "tags": [
+        "Autophagie",
+        "Langlebigkeit",
+        "Zellgesundheit",
+        "Herzkreislauf",
+        "Gehirn"
+      ],
+      "sources": [
+        "Madeo F, Science 2018",
+        "Eisenberg T, Nat Med 2016"
+      ]
+    },
+    {
+      "id": "taurine",
+      "name": "Taurin",
+      "aliases": [
+        "L-Taurine",
+        "2-Aminoethanesulfonic Acid"
+      ],
+      "category": "performance",
+      "emoji": "⚡️",
+      "shortDescription": "Bedingt essentielle Aminosäure, die Herzfunktion, neurologische Gesundheit, Sportleistung und mitochondriale Effizienz unterstützt.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": false,
+        "reason": "Morgens oder 1 Stunde vor dem Training nüchtern — mit Nahrung verlangsamt sich die Absorption, verbessert aber die Magenverträglichkeit."
+      },
+      "synergies": [
+        "magnesium_glycinate",
+        "coq10",
+        "l_carnitine",
+        "electrolytes"
+      ],
+      "synergyReasons": {
+        "magnesium_glycinate": "Taurin und Magnesium haben synergistische kardiovaskuläre und neurologische Effekte — deshalb existiert Magnesiumtaurat als kombinierte Form.",
+        "coq10": "Beide unterstützen mitochondriale Effizienz und Herzfunktion durch komplementäre Mechanismen.",
+        "l_carnitine": "Carnitin übernimmt den Fettsäuretransport; Taurin unterstützt das mitochondriale Membranpotenzial — zusammen maximieren sie die zelluläre Energieproduktion.",
+        "electrolytes": "Taurin ist ein wichtiger Regulator des zellulären Elektrolytgleichgewichts (Natrium, Kalium, Kalzium) — unterstützt und verstärkt die Elektrolyt-Supplementierung."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "500–3,000 mg daily",
+      "notes": "Eines der wenigen Nahrungsergänzungsmittel, das in Tiermodellen die Langlebigkeit verbessert. Sehr sicher bis zu 3 g/Tag. Veganer haben niedrigere Taurin-Spiegel.",
+      "tags": [
+        "Herz",
+        "Energie",
+        "Sport",
+        "Langlebigkeit",
+        "Mitochondrien"
+      ],
+      "sources": [
+        "Schaffer SW, Amino Acids 2010",
+        "Singh P, Nutrition 2014"
+      ]
+    },
+    {
+      "id": "vitamin_b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "aliases": [
+        "Riboflavin",
+        "Riboflavin-5-Phosphate",
+        "Vitamin B2"
+      ],
+      "category": "vitamins",
+      "emoji": "🟡",
+      "shortDescription": "Essentielles B-Vitamin für zelluläre Energieproduktion, Aktivierung anderer B-Vitamine, Schutz vor oxidativem Stress und Migräneprävention.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Mit Nahrung nehmen — Riboflavin wird aktiv im Magen-Darm-Trakt transportiert, und Nahrung stimuliert diese Transporter."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "coq10",
+        "iron",
+        "magnesium_glycinate"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "Alle B-Vitamine arbeiten zusammen — Riboflavin (B2) ist besonders voneinander abhängig mit B6, B3 und Folat und aktiviert diese aus ihren Vorläuferformen.",
+        "coq10": "Riboflavin ist ein direkter struktureller Bestandteil der Elektronenträger von CoQ10 (FAD und FMN) — B2-Mangel beeinträchtigt direkt die CoQ10-Funktion.",
+        "iron": "Riboflavin wird für die Ferritin-Produktion und die Eisenmobilisierung benötigt — B2-Mangel beeinträchtigt den Eisenstoffwechsel.",
+        "magnesium_glycinate": "Magnesium aktiviert riboflavinabhängige Enzyme, einschließlich der Enzyme, die B6 in seine aktive PLP-Form umwandeln."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "1.1–400 mg daily (1.1 mg for RDA; 400 mg for migraine prevention)",
+      "notes": "Urin wird leuchtend gelb — das ist harmlos und zeigt, dass der Körper Riboflavin verarbeitet. 400 mg/Tag für 3+ Monate hat starke Evidenz zur Reduktion der Migränehäufigkeit.",
+      "tags": [
+        "Energie",
+        "Migräne",
+        "Zellfunktion",
+        "B-Vitamine",
+        "Antioxidans"
+      ],
+      "sources": [
+        "Schoenen J, Neurology 1998",
+        "Powers HJ, Am J Clin Nutr 2003"
+      ]
+    },
+    {
+      "id": "vitamin_b3",
+      "name": "Vitamin B3 (Niacin/Nicotinamid)",
+      "aliases": [
+        "Niacin",
+        "Nicotinamide",
+        "Niacinamide",
+        "Nicotinic Acid"
+      ],
+      "category": "vitamins",
+      "emoji": "🔆",
+      "shortDescription": "Essentielles B-Vitamin, das HDL-Cholesterin erhöht, NAD+-Produktion unterstützt, die Hautbarriere verbessert und DNA-Reparatur unterstützt. Verfügbar als Niacin oder Nicotinamid.",
+      "timing": {
+        "preferredTime": "with_meals",
+        "takeWithFood": true,
+        "reason": "Immer mit Nahrung nehmen (für Flush-Form, um Niacin-Flush zu reduzieren). Einnahme mit Mahlzeiten verlangsamt Absorption und reduziert Vasodilatation."
+      },
+      "synergies": [
+        "nmn_nr",
+        "vitamin_b_complex",
+        "coq10",
+        "vitamin_b2"
+      ],
+      "synergyReasons": {
+        "nmn_nr": "NMN/NR spendet direkt zur NAD+-Synthese; Niacin/Nicotinamid ist der endgültige Metabolit — sie konvergieren auf dasselbe zelluläre Ziel.",
+        "vitamin_b_complex": "Alle B-Vitamine fungieren als Cofaktoren; Niacin aktiviert neben B2 und B6 in der Elektronentransportkette.",
+        "coq10": "Beide unterstützen die mitochondriale Elektronentransportketten-Funktion — Niacin über NAD+, CoQ10 direkt in Komplex I/II/III.",
+        "vitamin_b2": "Riboflavin (B2) und Niacin (B3) fungieren als Elektronenträger (FAD und NAD+) in benachbarten Schritten des zellulären Energiestoffwechsels."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "15–500 mg daily; up to 2,000 mg for cholesterol (medical supervision)",
+      "notes": "Flush-Niacin verursacht harmloses Hautrröten (die therapeutische Form). Nicotinamid/Niacinamid = kein Flush. Nicotinamid-Ribosid (NR) und NMN sind fortgeschrittene NAD+-Vorläufer.",
+      "tags": [
+        "NAD+",
+        "Cholesterin",
+        "Energie",
+        "Haut",
+        "B-Vitamine"
+      ],
+      "sources": [
+        "Altschul R, Arch Biochem Biophys 1955",
+        "Cantó C, Cell Metab 2012"
+      ]
+    },
+    {
+      "id": "vitamin_b5",
+      "name": "Vitamin B5 (Pantothensäure)",
+      "aliases": [
+        "Pantothenic Acid",
+        "Pantethine",
+        "Calcium Pantothenate"
+      ],
+      "category": "vitamins",
+      "emoji": "🧪",
+      "shortDescription": "Essentielles B-Vitamin für die Coenzym-A-Synthese — zentral für Energiestoffwechsel, Nebennierenhormone und Wundheilung.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Morgens mit Nahrung nehmen; gut verträglich und stabile Absorption über verschiedene Mahlzeitstypen."
+      },
+      "synergies": [
+        "vitamin_b_complex",
+        "l_carnitine",
+        "coq10",
+        "vitamin_b2"
+      ],
+      "synergyReasons": {
+        "vitamin_b_complex": "Pantothensäure arbeitet synergistisch mit allen B-Vitaminen, insbesondere B2 und B3, in CoA-abhängigen Energiepfaden.",
+        "l_carnitine": "Pantothensäure wird für die Coenzym-A-Synthese benötigt, das Molekül, das Carnitin verwendet, um Fettsäuren in Mitochondrien zu transportieren — metabolisch essenziell.",
+        "coq10": "Sowohl B5 als auch CoQ10 sind in derselben mitochondrialen Fettsäureoxidations- und Energieproduktionskaskade erforderlich.",
+        "vitamin_b2": "B2 und B5 arbeiten in benachbarten Schritten des CoA-abhängigen Energieproduktionszyklus — sie sind metabolisch gekoppelt."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "5–10 mg (RDA 5 mg; therapeutic doses up to 500 mg for adrenal support)",
+      "notes": "Panthethin (eine aktivere Form) ist die bevorzugte Supplementierungsform für Cholesterin-senkende Effekte. Mangel ist selten, aber mit Müdigkeit und Nebennierendysfunktion verbunden.",
+      "tags": [
+        "Energie",
+        "Nebennieren",
+        "Coenzym A",
+        "Stoffwechsel",
+        "B-Vitamine"
+      ],
+      "sources": [
+        "Kelly GS, Altern Med Rev 2011",
+        "NIH ODS"
+      ]
+    },
+    {
+      "id": "tmg",
+      "name": "TMG (Trimethylglycin)",
+      "aliases": ["Betaine Anhydrous", "Betaine", "Trimethylglycine"],
+      "category": "longevity",
+      "emoji": "🔬",
+      "shortDescription": "Ein Methylspender, der Homocystein senkt, die zelluläre Methylierung, Leberentgiftung und Kreatin-Synthese unterstützt.",
+      "timing": {
+        "preferredTime": "morning",
+        "takeWithFood": true,
+        "reason": "Wasserlöslich; wird mit dem Essen besser aufgenommen und gastrointestinale Nebenwirkungen wie Übelkeit werden minimiert."
+      },
+      "synergies": ["vitamin_b12", "folate", "vitamin_b6", "creatine", "zinc"],
+      "synergyReasons": {
+        "vitamin_b12": "Beide unterstützen den Methylierungszyklus. TMG liefert einen Folat-unabhängigen Remethylierungsweg für Homocystein über BHMT, während B12 den MTHFR-Hauptweg unterstützt — gemeinsam wird die Homocystein-Senkung maximiert.",
+        "folate": "Folat und TMG arbeiten in parallelen Remethylierungswegen. Bei eingeschränkter MTHFR-Aktivität kompensiert TMG und umgekehrt. Gemeinsam bieten sie vollständige Methylierungsunterstützung.",
+        "vitamin_b6": "B6 ist ein Cofaktor im Transsulfurierungsweg stromabwärts von Homocystein. Die Kombination von B6 und TMG unterstützt die gesamte homocysteinsenkende Kaskade.",
+        "creatine": "TMG liefert die Methylgruppen für die hepatische Kreatin-Synthese. Die Kombination schont SAMe für andere kritische Methylierungsaufgaben.",
+        "zinc": "Das BHMT-Enzym, das TMG zur Homocystein-Rückgewinnung aktiviert, ist zinkabhängig. Ausreichend Zink ist erforderlich, damit TMG seine volle Wirkung entfalten kann."
+      },
+      "interactions": [],
+      "interactionReasons": {},
+      "commonDoses": "500–3,000 mg daily",
+      "notes": "Nicht gleichzeitig mit mehreren anderen Methylspendern (Cholin, SAMe) stapeln — Übermethylierung kann Kopfschmerzen oder Reizbarkeit verursachen. Bei Dosen über 2 g/Tag kann LDL leicht ansteigen; bei Langzeitanwendung Lipide kontrollieren. Nicht empfohlen während der Schwangerschaft oder bei Nieren-/Leberkrankheiten ohne ärztliche Aufsicht.",
+      "tags": ["Methylierung", "kardiovaskulär", "Langlebigkeit", "Lebergesundheit", "Leistung"],
+      "sources": ["Olthof MR, Nutr Rev 2013", "Arumugam MK, Nutrients 2021", "Cholewa JM, J Int Soc Sports Nutr 2013"]
+    }
+  ]
+}

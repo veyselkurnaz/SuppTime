@@ -1,0 +1,328 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import { I18N } from '../../i18n.js';
+
+export function getStaticPaths() {
+  const locales = Object.keys(I18N);
+  return locales.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const t = I18N[lang as keyof typeof I18N] || I18N['en'];
+
+// Load every locale's supplement dataset at build time and pick the one for this page.
+const dataModules = import.meta.glob('../../data/supplements/*.json', { eager: true }) as Record<string, any>;
+function dataFor(locale: string) {
+  const key = Object.keys(dataModules).find(k => k.endsWith(`/${locale}.json`));
+  return key ? dataModules[key] : null;
+}
+const supplements = (dataFor(lang) || dataFor('en')).supplements;
+
+const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
+const alternateUrls: Record<string, string> = {};
+LANG_ORDER.forEach(code => { alternateUrls[code] = `/${code}/interaction-checker`; });
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": t.checker.title,
+  "url": `https://supptime.app/${lang}/interaction-checker/`,
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Any (runs in browser)",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "description": t.checker.metaDescription,
+  "isAccessibleForFree": true
+};
+---
+
+<Layout title={t.checker.metaTitle} description={t.checker.metaDescription} lang={lang} dir={t.dir || 'ltr'} alternateUrls={alternateUrls}>
+<script type="application/ld+json" set:html={JSON.stringify(schema)} is:inline />
+
+<div class="page">
+  <Navbar lang={lang} isBlog={true} slugLinks={alternateUrls} />
+
+  <main class="checker-main">
+    <section class="checker-hero">
+      <div class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span><span>Free Tool</span></div>
+      <h1 class="h1 checker-h1">{t.checker.title}</h1>
+      <p class="lede checker-lede">{t.checker.subtitle}</p>
+    </section>
+
+    <section class="checker-tool">
+      <div class="search-wrap glass">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="supp-search" type="text" placeholder={t.checker.searchPlaceholder} autocomplete="off" />
+        <div id="search-results" class="search-results"></div>
+      </div>
+
+      <div class="stack-panel glass">
+        <div class="stack-head">
+          <h2>{t.checker.stackTitle}</h2>
+          <button id="clear-stack" class="clear-btn" type="button">{t.checker.clearAll}</button>
+        </div>
+        <div id="stack-chips" class="stack-chips"></div>
+        <p id="stack-empty-msg" class="stack-empty">{t.checker.stackEmpty}</p>
+      </div>
+
+      <div id="results" class="results">
+        <div class="result-block warnings-block glass">
+          <h3>{t.checker.warningsTitle}</h3>
+          <div id="warnings-list"></div>
+          <p id="no-warnings" class="no-data-msg" style="display:none;">{t.checker.noWarnings}</p>
+        </div>
+        <div class="result-block synergies-block glass">
+          <h3>{t.checker.synergiesTitle}</h3>
+          <div id="synergies-list"></div>
+          <p id="no-synergies" class="no-data-msg" style="display:none;">{t.checker.noSynergies}</p>
+        </div>
+      </div>
+    </section>
+
+    <p class="checker-disclaimer">{t.checker.disclaimer}</p>
+
+    <section class="checker-cta glass">
+      <p>{t.checker.ctaText}</p>
+      <a href="https://apps.apple.com/app/supptime-vitamin-tracker/id6762088156" class="btn btn-primary">
+        {t.checker.ctaButton}
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-8-6 6 6-6 6" /></svg>
+      </a>
+    </section>
+  </main>
+</div>
+
+<script define:vars={{ supplements, sourcesLabel: t.checker.sourcesLabel, addedBadge: t.checker.addedBadge }}>
+  const byId = new Map(supplements.map(s => [s.id, s]));
+  const stack = [];
+
+  function norm(s) { return s.toLowerCase(); }
+
+  function matches(s, query) {
+    const q = norm(query);
+    if (norm(s.name).includes(q)) return true;
+    return (s.aliases || []).some(a => norm(a).includes(q));
+  }
+
+  function renderSearch(query) {
+    const box = document.getElementById('search-results');
+    if (!query.trim()) { box.style.display = 'none'; box.innerHTML = ''; return; }
+    const found = supplements
+      .filter(s => !stack.includes(s.id))
+      .filter(s => matches(s, query))
+      .slice(0, 8);
+    if (found.length === 0) { box.style.display = 'none'; box.innerHTML = ''; return; }
+    box.innerHTML = found.map(s =>
+      `<button type="button" class="search-item" data-id="${s.id}">
+        <span class="search-item-emoji">${s.emoji || '💊'}</span>
+        <span class="search-item-name">${s.name}</span>
+      </button>`
+    ).join('');
+    box.style.display = 'block';
+    box.querySelectorAll('.search-item').forEach(btn => {
+      btn.addEventListener('click', () => addToStack(btn.dataset.id));
+    });
+  }
+
+  function addToStack(id) {
+    if (stack.includes(id)) return;
+    stack.push(id);
+    document.getElementById('supp-search').value = '';
+    renderSearch('');
+    renderStack();
+    renderResults();
+  }
+
+  function removeFromStack(id) {
+    const idx = stack.indexOf(id);
+    if (idx > -1) stack.splice(idx, 1);
+    renderStack();
+    renderResults();
+  }
+
+  function renderStack() {
+    const chipsEl = document.getElementById('stack-chips');
+    const emptyMsg = document.getElementById('stack-empty-msg');
+    if (stack.length === 0) {
+      chipsEl.innerHTML = '';
+      emptyMsg.style.display = 'block';
+      return;
+    }
+    emptyMsg.style.display = 'none';
+    chipsEl.innerHTML = stack.map(id => {
+      const s = byId.get(id);
+      return `<span class="stack-chip">
+        <span class="stack-chip-emoji">${s.emoji || '💊'}</span>
+        <span>${s.name}</span>
+        <button type="button" class="stack-chip-remove" data-id="${id}" aria-label="Remove">×</button>
+      </span>`;
+    }).join('');
+    chipsEl.querySelectorAll('.stack-chip-remove').forEach(btn => {
+      btn.addEventListener('click', () => removeFromStack(btn.dataset.id));
+    });
+  }
+
+  function findRelation(idA, idB, field, reasonField) {
+    const a = byId.get(idA);
+    const b = byId.get(idB);
+    if (!a || !b) return null;
+    if ((a[field] || []).includes(idB)) {
+      return { reason: (a.interactionReasons || a.synergyReasons || {})[idB] || (a[reasonField] || {})[idB], sourcesFrom: a };
+    }
+    if ((b[field] || []).includes(idA)) {
+      return { reason: (b[reasonField] || {})[idA], sourcesFrom: b };
+    }
+    return null;
+  }
+
+  function renderResults() {
+    const resultsEl = document.getElementById('results');
+    const warningsList = document.getElementById('warnings-list');
+    const synergiesList = document.getElementById('synergies-list');
+    const noWarnings = document.getElementById('no-warnings');
+    const noSynergies = document.getElementById('no-synergies');
+
+    if (stack.length < 2) {
+      resultsEl.classList.remove('is-visible');
+      return;
+    }
+    resultsEl.classList.add('is-visible');
+
+    const warnings = [];
+    const synergies = [];
+
+    for (let i = 0; i < stack.length; i++) {
+      for (let j = i + 1; j < stack.length; j++) {
+        const a = byId.get(stack[i]);
+        const b = byId.get(stack[j]);
+        if (!a || !b) continue;
+
+        const interactionReason = (a.interactionReasons || {})[b.id] || (b.interactionReasons || {})[a.id];
+        const isInteraction = (a.interactions || []).includes(b.id) || (b.interactions || []).includes(a.id);
+        if (isInteraction) {
+          const sourceOwner = (a.interactionReasons || {})[b.id] ? a : b;
+          warnings.push({ a, b, reason: interactionReason, sources: sourceOwner.sources || [] });
+          continue;
+        }
+
+        const synergyReason = (a.synergyReasons || {})[b.id] || (b.synergyReasons || {})[a.id];
+        const isSynergy = (a.synergies || []).includes(b.id) || (b.synergies || []).includes(a.id);
+        if (isSynergy) {
+          const sourceOwner = (a.synergyReasons || {})[b.id] ? a : b;
+          synergies.push({ a, b, reason: synergyReason, sources: sourceOwner.sources || [] });
+        }
+      }
+    }
+
+    warningsList.innerHTML = warnings.map(w => `
+      <div class="relation-card relation-warning">
+        <div class="relation-pair">${w.a.emoji || ''} ${w.a.name} <span class="relation-plus">+</span> ${w.b.emoji || ''} ${w.b.name}</div>
+        <p class="relation-reason">${w.reason || ''}</p>
+        ${w.sources.length ? `<p class="relation-sources">${sourcesLabel}: ${w.sources.join(', ')}</p>` : ''}
+      </div>
+    `).join('');
+    noWarnings.style.display = warnings.length ? 'none' : 'block';
+
+    synergiesList.innerHTML = synergies.map(sy => `
+      <div class="relation-card relation-synergy">
+        <div class="relation-pair">${sy.a.emoji || ''} ${sy.a.name} <span class="relation-plus">+</span> ${sy.b.emoji || ''} ${sy.b.name}</div>
+        <p class="relation-reason">${sy.reason || ''}</p>
+        ${sy.sources.length ? `<p class="relation-sources">${sourcesLabel}: ${sy.sources.join(', ')}</p>` : ''}
+      </div>
+    `).join('');
+    noSynergies.style.display = synergies.length ? 'none' : 'block';
+  }
+
+  document.getElementById('supp-search').addEventListener('input', (e) => renderSearch(e.target.value));
+  document.addEventListener('click', (e) => {
+    const wrap = document.querySelector('.search-wrap');
+    if (wrap && !wrap.contains(e.target)) {
+      document.getElementById('search-results').style.display = 'none';
+    }
+  });
+  document.getElementById('clear-stack').addEventListener('click', () => {
+    stack.length = 0;
+    renderStack();
+    renderResults();
+  });
+
+  renderStack();
+</script>
+
+<style>
+  .checker-main { max-width: var(--maxw); margin: 0 auto; padding: clamp(120px, 12vw, 160px) var(--pad-x) 80px; }
+  .checker-hero { max-width: 720px; margin: 0 auto 48px; text-align: center; }
+  .checker-hero .eyebrow { margin: 0 auto 20px; }
+  .checker-h1 { margin: 0 0 16px; }
+  .checker-lede { margin: 0 auto; }
+
+  .checker-tool { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+
+  .search-wrap { position: relative; display: flex; align-items: center; gap: 10px; padding: 14px 18px; }
+  .search-icon { color: var(--ink-muted); flex-shrink: 0; }
+  .search-wrap input {
+    flex: 1; border: none; background: transparent; outline: none;
+    font-family: var(--sans); font-size: 16px; color: var(--ink);
+  }
+  .search-results {
+    display: none; position: absolute; top: calc(100% + 8px); left: 0; right: 0; z-index: 20;
+    background: #fff; border-radius: var(--r-card); border: 1px solid var(--line);
+    box-shadow: 0 20px 40px -12px rgba(15,23,42,0.18); overflow: hidden; max-height: 320px; overflow-y: auto;
+  }
+  .search-item {
+    display: flex; align-items: center; gap: 12px; width: 100%; padding: 12px 18px;
+    background: none; border: none; text-align: left; font-size: 15px; color: var(--ink);
+    border-bottom: 1px solid var(--line);
+  }
+  .search-item:last-child { border-bottom: none; }
+  .search-item:hover { background: var(--bg-2); }
+  .search-item-emoji { font-size: 18px; }
+
+  .stack-panel { padding: 24px; }
+  .stack-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+  .stack-head h2 { font-size: 17px; font-weight: 600; margin: 0; }
+  .clear-btn { background: none; border: none; font-size: 13px; color: var(--ink-muted); font-weight: 500; }
+  .clear-btn:hover { color: var(--ink); }
+  .stack-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .stack-chip {
+    display: inline-flex; align-items: center; gap: 8px; padding: 8px 8px 8px 12px;
+    background: var(--bg-2); border-radius: var(--r-pill); font-size: 14px; font-weight: 500;
+  }
+  .stack-chip-emoji { font-size: 15px; }
+  .stack-chip-remove {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px; border-radius: 50%; background: rgba(15,23,42,0.08);
+    border: none; font-size: 15px; line-height: 1; color: var(--ink-soft);
+  }
+  .stack-chip-remove:hover { background: rgba(15,23,42,0.16); }
+  .stack-empty { margin: 4px 0 0; font-size: 14px; color: var(--ink-muted); }
+
+  .results { display: none; flex-direction: column; gap: 16px; }
+  .results.is-visible { display: flex; }
+  .result-block { padding: 22px 24px; }
+  .result-block h3 { font-size: 15px; font-weight: 600; margin: 0 0 14px; }
+  .no-data-msg { font-size: 14px; color: var(--ink-muted); margin: 0; }
+
+  .relation-card { padding: 14px 0; border-top: 1px solid var(--line); }
+  .relation-card:first-child { border-top: none; padding-top: 0; }
+  .relation-pair { font-weight: 600; font-size: 14.5px; margin-bottom: 6px; }
+  .relation-plus { color: var(--ink-muted); font-weight: 400; margin: 0 2px; }
+  .relation-reason { font-size: 14px; line-height: 1.6; color: var(--ink-soft); margin: 0 0 4px; }
+  .relation-sources { font-size: 12px; color: var(--ink-muted); margin: 0; font-family: var(--mono); }
+
+  .warnings-block { border: 1px solid oklch(0.75 0.12 40 / 0.35); background: oklch(0.98 0.02 60 / 0.7); }
+  .synergies-block { border: 1px solid var(--emerald-soft); background: var(--emerald-tint); }
+
+  .checker-disclaimer {
+    max-width: 640px; margin: 32px auto 0; text-align: center;
+    font-size: 12.5px; line-height: 1.6; color: var(--ink-muted);
+  }
+
+  .checker-cta {
+    max-width: 640px; margin: 40px auto 0; padding: 28px 32px;
+    display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center;
+  }
+  .checker-cta p { margin: 0; font-size: 15px; color: var(--ink-soft); }
+
+  [dir="rtl"] .stack-chip { padding: 8px 12px 8px 8px; }
+</style>
+</Layout>

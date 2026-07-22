@@ -11,7 +11,8 @@ export const I18N = {
       "features": "Features",
       "watch": "Apple Watch",
       "reviews": "Reviews",
-      "download": "Download"
+      "download": "Download",
+      "checker": "Interaction Checker"
     },
     "hero": {
       "trial_badge": "1 week free — no card required",
@@ -135,6 +136,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Search articles...",
       "empty": "No articles found matching your criteria."
+    },
+    "checker": {
+      "metaTitle": "Free Supplement Interaction Checker",
+      "metaDescription": "Check for interactions and synergies between your vitamins, minerals, and supplements — free, instant, no account needed.",
+      "title": "Supplement Interaction Checker",
+      "subtitle": "Add the supplements you take to see which combinations are safe, which boost each other, and which you should never take together.",
+      "searchPlaceholder": "Search a supplement or vitamin...",
+      "stackTitle": "Your Stack",
+      "stackEmpty": "Add at least 2 supplements above to check for interactions.",
+      "clearAll": "Clear all",
+      "warningsTitle": "⚠️ Interactions to Avoid",
+      "synergiesTitle": "✅ Good Combinations",
+      "noWarnings": "No known interactions found in your stack.",
+      "noSynergies": "No known synergies found in your stack.",
+      "sourcesLabel": "Sources",
+      "disclaimer": "This tool is for educational purposes only and is not a substitute for professional medical advice. Always consult a qualified healthcare provider before starting, stopping, or combining supplements — especially if you take prescription medication.",
+      "ctaText": "Want automatic reminders and full interaction tracking for your whole stack?",
+      "ctaButton": "Get the App",
+      "addedBadge": "Added"
     }
   },
   "tr": {
@@ -148,7 +168,8 @@ export const I18N = {
       "features": "Özellikler",
       "watch": "Apple Watch",
       "reviews": "Yorumlar",
-      "download": "İndir"
+      "download": "İndir",
+      "checker": "Etkileşim Kontrolü"
     },
     "hero": {
       "trial_badge": "1 hafta ücretsiz — kart gerekmez",
@@ -267,6 +288,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Makalelerde ara...",
       "empty": "Aradığınız kriterlere uygun makale bulunamadı."
+    },
+    "checker": {
+      "metaTitle": "Ücretsiz Takviye Etkileşim Kontrolcüsü",
+      "metaDescription": "Vitamin, mineral ve takviyeleriniz arasındaki etkileşimleri ve sinerjileri kontrol edin — ücretsiz, anında, hesap gerektirmez.",
+      "title": "Takviye Etkileşim Kontrolcüsü",
+      "subtitle": "Kullandığınız takviyeleri ekleyin; hangi kombinasyonların güvenli olduğunu, hangilerinin birbirini desteklediğini ve hangilerini asla birlikte almamanız gerektiğini görün.",
+      "searchPlaceholder": "Bir takviye veya vitamin arayın...",
+      "stackTitle": "Takviye Listeniz",
+      "stackEmpty": "Etkileşimleri kontrol etmek için yukarıdan en az 2 takviye ekleyin.",
+      "clearAll": "Tümünü temizle",
+      "warningsTitle": "⚠️ Kaçınılması Gereken Etkileşimler",
+      "synergiesTitle": "✅ İyi Kombinasyonlar",
+      "noWarnings": "Listenizde bilinen bir etkileşim bulunamadı.",
+      "noSynergies": "Listenizde bilinen bir sinerji bulunamadı.",
+      "sourcesLabel": "Kaynaklar",
+      "disclaimer": "Bu araç yalnızca eğitim amaçlıdır ve profesyonel tıbbi tavsiyenin yerini tutmaz. Takviye almaya başlamadan, bırakmadan veya kombine etmeden önce, özellikle reçeteli ilaç kullanıyorsanız, mutlaka yetkin bir sağlık uzmanına danışın.",
+      "ctaText": "Tüm takviye listeniz için otomatik hatırlatmalar ve tam etkileşim takibi mi istiyorsunuz?",
+      "ctaButton": "Uygulamayı İndir",
+      "addedBadge": "Eklendi"
     }
   },
   "ko": {
@@ -280,7 +320,8 @@ export const I18N = {
       "features": "기능",
       "watch": "Apple Watch",
       "reviews": "후기",
-      "download": "다운로드"
+      "download": "다운로드",
+      "checker": "상호작용 확인"
     },
     "hero": {
       "trial_badge": "1주일 무료 — 카드 등록 불필요",
@@ -399,6 +440,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "기사 검색...",
       "empty": "조건에 맞는 기사를 찾을 수 없습니다."
+    },
+    "checker": {
+      "metaTitle": "무료 영양제 상호작용 확인 도구",
+      "metaDescription": "비타민, 미네랄, 영양제 간의 상호작용과 시너지를 무료로, 즉시, 계정 없이 확인하세요.",
+      "title": "영양제 상호작용 확인 도구",
+      "subtitle": "복용 중인 영양제를 추가하면 어떤 조합이 안전한지, 어떤 것이 서로 효과를 높이는지, 어떤 것을 절대 함께 복용하면 안 되는지 확인할 수 있습니다.",
+      "searchPlaceholder": "영양제 또는 비타민 검색...",
+      "stackTitle": "나의 영양제 목록",
+      "stackEmpty": "상호작용을 확인하려면 위에서 최소 2개의 영양제를 추가하세요.",
+      "clearAll": "모두 지우기",
+      "warningsTitle": "⚠️ 피해야 할 상호작용",
+      "synergiesTitle": "✅ 좋은 조합",
+      "noWarnings": "목록에서 알려진 상호작용이 발견되지 않았습니다.",
+      "noSynergies": "목록에서 알려진 시너지가 발견되지 않았습니다.",
+      "sourcesLabel": "출처",
+      "disclaimer": "이 도구는 교육 목적으로만 제공되며 전문적인 의학적 조언을 대체하지 않습니다. 특히 처방약을 복용 중이라면 영양제를 시작, 중단, 또는 조합하기 전에 반드시 자격을 갖춘 의료 전문가와 상담하세요.",
+      "ctaText": "전체 영양제 목록에 대한 자동 알림과 완전한 상호작용 추적을 원하시나요?",
+      "ctaButton": "앱 다운로드",
+      "addedBadge": "추가됨"
     }
   },
   "ja": {
@@ -412,7 +472,8 @@ export const I18N = {
       "features": "機能",
       "watch": "Apple Watch",
       "reviews": "レビュー",
-      "download": "ダウンロード"
+      "download": "ダウンロード",
+      "checker": "相互作用チェック"
     },
     "hero": {
       "trial_badge": "1週間無料 — クレジットカード不要",
@@ -531,6 +592,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "記事を検索...",
       "empty": "条件に一致する記事が見つかりませんでした。"
+    },
+    "checker": {
+      "metaTitle": "無料サプリメント相互作用チェッカー",
+      "metaDescription": "ビタミン、ミネラル、サプリメント間の相互作用と相乗効果を無料で即座に確認できます。アカウント登録は不要です。",
+      "title": "サプリメント相互作用チェッカー",
+      "subtitle": "摂取しているサプリメントを追加すると、どの組み合わせが安全か、どれが互いの効果を高めるか、どれを絶対に一緒に摂取してはいけないかがわかります。",
+      "searchPlaceholder": "サプリメントまたはビタミンを検索...",
+      "stackTitle": "あなたのスタック",
+      "stackEmpty": "相互作用を確認するには、上から2つ以上のサプリメントを追加してください。",
+      "clearAll": "すべてクリア",
+      "warningsTitle": "⚠️ 避けるべき相互作用",
+      "synergiesTitle": "✅ 良い組み合わせ",
+      "noWarnings": "リスト内に既知の相互作用は見つかりませんでした。",
+      "noSynergies": "リスト内に既知の相乗効果は見つかりませんでした。",
+      "sourcesLabel": "出典",
+      "disclaimer": "このツールは教育目的のみで提供されており、専門的な医学的アドバイスに代わるものではありません。特に処方薬を服用している場合は、サプリメントの開始・中止・併用の前に必ず資格のある医療専門家にご相談ください。",
+      "ctaText": "スタック全体の自動リマインダーと完全な相互作用トラッキングをご希望ですか?",
+      "ctaButton": "アプリを入手",
+      "addedBadge": "追加済み"
     }
   },
   "zh-cn": {
@@ -544,7 +624,8 @@ export const I18N = {
       "features": "功能",
       "watch": "Apple Watch",
       "reviews": "评价",
-      "download": "下载"
+      "download": "下载",
+      "checker": "相互作用检测"
     },
     "hero": {
       "trial_badge": "免费试用 1 周 — 无需信用卡",
@@ -663,6 +744,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "搜索文章...",
       "empty": "没有找到符合条件的文章。"
+    },
+    "checker": {
+      "metaTitle": "免费补充剂相互作用检测工具",
+      "metaDescription": "免费、即时、无需注册，检测您的维生素、矿物质和补充剂之间的相互作用与协同效应。",
+      "title": "补充剂相互作用检测工具",
+      "subtitle": "添加您正在服用的补充剂，即可查看哪些组合是安全的、哪些能相互增强效果、哪些绝不应同时服用。",
+      "searchPlaceholder": "搜索补充剂或维生素...",
+      "stackTitle": "您的补充剂清单",
+      "stackEmpty": "请在上方添加至少2种补充剂以检测相互作用。",
+      "clearAll": "清除全部",
+      "warningsTitle": "⚠️ 应避免的相互作用",
+      "synergiesTitle": "✅ 良好组合",
+      "noWarnings": "在您的清单中未发现已知的相互作用。",
+      "noSynergies": "在您的清单中未发现已知的协同效应。",
+      "sourcesLabel": "参考来源",
+      "disclaimer": "本工具仅供教育目的使用，不能替代专业医疗建议。在开始、停止或组合服用补充剂之前，尤其是在服用处方药物时，请务必咨询合格的医疗专业人员。",
+      "ctaText": "想为您的整个补充剂清单获得自动提醒和完整的相互作用追踪吗?",
+      "ctaButton": "获取应用",
+      "addedBadge": "已添加"
     }
   },
   "zh-tw": {
@@ -676,7 +776,8 @@ export const I18N = {
       "features": "功能",
       "watch": "Apple Watch",
       "reviews": "評價",
-      "download": "下載"
+      "download": "下載",
+      "checker": "交互作用檢測"
     },
     "hero": {
       "trial_badge": "免費試用 1 週 — 無需信用卡",
@@ -795,6 +896,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "搜尋文章...",
       "empty": "沒有找到符合條件的文章。"
+    },
+    "checker": {
+      "metaTitle": "免費補充劑交互作用檢測工具",
+      "metaDescription": "免費、即時、無需註冊，檢測您的維生素、礦物質和補充劑之間的交互作用與協同效應。",
+      "title": "補充劑交互作用檢測工具",
+      "subtitle": "新增您正在服用的補充劑，即可查看哪些組合是安全的、哪些能相互增強效果、哪些絕不應同時服用。",
+      "searchPlaceholder": "搜尋補充劑或維生素...",
+      "stackTitle": "您的補充劑清單",
+      "stackEmpty": "請在上方新增至少2種補充劑以檢測交互作用。",
+      "clearAll": "清除全部",
+      "warningsTitle": "⚠️ 應避免的交互作用",
+      "synergiesTitle": "✅ 良好組合",
+      "noWarnings": "在您的清單中未發現已知的交互作用。",
+      "noSynergies": "在您的清單中未發現已知的協同效應。",
+      "sourcesLabel": "參考來源",
+      "disclaimer": "本工具僅供教育目的使用，不能替代專業醫療建議。在開始、停止或組合服用補充劑之前，尤其是在服用處方藥物時，請務必諮詢合格的醫療專業人員。",
+      "ctaText": "想為您的整個補充劑清單獲得自動提醒和完整的交互作用追蹤嗎?",
+      "ctaButton": "取得應用程式",
+      "addedBadge": "已新增"
     }
   },
   "de": {
@@ -808,7 +928,8 @@ export const I18N = {
       "features": "Features",
       "watch": "Apple Watch",
       "reviews": "Bewertungen",
-      "download": "Laden"
+      "download": "Laden",
+      "checker": "Wechselwirkungscheck"
     },
     "hero": {
       "trial_badge": "1 Woche gratis — ohne Kreditkarte",
@@ -927,6 +1048,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Artikel suchen...",
       "empty": "Keine Artikel gefunden, die Ihren Kriterien entsprechen."
+    },
+    "checker": {
+      "metaTitle": "Kostenloser Nahrungsergänzungsmittel-Wechselwirkungscheck",
+      "metaDescription": "Prüfen Sie kostenlos und sofort Wechselwirkungen und Synergien zwischen Ihren Vitaminen, Mineralstoffen und Nahrungsergänzungsmitteln — kein Konto erforderlich.",
+      "title": "Wechselwirkungscheck für Nahrungsergänzungsmittel",
+      "subtitle": "Fügen Sie die Präparate hinzu, die Sie einnehmen, und sehen Sie, welche Kombinationen sicher sind, welche sich gegenseitig verstärken und welche Sie niemals zusammen einnehmen sollten.",
+      "searchPlaceholder": "Präparat oder Vitamin suchen...",
+      "stackTitle": "Ihr Stack",
+      "stackEmpty": "Fügen Sie oben mindestens 2 Präparate hinzu, um Wechselwirkungen zu prüfen.",
+      "clearAll": "Alle entfernen",
+      "warningsTitle": "⚠️ Zu vermeidende Wechselwirkungen",
+      "synergiesTitle": "✅ Gute Kombinationen",
+      "noWarnings": "In Ihrem Stack wurden keine bekannten Wechselwirkungen gefunden.",
+      "noSynergies": "In Ihrem Stack wurden keine bekannten Synergien gefunden.",
+      "sourcesLabel": "Quellen",
+      "disclaimer": "Dieses Tool dient nur zu Informationszwecken und ersetzt keine professionelle medizinische Beratung. Konsultieren Sie stets eine qualifizierte Fachkraft, bevor Sie Präparate beginnen, absetzen oder kombinieren — insbesondere bei verschreibungspflichtigen Medikamenten.",
+      "ctaText": "Möchten Sie automatische Erinnerungen und vollständiges Wechselwirkungs-Tracking für Ihren gesamten Stack?",
+      "ctaButton": "App herunterladen",
+      "addedBadge": "Hinzugefügt"
     }
   },
   "es": {
@@ -940,7 +1080,8 @@ export const I18N = {
       "features": "Funciones",
       "watch": "Apple Watch",
       "reviews": "Reseñas",
-      "download": "Descargar"
+      "download": "Descargar",
+      "checker": "Verificador de Interacciones"
     },
     "hero": {
       "trial_badge": "1 semana gratis — sin tarjeta",
@@ -1059,6 +1200,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Buscar artículos...",
       "empty": "No se encontraron artículos que coincidan con sus criterios."
+    },
+    "checker": {
+      "metaTitle": "Verificador Gratuito de Interacciones entre Suplementos",
+      "metaDescription": "Comprueba gratis y al instante las interacciones y sinergias entre tus vitaminas, minerales y suplementos — sin necesidad de cuenta.",
+      "title": "Verificador de Interacciones entre Suplementos",
+      "subtitle": "Añade los suplementos que tomas para ver qué combinaciones son seguras, cuáles se potencian entre sí y cuáles nunca debes tomar juntas.",
+      "searchPlaceholder": "Busca un suplemento o vitamina...",
+      "stackTitle": "Tu Combinación",
+      "stackEmpty": "Añade al menos 2 suplementos arriba para comprobar interacciones.",
+      "clearAll": "Borrar todo",
+      "warningsTitle": "⚠️ Interacciones a Evitar",
+      "synergiesTitle": "✅ Buenas Combinaciones",
+      "noWarnings": "No se encontraron interacciones conocidas en tu combinación.",
+      "noSynergies": "No se encontraron sinergias conocidas en tu combinación.",
+      "sourcesLabel": "Fuentes",
+      "disclaimer": "Esta herramienta tiene fines educativos únicamente y no sustituye el consejo médico profesional. Consulta siempre a un profesional de la salud cualificado antes de iniciar, suspender o combinar suplementos, especialmente si tomas medicación recetada.",
+      "ctaText": "¿Quieres recordatorios automáticos y seguimiento completo de interacciones para toda tu combinación?",
+      "ctaButton": "Obtener la App",
+      "addedBadge": "Añadido"
     }
   },
   "pt-br": {
@@ -1072,7 +1232,8 @@ export const I18N = {
       "features": "Recursos",
       "watch": "Apple Watch",
       "reviews": "Avaliações",
-      "download": "Baixar"
+      "download": "Baixar",
+      "checker": "Verificador de Interações"
     },
     "hero": {
       "trial_badge": "1 semana grátis — sem cartão",
@@ -1191,6 +1352,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Buscar artigos...",
       "empty": "Nenhum artigo encontrado correspondente aos seus critérios."
+    },
+    "checker": {
+      "metaTitle": "Verificador Gratuito de Interações entre Suplementos",
+      "metaDescription": "Verifique gratuitamente e instantaneamente as interações e sinergias entre suas vitaminas, minerais e suplementos — sem necessidade de conta.",
+      "title": "Verificador de Interações entre Suplementos",
+      "subtitle": "Adicione os suplementos que você toma para ver quais combinações são seguras, quais se potencializam mutuamente e quais você nunca deve tomar juntas.",
+      "searchPlaceholder": "Busque um suplemento ou vitamina...",
+      "stackTitle": "Sua Combinação",
+      "stackEmpty": "Adicione pelo menos 2 suplementos acima para verificar interações.",
+      "clearAll": "Limpar tudo",
+      "warningsTitle": "⚠️ Interações a Evitar",
+      "synergiesTitle": "✅ Boas Combinações",
+      "noWarnings": "Nenhuma interação conhecida foi encontrada na sua combinação.",
+      "noSynergies": "Nenhuma sinergia conhecida foi encontrada na sua combinação.",
+      "sourcesLabel": "Fontes",
+      "disclaimer": "Esta ferramenta tem fins apenas educativos e não substitui o aconselhamento médico profissional. Consulte sempre um profissional de saúde qualificado antes de iniciar, interromper ou combinar suplementos, especialmente se você usa medicação prescrita.",
+      "ctaText": "Quer lembretes automáticos e rastreamento completo de interações para toda a sua combinação?",
+      "ctaButton": "Baixar o App",
+      "addedBadge": "Adicionado"
     }
   },
   "it": {
@@ -1204,7 +1384,8 @@ export const I18N = {
       "features": "Funzioni",
       "watch": "Apple Watch",
       "reviews": "Recensioni",
-      "download": "Scarica"
+      "download": "Scarica",
+      "checker": "Verifica Interazioni"
     },
     "hero": {
       "trial_badge": "1 settimana gratis — no carta",
@@ -1323,6 +1504,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Cerca articoli...",
       "empty": "Nessun articolo trovato che corrisponda ai tuoi criteri."
+    },
+    "checker": {
+      "metaTitle": "Verificatore Gratuito di Interazioni tra Integratori",
+      "metaDescription": "Verifica gratuitamente e istantaneamente le interazioni e le sinergie tra le tue vitamine, minerali e integratori — senza bisogno di account.",
+      "title": "Verificatore di Interazioni tra Integratori",
+      "subtitle": "Aggiungi gli integratori che assumi per scoprire quali combinazioni sono sicure, quali si potenziano a vicenda e quali non dovresti mai assumere insieme.",
+      "searchPlaceholder": "Cerca un integratore o una vitamina...",
+      "stackTitle": "La Tua Combinazione",
+      "stackEmpty": "Aggiungi almeno 2 integratori sopra per verificare le interazioni.",
+      "clearAll": "Cancella tutto",
+      "warningsTitle": "⚠️ Interazioni da Evitare",
+      "synergiesTitle": "✅ Buone Combinazioni",
+      "noWarnings": "Nessuna interazione nota trovata nella tua combinazione.",
+      "noSynergies": "Nessuna sinergia nota trovata nella tua combinazione.",
+      "sourcesLabel": "Fonti",
+      "disclaimer": "Questo strumento ha solo scopo educativo e non sostituisce il parere medico professionale. Consulta sempre un professionista sanitario qualificato prima di iniziare, interrompere o combinare integratori, specialmente se assumi farmaci su prescrizione.",
+      "ctaText": "Vuoi promemoria automatici e monitoraggio completo delle interazioni per tutta la tua combinazione?",
+      "ctaButton": "Scarica l'App",
+      "addedBadge": "Aggiunto"
     }
   },
   "nl": {
@@ -1336,7 +1536,8 @@ export const I18N = {
       "features": "Functies",
       "watch": "Apple Watch",
       "reviews": "Reviews",
-      "download": "Downloaden"
+      "download": "Downloaden",
+      "checker": "Interactiecontrole"
     },
     "hero": {
       "trial_badge": "1 week gratis — geen kaart",
@@ -1455,6 +1656,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Artikelen zoeken...",
       "empty": "Geen artikelen gevonden die aan uw criteria voldoen."
+    },
+    "checker": {
+      "metaTitle": "Gratis Supplement Interactiecontrole",
+      "metaDescription": "Controleer gratis en direct interacties en synergieën tussen je vitamines, mineralen en supplementen — geen account nodig.",
+      "title": "Supplement Interactiecontrole",
+      "subtitle": "Voeg de supplementen toe die je gebruikt om te zien welke combinaties veilig zijn, welke elkaar versterken en welke je nooit samen mag innemen.",
+      "searchPlaceholder": "Zoek een supplement of vitamine...",
+      "stackTitle": "Jouw Stack",
+      "stackEmpty": "Voeg hierboven minstens 2 supplementen toe om interacties te controleren.",
+      "clearAll": "Alles wissen",
+      "warningsTitle": "⚠️ Te Vermijden Interacties",
+      "synergiesTitle": "✅ Goede Combinaties",
+      "noWarnings": "Geen bekende interacties gevonden in jouw stack.",
+      "noSynergies": "Geen bekende synergieën gevonden in jouw stack.",
+      "sourcesLabel": "Bronnen",
+      "disclaimer": "Deze tool is uitsluitend bedoeld voor educatieve doeleinden en vervangt geen professioneel medisch advies. Raadpleeg altijd een gekwalificeerde zorgverlener voordat je supplementen start, stopt of combineert — zeker als je voorgeschreven medicatie gebruikt.",
+      "ctaText": "Wil je automatische herinneringen en volledige interactietracking voor je hele stack?",
+      "ctaButton": "Download de App",
+      "addedBadge": "Toegevoegd"
     }
   },
   "pl": {
@@ -1468,7 +1688,8 @@ export const I18N = {
       "features": "Funkcje",
       "watch": "Apple Watch",
       "reviews": "Opinie",
-      "download": "Pobierz"
+      "download": "Pobierz",
+      "checker": "Sprawdzanie Interakcji"
     },
     "hero": {
       "trial_badge": "1 tydzień gratis — bez karty",
@@ -1587,6 +1808,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Szukaj artykułów...",
       "empty": "Nie znaleziono artykułów spełniających Twoje kryteria."
+    },
+    "checker": {
+      "metaTitle": "Darmowy Sprawdzacz Interakcji Suplementów",
+      "metaDescription": "Sprawdź za darmo i natychmiast interakcje oraz synergie między witaminami, minerałami i suplementami — bez konieczności zakładania konta.",
+      "title": "Sprawdzacz Interakcji Suplementów",
+      "subtitle": "Dodaj suplementy, które przyjmujesz, aby zobaczyć, które połączenia są bezpieczne, które wzajemnie się wzmacniają, a których nigdy nie powinieneś łączyć.",
+      "searchPlaceholder": "Wyszukaj suplement lub witaminę...",
+      "stackTitle": "Twój Zestaw",
+      "stackEmpty": "Dodaj powyżej co najmniej 2 suplementy, aby sprawdzić interakcje.",
+      "clearAll": "Wyczyść wszystko",
+      "warningsTitle": "⚠️ Interakcje, Których Należy Unikać",
+      "synergiesTitle": "✅ Dobre Połączenia",
+      "noWarnings": "Nie znaleziono znanych interakcji w Twoim zestawie.",
+      "noSynergies": "Nie znaleziono znanych synergii w Twoim zestawie.",
+      "sourcesLabel": "Źródła",
+      "disclaimer": "To narzędzie służy wyłącznie celom edukacyjnym i nie zastępuje profesjonalnej porady medycznej. Zawsze skonsultuj się z wykwalifikowanym pracownikiem służby zdrowia przed rozpoczęciem, zaprzestaniem lub łączeniem suplementów — szczególnie jeśli przyjmujesz leki na receptę.",
+      "ctaText": "Chcesz automatyczne przypomnienia i pełne śledzenie interakcji dla całego swojego zestawu?",
+      "ctaButton": "Pobierz Aplikację",
+      "addedBadge": "Dodano"
     }
   },
   "ru": {
@@ -1600,7 +1840,8 @@ export const I18N = {
       "features": "Функции",
       "watch": "Apple Watch",
       "reviews": "Отзывы",
-      "download": "Скачать"
+      "download": "Скачать",
+      "checker": "Проверка взаимодействий"
     },
     "hero": {
       "trial_badge": "1 неделя бесплатно — без карты",
@@ -1719,6 +1960,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Поиск статей...",
       "empty": "Статьи, соответствующие вашим критериям, не найдены."
+    },
+    "checker": {
+      "metaTitle": "Бесплатная проверка взаимодействий добавок",
+      "metaDescription": "Бесплатно и мгновенно проверьте взаимодействия и синергии между вашими витаминами, минералами и добавками — без регистрации.",
+      "title": "Проверка взаимодействий добавок",
+      "subtitle": "Добавьте принимаемые вами добавки, чтобы увидеть, какие сочетания безопасны, какие усиливают друг друга, а какие никогда не следует принимать вместе.",
+      "searchPlaceholder": "Поиск добавки или витамина...",
+      "stackTitle": "Ваш набор",
+      "stackEmpty": "Добавьте выше как минимум 2 добавки, чтобы проверить взаимодействия.",
+      "clearAll": "Очистить всё",
+      "warningsTitle": "⚠️ Взаимодействия, которых следует избегать",
+      "synergiesTitle": "✅ Хорошие сочетания",
+      "noWarnings": "В вашем наборе не найдено известных взаимодействий.",
+      "noSynergies": "В вашем наборе не найдено известных синергий.",
+      "sourcesLabel": "Источники",
+      "disclaimer": "Этот инструмент предназначен только для образовательных целей и не заменяет профессиональную медицинскую консультацию. Всегда консультируйтесь с квалифицированным специалистом здравоохранения перед началом, прекращением или сочетанием приёма добавок — особенно если вы принимаете рецептурные препараты.",
+      "ctaText": "Хотите автоматические напоминания и полное отслеживание взаимодействий для всего вашего набора?",
+      "ctaButton": "Скачать приложение",
+      "addedBadge": "Добавлено"
     }
   },
   "id": {
@@ -1732,7 +1992,8 @@ export const I18N = {
       "features": "Fitur",
       "watch": "Apple Watch",
       "reviews": "Ulasan",
-      "download": "Unduh"
+      "download": "Unduh",
+      "checker": "Cek Interaksi"
     },
     "hero": {
       "trial_badge": "1 minggu gratis — tanpa kartu",
@@ -1851,6 +2112,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Cari artikel...",
       "empty": "Tidak ada artikel yang cocok dengan kriteria Anda."
+    },
+    "checker": {
+      "metaTitle": "Alat Cek Interaksi Suplemen Gratis",
+      "metaDescription": "Periksa interaksi dan sinergi antara vitamin, mineral, dan suplemen Anda secara gratis dan instan — tanpa perlu akun.",
+      "title": "Alat Cek Interaksi Suplemen",
+      "subtitle": "Tambahkan suplemen yang Anda konsumsi untuk melihat kombinasi mana yang aman, mana yang saling memperkuat, dan mana yang tidak boleh dikonsumsi bersamaan.",
+      "searchPlaceholder": "Cari suplemen atau vitamin...",
+      "stackTitle": "Daftar Suplemen Anda",
+      "stackEmpty": "Tambahkan minimal 2 suplemen di atas untuk memeriksa interaksi.",
+      "clearAll": "Hapus semua",
+      "warningsTitle": "⚠️ Interaksi yang Harus Dihindari",
+      "synergiesTitle": "✅ Kombinasi yang Baik",
+      "noWarnings": "Tidak ditemukan interaksi yang diketahui dalam daftar Anda.",
+      "noSynergies": "Tidak ditemukan sinergi yang diketahui dalam daftar Anda.",
+      "sourcesLabel": "Sumber",
+      "disclaimer": "Alat ini hanya untuk tujuan edukasi dan bukan pengganti nasihat medis profesional. Selalu konsultasikan dengan tenaga kesehatan yang kompeten sebelum memulai, menghentikan, atau menggabungkan suplemen — terutama jika Anda mengonsumsi obat resep.",
+      "ctaText": "Ingin pengingat otomatis dan pelacakan interaksi lengkap untuk seluruh daftar suplemen Anda?",
+      "ctaButton": "Unduh Aplikasi",
+      "addedBadge": "Ditambahkan"
     }
   },
   "vi": {
@@ -1864,7 +2144,8 @@ export const I18N = {
       "features": "Tính năng",
       "watch": "Apple Watch",
       "reviews": "Đánh giá",
-      "download": "Tải về"
+      "download": "Tải về",
+      "checker": "Kiểm Tra Tương Tác"
     },
     "hero": {
       "trial_badge": "1 tuần miễn phí — không cần thẻ",
@@ -1983,6 +2264,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "Tìm kiếm bài viết...",
       "empty": "Không tìm thấy bài viết nào phù hợp với tiêu chí của bạn."
+    },
+    "checker": {
+      "metaTitle": "Công Cụ Kiểm Tra Tương Tác Thực Phẩm Chức Năng Miễn Phí",
+      "metaDescription": "Kiểm tra miễn phí và tức thì các tương tác và hiệp đồng giữa vitamin, khoáng chất và thực phẩm chức năng của bạn — không cần tài khoản.",
+      "title": "Công Cụ Kiểm Tra Tương Tác Thực Phẩm Chức Năng",
+      "subtitle": "Thêm các sản phẩm bạn đang dùng để xem sự kết hợp nào an toàn, sự kết hợp nào tăng cường tác dụng lẫn nhau, và sự kết hợp nào bạn không bao giờ nên dùng cùng lúc.",
+      "searchPlaceholder": "Tìm kiếm thực phẩm chức năng hoặc vitamin...",
+      "stackTitle": "Danh Sách Của Bạn",
+      "stackEmpty": "Thêm ít nhất 2 sản phẩm ở trên để kiểm tra tương tác.",
+      "clearAll": "Xóa tất cả",
+      "warningsTitle": "⚠️ Tương Tác Cần Tránh",
+      "synergiesTitle": "✅ Kết Hợp Tốt",
+      "noWarnings": "Không tìm thấy tương tác nào được biết đến trong danh sách của bạn.",
+      "noSynergies": "Không tìm thấy hiệp đồng nào được biết đến trong danh sách của bạn.",
+      "sourcesLabel": "Nguồn tham khảo",
+      "disclaimer": "Công cụ này chỉ nhằm mục đích giáo dục và không thay thế cho tư vấn y tế chuyên nghiệp. Luôn tham khảo ý kiến chuyên gia y tế có chuyên môn trước khi bắt đầu, ngừng hoặc kết hợp các sản phẩm bổ sung — đặc biệt nếu bạn đang dùng thuốc kê đơn.",
+      "ctaText": "Bạn muốn nhận nhắc nhở tự động và theo dõi tương tác đầy đủ cho toàn bộ danh sách của mình?",
+      "ctaButton": "Tải Ứng Dụng",
+      "addedBadge": "Đã thêm"
     }
   },
   "th": {
@@ -1996,7 +2296,8 @@ export const I18N = {
       "features": "ฟีเจอร์",
       "watch": "Apple Watch",
       "reviews": "รีวิว",
-      "download": "ดาวน์โหลด"
+      "download": "ดาวน์โหลด",
+      "checker": "ตรวจสอบปฏิกิริยา"
     },
     "hero": {
       "trial_badge": "ฟรี 1 สัปดาห์ — ไม่ต้องใช้บัตร",
@@ -2115,6 +2416,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "ค้นหาบทความ...",
       "empty": "ไม่พบบทความที่ตรงกับเกณฑ์ของคุณ"
+    },
+    "checker": {
+      "metaTitle": "เครื่องมือตรวจสอบปฏิกิริยาอาหารเสริมฟรี",
+      "metaDescription": "ตรวจสอบปฏิกิริยาและการเสริมฤทธิ์กันระหว่างวิตามิน แร่ธาตุ และอาหารเสริมของคุณได้ฟรีและทันที — ไม่ต้องสมัครสมาชิก",
+      "title": "เครื่องมือตรวจสอบปฏิกิริยาอาหารเสริม",
+      "subtitle": "เพิ่มอาหารเสริมที่คุณกำลังรับประทานเพื่อดูว่าชุดใดปลอดภัย ชุดใดเสริมฤทธิ์กัน และชุดใดที่ไม่ควรรับประทานร่วมกัน",
+      "searchPlaceholder": "ค้นหาอาหารเสริมหรือวิตามิน...",
+      "stackTitle": "รายการของคุณ",
+      "stackEmpty": "เพิ่มอาหารเสริมอย่างน้อย 2 รายการด้านบนเพื่อตรวจสอบปฏิกิริยา",
+      "clearAll": "ล้างทั้งหมด",
+      "warningsTitle": "⚠️ ปฏิกิริยาที่ควรหลีกเลี่ยง",
+      "synergiesTitle": "✅ การผสมผสานที่ดี",
+      "noWarnings": "ไม่พบปฏิกิริยาที่ทราบในรายการของคุณ",
+      "noSynergies": "ไม่พบการเสริมฤทธิ์ที่ทราบในรายการของคุณ",
+      "sourcesLabel": "แหล่งข้อมูลอ้างอิง",
+      "disclaimer": "เครื่องมือนี้มีไว้เพื่อวัตถุประสงค์ทางการศึกษาเท่านั้น และไม่สามารถทดแทนคำแนะนำทางการแพทย์จากผู้เชี่ยวชาญได้ ควรปรึกษาผู้เชี่ยวชาญด้านสุขภาพที่มีคุณสมบัติเหมาะสมก่อนเริ่ม หยุด หรือรับประทานอาหารเสริมร่วมกัน โดยเฉพาะอย่างยิ่งหากคุณกำลังใช้ยาตามใบสั่งแพทย์",
+      "ctaText": "ต้องการการแจ้งเตือนอัตโนมัติและการติดตามปฏิกิริยาแบบเต็มรูปแบบสำหรับรายการทั้งหมดของคุณหรือไม่?",
+      "ctaButton": "ดาวน์โหลดแอป",
+      "addedBadge": "เพิ่มแล้ว"
     }
   },
   "ar": {
@@ -2128,7 +2448,8 @@ export const I18N = {
       "features": "الميزات",
       "watch": "Apple Watch",
       "reviews": "التقييمات",
-      "download": "تنزيل"
+      "download": "تنزيل",
+      "checker": "فاحص التفاعلات"
     },
     "hero": {
       "trial_badge": "أسبوع مجاني — بدون بطاقة",
@@ -2247,6 +2568,25 @@ export const I18N = {
     "blog_search": {
       "placeholder": "البحث في المقالات...",
       "empty": "لم يتم العثور على مقالات تطابق المعايير الخاصة بك."
+    },
+    "checker": {
+      "metaTitle": "أداة مجانية لفحص تفاعلات المكملات الغذائية",
+      "metaDescription": "افحص مجانًا وفوريًا التفاعلات والتآزر بين الفيتامينات والمعادن والمكملات الغذائية الخاصة بك — دون الحاجة لإنشاء حساب.",
+      "title": "أداة فحص تفاعلات المكملات الغذائية",
+      "subtitle": "أضف المكملات التي تتناولها لمعرفة أي التركيبات آمنة، وأيها يعزز مفعول الآخر، وأيها يجب ألا تتناولها معًا أبدًا.",
+      "searchPlaceholder": "ابحث عن مكمل غذائي أو فيتامين...",
+      "stackTitle": "قائمتك",
+      "stackEmpty": "أضف مكملين على الأقل أعلاه للتحقق من التفاعلات.",
+      "clearAll": "مسح الكل",
+      "warningsTitle": "⚠️ تفاعلات يجب تجنبها",
+      "synergiesTitle": "✅ تركيبات جيدة",
+      "noWarnings": "لم يتم العثور على تفاعلات معروفة في قائمتك.",
+      "noSynergies": "لم يتم العثور على تآزر معروف في قائمتك.",
+      "sourcesLabel": "المصادر",
+      "disclaimer": "هذه الأداة مخصصة لأغراض تعليمية فقط ولا تُغني عن الاستشارة الطبية المتخصصة. يُرجى دائمًا استشارة أخصائي رعاية صحية مؤهل قبل بدء تناول المكملات أو إيقافها أو الجمع بينها — خاصة إذا كنت تتناول أدوية موصوفة.",
+      "ctaText": "هل ترغب في تذكيرات تلقائية وتتبع كامل للتفاعلات لكامل قائمتك؟",
+      "ctaButton": "احصل على التطبيق",
+      "addedBadge": "تمت الإضافة"
     }
   }
 };
