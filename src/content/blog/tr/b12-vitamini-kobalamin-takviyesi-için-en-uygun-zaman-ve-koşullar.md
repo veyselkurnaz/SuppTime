@@ -3,7 +3,7 @@ title: "B12 Vitamini (Kobalamin) Takviyesi İçin En Uygun Zaman ve Koşullar"
 description: "B12 vitaminini sabah mı yoksa gece mi almalısınız? Aç karnına mı, tok karnına mı daha iyi emilir? Bilimsel etkileşimleri ve en doğru kullanım zamanını keşfedin."
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
-image: "/assets/b12_cover.png"
+image: "/assets/b12_cover.webp"
 ---
 
 # Vitamin B12 (Kobalamin) Takviyesi İçin En Uygun Zaman ve Koşullar

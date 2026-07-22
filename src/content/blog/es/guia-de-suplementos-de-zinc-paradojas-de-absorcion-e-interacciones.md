@@ -4,7 +4,7 @@ description: "Una guía clínica sobre la suplementación con zinc. Descubre la 
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 La administración de suplementos de zinc ($\text{Zn}^{2+}$) presenta una serie de paradojas fisiológicas y bioquímicas. Si bien el zinc es un oligoelemento vital que interviene en más de 300 reacciones enzimáticas, su administración oral se ve frecuentemente obstaculizada por molestias gastrointestinales agudas, la inhibición competitiva por parte de otros cationes divalentes y el agotamiento sistémico de minerales. Resolver estos problemas requiere una comprensión detallada de la cinética de los transportadores intestinales, la bioquímica de las mucosas y la cronofarmacología para diseñar protocolos de dosificación óptimos.

@@ -4,7 +4,7 @@ description: "Una guía clínica para la suplementación con hierro. Descubra la
 pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
-image: "/assets/iron_cover.png"
+image: "/assets/iron_cover.webp"
 ---
 
 El hierro es un micronutriente indispensable que funciona como cofactor estructural y catalítico en el transporte de oxígeno, la respiración celular y la síntesis de ADN. A pesar de su abundancia en la naturaleza, el hierro es con frecuencia un nutriente limitante del crecimiento en la dieta humana. Debido a que los humanos no poseen ningún mecanismo fisiológico para la excreción activa de hierro, el equilibrio sistémico del hierro se mantiene exclusivamente a nivel de la absorción intestinal.

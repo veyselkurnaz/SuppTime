@@ -3,7 +3,7 @@ title: "Omega-3 Supplementen Gids: Galkinetiek, Micelvorming en het Magere Maalt
 description: "Ontdek de chronofarmacologie van Omega-3 (EPA/DHA) supplementen. Leer waarom het innemen van visolie op een lege maag de opname drastisch vermindert en de kritieke rol van galzuren."
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
-image: "/assets/omega3_cover.png"
+image: "/assets/omega3_cover.webp"
 ---
 
 De therapeutische effectiviteit van lange-keten mariene omega-3 meervoudig onverzadigde vetzuren ($\text{PUFA}$'s), in het bijzonder eicosapentaeenzuur ($\text{EPA}$) en docosahexaeenzuur ($\text{DHA}$), wordt strikt bepaald door hun intestinale biologische beschikbaarheid. In de klinische voeding is een belangrijke oorzaak van therapeutisch falen de "lean-meal paradox" (het paradox van de magere maaltijd) — de toediening van sterk hydrofobe mariene lipiden tijdens het vasten of naast vetvrije maaltijden. Ondanks de inname van hoge nominale doses, verhindert het ontbreken van een gestructureerde lipide co-ingestie matrix de fysieke en enzymatische mechanismen die nodig zijn voor vetopname in het waterige lumen van het menselijk maag-darmkanaal. Deze klinische analyse beschrijft de biofysische, biochemische en chronofarmacologische principes die de vertering en opname van $\text{EPA}$ en $\text{DHA}$ bepalen.

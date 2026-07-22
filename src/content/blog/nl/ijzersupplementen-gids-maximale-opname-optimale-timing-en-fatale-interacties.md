@@ -4,7 +4,7 @@ description: "Een klinische gids voor ijzersuppletie. Ontdek de wetenschap achte
 pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
-image: "/assets/supptime_og_banner.png"
+image: "/assets/iron_cover.webp"
 ---
 
 IJzer is een onmisbaar micronutriënt dat fungeert als structurele en katalytische cofactor bij zuurstoftransport, cellulaire ademhaling en DNA-synthese. Ondanks de ruime beschikbaarheid in de natuur, is ijzer vaak een groeibeperkende voedingsstof in het menselijk dieet. Omdat mensen geen fysiologisch mechanisme bezitten voor actieve ijzeruitscheiding, wordt de systemische ijzerbalans uitsluitend op het niveau van darmabsorptie gehandhaafd.

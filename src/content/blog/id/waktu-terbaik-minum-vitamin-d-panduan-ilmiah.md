@@ -3,7 +3,7 @@ title: "Waktu Terbaik Minum Vitamin D: Panduan Ilmiah"
 description: "Temukan waktu terbaik yang didukung sains untuk mengonsumsi suplemen Vitamin D Anda agar penyerapannya maksimal."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
-image: "/assets/vitamin_d_cover.png"
+image: "/assets/vitamin_d_cover.webp"
 ---
 
 Vitamin D jauh lebih dari sekadar vitamin biasa; di dalam tubuh manusia, ia berfungsi sebagai prohormon dan memainkan peran krusial dalam kepadatan tulang, pengaturan sistem imun, produksi testosteron, dan stabilisasi suasana hati. Terlepas dari kepentingan sistemik yang masif ini, data epidemiologi saat ini menunjukkan bahwa lebih dari 50% populasi global mengalami defisiensi atau kekurangan vitamin D.

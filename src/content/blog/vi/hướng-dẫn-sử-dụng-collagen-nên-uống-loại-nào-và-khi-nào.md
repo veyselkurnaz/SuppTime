@@ -3,7 +3,7 @@ title: "Hướng Dẫn Sử Dụng Collagen: Nên Uống Loại Nào Và Khi Nà
 description: "Phân tích lâm sàng về các loại collagen, động học hấp thu, thời điểm tối ưu và các đồng yếu tố thiết yếu như Vitamin C để tối đa hóa sinh khả dụng và tái tạo mô."
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
-image: "/assets/collagen_cover.png"
+image: "/assets/collagen_cover.webp"
 ---
 
 # Hướng Dẫn Sử Dụng Collagen: Các Loại Cấu Trúc, Động Học Hấp Thu Và Phân Tích Khoa Học Về Các Đồng Yếu Tố Chuyển Hóa

@@ -3,7 +3,7 @@ title: "Omega-3 Supplement Guide: Bile Kinetics, Micelle Formation, and the Lean
 description: "Discover the chronopharmacology of Omega-3 (EPA/DHA) supplements. Learn why taking fish oil on an empty stomach drastically reduces absorption and the critical role of bile acids."
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
-image: "/assets/omega3_cover.png"
+image: "/assets/omega3_cover.webp"
 ---
 
 The therapeutic efficacy of long-chain marine omega-3 polyunsaturated fatty acids ($\text{PUFAs}$), specifically eicosapentaenoic acid ($\text{EPA}$) and docosahexaenoic acid ($\text{DHA}$), is strictly governed by their intestinal bioavailability. In clinical nutrition, a major source of therapeutic failure is the "lean-meal paradox"—the administration of highly hydrophobic marine lipids under fasting conditions or alongside fat-free meals. Despite the intake of high nominal doses, the lack of a structured lipid co-ingestion matrix prevents the physical and enzymatic mechanisms required for lipid absorption in the aqueous lumen of the human gastrointestinal tract. This clinical analysis details the biophysical, biochemical, and chronopharmacological principles that dictate the digestion and absorption of $\text{EPA}$ and $\text{DHA}$.

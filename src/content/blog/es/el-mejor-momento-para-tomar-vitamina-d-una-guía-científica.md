@@ -3,7 +3,7 @@ title: "El Mejor Momento para Tomar Vitamina D: Una Guía Científica"
 description: "Descubre el mejor momento del día respaldado por la ciencia para tomar tus suplementos de Vitamina D y lograr la máxima absorción."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
-image: "/assets/vitamin_d_cover.png"
+image: "/assets/vitamin_d_cover.webp"
 ---
 
 La vitamina D es mucho más que una simple vitamina; funciona como una prohormona en el cuerpo humano y desempeña un papel crucial en la densidad ósea, la regulación del sistema inmunológico, la producción de testosterona y la estabilización del estado de ánimo. A pesar de esta inmensa importancia sistémica, los datos epidemiológicos actuales muestran que más del 50% de la población mundial tiene deficiencia o insuficiencia de vitamina D.

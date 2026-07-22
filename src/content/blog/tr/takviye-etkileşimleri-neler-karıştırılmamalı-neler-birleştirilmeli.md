@@ -3,7 +3,7 @@ title: "Takviye Etkileşimleri: Neler Karıştırılmamalı, Neler Birleştirilm
 description: "Hangi vitamin ve mineralleri (Demir ve Kalsiyum gibi) asla birlikte almamanız gerektiğini ve hangilerinin birleştirildiğinde daha iyi çalıştığını keşfedin."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
-image: "/assets/supplement_interactions_cover.png"
+image: "/assets/supplement_interactions_cover.webp"
 ---
 
 Takviye almak, sağlığınız için atabileceğiniz en proaktif adımlardan biridir. Ancak, günlük takviye rutininize açık büfe muamelesi yapmak (sabah kahvenizle birlikte on farklı hapı aynı anda yutmak) bilimsel olarak kanıtlanmış bir şekilde verimsizdir ve bazı durumlarda zararlıdır.

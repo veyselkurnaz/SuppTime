@@ -4,7 +4,7 @@ description: "Demir takviyeleri hakkında klinik bir rehber. Gün aşırı dozla
 pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
-image: "/assets/iron_cover.png"
+image: "/assets/iron_cover.webp"
 ---
 
 Demir, oksijen taşınması, hücresel solunum ve DNA sentezinde yapısal ve katalitik bir kofaktör olarak işlev gören vazgeçilmez bir mikro besindir. Çevresel bolluğuna rağmen, insan diyetinde sıklıkla büyüme sınırlayıcı bir besin maddesi konumundadır. İnsanlarda aktif demir atılımı için fizyolojik bir mekanizma bulunmadığından, sistemik demir dengesi tamamen bağırsak emilimi seviyesinde korunur.

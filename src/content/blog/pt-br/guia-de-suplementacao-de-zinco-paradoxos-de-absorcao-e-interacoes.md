@@ -4,7 +4,7 @@ description: "Um guia clínico sobre a suplementação de zinco. Descubra o para
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 A administração de suplementos de zinco ($\text{Zn}^{2+}$) apresenta uma série de paradoxos fisiológicos e bioquímicos. Embora o zinco seja um mineral vital envolvido em mais de 300 reações enzimáticas, sua entrega oral é frequentemente prejudicada por desconforto gastrointestinal agudo, inibição competitiva por outros cátions divalentes e depleção mineral sistêmica. Resolver esses problemas requer uma compreensão detalhada da cinética dos transportadores intestinais, da bioquímica da mucosa e da cronofarmacologia para projetar protocolos de dosagem ideais.

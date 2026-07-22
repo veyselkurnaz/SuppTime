@@ -4,7 +4,7 @@ description: "Hướng dẫn lâm sàng về bổ sung canxi. Tìm hiểu vì sa
 pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
-image: "/assets/calcium_cover.png"
+image: "/assets/calcium_cover.webp"
 ---
 
 Canxi là khoáng chất dồi dào nhất trong cơ thể người, đóng vai trò thiết yếu đối với quá trình khoáng hóa xương, co cơ, dẫn truyền thần kinh và đông máu. Vì 99% lượng canxi của cơ thể được lưu trữ trong xương, việc bổ sung thường bị hiểu đơn giản theo kiểu "càng nhiều càng tốt". Về mặt sinh lý học, quan niệm này là sai lầm: hấp thụ canxi là một quá trình có ngưỡng bão hòa, và việc uống một liều lớn trong một lần sẽ lãng phí một phần đáng kể lượng canxi đó.

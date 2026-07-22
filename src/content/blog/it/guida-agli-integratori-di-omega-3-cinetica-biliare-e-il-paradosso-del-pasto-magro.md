@@ -3,7 +3,7 @@ title: "Guida agli Integratori di Omega-3: Cinetica Biliare, Formazione di Micel
 description: "Scopri la cronofarmacologia degli integratori di Omega-3 (EPA/DHA). Scopri perché assumere olio di pesce a stomaco vuoto riduce drasticamente l'assorbimento e il ruolo critico degli acidi biliari."
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
-image: "/assets/omega3_cover.png"
+image: "/assets/omega3_cover.webp"
 ---
 
 L'efficacia terapeutica degli acidi grassi polinsaturi ($\text{PUFA}$) omega-3 marini a catena lunga, in particolare l'acido eicosapentaenoico ($\text{EPA}$) e l'acido docosaesaenoico ($\text{DHA}$), è strettamente regolata dalla loro biodisponibilità intestinale. Nella nutrizione clinica, una delle principali fonti di fallimento terapeutico è il "paradosso del pasto magro" (lean-meal paradox): la somministrazione di lipidi marini altamente idrofobici a digiuno o insieme a pasti privi di grassi. Nonostante l'assunzione di alte dosi nominali, la mancanza di una matrice strutturata di co-ingestione lipidica impedisce i meccanismi fisici ed enzimatici necessari per l'assorbimento dei lipidi nel lume acquoso del tratto gastrointestinale umano. Questa analisi clinica descrive i principi biofisici, biochimici e cronofarmacologici che determinano la digestione e l'assorbimento di $\text{EPA}$ e $\text{DHA}$.

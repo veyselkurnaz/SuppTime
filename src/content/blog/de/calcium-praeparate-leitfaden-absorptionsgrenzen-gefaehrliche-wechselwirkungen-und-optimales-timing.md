@@ -4,7 +4,7 @@ description: "Ein klinischer Leitfaden zur Calciumsupplementierung. Erfahren Sie
 pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
-image: "/assets/calcium_cover.png"
+image: "/assets/calcium_cover.webp"
 ---
 
 Calcium ist das häufigste Mineral im menschlichen Körper und unverzichtbar für die Skelettmineralisierung, die Muskelkontraktion, die Reizweiterleitung im Nervensystem und die Blutgerinnung. Da 99 % des körpereigenen Calciums im Knochen gespeichert sind, wird die Supplementierung oft nach dem einfachen Prinzip "viel hilft viel" betrachtet. Physiologisch ist das falsch: Die Calciumaufnahme ist ein sättigbarer Prozess, und wer eine große Dosis auf einmal einnimmt, verschwendet einen erheblichen Teil davon.

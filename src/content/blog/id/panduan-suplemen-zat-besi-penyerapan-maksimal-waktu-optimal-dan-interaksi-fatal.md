@@ -4,7 +4,7 @@ description: "Panduan klinis untuk suplementasi zat besi. Temukan ilmu di balik 
 pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
-image: "/assets/supptime_og_banner.png"
+image: "/assets/iron_cover.webp"
 ---
 
 Zat besi adalah zat gizi mikro yang sangat diperlukan dan berfungsi sebagai kofaktor struktural dan katalitik dalam transportasi oksigen, respirasi seluler, dan sintesis DNA. Meskipun melimpah di lingkungan, zat besi sering kali menjadi nutrisi yang membatasi pertumbuhan dalam makanan manusia. Karena manusia tidak memiliki mekanisme fisiologis untuk ekskresi zat besi aktif, keseimbangan zat besi sistemik dipertahankan secara eksklusif pada tingkat penyerapan usus.

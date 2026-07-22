@@ -4,7 +4,7 @@ description: "Panduan klinis tentang suplementasi seng. Temukan paradoks perut k
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 Pemberian suplemen seng ($\text{Zn}^{2+}$) menyajikan serangkaian paradoks fisiologis dan biokimia. Meskipun seng merupakan mineral esensial yang terlibat dalam lebih dari 300 reaksi enzimatik, pemberian oralnya sering terhambat oleh gangguan pencernaan akut, hambatan kompetitif oleh kation divalen lainnya, serta penipisan mineral sistemik. Menyelesaikan masalah ini memerlukan pemahaman terperinci tentang kinetika transporter usus, biokimia mukosa, dan kronofarmakologi untuk merancang protokol dosis yang optimal.

@@ -3,7 +3,7 @@ title: "Collagen Usage Guide: Which Type and When to Take It?"
 description: "A clinical breakdown of collagen types, absorption kinetics, optimal timing, and essential cofactors like Vitamin C for maximizing bioavailability and tissue regeneration."
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
-image: "/assets/collagen_cover.png"
+image: "/assets/collagen_cover.webp"
 ---
 
 # Collagen Usage Guide: Structural Types, Absorption Kinetics, and Scientific Analysis of Metabolic Cofactors

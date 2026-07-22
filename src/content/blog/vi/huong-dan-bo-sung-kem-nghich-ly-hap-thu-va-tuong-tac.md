@@ -4,7 +4,7 @@ description: "Hướng dẫn lâm sàng về bổ sung kẽm. Khám phá nghịc
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 Việc uống kẽm bổ sung ($\text{Zn}^{2+}$) mang đến một loạt các nghịch lý sinh lý học và hóa sinh. Mặc dù kẽm là một khoáng chất vi lượng thiết yếu tham gia vào hơn 300 phản ứng enzym, việc uống kẽm thường bị cản trở bởi các cơn đau dạ dày - ruột cấp tính, sự ức chế cạnh tranh bởi các cation hóa trị hai khác, và sự suy giảm khoáng chất toàn thân. Việc giải quyết những vấn đề này đòi hỏi sự hiểu biết sâu sắc về động học của các chất vận chuyển đường ruột, hóa sinh niêm mạc và thời gian dược lý học (chronopharmacology) để thiết kế các phác đồ dùng thuốc tối ưu.

@@ -3,7 +3,7 @@ title: "Die beste Zeit zur Einnahme von Vitamin D: Ein wissenschaftlicher Leitfa
 description: "Entdecken Sie die wissenschaftlich fundierte beste Tageszeit für die Einnahme Ihrer Vitamin-D-Ergänzungen für maximale Aufnahme."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
-image: "/assets/vitamin_d_cover.png"
+image: "/assets/vitamin_d_cover.webp"
 ---
 
 Vitamin D ist weit mehr als nur ein gewöhnliches Vitamin; es fungiert im menschlichen Körper als Prohormon (Hormonvorstufe) und spielt eine entscheidende Rolle bei der Knochendichte, der Regulierung des Immunsystems, der Testosteronproduktion und der Stimmungsstabilisierung. Trotz dieser enormen systemischen Bedeutung zeigen aktuelle epidemiologische Daten, dass mehr als 50% der Weltbevölkerung an einem Vitamin-D-Mangel oder einer Unterversorgung leiden.

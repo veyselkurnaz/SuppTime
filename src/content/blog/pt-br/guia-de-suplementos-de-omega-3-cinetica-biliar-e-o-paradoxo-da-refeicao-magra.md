@@ -3,7 +3,7 @@ title: "Guia de Suplementos de Ômega-3: Cinética Biliar, Formação de Micelas
 description: "Descubra a cronofarmacologia dos suplementos de ômega-3 (EPA/DHA). Saiba por que tomar óleo de peixe de estômago vazio reduz drasticamente a absorção e o papel crítico dos ácidos biliares."
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
-image: "/assets/omega3_cover.png"
+image: "/assets/omega3_cover.webp"
 ---
 
 A eficácia terapêutica dos ácidos graxos poli-insaturados ($\text{PUFAs}$) ômega-3 marinhos de cadeia longa, especificamente o ácido eicosapentaenoico ($\text{EPA}$) e o ácido docosahexaenoico ($\text{DHA}$), é estritamente regida por sua biodisponibilidade intestinal. Na nutrição clínica, uma das principais fontes de falha terapêutica é o "paradoxo da refeição magra" (lean-meal paradox) — a administração de lipídios marinhos altamente hidrofóbicos em jejum ou acompanhados de refeições sem gordura. Apesar da ingestão de altas doses nominais, a falta de uma matriz estruturada de co-ingestão de lipídios impede os mecanismos físicos e enzimáticos necessários para a absorção de lipídios no lúmen aquoso do trato gastrointestinal humano. Esta análise clínica detalha os princípios biofísicos, bioquímicos e cronofarmacológicos que ditam a digestão e absorção do $\text{EPA}$ e $\text{DHA}$.

@@ -4,7 +4,7 @@ description: "Um guia clínico sobre suplementação de cálcio. Entenda por que
 pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
-image: "/assets/calcium_cover.png"
+image: "/assets/calcium_cover.webp"
 ---
 
 O cálcio é o mineral mais abundante do corpo humano, essencial para a mineralização óssea, contração muscular, sinalização nervosa e coagulação sanguínea. Como 99% do cálcio corporal fica armazenado nos ossos, a suplementação costuma ser tratada de forma simplista, como se "quanto mais, melhor". Fisiologicamente, isso está incorreto: a absorção de cálcio é um processo saturável, e tomar uma dose grande de uma só vez desperdiça uma fração substancial dela.

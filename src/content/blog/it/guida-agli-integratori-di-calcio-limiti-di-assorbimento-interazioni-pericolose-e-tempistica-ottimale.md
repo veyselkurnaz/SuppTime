@@ -4,7 +4,7 @@ description: "Una guida clinica all'integrazione di calcio. Scopri perché suddi
 pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
-image: "/assets/calcium_cover.png"
+image: "/assets/calcium_cover.webp"
 ---
 
 Il calcio è il minerale più abbondante nel corpo umano, essenziale per la mineralizzazione dello scheletro, la contrazione muscolare, la trasmissione degli impulsi nervosi e la coagulazione del sangue. Poiché il 99% del calcio corporeo è immagazzinato nelle ossa, l'integrazione viene spesso trattata con la logica semplicistica del "più è meglio". Dal punto di vista fisiologico, questo è scorretto: l'assorbimento del calcio è un processo saturabile, e assumere una dose elevata in un'unica volta ne spreca una parte considerevole.

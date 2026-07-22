@@ -3,7 +3,7 @@ title: "De beste tijd om vitamine D in te nemen: Een wetenschappelijke gids"
 description: "Ontdek het wetenschappelijk onderbouwde beste moment van de dag om je vitamine D in te nemen voor maximale opname."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
-image: "/assets/vitamin_d_cover.png"
+image: "/assets/vitamin_d_cover.webp"
 ---
 
 Vitamine D is veel meer dan alleen een simpele vitamine; het functioneert als een prohormoon in het menselijk lichaam en speelt een cruciale rol bij de botdichtheid, de regulatie van het immuunsysteem, de testosteronproductie en de stabilisatie van de stemming. Ondanks dit immense systemische belang, tonen huidige epidemiologische gegevens aan dat meer dan 50% van de wereldbevolking een tekort of onvoldoende vitamine D heeft.

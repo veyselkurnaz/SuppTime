@@ -4,7 +4,7 @@ description: "Panduan klinis tentang suplementasi kalsium. Pelajari mengapa memb
 pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
-image: "/assets/calcium_cover.png"
+image: "/assets/calcium_cover.webp"
 ---
 
 Kalsium adalah mineral paling melimpah dalam tubuh manusia, penting untuk mineralisasi tulang, kontraksi otot, transmisi sinyal saraf, dan pembekuan darah. Karena 99% kalsium tubuh disimpan di dalam tulang, suplementasi sering dianggap sebagai masalah sederhana "semakin banyak semakin baik". Secara fisiologis, anggapan ini keliru: penyerapan kalsium adalah proses yang dapat jenuh (saturable), dan mengonsumsi dosis besar sekaligus akan menyia-nyiakan sebagian besar dari kalsium tersebut.

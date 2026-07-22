@@ -4,7 +4,7 @@ description: "Kliniczny przewodnik po suplementacji cynkiem. Odkryj paradoks pus
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 Podawanie suplementów cynku ($\text{Zn}^{2+}$) wiąże się z szeregiem fizjologicznych i biochemicznych paradoksów. Chociaż cynk jest niezbędnym minerałem śladowym biorącym udział w ponad 300 reakcjach enzymatycznych, jego doustne przyjmowanie jest często utrudnione przez ostre dolegliwości żołądkowo-jelitowe, kompetycyjne hamowanie przez inne kationy dwuwartościowe oraz ogólnoustrojowe uszczuplenie innych minerałów. Rozwiązanie tych problemów wymaga szczegółowego zrozumienia kinetyki transporterów jelitowych, biochemii błony śluzowej i chronofarmakologii w celu zaprojektowania optymalnych protokołów dawkowania.

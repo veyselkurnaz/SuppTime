@@ -4,7 +4,7 @@ description: "A clinical guide to iron supplementation. Discover the science beh
 pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
-image: "/assets/iron_cover.png"
+image: "/assets/iron_cover.webp"
 ---
 
 Iron is an indispensable micronutrient that functions as a structural and catalytic cofactor in oxygen transport, cellular respiration, and DNA synthesis. Despite its abundance, iron is frequently a growth-limiting nutrient in the human diet. Because humans possess no physiological mechanism for active iron excretion, systemic iron balance is maintained exclusively at the level of intestinal absorption.

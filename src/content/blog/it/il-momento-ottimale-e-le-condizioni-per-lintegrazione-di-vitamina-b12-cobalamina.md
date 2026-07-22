@@ -3,7 +3,7 @@ title: "Il Momento Ottimale e le Condizioni per l'Integrazione di Vitamina B12 (
 description: "Dovresti assumere la Vitamina B12 al mattino o alla sera? Viene assorbita meglio a stomaco vuoto o a stomaco pieno? Scopri le sue interazioni scientifiche."
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
-image: "/assets/b12_cover.png"
+image: "/assets/b12_cover.webp"
 ---
 
 # Il Momento Ottimale e le Condizioni per l'Integrazione di Vitamina B12 (Cobalamina)

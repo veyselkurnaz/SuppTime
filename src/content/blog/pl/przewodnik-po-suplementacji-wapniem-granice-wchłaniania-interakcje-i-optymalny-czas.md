@@ -4,7 +4,7 @@ description: "Kliniczny przewodnik po suplementacji wapniem. Dowiedz się, dlacz
 pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
-image: "/assets/calcium_cover.png"
+image: "/assets/calcium_cover.webp"
 ---
 
 Wapń jest najobficiej występującym minerałem w organizmie człowieka, niezbędnym do mineralizacji kości, skurczu mięśni, przewodnictwa nerwowego i krzepnięcia krwi. Ponieważ 99% wapnia w organizmie jest zmagazynowane w kościach, suplementację często traktuje się jako prosty problem typu "im więcej, tym lepiej". Fizjologicznie jest to nieprawidłowe: wchłanianie wapnia jest procesem wysycalnym, a przyjęcie dużej dawki jednorazowo powoduje, że znaczna jej część zostaje zmarnowana.

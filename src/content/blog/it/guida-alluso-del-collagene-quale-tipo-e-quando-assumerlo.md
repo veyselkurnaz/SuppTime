@@ -3,7 +3,7 @@ title: "Guida all'Uso del Collagene: Quale Tipo e Quando Assumerlo?"
 description: "Un'analisi clinica dei tipi di collagene, cinetiche di assorbimento, tempistiche ottimali e cofattori essenziali come la Vitamina C per massimizzare la biodisponibilità e la rigenerazione tissutale."
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
-image: "/assets/collagen_cover.png"
+image: "/assets/collagen_cover.webp"
 ---
 
 # Guida all'Uso del Collagene: Tipi Strutturali, Cinetiche di Assorbimento e Analisi Scientifica dei Cofattori Metabolici

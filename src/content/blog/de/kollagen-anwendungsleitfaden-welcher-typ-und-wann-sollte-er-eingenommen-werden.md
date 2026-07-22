@@ -3,7 +3,7 @@ title: "Kollagen-Anwendungsleitfaden: Welcher Typ und wann sollte er eingenommen
 description: "Eine klinische Aufschlüsselung der Kollagentypen, Absorptionskinetik, optimales Timing und essenzielle Kofaktoren wie Vitamin C zur Maximierung der Bioverfügbarkeit und Geweberegeneration."
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
-image: "/assets/collagen_cover.png"
+image: "/assets/collagen_cover.webp"
 ---
 
 # Kollagen-Anwendungsleitfaden: Strukturelle Typen, Absorptionskinetik und wissenschaftliche Analyse metabolischer Kofaktoren

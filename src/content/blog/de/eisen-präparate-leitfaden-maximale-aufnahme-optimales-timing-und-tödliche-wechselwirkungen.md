@@ -4,7 +4,7 @@ description: "Ein klinischer Leitfaden zur Eisensupplementierung. Entdecken Sie 
 pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
-image: "/assets/iron_cover.png"
+image: "/assets/iron_cover.webp"
 ---
 
 Eisen ist ein unverzichtbarer Mikronährstoff, der als struktureller und katalytischer Cofaktor beim Sauerstofftransport, der Zellatmung und der DNA-Synthese fungiert. Trotz seines reichlichen Vorkommens in der Natur ist Eisen in der menschlichen Ernährung häufig ein wachstumslimitierender Nährstoff. Da der Mensch über keinen physiologischen Mechanismus zur aktiven Eisenausscheidung verfügt, wird der systemische Eisenhaushalt ausschließlich auf der Ebene der Darmabsorption aufrechterhalten.

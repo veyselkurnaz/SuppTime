@@ -4,7 +4,7 @@ description: "Kalsiyum takviyesi kullanımına yönelik klinik bir rehber. 500 m
 pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
-image: "/assets/calcium_cover.png"
+image: "/assets/calcium_cover.webp"
 ---
 
 Kalsiyum, insan vücudundaki en bol bulunan mineraldir; iskelet mineralizasyonu, kas kasılması, sinir sinyal iletimi ve kan pıhtılaşması için elzemdir. Vücuttaki kalsiyumun %99'u kemikte depolandığı için, takviye kullanımı çoğu zaman basit bir "ne kadar çok o kadar iyi" meselesi olarak ele alınır. Fizyolojik açıdan bu yanlıştır: kalsiyum emilimi doyurulabilir (satüre olabilen) bir süreçtir ve tek seferde alınan yüksek bir doz, kalsiyumun önemli bir kısmının boşa gitmesine neden olur.

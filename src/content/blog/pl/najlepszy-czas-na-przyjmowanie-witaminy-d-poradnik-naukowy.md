@@ -3,7 +3,7 @@ title: "Najlepszy czas na przyjmowanie witaminy D: Poradnik naukowy"
 description: "Odkryj poparty badaniami najlepszy moment w ciągu dnia na przyjmowanie witaminy D."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
-image: "/assets/vitamin_d_cover.png"
+image: "/assets/vitamin_d_cover.webp"
 ---
 
 Witamina D to znacznie więcej niż tylko zwykła witamina; w organizmie człowieka pełni funkcję prohormonu i odgrywa kluczową rolę w gęstości kości, regulacji układu odpornościowego, produkcji testosteronu i stabilizacji nastroju. Pomimo tego ogromnego znaczenia ogólnoustrojowego, obecne dane epidemiologiczne pokazują, że ponad 50% światowej populacji ma niedobór lub niewystarczający poziom witaminy D.

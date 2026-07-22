@@ -4,7 +4,7 @@ description: "关于锌补充的临床指南。探索空腹悖论、锌为何与
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 口服锌（$\text{Zn}^{2+}$）补充剂存在一系列生理和生化上的悖论。虽然锌是参与300多种酶反应的重要微量矿物质，但其口服摄入经常会受到急性胃肠道不适、与其他二价阳离子的竞争性抑制以及全身性矿物质消耗的阻碍。解决这些问题需要深入了解肠道转运蛋白动力学、黏膜生化学和时间药理学，从而设计出最佳的服用方案。

@@ -3,7 +3,7 @@ title: "비타민 D 복용을 위한 최적의 시간: 과학적 가이드"
 description: "최대 흡수를 위해 비타민 D 보충제를 복용하는 과학적으로 입증된 최적의 시간을 알아보세요."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
-image: "/assets/vitamin_d_cover.png"
+image: "/assets/vitamin_d_cover.webp"
 ---
 
 비타민 D는 단순한 비타민 그 이상입니다. 인체에서 뼈의 밀도, 면역 체계 조절, 테스토스테론 생성 및 기분 안정화에 중요한 역할을 하는 프로호르몬으로 작용합니다. 이러한 심오한 전신적 중요성에도 불구하고 현재의 역학 데이터에 따르면 전 세계 인구의 50% 이상이 비타민 D 결핍 또는 부족 상태인 것으로 나타납니다.

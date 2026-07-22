@@ -4,7 +4,7 @@ description: "關於鋅補充的臨床指南。探索空腹悖論、鋅為何與
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 口服鋅（$\text{Zn}^{2+}$）補充劑存在一系列生理和生化上的悖論。雖然鋅是參與300多種酶反應的重要微量礦物質，但其口服攝入經常會受到急性胃腸道不適、與其他二價陽離子的競爭性抑制以及全身性礦物質消耗的阻礙。解決這些問題需要深入了解腸道轉運蛋白動力學、黏膜生化學和時間藥理學，從而設計出最佳的服用方案。

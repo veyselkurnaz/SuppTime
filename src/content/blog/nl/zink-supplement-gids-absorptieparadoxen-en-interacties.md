@@ -4,7 +4,7 @@ description: "Een klinische gids over zinksuppletie. Ontdek de lege-maag-paradox
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 De toediening van zinksupplementen ($\text{Zn}^{2+}$) brengt een reeks fysiologische en biochemische paradoxen met zich mee. Hoewel zink een essentieel sporenmineraal is dat betrokken is bij meer dan 300 enzymatische reacties, wordt de orale inname vaak belemmerd door acute gastro-intestinale klachten, competitieve remming door andere tweewaardige kationen en systemische uitputting van andere mineralen. Om deze problemen op te lossen, is een gedetailleerd begrip nodig van darmtransporterkinetiek, mucosale biochemie en chronofarmacologie.

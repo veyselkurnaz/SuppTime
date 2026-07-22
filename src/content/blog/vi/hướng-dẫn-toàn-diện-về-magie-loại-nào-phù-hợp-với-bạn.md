@@ -4,7 +4,7 @@ description: "Khám phá sự khác biệt cốt lõi giữa Magie Glycinate, Ci
 pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
-image: "/assets/magnesium_cover.png"
+image: "/assets/magnesium_cover.webp"
 ---
 
 Được ví như động cơ chính của sinh lý tế bào, magie là một khoáng chất đa lượng không thể thiếu, chi phối nhịp điệu trao đổi chất của cơ thể con người. Nó hoạt động như một đồng yếu tố cần thiết trong hơn 600 phản ứng enzym, từ sản xuất năng lượng tế bào đến dẫn truyền thần kinh và co cơ.

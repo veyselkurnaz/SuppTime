@@ -3,7 +3,7 @@ title: "Interacciones de los Suplementos: Qué No Mezclar y Qué Combinar"
 description: "Descubre qué vitaminas y minerales nunca debes tomar juntos (como el hierro y el calcio) y cuáles funcionan mucho mejor cuando se combinan."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
-image: "/assets/supplement_interactions_cover.png"
+image: "/assets/supplement_interactions_cover.webp"
 ---
 
 Tomar suplementos es uno de los pasos más proactivos que puedes dar por tu salud. Sin embargo, tratar tu rutina diaria de suplementos como un buffet libre —tomando diez pastillas diferentes a la vez con tu café de la mañana— ha demostrado científicamente ser contraproducente y, en algunos casos, incluso dañino.

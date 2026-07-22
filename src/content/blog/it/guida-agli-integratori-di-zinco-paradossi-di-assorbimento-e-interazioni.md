@@ -4,7 +4,7 @@ description: "Una guida clinica all'integrazione di zinco. Scopri il paradosso d
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 La somministrazione di integratori di zinco ($\text{Zn}^{2+}$) presenta una serie di paradossi fisiologici e biochimici. Sebbene lo zinco sia un minerale essenziale coinvolto in oltre 300 reazioni enzimatiche, la sua somministrazione orale è spesso ostacolata da disturbi gastrointestinali acuti, inibizione competitiva da parte di altri cationi divalenti e deplezione minerale sistemica. Risolvere questi problemi richiede una comprensione dettagliata della cinetica dei trasportatori intestinali, della biochimica delle mucose e della cronofarmacologia per progettare protocolli di dosaggio ottimali.

@@ -3,7 +3,7 @@ title: "Hướng Dẫn Bổ Sung Omega-3: Động Học Mật, Hình Thành Mice
 description: "Khám phá dược lý học thời gian (chronopharmacology) của chất bổ sung Omega-3 (EPA/DHA). Tìm hiểu lý do tại sao dùng dầu cá khi bụng đói làm giảm đáng kể sự hấp thụ và vai trò quan trọng của axit mật."
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
-image: "/assets/omega3_cover.png"
+image: "/assets/omega3_cover.webp"
 ---
 
 Hiệu quả điều trị của axit béo không bão hòa đa Omega-3 chuỗi dài từ biển ($\text{PUFA}$), đặc biệt là axit eicosapentaenoic ($\text{EPA}$) và axit docosahexaenoic ($\text{DHA}$), bị chi phối nghiêm ngặt bởi sinh khả dụng tại ruột của chúng. Trong dinh dưỡng lâm sàng, một nguyên nhân chính gây thất bại trong điều trị là "nghịch lý bữa ăn không béo" (lean-meal paradox) — việc dùng các lipid biển có tính kỵ nước cao trong trạng thái nhịn ăn hoặc cùng với các bữa ăn không có chất béo. Bất chấp việc tiêu thụ liều lượng danh nghĩa cao, việc thiếu một mạng lưới lipid dùng kèm có cấu trúc ngăn cản các cơ chế vật lý và enzym cần thiết cho quá trình hấp thụ chất béo trong lòng ống dẫn nước của đường tiêu hóa ở người. Phân tích lâm sàng này nêu chi tiết các nguyên tắc sinh lý sinh lý, sinh hóa và dược lý học thời gian quyết định quá trình tiêu hóa và hấp thụ $\text{EPA}$ và $\text{DHA}$.

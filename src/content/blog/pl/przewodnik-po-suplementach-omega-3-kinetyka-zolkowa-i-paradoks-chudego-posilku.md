@@ -3,7 +3,7 @@ title: "Przewodnik po Suplementach Omega-3: Kinetyka Żółciowa, Tworzenie Mice
 description: "Odkryj chronofarmakologię suplementów Omega-3 (EPA/DHA). Dowiedz się, dlaczego przyjmowanie oleju rybnego na pusty żołądek drastycznie zmniejsza wchłanianie i jak krytyczną rolę odgrywają kwasy żółciowe."
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
-image: "/assets/omega3_cover.png"
+image: "/assets/omega3_cover.webp"
 ---
 
 Skuteczność terapeutyczna długołańcuchowych morskich wielonienasyconych kwasów tłuszczowych omega-3 ($\text{PUFA}$), w szczególności kwasu eikozapentaenowego ($\text{EPA}$) i kwasu dokozaheksaenowego ($\text{DHA}$), jest ściśle uwarunkowana ich biodostępnością jelitową. W żywieniu klinicznym głównym powodem niepowodzeń terapeutycznych jest "paradoks chudego posiłku" (lean-meal paradox) — podawanie wysoce hydrofobowych lipidów morskich na czczo lub wraz z beztłuszczowymi posiłkami. Pomimo przyjmowania wysokich dawek nominalnych, brak zorganizowanej matrycy lipidowej przyjmowanej z pokarmem zapobiega fizycznym i enzymatycznym mechanizmom niezbędnym do wchłaniania tłuszczów w wodnym środowisku przewodu pokarmowego człowieka. Niniejsza analiza kliniczna szczegółowo opisuje biofizyczne, biochemiczne i chronofarmakologiczne zasady, które dyktują trawienie i wchłanianie $\text{EPA}$ i $\text{DHA}$.

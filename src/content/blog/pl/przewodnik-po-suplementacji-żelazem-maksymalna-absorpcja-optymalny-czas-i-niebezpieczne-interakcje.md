@@ -4,7 +4,7 @@ description: "Kliniczny przewodnik po suplementacji żelazem. Poznaj naukowe pod
 pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
-image: "/assets/supptime_og_banner.png"
+image: "/assets/iron_cover.webp"
 ---
 
 Żelazo jest niezastąpionym mikroskładnikiem odżywczym, który działa jako strukturalny i katalityczny kofaktor w transporcie tlenu, oddychaniu komórkowym i syntezie DNA. Pomimo jego obfitości w środowisku, żelazo jest często składnikiem odżywczym ograniczającym wzrost w diecie człowieka. Ponieważ ludzie nie posiadają fizjologicznego mechanizmu aktywnego wydalania żelaza, ogólnoustrojowa równowaga żelaza jest utrzymywana wyłącznie na poziomie wchłaniania jelitowego.

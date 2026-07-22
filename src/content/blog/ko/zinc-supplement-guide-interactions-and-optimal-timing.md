@@ -4,7 +4,7 @@ description: "아연 보충에 대한 임상 가이드. 공복 역설, 아연이
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 아연($\text{Zn}^{2+}$) 영양제 복용에는 일련의 생리학적, 생화학적 역설이 존재합니다. 아연은 300가지 이상의 효소 반응에 관여하는 필수 미네랄이지만, 경구 투여 시 급성 위장 장애, 다른 2가 양이온과의 경쟁적 억제, 전신 미네랄 고갈 등으로 인해 방해를 받는 경우가 많습니다. 이러한 문제를 해결하고 최적의 복용 프로토콜을 설계하려면 장내 수송체 역학, 점막 생화학 및 시간 약리학(Chronopharmacology)에 대한 상세한 이해가 필요합니다.

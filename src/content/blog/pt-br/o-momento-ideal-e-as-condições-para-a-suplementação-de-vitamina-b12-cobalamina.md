@@ -3,7 +3,7 @@ title: "O Momento Ideal e as Condições para a Suplementação de Vitamina B12 
 description: "Você deve tomar Vitamina B12 de manhã ou à noite? Ela é melhor absorvida com o estômago vazio ou com comida? Descubra suas interações científicas."
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
-image: "/assets/b12_cover.png"
+image: "/assets/b12_cover.webp"
 ---
 
 # O Momento Ideal e as Condições para a Suplementação de Vitamina B12 (Cobalamina)

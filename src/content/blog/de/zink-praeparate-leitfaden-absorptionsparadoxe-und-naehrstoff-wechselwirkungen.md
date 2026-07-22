@@ -4,7 +4,7 @@ description: "Ein klinischer Leitfaden zur Zinksupplementierung. Entdecken Sie d
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 Die Verabreichung von Zinkpräparaten ($\text{Zn}^{2+}$) birgt eine Reihe von physiologischen und biochemischen Paradoxa. Obwohl Zink ein lebenswichtiges Spurenelement ist, das an über 300 enzymatischen Reaktionen beteiligt ist, wird seine orale Aufnahme häufig durch akute Magen-Darm-Beschwerden, die kompetitive Hemmung durch andere zweiwertige Kationen und die systemische Erschöpfung anderer Mineralien behindert. Um diese Probleme zu lösen, bedarf es eines detaillierten Verständnisses der intestinalen Transporterkinetik, der Schleimhautbiochemie und der Chronopharmakologie, um optimale Dosierungsprotokolle zu entwerfen.

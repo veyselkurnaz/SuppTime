@@ -4,7 +4,7 @@ description: "Çinko takviyeleri hakkında klinik bir rehber. Aç karnına mide 
 pubDate: 2026-06-24
 author: "SuppTime Editorial"
 translationKey: "zinc-supplement-guide"
-image: "/assets/zinc_cover.png"
+image: "/assets/zinc_cover.webp"
 ---
 
 Çinko ($\text{Zn}^{2+}$) takviyesi uygulaması, bir dizi fizyolojik ve biyokimyasal paradoks barındırır. Çinko 300'den fazla enzimatik reaksiyonda yer alan hayati bir eser mineral olsa da, oral yolla (ağızdan) alınması genellikle akut gastrointestinal rahatsızlıklar, diğer minerallerle rekabetçi inhibisyon (engelleme) ve sistemik mineral tükenmesi ile sekteye uğrar. Bu sorunları çözmek ve optimum dozlama protokolleri tasarlamak için bağırsak taşıyıcı kinetiğinin, mukozal biyokimyanın ve kronofarmakolojinin ayrıntılı bir şekilde anlaşılması gerekir.

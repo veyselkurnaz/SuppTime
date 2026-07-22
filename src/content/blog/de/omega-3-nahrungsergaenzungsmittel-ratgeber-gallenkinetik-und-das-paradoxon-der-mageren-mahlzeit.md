@@ -3,7 +3,7 @@ title: "Omega-3 Nahrungsergänzungsmittel-Ratgeber: Gallenkinetik, Mizellenbildu
 description: "Entdecken Sie die Chronopharmakologie von Omega-3 (EPA/DHA). Erfahren Sie, warum die Einnahme von Fischöl auf nüchternen Magen die Aufnahme drastisch reduziert und welche entscheidende Rolle Gallensäuren spielen."
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
-image: "/assets/omega3_cover.png"
+image: "/assets/omega3_cover.webp"
 ---
 
 Die therapeutische Wirksamkeit von langkettigen, marinen Omega-3-mehrfach ungesättigten Fettsäuren ($\text{PUFAs}$), insbesondere Eicosapentaensäure ($\text{EPA}$) und Docosahexaensäure ($\text{DHA}$), wird streng durch ihre intestinale Bioverfügbarkeit bestimmt. In der klinischen Ernährung ist eine Hauptursache für therapeutisches Versagen das "Paradoxon der mageren Mahlzeit" – die Verabreichung stark hydrophober mariner Lipide im nüchternen Zustand oder zusammen mit fettfreien Mahlzeiten. Trotz der Einnahme hoher nominaler Dosen verhindert das Fehlen einer strukturierten Lipid-Koingestionsmatrix die physikalischen und enzymatischen Mechanismen, die für die Lipidabsorption im wässrigen Lumen des menschlichen Magen-Darm-Trakts erforderlich sind. Diese klinische Analyse detailliert die biophysikalischen, biochemischen und chronopharmakologischen Prinzipien, die die Verdauung und Absorption von $\text{EPA}$ und $\text{DHA}$ diktieren.

@@ -4,7 +4,7 @@ description: "Una guía clínica sobre la suplementación de calcio. Descubre po
 pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
-image: "/assets/calcium_cover.png"
+image: "/assets/calcium_cover.webp"
 ---
 
 El calcio es el mineral más abundante del cuerpo humano, esencial para la mineralización ósea, la contracción muscular, la transmisión de señales nerviosas y la coagulación sanguínea. Dado que el 99% del calcio del organismo se almacena en el hueso, la suplementación suele abordarse con la lógica simplista de "cuanto más, mejor". Fisiológicamente, esto es incorrecto: la absorción de calcio es un proceso saturable, y tomar una dosis grande de una sola vez desperdicia una fracción considerable de la misma.

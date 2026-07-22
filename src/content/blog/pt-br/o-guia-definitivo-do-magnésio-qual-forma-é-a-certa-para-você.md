@@ -4,7 +4,7 @@ description: "Descubra as diferenças entre o Glicinato de Magnésio, Citrato, T
 pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
-image: "/assets/magnesium_cover.png"
+image: "/assets/magnesium_cover.webp"
 ---
 
 Frequentemente descrito como um motor primário da fisiologia celular, o magnésio é um macromineral indispensável que governa os ritmos metabólicos do corpo humano. Atua como um cofator necessário em mais de 600 reações enzimáticas, regulando processos que vão desde a produção de energia celular até a neurotransmissão e a contração muscular.

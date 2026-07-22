@@ -3,7 +3,7 @@ title: "Optymalny Czas i Warunki Suplementacji Witaminy B12 (Kobalaminy)"
 description: "Czy witaminę B12 należy brać rano czy wieczorem? Czy lepiej wchłania się na pusty żołądek czy z jedzeniem? Odkryj naukowe interakcje."
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
-image: "/assets/b12_cover.png"
+image: "/assets/b12_cover.webp"
 ---
 
 # Optymalny Czas i Warunki Suplementacji Witaminy B12 (Kobalaminy)

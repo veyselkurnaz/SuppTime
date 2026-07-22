@@ -4,7 +4,7 @@ description: "Een klinische gids voor calciumsuppletie. Ontdek waarom het splits
 pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
-image: "/assets/calcium_cover.png"
+image: "/assets/calcium_cover.webp"
 ---
 
 Calcium is het meest voorkomende mineraal in het menselijk lichaam en essentieel voor botmineralisatie, spiercontractie, zenuwsignalering en bloedstolling. Omdat 99% van het lichaamscalcium in het bot is opgeslagen, wordt suppletie vaak benaderd als een simpel "meer is beter"-probleem. Fysiologisch klopt dat niet: calciumabsorptie is een verzadigbaar proces, en een grote dosis in één keer innemen verspilt een aanzienlijk deel ervan.

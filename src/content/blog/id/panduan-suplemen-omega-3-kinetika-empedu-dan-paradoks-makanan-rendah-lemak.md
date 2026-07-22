@@ -3,7 +3,7 @@ title: "Panduan Suplemen Omega-3: Kinetika Empedu, Pembentukan Misel, dan Parado
 description: "Temukan kronofarmakologi suplemen Omega-3 (EPA/DHA). Pelajari mengapa mengonsumsi minyak ikan saat perut kosong secara drastis mengurangi penyerapan dan peran penting asam empedu."
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
-image: "/assets/omega3_cover.png"
+image: "/assets/omega3_cover.webp"
 ---
 
 Kemanjuran terapeutik asam lemak tak jenuh ganda ($\text{PUFA}$) omega-3 laut rantai panjang, khususnya asam eikosapentaenoat ($\text{EPA}$) dan asam dokosaheksaenoat ($\text{DHA}$), sangat ditentukan oleh ketersediaan hayatinya di usus. Dalam nutrisi klinis, penyebab utama kegagalan terapi adalah "paradoks makanan tanpa lemak" (lean-meal paradox) — pemberian lipid laut yang sangat hidrofobik dalam keadaan puasa atau bersamaan dengan makanan bebas lemak. Meskipun asupan dosis nominalnya tinggi, kurangnya matriks pendamping lipid yang terstruktur mencegah mekanisme fisik dan enzimatik yang diperlukan untuk penyerapan lemak di lumen berair pada saluran pencernaan manusia. Analisis klinis ini merinci prinsip-prinsip biofisik, biokimia, dan kronofarmakologi yang mendikte pencernaan dan penyerapan $\text{EPA}$ dan $\text{DHA}$.

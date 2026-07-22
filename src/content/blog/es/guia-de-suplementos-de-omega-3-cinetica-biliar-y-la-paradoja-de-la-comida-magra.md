@@ -3,7 +3,7 @@ title: "Guía de Suplementos de Omega-3: Cinética Biliar, Formación de Micelas
 description: "Descubra la cronofarmacología de los suplementos de Omega-3 (EPA/DHA). Aprenda por qué tomar aceite de pescado con el estómago vacío reduce drásticamente la absorción y el papel crítico de los ácidos biliares."
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
-image: "/assets/omega3_cover.png"
+image: "/assets/omega3_cover.webp"
 ---
 
 La eficacia terapéutica de los ácidos grasos poliinsaturados ($\text{PUFAs}$) omega-3 marinos de cadena larga, específicamente el ácido eicosapentaenoico ($\text{EPA}$) y el ácido docosahexaenoico ($\text{DHA}$), está estrictamente regida por su biodisponibilidad intestinal. En la nutrición clínica, una fuente principal de fracaso terapéutico es la "paradoja de la comida magra" (lean-meal paradox): la administración de lípidos marinos altamente hidrofóbicos en condiciones de ayuno o junto con comidas sin grasa. A pesar de la ingesta de altas dosis nominales, la falta de una matriz estructurada de co-ingestión de lípidos impide los mecanismos físicos y enzimáticos necesarios para la absorción de lípidos en el lumen acuoso del tracto gastrointestinal humano. Este análisis clínico detalla los principios biofísicos, bioquímicos y cronofarmacológicos que dictan la digestión y absorción de $\text{EPA}$ y $\text{DHA}$.

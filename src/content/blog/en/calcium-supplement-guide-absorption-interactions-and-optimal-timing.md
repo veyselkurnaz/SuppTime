@@ -4,7 +4,7 @@ description: "A clinical guide to calcium supplementation. Learn why splitting d
 pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
-image: "/assets/calcium_cover.png"
+image: "/assets/calcium_cover.webp"
 ---
 
 Calcium is the most abundant mineral in the human body, essential for skeletal mineralization, muscle contraction, nerve signaling, and blood clotting. Because 99% of the body's calcium is stored in bone, supplementation is often treated as a simple "more is better" problem. Physiologically, this is incorrect: calcium absorption is a saturable process, and taking a large dose in one sitting wastes a substantial fraction of it.
