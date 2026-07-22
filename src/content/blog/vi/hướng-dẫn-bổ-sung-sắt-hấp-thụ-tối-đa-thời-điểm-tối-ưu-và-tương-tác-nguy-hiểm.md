@@ -101,3 +101,12 @@ Hơn nữa, các chất bổ sung sắt liều cao hàng ngày sẽ kích hoạt
 *   **Duy trì khoảng cách dùng thuốc nghiêm ngặt:** Tách riêng sắt và levothyroxine ít nhất 4 giờ.
 *   **Tận dụng Vitamin C:** Dùng chung sắt với Vitamin C giúp tăng khả năng hấp thụ lên đến 300%.
 *   **Áp dụng liều lượng cách ngày:** Đặt các liều lượng sắt uống cách nhau 48 giờ để tránh tình trạng tắc nghẽn niêm mạc do hepcidin gây ra và tối đa hóa sự hấp thụ.
+
+## Tài liệu tham khảo
+
+1. Stoffel NU, Zeder C, Brittenham GM, Moretti D, Zimmermann MB. [Iron absorption from oral iron supplements given on consecutive versus alternate days and as single morning doses versus twice-daily split dosing in iron-depleted women: two open-label, randomised controlled trials](https://pubmed.ncbi.nlm.nih.gov/29032957/). *Lancet Haematol.* 2017.
+2. Campbell NR, Hasinoff BB. [Ferrous sulfate reduces thyroxine efficacy in patients with hypothyroidism](https://pubmed.ncbi.nlm.nih.gov/1443969/). *Ann Intern Med.* 1992.
+3. Hallberg L, Hulthén L. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *Am J Clin Nutr.* 2000.
+4. Lönnerdal B. [Calcium and iron absorption—mechanisms and public health relevance](https://pubmed.ncbi.nlm.nih.gov/21462112/). *Int J Vitam Nutr Res.* 2010.
+
+*Bài viết này chỉ nhằm mục đích cung cấp thông tin và không thay thế cho tư vấn y tế chuyên môn; trước khi thay đổi chế độ bổ sung hoặc thuốc đang sử dụng, bạn nên tham khảo ý kiến của chuyên gia y tế có chuyên môn phù hợp.*

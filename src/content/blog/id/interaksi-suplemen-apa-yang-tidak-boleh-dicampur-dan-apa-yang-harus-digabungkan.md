@@ -77,3 +77,13 @@ Dengan **Smart Stack Builder** dari SuppTime:
 - **Keamanan Obat:** SuppTime memungkinkan Anda untuk mencatat obat resep Anda (seperti obat tiroid atau pengencer darah) dan memeriksanya terhadap suplemen herbal Anda untuk mencegah interaksi yang berbahaya.
 
 Berhentilah menebak-nebak kesehatan Anda. Unduh **SuppTime** hari ini, masukkan farmakolog virtual ke dalam saku Anda, dan pastikan Anda mendapatkan 100% manfaat dari setiap pil yang Anda telan.
+
+## Referensi
+
+1. Hallberg L, Rossander-Hultén L, Brune M, Gleerup A. [Inhibition of haem-iron absorption in man by calcium](https://pubmed.ncbi.nlm.nih.gov/8490006/). *British Journal of Nutrition.* 1993.
+2. Hoffman HN 2nd, Phyliky RL, Fleming CR. [Zinc-induced copper deficiency](https://pubmed.ncbi.nlm.nih.gov/3335323/). *Gastroenterology.* 1988.
+3. Cook JD, Reddy MB. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *American Journal of Clinical Nutrition.* 2001.
+4. Hayashi M, Hamada H, Azuma S, Hayashi K. [Painless Thyroiditis by Withania somnifera (Ashwagandha)](https://pubmed.ncbi.nlm.nih.gov/38559552/). *Cureus.* 2024.
+5. Pouteau E, Kabir-Ahmadi M, Noah L, et al. [Superiority of magnesium and vitamin B6 over magnesium alone on severe stress in healthy adults with low magnesemia: A randomized, single-blind clinical trial](https://pubmed.ncbi.nlm.nih.gov/30562392/). *PLoS One.* 2018.
+
+*Artikel ini disusun hanya untuk tujuan informasi dan bukan merupakan pengganti nasihat medis profesional. Konsultasikan dengan dokter atau tenaga kesehatan yang berkompeten sebelum mengubah rutinitas suplemen atau obat-obatan Anda.*

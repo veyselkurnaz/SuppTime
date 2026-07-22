@@ -140,4 +140,12 @@ Yếu tố khác biệt nhất giữa 2 hình thái này xuất hiện sau khi c
 | **Cường Độ Xử Lí Tại Tế Bào** | Chất xyanua phải được tách bởi enzim của MMACHC. | Nhóm metyl sẽ cần bị phân ra bởi enzim qua MMACHC. |
 | **Người Dùng/ Lí Do Sử Dụng Lựa Chọn**| Những khách hàng quan tâm về hạn sử dụng ổn định và tính giá thành phù hợp hằng ngày. | Những người mong muốn tích lũy tế bào dài lâu nhưng ít hao hụt qua việc đi tiểu. |
 
+## Tài liệu tham khảo
+
+1. Mayer G, Kröger M, Meier-Ewert K. [Effects of vitamin B12 on performance and circadian rhythm in normal subjects](https://pubmed.ncbi.nlm.nih.gov/8914118/). *Neuropsychopharmacology.* 1996.
+2. Bauman WA, et al. [Increased intake of calcium reverses vitamin B12 malabsorption induced by metformin](https://pubmed.ncbi.nlm.nih.gov/10977010/). *Diabetes Care.* 2000.
+3. Termanini B, et al. [Effect of long-term gastric acid suppressive therapy on serum vitamin B12 levels in patients with Zollinger-Ellison syndrome](https://pubmed.ncbi.nlm.nih.gov/9626024/). *Am J Med.* 1998.
+4. Kozyraki R, Cases O. [Vitamin B12 absorption: mammalian physiology and acquired and inherited disorders](https://pubmed.ncbi.nlm.nih.gov/23178706/). *Biochimie.* 2013.
+5. Bouloukaki I, et al. [Association of Vitamin B12 Status with Polysomnographic Parameters and Cardiovascular Disease in Patients with Obstructive Sleep Apnoea](https://pubmed.ncbi.nlm.nih.gov/41097156/). *Nutrients.* 2025.
+
 *Bản báo cáo chỉ mang tính cung cấp thông tin. Bạn cần xin chỉ định tại các chuyên viên cung cấp dịch vụ y tế cho việc kiểm tra sức khỏe và lời khuyên chuẩn xác nhất.*

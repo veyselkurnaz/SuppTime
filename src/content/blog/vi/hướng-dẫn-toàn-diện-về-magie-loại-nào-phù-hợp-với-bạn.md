@@ -74,3 +74,13 @@ Việc quản lý thủ công một lịch trình bổ sung phức tạp với n
 * **Bảo mật tuyệt đối:** Hoạt động offline, không cần tài khoản, đồng bộ hóa riêng tư qua iCloud của Apple.
 
 Hãy để **SuppTime** lo những tính toán phức tạp về thời gian và sự tương tác, giúp bạn duy trì thói quen bổ sung khoa học và chính xác nhất.
+
+## Tài liệu tham khảo
+
+1. Schuster J, Cycelskij I, Lopresti A, Hahn A. [Magnesium Bisglycinate Supplementation in Healthy Adults Reporting Poor Sleep: A Randomized, Placebo-Controlled Trial](https://pubmed.ncbi.nlm.nih.gov/40918053/). *Nutrients.* 2025.
+2. Zhang C, Hu Q, Li S, Dai F, Qian W, Hewlings S, Yan T, Wang Y. [A Magtein®, Magnesium L-Threonate, -Based Formula Improves Brain Cognitive Functions in Healthy Chinese Adults](https://pubmed.ncbi.nlm.nih.gov/36558392/). *Nutrients.* 2022.
+3. Lindberg JS, et al. [Magnesium bioavailability from magnesium citrate and magnesium oxide](https://pubmed.ncbi.nlm.nih.gov/2407766/). *J Am Coll Nutr.* 1990.
+4. Pouteau E, Kabir-Ahmadi M, et al. [Superiority of magnesium and vitamin B6 over magnesium alone on severe stress in healthy adults with low magnesemia: A randomized, single-blind clinical trial](https://pubmed.ncbi.nlm.nih.gov/30562392/). *PLoS One.* 2018.
+5. Hardwick LL, Jones MR, Brautbar N, Lee DB. [Magnesium absorption: mechanisms and the influence of vitamin D, calcium and phosphate](https://pubmed.ncbi.nlm.nih.gov/1992050/). *J Nutr.* 1991.
+
+*Bài viết này chỉ nhằm mục đích cung cấp thông tin và không thay thế cho tư vấn y tế chuyên môn; trước khi thay đổi chế độ bổ sung hoặc thuốc đang sử dụng, bạn nên tham khảo ý kiến của chuyên gia y tế có chuyên môn phù hợp.*

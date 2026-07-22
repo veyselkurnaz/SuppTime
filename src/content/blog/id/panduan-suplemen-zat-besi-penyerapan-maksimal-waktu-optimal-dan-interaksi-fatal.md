@@ -101,3 +101,12 @@ Selanjutnya, suplemen zat besi harian dosis tinggi memicu **"Blok Mukosa" (Mucos
 *   **Pertahankan Jarak Obat yang Ketat:** Pisahkan zat besi dan levotiroksin setidaknya selama 4 jam.
 *   **Manfaatkan Vitamin C:** Pemberian zat besi bersama Vitamin C meningkatkan penyerapan hingga 300%.
 *   **Terapkan Dosis Dua Hari Sekali:** Berikan jarak pada dosis zat besi oral selama 48 jam untuk menghindari blok mukosa yang diinduksi hepcidin dan memaksimalkan penyerapan.
+
+## Referensi
+
+1. Stoffel NU, Zeder C, Brittenham GM, Moretti D, Zimmermann MB. [Iron absorption from oral iron supplements given on consecutive versus alternate days and as single morning doses versus twice-daily split dosing in iron-depleted women: two open-label, randomised controlled trials](https://pubmed.ncbi.nlm.nih.gov/29032957/). *Lancet Haematol.* 2017.
+2. Campbell NR, Hasinoff BB. [Ferrous sulfate reduces thyroxine efficacy in patients with hypothyroidism](https://pubmed.ncbi.nlm.nih.gov/1443969/). *Ann Intern Med.* 1992.
+3. Hallberg L, Hulthén L. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *Am J Clin Nutr.* 2000.
+4. Lönnerdal B. [Calcium and iron absorption—mechanisms and public health relevance](https://pubmed.ncbi.nlm.nih.gov/21462112/). *Int J Vitam Nutr Res.* 2010.
+
+*Artikel ini disusun hanya untuk tujuan informasi dan bukan merupakan pengganti nasihat medis profesional. Konsultasikan dengan dokter atau tenaga kesehatan yang berkompeten sebelum mengubah rutinitas suplemen atau obat-obatan Anda.*

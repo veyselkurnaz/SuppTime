@@ -87,3 +87,13 @@ graph TD
 | **อาหารเช้า**| ธาตุเหล็ก, วิตามินซี, วิตามินดี 3 | วิตามินซีช่วยเพิ่มการดูดซึมธาตุเหล็ก หลีกเลี่ยงแคลเซียมและสังกะสี |
 | **บ่าย** | ซิงค์ บิสไกลซิเนต (15–30 มก.) + ทองแดง (1–2 มก.) | สูตรในอัตราส่วน 15:1 เพื่อป้องกันการสูญเสียทองแดง แยกออกจากธาตุเหล็กและแคลเซียม |
 | **กลางคืน** | แคลเซียม, แมกนีเซียม ไกลซิเนต | แมกนีเซียมคลายกล้ามเนื้อและปรับตัวรับ GABA ก่อนนอน |
+
+## แหล่งข้อมูลอ้างอิง
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+*บทความนี้จัดทำขึ้นเพื่อวัตถุประสงค์ในการให้ข้อมูลเท่านั้น มิได้มีเจตนาให้ใช้ทดแทนคำแนะนำทางการแพทย์แต่อย่างใด กรุณาปรึกษาผู้เชี่ยวชาญด้านสุขภาพที่มีคุณสมบัติเหมาะสมก่อนปรับเปลี่ยนการรับประทานอาหารเสริมหรือยาของท่าน*

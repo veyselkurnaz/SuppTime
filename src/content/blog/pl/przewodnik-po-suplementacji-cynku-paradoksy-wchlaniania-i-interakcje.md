@@ -99,3 +99,13 @@ Ponadto cynk działa jako bezpośredni neuromodulator, działając jako silny bl
 | **Śniadanie** | Żelazo, Witamina C, Witamina D3 | Witamina C zwiększa wchłanianie żelaza. Unikać Wapnia i Cynku. |
 | **Popołudnie** | Diglicynian Cynku (15–30 mg) + Miedź (1–2 mg) | Sformułowany w stosunku 15:1, aby zapobiec niedoborowi miedzi; całkowicie oddzielony od żelaza i wapnia. |
 | **Noc** | Wapń, Glicynian Magnezu | Magnez rozluźnia mięśnie i moduluje receptory GABA przed snem. |
+
+## Źródła
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+Niniejszy artykuł ma charakter wyłącznie informacyjny i nie stanowi porady medycznej. Przed wprowadzeniem zmian w suplementacji lub przyjmowanych lekach skonsultuj się z wykwalifikowanym pracownikiem służby zdrowia.

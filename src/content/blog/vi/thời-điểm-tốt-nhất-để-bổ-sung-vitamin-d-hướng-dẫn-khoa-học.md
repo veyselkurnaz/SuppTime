@@ -79,3 +79,11 @@ Với công cụ theo dõi thông minh của SuppTime, bạn không cần phải
 - Tự động cảnh báo bạn nếu lịch trình hàng ngày của bạn đang thiếu các yếu tố hỗ trợ quan trọng như Magie hoặc K2.
 
 Hãy ngừng lãng phí những loại thực phẩm bổ sung đắt tiền của bạn. Hãy giao gánh nặng về thời gian cho công nghệ và để cơ thể bạn tập trung vào việc phục hồi.
+
+## Tài liệu tham khảo
+
+1. Tripkovic L, Lambert H, Hart K, et al. [Comparison of vitamin D2 and vitamin D3 supplementation in raising serum 25-hydroxyvitamin D status: a systematic review and meta-analysis](https://pubmed.ncbi.nlm.nih.gov/22552031/). *Am J Clin Nutr.* 2012.
+2. Mulligan GB, Licata A. [Taking vitamin D with the largest meal improves absorption and results in higher serum levels of 25-hydroxyvitamin D](https://pubmed.ncbi.nlm.nih.gov/20200983/). *J Bone Miner Res.* 2010.
+3. Uwitonze AM, Razzaque MS. [Role of Magnesium in Vitamin D Activation and Function](https://pubmed.ncbi.nlm.nih.gov/29480918/). *J Am Osteopath Assoc.* 2018.
+
+*Bài viết này chỉ nhằm mục đích cung cấp thông tin và không thay thế cho tư vấn y tế chuyên môn; trước khi thay đổi chế độ bổ sung hoặc thuốc đang sử dụng, bạn nên tham khảo ý kiến của chuyên gia y tế có chuyên môn phù hợp.*

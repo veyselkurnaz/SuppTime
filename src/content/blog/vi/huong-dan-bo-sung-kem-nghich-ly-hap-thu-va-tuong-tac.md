@@ -98,3 +98,13 @@ Ngoài ra, kẽm hoạt động như một chất điều hòa thần kinh trự
 | **Bữa Sáng** | Sắt Non-Heme, Vitamin C, Vitamin D3 | Vitamin C tăng cường hấp thu sắt. Tránh Canxi và Kẽm. |
 | **Trưa / Chiều** | Kẽm Bisglycinate (15–30 mg) + Đồng (1–2 mg) | Tỷ lệ 15:1 để ngăn suy giảm đồng; hoàn toàn tách biệt với sắt và canxi. |
 | **Đêm** | Canxi, Magie Glycinate | Magie làm thư giãn cơ bắp và điều chỉnh thụ thể GABA trước khi ngủ. |
+
+## Tài liệu tham khảo
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+*Bài viết này chỉ nhằm mục đích cung cấp thông tin và không thay thế cho tư vấn y tế chuyên môn; trước khi thay đổi chế độ bổ sung hoặc thuốc đang sử dụng, bạn nên tham khảo ý kiến của chuyên gia y tế có chuyên môn phù hợp.*

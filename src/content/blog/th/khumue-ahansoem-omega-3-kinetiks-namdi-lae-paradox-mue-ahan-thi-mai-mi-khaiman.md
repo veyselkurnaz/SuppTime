@@ -130,3 +130,12 @@ graph TD
 ยิ่งไปกว่านั้น เพื่อปกป้อง $\text{PUFA}$ ที่ไม่เสถียรอย่างมากเหล่านี้จากความเสียหายจากปฏิกิริยาออกซิเดชั่นภายในร่างกาย สูตรผสมจะต้องมีสารต้านอนุมูลอิสระที่ละลายในไขมันจากธรรมชาติเสมอ เช่น d-alpha-tocopherol (วิตามินอี)
 
 ท้ายที่สุด การจัดเรียงอาหารเสริมพร้อมกับมื้อค่ำจะทำให้มั่นใจได้ว่าการดูดซึมสูงสุดสอดคล้องกับวิถีต้านการอักเสบและการซ่อมแซมเซลล์ตามธรรมชาติในเวลากลางคืนของร่างกาย ซึ่งเพิ่มประโยชน์สูงสุดทางหลอดเลือดและหัวใจ วิทยาภูมิคุ้มกัน และระบบประสาทของ $\text{EPA}$ และ $\text{DHA}$
+
+## แหล่งข้อมูลอ้างอิง
+
+1. Nordøy A, et al. [Absorption of the n-3 eicosapentaenoic and docosahexaenoic acids as ethyl esters and triglycerides by humans](https://pubmed.ncbi.nlm.nih.gov/1826985/). *American Journal of Clinical Nutrition.* 1991.
+2. Offman E, Marenco T, Ferber S, Johnson J, Kling D, Curcio D, Davidson M. [Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study](https://pubmed.ncbi.nlm.nih.gov/24124374/). *Vascular Health and Risk Management.* 2013.
+3. Schuchardt JP, Schneider I, Meyer H, Neubronner J, von Schacky C, Hahn A. [Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations - a comparative bioavailability study of fish oil vs. krill oil](https://pubmed.ncbi.nlm.nih.gov/21854650/). *Lipids in Health and Disease.* 2011.
+4. Brown JE, Wahle KW. [Effect of fish-oil and vitamin E supplementation on lipid peroxidation and whole-blood aggregation in man](https://pubmed.ncbi.nlm.nih.gov/2282693/). *Clinica Chimica Acta.* 1990.
+
+*บทความนี้จัดทำขึ้นเพื่อวัตถุประสงค์ในการให้ข้อมูลเท่านั้น มิได้มีเจตนาให้ใช้ทดแทนคำแนะนำทางการแพทย์แต่อย่างใด กรุณาปรึกษาผู้เชี่ยวชาญด้านสุขภาพที่มีคุณสมบัติเหมาะสมก่อนปรับเปลี่ยนการรับประทานอาหารเสริมหรือยาของท่าน*

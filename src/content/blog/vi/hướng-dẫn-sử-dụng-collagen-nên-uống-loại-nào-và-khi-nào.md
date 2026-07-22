@@ -94,3 +94,13 @@ Với **Smart Stack Builder** của SuppTime:
 - **An toàn là trên hết:** Ghi lại bất kỳ loại thuốc nào (như corticosteroid) và để SuppTime tự động kiểm tra các tương tác dược lý có thể ức chế sự tái tạo collagen của bạn.
 
 Ngừng phỏng đoán về sức khỏe của bạn. Tải xuống **SuppTime** ngay hôm nay, đưa một nhà dược lý học ảo vào túi của bạn và đảm bảo bạn nhận được 100% lợi ích từ mỗi loại thực phẩm chức năng bạn dùng.
+
+## Tài liệu tham khảo
+
+1. Pinnell SR. [Regulation of collagen biosynthesis by ascorbic acid: a review](https://pubmed.ncbi.nlm.nih.gov/3008449/). *Yale Journal of Biology and Medicine.* 1985.
+2. Virgilio N, Schön C, Mödinger Y, et al. [Absorption of bioactive peptides following collagen hydrolysate intake: a randomized, double-blind crossover study in healthy individuals](https://pubmed.ncbi.nlm.nih.gov/39149544/). *Amino Acids.* 2024.
+3. Kim DU, Chung HC, Choi J, Sakai Y, Lee BY. [Oral Intake of Low-Molecular-Weight Collagen Peptide Improves Hydration, Elasticity, and Wrinkling in Human Skin: A Randomized, Double-Blind, Placebo-Controlled Study](https://pubmed.ncbi.nlm.nih.gov/29949889/). *Nutrients.* 2018.
+4. Thomas C, Kingshott RN, Allott KM, et al. [Collagen peptide supplementation before bedtime reduces sleep fragmentation and improves cognitive function in physically active males with sleep complaints](https://pubmed.ncbi.nlm.nih.gov/37874350/). *European Journal of Nutrition.* 2023.
+5. Lugo JP, Saiyed ZM, Lau FC, et al. [Undenatured type II collagen (UC-II®) for joint support: a randomized, double-blind, placebo-controlled study in healthy volunteers](https://pubmed.ncbi.nlm.nih.gov/24153020/). *Journal of the International Society of Sports Nutrition.* 2013.
+
+*Bài viết này chỉ nhằm mục đích cung cấp thông tin và không thay thế cho tư vấn y tế chuyên môn; trước khi thay đổi chế độ bổ sung hoặc thuốc đang sử dụng, bạn nên tham khảo ý kiến của chuyên gia y tế có chuyên môn phù hợp.*

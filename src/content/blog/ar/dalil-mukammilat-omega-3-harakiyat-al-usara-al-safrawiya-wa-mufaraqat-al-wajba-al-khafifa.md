@@ -130,3 +130,12 @@ graph TD
 علاوة على ذلك، لحماية الـ $\text{PUFAs}$ غير المستقرة للغاية من الأضرار التأكسدية داخل الجسم، يجب أن تتضمن التركيبة دائمًا مضادًا للأكسدة طبيعيًا قابل للذوبان في الدهون مثل دي-ألفا-توكوفيرول (فيتامين E).
 
 أخيرًا، يضمن مواءمة المكملات مع وجبة العشاء أن تتزامن ذروة الامتصاص مع المسارات الليلية الطبيعية المضادة للالتهابات وإصلاح الخلايا في الجسم، مما يزيد من الفوائد القلبية الوعائية، والمناعية، والعصبية للـ $\text{EPA}$ والـ $\text{DHA}$.
+
+## المراجع
+
+1. Nordøy A, et al. [Absorption of the n-3 eicosapentaenoic and docosahexaenoic acids as ethyl esters and triglycerides by humans](https://pubmed.ncbi.nlm.nih.gov/1826985/). *American Journal of Clinical Nutrition.* 1991.
+2. Offman E, Marenco T, Ferber S, Johnson J, Kling D, Curcio D, Davidson M. [Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study](https://pubmed.ncbi.nlm.nih.gov/24124374/). *Vascular Health and Risk Management.* 2013.
+3. Schuchardt JP, Schneider I, Meyer H, Neubronner J, von Schacky C, Hahn A. [Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations - a comparative bioavailability study of fish oil vs. krill oil](https://pubmed.ncbi.nlm.nih.gov/21854650/). *Lipids in Health and Disease.* 2011.
+4. Brown JE, Wahle KW. [Effect of fish-oil and vitamin E supplementation on lipid peroxidation and whole-blood aggregation in man](https://pubmed.ncbi.nlm.nih.gov/2282693/). *Clinica Chimica Acta.* 1990.
+
+*هذا المقال لأغراض معلوماتية فقط ولا يُغني عن الاستشارة الطبية. يُرجى استشارة أخصائي رعاية صحية مؤهل قبل تعديل روتين مكملاتك الغذائية أو أدويتك.*

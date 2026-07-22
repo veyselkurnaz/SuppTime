@@ -77,3 +77,13 @@ Với **Smart Stack Builder** của SuppTime:
 - **An Toàn Thuốc:** SuppTime cho phép bạn ghi lại các loại thuốc theo toa (như thuốc tuyến giáp hoặc thuốc làm loãng máu) và kiểm tra chúng so với các loại thảo dược bổ sung để ngăn ngừa các tương tác nguy hiểm.
 
 Hãy ngừng phỏng đoán về sức khỏe của bạn. Tải xuống **SuppTime** ngay hôm nay, đưa một dược lý học gia ảo vào túi của bạn và đảm bảo bạn nhận được 100% lợi ích từ mỗi viên thuốc bạn nuốt.
+
+## Tài liệu tham khảo
+
+1. Hallberg L, Rossander-Hultén L, Brune M, Gleerup A. [Inhibition of haem-iron absorption in man by calcium](https://pubmed.ncbi.nlm.nih.gov/8490006/). *British Journal of Nutrition.* 1993.
+2. Hoffman HN 2nd, Phyliky RL, Fleming CR. [Zinc-induced copper deficiency](https://pubmed.ncbi.nlm.nih.gov/3335323/). *Gastroenterology.* 1988.
+3. Cook JD, Reddy MB. [Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet](https://pubmed.ncbi.nlm.nih.gov/11124756/). *American Journal of Clinical Nutrition.* 2001.
+4. Hayashi M, Hamada H, Azuma S, Hayashi K. [Painless Thyroiditis by Withania somnifera (Ashwagandha)](https://pubmed.ncbi.nlm.nih.gov/38559552/). *Cureus.* 2024.
+5. Pouteau E, Kabir-Ahmadi M, Noah L, et al. [Superiority of magnesium and vitamin B6 over magnesium alone on severe stress in healthy adults with low magnesemia: A randomized, single-blind clinical trial](https://pubmed.ncbi.nlm.nih.gov/30562392/). *PLoS One.* 2018.
+
+*Bài viết này chỉ nhằm mục đích cung cấp thông tin và không thay thế cho tư vấn y tế chuyên môn; trước khi thay đổi chế độ bổ sung hoặc thuốc đang sử dụng, bạn nên tham khảo ý kiến của chuyên gia y tế có chuyên môn phù hợp.*

@@ -130,3 +130,12 @@ Bất kể công thức được chọn là gì, chất bổ sung phải đượ
 Hơn nữa, để bảo vệ các $\text{PUFA}$ rất không ổn định này khỏi tác hại của quá trình oxy hóa bên trong cơ thể, công thức thuốc phải luôn bao gồm một chất chống oxy hóa hòa tan trong chất béo tự nhiên như d-alpha-tocopherol (Vitamin E).
 
 Cuối cùng, việc dùng thực phẩm bổ sung cùng với bữa ăn tối đảm bảo rằng quá trình hấp thụ tối đa trùng khớp với các con đường sửa chữa tế bào và chống viêm tự nhiên vào ban đêm của cơ thể, tối đa hóa lợi ích về tim mạch, miễn dịch và thần kinh của $\text{EPA}$ và $\text{DHA}$.
+
+## Tài liệu tham khảo
+
+1. Nordøy A, et al. [Absorption of the n-3 eicosapentaenoic and docosahexaenoic acids as ethyl esters and triglycerides by humans](https://pubmed.ncbi.nlm.nih.gov/1826985/). *American Journal of Clinical Nutrition.* 1991.
+2. Offman E, Marenco T, Ferber S, Johnson J, Kling D, Curcio D, Davidson M. [Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study](https://pubmed.ncbi.nlm.nih.gov/24124374/). *Vascular Health and Risk Management.* 2013.
+3. Schuchardt JP, Schneider I, Meyer H, Neubronner J, von Schacky C, Hahn A. [Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations - a comparative bioavailability study of fish oil vs. krill oil](https://pubmed.ncbi.nlm.nih.gov/21854650/). *Lipids in Health and Disease.* 2011.
+4. Brown JE, Wahle KW. [Effect of fish-oil and vitamin E supplementation on lipid peroxidation and whole-blood aggregation in man](https://pubmed.ncbi.nlm.nih.gov/2282693/). *Clinica Chimica Acta.* 1990.
+
+*Bài viết này chỉ nhằm mục đích cung cấp thông tin và không thay thế cho tư vấn y tế chuyên môn; trước khi thay đổi chế độ bổ sung hoặc thuốc đang sử dụng, bạn nên tham khảo ý kiến của chuyên gia y tế có chuyên môn phù hợp.*

@@ -100,3 +100,13 @@ Selain itu, seng bertindak sebagai neuromodulator langsung di sistem saraf pusat
 | **Sarapan** | Zat Besi Non-Heme, Vitamin C, Vitamin D3 | Vitamin C meningkatkan penyerapan zat besi. Hindari Kalsium dan Seng. |
 | **Makan Siang / Sore**| Seng Bisglisinat (15–30 mg) + Tembaga (1–2 mg) | Diformulasikan dengan rasio 15:1 untuk mencegah penipisan tembaga; benar-benar terpisah dari zat besi dan kalsium. |
 | **Malam** | Kalsium, Magnesium Glisinat | Magnesium merelaksasi otot dan memodulasi reseptor GABA sebelum tidur. |
+
+## Referensi
+
+1. Institute of Medicine (US) Panel on Micronutrients. [Zinc](https://www.ncbi.nlm.nih.gov/books/NBK222317/). *Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc.* National Academies Press, 2001.
+2. National Institutes of Health, Office of Dietary Supplements. [Zinc - Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/). *NIH Office of Dietary Supplements.* 2022.
+3. Pérès JM, Bureau F, Neuville D, Arhan P, Bouglé D. [Inhibition of zinc absorption by iron depends on their ratio](https://pubmed.ncbi.nlm.nih.gov/11846013/). *Journal of Trace Elements in Medicine and Biology.* 2001.
+4. Devarshi PP, Mao Q, Grant RW, Mitmesser SH. [Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11677333/). *Nutrients.* 2024.
+5. Gupta N, Carmichael MF. [Zinc-Induced Copper Deficiency as a Rare Cause of Neurological Deficit and Anemia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10510946/). *Cureus.* 2023.
+
+*Artikel ini disusun hanya untuk tujuan informasi dan bukan merupakan pengganti nasihat medis profesional. Konsultasikan dengan dokter atau tenaga kesehatan yang berkompeten sebelum mengubah rutinitas suplemen atau obat-obatan Anda.*

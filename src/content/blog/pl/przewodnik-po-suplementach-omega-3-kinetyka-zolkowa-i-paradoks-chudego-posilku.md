@@ -130,3 +130,12 @@ Bez baczenia na sformułowany odłam obranego medykamentu, trzeba tak zgrać har
 Jednocześnie by na dłużej chronić ów nietrwałe związki od skazy wygenerowanej tlenową inwazją zachodzącą we wnętrzu organizmu, struktura ta wymaga do skompletowania dodatku w postać przy obronie za sprawą zjawiska ochrony utleniaczy o strukturze wtapiania by obarczać się powłoczką od lipidów, i po odgórnej ochronie pod formę dla np. od związku takiego rodzaju, który figuruje tam d-alfa-tokoferol zwanym częściej obok Vit E.
 
 Finalnie zgrywając ułożenie specyfików, podpinając do wieczorowej sfery żywienia dopilnowuje spójnego powiązania przy maksimum ze sprawczą rączką powłoki u pacjenta co w tymże czasie nakłoni na powzięcie odpowiednich naturalnie regeneratywnych procesów nocnego mechanizmu leczącego stany wywoływane do zapalnych stanów wspólnie dla zrekonstruowania komórek, potęgując za równym tchem w najlepszych zysków ukierunkowanych dla pracy immunogennej w zjawisku w parze kardiologiczno naczyniowej razem z neurologią wspierane o $\text{EPA}$ podobnie w splotach oddolnych z użycia pod kątem kwasów typu $\text{DHA}$.
+
+## Źródła
+
+1. Nordøy A, et al. [Absorption of the n-3 eicosapentaenoic and docosahexaenoic acids as ethyl esters and triglycerides by humans](https://pubmed.ncbi.nlm.nih.gov/1826985/). *American Journal of Clinical Nutrition.* 1991.
+2. Offman E, Marenco T, Ferber S, Johnson J, Kling D, Curcio D, Davidson M. [Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study](https://pubmed.ncbi.nlm.nih.gov/24124374/). *Vascular Health and Risk Management.* 2013.
+3. Schuchardt JP, Schneider I, Meyer H, Neubronner J, von Schacky C, Hahn A. [Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations - a comparative bioavailability study of fish oil vs. krill oil](https://pubmed.ncbi.nlm.nih.gov/21854650/). *Lipids in Health and Disease.* 2011.
+4. Brown JE, Wahle KW. [Effect of fish-oil and vitamin E supplementation on lipid peroxidation and whole-blood aggregation in man](https://pubmed.ncbi.nlm.nih.gov/2282693/). *Clinica Chimica Acta.* 1990.
+
+Niniejszy artykuł ma charakter wyłącznie informacyjny i nie stanowi porady medycznej. Przed wprowadzeniem zmian w suplementacji lub przyjmowanych lekach skonsultuj się z wykwalifikowanym pracownikiem służby zdrowia.
