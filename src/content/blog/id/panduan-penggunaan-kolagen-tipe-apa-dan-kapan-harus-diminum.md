@@ -3,7 +3,7 @@ title: "Panduan Penggunaan Kolagen: Tipe Apa dan Kapan Harus Diminum?"
 description: "Analisis klinis tentang tipe kolagen, kinetika absorpsi, waktu optimal, dan kofaktor esensial seperti Vitamin C untuk memaksimalkan bioavailabilitas dan regenerasi jaringan."
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
-image: "/images/blog/collagen-guide.png"
+image: "/assets/collagen_cover.png"
 ---
 
 # Panduan Penggunaan Kolagen: Tipe Struktural, Kinetika Absorpsi, dan Analisis Ilmiah Kofaktor Metabolik

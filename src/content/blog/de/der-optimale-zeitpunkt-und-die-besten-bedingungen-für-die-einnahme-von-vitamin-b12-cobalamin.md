@@ -3,7 +3,7 @@ title: "Der optimale Zeitpunkt und die besten Bedingungen für die Einnahme von 
 description: "Sollten Sie Vitamin B12 morgens oder abends einnehmen? Wird es auf nüchternen Magen oder mit dem Essen besser aufgenommen? Entdecken Sie die wissenschaftlichen Wechselwirkungen und die beste Einnahmezeit."
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
-image: "/images/blog/b12-timing.png"
+image: "/assets/b12_cover.png"
 ---
 
 # Der optimale Zeitpunkt und die besten Bedingungen für die Einnahme von Vitamin B12 (Cobalamin)

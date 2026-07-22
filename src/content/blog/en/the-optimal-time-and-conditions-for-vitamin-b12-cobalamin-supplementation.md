@@ -3,7 +3,7 @@ title: "The Optimal Time and Conditions for Vitamin B12 (Cobalamin) Supplementat
 description: "Should you take Vitamin B12 in the morning or at night? Is it better absorbed on an empty stomach or with food? Discover its scientific interactions and the best time to take it."
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
-image: "/images/blog/b12-timing.png"
+image: "/assets/b12_cover.png"
 ---
 
 # The Optimal Time and Conditions for Vitamin B12 (Cobalamin) Supplementation

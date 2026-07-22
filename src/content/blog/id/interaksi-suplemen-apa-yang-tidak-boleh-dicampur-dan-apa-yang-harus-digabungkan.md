@@ -3,7 +3,7 @@ title: "Interaksi Suplemen: Apa yang Tidak Boleh Dicampur dan Apa yang Harus Dig
 description: "Temukan vitamin dan mineral mana yang tidak boleh Anda konsumsi bersamaan (seperti Besi dan Kalsium) dan mana yang bekerja jauh lebih baik jika digabungkan."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
-image: "/blog/supplement_interactions_cover.png"
+image: "/assets/supplement_interactions_cover.png"
 ---
 
 Mengonsumsi suplemen adalah salah satu langkah paling proaktif yang dapat Anda ambil untuk kesehatan Anda. Namun, memperlakukan rutinitas suplemen harian Anda seperti prasmanan makan sepuasnya—menelan sepuluh pil berbeda sekaligus dengan kopi pagi Anda—secara ilmiah terbukti kontraproduktif, dan dalam beberapa kasus, bahkan berbahaya.

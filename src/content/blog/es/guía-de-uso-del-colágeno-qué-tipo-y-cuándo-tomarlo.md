@@ -3,7 +3,7 @@ title: "Guía de Uso del Colágeno: ¿Qué Tipo y Cuándo Tomarlo?"
 description: "Un desglose clínico de los tipos de colágeno, cinética de absorción, el momento óptimo y cofactores esenciales como la Vitamina C para maximizar la biodisponibilidad y la regeneración de tejidos."
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
-image: "/images/blog/collagen-guide.png"
+image: "/assets/collagen_cover.png"
 ---
 
 # Guía de Uso del Colágeno: Tipos Estructurales, Cinética de Absorción y Análisis Científico de Cofactores Metabólicos

@@ -3,7 +3,7 @@ title: "Il momento migliore per assumere la vitamina D: una guida scientifica"
 description: "Scopri il momento migliore della giornata per assumere integratori di vitamina D e ottenere il massimo assorbimento."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
-image: "/blog/vitamin_d_blog_cover.png"
+image: "/assets/vitamin_d_cover.png"
 ---
 
 La vitamina D è molto più di una semplice vitamina; nel corpo umano agisce come un pro-ormone e svolge un ruolo cruciale nella densità ossea, nella regolazione del sistema immunitario, nella produzione di testosterone e nella stabilizzazione dell'umore. Nonostante questa immensa importanza sistemica, i dati epidemiologici attuali mostrano che oltre il 50% della popolazione globale è carente o insufficiente di vitamina D.

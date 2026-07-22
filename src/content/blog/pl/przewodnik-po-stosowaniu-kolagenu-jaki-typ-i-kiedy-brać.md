@@ -3,7 +3,7 @@ title: "Przewodnik po Stosowaniu Kolagenu: Jaki Typ i Kiedy Brać?"
 description: "Kliniczna analiza typów kolagenu, kinetyki wchłaniania, optymalnego czasu oraz niezbędnych kofaktorów, takich jak Witamina C, w celu maksymalizacji biodostępności i regeneracji tkanek."
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
-image: "/images/blog/collagen-guide.png"
+image: "/assets/collagen_cover.png"
 ---
 
 # Przewodnik po Stosowaniu Kolagenu: Typy Strukturalne, Kinetyka Wchłaniania i Naukowa Analiza Kofaktorów Metabolicznych

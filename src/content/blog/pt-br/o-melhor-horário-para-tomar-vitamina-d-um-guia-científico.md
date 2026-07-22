@@ -3,7 +3,7 @@ title: "O Melhor Horário para Tomar Vitamina D: Um Guia Científico"
 description: "Descubra o melhor horário do dia, apoiado pela ciência, para tomar seus suplementos de Vitamina D e obter máxima absorção."
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
-image: "/blog/vitamin_d_blog_cover.png"
+image: "/assets/vitamin_d_cover.png"
 ---
 
 A vitamina D é muito mais do que apenas uma simples vitamina; ela atua como um pró-hormônio no corpo humano, desempenhando um papel crucial na densidade óssea, regulação do sistema imunológico, produção de testosterona e estabilização do humor. Apesar dessa imensa importância sistêmica, dados epidemiológicos atuais mostram que mais de 50% da população global tem deficiência ou insuficiência de vitamina D.

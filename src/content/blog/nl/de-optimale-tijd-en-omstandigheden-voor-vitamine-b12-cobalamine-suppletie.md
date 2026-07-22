@@ -3,7 +3,7 @@ title: "De Optimale Tijd en Omstandigheden voor Vitamine B12 (Cobalamine) Supple
 description: "Moet je Vitamine B12 's ochtends of 's avonds innemen? Wordt het beter opgenomen op een lege maag of met voedsel? Ontdek de wetenschappelijke interacties."
 pubDate: 2026-06-20
 translationKey: "best-time-for-vitamin-b12"
-image: "/images/blog/b12-timing.png"
+image: "/assets/b12_cover.png"
 ---
 
 # De Optimale Tijd en Omstandigheden voor Vitamine B12 (Cobalamine) Suppletie

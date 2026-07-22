@@ -3,7 +3,7 @@ title: "Tương tác của Thực phẩm chức năng: Những gì Không nên T
 description: "Khám phá những loại vitamin và khoáng chất nào bạn không bao giờ nên uống cùng nhau (như Sắt và Canxi) và loại nào hoạt động tốt hơn nhiều khi kết hợp."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
-image: "/blog/supplement_interactions_cover.png"
+image: "/assets/supplement_interactions_cover.png"
 ---
 
 Việc uống thực phẩm bổ sung là một trong những bước chủ động nhất bạn có thể thực hiện cho sức khỏe của mình. Tuy nhiên, việc coi thói quen bổ sung hàng ngày của bạn như một bữa tiệc buffet ăn thỏa thích — nuốt mười viên thuốc khác nhau cùng một lúc với tách cà phê buổi sáng — đã được chứng minh về mặt khoa học là phản tác dụng, và trong một số trường hợp, thậm chí còn gây hại.

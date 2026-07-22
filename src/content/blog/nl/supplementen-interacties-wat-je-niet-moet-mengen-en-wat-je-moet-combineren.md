@@ -3,7 +3,7 @@ title: "Supplementen Interacties: Wat je NIET moet mengen en wat je MOET combine
 description: "Ontdek welke vitamines en mineralen je nooit samen mag innemen (zoals ijzer en calcium) en welke combinaties juist synergetisch werken."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
-image: "/blog/supplement_interactions_cover.png"
+image: "/assets/supplement_interactions_cover.png"
 ---
 
 Het nemen van supplementen is een van de meest proactieve stappen die je kunt nemen voor je gezondheid. Echter, het behandelen van je dagelijkse supplementenroutine als een lopend buffet — tien verschillende pillen tegelijk slikken met je ochtendkoffie — is wetenschappelijk bewezen contraproductief en in sommige gevallen zelfs schadelijk.

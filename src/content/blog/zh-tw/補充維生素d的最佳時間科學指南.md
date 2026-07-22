@@ -3,7 +3,7 @@ title: "補充維生素D的最佳時間：科學指南"
 description: "了解有科學依據的服用維生素D補充劑的最佳時間，以實現最大吸收。"
 pubDate: 2026-06-19
 translationKey: "vitamin-d-timing"
-image: "/blog/vitamin_d_blog_cover.png"
+image: "/assets/vitamin_d_cover.png"
 ---
 
 維生素D遠不止是一種簡單的維生素。它在人體中作為一種激素前體（原激素）發揮作用，在骨密度、免疫系統調節、睪酮生成以及情緒穩定方面起著至關重要的作用。儘管它具有如此深遠的全身重要性，但目前的流行病學數據顯示，全球超過50%的人口處於維生素D缺乏或不足的狀態。

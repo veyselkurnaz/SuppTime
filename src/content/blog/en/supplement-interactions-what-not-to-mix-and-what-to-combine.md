@@ -3,7 +3,7 @@ title: "Supplement Interactions: What Not to Mix and What to Combine"
 description: "Discover which vitamins and minerals you should never take together (like Iron and Calcium) and which ones work better when combined."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
-image: "/blog/supplement_interactions_cover.png"
+image: "/assets/supplement_interactions_cover.png"
 ---
 
 Taking supplements is one of the most proactive steps you can take for your health. However, treating your daily supplement routine like a buffet—throwing back ten different pills in one handful with your morning coffee—is scientifically proven to be counterproductive, and in some cases, harmful.

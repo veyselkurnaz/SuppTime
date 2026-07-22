@@ -3,7 +3,7 @@ title: "Kolajen Kullanım Rehberi: Hangi Tip, Ne Zaman İçilmeli?"
 description: "Kolajen takviyesi seçerken nelere dikkat edilmeli? Kolajen tipleri arasındaki farklar, emilim kinetiği, en iyi kullanım zamanı ve vitamin C gibi kofaktörlerin bilimsel rehberi."
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
-image: "/images/blog/collagen-guide.png"
+image: "/assets/collagen_cover.png"
 ---
 
 # Kolajen Kullanım Rehberi: Yapısal Tipler, Absorpsiyon Kinetiği ve Metabolik Kofaktörlerin Bilimsel Analizi

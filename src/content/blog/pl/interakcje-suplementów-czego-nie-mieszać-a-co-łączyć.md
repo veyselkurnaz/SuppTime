@@ -3,7 +3,7 @@ title: "Interakcje Suplementów: Czego Nie Mieszać, A Co Łączyć"
 description: "Odkryj, jakich witamin i minerałów nigdy nie powinieneś brać razem (jak żelazo i wapń), a które działają znacznie lepiej w połączeniu."
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
-image: "/blog/supplement_interactions_cover.png"
+image: "/assets/supplement_interactions_cover.png"
 ---
 
 Przyjmowanie suplementów to jeden z najbardziej proaktywnych kroków, jakie możesz podjąć dla swojego zdrowia. Jednak traktowanie codziennej rutyny suplementacyjnej jak otwartego bufetu — połykanie dziesięciu różnych tabletek na raz i popijanie ich poranną kawą — naukowo udowodniono jako przeciwskuteczne, a w niektórych przypadkach nawet szkodliwe.

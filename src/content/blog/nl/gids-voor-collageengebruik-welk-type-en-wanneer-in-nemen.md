@@ -3,7 +3,7 @@ title: "Gids voor Collageengebruik: Welk Type en Wanneer In Nemen?"
 description: "Een klinische uitsplitsing van collageentypes, absorptiekinetiek, optimale timing en essentiële cofactoren zoals Vitamine C voor het maximaliseren van biologische beschikbaarheid en weefselregeneratie."
 pubDate: 2026-06-20
 translationKey: "collagen-usage-guide"
-image: "/images/blog/collagen-guide.png"
+image: "/assets/collagen_cover.png"
 ---
 
 # Gids voor Collageengebruik: Structurele Types, Absorptiekinetiek en Wetenschappelijke Analyse van Metabole Cofactoren
