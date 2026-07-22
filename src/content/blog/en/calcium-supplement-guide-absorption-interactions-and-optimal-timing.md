@@ -5,6 +5,15 @@ pubDate: 2026-07-22
 author: "SuppTime Editorial"
 translationKey: "calcium-supplement-guide"
 image: "/assets/calcium_cover.webp"
+faq:
+  - q: "How much calcium can my body absorb in one dose?"
+    a: "Absorption efficiency drops as dose size increases, which is why the standard clinical recommendation caps single doses at 500 mg of elemental calcium, splitting any higher daily target across two or more doses."
+  - q: "Should I take calcium carbonate or calcium citrate?"
+    a: "Calcium citrate is the safer default choice, especially if you take a PPI or H2 blocker or are over 65 — it doesn't require stomach acid to dissolve. Calcium carbonate needs to be taken with food and normal stomach acid to be absorbed well."
+  - q: "Can I take calcium with my thyroid medication?"
+    a: "No. Calcium (in any form, including fortified foods) must be separated from levothyroxine by at least 4 hours — calcium carbonate can reduce levothyroxine absorption from roughly 84% down to 58%."
+  - q: "Is it safe to take calcium supplements every day?"
+    a: "A large meta-analysis found that calcium supplements taken without co-administered vitamin D, and in isolated high-dose boluses, were associated with an increased cardiovascular risk. Keeping single doses small (≤500mg), split across the day, and paired with vitamin D is the safer approach."
 ---
 
 Calcium is the most abundant mineral in the human body, essential for skeletal mineralization, muscle contraction, nerve signaling, and blood clotting. Because 99% of the body's calcium is stored in bone, supplementation is often treated as a simple "more is better" problem. Physiologically, this is incorrect: calcium absorption is a saturable process, and taking a large dose in one sitting wastes a substantial fraction of it.

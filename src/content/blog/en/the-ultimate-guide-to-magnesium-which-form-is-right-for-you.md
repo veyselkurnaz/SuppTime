@@ -5,6 +5,15 @@ pubDate: 2026-06-20
 author: "SuppTime Team"
 translationKey: "magnesium-forms-guide"
 image: "/assets/magnesium_cover.webp"
+faq:
+  - q: "Which form of magnesium is best for sleep?"
+    a: "Magnesium glycinate (bisglycinate). It's bound to glycine, a calming amino acid, and clinical studies show it reduces insomnia severity and supports muscle relaxation with minimal risk of digestive upset."
+  - q: "Which magnesium form should I avoid?"
+    a: "Magnesium oxide. Despite a high elemental magnesium content by weight, only 4-15% of it is actually absorbed — it's mainly useful as a short-term laxative, not for correcting a deficiency."
+  - q: "What's the best magnesium form for constipation?"
+    a: "Magnesium citrate. It's highly water-soluble and draws water into the colon, stimulating peristalsis and relieving constipation safely and predictably."
+  - q: "Can I take magnesium and calcium together?"
+    a: "Not in high concentrated doses at the same time — they compete for the same absorption pathway. Take calcium in the morning with food and magnesium in the evening instead."
 ---
 
 Often described as a primary engine of cellular physiology, magnesium is an indispensable macromineral that governs the metabolic rhythms of the human body. It acts as a necessary cofactor in over 600 enzymatic reactions, regulating processes that range from cellular energy production to neurotransmission and muscular contraction. 

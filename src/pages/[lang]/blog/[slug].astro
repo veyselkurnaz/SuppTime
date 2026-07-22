@@ -61,9 +61,33 @@ const wordCount = post.body ? post.body.split(/\s+/).length : 0;
 // KaTeX CSS is ~800ms of render-blocking weight — only load it on posts that actually use math syntax.
 const hasMath = post.body ? /\$\$[\s\S]+?\$\$|\$[^\s$][^$]*\$/.test(post.body) : false;
 
-// Grab related posts
+// Grab related posts — prioritize the pillar guide and same-cluster topics over
+// pure randomness, so posts actually link to each other instead of being orphans.
+const PILLAR_KEY = 'supplement-timing-complete-guide';
+const CLUSTERS: Record<string, string> = {
+  'iron-supplement-guide': 'minerals',
+  'calcium-supplement-guide': 'minerals',
+  'zinc-supplement-guide': 'minerals',
+  'supplement-interactions': 'minerals',
+  'vitamin-d-timing': 'absorption',
+  'best-time-for-vitamin-b12': 'absorption',
+  'omega-3-supplement-guide': 'absorption',
+  'magnesium-forms-guide': 'form',
+  'collagen-usage-guide': 'form',
+};
+const myCluster = CLUSTERS[post.data.translationKey];
 const otherPostsInLang = allPosts.filter((p: CollectionEntry<'blog'>) => p.id.startsWith(`${lang}/`) && p.id !== post.id);
-const relatedPosts = otherPostsInLang.sort(() => 0.5 - Math.random()).slice(0, 3).map(rp => ({
+const pillarPost = post.data.translationKey !== PILLAR_KEY
+  ? otherPostsInLang.find((p: CollectionEntry<'blog'>) => p.data.translationKey === PILLAR_KEY)
+  : undefined;
+const sameClusterPosts = otherPostsInLang
+  .filter((p: CollectionEntry<'blog'>) => p.data.translationKey !== PILLAR_KEY && myCluster && CLUSTERS[p.data.translationKey] === myCluster)
+  .sort(() => 0.5 - Math.random());
+const fillerPosts = otherPostsInLang
+  .filter((p: CollectionEntry<'blog'>) => p.data.translationKey !== PILLAR_KEY && !(myCluster && CLUSTERS[p.data.translationKey] === myCluster))
+  .sort(() => 0.5 - Math.random());
+const prioritized = [...(pillarPost ? [pillarPost] : []), ...sameClusterPosts, ...fillerPosts];
+const relatedPosts = prioritized.slice(0, 3).map(rp => ({
   ...rp,
   rpSlug: rp.id.split('/').pop()?.replace('.md', '')
 }));
@@ -151,6 +175,20 @@ const breadcrumbSchema = {
   ]
 };
 schema.push(breadcrumbSchema as any);
+
+// FAQPage schema — only emitted when the post has real faq entries, and the
+// same Q&A is rendered visibly on the page below (schema must match visible content).
+if (post.data.faq && post.data.faq.length > 0) {
+  schema.push({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": post.data.faq.map((item: { q: string; a: string }) => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
+  } as any);
+}
 ---
 
 <Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'} image={post.data.image} ogType="article" alternateUrls={alternateUrls} pubDate={post.data.pubDate} author={post.data.author} hasMath={hasMath}>
@@ -213,6 +251,20 @@ schema.push(breadcrumbSchema as any);
       <div class="prose" style="font-size: 18px; line-height: 1.7; color: #333;">
         <Content />
       </div>
+
+      {post.data.faq && post.data.faq.length > 0 && (
+        <div class="blog-faq" style="margin-top: 48px; border-top: 1px solid #eee; padding-top: 48px;">
+          <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 24px; letter-spacing: -0.01em;">{t.faq.title}</h2>
+          <div style="display: flex; flex-direction: column; gap: 20px;">
+            {post.data.faq.map((item: { q: string; a: string }) => (
+              <div>
+                <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px; color: #111;">{item.q}</h3>
+                <p style="font-size: 15px; line-height: 1.65; color: #444; margin: 0;">{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div class="blog-disclaimer" style="margin-top: 48px; padding: 20px; background: #f4f6f8; border-radius: 12px; font-size: 13px; line-height: 1.6; color: #666; border: 1px solid #e2e8f0; font-family: var(--sans);">
         {t.blog_disclaimer}

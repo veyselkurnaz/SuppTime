@@ -5,6 +5,15 @@ pubDate: 2026-06-23
 author: "SuppTime Editorial"
 translationKey: "iron-supplement-guide"
 image: "/assets/iron_cover.webp"
+faq:
+  - q: "What is the best time of day to take iron supplements?"
+    a: "Take iron in the morning on an empty stomach. Circulating hepcidin, the hormone that blocks iron absorption, is at its lowest point then, allowing significantly more iron into the bloodstream than an afternoon or evening dose."
+  - q: "Can I take iron and calcium at the same time?"
+    a: "No. Co-ingesting 500 mg of calcium carbonate with an iron-containing meal reduces fractional iron absorption by over 50%. Separate iron and calcium by at least 2 hours."
+  - q: "Does vitamin C really help iron absorption?"
+    a: "Yes. Ascorbic acid converts insoluble ferric iron (Fe3+) into the soluble ferrous form (Fe2+) and shields it from binding to phytates and polyphenols, making it the most effective enhancer of non-heme iron absorption."
+  - q: "Should I take iron every day or every other day?"
+    a: "Clinical trials show alternate-day dosing (every 48 hours) increases fractional iron absorption by 40-50% compared to daily dosing, because it avoids the hepcidin-induced mucosal block that daily high doses trigger."
 ---
 
 Iron is an indispensable micronutrient that functions as a structural and catalytic cofactor in oxygen transport, cellular respiration, and DNA synthesis. Despite its abundance, iron is frequently a growth-limiting nutrient in the human diet. Because humans possess no physiological mechanism for active iron excretion, systemic iron balance is maintained exclusively at the level of intestinal absorption.

@@ -11,7 +11,11 @@ const blogCollection = defineCollection({
     image: z.string().optional(),
     tags: z.array(z.string()).default([]),
     // For SEO hreflang mapping (the unique id that ties translations together)
-    translationKey: z.string() 
+    translationKey: z.string(),
+    // Optional on-page FAQ (also emitted as FAQPage schema) — each answer must
+    // reflect a claim already made in the article body, per Google's structured
+    // data guidelines (schema must match visible content).
+    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([])
   }),
 });
 

@@ -4,6 +4,13 @@ description: "Discover the chronopharmacology of Omega-3 (EPA/DHA) supplements. 
 pubDate: 2026-06-25
 translationKey: "omega-3-supplement-guide"
 image: "/assets/omega3_cover.webp"
+faq:
+  - q: "Why doesn't fish oil work if I take it on an empty stomach?"
+    a: "Omega-3s are highly hydrophobic and require dietary fat to trigger bile release and micelle formation in the gut. Without co-ingested fat, the oil can't be emulsified and pancreatic lipases can't access it, so most of it passes through unabsorbed — this is called the 'lean-meal paradox.'"
+  - q: "What should I eat with my omega-3 supplement?"
+    a: "A source of dietary fat, such as extra virgin olive oil, avocado, eggs, or a fatty meal. This triggers cholecystokinin (CCK) release, which causes the gallbladder to release bile acids needed to form absorbable micelles."
+  - q: "Does drinking water help absorb fish oil?"
+    a: "No. Water doesn't emulsify hydrophobic lipids — taken alone on an empty stomach, it can actually dilute the trace digestive enzymes present and move the unabsorbed oil further from the intestinal wall."
 ---
 
 The therapeutic efficacy of long-chain marine omega-3 polyunsaturated fatty acids ($\text{PUFAs}$), specifically eicosapentaenoic acid ($\text{EPA}$) and docosahexaenoic acid ($\text{DHA}$), is strictly governed by their intestinal bioavailability. In clinical nutrition, a major source of therapeutic failure is the "lean-meal paradox"—the administration of highly hydrophobic marine lipids under fasting conditions or alongside fat-free meals. Despite the intake of high nominal doses, the lack of a structured lipid co-ingestion matrix prevents the physical and enzymatic mechanisms required for lipid absorption in the aqueous lumen of the human gastrointestinal tract. This clinical analysis details the biophysical, biochemical, and chronopharmacological principles that dictate the digestion and absorption of $\text{EPA}$ and $\text{DHA}$.

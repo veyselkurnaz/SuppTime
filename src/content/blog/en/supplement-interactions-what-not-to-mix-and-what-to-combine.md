@@ -4,6 +4,13 @@ description: "Discover which vitamins and minerals you should never take togethe
 pubDate: 2026-06-20
 translationKey: "supplement-interactions"
 image: "/assets/supplement_interactions_cover.webp"
+faq:
+  - q: "Can I take calcium and iron together?"
+    a: "No. Calcium is a powerful inhibitor of non-heme iron absorption — taking them together can completely block the iron from reaching your bloodstream. Separate them by at least 2 to 3 hours."
+  - q: "Is it safe to take zinc and copper together?"
+    a: "Take them at different times of day. Zinc and copper compete for the same intestinal absorption pathway, and long-term high-dose zinc without adequate copper can cause a copper deficiency."
+  - q: "Should calcium and magnesium be taken at the same time?"
+    a: "It's better not to. High doses of calcium and magnesium compete for the same cellular receptors — take calcium in the morning with food and magnesium at night instead."
 ---
 
 Taking supplements is one of the most proactive steps you can take for your health. However, treating your daily supplement routine like a buffet—throwing back ten different pills in one handful with your morning coffee—is scientifically proven to be counterproductive, and in some cases, harmful.
