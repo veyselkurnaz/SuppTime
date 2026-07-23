@@ -34,6 +34,7 @@ Deze voedingsstoffen zijn afhankelijk van specifieke spijsverteringsomstandighed
 - **[Het Beste Tijdstip om Vitamine D in te Nemen](/nl/blog/de-beste-tijd-om-vitamine-d-in-te-nemen-een-wetenschappelijke-gids/)** — waarom D3 voedingsvet nodig heeft, en het verrassende verband met melatonine en slaap.
 - **[Vitamine B12 (Cobalamine): Optimale Tijd en Omstandigheden](/nl/blog/de-optimale-tijd-en-omstandigheden-voor-vitamine-b12-cobalamine-suppletie/)** — ochtenddosering op een lege maag, en waarom koffie en vitamine C kunnen interfereren.
 - **[Omega-3: Galkinetiek en de Paradox van de Magere Maaltijd](/nl/blog/omega-3-supplementen-gids-galkinetiek-en-het-magere-maaltijd-paradox/)** — waarom visolie op een lege maag grotendeels verspild wordt.
+- **[Vitamine K2: MK-4 versus MK-7 en de Warfarine-interactie](/nl/blog/vitamine-k2-gids-mk4-mk7-en-de-warfarine-interactie/)** — de ontbrekende partner voor vitamine D en calcium, en de ene interactie met bloedverdunners die alle andere regels overstemt.
 
 ## Cluster 3: Structurele Kenmerken & Keuze van de Vorm
 

@@ -34,6 +34,7 @@ Esses nutrientes dependem de condições digestivas específicas — gordura na 
 - **[O Melhor Horário para Tomar Vitamina D](/pt-br/blog/o-melhor-horário-para-tomar-vitamina-d-um-guia-científico/)** — por que a vitamina D3 precisa de gordura na dieta, e sua ligação surpreendente com a melatonina e o sono.
 - **[Vitamina B12 (Cobalamina): Horário e Condições Ideais](/pt-br/blog/o-momento-ideal-e-as-condições-para-a-suplementação-de-vitamina-b12-cobalamina/)** — dose matinal em jejum, e por que café e vitamina C podem interferir.
 - **[Ômega-3: Cinética Biliar e o Paradoxo da Refeição Magra](/pt-br/blog/guia-de-suplementos-de-omega-3-cinetica-biliar-e-o-paradoxo-da-refeicao-magra/)** — por que o óleo de peixe tomado de estômago vazio é, em sua maior parte, desperdiçado.
+- **[Vitamina K2: MK-4 vs. MK-7 e a Interação com a Varfarina](/pt-br/blog/guia-de-suplementos-de-vitamina-k2-mk-4-vs-mk-7-e-a-interacao-com-varfarina/)** — a parceira ausente da vitamina D e do cálcio, e a única interação anticoagulante que se sobrepõe a todas as outras regras.
 
 ## Grupo 3: Estrutura e Escolha da Forma
 

@@ -34,6 +34,7 @@ Những dưỡng chất này chỉ được hấp thụ khi có điều kiện t
 - **[Thời Điểm Tốt Nhất Để Bổ Sung Vitamin D](/vi/blog/thời-điểm-tốt-nhất-để-bổ-sung-vitamin-d-hướng-dẫn-khoa-học/)** — vì sao D3 cần chất béo trong khẩu phần ăn, và mối liên hệ bất ngờ với melatonin và giấc ngủ.
 - **[Vitamin B12 (Cobalamin): Thời Điểm Và Điều Kiện Tối Ưu](/vi/blog/thời-gian-và-điều-kiện-tối-ưu-để-bổ-sung-vitamin-b12-cobalamin/)** — uống buổi sáng khi bụng đói, và vì sao cà phê cùng vitamin C có thể cản trở hấp thụ.
 - **[Omega-3: Động Học Mật Và Nghịch Lý Bữa Ăn Ít Béo](/vi/blog/huong-dan-bo-sung-omega-3-dong-hoc-mat-va-nghich-ly-bua-an-it-beo/)** — vì sao uống dầu cá lúc bụng đói phần lớn là lãng phí.
+- **[Vitamin K2: MK-4 So Với MK-7 Và Tương Tác Với Warfarin](/vi/blog/huong-dan-bo-sung-vitamin-k2-mk4-mk7-va-tuong-tac-voi-warfarin/)** — mảnh ghép còn thiếu cho vitamin D và canxi, và tương tác thuốc chống đông duy nhất vượt trên mọi quy tắc khác.
 
 ## Nhóm 3: Lựa Chọn Dạng Bào Chế
 

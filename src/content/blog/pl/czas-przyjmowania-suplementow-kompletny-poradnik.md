@@ -34,6 +34,7 @@ Te składniki zależą od konkretnych warunków trawiennych — tłuszczu z poż
 - **[Najlepszy czas na przyjmowanie witaminy D](/pl/blog/najlepszy-czas-na-przyjmowanie-witaminy-d-poradnik-naukowy/)** — dlaczego D3 potrzebuje tłuszczu z diety i jej zaskakujący związek z melatoniną oraz snem.
 - **[Witamina B12 (kobalamina): optymalny czas i warunki](/pl/blog/optymalny-czas-i-warunki-suplementacji-witaminy-b12-kobalaminy/)** — poranne dawkowanie na pusty żołądek i dlaczego kawa oraz witamina C mogą przeszkadzać.
 - **[Omega-3: kinetyka żółciowa i paradoks lekkiego posiłku](/pl/blog/przewodnik-po-suplementach-omega-3-kinetyka-zolkowa-i-paradoks-chudego-posilku/)** — dlaczego olej rybi na pusty żołądek jest w większości zmarnowany.
+- **[Witamina K2: MK-4 kontra MK-7 i interakcja z warfaryną](/pl/blog/przewodnik-po-suplementacji-witamina-k2-mk4-mk7-i-interakcja-z-warfaryna/)** — brakujący partner witaminy D i wapnia oraz jedyna interakcja z lekami przeciwzakrzepowymi, która unieważnia wszystkie inne zasady.
 
 ## Klaster 3: Wybór formy i struktury
 

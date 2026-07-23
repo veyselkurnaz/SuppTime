@@ -34,6 +34,7 @@ Diese Nährstoffe sind auf bestimmte Verdauungsbedingungen angewiesen — Nahrun
 - **[Der beste Zeitpunkt für die Einnahme von Vitamin D](/de/blog/die-beste-zeit-zur-einnahme-von-vitamin-d-ein-wissenschaftlicher-leitfaden/)** — warum D3 Nahrungsfett benötigt, und der überraschende Zusammenhang mit Melatonin und Schlaf.
 - **[Vitamin B12 (Cobalamin): Optimaler Zeitpunkt und Bedingungen](/de/blog/der-optimale-zeitpunkt-und-die-besten-bedingungen-für-die-einnahme-von-vitamin-b12-cobalamin/)** — morgendliche Einnahme auf nüchternen Magen, und warum Kaffee und Vitamin C stören können.
 - **[Omega-3: Gallenkinetik und das Paradoxon der mageren Mahlzeit](/de/blog/omega-3-nahrungsergaenzungsmittel-ratgeber-gallenkinetik-und-das-paradoxon-der-mageren-mahlzeit/)** — warum Fischöl auf nüchternen Magen größtenteils verschwendet ist.
+- **[Vitamin K2: MK-4 vs. MK-7 und die Warfarin-Wechselwirkung](/de/blog/vitamin-k2-praeparate-leitfaden-mk4-vs-mk7-und-die-warfarin-wechselwirkung/)** — der fehlende Partner für Vitamin D und Calcium, und die eine Wechselwirkung mit Gerinnungshemmern, die jede andere Regel außer Kraft setzt.
 
 ## Cluster 3: Struktur & Formauswahl
 

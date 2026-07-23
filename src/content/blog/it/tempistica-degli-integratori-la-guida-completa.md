@@ -34,6 +34,7 @@ Questi nutrienti dipendono da condizioni digestive specifiche — grassi aliment
 - **[Il Momento Migliore per Assumere la Vitamina D](/it/blog/il-momento-migliore-per-assumere-la-vitamina-d-una-guida-scientifica/)** — perché la vitamina D3 ha bisogno di grassi alimentari, e il suo sorprendente legame con melatonina e sonno.
 - **[Vitamina B12 (Cobalamina): Momento e Condizioni Ottimali](/it/blog/il-momento-ottimale-e-le-condizioni-per-lintegrazione-di-vitamina-b12-cobalamina/)** — dosaggio mattutino a stomaco vuoto, e perché caffè e vitamina C possono interferire.
 - **[Omega-3: Cinetica Biliare e il Paradosso del Pasto Magro](/it/blog/guida-agli-integratori-di-omega-3-cinetica-biliare-e-il-paradosso-del-pasto-magro/)** — perché l'olio di pesce assunto a stomaco vuoto va perlopiù sprecato.
+- **[Vitamina K2: MK-4 vs. MK-7 e l'Interazione con il Warfarin](/it/blog/guida-agli-integratori-di-vitamina-k2-mk-4-vs-mk-7-e-linterazione-con-il-warfarin/)** — il partner mancante per vitamina D e calcio, e l'unica interazione con anticoagulanti che prevale su ogni altra regola.
 
 ## Cluster 3: Struttura e Scelta della Forma
 

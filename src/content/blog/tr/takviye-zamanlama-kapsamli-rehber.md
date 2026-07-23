@@ -34,6 +34,7 @@ Bu besin öğelerinin emilebilmesi için diyet yağı, mide asidi veya aç karı
 - **[D Vitamini Ne Zaman Alınmalı: Bilimsel Rehber](/tr/blog/d-vitamini-ne-zaman-alınmalı-bilimsel-rehber/)** — D3'ün neden diyet yağına ihtiyaç duyduğu ve melatonin ile uykuyla şaşırtıcı bağlantısı.
 - **[B12 Vitamini (Kobalamin): En Uygun Zaman ve Koşullar](/tr/blog/b12-vitamini-kobalamin-takviyesi-için-en-uygun-zaman-ve-koşullar/)** — sabah, aç karnına dozlama ve kahve ile C vitamininin neden emilimi engelleyebileceği.
 - **[Omega-3: Safra Kinetiği ve Yağsız Öğün Paradoksu](/tr/blog/omega-3-takviyesi-kilavuzu-safra-kinetigi-ve-yagsiz-ogun-paradoksu/)** — balık yağının aç karnına neden büyük ölçüde boşa gittiği.
+- **[Vitamin K2: MK-4 ve MK-7 Karşılaştırması ve Warfarin Etkileşimi](/tr/blog/vitamin-k2-takviyesi-kilavuzu-mk4-mk7-ve-warfarin-etkilesimi/)** — D vitamini ve kalsiyumun eksik ortağı ve diğer tüm kuralları geçersiz kılan tek antikoagülan etkileşimi.
 
 ## Küme 3: Yapısal Özellikler ve Form Seçimi
 

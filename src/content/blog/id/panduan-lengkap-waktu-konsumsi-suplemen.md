@@ -34,6 +34,7 @@ Nutrisi ini bergantung pada kondisi pencernaan tertentu — lemak makanan, asam 
 - **[Waktu Terbaik Minum Vitamin D](/id/blog/waktu-terbaik-minum-vitamin-d-panduan-ilmiah/)** — mengapa vitamin D3 membutuhkan lemak makanan, dan kaitannya yang mengejutkan dengan melatonin dan tidur.
 - **[Vitamin B12 (Kobalamin): Waktu dan Kondisi Optimal](/id/blog/waktu-dan-kondisi-optimal-untuk-suplementasi-vitamin-b12-kobalamin/)** — dosis pagi hari dengan perut kosong, dan mengapa kopi serta vitamin C dapat mengganggu penyerapannya.
 - **[Omega-3: Kinetika Empedu dan Paradoks Makanan Rendah Lemak](/id/blog/panduan-suplemen-omega-3-kinetika-empedu-dan-paradoks-makanan-rendah-lemak/)** — mengapa minyak ikan yang diminum saat perut kosong sebagian besar terbuang percuma.
+- **[Vitamin K2: MK-4 vs. MK-7 dan Interaksi dengan Warfarin](/id/blog/panduan-suplemen-vitamin-k2-mk4-mk7-dan-interaksi-warfarin/)** — pasangan yang hilang bagi vitamin D dan kalsium, serta satu interaksi antikoagulan yang mengalahkan semua aturan lainnya.
 
 ## Kelompok 3: Struktur & Pemilihan Bentuk
 

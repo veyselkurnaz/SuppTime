@@ -34,6 +34,7 @@ These nutrients depend on specific digestive conditions — dietary fat, stomach
 - **[The Best Time to Take Vitamin D](/en/blog/the-best-time-to-take-vitamin-d-a-scientific-guide/)** — why D3 needs dietary fat, and its surprising link to melatonin and sleep.
 - **[Vitamin B12 (Cobalamin): Optimal Time and Conditions](/en/blog/the-optimal-time-and-conditions-for-vitamin-b12-cobalamin-supplementation/)** — morning, empty-stomach dosing, and why coffee and vitamin C can interfere.
 - **[Omega-3: Bile Kinetics and the Lean-Meal Paradox](/en/blog/omega-3-supplement-guide-bile-kinetics-and-lipid-oxidation/)** — why fish oil on an empty stomach is mostly wasted.
+- **[Vitamin K2: MK-4 vs. MK-7 and the Warfarin Interaction](/en/blog/vitamin-k2-supplement-guide-mk4-mk7-and-the-warfarin-interaction/)** — the missing partner for vitamin D and calcium, and the one anticoagulant interaction that overrides every other rule.
 
 ## Cluster 3: Structural & Form Selection
 

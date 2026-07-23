@@ -34,6 +34,7 @@ Estos nutrientes dependen de condiciones digestivas específicas — grasa diet�
 - **[El mejor momento para tomar vitamina D](/es/blog/el-mejor-momento-para-tomar-vitamina-d-una-guía-científica/)** — por qué la D3 necesita grasa dietética, y su sorprendente relación con la melatonina y el sueño.
 - **[Vitamina B12 (cobalamina): momento y condiciones óptimas](/es/blog/el-momento-óptimo-y-las-condiciones-para-la-suplementación-de-vitamina-b12-cobalamina/)** — dosificación matutina con el estómago vacío, y por qué el café y la vitamina C pueden interferir.
 - **[Omega-3: cinética biliar y la paradoja de la comida ligera](/es/blog/guia-de-suplementos-de-omega-3-cinetica-biliar-y-la-paradoja-de-la-comida-magra/)** — por qué el aceite de pescado con el estómago vacío se desperdicia en gran parte.
+- **[Vitamina K2: MK-4 vs. MK-7 y la interacción con la warfarina](/es/blog/guia-de-suplementos-de-vitamina-k2-mk-4-vs-mk-7-y-la-interaccion-con-la-warfarina/)** — el socio ausente de la vitamina D y el calcio, y la única interacción con anticoagulantes que anula todas las demás reglas.
 
 ## Grupo 3: Selección estructural y de forma
 
