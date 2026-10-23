@@ -18,7 +18,7 @@ function dataFor(locale: string) {
   return key ? dataModules[key] : null;
 }
 const supplements = (dataFor(lang) || dataFor('en')).supplements;
-const suppById = new Map(supplements.map((s: any) => [s.id, s]));
+const suppById = new Map<string, any>(supplements.map((s: any) => [s.id, s]));
 
 // Top Curated Critical Interactions & Synergies for Static SEO Pre-rendering
 const FEATURED_PAIRS_CONFIG = [
@@ -33,19 +33,19 @@ const FEATURED_PAIRS_CONFIG = [
 ];
 
 const featuredPairs = FEATURED_PAIRS_CONFIG.map(cfg => {
-  const a = suppById.get(cfg.idA);
-  const b = suppById.get(cfg.idB);
+  const a: any = suppById.get(cfg.idA);
+  const b: any = suppById.get(cfg.idB);
   if (!a || !b) return null;
   
   let reason = '';
   let sources: string[] = [];
   if (cfg.type === 'warning') {
     reason = (a.interactionReasons || {})[b.id] || (b.interactionReasons || {})[a.id] || '';
-    const srcOwner = (a.interactionReasons || {})[b.id] ? a : b;
+    const srcOwner: any = (a.interactionReasons || {})[b.id] ? a : b;
     sources = srcOwner.sources || [];
   } else {
     reason = (a.synergyReasons || {})[b.id] || (b.synergyReasons || {})[a.id] || '';
-    const srcOwner = (a.synergyReasons || {})[b.id] ? a : b;
+    const srcOwner: any = (a.synergyReasons || {})[b.id] ? a : b;
     sources = srcOwner.sources || [];
   }
   return { a, b, type: cfg.type, reason, sources };
@@ -230,7 +230,7 @@ const faqTitle = lang === 'tr' ? 'Sıkça Sorulan Sorular' : 'Frequently Asked Q
   </main>
 </div>
 
-<script define:vars={{ supplements, sourcesLabel: t.checker.sourcesLabel, addedBadge: t.checker.addedBadge }}>
+<script is:inline define:vars={{ supplements, sourcesLabel: t.checker.sourcesLabel, addedBadge: t.checker.addedBadge }}>
   const byId = new Map(supplements.map(s => [s.id, s]));
   const stack = [];
 
