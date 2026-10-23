@@ -12,9 +12,10 @@ export interface Props {
   pubDate?: Date;
   author?: string;
   hasMath?: boolean;
+  noindex?: boolean;
 }
 
-const { title, description, lang, dir, image = '/assets/supptime_og_banner.webp', ogType = 'website', alternateUrls, pubDate, author, hasMath = false } = Astro.props;
+const { title, description, lang, dir, image = '/assets/supptime_og_banner.webp', ogType = 'website', alternateUrls, pubDate, author, hasMath = false, noindex = false } = Astro.props;
 
 // Compute hreflang tags for SEO
 const locales = Object.keys(I18N);
@@ -32,8 +33,9 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
     <title>{title}</title>
     <meta name="description" content={description} />
     
-    <!-- SEO: Canonical Tag -->
+    <!-- SEO: Canonical Tag & Robots -->
     <link rel="canonical" href={new URL(Astro.url.pathname, 'https://supptime.app').href} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     
     <meta name="apple-itunes-app" content="app-id=6762088156" />
     
@@ -85,7 +87,7 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
       </>
     ) : (
       <>
-        <link rel="alternate" href="https://supptime.app/" hreflang="x-default" />
+        <link rel="alternate" href="https://supptime.app/en/" hreflang="x-default" />
         {locales.map((l) => (
           <link rel="alternate" href={`https://supptime.app/${l}/`} hreflang={l === 'pt-br' ? 'pt-BR' : (l === 'zh-cn' ? 'zh-CN' : (l === 'zh-tw' ? 'zh-TW' : l))} />
         ))}
@@ -150,7 +152,7 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://supptime.app/#organization",
+      "id": "https://supptime.app/#organization",
       "name": "SuppTime",
       "alternateName": "SuppTime Vitamin Tracker",
       "description": "SuppTime builds a private, offline supplement and vitamin tracker for iPhone and Apple Watch.",
@@ -189,7 +191,7 @@ const t = I18N[lang as keyof typeof I18N] || I18N['en'];
                 <div class="foot-nav">
                     <div class="foot-links">
                       {t.footer?.links?.map((l: string, i: number) => (
-                        <a href={i === 0 ? `/${lang}/privacy` : (i === 1 ? `/${lang}/terms` : (i === 2 ? 'mailto:veyselkurnaz@icloud.com' : '#'))}>{l}</a>
+                        <a href={i === 0 ? `/${lang}/privacy/` : (i === 1 ? `/${lang}/terms/` : (i === 2 ? 'mailto:veyselkurnaz@icloud.com' : '#'))}>{l}</a>
                       ))}
                     </div>
                 </div>

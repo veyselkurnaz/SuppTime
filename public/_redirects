@@ -1,6 +1,79 @@
 /privacy  /en/privacy/  301
 /terms    /en/terms/    301
 
+# Trailing slash redirects for top-level pages across all locales
+/en/interaction-checker  /en/interaction-checker/  301
+/tr/interaction-checker  /tr/interaction-checker/  301
+/ko/interaction-checker  /ko/interaction-checker/  301
+/ja/interaction-checker  /ja/interaction-checker/  301
+/zh-cn/interaction-checker  /zh-cn/interaction-checker/  301
+/zh-tw/interaction-checker  /zh-tw/interaction-checker/  301
+/de/interaction-checker  /de/interaction-checker/  301
+/es/interaction-checker  /es/interaction-checker/  301
+/pt-br/interaction-checker  /pt-br/interaction-checker/  301
+/it/interaction-checker  /it/interaction-checker/  301
+/nl/interaction-checker  /nl/interaction-checker/  301
+/pl/interaction-checker  /pl/interaction-checker/  301
+/ru/interaction-checker  /ru/interaction-checker/  301
+/id/interaction-checker  /id/interaction-checker/  301
+/vi/interaction-checker  /vi/interaction-checker/  301
+/th/interaction-checker  /th/interaction-checker/  301
+/ar/interaction-checker  /ar/interaction-checker/  301
+
+/en/blog  /en/blog/  301
+/tr/blog  /tr/blog/  301
+/ko/blog  /ko/blog/  301
+/ja/blog  /ja/blog/  301
+/zh-cn/blog  /zh-cn/blog/  301
+/zh-tw/blog  /zh-tw/blog/  301
+/de/blog  /de/blog/  301
+/es/blog  /es/blog/  301
+/pt-br/blog  /pt-br/blog/  301
+/it/blog  /it/blog/  301
+/nl/blog  /nl/blog/  301
+/pl/blog  /pl/blog/  301
+/ru/blog  /ru/blog/  301
+/id/blog  /id/blog/  301
+/vi/blog  /vi/blog/  301
+/th/blog  /th/blog/  301
+/ar/blog  /ar/blog/  301
+
+/en/privacy  /en/privacy/  301
+/tr/privacy  /tr/privacy/  301
+/ko/privacy  /ko/privacy/  301
+/ja/privacy  /ja/privacy/  301
+/zh-cn/privacy  /zh-cn/privacy/  301
+/zh-tw/privacy  /zh-tw/privacy/  301
+/de/privacy  /de/privacy/  301
+/es/privacy  /es/privacy/  301
+/pt-br/privacy  /pt-br/privacy/  301
+/it/privacy  /it/privacy/  301
+/nl/privacy  /nl/privacy/  301
+/pl/privacy  /pl/privacy/  301
+/ru/privacy  /ru/privacy/  301
+/id/privacy  /id/privacy/  301
+/vi/privacy  /vi/privacy/  301
+/th/privacy  /th/privacy/  301
+/ar/privacy  /ar/privacy/  301
+
+/en/terms  /en/terms/  301
+/tr/terms  /tr/terms/  301
+/ko/terms  /ko/terms/  301
+/ja/terms  /ja/terms/  301
+/zh-cn/terms  /zh-cn/terms/  301
+/zh-tw/terms  /zh-tw/terms/  301
+/de/terms  /de/terms/  301
+/es/terms  /es/terms/  301
+/pt-br/terms  /pt-br/terms/  301
+/it/terms  /it/terms/  301
+/nl/terms  /nl/terms/  301
+/pl/terms  /pl/terms/  301
+/ru/terms  /ru/terms/  301
+/id/terms  /id/terms/  301
+/vi/terms  /vi/terms/  301
+/th/terms  /th/terms/  301
+/ar/terms  /ar/terms/  301
+
 # Old blog slugs (pre-rename) -> current slugs, one rule per old post per locale
 
 /en/blog/collagen-usage-guide   /en/blog/collagen-usage-guide-which-type-and-when-to-take-it/   301
@@ -131,8 +204,8 @@
 /th/blog/supplement-interactions/  /th/blog/ปฏกรยาของอาหารเสรม-สงทไมควรผสมและสงทควรจบค/   301
 /th/blog/best-time-for-vitamin-d   /th/blog/เวลาทดทสดในการทานวตามนด-คำแนะนำทางวทยาศาสตร/   301
 /th/blog/best-time-for-vitamin-d/  /th/blog/เวลาทดทสดในการทานวตามนด-คำแนะนำทางวทยาศาสตร/   301
-/th/blog/best-time-for-vitamin-b12   /th/blog/เวลาและเงอนไขทเหมาะสมทสดสำหรบการเสรมวตามนบ-12-โคบาลามน/   301
-/th/blog/best-time-for-vitamin-b12/  /th/blog/เวลาและเงอนไขทเหมาะสมทสดสำหรบการเสรมวตามนบ-12-โคบาลามน/   301
+/th/blog/best-time-for-vitamin-b12   /th/blog/เวลาและเงอนไขทเหมาะสมทสดสำหรับการเสรมวตามนบ-12-โคบาลามน/   301
+/th/blog/best-time-for-vitamin-b12/  /th/blog/เวลาและเงอนไขทเหมาะสมทสดสำหรับการเสรมวตามนบ-12-โคบาลามน/   301
 /tr/blog/best-time-for-vitamin-b12   /tr/blog/b12-vitamini-kobalamin-takviyesi-için-en-uygun-zaman-ve-koşullar/   301
 /tr/blog/best-time-for-vitamin-b12/  /tr/blog/b12-vitamini-kobalamin-takviyesi-için-en-uygun-zaman-ve-koşullar/   301
 /tr/blog/d-vitamini-ne-zaman-alinmali   /tr/blog/d-vitamini-ne-zaman-alınmalı-bilimsel-rehber/   301

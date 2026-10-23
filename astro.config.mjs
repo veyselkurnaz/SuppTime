@@ -21,26 +21,24 @@ function getBlogPubDate(lang, slug) {
 export default defineConfig({
   output: 'static',
   adapter: cloudflare(),
-  site: 'https://supptime.app', // Assuming this is the custom domain, or it can be updated
+  site: 'https://supptime.app',
   trailingSlash: 'always',
   integrations: [sitemap({
-    // The bare apex (/) is a redirect-only route (see src/pages/index.astro) and
-    // must not be submitted as an indexable URL.
-    filter: (url) => url !== 'https://supptime.app/',
+    // Exclude apex redirect and thin legal pages (privacy, terms) from sitemap
+    // to preserve crawl budget for blog content and interaction checker.
+    filter: (url) => url !== 'https://supptime.app/' && !url.includes('/privacy/') && !url.includes('/terms/'),
     serialize(item) {
-      // Root or Language Homepages (e.g., https://supptime.app/, https://supptime.app/tr/)
-      // Anasayfa değişmeyeceği için monthly ve priority 0.5'e çekildi.
-      if (item.url.match(/^https:\/\/supptime\.app\/[a-z-]+\/$/)) {
-        item.changefreq = 'monthly';
-        item.priority = 0.5;
+      // Interaction Checker Pages (e.g., https://supptime.app/en/interaction-checker/)
+      if (item.url.includes('/interaction-checker/')) {
+        item.changefreq = 'weekly';
+        item.priority = 1.0;
       }
       // Blog Homepages (e.g., https://supptime.app/en/blog/)
       else if (item.url.match(/^https:\/\/supptime\.app\/[a-z-]+\/blog\/$/)) {
         item.changefreq = 'daily';
-        item.priority = 1.0;
+        item.priority = 0.9;
       }
-      // Blog Posts (e.g., https://supptime.app/en/blog/vitamin-d)
-      // Makaleler her gün güncelleneceği için daily ve priority 0.9 yapıldı.
+      // Blog Posts (e.g., https://supptime.app/en/blog/vitamin-d/)
       else if (item.url.includes('/blog/')) {
         item.changefreq = 'daily';
         item.priority = 0.9;
@@ -52,14 +50,18 @@ export default defineConfig({
           if (lastmod) item.lastmod = lastmod;
         }
       }
-      // Others (privacy, terms, etc.)
+      // Root or Language Homepages (e.g., https://supptime.app/en/, https://supptime.app/tr/)
+      else if (item.url.match(/^https:\/\/supptime\.app\/[a-z-]+\/$/)) {
+        item.changefreq = 'weekly';
+        item.priority = 0.8;
+      }
+      // Others
       else {
-        item.changefreq = 'yearly';
-        item.priority = 0.3;
+        item.changefreq = 'monthly';
+        item.priority = 0.5;
       }
       return item;
     }
-
   })],
   prefetch: true,
   markdown: {

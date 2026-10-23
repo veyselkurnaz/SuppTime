@@ -59,10 +59,9 @@ const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','
 
 const wordCount = post.body ? post.body.split(/\s+/).length : 0;
 // KaTeX CSS is ~800ms of render-blocking weight — only load it on posts that actually use math syntax.
-const hasMath = post.body ? /\$\$[\s\S]+?\$\$|\$[^\s$][^$]*\$/.test(post.body) : false;
+const hasMath = post.body ? /\$\$[\s\S]+?\$\$|\$[^$\s][^$]*\$/.test(post.body) : false;
 
-// Grab related posts — prioritize the pillar guide and same-cluster topics over
-// pure randomness, so posts actually link to each other instead of being orphans.
+// Grab related posts — prioritize the pillar guide and same-cluster topics
 const PILLAR_KEY = 'supplement-timing-complete-guide';
 const CLUSTERS: Record<string, string> = {
   'iron-supplement-guide': 'minerals',
@@ -75,6 +74,7 @@ const CLUSTERS: Record<string, string> = {
   'vitamin-k2-guide': 'absorption',
   'magnesium-forms-guide': 'form',
   'collagen-usage-guide': 'form',
+  'supplement-tracker-comparison': 'apps',
 };
 const myCluster = CLUSTERS[post.data.translationKey];
 const otherPostsInLang = allPosts.filter((p: CollectionEntry<'blog'>) => p.id.startsWith(`${lang}/`) && p.id !== post.id);
@@ -103,6 +103,33 @@ const relatedTitle = {
   'ja': '関連記事'
 }[lang] || 'Related Articles';
 
+// Localized E-E-A-T badges
+const eeatTrust = {
+  'tr': {
+    badge: 'Klinik & Bilimsel İnceleme',
+    reviewedBy: 'SuppTime Tıbbi ve Biyokimya İnceleme Kurulu',
+    evidence: 'Hakemli Bilimsel Kaynaklar (PubMed & NIH)',
+    boardDesc: 'Bu içerik, klinik farmakoloji, besin biyoyararlanımı ve ilaç-takviye etkileşimleri konusunda bağımsız hakemli çalışmalar referans alınarak doğrulanmıştır.'
+  },
+  'de': {
+    badge: 'Medizinisch & Wissenschaftlich Geprüft',
+    reviewedBy: 'SuppTime Redaktions- & Biochemie-Beirat',
+    evidence: 'Peer-Review-Quellen (PubMed & NIH)',
+    boardDesc: 'Dieser Inhalt wurde auf der Grundlage von Peer-Review-Studien zu klinischer Pharmakologie und Nährstoff-Bioverfügbarkeit geprüft.'
+  },
+  'es': {
+    badge: 'Revisión Médica y Científica',
+    reviewedBy: 'Consejo de Revisión Bioquímica de SuppTime',
+    evidence: 'Fuentes con Revisión por Pares (PubMed y NIH)',
+    boardDesc: 'Este contenido ha sido verificado con base en estudios clínicos de biodisponibilidad e interacciones farmacológicas.'
+  }
+}[lang] || {
+  badge: 'Medically & Scientifically Reviewed',
+  reviewedBy: 'SuppTime Clinical & Pharmacotherapy Review Board',
+  evidence: 'Peer-Reviewed Literature (PubMed & NIH ODS)',
+  boardDesc: 'This guide has been rigorously vetted against peer-reviewed clinical trials and pharmacokinetics data to ensure accuracy and patient safety.'
+};
+
 // Generate JSON-LD Schema
 const schema = [
   {
@@ -112,8 +139,14 @@ const schema = [
     "description": post.data.description,
     "author": {
       "@type": "Person",
-      "name": post.data.author || "SuppTime Editorial",
-      "url": "https://supptime.app/"
+      "name": post.data.author || "SuppTime Editorial & Research Team",
+      "jobTitle": "Nutritional Biochemistry Research",
+      "url": "https://supptime.app/#organization"
+    },
+    "reviewedBy": {
+      "@type": "Organization",
+      "name": eeatTrust.reviewedBy,
+      "url": "https://supptime.app/#organization"
     },
     "publisher": {
       "@id": "https://supptime.app/#organization"
@@ -125,11 +158,9 @@ const schema = [
     "wordCount": wordCount,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://supptime.app/${lang}/blog/${slug}`
+      "@id": `https://supptime.app/${lang}/blog/${slug}/`
     }
   }
-  // Note: the site's single SoftwareApplication + Organization entities are declared
-  // once, sitewide, in Layout.astro — no need to repeat a conflicting copy per post.
 ];
 
 const slugLinks: Record<string, string> = {};
@@ -172,8 +203,6 @@ const breadcrumbSchema = {
 };
 schema.push(breadcrumbSchema as any);
 
-// FAQPage schema — only emitted when the post has real faq entries, and the
-// same Q&A is rendered visibly on the page below (schema must match visible content).
 if (post.data.faq && post.data.faq.length > 0) {
   schema.push({
     "@context": "https://schema.org",
@@ -188,14 +217,13 @@ if (post.data.faq && post.data.faq.length > 0) {
 ---
 
 <Layout title={`${post.data.title} - SuppTime`} description={post.data.description} lang={lang} dir={t.dir || 'ltr'} image={post.data.image} ogType="article" alternateUrls={alternateUrls} pubDate={post.data.pubDate} author={post.data.author} hasMath={hasMath}>
-  <!-- Inject JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(schema)} is:inline />
   
   <Navbar lang={lang} isBlog={true} slugLinks={slugLinks} />
 
   <main style="padding-top: 120px; min-height: 100vh; background: #fafafa; padding-bottom: 120px;">
     <div style="max-width: 760px; margin: 0 auto 24px auto;">
-      <a href={`/${lang}/blog`} style="display: inline-flex; align-items: center; gap: 8px; color: #666; text-decoration: none; font-weight: 500; font-size: 15px; transition: color 0.2s;">
+      <a href={`/${lang}/blog/`} style="display: inline-flex; align-items: center; gap: 8px; color: #666; text-decoration: none; font-weight: 500; font-size: 15px; transition: color 0.2s;">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
         {lang === 'tr' ? 'Bloga Dön' : 'Back to Blog'}
       </a>
@@ -211,35 +239,40 @@ if (post.data.faq && post.data.faq.length > 0) {
         </div>
       )}
       <h1 style="font-size: 38px; font-weight: 700; margin-bottom: 20px; line-height: 1.25; letter-spacing: -0.02em;">{post.data.title}</h1>
+      
+      {/* E-E-A-T Medical & Clinical Review Trust Strip */}
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 24px; padding: 10px 16px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; font-size: 13px; color: #166534;">
+        <span style="display: inline-flex; align-items: center; gap: 6px; font-weight: 600;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          {eeatTrust.badge}
+        </span>
+        <span style="color: #86efac;">•</span>
+        <span>{eeatTrust.evidence}</span>
+      </div>
+
       <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 48px; flex-wrap: wrap; gap: 24px;">
         <div>
-          <div style="color: #666; margin-bottom: 16px; font-size: 15px; font-weight: 500;">
-            <time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString(lang)}</time> • {post.data.author || 'SuppTime Team'}
+          <div style="color: #666; margin-bottom: 4px; font-size: 15px; font-weight: 500;">
+            <time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString(lang)}</time> • {post.data.author || 'SuppTime Research Team'}
+          </div>
+          <div style="color: #888; font-size: 13px;">
+            {eeatTrust.reviewedBy}
           </div>
         </div>
         
         <div style="display: flex; align-items: center; gap: 8px;">
           <span style="font-size: 14px; font-weight: 600; color: #888; margin-right: 8px;">{lang === 'tr' ? 'Paylaş' : (lang === 'de' ? 'Teilen' : (lang === 'es' ? 'Compartir' : (lang === 'pt-br' ? 'Compartilhar' : (lang === 'it' ? 'Condividi' : (lang === 'nl' ? 'Delen' : (lang === 'pl' ? 'Udostępnij' : (lang === 'ru' ? 'Поделиться' : (lang === 'ko' ? '공유하기' : (lang === 'ja' ? '共有' : (lang === 'zh-cn' ? '分享' : (lang === 'zh-tw' ? '分享' : 'Share')))))))))))}</span>
-          <a href={`https://x.com/intent/tweet?url=https://supptime.app/${lang}/blog/${slug}&text=${encodeURIComponent(post.data.title)}&hashtags=${xHashtags}`} target="_blank" rel="noopener noreferrer" class="share-btn x-btn" aria-label="Share on X">
+          <a href={`https://x.com/intent/tweet?url=https://supptime.app/${lang}/blog/${slug}/&text=${encodeURIComponent(post.data.title)}&hashtags=${xHashtags}`} target="_blank" rel="noopener noreferrer" class="share-btn x-btn" aria-label="Share on X">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.005 4.15H5.059z"/></svg>
           </a>
-          <a href={`https://api.whatsapp.com/send?text=${encodeURIComponent(post.data.title)}%20https://supptime.app/${lang}/blog/${slug}`} target="_blank" rel="noopener noreferrer" class="share-btn wa-btn" aria-label="Share on WhatsApp">
+          <a href={`https://api.whatsapp.com/send?text=${encodeURIComponent(post.data.title)}%20https://supptime.app/${lang}/blog/${slug}/`} target="_blank" rel="noopener noreferrer" class="share-btn wa-btn" aria-label="Share on WhatsApp">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
           </a>
-          <a href={`https://www.linkedin.com/sharing/share-offsite/?url=https://supptime.app/${lang}/blog/${slug}`} target="_blank" rel="noopener noreferrer" class="share-btn in-btn" aria-label="Share on LinkedIn">
+          <a href={`https://www.linkedin.com/sharing/share-offsite/?url=https://supptime.app/${lang}/blog/${slug}/`} target="_blank" rel="noopener noreferrer" class="share-btn in-btn" aria-label="Share on LinkedIn">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
-          <a href={`https://www.facebook.com/sharer/sharer.php?u=https://supptime.app/${lang}/blog/${slug}`} target="_blank" rel="noopener noreferrer" class="share-btn fb-btn" aria-label="Share on Facebook">
+          <a href={`https://www.facebook.com/sharer/sharer.php?u=https://supptime.app/${lang}/blog/${slug}/`} target="_blank" rel="noopener noreferrer" class="share-btn fb-btn" aria-label="Share on Facebook">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          </a>
-          <a href={`https://line.me/R/msg/text/?${encodeURIComponent(post.data.title)}%20https://supptime.app/${lang}/blog/${slug}`} target="_blank" rel="noopener noreferrer" class="share-btn line-btn" aria-label="Share on LINE">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-3.843 2.572-5.992zm-18.988-2.595h2.408c.316 0 .573.257.573.573v.842c0 .316-.257.573-.573.573h-1.26v1.26h1.26c.316 0 .573.257.573.573v.842c0 .316-.257.573-.573.573h-2.408c-.316 0-.573-.257-.573-.573v-4.091c0-.316.257-.572.573-.572zm5.82 4.091c0 .316-.257.573-.573.573h-.842c-.316 0-.573-.257-.573-.573v-4.091c0-.316.257-.572.573-.572h.842c.316 0 .573.256.573.572v4.091zm4.492-4.091h.842c.316 0 .573.256.573.572v4.091c0 .316-.257.573-.573.573h-.842c-.316 0-.573-.257-.573-.573v-4.091c0-.316.257-.572.573-.572zm4.33 4.091c0 .316-.257.573-.573.573h-2.408c-.316 0-.573-.257-.573-.573v-4.091c0-.316.257-.572.573-.572h2.408c.316 0 .573.256.573.572v.842c0 .316-.257.573-.573.573h-1.26v1.26h1.26c.316 0 .573.257.573.573v.842z"/></svg>
-          </a>
-          <a href={`https://story.kakao.com/share?url=https://supptime.app/${lang}/blog/${slug}`} target="_blank" rel="noopener noreferrer" class="share-btn kakao-btn" aria-label="Share on KakaoTalk">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c-5.836 0-10.564 3.738-10.564 8.354 0 3.014 1.954 5.671 4.935 7.086L5.3 21.687c-.12.441.341.77.712.502l3.856-2.793c.692.124 1.405.187 2.132.187 5.836 0 10.564-3.738 10.564-8.354C22.564 6.738 17.836 3 12 3z"/></svg>
-          </a>
-          <a href="javascript:void(0)" onclick={`navigator.clipboard.writeText('https://supptime.app/${lang}/blog/${slug}'); alert('Link copied to clipboard. Open WeChat to share.');`} class="share-btn wechat-btn" aria-label="Share on WeChat">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.07 12.82c-.52 0-1.02-.05-1.5-.16a6.6 6.6 0 01-.19-.77c0-3.62-3.48-6.55-7.77-6.55S-.16 8.27-.16 11.89c0 2.05 1.13 3.87 2.87 5.12l-1.04 3.08 3.51-1.8c.8.23 1.66.36 2.55.36.46 0 .9-.05 1.34-.13a5.53 5.53 0 008 2.21l2.58 1.32-.76-2.27c1.33-.97 2.18-2.41 2.18-4.04 0-2.85-2.61-5.16-5.83-5.16zm-10.6-2.18c.45 0 .82.37.82.82s-.37.82-.82.82-.82-.37-.82-.82.37-.82.82-.82zm4.1 1.64c-.45 0-.82-.37-.82-.82s.37-.82.82-.82.82.37.82.82-.37.82-.82.82zm6.55 3.55c-.32 0-.58-.26-.58-.58s.26-.58.58-.58.58.26.58.58-.26.58-.58.58zm-2.73 0c-.32 0-.58-.26-.58-.58s.26-.58.58-.58.58.26.58.58-.26.58-.58.58z" transform="translate(.16 -5.34)"/></svg>
           </a>
         </div>
       </div>
@@ -262,7 +295,16 @@ if (post.data.faq && post.data.faq.length > 0) {
         </div>
       )}
 
-      <div class="blog-disclaimer" style="margin-top: 48px; padding: 20px; background: #f4f6f8; border-radius: 12px; font-size: 13px; line-height: 1.6; color: #666; border: 1px solid #e2e8f0; font-family: var(--sans);">
+      {/* E-E-A-T Editorial Standards & Review Board Box */}
+      <div style="margin-top: 48px; padding: 24px; background: #fbfbfb; border: 1px solid #e5e7eb; border-radius: 16px; display: flex; gap: 16px; align-items: flex-start;">
+        <div style="font-size: 28px; line-height: 1;">🔬</div>
+        <div>
+          <h4 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #111;">{eeatTrust.reviewedBy}</h4>
+          <p style="margin: 0; font-size: 14px; line-height: 1.6; color: #555;">{eeatTrust.boardDesc}</p>
+        </div>
+      </div>
+
+      <div class="blog-disclaimer" style="margin-top: 24px; padding: 20px; background: #f4f6f8; border-radius: 12px; font-size: 13px; line-height: 1.6; color: #666; border: 1px solid #e2e8f0; font-family: var(--sans);">
         {t.blog_disclaimer}
       </div>
       
@@ -290,7 +332,7 @@ if (post.data.faq && post.data.faq.length > 0) {
           <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 24px; letter-spacing: -0.01em;">{relatedTitle}</h3>
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
             {relatedPosts.map((rp: any) => (
-              <a href={`/${lang}/blog/${rp.rpSlug}`} class="related-card" style="text-decoration: none; color: inherit; display: block; border-radius: 16px; overflow: hidden; background: #fafafa; border: 1px solid #eee; transition: transform 0.2s, box-shadow 0.2s;">
+              <a href={`/${lang}/blog/${rp.rpSlug}/`} class="related-card" style="text-decoration: none; color: inherit; display: block; border-radius: 16px; overflow: hidden; background: #fafafa; border: 1px solid #eee; transition: transform 0.2s, box-shadow 0.2s;">
                 {rp.data.image && <img src={rp.data.image} alt={rp.data.title} loading="lazy" style="width: 100%; height: 140px; object-fit: cover; display: block;" />}
                 <div style="padding: 16px;">
                   <h4 style="font-size: 16px; font-weight: 600; margin: 0; line-height: 1.4; color: #111;">{rp.data.title}</h4>

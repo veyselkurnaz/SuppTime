@@ -18,22 +18,98 @@ function dataFor(locale: string) {
   return key ? dataModules[key] : null;
 }
 const supplements = (dataFor(lang) || dataFor('en')).supplements;
+const suppById = new Map(supplements.map((s: any) => [s.id, s]));
+
+// Top Curated Critical Interactions & Synergies for Static SEO Pre-rendering
+const FEATURED_PAIRS_CONFIG = [
+  { idA: 'iron', idB: 'calcium', type: 'warning' },
+  { idA: 'zinc', idB: 'copper', type: 'warning' },
+  { idA: 'iron', idB: 'zinc', type: 'warning' },
+  { idA: 'calcium', idB: 'magnesium_glycinate', type: 'warning' },
+  { idA: 'vitamin_d3', idB: 'vitamin_k2', type: 'synergy' },
+  { idA: 'iron', idB: 'vitamin_c', type: 'synergy' },
+  { idA: 'magnesium_glycinate', idB: 'vitamin_d3', type: 'synergy' },
+  { idA: 'vitamin_b12', idB: 'folate', type: 'synergy' }
+];
+
+const featuredPairs = FEATURED_PAIRS_CONFIG.map(cfg => {
+  const a = suppById.get(cfg.idA);
+  const b = suppById.get(cfg.idB);
+  if (!a || !b) return null;
+  
+  let reason = '';
+  let sources: string[] = [];
+  if (cfg.type === 'warning') {
+    reason = (a.interactionReasons || {})[b.id] || (b.interactionReasons || {})[a.id] || '';
+    const srcOwner = (a.interactionReasons || {})[b.id] ? a : b;
+    sources = srcOwner.sources || [];
+  } else {
+    reason = (a.synergyReasons || {})[b.id] || (b.synergyReasons || {})[a.id] || '';
+    const srcOwner = (a.synergyReasons || {})[b.id] ? a : b;
+    sources = srcOwner.sources || [];
+  }
+  return { a, b, type: cfg.type, reason, sources };
+}).filter(Boolean);
 
 const LANG_ORDER = ['en','tr','ko','ja','zh-cn','zh-tw','de','es','pt-br','it','nl','pl','ru','id','vi','th','ar'];
 const alternateUrls: Record<string, string> = {};
 LANG_ORDER.forEach(code => { alternateUrls[code] = `/${code}/interaction-checker/`; });
 
+// Comprehensive FAQ localized
+const checkerFaq = [
+  {
+    q: lang === 'tr' ? 'Demir ve Kalsiyum takviyeleri birlikte alınabilir mi?' : 'Can you take Iron and Calcium supplements together?',
+    a: lang === 'tr' ? 'Hayır, demir ve kalsiyum bağırsakta aynı emilim yollarını kullanır ve yarışırlar. Kalsiyum, demir emilimini %60\'a kadar azaltabilir. İki takviye arasında en az 2 saat ara bırakılması önerilir.' : 'No, calcium competes directly with non-heme iron for intestinal absorption pathways and can reduce iron bioavailability by up to 60%. It is recommended to space them at least 2 hours apart.'
+  },
+  {
+    q: lang === 'tr' ? 'D3 Vitamini ve K2 Vitamini neden birlikte alınmalıdır?' : 'Why should Vitamin D3 and Vitamin K2 be taken together?',
+    a: lang === 'tr' ? 'D3 vitamini bağırsaktan kalsiyum emilimini artırırken, K2 vitamini (MK-7) osteokalsin proteinini aktive ederek kalsiyumun damarlar yerine kemik ve dişlere yönlendirilmesini sağlar. İkisi mükemmel bir sinerjik ikilidir.' : 'Vitamin D3 increases calcium absorption from the intestine, while Vitamin K2 (MK-7) activates osteocalcin to direct that calcium into bone tissue rather than soft tissues and arterial walls.'
+  },
+  {
+    q: lang === 'tr' ? 'Yüksek doz Çinko neden Bakır eksikliğine yol açar?' : 'Why does high-dose Zinc supplementation cause Copper deficiency?',
+    a: lang === 'tr' ? 'Kronik veya yüksek doz çinko alımı, bağırsakta metalotiyonein proteinini uyarır. Bu protein bakıra güçlü şekilde bağlanarak emilimini engeller. Uzun süreli çinko kullanımında 10:1 veya 15:1 çinko-bakır oranına dikkat edilmelidir.' : 'High-dose zinc induces metallothionein in the gut mucosa, an intracellular protein that irreversibly traps dietary copper and prevents its absorption into circulation.'
+  },
+  {
+    q: lang === 'tr' ? 'Magnezyum ve Kalsiyum aynı anda alınır mı?' : 'Can you take Magnesium and Calcium at the same time?',
+    a: lang === 'tr' ? 'Yüksek dozlarda kalsiyum ve magnezyum aynı taşıyıcı kanalları kullandıkları için birbirlerinin emilimini baskılar. Terapötik dozlarda aralarında 2 saat bırakılması veya magnezyumun akşam, kalsiyumun gündüz alınması önerilir.' : 'At high supplementary doses, calcium and magnesium compete for shared intestinal transport mechanisms. Spacing them by at least 2 hours optimizes the bioavailability of both minerals.'
+  },
+  {
+    q: lang === 'tr' ? 'SuppTime Etkileşim Kontrolü nasıl çalışır?' : 'How does the SuppTime Interaction Checker work?',
+    a: lang === 'tr' ? 'SuppTime etkileşim motoru; PubMed, NIH Office of Dietary Supplements ve hakemli klinik çalışmalar referans alınarak derlenmiş biyokimya veritabanını kullanır. Seçtiğiniz takviyeler arasındaki emilim yarışlarını, antagonist etkileri ve pozitif sinerjileri analiz eder.' : 'The SuppTime interaction engine cross-references your stack against a verified database built on peer-reviewed biomedical literature, NIH ODS monographs, and clinical trial outcomes.'
+  }
+];
+
 const schema = {
   "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": t.checker.title,
-  "url": `https://supptime.app/${lang}/interaction-checker/`,
-  "applicationCategory": "HealthApplication",
-  "operatingSystem": "Any (runs in browser)",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "description": t.checker.metaDescription,
-  "isAccessibleForFree": true
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": t.checker.title,
+      "url": `https://supptime.app/${lang}/interaction-checker/`,
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Any (runs in browser)",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": t.checker.metaDescription,
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": checkerFaq.map(item => ({
+        "@type": "Question",
+        "name": item.q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": item.a
+        }
+      }))
+    }
+  ]
 };
+
+const staticSectionTitle = lang === 'tr' ? 'En Çok Araştırılan Takviye Etkileşimleri ve Sinerjiler' : 'Common Clinical Interactions & Synergies';
+const staticSectionSubtitle = lang === 'tr' ? 'Klinik çalışmalar ve farmakokinetik verilere dayalı en kritik takviye kombinasyonları.' : 'Evidence-based pairings vetted against PubMed and NIH Office of Dietary Supplements databases.';
+const testBtnLabel = lang === 'tr' ? 'Araçta Dene' : 'Test in Checker';
+const faqTitle = lang === 'tr' ? 'Sıkça Sorulan Sorular' : 'Frequently Asked Questions';
 ---
 
 <Layout title={t.checker.metaTitle} description={t.checker.metaDescription} lang={lang} dir={t.dir || 'ltr'} alternateUrls={alternateUrls}>
@@ -79,6 +155,37 @@ const schema = {
       </div>
     </section>
 
+    {/* Featured Static Interactions (Crawlable by Search Engines) */}
+    <section class="featured-pairs-section">
+      <div class="featured-head">
+        <h2 class="featured-title">{staticSectionTitle}</h2>
+        <p class="featured-subtitle">{staticSectionSubtitle}</p>
+      </div>
+      <div class="featured-grid">
+        {featuredPairs.map((p: any) => (
+          <div class={`featured-card glass ${p.type === 'warning' ? 'is-warning' : 'is-synergy'}`}>
+            <div class="featured-card-top">
+              <span class={`type-badge ${p.type === 'warning' ? 'badge-warning' : 'badge-synergy'}`}>
+                {p.type === 'warning' ? (lang === 'tr' ? '⚠️ Dikkat: Emilim Yarışı' : '⚠️ Warning: Competition') : (lang === 'tr' ? '✨ Pozitif Sinerji' : '✨ Synergistic Pair')}
+              </span>
+              <button type="button" class="test-pair-btn" data-a={p.a.id} data-b={p.b.id}>
+                {testBtnLabel} ↑
+              </button>
+            </div>
+            <div class="featured-pair-names">
+              <span class="pair-item">{p.a.emoji || '💊'} {p.a.name}</span>
+              <span class="pair-operator">+</span>
+              <span class="pair-item">{p.b.emoji || '💊'} {p.b.name}</span>
+            </div>
+            <p class="featured-reason">{p.reason}</p>
+            {p.sources?.length > 0 && (
+              <p class="featured-sources"><strong>{t.checker.sourcesLabel}:</strong> {p.sources.join(', ')}</p>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
     <p class="checker-disclaimer">{t.checker.disclaimer}</p>
 
     <section class="checker-database">
@@ -95,6 +202,19 @@ const schema = {
             {s.timing?.preferredTime && (
               <p class="db-card-timing">{s.timing.preferredTime}{s.timing.takeWithFood ? ' · with food' : ''}</p>
             )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    {/* Frequently Asked Questions (Static HTML + FAQPage Schema) */}
+    <section class="checker-faq-section glass">
+      <h2 class="faq-head-title">{faqTitle}</h2>
+      <div class="faq-list">
+        {checkerFaq.map(item => (
+          <div class="faq-item">
+            <h3 class="faq-q">{item.q}</h3>
+            <p class="faq-a">{item.a}</p>
           </div>
         ))}
       </div>
@@ -145,7 +265,8 @@ const schema = {
   function addToStack(id) {
     if (stack.includes(id)) return;
     stack.push(id);
-    document.getElementById('supp-search').value = '';
+    const searchInput = document.getElementById('supp-search');
+    if (searchInput) searchInput.value = '';
     renderSearch('');
     renderStack();
     renderResults();
@@ -178,19 +299,6 @@ const schema = {
     chipsEl.querySelectorAll('.stack-chip-remove').forEach(btn => {
       btn.addEventListener('click', () => removeFromStack(btn.dataset.id));
     });
-  }
-
-  function findRelation(idA, idB, field, reasonField) {
-    const a = byId.get(idA);
-    const b = byId.get(idB);
-    if (!a || !b) return null;
-    if ((a[field] || []).includes(idB)) {
-      return { reason: (a.interactionReasons || a.synergyReasons || {})[idB] || (a[reasonField] || {})[idB], sourcesFrom: a };
-    }
-    if ((b[field] || []).includes(idA)) {
-      return { reason: (b[reasonField] || {})[idA], sourcesFrom: b };
-    }
-    return null;
   }
 
   function renderResults() {
@@ -264,13 +372,28 @@ const schema = {
     renderResults();
   });
 
+  // Connect static cards' "Test in Checker" buttons to interactive stack
+  document.querySelectorAll('.test-pair-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const a = btn.dataset.a;
+      const b = btn.dataset.b;
+      if (a && b) {
+        if (!stack.includes(a)) stack.push(a);
+        if (!stack.includes(b)) stack.push(b);
+        renderStack();
+        renderResults();
+        const toolEl = document.querySelector('.checker-tool');
+        if (toolEl) {
+          toolEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    });
+  });
+
   renderStack();
 </script>
 
 <style is:global>
-  /* This page injects search results, stack chips, and result cards via client-side
-     innerHTML, so these rules must be global — Astro's scoped-CSS attribute is only
-     stamped onto elements present in the template at build time. */
   .checker-main { max-width: var(--maxw); margin: 0 auto; padding: clamp(120px, 12vw, 160px) var(--pad-x) 80px; }
   .checker-hero { max-width: 720px; margin: 0 auto 48px; text-align: center; }
   .checker-hero .eyebrow { margin: 0 auto 20px; }
@@ -279,10 +402,6 @@ const schema = {
 
   .checker-tool { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
 
-  /* z-index lifts the whole box (and its absolutely-positioned dropdown) above the
-     .stack-panel sibling below — both use `.glass` (backdrop-filter), which creates its
-     own stacking context, so without this the dropdown's z-index gets trapped and the
-     later sibling paints over it regardless of the dropdown's own z-index. */
   .search-wrap { position: relative; z-index: 5; display: flex; align-items: center; gap: 10px; padding: 14px 18px; }
   .search-icon { color: var(--ink-muted); flex-shrink: 0; }
   .search-wrap input {
@@ -306,7 +425,7 @@ const schema = {
   .stack-panel { padding: 24px; }
   .stack-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
   .stack-head h2 { font-size: 17px; font-weight: 600; margin: 0; }
-  .clear-btn { background: none; border: none; font-size: 13px; color: var(--ink-muted); font-weight: 500; }
+  .clear-btn { background: none; border: none; font-size: 13px; color: var(--ink-muted); font-weight: 500; cursor: pointer; }
   .clear-btn:hover { color: var(--ink); }
   .stack-chips { display: flex; flex-wrap: wrap; gap: 8px; }
   .stack-chip {
@@ -317,7 +436,7 @@ const schema = {
   .stack-chip-remove {
     display: inline-flex; align-items: center; justify-content: center;
     width: 20px; height: 20px; border-radius: 50%; background: rgba(15,23,42,0.08);
-    border: none; font-size: 15px; line-height: 1; color: var(--ink-soft);
+    border: none; font-size: 15px; line-height: 1; color: var(--ink-soft); cursor: pointer;
   }
   .stack-chip-remove:hover { background: rgba(15,23,42,0.16); }
   .stack-empty { margin: 4px 0 0; font-size: 14px; color: var(--ink-muted); }
@@ -337,6 +456,35 @@ const schema = {
 
   .warnings-block { border: 1px solid oklch(0.75 0.12 40 / 0.35); background: oklch(0.98 0.02 60 / 0.7); }
   .synergies-block { border: 1px solid var(--emerald-soft); background: var(--emerald-tint); }
+
+  /* Featured Static Section for Crawlers & UX */
+  .featured-pairs-section { max-width: 860px; margin: 56px auto 0; }
+  .featured-head { text-align: center; margin-bottom: 28px; }
+  .featured-title { font-size: 22px; font-weight: 700; margin: 0 0 8px; }
+  .featured-subtitle { font-size: 14px; color: var(--ink-muted); margin: 0; }
+  .featured-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 16px; }
+  .featured-card { padding: 20px; border-radius: 16px; display: flex; flex-direction: column; }
+  .featured-card.is-warning { border-left: 4px solid #f59e0b; background: rgba(254, 243, 199, 0.35); }
+  .featured-card.is-synergy { border-left: 4px solid #10b981; background: rgba(209, 250, 229, 0.35); }
+  .featured-card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  .type-badge { font-size: 11.5px; font-weight: 600; padding: 4px 8px; border-radius: 6px; }
+  .badge-warning { background: #fef3c7; color: #92400e; }
+  .badge-synergy { background: #d1fae5; color: #065f46; }
+  .test-pair-btn { background: #fff; border: 1px solid #ddd; border-radius: 99px; font-size: 12px; font-weight: 600; color: #333; padding: 4px 10px; cursor: pointer; transition: all 0.2s; }
+  .test-pair-btn:hover { background: #000; color: #fff; border-color: #000; }
+  .featured-pair-names { font-size: 16px; font-weight: 600; margin-bottom: 8px; color: #111; }
+  .pair-operator { color: #888; font-weight: 400; margin: 0 4px; }
+  .featured-reason { font-size: 13.5px; line-height: 1.55; color: #444; margin: 0 0 8px; flex-grow: 1; }
+  .featured-sources { font-size: 11.5px; color: #777; margin: 0; font-family: var(--mono); }
+
+  /* FAQ Section */
+  .checker-faq-section { max-width: 860px; margin: 48px auto 0; padding: 36px; border-radius: 20px; }
+  .faq-head-title { font-size: 22px; font-weight: 700; margin: 0 0 24px; text-align: center; }
+  .faq-list { display: flex; flex-direction: column; gap: 20px; }
+  .faq-item { border-bottom: 1px solid var(--line); padding-bottom: 16px; }
+  .faq-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-q { font-size: 16px; font-weight: 600; color: #111; margin: 0 0 6px; }
+  .faq-a { font-size: 14.5px; line-height: 1.6; color: #4b5563; margin: 0; }
 
   .checker-disclaimer {
     max-width: 640px; margin: 32px auto 0; text-align: center;
